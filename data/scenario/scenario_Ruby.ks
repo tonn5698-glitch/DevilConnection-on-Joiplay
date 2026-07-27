@@ -1,0 +1,2175 @@
+[_tb_system_call storage=system/_scenario_Ruby.ks]
+
+[tb_eval  exp="sf.ruby_end=0"  name="ruby_end"  cmd="+="  op="t"  val="1"  val_2="undefined"  cond="sf.ruby_end==undefined"  ]
+[achieve_sticker no="38"]
+
+[cm  ]
+[tb_image_hide  time="1000"  ]
+[tb_ptext_hide  time="0"  ]
+[bg  time="0"  method="crossfade"  storage="haikei_Small.webp"  ]
+[call  storage="mp.ks"  target="*show"  ]
+[call  storage="phase.ks"  target="*show_top"  ]
+[chara_show  name="プレイヤー"  zindex="2"  layer="1"  time="0"  wait="false"  storage="chara/2/te.png"  width="1280"  height="960"  ]
+[chara_show  name="ルビー"  time="0"  wait="false"  storage="chara/44/1.png"  width="672"  height="738"  left="344"  top="-52"  reflect="false"  ]
+[chara_show  name="ザコウモリA"  time="0"  wait="false"  storage="chara/45/1.png"  width="355"  height="382"  left="193"  top="102"  reflect="false"  ]
+[tb_start_tyrano_code]
+[keyframe name="A"]
+[frame p="0%" y="0"]
+[frame p="50%" y="-30"]
+[frame p="100%" y="0"]
+[endkeyframe]
+[kanim name="ザコウモリA" keyframe="A" count="infinite" time="600" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[chara_show  name="ザコウモリB"  time="0"  wait="false"  storage="chara/46/1.png"  width="348"  height="374"  left="794"  top="271"  reflect="false"  ]
+[tb_start_tyrano_code]
+[keyframe name="B"]
+[frame p="0%" y="0"]
+[frame p="50%" y="20"]
+[frame p="100%" y="0"]
+[endkeyframe]
+[kanim name="ザコウモリB" keyframe="B" count="infinite" time="1000" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[lbgm str="3_connection_communication.ogg" vol="50" loop="true" time="0" buf="0"]
+
+[layermode_movie  mode="screen"  speed="1"  volume="100"  loop="false"  time="0"  wait="false"  video="kiri2.mp4"  ]
+[call  storage="maku.ks"  target="*open"  ]
+[bg_layermode  name="mahou"  folder="bgimage"  storage="haikei_mahou_Small.webp"  mode="color-dodge"]
+
+[wait  time="700"  ]
+[free_bg_layermode  name="mahou"  time="5000"  ]
+
+*x
+
+[tb_start_text mode=1 ]
+#ルビー
+[_tb_end_text]
+
+[fadein_window  time="300"  ]
+[chara_mod  name="ルビー"  time="0"  cross="false"  storage="chara/44/1.png"  ]
+[tb_start_text mode=1 ]
+#ルビー
+Đồ nào hả… Ma lực đã cạn kiệt rồi mà còn dùng[l]triệu hồi ma thuật tiêu tốn lượng lớn ma lực hả?
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#ザコウモリA
+[font size=25]Đagyaa! Ruby-sama[l]cuối cùng cũng tìm được rồi disgaya![resetfont]
+
+[_tb_end_text]
+
+[chara_mod  name="ザコウモリB"  time="0"  cross="false"  storage="chara/46/2.png"  ]
+[tb_start_text mode=1 ]
+#ザコウモリB
+[font size=35]Rượu vang đã ủ lâu năm! [resetfont]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#でびるん
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[play_apng name="debi_fuki_show" layer="0" x="7" y="308" width="384" height="400"]
+[_tb_end_tyrano_code]
+
+[wait  time="350"  ]
+[chara_show  name="コマでび"  layer="0"  zindex="2"  time="0"  wait="false"  storage="chara/10/9.png"  width="383"  height="400"  left="7"  top="308"  ]
+[tb_start_tyrano_code]
+[free_apng name="debi_fuki_show" ]
+[_tb_end_tyrano_code]
+
+[tb_start_tyrano_code]
+[keyframe name="fuwakoma"]
+[frame p="0%" y="0"]
+[frame p="50%" y="-5"]
+[frame p="100%" y="0"]
+[endkeyframe]
+[kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="1000" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[playse  volume="100"  time="0"  buf="3"  storage="aseru.ogg"  ]
+[tb_start_text mode=1 ]
+#でびるん
+Osh… tên này[l]còn dẫn theo lũ ma quỷ cấp thấp nữa.
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#ルビー
+…Con quỷ nào vậy?
+
+[_tb_end_text]
+
+[chara_mod  name="ルビー"  time="0"  cross="false"  storage="chara/44/3.png"  ]
+[tb_start_text mode=1 ]
+#ルビー
+Này, ngươi. Ngươi trông giống[l]loài dơi ma quỷ này, có quen biết gì không?
+
+
+[_tb_end_text]
+
+[chara_mod  name="ザコウモリA"  time="0"  cross="false"  storage="chara/45/2.png"  ]
+[tb_start_text mode=1 ]
+#ザコウモリA
+[font size=25]Đagyaa~ ta không biết thằng nhỏ tí hon đó disgaya[resetfont][font size=12]Uư, nặng quá disgaya…[resetfont]
+
+
+[_tb_end_text]
+
+[chara_mod  name="ザコウモリB"  time="0"  cross="false"  storage="chara/46/3.png"  ]
+[tb_start_text mode=1 ]
+#ザコウモリB
+[font size=25]Ngya, ta cũng không biết[resetfont]
+[_tb_end_text]
+
+[chara_mod  name="ルビー"  time="0"  cross="false"  storage="chara/44/2.png"  ]
+[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/10.png"  ]
+[tb_start_tyrano_code]
+[keyframe name="fuwakoma"]
+[frame p="0%" y="-10"]
+[frame p="50%" y="0"]
+[frame p="100%" y="-1"]
+[endkeyframe]
+[kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="400" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[quake  time="300"  count="5"  hmax="3"  wait="false"  ]
+[playse  volume="100"  time="0"  buf="1"  storage="sasu.ogg"  ]
+[tb_start_text mode=1 ]
+#でびるん
+Cái gì! ? Ở Ma giới, không có ai[l]không biết đến bản đại nhân!
+
+[_tb_end_text]
+
+[chara_mod  name="ザコウモリA"  time="0"  cross="false"  storage="chara/45/3.png"  ]
+[tb_start_text mode=1 ]
+#ザコウモリA
+Trông nhỏ xíu vậy mà nói gì thế không biết disgaya[l]Kyuhahaha
+
+[_tb_end_text]
+
+[chara_mod  name="ザコウモリB"  time="0"  cross="false"  storage="chara/46/2.png"  ]
+[tb_start_text mode=1 ]
+#ザコウモリB
+Nếu là ma quỷ có tên tuổi thì phải có đầy tớ[l]nhờ tính cáchquyến rũ bẩm sinh như Ruby-sama mới đúng disgaya
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[keyframe name="fuwakoma"]
+[frame p="0%" x="0"]
+[frame p="50%" x="3"]
+[frame p="100%" x="0"]
+[endkeyframe]
+[kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="100" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/82.png"  ]
+[tb_start_text mode=1 ]
+#でびるん
+Chết tiệt… nhìn chúng mà thấy ngứa mắt.[l]Không ngờ lại gặp ở chỗ này…
+[_tb_end_text]
+
+[chara_mod  name="ルビー"  time="0"  cross="false"  storage="chara/44/4.png"  ]
+[tb_start_text mode=1 ]
+#ルビー
+Nhưng đúng vậy, cái mắt ở bụng kia… Con mắt quỷ à?[l]Chắc chắn không phải là lũ dơi thường.
+
+
+[_tb_end_text]
+
+[chara_mod  name="ルビー"  time="0"  cross="false"  storage="chara/44/5.png"  ]
+[tb_start_text mode=1 ]
+#ルビー
+Thú vị, hãy trở thành hầu tớ của ta.
+
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[keyframe name="fuwakoma"]
+[frame p="0%" y="-10"]
+[frame p="50%" y="0"]
+[frame p="100%" y="-1"]
+[endkeyframe]
+[kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="400" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[quake  time="300"  count="5"  hmax="3"  wait="false"  ]
+[playse  volume="100"  time="0"  buf="1"  storage="sasu.ogg"  ]
+[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/63.png"  ]
+[tb_start_text mode=1 ]
+#でびるん
+Tất nhiên là ghét rồi![l]Mày phải trở thành hầu tớ của bản đại nhân!
+
+
+[_tb_end_text]
+
+[chara_mod  name="ルビー"  time="0"  cross="false"  storage="chara/44/4.png"  ]
+[tb_start_text mode=1 ]
+#ルビー
+…Hmph, ngỗ ngược nhỉ.[l]Lũ dơi kia, bắt lấy hắn.
+
+
+[_tb_end_text]
+
+[chara_mod  name="プレイヤー"  time="100"  cross="false"  storage="chara/2/fu_te2.png"  ]
+[tb_hide_message_window  ]
+[eval exp="f.zyagan_count = 0"]
+
+*zyagan1_modoru
+
+[choice2 text1="Phép chua ngọt" target1="ama" text2="Phép hôi thối" target2="*kusa"]
+
+[zyagan target="*zyagan1" borders="&f.goal?'72, 92, 108, 128':'94, 98, 102, 106'"]
+
+[s  ]
+*zyagan1
+
+[mp_check]
+
+[s  cond="!f.mp_check_pass"  ]
+[call  storage="zyagan.ks"  target=""  ]
+[tb_start_text mode=1 ]
+#ルビー
+[_tb_end_text]
+
+[chara_mod  name="プレイヤー"  time="0"  cross="false"  storage="chara/2/fu_te.png"  ]
+[chara_mod  name="ルビー"  time="0"  cross="false"  storage="chara/44/8.png"  ]
+[bg  time="0"  method="crossfade"  storage="haikei_zyagan_Small.webp"  ]
+[call  storage="me.ks"  target="*meopen"  ]
+[fadein_window  time="300"  ]
+[tb_start_text mode=1 ]
+#ルビー
+Hmph, dù sao thì lũ dơi này…[l]Thật sự làm việc tốt và tiện lợi.
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#ルビー
+Nếu làm tốt, ta sẽ thưởng cho[l]quả cây yêu thích.
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#ルビー
+Cái thứ đắng nghét kia, không ăn được gì!
+[_tb_end_text]
+
+[call  storage="me.ks"  target="*me_ENDtozi"  ]
+[chara_mod  name="プレイヤー"  time="100"  cross="false"  storage="chara/2/fu_te2.png"  ]
+[chara_show  name="コマでび"  layer="0"  zindex="2"  time="0"  wait="false"  storage="chara/10/82.png"  width="383"  height="400"  left="7"  top="308"  ]
+[tb_start_tyrano_code]
+[keyframe name="fuwakoma"]
+[frame p="0%" y="0"]
+[frame p="50%" y="-5"]
+[frame p="100%" y="0"]
+[endkeyframe]
+[kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="1000" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[chara_mod  name="ルビー"  time="0"  cross="false"  storage="chara/44/1.png"  ]
+[bg  time="0"  method="crossfade"  storage="haikei_Small.webp"  ]
+[call  storage="me.ks"  target="*me_ENDake"  ]
+[jump  storage="scenario_Ruby.ks"  target="*zyagan1_modoru"  ]
+*ama
+
+[chara_mod  name="プレイヤー"  time="100"  cross="false"  storage="chara/2/te.png"  ]
+[tb_hide_message_window  ]
+[stopbgm  time="2000"  fadeout="true"  ]
+[playse  volume="100"  time="0"  buf="1"  storage="hazikeru.ogg"  ]
+[playse  volume="100"  time="0"  buf="3"  storage="nio1.ogg"  ]
+[tb_start_tyrano_code]
+[keyframe name="fuwakoma"]
+[frame p="0%" x="0"]
+[frame p="50%" x="3"]
+[frame p="100%" x="0"]
+[endkeyframe]
+[kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="100" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[tb_start_tyrano_code]
+[play_apng name="kemuri2" layer="1" x="0" y="0" width="1280" height="960" mode="screen" free="true"]
+[_tb_end_tyrano_code]
+
+[chara_show  name="TAP"  time="1000"  wait="false"  storage="chara/18/nioi.png"  width="500"  height="500"  left="-5"  top="212"  reflect="false"  ]
+[wait  time="200"  ]
+[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/31.png"  ]
+[quake  time="300"  count="5"  hmax="3"  wait="false"  ]
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
+Đagyaa! Ngươi dùng ma thuật lên bản đại nhân![l]Mục đích là gì! [wait time=300]Cái mùi này là…[delay speed=300]…[resetdelay]
+Đagyaa! Ngươi dám dùng phép thuật lên bản đại nhân[l]với mục đích gì vậy! [wait time=300]Cái mùi gì thế[l][delay speed=300]…[resetdelay][p]
+
+
+
+
+[_tb_end_text]
+
+[flash  time="80"  effect="fadeIn"  color="0x000000"  ]
+
+[chara_hide  name="TAP"  time="0"  wait="false"  pos_mode="false"  ]
+[tb_hide_message_window  ]
+[playse  volume="100"  time="0"  buf="3"  storage="idou.ogg"  ]
+[chara_move  name="ルビー"  anim="false"  time="0"  effect="linear"  wait="false"  left="484"  top="-55"  width="672"  height="738"  ]
+[chara_hide  name="ザコウモリA"  time="0"  wait="false"  pos_mode="false"  ]
+[chara_hide  name="ザコウモリB"  time="0"  wait="false"  pos_mode="false"  ]
+[chara_hide  name="コマでび"  time="0"  wait="false"  pos_mode="false"  ]
+[chara_mod  name="ルビー"  time="0"  cross="false"  storage="chara/44/7.png"  ]
+[jump  storage="scenario_Ruby.ks"  target="*goal1"  cond="f.goal==1"  ]
+[tb_eval  exp="f.photoDeviPose=0"  name="photoDeviPose"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
+[chara_show  name="ポリゴン"  time="0"  wait="false"  storage="chara/28/k8.png"  width="504"  height="531"  left="35"  top="70"  reflect="false"  ]
+[tb_start_tyrano_code]
+[keyframe name="po"]
+[frame p="0%" y="0"]
+[frame p="50%" y="20"]
+[frame p="100%" y="0"]
+[endkeyframe]
+[kanim name="ポリゴン" keyframe="po" count="infinite" time="2000" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[flash_off  time="80"  effect="fadeOut"  ]
+
+[l  ]
+[lbgm str="3_connection_communication.ogg" vol="50" loop="true" time="0" buf="0"]
+
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
+#ザコウモリA
+Mmm~ chyum chyum~ vị Raspberry chua ngọt disgaya![l]Ma lực cũng đầy ắp disgaya!
+
+
+[_tb_end_text]
+
+[playse  volume="100"  time="0"  buf="3"  storage="sasu2.ogg"  ]
+[quake  time="300"  count="5"  hmax="3"  wait="false"  ]
+[tb_start_tyrano_code]
+[keyframe name="po"]
+[frame p="0%" y="0"]
+[frame p="50%" y="20"]
+[frame p="100%" y="0"]
+[endkeyframe]
+[kanim name="ポリゴン" keyframe="po" count="infinite" time="900" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[chara_mod  name="ポリゴン"  time="0"  cross="false"  storage="chara/28/k9.png"  ]
+[tb_start_text mode=1 ]
+#でびるん
+Này, dừng lại![l]Đừng hút ma lực trực tiếp từ sừng! Bám lấy ta!
+
+
+
+[_tb_end_text]
+
+[jump  storage="scenario_Ruby.ks"  target="*goal_jump"  ]
+*goal1
+
+[chara_show  name="ポリゴン"  time="0"  wait="false"  storage="chara/28/k1.png"  width="504"  height="531"  left="35"  top="70"  reflect="false"  ]
+[tb_start_tyrano_code]
+[keyframe name="po"]
+[frame p="0%" y="0"]
+[frame p="50%" y="20"]
+[frame p="100%" y="0"]
+[endkeyframe]
+[kanim name="ポリゴン" keyframe="po" count="infinite" time="2000" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[flash_off  time="80"  effect="fadeOut"  ]
+
+[l  ]
+[lbgm str="3_connection_communication.ogg" vol="50" loop="true" time="0" buf="0"]
+
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
+#ザコウモリA
+Mmm~ chyum chyum~ vị Raspberry chua ngọt disgaya![l]Ma lực cũng đầy ắp disgaya!
+
+
+[_tb_end_text]
+
+[playse  volume="100"  time="0"  buf="3"  storage="sasu2.ogg"  ]
+[quake  time="300"  count="5"  hmax="3"  wait="false"  ]
+[tb_start_tyrano_code]
+[keyframe name="po"]
+[frame p="0%" y="0"]
+[frame p="50%" y="20"]
+[frame p="100%" y="0"]
+[endkeyframe]
+[kanim name="ポリゴン" keyframe="po" count="infinite" time="900" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[chara_mod  name="ポリゴン"  time="0"  cross="false"  storage="chara/28/k2.png"  ]
+[tb_start_text mode=1 ]
+#でびるん
+Fugyan…! Không được không được không được![l]Đừng hút ma lực trực tiếp từ sừng! Bám lấy ta!
+
+
+
+[_tb_end_text]
+
+*goal_jump
+
+[tb_start_text mode=1 ]
+#ザコウモリB
+Hút được nhiều ma lực thế này thì[l]may mắn quá disgaya~♪ Mmyammya
+
+
+
+[_tb_end_text]
+
+[chara_mod  name="ルビー"  time="0"  cross="false"  storage="chara/44/3.png"  ]
+[tb_start_text mode=1 ]
+#ザコウモリA
+Ma lực không đủ nên phải bám theo[l]con hổ đỏ kia, nhưng thật tốt khi đã theo disgaya!
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#ザコウモリB
+Đúng vậy disgaya![l]Bỉ ổi và kéo cắt, tùy cách dùng disgaya!
+[_tb_end_text]
+
+[flash  time="80"  effect="fadeIn"  color="0x000000"  ]
+
+[stopbgm  time="0"  ]
+[playse  volume="100"  time="0"  buf="3"  storage="fuga3.ogg"  ]
+[chara_move  name="でびるん"  anim="false"  time="300"  effect="linear"  wait="true"  ]
+[chara_mod  name="ポリゴン"  time="0"  cross="false"  storage="chara/28/k3.png"  ]
+[chara_hide  name="ルビー"  time="0"  wait="false"  pos_mode="false"  ]
+[chara_show  name="ルビー"  time="0"  wait="false"  storage="chara/44/6.png"  width="896"  height="725"  left="381"  top="-49"  reflect="false"  ]
+[flash_off  time="80"  effect="fadeOut"  ]
+
+[tb_start_text mode=1 ]
+#ルビー
+Này, vừa nói gì sao?
+[_tb_end_text]
+
+[playse  volume="100"  time="0"  buf="3"  storage="Horror.ogg"  ]
+[tb_start_text mode=1 ]
+#ザコウモリA
+Nói điều không cần thiết disgaya~…
+
+[_tb_end_text]
+
+[stopse  time="0"  buf="5"  ]
+[tb_eval  exp="sf.ruby_end+=1"  name="ruby_end"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
+[tb_eval  exp="f.ruby=1"  name="ruby"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
+[tb_eval  exp="f.photoDeviPose=0"  name="photoDeviPose"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
+[ending no="22"]
+
+[s  ]
+*kusa
+
+[chara_mod  name="プレイヤー"  time="100"  cross="false"  storage="chara/2/te.png"  ]
+[tb_hide_message_window  ]
+[stopbgm  time="2000"  fadeout="true"  ]
+[playse  volume="100"  time="0"  buf="1"  storage="hazikeru.ogg"  ]
+[playse  volume="100"  time="0"  buf="3"  storage="nio2.ogg"  ]
+[tb_start_tyrano_code]
+[keyframe name="fuwakoma"]
+[frame p="0%" x="0"]
+[frame p="50%" x="3"]
+[frame p="100%" x="0"]
+[endkeyframe]
+[kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="100" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[tb_start_tyrano_code]
+[play_apng name="kemuri2" layer="1" x="0" y="0" width="1280" height="960" mode="screen" free="true"]
+[_tb_end_tyrano_code]
+
+[chara_show  name="TAP"  time="1000"  wait="false"  storage="chara/18/nioi.png"  width="500"  height="500"  left="-5"  top="212"  reflect="false"  ]
+[wait  time="200"  ]
+[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/31.png"  ]
+[quake  time="300"  count="5"  hmax="3"  wait="false"  ]
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
+#でびるん
+Đagyaa! Ngươi dám dùng phép thuật lên bản đại nhân[l]với mục đích gì vậy! [wait time=300]Cái mùi gì thế[l][delay speed=300]…[resetdelay][p]
+
+
+
+
+[_tb_end_text]
+
+[flash  time="80"  effect="fadeIn"  color="0x000000"  ]
+
+[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/82.png"  ]
+[tb_start_tyrano_code]
+[keyframe name="fuwakoma"]
+[frame p="0%" y="0"]
+[frame p="50%" y="-5"]
+[frame p="100%" y="0"]
+[endkeyframe]
+[kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="1000" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[chara_mod  name="ザコウモリA"  time="0"  cross="false"  storage="chara/45/4.png"  ]
+[chara_mod  name="ザコウモリB"  time="0"  cross="false"  storage="chara/46/4.png"  ]
+[playse  volume="100"  time="0"  buf="4"  storage="AURA_NG.ogg"  ]
+[chara_show  name="感情オーラ1"  time="1000"  wait="false"  storage="chara/11/moya1-1.png"  width="396"  height="172"  left="358"  top="9"  reflect="false"  ]
+[chara_mod  name="ルビー"  time="0"  cross="false"  storage="chara/44/9.png"  ]
+[lbgm str="3_connection_communication.ogg" vol="50" loop="true" time="0" buf="0"]
+
+[flash_off  time="80"  effect="fadeOut"  ]
+
+[playse  volume="100"  time="0"  buf="2"  storage="sasu.ogg"  ]
+[quake  time="300"  count="5"  hmax="3"  wait="false"  ]
+[tb_start_text mode=1 ]
+#ザコウモリA
+[font size=25]Đagyaa! ? Mùi tỏi disgaya! [resetfont]
+[_tb_end_text]
+
+[playse  volume="100"  time="0"  buf="3"  storage="sasu2.ogg"  ]
+[quake  time="300"  count="5"  hmax="3"  wait="false"  ]
+[tb_start_text mode=1 ]
+#ザコウモリB
+[font size=25]Tỏi là thứ ta ghét disgaya![l]Trước mặt ma quỷ, đừng có làm vậy disgaya![resetfont]
+
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[if exp="f.goal == 1]
+[_tb_end_tyrano_code]
+
+[tb_start_tyrano_code]
+[keyframe name="fuwakoma"]
+[frame p="0%" x="0"]
+[frame p="50%" x="3"]
+[frame p="100%" x="0"]
+[endkeyframe]
+[kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="100" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/101.png"  ]
+[tb_start_text mode=1 ]
+#でびるん
+Ngn… Ma lực đã quá nhiều lại còn mùi tỏi,[l]khá là… khó chịu…
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[else]
+[_tb_end_tyrano_code]
+
+[tb_start_tyrano_code]
+[keyframe name="fuwakoma"]
+[frame p="0%" y="-10"]
+[frame p="50%" y="0"]
+[frame p="100%" y="-1"]
+[endkeyframe]
+[kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="400" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/67.png"  ]
+[tb_start_text mode=1 ]
+#でびるん
+Kuhaha, mùi đó không hiệu quả gì với bản đại nhân đã mạnh lên đâu.[l]Nè nè… thấy sao? Thối không?
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[endif]
+[_tb_end_tyrano_code]
+
+[chara_hide  name="TAP"  time="300"  wait="false"  pos_mode="false"  ]
+[tb_start_text mode=1 ]
+#ルビー
+Bubu, mùi thối thì chịu được nhưng căn phòng này…[l]Đầy ma lực đến mức khiến người ta buồn nôn.
+
+
+[_tb_end_text]
+
+[chara_mod  name="ザコウモリA"  time="0"  cross="false"  storage="chara/45/2.png"  ]
+[tb_start_text mode=1 ]
+#ザコウモリA
+Đúng vậy disgaya… Căn phòng này[l]ma lực nhiễu loạn quá, khó chịu disgaya.
+[_tb_end_text]
+
+[chara_mod  name="ルビー"  time="0"  cross="false"  storage="chara/44/4.png"  ]
+[tb_start_text mode=1 ]
+#ルビー
+Ngươi — chẳng phải là thủ phạm gây ra[l]tình trạng thiếu ma lực nghiêm trọng đang gặp vấn đề sao?
+
+
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[keyframe name="fuwakoma"]
+[frame p="0%" y="0"]
+[frame p="50%" y="-5"]
+[frame p="100%" y="0"]
+[endkeyframe]
+[kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="1000" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/66.png"  ]
+[tb_start_text mode=1 ]
+#でびるん
+A~ đúng vậy đó! Sao nào? Bản đại nhân khác[l]hoàn toàn với lũ ma quỷ cấp thấp kia, hiểu chưa?
+
+
+
+[_tb_end_text]
+
+[chara_mod  name="ルビー"  time="0"  cross="false"  storage="chara/44/2.png"  ]
+[tb_start_text mode=1 ]
+#ルビー
+Hmm.
+
+
+[_tb_end_text]
+
+[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/67.png"  ]
+[tb_start_text mode=1 ]
+#でびるん
+Thế nào, công nhận đi.[l]Bản đại nhân mạnh nhất mà.
+
+
+[_tb_end_text]
+
+[chara_mod  name="ルビー"  time="0"  cross="false"  storage="chara/44/1.png"  ]
+[tb_start_text mode=1 ]
+#ルビー
+[c]Giết[_c] sao.
+
+
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[keyframe name="fuwakoma"]
+[frame p="0%" y="-10"]
+[frame p="50%" y="0"]
+[frame p="100%" y="-1"]
+[endkeyframe]
+[kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="400" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/6.png"  ]
+[playse  volume="100"  time="0"  buf="3"  storage="sasu.ogg"  ]
+[quake  time="300"  count="5"  hmax="3"  wait="false"  ]
+[tb_start_text mode=1 ]
+#でびるん
+Đến đây đi![l]Movement(movement) của mày bản đại nhân nhìn thấu hết!
+
+[_tb_end_text]
+
+[chara_mod  name="プレイヤー"  time="100"  cross="false"  storage="chara/2/te.png"  ]
+[tb_hide_message_window  ]
+[eval exp="f.zyagan_count = 0"]
+
+*zyagan2_modoru
+
+[choice2 text1="Lơ lửng trên không" target1="ue" text2="Ngồi xổm xuống đất" target2="*sya"]
+
+[zyagan target="*zyagan2" borders="&f.goal?'79, 94, 106, 121':'94, 98, 102, 106'"]
+
+[s  ]
+*zyagan2
+
+[mp_check]
+
+[s  cond="!f.mp_check_pass"  ]
+[call  storage="zyagan.ks"  target=""  ]
+[tb_start_text mode=1 ]
+#ルビー
+[_tb_end_text]
+
+[chara_mod  name="プレイヤー"  time="0"  cross="false"  storage="chara/2/te_zyagan.png"  ]
+[chara_mod  name="ルビー"  time="0"  cross="false"  storage="chara/44/12.png"  ]
+[bg  time="0"  method="crossfade"  storage="haikei_zyagan_Small.webp"  ]
+[call  storage="me.ks"  target="*meopen"  ]
+[fadein_window  time="300"  ]
+[tb_start_text mode=1 ]
+#ルビー
+[font face="DZUYOKU"]Lũ dơi bay nhảy trên trời cũng[l]ngày càng gây phiền.[resetfont]
+
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#ルビー
+[font face="DZUYOKU"]Tức quá…[l]Giết hết bọn chúng![resetfont]
+
+
+[_tb_end_text]
+
+[call  storage="me.ks"  target="*me_ENDtozi"  ]
+[chara_mod  name="プレイヤー"  time="100"  cross="false"  storage="chara/2/te.png"  ]
+[chara_show  name="コマでび"  layer="0"  zindex="2"  time="0"  wait="false"  storage="chara/10/63.png"  width="383"  height="400"  left="7"  top="308"  ]
+[tb_start_tyrano_code]
+[keyframe name="fuwakoma"]
+[frame p="0%" y="-10"]
+[frame p="50%" y="0"]
+[frame p="100%" y="-1"]
+[endkeyframe]
+[kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="400" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[chara_mod  name="ルビー"  time="0"  cross="false"  storage="chara/44/1.png"  ]
+[bg  time="0"  method="crossfade"  storage="haikei_Small.webp"  ]
+[call  storage="me.ks"  target="*me_ENDake"  ]
+[jump  storage="scenario_Ruby.ks"  target="*zyagan2_modoru"  ]
+*ue
+
+[cm  ]
+[tb_eval  exp="f.photoDeviPose=0"  name="photoDeviPose"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
+[tb_hide_message_window  ]
+[eval exp="dc.afterChoice2(false)"]
+
+[stopbgm  time="0"  fadeout="true"  ]
+[flash  time="0"  effect="fadeIn"  color="0x000000"  ]
+
+[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/92.png"  ]
+[playse  volume="100"  time="0"  buf="1"  storage="fuga2.ogg"  ]
+[chara_hide  name="ルビー"  time="0"  wait="false"  pos_mode="false"  ]
+[chara_show  name="ルビー"  time="0"  wait="false"  storage="chara/44/6.png"  width="897"  height="726"  left="212"  top="-45"  reflect="false"  ]
+[flash_off  time="0"  effect="fadeOut"  ]
+
+[wait  time="300"  ]
+[playse  volume="100"  time="0"  buf="3"  storage="sasu4.ogg"  ]
+[layopt layer=4 visible="true"]
+
+[image name="kuro" layer=4 folder="fgimage" storage="default/kuro.webp" time="0"  wait="false"  ]
+
+[wait  time="1000"  ]
+[tb_show_message_window  ]
+[quake  time="600"  count="10"  hmax="0"  wait="false"  vmax="3"  ]
+[tb_start_text mode=1 ]
+#コウモリども
+[font face="DZUYOKU"][font size=37]Đagyaaaaa![l]Aaaaaa! [resetfont]
+[_tb_end_text]
+
+[tb_eval  exp="sf.ruby_end+=1"  name="ruby_end"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
+[tb_eval  exp="f.ruby=2"  name="ruby"  cmd="="  op="t"  val="2"  val_2="undefined"  ]
+[tb_eval  exp="f.photoDeviPose=1"  name="photoDeviPose"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
+[ending no="22"]
+
+*ue2
+
+[cm  ]
+[tb_eval  exp="f.photoDeviPose=0"  name="photoDeviPose"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
+[tb_hide_message_window  ]
+[eval exp="dc.afterChoice2(false)"]
+
+[stopbgm  time="0"  fadeout="true"  ]
+[flash  time="0"  effect="fadeIn"  color="0x000000"  ]
+
+[layermode  mode="multiply"  color="0xffffff"  time="0"  wait="false"  graphic="bb2.png"  ]
+[chara_mod  name="ポリゴン"  time="0"  cross="true"  storage="chara/28/k14.png"  ]
+[playse  volume="100"  time="0"  buf="1"  storage="fuga2.ogg"  ]
+[chara_hide  name="ルビー"  time="0"  wait="false"  pos_mode="false"  ]
+[chara_show  name="ルビー"  time="0"  wait="false"  storage="chara/44/6.png"  width="939"  height="760"  left="440"  top="-62"  reflect="false"  ]
+[flash_off  time="0"  effect="fadeOut"  ]
+
+[wait  time="300"  ]
+[playse  volume="100"  time="0"  buf="3"  storage="sasu4.ogg"  ]
+[layopt layer=4 visible="true"]
+
+[image name="kuro" layer=4 folder="fgimage" storage="default/kuro.webp" time="0"  wait="false"  ]
+
+[wait  time="1000"  ]
+[quake  time="600"  count="10"  hmax="0"  wait="false"  vmax="3"  ]
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
+#コウモリども
+[font face="DZUYOKU"][font size=37]Đagyaaaaa![l]Aaaaaa! [resetfont]
+[_tb_end_text]
+
+[tb_eval  exp="sf.ruby_end+=1"  name="ruby_end"  cmd="+="  op="t"  val="1"  ]
+[tb_eval  exp="f.ruby=4"  name="ruby"  cmd="="  op="t"  val="4"  val_2="undefined"  ]
+[tb_eval  exp="f.photoDeviPose=1"  name="photoDeviPose"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
+[ending no="22"]
+
+*sya
+
+[flash  time="80"  effect="fadeIn"  color="0x000000"  ]
+
+[chara_mod  name="ザコウモリB"  time="0"  cross="false"  storage="chara/46/5.png"  ]
+[chara_move  name="ザコウモリB"  anim="false"  time="0"  effect="linear"  wait="false"  left="769"  top="62"  width="313"  height="336"  ]
+[chara_hide  name="ルビー"  time="0"  wait="false"  pos_mode="false"  ]
+[chara_show  name="ルビー"  time="0"  wait="false"  storage="chara/44/10.png"  width="939"  height="760"  left="220"  top="12"  reflect="false"  ]
+[chara_hide  name="コマでび"  time="0"  wait="false"  pos_mode="false"  ]
+[chara_show  name="コマでび"  layer="0"  zindex="2"  time="0"  wait="false"  storage="chara/10/15.png"  width="383"  height="400"  left="7"  top="308"  ]
+[tb_start_tyrano_code]
+[keyframe name="fuwakoma"]
+[frame p="0%" y="0"]
+[frame p="50%" y="-5"]
+[frame p="100%" y="0"]
+[endkeyframe]
+[kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="1000" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[playse  volume="100"  time="0"  buf="1"  storage="fuga4.ogg"  ]
+[flash_off  time="80"  effect="fadeOut"  ]
+
+[tb_show_message_window  ]
+[playse  volume="100"  time="0"  buf="3"  storage="sasu.ogg"  ]
+[quake  time="300"  count="5"  hmax="3"  wait="false"  ]
+[tb_start_text mode=1 ]
+#ザコウモリB
+Ngya! [l]Vừa nguy hiểm quá disgaya!
+[_tb_end_text]
+
+[chara_show  name="感情オーラ2"  time="1000"  wait="false"  storage="chara/12/moya2-2.png"  width="423"  height="184"  left="600"  top="309"  reflect="false"  ]
+[playse  volume="100"  time="0"  buf="4"  storage="AURA_NG.ogg"  ]
+[chara_mod  name="ルビー"  time="0"  cross="false"  storage="chara/44/11.png"  ]
+[tb_start_text mode=1 ]
+#ルビー
+A~, các ngươi cũng suýt bị[l]giết cùng một lúc nhưng ta lỡ tay rồi.
+[_tb_end_text]
+
+[chara_mod  name="ザコウモリB"  time="0"  cross="false"  storage="chara/46/5.png"  ]
+[tb_start_text mode=1 ]
+#ザコウモリA
+[font size=25]Đagyaa! ? [l]Ngay cả bọn ta cũng muốn[c]giết[_c]sa disgaya![resetfont]
+
+[_tb_end_text]
+
+[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/102.png"  ]
+[tb_start_text mode=1 ]
+#ルビー
+Nghe này? Kẻ thấp kém(lũ dơi) thì khi vô dụng rồi,[l]sẽ bị bỏ đi, đó là số phận.
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#ザコウモリB
+Mày! Cái gì cơ! ?
+
+[_tb_end_text]
+
+[chara_mod  name="ルビー"  time="0"  cross="false"  storage="chara/44/10.png"  ]
+[tb_start_text mode=1 ]
+#ルビー
+Ngươi nói chuyện với ai thế? [l]Lũ ma quỷ như ngươi, ta sẽ xử lý.
+
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#ザコウモリA
+Đagyagya!
+[_tb_end_text]
+
+[jump  storage="scenario_Ruby.ks"  target="*end_complete"  cond="f.end_complete==1"  ]
+[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/82.png"  ]
+[tb_start_tyrano_code]
+[keyframe name="fuwakoma"]
+[frame p="0%" x="0"]
+[frame p="50%" x="3"]
+[frame p="100%" x="0"]
+[endkeyframe]
+[kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="100" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+#でびるん
+[delay speed=100]…[resetdelay]Chịt.
+
+
+
+[_tb_end_text]
+
+[chara_mod  name="プレイヤー"  time="100"  cross="false"  storage="chara/2/fu_te2.png"  ]
+[tb_hide_message_window  ]
+[eval exp="f.zyagan_count = 0"]
+
+*zyagan3_modoru
+
+[choice2 text1="Phép Dơi" target1="kou" text2="Phép khiêu khích" target2="*tyo"]
+
+[zyagan target="*zyagan3" borders="&f.goal?'86, 96, 104, 114':'94, 98, 102, 106'"]
+
+[s  ]
+*zyagan3
+
+[jump  storage="scenario_Ruby.ks"  target="*ue"  cond="f.kansou2==1"  ]
+[mp_check]
+
+[s  cond="!f.mp_check_pass"  ]
+[call  storage="zyagan.ks"  target=""  ]
+[tb_start_text mode=1 ]
+#ルビー
+[_tb_end_text]
+
+[chara_mod  name="プレイヤー"  time="0"  cross="false"  storage="chara/2/fu_te.png"  ]
+[chara_mod  name="ルビー"  time="0"  cross="false"  storage="chara/44/17.png"  ]
+[bg  time="0"  method="crossfade"  storage="haikei_zyagan_Small.webp"  ]
+[call  storage="me.ks"  target="*meopen"  ]
+[fadein_window  time="300"  ]
+[tb_start_text mode=1 ]
+#ルビー
+[font face="DZUYOKU"][font size=20]Giết giết giết giết giết giết giết giết giết giết giết giết giết giết[r]giết giết giết giết giết giết giết giết giết giết giết giết giết giết giết[resetfont]
+[_tb_end_text]
+
+[tb_eval  exp="f.kansou2=1"  name="kansou2"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
+[call  storage="me.ks"  target="*me_ENDtozi"  ]
+[chara_mod  name="プレイヤー"  time="100"  cross="false"  storage="chara/2/fu_te2.png"  ]
+[chara_show  name="コマでび"  layer="0"  zindex="2"  time="0"  wait="false"  storage="chara/10/82.png"  width="383"  height="400"  left="7"  top="308"  ]
+[tb_start_tyrano_code]
+[keyframe name="fuwakoma"]
+[frame p="0%" x="0"]
+[frame p="50%" x="3"]
+[frame p="100%" x="0"]
+[endkeyframe]
+[kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="100" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[chara_mod  name="ルビー"  time="0"  cross="false"  storage="chara/44/10.png"  ]
+[bg  time="0"  method="crossfade"  storage="haikei_Small.webp"  ]
+[call  storage="me.ks"  target="*me_ENDake"  ]
+[jump  storage="scenario_Ruby.ks"  target="*zyagan3_modoru"  ]
+*tyo
+
+[tb_start_tyrano_code]
+[keyframe name="fuwakoma"]
+[frame p="0%" y="0"]
+[frame p="50%" y="-5"]
+[frame p="100%" y="0"]
+[endkeyframe]
+[kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="1000" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[playse  volume="100"  time="0"  buf="3"  storage="hirameki.ogg"  ]
+[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/62.png"  ]
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
+#でびるん
+Khoan đã, [emb exp="f.name"][l] Khích lệ thì giao cho bản đại nhân!
+
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[keyframe name="fuwakoma"]
+[frame p="0%" y="-10"]
+[frame p="50%" y="0"]
+[frame p="100%" y="-1"]
+[endkeyframe]
+[kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="400" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[chara_mod  name="プレイヤー"  time="0"  cross="false"  storage="chara/2/te.png"  ]
+[chara_mod  name="ルビー"  time="0"  cross="false"  storage="chara/44/14.png"  ]
+[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/65.png"  ]
+[tb_start_text mode=1 ]
+#でびるん
+Này này, lũ dơi như vậy mà cũng[l]khó xử, chẳng phải mày còn thấp kém hơn chúng sao~?
+[_tb_end_text]
+
+[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/67.png"  ]
+[tb_start_text mode=1 ]
+#でびるん
+Kuhaha lol. Nè, có ai phản đối nhanh nhanh.[l]Bị thua rồi, thương quá♥
+[_tb_end_text]
+
+[chara_mod  name="ザコウモリB"  time="0"  cross="false"  storage="chara/46/3.png"  ]
+[tb_start_text mode=1 ]
+#ザコウモリB
+! Mày, chẳng lẽ đang[l]cố tình chuyển hướng sự giận dữ ra khỏi bọn ta?
+[_tb_end_text]
+
+[chara_mod  name="ザコウモリA"  time="0"  cross="false"  storage="chara/45/3.png"  ]
+[tb_start_text mode=1 ]
+#ザコウモリA
+Ngya! Tốt lắm disgaya~
+
+
+[_tb_end_text]
+
+[quake  time="300"  count="5"  hmax="3"  wait="false"  ]
+[playse  volume="100"  time="0"  buf="1"  storage="sasu.ogg"  ]
+[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/30.png"  ]
+[tb_start_text mode=1 ]
+#でびるん
+K-Không phải vậy đâu![l]Đừng có diễn giải theo cách có lợi cho mình!
+[_tb_end_text]
+
+[playse  volume="100"  time="0"  buf="3"  storage="idou.ogg"  ]
+[flash  time="80"  effect="fadeIn"  color="0x000000"  ]
+
+[tb_eval  exp="f.photoDeviPose=0"  name="photoDeviPose"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
+[chara_hide  name="ルビー"  time="0"  wait="false"  pos_mode="false"  ]
+[chara_show  name="ルビー"  time="0"  wait="false"  storage="chara/44/13.png"  width="746"  height="820"  left="352"  top="-5"  reflect="false"  ]
+[chara_move  name="ルビー"  anim="false"  time="0"  effect="linear"  wait="false"  left="468"  top="-8"  width="648"  height="712"  ]
+[chara_hide  name="ザコウモリA"  time="0"  wait="false"  pos_mode="false"  ]
+[chara_hide  name="ザコウモリB"  time="0"  wait="false"  pos_mode="false"  ]
+[chara_hide  name="コマでび"  time="0"  wait="false"  pos_mode="false"  ]
+[chara_hide  name="感情オーラ1"  time="0"  wait="false"  pos_mode="false"  ]
+[chara_hide  name="感情オーラ2"  time="0"  wait="false"  pos_mode="false"  ]
+[chara_show  name="ポリゴン"  time="0"  wait="false"  storage="chara/28/k4.png"  width="504"  height="531"  left="35"  top="70"  reflect="false"  ]
+[tb_start_tyrano_code]
+[keyframe name="po"]
+[frame p="0%" y="0"]
+[frame p="50%" y="20"]
+[frame p="100%" y="0"]
+[endkeyframe]
+[kanim name="ポリゴン" keyframe="po" count="infinite" time="2000" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[flash_off  time="80"  effect="fadeOut"  ]
+
+[tb_start_text mode=1 ]
+#ザコウモリB
+Sẽ đi theo suốt đời disgaya!
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#ザコウモリA
+Ngya~ Tên ngài là gì![l]Tên ngài là gì disgaya!
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#でびるん
+Tch… lũ mày, lật mặt nhanh quá![l]Nghe mà bất ngờ đó, tên thật của bản đại nhân là…[font size=12]ngoan-go[resetfont]
+[_tb_end_text]
+
+[quake  time="300"  count="5"  hmax="3"  wait="false"  ]
+[playse  volume="100"  time="0"  buf="1"  storage="sasu.ogg"  ]
+[chara_mod  name="ポリゴン"  time="0"  cross="false"  storage="chara/28/k5.png"  ]
+[tb_start_text mode=1 ]
+#ザコウモリA
+E! ? Đại ma quỷ kia…[l]Thì ra là ngài! Kya!
+[_tb_end_text]
+
+[quake  time="300"  count="5"  hmax="3"  wait="false"  ]
+[playse  volume="100"  time="0"  buf="1"  storage="sasu2.ogg"  ]
+[tb_start_text mode=1 ]
+#ザコウモリB
+Không nghe được tin tốt gì,[l]mà ngờ lại là người tuyệt vời thế này… mọi người đều hiểu lầm disgaya!
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#でびるん
+Kuhaha… ừm. Đúng rồi! Lần tới ta sẽ dẫn[l]mấy đứa đi ăn!
+[_tb_end_text]
+
+[flash  time="80"  effect="fadeIn"  color="0x000000"  ]
+
+[stopbgm  time="0"  ]
+[playse  volume="100"  time="0"  buf="3"  storage="fuga3.ogg"  ]
+[chara_move  name="でびるん"  anim="false"  time="300"  effect="linear"  wait="true"  ]
+[chara_mod  name="ポリゴン"  time="0"  cross="false"  storage="chara/28/k6.png"  ]
+[chara_hide  name="ルビー"  time="0"  wait="false"  pos_mode="false"  ]
+[chara_show  name="ルビー"  time="0"  wait="false"  storage="chara/44/6.png"  width="854"  height="691"  left="379"  top="11"  reflect="false"  ]
+[flash_off  time="80"  effect="fadeOut"  ]
+
+[tb_start_text mode=1 ]
+#ルビー
+[font face="kowai"]Đó là ý hay.[l]Vậy để ta gửi mấy đứa xuống địa ngục![resetfont]
+[_tb_end_text]
+
+[playse  volume="100"  time="0"  buf="3"  storage="Horror.ogg"  ]
+[tb_start_text mode=1 ]
+#ザコウモリB
+[font face="YOWAKU"][font size=25]Quên mất hắn rồi disgaya~ [resetfont]
+[_tb_end_text]
+
+[stopse  time="0"  buf="5"  ]
+[tb_eval  exp="sf.ruby_end+=1"  name="ruby_end"  cmd="+="  op="t"  val="1"  ]
+[tb_eval  exp="f.ruby=3"  name="ruby"  cmd="="  op="t"  val="3"  val_2="undefined"  ]
+[tb_eval  exp="f.photoDeviPose=0"  name="photoDeviPose"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
+[ending no="22"]
+
+*kou
+
+[quake  time="300"  count="5"  hmax="3"  wait="false"  ]
+[playse  volume="100"  time="0"  buf="1"  storage="hazikeru.ogg"  ]
+[tb_start_tyrano_code]
+[play_apng name="kemuri" layer="1" x="0" y="0" width="1280" height="960" mode="screen" free="true"]
+[_tb_end_tyrano_code]
+
+[chara_mod  name="プレイヤー"  time="0"  cross="false"  storage="chara/2/te.png"  ]
+[wait  time="100"  ]
+[chara_mod  name="ザコウモリB"  time="0"  cross="false"  storage="chara/46/1.png"  ]
+[chara_mod  name="ザコウモリA"  time="0"  cross="false"  storage="chara/45/5.png"  ]
+[tb_start_tyrano_code]
+[keyframe name="fuwakoma"]
+[frame p="0%" y="0"]
+[frame p="50%" y="-5"]
+[frame p="100%" y="0"]
+[endkeyframe]
+[kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="1000" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/65.png"  ]
+[chara_hide  name="ルビー"  time="50"  wait="false"  pos_mode="false"  ]
+[wait  time="50"  ]
+[chara_show  name="ルビー"  time="50"  wait="false"  storage="chara/44/15.png"  width="550"  height="600"  left="367"  top="59"  reflect="false"  ]
+[tb_start_tyrano_code]
+[keyframe name="ru"]
+[frame p="0%" y="0"]
+[frame p="50%" y="40"]
+[frame p="100%" y="0"]
+[endkeyframe]
+[kanim name="ルビー" keyframe="ru" count="infinite" time="1000" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[wait  time="300"  ]
+[tb_show_message_window  ]
+[playse  volume="100"  time="0"  buf="1"  storage="aseru.ogg"  ]
+[quake  time="300"  count="5"  hmax="3"  wait="false"  ]
+[tb_start_text mode=1 ]
+#ルビー
+[font face="DZUYOKU"][font size=25]Cái tư thế này là sao! [resetfont]
+[_tb_end_text]
+
+[chara_mod  name="ザコウモリA"  time="0"  cross="false"  storage="chara/45/3.png"  ]
+[tb_start_text mode=1 ]
+#ザコウモリA
+…! Trở thành dơi rồi disgaya![l]Cứu được rồi disgaya!
+[_tb_end_text]
+
+[chara_mod  name="ザコウモリB"  time="0"  cross="false"  storage="chara/46/3.png"  ]
+[tb_start_text mode=1 ]
+#ザコウモリB
+Mày… giỏi nhỉ!
+
+[_tb_end_text]
+
+[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/66.png"  ]
+[tb_start_text mode=1 ]
+#でびるん
+Heh! Ừm.
+
+[_tb_end_text]
+
+[chara_mod  name="ザコウモリB"  time="0"  cross="false"  storage="chara/46/3.png"  ]
+[tb_start_text mode=1 ]
+#ザコウモリB
+Không phải khen mày đâu.[l]Ta đang k tên phù thủy đằng kia.
+
+
+[_tb_end_text]
+
+[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/10.png"  ]
+[quake  time="300"  count="5"  hmax="3"  wait="false"  ]
+[playse  volume="100"  time="0"  buf="1"  storage="sasu.ogg"  ]
+[tb_start_text mode=1 ]
+#でびるん
+[font size=25]Cái gì! ? Muốn bị cọ sừng không![resetfont]
+
+
+[_tb_end_text]
+
+[chara_mod  name="ザコウモリA"  time="0"  cross="false"  storage="chara/45/6.png"  ]
+[tb_start_text mode=1 ]
+#ザコウモリA
+[font size=25]Ngya! ? Dừng lại![l]Tên biến thái! [resetfont]
+[_tb_end_text]
+
+[chara_mod  name="ザコウモリB"  time="0"  cross="false"  storage="chara/46/6.png"  ]
+[tb_start_text mode=1 ]
+#ザコウモリB
+[font size=25]Biến thái! Biến thái![resetfont]
+[_tb_end_text]
+
+[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/64.png"  ]
+[tb_start_text mode=1 ]
+#でびるん
+Thế nào…? Ta sẽ trói hết mấy đứa lại,[l]và cọ sừng vào nhau!
+
+
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#ザコウモリA
+Ngya… như vậy thì quá dâm dục…[l]Không muốn, xin tha thứ disgaya
+
+[_tb_end_text]
+
+[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/65.png"  ]
+[tb_start_text mode=1 ]
+#でびるん
+Kuhaha, muốn tha thứ thì[c]đưa rượu vang đây♥
+
+
+
+[_tb_end_text]
+
+[chara_mod  name="ザコウモリA"  time="0"  cross="false"  storage="chara/45/3.png"  ]
+[chara_mod  name="ザコウモリB"  time="0"  cross="false"  storage="chara/46/2.png"  ]
+[tb_start_text mode=1 ]
+#ザコウモリA
+Ngya? Rượu vang thì được disgaya![l]Nặng nên vừa vặn disgaya!
+
+[_tb_end_text]
+
+[chara_show  name="感情オーラ3"  time="1000"  wait="false"  storage="chara/13/moya3.png"  width="400"  height="200"  left="353"  top="437"  reflect="false"  ]
+[playse  volume="100"  time="0"  buf="4"  storage="AURA_OK.ogg"  ]
+[chara_mod  name="ルビー"  time="0"  cross="false"  storage="chara/44/16.png"  ]
+[tb_start_text mode=1 ]
+#ルビー
+[font face="DZUYOKU"][font size=25]Khoan… đó là rượu quan trọng của ta! ! ! ! [resetfont]
+
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[keyframe name="fuwakoma"]
+[frame p="0%" y="-10"]
+[frame p="50%" y="0"]
+[frame p="100%" y="-1"]
+[endkeyframe]
+[kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="400" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[quake  time="300"  count="5"  hmax="3"  wait="false"  ]
+[playse  volume="100"  time="0"  buf="1"  storage="sasu2.ogg"  ]
+[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/79.png"  ]
+[tb_start_text mode=1 ]
+#でびるん
+Với tư thế đó, ngươi không làm được gì đâu![l]Nào, thu thập ma lực thôi nào!
+
+
+
+
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[keyframe name="fuwakoma"]
+[frame p="0%" y="0"]
+[frame p="50%" y="-5"]
+[frame p="100%" y="0"]
+[endkeyframe]
+[kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="1000" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/65.png"  ]
+[tb_start_text mode=1 ]
+#でびるん
+À, xong rồi thì con hổ này,[l]mấy đứa muốn làm gì thì làm!
+
+
+
+
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#ルビー
+[_tb_end_text]
+
+[kyushu]
+
+[chara_hide  name="ザコウモリA"  time="0"  wait="false"  pos_mode="false"  ]
+[chara_hide  name="ザコウモリB"  time="0"  wait="false"  pos_mode="false"  ]
+[chara_hide  name="ルビー"  time="0"  wait="false"  pos_mode="false"  ]
+[flash  time="0"  effect="fadeIn"  color="0xFFFFFF"  ]
+
+[chara_show  name="ポリゴン"  time="0"  wait="false"  storage="chara/28/k7.png"  width="522"  height="600"  left="376"  top="27"  reflect="false"  ]
+[tb_start_tyrano_code]
+[keyframe name="po"]
+[frame p="0%" y="0"]
+[frame p="50%" y="40"]
+[frame p="100%" y="0"]
+[endkeyframe]
+[kanim name="ポリゴン" keyframe="po" count="infinite" time="900" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[flash_off  time="20"  effect="fadeOut"  ]
+
+[quake  time="300"  count="5"  hmax="3"  wait="false"  ]
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
+#ルビー
+[font face="DZUYOKU"][font size=25]Áaaaa dừng lạibbbb! [resetfont]
+
+[_tb_end_text]
+
+[tb_eval  exp="f.ruby=5"  name="ruby"  cmd="="  op="t"  val="5"  val_2="undefined"  ]
+[tb_hide_message_window  ]
+[stopse  time="0"  buf="5"  ]
+[tb_start_text mode=1 ]
+#でびるん
+[_tb_end_text]
+
+[call  storage="maku.ks"  target="*close"  ]
+[bg  time="0"  method="crossfade"  storage="haikei2.webp"  ]
+[chara_hide_all  time="0"  wait="false"  ]
+[chara_show  name="でびるん"  time="0"  wait="false"  storage="chara/1/11.png"  width="1280"  height="960"  ]
+[tb_start_tyrano_code]
+[keyframe name="fuwa"]
+[frame p="0%" y="0"]
+[frame p="50%" y="-50"]
+[frame p="100%" y="0"]
+[endkeyframe]
+[kanim name="でびるん" keyframe="fuwa" count="infinite" time="2000" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[flash_off  time="0"  effect="fadeOut"  ]
+
+[playbgm  volume="50"  time="0"  loop="true"  storage="1_debirun_no_theme.ogg"  ]
+[tb_eval  exp="f.photoDeviPose=0"  name="photoDeviPose"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
+[call  storage="maku.ks"  target="*open"  ]
+[wait  time="1000"  ]
+[fadein_window  time="1000"  ]
+[tb_start_text mode=1 ]
+#でびるん
+Kuhaha, lũ ma quỷ cấp thấp kia![l]Thấy chưa, sức mạnh của bản đại nhân… sảng khoái ghê~
+[_tb_end_text]
+
+[chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/1.png"  ]
+[tb_start_text mode=1 ]
+#でびるん
+Ở đây ta sẽ dạy mày kiến thức về Ma giới.
+
+[_tb_end_text]
+
+[chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/10.png"  ]
+[tb_start_text mode=1 ]
+#でびるん
+Ma quỷ khi hai cái sừng va vào nhau,[l]sẽ cực kỳ khó chịu đấy.
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#でびるん
+Bởi vì đó là cơ quan tinh vi dùng để hấp thụ trực tiếp ma lực[~]Vậy nên ta đã dùng điều đó để đe dọa.
+[_tb_end_text]
+
+[chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/11.png"  ]
+[tb_start_text mode=1 ]
+#でびるん
+Dù sao thì rượu vang cũng lấy được rồi, may ghê![l]Nhanh nhanh uống nào! Rượu! Rượu~
+[_tb_end_text]
+
+[chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/8.png"  ]
+[tb_start_text mode=1 ]
+#でびるん
+…Hả? Bản đại nhân này mà[l]không uống được rượu à?
+
+
+[_tb_end_text]
+
+[chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/2.png"  ]
+[tb_start_text mode=1 ]
+#でびるん
+Dù trông vậy nhưng đã trên 100 tuổi rồi đó![l]Già hơn mày nhiều đó! Kính trọng đi, đồ ngu!
+
+
+[_tb_end_text]
+
+[achieve_sticker no="34"]
+
+[chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/40.png"  ]
+[tb_start_text mode=1 ]
+#でびるん
+Nè, cầm ly chưa? Còn một chút nữa là[l]đến hình dạng mới của bản đại nhân! Cạn ly!
+
+
+
+[_tb_end_text]
+
+[chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/41.png"  ]
+[tb_start_text mode=1 ]
+#でびるん
+Gulp gulp [delay speed=100]…[resetdelay]
+
+
+[_tb_end_text]
+
+[jump  storage="scenario_Ruby.ks"  target="*goal2"  cond="f.goal==1"  ]
+[stopbgm  time="2000"  fadeout="true"  ]
+[chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/42.png"  ]
+[tb_start_text mode=1 ]
+#でびるん
+[delay speed=100]…[resetdelay]Hả
+
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#でびるん
+[delay speed=100]Không có vị gì[resetdelay]
+
+
+
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#でびるん
+[delay speed=100]…[resetdelay]Sao tự nhiên dần dần
+
+[_tb_end_text]
+
+[chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/43.png"  ]
+[playse  volume="100"  time="0"  buf="3"  storage="wine.ogg"  ]
+[tb_start_text mode=1 ]
+#でびるん
+[font face="kowai"][delay speed=100]Bản đại nhân…[l]dường như đang trở thành một người khác.[resetdelay][wait time=800][resetfont]
+
+
+
+
+
+[_tb_end_text]
+
+[jump  storage="scenario_Ruby.ks"  target="*end_jump"  ]
+*goal2
+
+[playse  volume="100"  time="1000"  buf="3"  storage="kawaii.ogg"  ]
+[chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/52.png"  ]
+[tb_start_text mode=1 ]
+#でびるん
+[font size=35]Nmyaaaa! ! ! ! ! [resetfont]
+
+[_tb_end_text]
+
+*end_jump
+
+[iscript]
+// 全部見たら記録する（初回だけ）
+if (f.chara && !f.finished.includes(f.chara.name)) {
+f.finished = [...f.finished, f.chara.name];
+}
+[endscript]
+
+[tb_hide_message_window  ]
+[call  storage="maku.ks"  target="*close"  ]
+[chara_hide  name="でびるん"  time="0"  wait="false"  pos_mode="false"  ]
+[chara_hide  name="プレイヤー"  layer="1"  time="0"  wait="false"  pos_mode="false"  ]
+[free_layermode  time="1000"  wait="true"  ]
+[jump  storage="syoukan_k.ks"  target=""  ]
+[s  ]
+*end_complete
+
+[tb_start_text mode=1 ]
+#でびるん
+[delay speed=100]…[resetdelay]
+
+
+
+[_tb_end_text]
+
+[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/82.png"  ]
+[tb_start_tyrano_code]
+[keyframe name="fuwakoma"]
+[frame p="0%" x="0"]
+[frame p="50%" x="3"]
+[frame p="100%" x="0"]
+[endkeyframe]
+[kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="100" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[stopbgm  time="1000"  fadeout="true"  ]
+[tb_start_text mode=1 ]
+#でびるん
+·[wait time=200]·[wait time=200]·[wait time=200]·[wait time=200]·[wait time=200]·[wait time=200]Này
+
+
+
+[_tb_end_text]
+
+[playbgm  volume="60"  time="0"  loop="true"  storage="12_determination.ogg"  ]
+[chara_mod  name="ザコウモリA"  time="0"  cross="false"  storage="chara/45/5.png"  ]
+[chara_mod  name="ザコウモリB"  time="0"  cross="false"  storage="chara/46/3.png"  ]
+[chara_mod  name="ルビー"  time="0"  cross="false"  storage="chara/44/14.png"  ]
+[tb_start_tyrano_code]
+[keyframe name="fuwakoma"]
+[frame p="0%" y="-10"]
+[frame p="50%" y="0"]
+[frame p="100%" y="-1"]
+[endkeyframe]
+[kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="400" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/63.png"  ]
+[quake  time="300"  count="5"  hmax="3"  wait="false"  ]
+[playse  volume="100"  time="0"  buf="3"  storage="sasu2.ogg"  ]
+[tb_start_text mode=1 ]
+#でびるん
+Từ nãy giờ ngồi nghe im lặng,[l]cái thái độ đó là sao trước mặt ma quỷ?
+
+[_tb_end_text]
+
+[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/66.png"  ]
+[tb_start_text mode=1 ]
+#でびるん
+Ma quỷ như bản đại nhân mạnh hơn mày[l]nhiều lần.
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#ルビー
+Hừ [delay speed=100]…[resetdelay]
+
+
+[_tb_end_text]
+
+[flash  time="80"  effect="fadeIn"  color="0x000000"  ]
+
+[bg  time="0"  method="crossfade"  storage="haikei_Small.webp"  ]
+[chara_move  name="感情オーラ1"  anim="false"  time="0"  effect="linear"  wait="false"  left="567"  top="78"  width="396"  height="172"  ]
+[chara_move  name="感情オーラ2"  anim="false"  time="0"  effect="linear"  wait="false"  left="803"  top="239"  width="396"  height="172"  ]
+[chara_hide  name="ザコウモリA"  time="0"  wait="false"  pos_mode="false"  ]
+[chara_hide  name="ザコウモリB"  time="0"  wait="false"  pos_mode="false"  ]
+[chara_hide  name="ルビー"  time="0"  wait="false"  pos_mode="false"  ]
+[chara_show  name="ルビー"  time="0"  wait="false"  storage="chara/44/3.png"  width="672"  height="738"  left="502"  top="-43"  reflect="false"  ]
+[chara_show  name="ポリゴン"  time="0"  wait="false"  storage="chara/28/k10.png"  width="522"  height="550"  left="148"  top="-20"  reflect="false"  ]
+[playse  volume="100"  time="0"  buf="3"  storage="ruby.ogg"  ]
+[tb_start_tyrano_code]
+[keyframe name="fuwakoma"]
+[frame p="0%" x="0"]
+[frame p="50%" x="3"]
+[frame p="100%" x="0"]
+[endkeyframe]
+[kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="100" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/82.png"  ]
+[wait  time="100"  ]
+[quake  time="300"  count="5"  hmax="3"  wait="false"  ]
+[flash_off  time="20"  effect="fadeOut"  ]
+
+[tb_start_text mode=1 ]
+#ルビー
+[c]Giết[_c] thì chuyện tàn nhẫn thế ta không làm đâu.[l]Ta định tha cho đấy [delay speed=100]…[resetdelay]nhưng mà.
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#ルビー
+Được rồi, cho chúng nó một bài học.
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#ザコウモリA
+[font size=25]Đagyaa! [l]Ruby-sama, ngài định làm gì! ? [resetfont]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#ルビー
+Hai con dơi kia, nếu oán giận thì[l]hãy oán tên dơi đằng kia.
+[_tb_end_text]
+
+[flash  time="0"  effect="fadeIn"  color="0x000000"  ]
+
+[tb_eval  exp="f.photoPose=0"  name="photoPose"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
+[playse  volume="100"  time="0"  buf="3"  storage="idou.ogg"  ]
+[chara_hide  name="コマでび"  time="0"  wait="false"  pos_mode="false"  ]
+[chara_mod  name="ポリゴン"  time="0"  cross="true"  storage="chara/28/k11.png"  ]
+[chara_mod  name="ルビー"  time="0"  cross="false"  storage="chara/44/13.png"  ]
+[chara_move  name="ポリゴン"  anim="false"  time="0"  effect="linear"  wait="false"  left="29"  top="78"  width="522"  height="550"  ]
+[wait  time="200"  ]
+[flash_off  time="20"  effect="fadeOut"  ]
+
+[tb_start_text mode=1 ]
+#でびるん
+[font size=25]D-Dừng lại![resetfont]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#ルビー
+[delay speed=100]…[resetdelay]Cái gì?
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#ルビー
+Ngươi muốn bảo vệ chúng nó…[delay speed=100]…[resetdelay][l]Tự cho mình là anh hùng sao?
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#でびるん
+Đúng là… không giống bản đại nhân lắm.[l]Nhưng không thể làm ngơ!
+[_tb_end_text]
+
+[flash  time="80"  effect="fadeIn"  color="0xFFFFFF"  ]
+
+[chara_mod  name="ポリゴン"  time="0"  cross="true"  storage="chara/28/k12.png"  ]
+[playse  volume="100"  time="0"  buf="1"  storage="fuga4.ogg"  ]
+[chara_hide  name="ルビー"  time="0"  wait="false"  pos_mode="false"  ]
+[chara_show  name="ルビー"  time="0"  wait="false"  storage="chara/44/6.png"  width="939"  height="760"  left="440"  top="-62"  reflect="false"  ]
+[wait  time="100"  ]
+[flash_off  time="20"  effect="fadeOut"  ]
+
+[playse  volume="100"  time="0"  buf="4"  storage="fuga3.ogg"  ]
+[tb_start_text mode=1 ]
+#ルビー
+Được rồi, 3 đứacùng nhau xử lý.
+[_tb_end_text]
+
+[chara_mod  name="プレイヤー"  time="100"  cross="false"  storage="chara/2/fu_te2.png"  ]
+[tb_hide_message_window  ]
+[eval exp="f.zyagan_count = 0"]
+
+[eval exp="f.zyagan_count_debi = 0"]
+
+*zyagan4_modoru
+
+[choice2 text1="Phép Dơi" target1="kou2" text2="Phép khiêu khích" target2="*ue2"]
+
+[zyagan target="*zyagan4" borders="86, 96, 104, 114" x=585]
+
+[zyagan target="*zyagan4_debi" borders="70, 90, 110, 130" x=201 y=245 width=350 height=167 count="zyagan_count_debi" focus="ポリゴン"]
+
+[s  ]
+*zyagan4
+
+[jump  storage="scenario_Ruby.ks"  target="*ue2"  cond="f.kansou2==1"  ]
+[mp_check]
+
+[s  cond="!f.mp_check_pass"  ]
+[call  storage="zyagan_player.ks"  target=""  ]
+[tb_start_text mode=1 ]
+#ルビー
+[_tb_end_text]
+
+[chara_mod  name="ルビー"  time="0"  cross="false"  storage="chara/44/18.png"  ]
+[chara_mod  name="プレイヤー"  time="0"  cross="false"  storage="chara/2/fu_te.png"  ]
+[bg  time="0"  method="crossfade"  storage="player_zyagan_Small.webp"  ]
+[call  storage="me.ks"  target="*meopen"  ]
+[fadein_window  time="300"  ]
+[tb_start_text mode=1 ]
+#ルビー
+[font face="DZUYOKU"][font size=20]Giết giết giết giết giết giết giết giết giết giết giết giết giết giết giết[r]giết giết giết giết giết giết giết giết giết giết giết giết giết giết giết[resetfont]
+[_tb_end_text]
+
+[tb_eval  exp="f.kansou2=1"  name="kansou2"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
+*zyagan4_modoru_2
+
+[call  storage="me.ks"  target="*me_ENDtozi"  ]
+[chara_move  name="ルビー"  anim="false"  time="0"  effect="linear"  wait="true"  left="424"  top="-56"  width="939"  height="760"  ]
+[chara_mod  name="プレイヤー"  time="100"  cross="false"  storage="chara/2/fu_te2.png"  ]
+[chara_mod  name="ポリゴン"  time="0"  cross="true"  storage="chara/28/k12.png"  ]
+[tb_start_tyrano_code]
+[keyframe name="fuwakoma"]
+[frame p="0%" x="0"]
+[frame p="50%" x="3"]
+[frame p="100%" x="0"]
+[endkeyframe]
+[kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="100" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[chara_mod  name="ルビー"  time="0"  cross="false"  storage="chara/44/6.png"  ]
+[bg  time="0"  method="crossfade"  storage="haikei_Small.webp"  ]
+[playbgm  volume="60"  time="0"  loop="true"  storage="12_determination.ogg"  ]
+[call  storage="me.ks"  target="*me_ENDake_nobgm"  ]
+[jump  storage="scenario_Ruby.ks"  target="*zyagan4_modoru"  ]
+*zyagan4_debi
+
+[mp_check]
+
+[s  cond="!f.mp_check_pass"  ]
+[call  storage="zyagan_player.ks"  target=""  ]
+[tb_start_text mode=1 ]
+#でびるん
+[_tb_end_text]
+
+[chara_mod  name="プレイヤー"  time="0"  cross="false"  storage="chara/2/te_zyagan.png"  ]
+[bg  time="0"  method="crossfade"  storage="player_zyagan_Small.webp"  ]
+[chara_mod  name="ポリゴン"  time="0"  cross="false"  storage="chara/28/k15.png"  ]
+[call  storage="me.ks"  target="*meopen_player"  ]
+[fadein_window  time="300"  ]
+[tb_start_text mode=1 ]
+#でびるん
+Bị bất ngờ di chuyển mất rồi… ở vị trí này,[l]khi nó to lên sẽ đâm vào cái liềm trước mặt.
+[_tb_end_text]
+
+[chara_mod  name="ポリゴン"  time="0"  cross="false"  storage="chara/28/k13.png"  ]
+[tb_start_text mode=1 ]
+#でびるん
+[delay speed=100]…[resetdelay][emb exp="f.name"]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#でびるん
+[emb exp="f.name"] sẽ cứu ta mà.
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#でびるん
+[delay speed=100]…[resetdelay]Ta tin
+[_tb_end_text]
+
+[jump  storage="scenario_Ruby.ks"  target="*zyagan4_modoru_2"  ]
+*kou2
+
+[tb_hide_message_window  ]
+[quake  time="300"  count="5"  hmax="3"  wait="false"  ]
+[stopbgm  time="200"  fadeout="true"  ]
+[playse  volume="100"  time="0"  buf="1"  storage="hazikeru.ogg"  ]
+[tb_start_tyrano_code]
+[play_apng name="kemuri" layer="1" x="270" y="0" width="1280" height="960" mode="screen" free="true"]
+[_tb_end_tyrano_code]
+
+[chara_mod  name="プレイヤー"  time="0"  cross="false"  storage="chara/2/te.png"  ]
+[wait  time="100"  ]
+[flash  time="300"  effect="fadeIn"  color="0xFFFFFF"  ]
+
+[chara_hide  name="ルビー"  time="0"  wait="false"  pos_mode="false"  ]
+[chara_hide  name="ポリゴン"  time="0"  wait="false"  pos_mode="false"  ]
+[wait  time="50"  ]
+[chara_show  name="ザコウモリA"  time="50"  wait="false"  storage="chara/45/7.png"  width="444"  height="478"  left="116"  top="5"  reflect="false"  ]
+[tb_start_tyrano_code]
+[keyframe name="A"]
+[frame p="0%" y="0"]
+[frame p="50%" y="-30"]
+[frame p="100%" y="0"]
+[endkeyframe]
+[kanim name="ザコウモリA" keyframe="A" count="infinite" time="600" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[chara_show  name="ザコウモリB"  time="50"  wait="false"  storage="chara/46/7.png"  width="444"  height="478"  left="318"  top="73"  reflect="true"  ]
+[tb_start_tyrano_code]
+[keyframe name="B"]
+[frame p="0%" y="0"]
+[frame p="50%" y="20"]
+[frame p="100%" y="0"]
+[endkeyframe]
+[kanim name="ザコウモリB" keyframe="B" count="infinite" time="1000" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[chara_show  name="ルビー"  time="50"  wait="false"  storage="chara/44/15.png"  width="550"  height="600"  left="607"  top="47"  reflect="false"  ]
+[tb_start_tyrano_code]
+[keyframe name="ru"]
+[frame p="0%" y="0"]
+[frame p="50%" y="40"]
+[frame p="100%" y="0"]
+[endkeyframe]
+[kanim name="ルビー" keyframe="ru" count="infinite" time="1000" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[chara_move  name="感情オーラ1"  anim="false"  time="0"  effect="linear"  wait="false"  left="620"  top="78"  width="396"  height="172"  ]
+[wait  time="1000"  ]
+[flash_off  time="500"  effect="fadeOut"  ]
+
+[wait  time="1500"  ]
+[tb_show_message_window  ]
+[playse  volume="100"  time="0"  buf="1"  storage="aseru.ogg"  ]
+[quake  time="300"  count="5"  hmax="3"  wait="false"  ]
+[lbgm str="3_connection_communication.ogg" vol="50" loop="true" time="0" buf="0"]
+
+[tb_start_text mode=1 ]
+#ルビー
+[font face="DZUYOKU"][font size=25]C-Cái tư thế này là sao! [resetfont]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#でびるん
+[_tb_end_text]
+
+[tb_start_tyrano_code]
+[play_apng name="debi_fuki_show" layer="0" x="7" y="308" width="384" height="400"]
+[_tb_end_tyrano_code]
+
+[wait  time="350"  ]
+[chara_show  name="コマでび"  layer="0"  zindex="2"  time="0"  wait="false"  storage="chara/10/164.png"  width="383"  height="400"  left="7"  top="308"  ]
+[tb_start_tyrano_code]
+[free_apng name="debi_fuki_show" ]
+[_tb_end_tyrano_code]
+
+[tb_start_tyrano_code]
+[keyframe name="fuwakoma"]
+[frame p="0%" y="-10"]
+[frame p="50%" y="0"]
+[frame p="100%" y="-1"]
+[endkeyframe]
+[kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="400" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[tb_start_text mode=1 ]
+#でびるん
+Kuh, ma thuật của [emb exp="f.name"][l]cực kỳ xuất sắc! Thật là hầu tớ tài giỏi.
+[_tb_end_text]
+
+[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/65.png"  ]
+[tb_start_text mode=1 ]
+#でびるん
+Trong lúc nó còn chưa tỉnh, ma lực của mày[l]sẽ do ma quỷ là bản đại nhân tự chịu trách nhiệm cướp hết.
+[_tb_end_text]
+
+[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/67.png"  ]
+[tb_start_text mode=1 ]
+#でびるん
+Mà, ma lực bẩn thỉu của mày thì[l]xin kiếu.
+[_tb_end_text]
+
+[chara_mod  name="ルビー"  time="0"  cross="false"  storage="chara/44/16.png"  ]
+[chara_show  name="感情オーラ3"  time="1000"  wait="false"  storage="chara/13/moya3.png"  width="400"  height="200"  left="578"  top="382"  reflect="false"  ]
+[playse  volume="100"  time="0"  buf="4"  storage="AURA_OK.ogg"  ]
+[tb_start_text mode=1 ]
+#ルビー
+[font face="DZUYOKU"][font size=25]Grununu… Ngươi! ! ! ! [resetfont]
+[_tb_end_text]
+
+[kyushu]
+
+[chara_move  name="ルビー"  anim="true"  time="500"  effect="easeInQuad"  wait="false"  left="604"  top="-612"  width="550"  height="600"  ]
+[playse  volume="100"  time="0"  buf="4"  storage="nigeru.ogg"  ]
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
+#ルビー
+[font face="DZUYOKU"][font size=25]Nhớ đi! ! ! ! ! ! ! [resetfont]
+[_tb_end_text]
+
+[tb_eval  exp="f.ruby=5"  name="ruby"  cmd="="  op="t"  val="5"  val_2="undefined"  ]
+[tb_hide_message_window  ]
+[stopse  time="0"  buf="5"  ]
+[tb_start_text mode=1 ]
+#ザコウモリA
+[_tb_end_text]
+
+[iscript]
+// 全部見たら記録する（初回だけ）
+if (f.chara && !f.finished.includes(f.chara.name)) {
+f.finished = [...f.finished, f.chara.name];
+}
+[endscript]
+
+[call  storage="maku.ks"  target="*close"  ]
+[call  storage="phase.ks"  target="*hide"  ]
+[call  storage="phase.ks"  target="*show_top"  ]
+[bg  time="0"  method="crossfade"  storage="haikei2.webp"  ]
+[chara_hide_all  time="0"  wait="false"  ]
+[chara_show  name="ポリゴン"  time="0"  wait="false"  storage="chara/28/k4.png"  width="504"  height="531"  left="390"  top="67"  reflect="false"  ]
+[tb_start_tyrano_code]
+[keyframe name="po"]
+[frame p="0%" y="0"]
+[frame p="50%" y="20"]
+[frame p="100%" y="0"]
+[endkeyframe]
+[kanim name="ポリゴン" keyframe="po" count="infinite" time="2000" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[flash_off  time="0"  effect="fadeOut"  ]
+
+[playbgm  volume="50"  time="0"  loop="true"  storage="1_debirun_no_theme.ogg"  ]
+[tb_eval  exp="f.photoPose=1"  name="photoPose"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
+[tb_eval  exp="f.photoDeviPose=0"  name="photoDeviPose"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
+[call  storage="maku.ks"  target="*open"  ]
+[wait  time="1000"  ]
+[fadein_window  time="1000"  ]
+[tb_start_text mode=1 ]
+#ザコウモリA
+Nhờ ơn ngài mà đã được cứu disgaya!
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#ザコウモリB
+T-Tại sao ngài lại cứu[l]những đứa như chúng con! ! !
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#でびるん
+Ta không tha thứ cho lũ ma quỷ[l]ở Ma giới đã coi thường bản đại nhân.
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#でびるん
+Những kẻ đối xử tệ với ma quỷ thì[l]càng không tha thứ! Chỉ vậy thôi.
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#ザコウモリB
+Cực cool disgaya! [l]Sẽ đi theo suốt đời disgaya!
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#ザコウモリA
+Ngya~ Tên ngài là gì![l]Tên ngài là gì disgaya!
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#でびるん
+Tên thật của bản đại nhân là…
+[_tb_end_text]
+
+[playse  volume="100"  time="0"  buf="1"  storage="hirameki.ogg"  ]
+[chara_mod  name="ポリゴン"  time="0"  cross="false"  storage="chara/28/k5.png"  ]
+[tb_start_text mode=1 ]
+#でびるん
+[font size=25][font color=0xEC6FC5 bold=true]Belphegor[resetfont][font size=25]đó[resetfont]
+;[font size=25][font color=0xEC6FC5 bold=true]Belphegor[resetfont][font size=25]だ[resetfont][p]
+;;[font size=25][font color=0xEC6FC5 bold=true]ベルフェゴール[resetfont][font size=25]だ[resetfont][p]
+[_tb_end_text]
+
+[quake  time="300"  count="5"  hmax="3"  wait="false"  ]
+[playse  volume="100"  time="0"  buf="1"  storage="sasu.ogg"  ]
+[tb_start_text mode=1 ]
+#ザコウモリA
+E! ? Đại ma quỷ kia…[l]Thì ra là ngài! Kya!
+[_tb_end_text]
+
+[quake  time="300"  count="5"  hmax="3"  wait="false"  ]
+[playse  volume="100"  time="0"  buf="1"  storage="sasu2.ogg"  ]
+[tb_start_text mode=1 ]
+#ザコウモリB
+Không nghe được tin tốt gì,[l]mà ngờ lại là người tuyệt vời thế này… mọi người đều hiểu lầm disgaya!
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#でびるん
+Kuhaha… ừm. Đúng rồi! Lần tới ta sẽ dẫn[l]mấy đứa đi ăn!
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#ザコウモリB
+Đi ăn… là cái thứ mà Beelzebub-sama với lũ đầy tớ[l]của ngài ăn, loại trộncác loại quả cây-disgaya! ! ?
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#ザコウモリA
+Quen biết Beelzebub-sama nên mới được vậy disgaya! Cơ hội tiếp xúc văn hóa ẩm thực với[l]lũ quỷ cấp thấp như chúng con…
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#でびるん
+Hmm… này, đưa sừng ra.
+
+[_tb_end_text]
+
+[flash  time="200"  effect="fadeIn"  color="0x000000"  ]
+
+[playse  volume="100"  time="1000"  buf="4"  storage="ose_good.ogg"  ]
+[chara_mod  name="ポリゴン"  time="0"  cross="false"  storage="chara/28/k4.png"  ]
+[tb_eval  exp="f.mp-=40"  name="mp"  cmd="-="  op="t"  val="40"  val_2="undefined"  ]
+[call  storage="mp.ks"  target="*update"  ]
+[wait  time="1000"  ]
+[flash_off  time="300"  effect="fadeOut"  ]
+
+[tb_start_text mode=1 ]
+#でびるん
+Ta cho mày lượng ma lực để trở về Ma giới.
+
+
+
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#ザコウモリA
+Cũng làm được cả chuyện đó nữa[~]rất cảm kích disgaya!
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#ザコウモリB
+Không về được nên đã được cứu disgaya![l]Hẹn gặp lại ở Ma giới disgaya!
+
+[_tb_end_text]
+
+[tb_hide_message_window  ]
+[tb_start_text mode=1 ]
+#でびるん
+[_tb_end_text]
+
+[flash  time="200"  effect="fadeIn"  color="0x000000"  ]
+
+[playse  volume="100"  time="1000"  buf="4"  storage="tori4.ogg"  ]
+[chara_hide  name="ポリゴン"  time="0"  wait="false"  pos_mode="false"  ]
+[chara_show  name="でびるん"  time="0"  wait="false"  storage="chara/1/31.png"  width="1280"  height="960"  ]
+[tb_start_tyrano_code]
+[keyframe name="fuwa"]
+[frame p="0%" y="0"]
+[frame p="50%" y="-50"]
+[frame p="100%" y="0"]
+[endkeyframe]
+[kanim name="でびるん" keyframe="fuwa" count="infinite" time="2000" direction="alternate" easing="linear"]
+[_tb_end_tyrano_code]
+
+[wait  time="2000"  ]
+[flash_off  time="300"  effect="fadeOut"  ]
+
+[wait  time="500"  ]
+[fadein_window  time="1000"  ]
+[tb_start_text mode=1 ]
+#でびるん
+Ta đưa hết phần ma lực mày thu thập được rồi,[l]nên hôm nay không tính MP.
+[_tb_end_text]
+
+[stopbgm  time="3000"  fadeout="true"  ]
+[camera  time="5000"  zoom="1.3"  wait="false"  y="50"  layer="base"  ]
+[camera  time="5000"  zoom="1.5"  wait="false"  y="50"  layer="0"  ]
+[camera  time="5000"  zoom="1.5"  wait="false"  y="50"  layer="1"  ]
+[chara_mod  name="でびるん"  time="0"  cross="true"  storage="chara/1/53.png"  ]
+[tb_start_text mode=1 ]
+#でびるん
+Dù sao thì mày [delay speed=100]…[resetdelay]
+[_tb_end_text]
+
+[flash  time="80"  effect="fadeIn"  color="0x000000"  ]
+
+[reset_camera  time="0"  wait="false"  ]
+[playse  volume="100"  time="1000"  buf="4"  storage="gimon.ogg"  ]
+[flash_off  time="20"  effect="fadeOut"  ]
+
+[tb_start_text mode=1 ]
+#でびるん
+Mày muốn ngăn bản đại nhân[l]âm mưu trở thành hình dạng mới, đúng không?
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#でびるん
+Ta hiểu rồi.[l]Ta nhìn thấy được mà còn [delay speed=100]…[resetdelay]cảm nhận được.
+[_tb_end_text]
+
+[chara_mod  name="でびるん"  time="0"  cross="true"  storage="chara/1/68.png"  ]
+[tb_start_text mode=1 ]
+#でびるん
+Nếu mày không cứu lúc nãy,[l]bản đại nhân sẽ đầy vết thương, sẽ kiếm được thêm thời gian.
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#でびるん
+Tại sao không làm vậy? [l]Vì thương bản đại nhân sao?
+[_tb_end_text]
+
+[chara_mod  name="でびるん"  time="0"  cross="true"  storage="chara/1/8.png"  ]
+[tb_start_text mode=1 ]
+#でびるん
+Hà, mày thật sự là người tốt quá[l]nên mới vậy.
+[_tb_end_text]
+
+[chara_mod  name="でびるん"  time="0"  cross="true"  storage="chara/1/91.png"  ]
+[tb_start_text mode=1 ]
+#でびるん
+[delay speed=100]…[resetdelay]Nhưng
+[_tb_end_text]
+
+[chara_mod  name="でびるん"  time="0"  cross="true"  storage="chara/1/89.png"  ]
+[tb_start_text mode=1 ]
+#でびるん
+Thực ra… ta đã[l]thử mày.
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#でびるん
+Ta tin rằng mày sẽ cứu.
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#でびるん
+[delay speed=100]…[resetdelay]Nghe rồi chứ? [l]Tên ta là Belphegor.
+;[delay speed=100]・・・[resetdelay]聞いたろ？[r]我が名はBelphegor[p]
+;;[delay speed=100]・・・[resetdelay]聞いたろ？[r]我が名はベルフェゴール[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#でびるん
+Ta đã cho mày biết tên thật.[l]Bởi vì ta biết mày sẽ không làm điều xấu.
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#でびるん
+[delay speed=100]…[resetdelay]
+[_tb_end_text]
+
+[chara_mod  name="でびるん"  time="0"  cross="true"  storage="chara/1/53.png"  ]
+[tb_start_text mode=1 ]
+#でびるん
+Mày muốn trở thành[l]bạn của bản đại nhân đúng không!
+
+[_tb_end_text]
+
+[tb_start_text mode=4 ]
+#でびるん
+Vậy thì hãy dừng bản đại nhân đi [delay speed=300]…[resetdelay][wait time=800][er]
+[_tb_end_text]
+
+[flash  time="80"  effect="fadeIn"  color="0x000000"  ]
+
+[stopbgm  time="0"  ]
+[camera  time="0"  zoom="1.3"  wait="false"  y="30"  ]
+[playse  volume="100"  time="0"  buf="3"  storage="k3.ogg"  loop="true"  ]
+[playse  volume="100"  time="1000"  buf="4"  storage="k1.ogg"  ]
+[chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/27.png"  ]
+[layermode  mode="overlay"  color="0xffffff"  time="0"  wait="false"  graphic="k.png"  ]
+[flash_off  time="20"  effect="fadeOut"  ]
+
+[quake  time="300"  count="7"  hmax="5"  wait="false"  ]
+[reset_camera  time="300"  wait="false"  ]
+[tb_start_text mode=1 ]
+#でびるん
+[font face="DZUYOKU"][font size=37]Bubu! [resetfont][wait time=400]
+
+[_tb_end_text]
+
+[chara_mod  name="でびるん"  time="0"  cross="true"  storage="chara/1/56.png"  ]
+[tb_start_text mode=1 ]
+#でびるん
+[delay speed=300]…[resetdelay]Không, không thể.
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#でびるん
+Chừng nào bản thể của bản đại nhân chưa mục nát,[l]gốc rễ lười biếng không thể loại bỏ.
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#でびるん
+Không ngờ lại trở thành quy mô lớn thế này.[l]Ngoài dự kiến.
+
+[_tb_end_text]
+
+[chara_mod  name="でびるん"  time="0"  cross="true"  storage="chara/1/51.png"  ]
+[tb_start_text mode=1 ]
+#でびるん
+[delay speed=100]…[resetdelay]Giờ thì biết nói sao.
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#でびるん
+Chính cái bộ dạng ỷ lại thế này[l]là nguyên nhân bị coi thường.
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#でびるん
+Ta phải chứng minh rằng nếu bản đại nhân cố gắng,[l]cũng sẽ làm được.
+[_tb_end_text]
+
+[chara_move  name="プレイヤー"  anim="true"  time="1000"  effect="easeInQuad"  wait="false"  top="800"  width="1280"  height="960"  ]
+[tb_start_text mode=1 ]
+#でびるん
+[emb exp="f.name"] đã chăm sóc ta [delay speed=300]…[resetdelay][l]Nhưng cuối cùng, ta sẽ tự tay cho hắn biết.
+[_tb_end_text]
+
+[stopse  time="200"  buf="1"  fadeout="true"  ]
+[playse  volume="100"  time="1000"  buf="5"  storage="gasagoso.ogg"  fadein="true"  loop="true"  ]
+[tb_start_text mode=1 ]
+#でびるん
+[delay speed=300]…[resetdelay]Mày đang làm gì đó.
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#でびるん
+À, nguyên liệu đó…[delay speed=300]…[resetdelay][l]Làm raspberry pie, ta nhờ mày đúng không?
+[_tb_end_text]
+
+[chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/100.png"  ]
+[tb_start_text mode=1 ]
+#でびるん
+[delay speed=300]…[resetdelay]Mày
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#でびるん
+Mày [delay speed=100]…[resetdelay][l]Đừng có thay đổi đến cuối cùng.
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#でびるん
+[delay speed=100]…[resetdelay]
+[_tb_end_text]
+
+[tb_start_text mode=4 ]
+#でびるん
+Nhưng giờ [delay speed=100]…[resetdelay]
+
+[_tb_end_text]
+
+[layopt layer=4 visible="true"]
+
+[image name="kuro" layer=4 folder="fgimage" storage="default/kuro.webp" time="500"  wait="false"  ]
+
+[stopse  time=""  buf="3"  fadeout="false"  ]
+[stopse  time=""  buf="5"  fadeout="false"  ]
+[tb_start_text mode=4 ]
+#でびるん
+Bản đại nhân không phải là kẻ[yếu đuối]sẽ dừng vì[l]mấy chuyện như vậy.
+
+
+[_tb_end_text]
+
+[chara_move  name="プレイヤー"  anim="false"  time="0"  effect="easeInQuad"  wait="false"  top="0"  width="1280"  height="960"  ]
+[free_layermode  time="0"  wait="true"  ]
+[jump  storage="loop_Chapter4.ks"  target="*end_complete"  cond="f.end_complete==1"  ]

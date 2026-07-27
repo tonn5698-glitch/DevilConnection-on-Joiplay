@@ -1,0 +1,42 @@
+# DevilConnection original game assets (property of ChaoGames)
+data/bgimage/
+data/bgm/
+data/fgimage/
+data/sound/
+data/video/
+data/image/
+
+# Keep our additions
+!data/image/main-loading.jpg
+
+# Original fonts - allow our additions
+data/others/*.ttf
+!data/others/SVN-Hiro Misake.ttf
+
+# Backups
+_backup_anticheat/
+data/backup*.zip
+data/scenario_backup_*/
+*.bak
+*.zip
+
+# Electron cache
+devil-connection/
+
+# Node
+node_modules/
+
+# Save data
+save/
+
+# Logs
+log.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dev/translation tools
+translate*.py
+translations.json
+*.py
