@@ -57,7 +57,7 @@ Thiên sứ tình yêu Kupya-deru cùng quỷ Devilun-kun sẽ gửi đến[r]b�
 [chara_mod  name="劇場える"  time="0"  cross="false"  storage="chara/16/kupya2.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Bị bú sừng thì cảm giác thế nào vậy?[r]Chắc là sướng lắm lắm…
+Bị bú sừng thì cảm giác thế nào vậy?[r]Chắc là sướng lắm lắm…[p]
 
 
 [_tb_end_text]
@@ -92,14 +92,14 @@ Bị bú sừng thì cảm giác thế nào vậy?[r]Chắc là sướng lắm l
 [chara_mod  name="劇場でび"  time="0"  cross="false"  storage="chara/15/dagya31.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Trời! Biết bao chỗ không chọn lại đi bôi kem[r]lên cái sừng nhạy cảm nhất…Bản đại nhân cũng[if exp="f.HANYOU == 1"]muốn hơn[endif] được bú cơ chứ…
+Trời! Biết bao chỗ không chọn lại đi bôi kem[r]lên cái sừng nhạy cảm nhất…Bản đại nhân cũng[if exp="f.HANYOU == 1"]muốn hơn[endif] được bú cơ chứ…[p]
 
 [_tb_end_text]
 
 [chara_mod  name="劇場でび"  time="0"  cross="false"  storage="chara/15/dagya34.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-…Ơ?Rõ ràng muốn mint lắm mà[r]bị kích thích do được [emb exp="f.name"] bú mà tỉnh dậy rồi à
+…Ơ?Rõ ràng muốn mint lắm mà[r]bị kích thích do được [emb exp="f.name"] bú mà tỉnh dậy rồi à[p]
 
 
 
@@ -108,7 +108,7 @@ Trời! Biết bao chỗ không chọn lại đi bôi kem[r]lên cái sừng nh�
 
 [tb_start_text mode=1 ]
 #でびるん
-T…tại sao lúc đó lại thèm đến vậy…[r]giờ nghĩ lại không hiểu nổi nữa
+T…tại sao lúc đó lại thèm đến vậy…[r]giờ nghĩ lại không hiểu nổi nữa[p]
 
 
 [_tb_end_text]

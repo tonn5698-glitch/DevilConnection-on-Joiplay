@@ -145,13 +145,13 @@ TYRANO.kag.stat.is_strong_stop = false;
 [frame p="50%" y="-5"]
 [frame p="100%" y="0"]
 [endkeyframe]
-[kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="1000" direction="alternate" easing="linear"]
+[kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="1000" direction="alternate" easing="linear"][p]
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
 #でびるん
 Nhìn đi, sương mù đã xuất hiện rồi. [wait time=200]Đó là [font color=0xEC6FC5 bold=true]quầng hào cảm xúc[resetfont] được chiết xuất từ cảm xúc của hắn.[r]Thật sự là dưỡng chất ngon lành cho ta.[p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/1.png"  ]
 [tb_start_text mode=1 ]
@@ -168,7 +168,7 @@ Nhìn đi, sương mù đã xuất hiện rồi. [wait time=200]Đó là [font c
 [kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="400" direction="alternate" easing="linear"]
 [_tb_end_tyrano_code]
 
-[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/10.png"  ]
+[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/10.png"  ][p]
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [playse  volume="100"  time="0"  buf="3"  storage="sasu.ogg"  ]
 [tb_start_text mode=1 ]
@@ -197,13 +197,13 @@ Nhìn đi, sương mù đã xuất hiện rồi. [wait time=200]Đó là [font c
 [chara_mod  name="プレイヤー"  time="0"  cross="false"  storage="chara/2/te.png"  ]
 [chara_mod  name="ペイン"  time="0"  cross="false"  storage="chara/8/4.png"  ]
 [wait  time="300"  ]
-[playse  volume="100"  time="0"  buf="4"  storage="AURA_NG.ogg"  ]
+[playse  volume="100"  time="0"  buf="4"  storage="AURA_NG.ogg"  ][p]
 [chara_show  name="感情オーラ2"  time="1000"  wait="false"  storage="chara/12/moya2-2.png"  width="460"  height="200"  left="604"  top="349"  reflect="false"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ペイン
 Ối, tự nhiên vỡ tan rồi! Oái![p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="ペイン"  time="0"  cross="false"  storage="chara/8/14.png"  ]
 [tb_start_text mode=1 ]
@@ -230,7 +230,7 @@ Nhưng mà cũng giống Crouton thôi.[p]
 
 [chara_mod  name="プレイヤー"  time="0"  cross="false"  storage="chara/2/te.png"  ]
 [wait  time="300"  ]
-[playse  volume="100"  time="0"  buf="4"  storage="AURA_NG.ogg"  ]
+[playse  volume="100"  time="0"  buf="4"  storage="AURA_NG.ogg"  ][p]
 [chara_show  name="感情オーラ2"  time="1000"  wait="false"  storage="chara/12/moya2-2.png"  width="460"  height="200"  left="605"  top="346"  reflect="false"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -264,13 +264,13 @@ TYRANO.kag.stat.is_strong_stop = false;
 [_tb_end_tyrano_code]
 
 [tb_start_tyrano_code]
-[keyframe name="fuwakoma"]
+[keyframe name="fuwakoma"][p]
 [frame p="0%" y="0"]
 [frame p="50%" y="-5"]
 [frame p="100%" y="0"]
 [endkeyframe]
 [kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="1000" direction="alternate" easing="linear"]
-[_tb_end_tyrano_code]
+[_tb_end_tyrano_code][p]
 
 [tb_start_text mode=1 ]
 #でびるん
@@ -321,12 +321,12 @@ Ta là ác quỷ. Can thiệp vào đối phương thì có gì khó![r]Bằng c
 [chara_hide  name="TAP"  time="500"  wait="false"  pos_mode="false"  ]
 [call  storage="zyagan.ks"  target=""  ]
 [tb_start_text mode=1 ]
-#ペイン
+#ペイン[p]
 [_tb_end_text]
 
 [chara_mod  name="ペイン"  time="0"  cross="false"  storage="chara/8/8.png"  ]
 [chara_mod  name="プレイヤー"  time="0"  cross="false"  storage="chara/2/fu_te.png"  ]
-[bg  time="0"  method="crossfade"  storage="haikei_zyagan_Small.webp"  ]
+[bg  time="0"  method="crossfade"  storage="haikei_zyagan_Small.webp"  ][p]
 [call  storage="me.ks"  target="*meopen"  ]
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
@@ -354,18 +354,18 @@ Tao đi dạo rồi lạc tới đây lúc nào không hay…[p]
 [_tb_end_tyrano_code]
 
 [tb_start_tyrano_code]
-[keyframe name="fuwakoma"]
+[keyframe name="fuwakoma"][p]
 [frame p="0%" y="0"]
 [frame p="50%" y="-5"]
 [frame p="100%" y="0"]
 [endkeyframe]
 [kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="1000" direction="alternate" easing="linear"]
-[_tb_end_tyrano_code]
+[_tb_end_tyrano_code][p]
 
 [tb_start_text mode=1 ]
 #でびるん
 Đó là tiếng lòng của hắn.[wait time=200] Kufufu… ngây thơ và ngu ngốc thật.[wait time=200][r]Sắp bị ta cuỗm mất ma lực rồi mà![p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/8.png"  ]
 [tb_start_text mode=1 ]
@@ -394,13 +394,13 @@ Dù sao thì đây cũng giống phòng của Ting,[r]đầy sách luôn! Thật
 [keyframe name="fuwakoma"]
 [frame p="0%" y="0"]
 [frame p="50%" y="-5"]
-[frame p="100%" y="0"]
+[frame p="100%" y="0"][p]
 [endkeyframe]
 [kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="400" direction="alternate" easing="linear"]
 [_tb_end_tyrano_code]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/10.png"  ]
-[quake  time="300"  count="5"  hmax="3"  wait="false"  ]
+[quake  time="300"  count="5"  hmax="3"  wait="false"  ][p]
 [playse  volume="100"  time="0"  buf="3"  storage="sasu.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
@@ -415,7 +415,7 @@ Hả?[wait time=200] Là ác quỷ! Ngầu quá![p]
 
 [tb_start_tyrano_code]
 [keyframe name="fuwakoma"]
-[frame p="0%" y="0"]
+[frame p="0%" y="0"][p]
 [frame p="50%" y="-5"]
 [frame p="100%" y="0"]
 [endkeyframe]
@@ -433,7 +433,7 @@ Vậy…vậy hả? Ngầu à…ừm…[wait time=200][r]Đúng là ta không c�
 
 [tb_start_tyrano_code]
 [keyframe name="fuwakoma"]
-[frame p="0%" y="0"]
+[frame p="0%" y="0"][p]
 [frame p="50%" y="-5"]
 [frame p="100%" y="0"]
 [endkeyframe]
@@ -473,8 +473,8 @@ Khoan…cái, [wait time=200]ánh mắt gì vậy.[wait time=200][r]Nè, thử l
 [chara_hide  name="TAP"  time="500"  wait="false"  pos_mode="false"  ]
 [call  storage="zyagan.ks"  target=""  ]
 [tb_start_text mode=1 ]
-#ペイン
-[_tb_end_text]
+#ペイン[p]
+[_tb_end_text][p]
 
 [chara_mod  name="ペイン"  time="0"  cross="false"  storage="chara/8/13.png"  ]
 [chara_mod  name="プレイヤー"  time="0"  cross="false"  storage="chara/2/fu_te.png"  ]
@@ -536,7 +536,7 @@ Nếu có cánh trắng như Ting thì[r]chắc chắn trông ngầu lắm![p]
 [tb_start_tyrano_code]
 [keyframe name="fuwakoma"]
 [frame p="0%" y="0"]
-[frame p="50%" y="-5"]
+[frame p="50%" y="-5"][p]
 [frame p="100%" y="0"]
 [endkeyframe]
 [kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="400" direction="alternate" easing="linear"]
@@ -551,7 +551,7 @@ Nếu có cánh trắng như Ting thì[r]chắc chắn trông ngầu lắm![p]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/91.png"  ]
 [tb_start_tyrano_code]
-[keyframe name="fuwakoma"]
+[keyframe name="fuwakoma"][p]
 [frame p="0%" y="0"]
 [frame p="50%" y="-5"]
 [frame p="100%" y="0"]
@@ -580,7 +580,7 @@ Mẹo là chú ý [font color=0xEC6FC5 bold=true]màu mặt cái sọ trước c
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [playse  volume="100"  time="0"  buf="0"  storage="hazikeru.ogg"  ]
 [tb_start_tyrano_code]
-[play_apng name="kemuri" layer="1" x="0" y="0" width="1280" height="960" mode="screen" free="true"]
+[play_apng name="kemuri" layer="1" x="0" y="0" width="1280" height="960" mode="screen" free="true"][p]
 [_tb_end_tyrano_code]
 
 [playse  volume="100"  time="0"  buf="4"  storage="AURA_NG.ogg"  ]
@@ -605,7 +605,7 @@ Mẹo là chú ý [font color=0xEC6FC5 bold=true]màu mặt cái sọ trước c
 [_tb_end_tyrano_code]
 
 [tb_start_tyrano_code]
-[keyframe name="fuwakoma"]
+[keyframe name="fuwakoma"][p]
 [frame p="0%" y="0"]
 [frame p="50%" y="-5"]
 [frame p="100%" y="0"]
@@ -620,7 +620,7 @@ Mẹo là chú ý [font color=0xEC6FC5 bold=true]màu mặt cái sọ trước c
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/91.png"  ]
 [tb_start_tyrano_code]
-[keyframe name="fuwakoma"]
+[keyframe name="fuwakoma"][p]
 [frame p="0%" y="0"]
 [frame p="50%" y="-5"]
 [frame p="100%" y="0"]
@@ -654,7 +654,7 @@ Mẹo là chú ý [font color=0xEC6FC5 bold=true]màu mặt cái sọ trước c
 [play_apng name="kemuri" layer="1" x="0" y="0" width="1280" height="960" mode="screen" free="true"]
 [_tb_end_tyrano_code]
 
-[chara_mod  name="ペイン"  time="0"  cross="false"  storage="chara/8/12.png"  ]
+[chara_mod  name="ペイン"  time="0"  cross="false"  storage="chara/8/12.png"  ][p]
 [tb_show_message_window  ]
 [tb_start_tyrano_code]
 [anim layer="message0" time="300" opacity="255"]
@@ -662,7 +662,7 @@ Mẹo là chú ý [font color=0xEC6FC5 bold=true]màu mặt cái sọ trước c
 [wait time="300"]
 [_tb_end_tyrano_code]
 
-[tb_start_text mode=1 ]
+[tb_start_text mode=1 ][p]
 #ペイン
 [font face="YOWAKU"][font size=25]Sao tự nhiên mệt quá…[r]Muốn về phòng nghỉ ngơi quá đi…[resetfont][p]
 
@@ -692,7 +692,7 @@ Mẹo là chú ý [font color=0xEC6FC5 bold=true]màu mặt cái sọ trước c
 [kanim name="でびるん" keyframe="fuwa" count="infinite" time="2000" direction="alternate" easing="linear"]
 [_tb_end_tyrano_code]
 
-[flash_off  time="0"  effect="fadeOut"  ]
+[flash_off  time="0"  effect="fadeOut"  ][p]
 
 [tb_eval  exp="f.photoDeviPose=0"  name="photoDeviPose"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
 [call  storage="maku.ks"  target="*open"  ]
@@ -710,7 +710,7 @@ Quầng cảm xúc bị đục thì ma lực thu được sẽ giảm.[r]Dùng C
 #でびるん
 Thấy chưa? Hiểu rồi chứ?[wait time=500]
 
-[_tb_end_text]
+[_tb_end_text][p]
 
 [choice2 text1="Gật đầu" target1="*yes" text2="..." target2="*no" y="500"]
 
@@ -719,7 +719,7 @@ Thấy chưa? Hiểu rồi chứ?[wait time=500]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/1.png"  ]
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 Kufufu… ngoan lắm[emb exp="f.name"]♥[p]
 
 [_tb_end_text]
@@ -728,7 +728,7 @@ Kufufu… ngoan lắm[emb exp="f.name"]♥[p]
 *no
 
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 Chậm tiêu nhỉ. Giải thích lười lắm nên[r][wait time=300]học phải tự mày thôi![p]
 
 [_tb_end_text]
@@ -741,7 +741,7 @@ Chậm tiêu nhỉ. Giải thích lười lắm nên[r][wait time=300]học ph�
 Cục lông đó…do khơi gợi quầng cảm xúc nên[r]kiệt sức rồi thấy không, đó là sức mạnh của ác quỷ![p]
 [_tb_end_text]
 
-[chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/1.png"  ]
+[chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/1.png"  ][p]
 [tb_start_text mode=1 ]
 #でびるん
 [font face="KaiseiDecol-Bold"]Ch[r]ắc chắn mày sẽ phải đối mặt với đủ loại kẻ.[wait time=300][r]Trong đó có đứa mạnh hơn mày…xử lý chúng cho khéo![p]

@@ -96,7 +96,7 @@ TYRANO.kag.stat.is_strong_stop = false;
 [chara_hide_all  time="0"  wait="false"  ]
 [chara_show  name="ベッド"  time="0"  wait="false"  storage="chara/19/6.png"  width="1140"  height="855"  left="62"  top="58"  reflect="false"  ]
 [chara_show  name="プレイヤー"  zindex="2"  layer="1"  time="0"  wait="false"  storage="chara/2/te.png"  width="1280"  height="960"  ]
-[flash_off  time="1000"  effect="fadeOut"  ]
+[flash_off  time="1000"  effect="fadeOut"  ][p]
 
 [wait  time="1500"  ]
 [fadein_window  time="1000"  ]
@@ -104,7 +104,7 @@ TYRANO.kag.stat.is_strong_stop = false;
 #でびるん
 Mày dám quay lại thật hả[wait time=300][r]Muộn quá đi[p]
 
-[_tb_end_text]
+[_tb_end_text][p]
 
 [playse  volume="100"  time="0"  buf="4"  storage="aseru.ogg"  ]
 [chara_mod  name="ベッド"  time="0"  cross="false"  storage="chara/19/12.png"  ]
@@ -216,7 +216,7 @@ Khi bị trục xuất,[wait time=300]ta được giao nhiệm vụ[r]đi trinh 
 [wait  time="50"  ]
 [chara_mod  name="ベッド"  time="0"  cross="false"  storage="chara/19/7.png"  ]
 [playse  volume="100"  time="0"  buf="4"  storage="sasu.ogg"  ]
-[camera  time="1000"  zoom="1.15"  wait="false"  layer="base"  y="20"  ]
+[camera  time="1000"  zoom="1.15"  wait="false"  layer="base"  y="20"  ][p]
 [camera  time="1000"  zoom="1.3"  wait="false"  layer="0"  y="20"  ]
 [camera  time="1000"  zoom="1.3"  wait="false"  layer="1"  y="20"  ]
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
@@ -232,7 +232,7 @@ Hừ,[wait time=300]mày có cái mạch suy nghĩ[r]yêu đương ngớ ngẩn 
 [wait  time="50"  ]
 [playse  volume="100"  time="0"  buf="4"  storage="sasu.ogg"  ]
 [chara_mod  name="ベッド"  time="0"  cross="false"  storage="chara/19/13.png"  ]
-[camera  time="1000"  zoom="1.15"  wait="false"  layer="base"  y="20"  ]
+[camera  time="1000"  zoom="1.15"  wait="false"  layer="base"  y="20"  ][p]
 [camera  time="1000"  zoom="1.3"  wait="false"  layer="0"  y="20"  ]
 [camera  time="1000"  zoom="1.3"  wait="false"  layer="1"  y="20"  ]
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
@@ -243,7 +243,7 @@ Nếu là kẻ méo mó như mày thì[r]chắc sẽ nghĩ vậy thật[p]
 
 *jump
 
-[reset_camera  time="1000"  wait="false"  layer="base"  ]
+[reset_camera  time="1000"  wait="false"  layer="base"  ][p]
 [reset_camera  time="1000"  wait="false"  layer="0"  ]
 [reset_camera  time="1000"  wait="false"  layer="1"  ]
 [chara_mod  name="ベッド"  time="0"  cross="false"  storage="chara/19/30.png"  ]
@@ -253,7 +253,7 @@ Nếu là kẻ méo mó như mày thì[r]chắc sẽ nghĩ vậy thật[p]
 
 [_tb_end_text]
 
-[chara_mod  name="ベッド"  time="0"  cross="false"  storage="chara/19/15.png"  ]
+[chara_mod  name="ベッド"  time="0"  cross="false"  storage="chara/19/15.png"  ][p]
 [camera  time="10000"  zoom="1.3"  wait="false"  layer="base"  y="50"  ]
 [camera  time="10000"  zoom="1.5"  wait="false"  layer="0"  y="50"  ]
 [camera  time="10000"  zoom="1.5"  wait="false"  layer="1"  y="50"  ]
@@ -286,7 +286,7 @@ Từ nay về sau, suốt đời, ta muốn mày làm việc vì bản đại nh
 
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [reset_camera  time="700"  wait="false"  layer="base"  ]
-[reset_camera  time="700"  wait="false"  layer="0"  ]
+[reset_camera  time="700"  wait="false"  layer="0"  ][p]
 [reset_camera  time="700"  wait="false"  layer="1"  ]
 [chara_mod  name="ベッド"  time="0"  cross="false"  storage="chara/19/32.png"  ]
 [playse  volume="100"  time="0"  buf="4"  storage="sasu2.ogg"  ]
@@ -335,7 +335,7 @@ Mà dù sao đi nữa,[wait time=100]bị bóc lột đến thế mà[r]vẫn ng
 [_tb_end_tyrano_code]
 
 [chara_mod  name="ベッド"  time="0"  cross="false"  storage="chara/19/5.png"  ]
-[chara_hide  name="TAP"  time="500"  wait="false"  pos_mode="false"  ]
+[chara_hide  name="TAP"  time="500"  wait="false"  pos_mode="false"  ][p]
 [flash_off  time="20"  effect="fadeOut"  ]
 
 [tb_show_message_window  ]
@@ -366,7 +366,7 @@ Trời ơi, đêm nào cũng vậy, dai thế[r]mày thích ngủ cùng ta đế
 [_tb_end_tyrano_code]
 
 [chara_mod  name="ベッド"  time="0"  cross="false"  storage="chara/19/29.png"  ]
-[chara_hide  name="TAP"  time="500"  wait="false"  pos_mode="false"  ]
+[chara_hide  name="TAP"  time="500"  wait="false"  pos_mode="false"  ][p]
 [flash_off  time="20"  effect="fadeOut"  ]
 
 [tb_show_message_window  ]
@@ -409,7 +409,7 @@ Hà~, muốn ngủ thì tắt điện nhanh lên[p]
 
 [image name="kuro" layer=4 folder="fgimage" storage="default/kuro.webp" time="20"  wait="false"  ]
 
-[playse  volume="100"  time="0"  buf="1"  storage="off.ogg"  ]
+[playse  volume="100"  time="0"  buf="1"  storage="off.ogg"  ][p]
 [wait  time="3000"  ]
 [tb_show_message_window  ]
 [playse  volume="60"  time="0"  buf="1"  storage="fuku2.ogg"  ]
@@ -427,12 +427,12 @@ Bước ra đi![r]Khó chịu quá![p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 [if exp="f.blueberry== 1]Hôi lắm hả!?[wait time=300]T-Tà là do tối qua bôi mứt mà[r]ngủ đó! Không phải mùi của bản đại nhân![else]Hừ,[wait time=300]phồng phồng[delay speed=100]...[resetdelay]? Ta có làm gì đặc biệt đâu[r]chắc tại sáng nay mày giặt nên thơm vậy?][endif][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 Vì thế đừng có bám dính vậy![r][if exp="f.blueberry== 1]Mày cũng sẽ bị lây mùi việt quất đó![else]Ta không phải đồ chơi bông đâu![endif][p]
 [_tb_end_text]
 
@@ -477,7 +477,7 @@ Mày thấy rồi đó, thân hình đầy charisma của bản đại nhân![r]
 [kanim name="でびるん" keyframe="fuwa" count="infinite" time="2000" direction="alternate" easing="linear"]
 [_tb_end_tyrano_code]
 
-[call  storage="phase.ks"  target="*show_top"  ]
+[call  storage="phase.ks"  target="*show_top"  ][p]
 [flash_off  time="1000"  effect="fadeOut"  ]
 
 [fadein_window  time="1000"  ]
@@ -494,7 +494,7 @@ Khốn kiếp[delay speed=300]...[resetdelay][r]Tại mày mà ta ngủ không n
 [playse  volume="100"  time="1000"  buf="4"  storage="k1.ogg"  ]
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/27.png"  ]
 [layermode  mode="overlay"  color="0xffffff"  time="0"  wait="false"  graphic="k.png"  ]
-[flash_off  time="20"  effect="fadeOut"  ]
+[flash_off  time="20"  effect="fadeOut"  ][p]
 
 [quake  time="300"  count="7"  hmax="5"  wait="false"  ]
 [reset_camera  time="300"  wait="false"  ]
@@ -505,7 +505,7 @@ Khốn kiếp[delay speed=300]...[resetdelay][r]Tại mày mà ta ngủ không n
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 [delay speed=300]......[resetdelay][p]
 [_tb_end_text]
 
@@ -519,7 +519,7 @@ Duy trì ma lực khổng lồ trong[r]cơ thể nhỏ bé đúng là hơi cực
 #でびるん
 [delay speed=100]Tuy nhiên tất cả cũng vì tham vọng của bản đại nhân[resetdelay][p]
 
-[_tb_end_text]
+[_tb_end_text][p]
 
 *end_complete_jump
 

@@ -42,7 +42,7 @@ Là [emb exp="f.name"] nè! Yo-hoo~♥[r]Lại triệu hồi tớ nữa rồi ha
 [playse  volume="60"  time="0"  buf="4"  storage="kira.ogg"  ]
 [tb_start_text mode=1 ]
 #あもあも
-U-miu! Và cả[r]Kupya-chan nữa[p]!
+U-miu! Và cả[r]Kupya-chan nữa[p]![p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -236,27 +236,27 @@ Vì thế, những cô ấy đó[p]
 [tb_start_text mode=1 ]
 #クピャドエル
 K-Không được đâu![r]Tôi... lúc đó sợ lắm[p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [tb_start_text mode=1 ]
 #あもあも
 [font face="kowai"]Tại sao lại phủ nhận chứ?[r]Đó mới là hạnh phúc của tớ mà?[resetfont][p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [tb_start_text mode=1 ]
 #クピャドエル
 Kéo người vô tội sa ngã vào tội lỗi...[r]Không được......[p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [tb_start_text mode=1 ]
 #あもあも
 [font size=14][font face="kowai"]Cái gì sướng thì là hạnh phúc đúng không? Có người cũng thích mà?[r][resetfont][font face="kowai"]Ai mà quyết định ai là ác chứ?[resetfont][p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [tb_start_text mode=1 ]
 #クピャドエル
 ...Guh[p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [flash  time="0"  effect="fadeIn"  color="0x000000"  ]
 
@@ -275,7 +275,7 @@ Kéo người vô tội sa ngã vào tội lỗi...[r]Không được......[p]
 [tb_start_text mode=1 ]
 #あもあも
 [font face="kowai"]Nhìn nè[resetfont][p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [reset_camera  time="5000"  wait="false"  layer="layer_camera"  ]
 [free layer=4 name="kuro" time="0"  ]
@@ -283,17 +283,17 @@ Kéo người vô tội sa ngã vào tội lỗi...[r]Không được......[p]
 [tb_start_text mode=1 ]
 #あもあも
 [font face="kowai"]Hạnh phúc của ai đó là hạnh phúc của mình à...[r]Không có chuyện thuận tiện như vậy đâu[resetfont][p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [tb_start_text mode=1 ]
 #あもあも
 [font face="kowai"]Giờ vẫn sợ tớ...[r]Nếu bị phản ứng vậy, tớ không hạnh phúc đâu?[resetfont][p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [tb_start_text mode=1 ]
 #あもあも
 [font face="kowai"]Vậy tại sao không từ chối?[r]Làm vậy tớ đâu có bị tổn thương[resetfont][p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [playse  volume="100"  time="0"  buf="1"  storage="sasu.ogg"  ]
@@ -305,7 +305,7 @@ Kéo người vô tội sa ngã vào tội lỗi...[r]Không được......[p]
 [tb_start_text mode=1 ]
 #でびるん
 [font size=40]MAGAGAGAGA!![resetfont][p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [reset_mind_voice  ]
 [mind_voice  color="0x56b0af"  name="でびるん"  text="Đ.м... Cái dây này... tháo không ra!"  face="SVNHiroMisake"  ]
@@ -366,13 +366,13 @@ Kupya-chan thực sự[r]rất thích Belbo nhỉ[p]
 Nếu tớ chọc ghẹo Belbo,[r]Kupya-chan sẽ chú ý đến tớ nhiều hơn không nhỉ[p]
 [_tb_end_text]
 
-[tb_start_text mode=1 ]
+[tb_start_text mode=1 ][p]
 #あもあも
 ...Nhưng mà, có cái nơ đó thì[r]cũng không cần nữa nhỉ, u-miu-miu-miu♥[p]
 [_tb_end_text]
 
 [jump  storage="Devil_amoamo.ks"  target="*zyagan1_modoru_2"  cond="f.amoribon==1"  ]
-[call  storage="me.ks"  target="*me_ENDtozi_player"  ]
+[call  storage="me.ks"  target="*me_ENDtozi_player"  ][p]
 [chara_mod  name="プレイヤー"  time="0"  cross="false"  storage="chara/2/yubiwa.png"  ]
 [tb_start_tyrano_code]
 [keyframe name="fuwakoma"]
@@ -395,13 +395,13 @@ Nếu tớ chọc ghẹo Belbo,[r]Kupya-chan sẽ chú ý đến tớ nhiều h�
 [_tb_end_text]
 
 [chara_mod  name="サブくぴゃ"  time="0"  cross="false"  storage="chara/49/A9.png"  ]
-[tb_start_text mode=1 ]
+[tb_start_text mode=1 ][p]
 #クピャドエル
 T-Từ đó...[r]nghĩa là sao...?[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[tb_eval  exp="f.amoribon=1"  name="amoribon"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
+[tb_eval  exp="f.amoribon=1"  name="amoribon"  cmd="="  op="t"  val="1"  val_2="undefined"  ][p]
 [jump  storage="Devil_amoamo.ks"  target="*zyagan1_modoru"  ]
 *zyagan1_2serihu
 
@@ -424,47 +424,47 @@ Belbo chắc chỉ thích[r]ngoại hình đáng yêu của Kupya-chan thôi[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#あもあも
+#あもあも[p]
 Nhưng tớ thì khác, ban đầu[tớ cũng bị thu hút bởi Kupya-chan là thiên thần, nhưng...[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#あもあも
+#あもあも[p]
 Tớ đã nhận ra.[r]Phần đen tối bên trong cô Kupya-chan dễ thương...[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#あもあも
+#あもあも[p]
 Dù rõ ràng sợ tớ[p]Dù bị đối phương phát hiện qua thái độ...[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#あもあも
+#あもあも[p]
 Vì bản thân lý tưởng của mình...[r]đè nén bản thân rồi nói dối[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#あもあも
+#あもあも[p]
 Cái phần cố gắng che giấu phần xấu xí như vậy[r]giống tớ nên tớ thích[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#あもあも
+#あもあも[p]
 Xin lỗi vì đã bắt nạt nha,[r]nhưng đây là cách tớ thể hiện tình yêu[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#あもあも
+#あもあも[p]
 Vì thế, tớ tự tin rằng[r]tớ yêu Kupya-chan hơn Belbo chỉ nhìn bề ngoài[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#あもあも
+#あもあも[p]
 Tớ lần đầu quan tâm ai nhiều thế này![r]Đây là tình yêu sao? Hay là tình thương?[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#あもあも
+#あもあも[p]
 Tớ sẽ chấp nhận tất cả của Kupya-chan nên[r]Kupya-chan cũng hãy chấp nhận tất cả của tớ[p]
 [_tb_end_text]
 
@@ -509,7 +509,7 @@ Tao không cần con mắt quỷ tìm cũng biết được chứ đồ ngu![r]N
 [_tb_end_text]
 
 [jump  storage="Devil_amoamo.ks"  target="*zyagan1_modoru_2"  ]
-*mima
+*mima[p]
 
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -560,7 +560,7 @@ U-miu... tớ không cử động được~! Đã cảnh giác rồi mà theo th
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#クピャドエル
+#クピャドエル[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -588,7 +588,7 @@ M-Ma lực, xin phép thu nhận![p]
 [_tb_end_text]
 
 [chara_hide  name="コマえる"  time="0"  wait="false"  pos_mode="false"  ]
-[call  storage="kyushu_Devil.ks"  target=""  ]
+[call  storage="kyushu_Devil.ks"  target=""  ][p]
 [chara_mod  name="あもあも"  time="0"  cross="false"  storage="chara/48/23.png"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -597,27 +597,27 @@ Chiếc nhẫn phước đức khiến mọi thần ma phải phục tùng...[r]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#あもあも
+#あもあも[p]
 Tớ không muốn chiến tranh đâu,[r]nhưng bị ràng buộc bởi quy tắc hay ai đó còn ghét hơn...[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#あもあも
+#あもあも[p]
 Có cả cay lẫn ngọt mới là[r]tự do tốt[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#あもあも
+#あもあも[p]
 Chiếc nhẫn đó... tớ nghe nói thần ma đeo vào thì[một lần duy nhất ước gì cũng được[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#あもあも
+#あもあも[p]
 [font size=25]Một ngày nào đó chắc chắn...[r]tớ sẽ giành lại![resetfont][p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[call  storage="maku.ks"  target="*close"  ]
+[call  storage="maku.ks"  target="*close"  ][p]
 [chara_hide_all  time="0"  wait="false"  ]
 [chara_hide  name="プレイヤー"  layer="1"  time="0"  wait="false"  pos_mode="false"  ]
 [chara_hide  name="コマえる"  time="0"  wait="false"  pos_mode="false"  ]
@@ -654,31 +654,31 @@ U-miu~[p]
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/31.png"  ]
-[tb_start_text mode=1 ]
+[tb_start_text mode=1 ][p]
 #でびるん
 U-miu cái con c[Gì![p]
 [_tb_end_text]
 
 [chara_mod  name="あもあも"  time="0"  cross="false"  storage="chara/48/25.png"  ]
-[tb_start_text mode=1 ]
+[tb_start_text mode=1 ][p]
 #あもあも
 Đã được gặp Kupya-chan dễ thương thế[r]tớ cũng muốn đáp lại[p]
 [_tb_end_text]
 
 [chara_mod  name="あもあも"  time="0"  cross="false"  storage="chara/48/26.png"  ]
-[tb_start_text mode=1 ]
+[tb_start_text mode=1 ][p]
 #あもあも
 Belbo, chưa gặp Levitan chứ?[p]
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/89.png"  ]
-[tb_start_text mode=1 ]
+[tb_start_text mode=1 ][p]
 #でびるん
 ...Cũng không muốn gặp[p]
 [_tb_end_text]
 
 [playse  volume="100"  time="0"  buf="1"  storage="kawaii.ogg"  ]
-[chara_mod  name="あもあも"  time="0"  cross="false"  storage="chara/48/27.png"  ]
+[chara_mod  name="あもあも"  time="0"  cross="false"  storage="chara/48/27.png"  ][p]
 [tb_start_text mode=1 ]
 #あもあも
 Nè, đây❤Nơ[r]đã bỏ phép thuật để hai người hòa thuận![p]
@@ -686,25 +686,25 @@ Nè, đây❤Nơ[r]đã bỏ phép thuật để hai người hòa thuận![p]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/68.png"  ]
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 Đáng nghi quá nhỉ...?[r]Thôi, giữ đại đi [emb exp="f.name"][p]
 [_tb_end_text]
 
 [chara_mod  name="あもあも"  time="0"  cross="false"  storage="chara/48/26.png"  ]
 [tb_start_text mode=1 ]
-#あもあも
+#あもあも[p]
 À, [emb exp="f.name"] thì[r]tớ để quà trong mơ nhé[p]
 [_tb_end_text]
 
 [chara_mod  name="あもあも"  time="0"  cross="false"  storage="chara/48/25.png"  ]
 [tb_start_text mode=1 ]
-#あもあも
+#あもあも[p]
 U-miu-miu♥[r]Tối nay háo hức chờ nha[p]
 [_tb_end_text]
 
 [flash  time="0"  effect="fadeIn"  color="0x000000"  ]
 
-[chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/32.png"  ]
+[chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/32.png"  ][p]
 [chara_mod  name="あもあも"  time="0"  cross="false"  storage="chara/48/28.png"  ]
 [layermode  mode="color-dodge"  color="0xffffff"  time="0"  wait="false"  graphic="BB4.png"  ]
 [quake  time="600"  count="10"  hmax="3"  wait="false"  ]
@@ -721,7 +721,7 @@ Vậy nhé~ Kupya-chan[r]Belbo, [emb exp="f.name"]~♥[wait time=500][p]
 
 [tb_start_tyrano_code]
 [play_apng name="kupya_fuki2_show" layer="1" x="-22" y="343" width="384" height="400"]
-[_tb_end_tyrano_code]
+[_tb_end_tyrano_code][p]
 
 [wait  time="350"  ]
 [chara_show  name="コマえる"  layer="0"  zindex="2"  time="0"  wait="false"  storage="chara/21/9.png"  width="384"  height="400"  left="-22"  top="343"  ]
@@ -745,25 +745,25 @@ Vậy nhé~ Kupya-chan[r]Belbo, [emb exp="f.name"]~♥[wait time=500][p]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/8.png"  ]
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 O-Oke không, Doel?[p]
 [_tb_end_text]
 
 [chara_mod  name="コマえる"  time="0"  cross="false"  storage="chara/21/10.png"  ]
 [tb_start_text mode=1 ]
-#クピャドエル
+#クピャドエル[p]
 Tôi sợ lắm...[p]
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/10.png"  ]
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 Thế, tao tưởng mày thì Asmodeus gì đó cũng[thích thú cột mày lại... nhưng mày làm bộ ghê nhỉ[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
 [keyframe name="erukoma"]
-[frame p="0%" y="-10"]
+[frame p="0%" y="-10"][p]
 [frame p="50%" y="0"]
 [frame p="100%" y="-1"]
 [endkeyframe]
@@ -780,7 +780,7 @@ T-Tôi không có làm bộ dễ thương gì hết![r]Debi-kun, đừng có đ�
 
 [playse  volume="100"  time="0"  buf="1"  loop="false"  storage="sasu2.ogg"  ]
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
-[chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/2.png"  ]
+[chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/2.png"  ][p]
 [tb_start_text mode=1 ]
 #でびるん
 Tại mày buộc tao ở lại nên[tao mới không cứu được chứ![p]
@@ -788,7 +788,7 @@ Tại mày buộc tao ở lại nên[tao mới không cứu được chứ![p]
 
 [tb_start_tyrano_code]
 [keyframe name="erukoma"]
-[frame p="0%" y="0"]
+[frame p="0%" y="0"][p]
 [frame p="50%" y="-5"]
 [frame p="100%" y="0"]
 [endkeyframe]
@@ -803,19 +803,19 @@ Lần này hơi mệt rồi nên[r]lần sau Debi-kun làm connect giúp nhé?[p
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/11.png"  ]
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 Được không? Không chỉ đứng nhìn, tao còn[muốn connect với [emb exp="f.name"] nữa❤[p]
 [_tb_end_text]
 
 [chara_mod  name="コマえる"  time="0"  cross="false"  storage="chara/21/17.png"  ]
 [tb_start_text mode=1 ]
-#クピャドエル
+#クピャドエル[p]
 Nếu là người tranh cãi thì càng phải[cẩn thận thảo luận thì mới giải quyết được[p]
 [_tb_end_text]
 
 [playse  volume="100"  time="0"  buf="1"  loop="false"  storage="aseru.ogg"  ]
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/89.png"  ]
-[tb_start_text mode=1 ]
+[tb_start_text mode=1 ][p]
 #でびるん
 Gì, lần sau là con đó à[p]
 [_tb_end_text]
@@ -837,13 +837,13 @@ Con đó là thằng hèn nhát, cứ hay nịnh tao hoài[r]Chắc bị cấp t
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/91.png"  ]
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 ...Mặc dù không muốn lắm, nhưng tao cũng muốn[cướp ma lực của thằng đó để cho nó thấy sức mạnh của tao[p]
 [_tb_end_text]
 
 [camera  time="10"  zoom="1.3"  wait="false"  layer="layer_camera"  ]
 [playse  volume="100"  time="5000"  buf="5"  loop="false"  storage="sasu2.ogg"  ]
-[quake  time="300"  count="5"  hmax="3"  wait="false"  ]
+[quake  time="300"  count="5"  hmax="3"  wait="false"  ][p]
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/44.png"  ]
 [reset_camera  time="500"  wait="false"  ease_type="ease"  layer="layer_camera"  ]
 [tb_start_text mode=1 ]
@@ -853,7 +853,7 @@ Con đó là thằng hèn nhát, cứ hay nịnh tao hoài[r]Chắc bị cấp t
 
 [iscript]
 // 全部見たら記録する（初回だけ）
-if (f.chara && !f.finished.includes(f.chara.name)) {
+if (f.chara && !f.finished.includes(f.chara.name)) {[p]
 f.finished = [...f.finished, f.chara.name];
 }
 [endscript]

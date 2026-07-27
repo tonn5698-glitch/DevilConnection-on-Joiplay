@@ -52,14 +52,14 @@ hic[delay speed=100]・・・[resetdelay]Hức...[p]
 
 [tb_start_text mode=1 ]
 #でびるん
-Ngyaa...mùi rượu...[r]đêm qua đến thăm tao đấy hả mày!
+Ngyaa...mùi rượu...[r]đêm qua đến thăm tao đấy hả mày![p]
 
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/62.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Chắc là giáo viên chủ nhiệm lớp phép thuật mày đang học hả?
+Chắc là giáo viên chủ nhiệm lớp phép thuật mày đang học hả?[p]
 
 [_tb_end_text]
 
@@ -83,7 +83,7 @@ C-cậu là…[p]
 
 [tb_start_text mode=1 ]
 #マルス
-T-tại sao cậu lại ở đây[delay speed=100]・・・[resetdelay][r]không, đây là ảo giác[delay speed=100]・・・[resetdelay]nhất định là ảo giác!
+T-tại sao cậu lại ở đây[delay speed=100]・・・[resetdelay][r]không, đây là ảo giác[delay speed=100]・・・[resetdelay]nhất định là ảo giác![p]
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/21.png"  ]
@@ -96,12 +96,12 @@ T-tại sao cậu lại ở đây[delay speed=100]・・・[resetdelay][r]không
 [chara_mod  name="マルス"  time="0"  cross="false"  storage="chara/20/5.png"  ]
 [tb_start_text mode=1 ]
 #マルス
-Vì ta bất tài nên [emb exp="f.name"][if exp="f.seibetu == 1]くん[else]さん[endif] mới[r]xuất hiện trước mắt ta như ảo giác thôi[delay speed=200]・・・[resetdelay]a…
+Vì ta bất tài nên [emb exp="f.name"][if exp="f.seibetu == 1]くん[else]さん[endif] mới[r]xuất hiện trước mắt ta như ảo giác thôi[delay speed=200]・・・[resetdelay]a…[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #マルス
-Um…vì ta là chủ nhiệm mà vô dụng quá nên[r]cậu mới không chịu đến trường phép thuật phải không nhỉ?
+Um…vì ta là chủ nhiệm mà vô dụng quá nên[r]cậu mới không chịu đến trường phép thuật phải không nhỉ?[p]
 
 [_tb_end_text]
 
@@ -426,7 +426,7 @@ Cậu lại ký hợp đồng với ma quỷ[c]cơ mà…[p]
 
 [tb_start_text mode=1 ]
 #マルス
-[emb exp="f.name"][if exp="f.seibetu == 1]くん[else]さん[endif] nghỉ học cũng là do[r]con ma quỷ này gây ra nhỉ!
+[emb exp="f.name"][if exp="f.seibetu == 1]くん[else]さん[endif] nghỉ học cũng là do[r]con ma quỷ này gây ra nhỉ![p]
 
 
 [_tb_end_text]
@@ -571,7 +571,7 @@ Phù, may quá[p]
 [stopse  time="200"  buf="5"  fadeout="true"  ]
 [tb_start_text mode=1 ]
 #マルス
-[font size=25]T…Lạnh quá…![resetfont][r]Không lẽ những chuyện trước đó…không phải mơ mà là thật sao!?
+[font size=25]T…Lạnh quá…![resetfont][r]Không lẽ những chuyện trước đó…không phải mơ mà là thật sao!?[p]
 [_tb_end_text]
 
 [chara_mod  name="マルス"  time="0"  cross="false"  storage="chara/20/13.png"  ]
@@ -715,7 +715,7 @@ Có lẫn máu dê nữa hả~[r]Đừng vội kết luận là tốt nhất[p]
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [tb_start_text mode=1 ]
 #マルス
-Xin lỗi vô cùng vì đã gọi tinh linh[r]bạn đồng hành quý giá của [emb exp="f.name"][if exp="f.seibetu == 1]くん[else]さん[endif] là ma quỷ!
+Xin lỗi vô cùng vì đã gọi tinh linh[r]bạn đồng hành quý giá của [emb exp="f.name"][if exp="f.seibetu == 1]くん[else]さん[endif] là ma quỷ![p]
 
 
 [_tb_end_text]
@@ -956,7 +956,7 @@ Ta biết [emb exp="f.name"][if exp="f.seibetu == 1]くん[else]さん[endif] kh
 
 [tb_start_text mode=1 ]
 #マルス
-Vậy thì…uống rượu tiếp vậy![r]Ngay cả ảo giác cũng bỏ rơi ta nữa chứ~!
+Vậy thì…uống rượu tiếp vậy![r]Ngay cả ảo giác cũng bỏ rơi ta nữa chứ~![p]
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/84_.png"  ]

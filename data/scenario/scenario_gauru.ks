@@ -46,7 +46,7 @@
 
 [tb_start_text mode=1 ]
 #でびるん
-Này tên ma sói đeo mặt nạ![l]Đưa ma lực ra!
+Này tên ma sói đeo mặt nạ![l]Đưa ma lực ra![p]
 
 
 
@@ -66,7 +66,7 @@ Này tên ma sói đeo mặt nạ![l]Đưa ma lực ra!
 
 [tb_start_text mode=1 ]
 #ガウルォス
-[delay speed=300]…[resetdelay]
+[delay speed=300]…[resetdelay][p]
 
 
 
@@ -88,13 +88,13 @@ Này tên ma sói đeo mặt nạ![l]Đưa ma lực ra!
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Này! Nghe không![resetfont]
+[font size=25]Này! Nghe không![resetfont][p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ガウルォス
-[delay speed=300]…[resetdelay]
+[delay speed=300]…[resetdelay][p]
 
 
 
@@ -114,7 +114,7 @@ Này tên ma sói đeo mặt nạ![l]Đưa ma lực ra!
 
 [tb_start_text mode=1 ]
 #でびるん
-Tên này có vẻ không có cảm xúc[l]thì lấy ma lực từ đâu được nhỉ?
+Tên này có vẻ không có cảm xúc[l]thì lấy ma lực từ đâu được nhỉ?[p]
 
 
 [_tb_end_text]
@@ -131,7 +131,7 @@ Tên này có vẻ không có cảm xúc[l]thì lấy ma lực từ đâu đư�
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/63.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Che cả mặt không biết nghĩ gì.[l]Thôi kệ, dùng Evil Eye Search thôi!
+Che cả mặt không biết nghĩ gì.[l]Thôi kệ, dùng Evil Eye Search thôi![p]
 
 
 
@@ -152,7 +152,7 @@ Che cả mặt không biết nghĩ gì.[l]Thôi kệ, dùng Evil Eye Search thô
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/84.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Nhé? Ma lực ít à? Đúng lúc thế này…[l]Từ phần tích trữ, ta sẽ lấy ra cho!
+Nhé? Ma lực ít à? Đúng lúc thế này…[l]Từ phần tích trữ, ta sẽ lấy ra cho![p]
 [_tb_end_text]
 
 [tb_eval  exp="f.mp+=10"  name="mp"  cmd="+="  op="t"  val="10"  val_2="undefined"  ]
@@ -191,7 +191,7 @@ Nhé? Ma lực ít à? Đúng lúc thế này…[l]Từ phần tích trữ, ta s
 [mind_voice  color="0xe83156"  name="ガウルォス"  text="Dùng Ma Nhĩ thì chẳng cần trao đổi lời mà cũng có thể trò chuyện thế này, tiện ghê ta"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-Cuối cùng cũng dùng ability rồi.[l]Nói chuyện qua Evil Eye đã lâu nhỉ.
+Cuối cùng cũng dùng ability rồi.[l]Nói chuyện qua Evil Eye đã lâu nhỉ.[p]
 
 [_tb_end_text]
 
@@ -226,7 +226,7 @@ Cuối cùng cũng dùng ability rồi.[l]Nói chuyện qua Evil Eye đã lâu n
 [playse  volume="100"  time="1000"  buf="3"  storage="aseru.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-C-Cái gì! ? [l]Cũng có Evil Eye nữa sao! ?
+C-Cái gì! ? [l]Cũng có Evil Eye nữa sao! ?[p]
 
 
 
@@ -238,7 +238,7 @@ C-Cái gì! ? [l]Cũng có Evil Eye nữa sao! ?
 [chara_mod  name="ガウルォス"  time="0"  cross="false"  storage="chara/53/3.png"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-Ừ, bên dưới mặt nạ này đó.
+Ừ, bên dưới mặt nạ này đó.[p]
 [_tb_end_text]
 
 [tb_endnolog  ]
@@ -253,7 +253,7 @@ C-Cái gì! ? [l]Cũng có Evil Eye nữa sao! ?
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-[font size=37]Cool ghê không![resetfont]
+[font size=37]Cool ghê không![resetfont][p]
 
 [_tb_end_text]
 
@@ -275,7 +275,7 @@ C-Cái gì! ? [l]Cũng có Evil Eye nữa sao! ?
 
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Không giống như ta tưởng![resetfont][l]Mày nên im đi thì hơn.
+[font size=25]Không giống như ta tưởng![resetfont][l]Mày nên im đi thì hơn.[p]
 
 
 
@@ -287,7 +287,7 @@ C-Cái gì! ? [l]Cũng có Evil Eye nữa sao! ?
 [chara_mod  name="ガウルォス"  time="0"  cross="false"  storage="chara/53/5.png"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-Bỏ qua điều đó, người ký hợp đồng với ma quỷ kia…
+Bỏ qua điều đó, người ký hợp đồng với ma quỷ kia…[p]
 
 [_tb_end_text]
 
@@ -303,7 +303,7 @@ Bỏ qua điều đó, người ký hợp đồng với ma quỷ kia…
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/1.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Nhé? [emb exp="f.name"] à?
+Nhé? [emb exp="f.name"] à?[p]
 
 
 
@@ -316,14 +316,14 @@ Nhé? [emb exp="f.name"] à?
 
 [tb_start_text mode=1 ]
 #ガウルォス
-Đúng vậy, con mắt quỷ trên trán[kia][l]không dùng sao?
+Đúng vậy, con mắt quỷ trên trán[kia][l]không dùng sao?[p]
 
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/11.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Mới khai nhãn xong thôi.[l]Bây giờ ta đang chia sẻ Evil Eye Search với bản đại nhân.
+Mới khai nhãn xong thôi.[l]Bây giờ ta đang chia sẻ Evil Eye Search với bản đại nhân.[p]
 
 
 
@@ -333,7 +333,7 @@ Mới khai nhãn xong thôi.[l]Bây giờ ta đang chia sẻ Evil Eye Search v�
 
 [tb_start_text mode=1 ]
 #ガウルォス
-…Không phụ thuộc vào ma quỷ mà[l]làm chủ được sức mạnh đó thì tốt hơn cho tương lai.
+…Không phụ thuộc vào ma quỷ mà[l]làm chủ được sức mạnh đó thì tốt hơn cho tương lai.[p]
 
 
 [_tb_end_text]
@@ -341,7 +341,7 @@ Mới khai nhãn xong thôi.[l]Bây giờ ta đang chia sẻ Evil Eye Search v�
 [chara_mod  name="ガウルォス"  time="0"  cross="false"  storage="chara/53/4.png"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-Đúng rồi! Về Evil Eye,[l]để ta dạy cho!
+Đúng rồi! Về Evil Eye,[l]để ta dạy cho![p]
 
 
 
@@ -351,12 +351,12 @@ Mới khai nhãn xong thôi.[l]Bây giờ ta đang chia sẻ Evil Eye Search v�
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/21.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Bỗng dưng là sao? Đáng ngờ quá![l]Mày cẩn thận khi nói chuyện với ta, [emb exp="f.name"]
+Bỗng dưng là sao? Đáng ngờ quá![l]Mày cẩn thận khi nói chuyện với ta, [emb exp="f.name"][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ガウルォス
-Nếu thấy đáng ngờ thì hãy dùng Evil Eye mà xem.[l]Ta không có tà niệm gì.
+Nếu thấy đáng ngờ thì hãy dùng Evil Eye mà xem.[l]Ta không có tà niệm gì.[p]
 
 
 
@@ -399,14 +399,14 @@ Nào, sẵn sàng chưa?[l]Bắt đầu tu tập Evil Eye nào!
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-Ta chỉ muốn ngươi hiểu đặc tính của Evil Eye,[l]và sử dụng nó thành thạo thôi.
+Ta chỉ muốn ngươi hiểu đặc tính của Evil Eye,[l]và sử dụng nó thành thạo thôi.[p]
 [_tb_end_text]
 
 [playse  volume="100"  time="1000"  buf="3"  storage="fuga3.ogg"  ]
 [chara_mod  name="ガウルォス"  time="0"  cross="false"  storage="chara/53/6.png"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-Nè, dù trông vậy, ta là cao thủ kiếm thuật[l]sử dụng thành thạo Evil Eye đó ★
+Nè, dù trông vậy, ta là cao thủ kiếm thuật[l]sử dụng thành thạo Evil Eye đó ★[p]
 
 
 [_tb_end_text]
@@ -436,7 +436,7 @@ Nè, dù trông vậy, ta là cao thủ kiếm thuật[l]sử dụng thành th�
 
 [tb_start_text mode=1 ]
 #でびるん
-Tên này… càng nói càng lộ nhược điểm.[l]Không có uy nghiêm gì, trông ngốc lắm.
+Tên này… càng nói càng lộ nhược điểm.[l]Không có uy nghiêm gì, trông ngốc lắm.[p]
 
 [_tb_end_text]
 
@@ -471,7 +471,7 @@ Tên này… càng nói càng lộ nhược điểm.[l]Không có uy nghiêm gì
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=37]Dừng lại[resetfont]
+[font size=37]Dừng lại[resetfont][p]
 [_tb_end_text]
 
 *zyagan1_modoru2
@@ -497,7 +497,7 @@ Tên này… càng nói càng lộ nhược điểm.[l]Không có uy nghiêm gì
 [chara_mod  name="ガウルォス"  time="0"  cross="false"  storage="chara/53/5.png"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-Sự im lặng… đó là
+Sự im lặng… đó là[p]
 [_tb_end_text]
 
 [playse  volume="100"  time="1000"  buf="3"  storage="kawaii.ogg"  ]
@@ -506,7 +506,7 @@ Sự im lặng… đó là
 [chara_show  name="感情オーラ1"  time="1000"  wait="false"  storage="chara/11/moya1.png"  width="460"  height="200"  left="232"  top="119"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-[font size=37]Xem như đã đồng ý![resetfont]
+[font size=37]Xem như đã đồng ý![resetfont][p]
 [_tb_end_text]
 
 [chara_show  name="コマでび"  layer="0"  zindex="2"  time="0"  wait="false"  storage="chara/10/85.png"  width="383"  height="400"  left="7"  top="308"  ]
@@ -522,20 +522,20 @@ Sự im lặng… đó là
 [playse  volume="100"  time="1000"  buf="3"  storage="sasu2.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=37]Đừng diễn giải theo cách có lợi cho mình![resetfont]
+[font size=37]Đừng diễn giải theo cách có lợi cho mình![resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/1.png"  ]
 [chara_mod  name="ガウルォス"  time="0"  cross="false"  storage="chara/53/7.png"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-Tch… trò đùa kết thúc rồi.[l]Nào, làm đi! Nhận lấy!
+Tch… trò đùa kết thúc rồi.[l]Nào, làm đi! Nhận lấy![p]
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/1.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Cái gì vậy?[l]Mảnh vải này…
+Cái gì vậy?[l]Mảnh vải này…[p]
 
 [_tb_end_text]
 
@@ -545,7 +545,7 @@ Cái gì vậy?[l]Mảnh vải này…
 [chara_mod  name="ガウルォス"  time="0"  cross="false"  storage="chara/53/1.png"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-[delay speed=300]…[resetdelay]
+[delay speed=300]…[resetdelay][p]
 
 [_tb_end_text]
 
@@ -574,7 +574,7 @@ Cái gì vậy?[l]Mảnh vải này…
 
 [tb_start_text mode=1 ]
 #でびるん
-Tên ba hoa như vậy làm sư phụ,[l]thì dù là [emb exp="f.name"] cũng không muốn chứ?
+Tên ba hoa như vậy làm sư phụ,[l]thì dù là [emb exp="f.name"] cũng không muốn chứ?[p]
 [_tb_end_text]
 
 [playse  volume="100"  time="1000"  buf="3"  storage="sasu3.ogg"  ]
@@ -584,7 +584,7 @@ Tên ba hoa như vậy làm sư phụ,[l]thì dù là [emb exp="f.name"] cũng k
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/21.png"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-[font face="DZUYOKU"][font size=37]W… [resetfont]
+[font face="DZUYOKU"][font size=37]W… [resetfont][p]
 [_tb_end_text]
 
 [playse  volume="100"  time="0"  buf="4"  storage="AURA_NG.ogg"  ]
@@ -592,7 +592,7 @@ Tên ba hoa như vậy làm sư phụ,[l]thì dù là [emb exp="f.name"] cũng k
 [eval exp="f.gauru1ng=1"]
 [tb_start_text mode=1 ]
 #ガウルォス
-[font face="YOWAKU"][delay speed=300]…[resetdelay]Ta nhớ từng bị đệ tử nói điều tương tự.[l]Cứ, sao cũng phải nghe những lời như vậy.[resetfont]
+[font face="YOWAKU"][delay speed=300]…[resetdelay]Ta nhớ từng bị đệ tử nói điều tương tự.[l]Cứ, sao cũng phải nghe những lời như vậy.[resetfont][p]
 [_tb_end_text]
 
 [lbgm str="3_connection_communication.ogg" vol="50" loop="true" time="0" buf="0"]
@@ -602,13 +602,13 @@ Tên ba hoa như vậy làm sư phụ,[l]thì dù là [emb exp="f.name"] cũng k
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/121.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Là vì hành vi của mày trông ngốc thôi[resetfont][l]À, hóa ra yếu đuối vậy à…
+[font size=25]Là vì hành vi của mày trông ngốc thôi[resetfont][l]À, hóa ra yếu đuối vậy à…[p]
 [_tb_end_text]
 
 [chara_mod  name="ガウルォス"  time="0"  cross="false"  storage="chara/53/12.png"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-[font face="YOWAKU"]Gusu… xì xụi… trò đùa kết thúc rồi…[resetfont][l]Nào, nhận lấy!
+[font face="YOWAKU"]Gusu… xì xụi… trò đùa kết thúc rồi…[resetfont][l]Nào, nhận lấy![p]
 [_tb_end_text]
 
 [playse  volume="100"  time="1000"  buf="3"  storage="sasu2.ogg"  ]
@@ -616,7 +616,7 @@ Tên ba hoa như vậy làm sư phụ,[l]thì dù là [emb exp="f.name"] cũng k
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/25.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Khoan khoan khoan! Đừng lấy mũi mà chém![l][resetfont]Cái mảnh vải đó là gì!
+[font size=25]Khoan khoan khoan! Đừng lấy mũi mà chém![l][resetfont]Cái mảnh vải đó là gì![p]
 [_tb_end_text]
 
 [jump  storage="scenario_gauru.ks"  target="*i"  ]
@@ -626,13 +626,13 @@ Tên ba hoa như vậy làm sư phụ,[l]thì dù là [emb exp="f.name"] cũng k
 [chara_show  name="感情オーラ1"  time="1000"  wait="false"  storage="chara/11/moya1.png"  width="460"  height="200"  left="232"  top="119"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-[if exp="f.HANYOU == 1]Ừ vậy! Ngươi hiểu biết lắm.[l]Cần phải tôn trọng Fuuga hơn nữa[else]Ừm! Được rồi![l]Sớm thôi…"][endif]
+[if exp="f.HANYOU == 1]Ừ vậy! Ngươi hiểu biết lắm.[l]Cần phải tôn trọng Fuuga hơn nữa[else]Ừm! Được rồi![l]Sớm thôi…"][endif][p]
 [_tb_end_text]
 
 [chara_mod  name="ガウルォス"  time="0"  cross="false"  storage="chara/53/7.png"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-[if exp="f.HANYOU == 1]Sớm thôi…[l]Nào, nhận lấy.[else]Nào, nhận lấy.[endif]
+[if exp="f.HANYOU == 1]Sớm thôi…[l]Nào, nhận lấy.[else]Nào, nhận lấy.[endif][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -662,7 +662,7 @@ Tên ba hoa như vậy làm sư phụ,[l]thì dù là [emb exp="f.name"] cũng k
 
 [tb_start_text mode=1 ]
 #ガウルォス
-Cái này để che mắt và Evil Eye.[l]Phía ma quỷ cũng phải cuộn đúng cách vào bụng.
+Cái này để che mắt và Evil Eye.[l]Phía ma quỷ cũng phải cuộn đúng cách vào bụng.[p]
 
 
 
@@ -691,7 +691,7 @@ Cái này để che mắt và Evil Eye.[l]Phía ma quỷ cũng phải cuộn đ�
 [playse  volume="100"  time="1000"  buf="3"  storage="aseru.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Khoan! T-Tại sao cả bản đại nhân cũng! ?
+Khoan! T-Tại sao cả bản đại nhân cũng! ?[p]
 
 
 [_tb_end_text]
@@ -729,23 +729,23 @@ Nào, thử thách đầu tiên. Bắt đầu nào!
 [tb_free_filter  layer="undefined"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-[p]Lý do ta đeo mặt nạ là để không làm[l]bọn xung quanh sợ hãi vì Evil Eye, nhưng không chỉ có vậy.
+[p]Lý do ta đeo mặt nạ là để không làm[l]bọn xung quanh sợ hãi vì Evil Eye, nhưng không chỉ có vậy.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ガウルォス
-Còn là để đưa sức mạnh đó lên mức tối đa.
+Còn là để đưa sức mạnh đó lên mức tối đa.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ガウルォス
-Không phải nhìn, mà là cảm nhận aura từ ma lực.
+Không phải nhìn, mà là cảm nhận aura từ ma lực.[p]
 [_tb_end_text]
 
 [chara_show  name="プレイヤー"  zindex="2"  layer="1"  time="10000"  wait="false"  storage="chara/2/gauru.png"  width="1280"  height="960"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-Khi đã thấu hiểu, dùcách(cách) bởi mặt nạ,[l]tầm nhìn cũng sẽ chảy vào não. Lần này là thử thách bịt mắt.
+Khi đã thấu hiểu, dùcách(cách) bởi mặt nạ,[l]tầm nhìn cũng sẽ chảy vào não. Lần này là thử thách bịt mắt.[p]
 [_tb_end_text]
 
 [if exp="f.gauru1ng==1"]
@@ -767,19 +767,19 @@ Khi đã thấu hiểu, dùcách(cách) bởi mặt nạ,[l]tầm nhìn cũng s�
 
 [tb_start_text mode=1 ]
 #ガウルォス
-Evil Eye sẽ kích hoạt chừng nào mí mắt còn mở.[l]Hãy nhìn kỹ Evil Eye. Dần dần sẽ thấy thôi.
+Evil Eye sẽ kích hoạt chừng nào mí mắt còn mở.[l]Hãy nhìn kỹ Evil Eye. Dần dần sẽ thấy thôi.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-Nh… không thấy gì hết…
+Nh… không thấy gì hết…[p]
 
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ガウルォス
-Ma quỷ, ngươi có nhiều ma lực như vậy mà[l]kỹ năng sử dụng Evil Eye chưa được.
+Ma quỷ, ngươi có nhiều ma lực như vậy mà[l]kỹ năng sử dụng Evil Eye chưa được.[p]
 
 
 
@@ -787,7 +787,7 @@ Ma quỷ, ngươi có nhiều ma lực như vậy mà[l]kỹ năng sử dụng E
 
 [tb_start_text mode=1 ]
 #ガウルォス
-Lý do bình thường đóng lại[l]có vẻ là vì lý do gì đó.
+Lý do bình thường đóng lại[l]có vẻ là vì lý do gì đó.[p]
 
 
 
@@ -796,7 +796,7 @@ Lý do bình thường đóng lại[l]có vẻ là vì lý do gì đó.
 
 [tb_start_text mode=1 ]
 #でびるん
-H-H im đi![l]Đừng bận tâm đến bản đại nhân!
+H-H im đi![l]Đừng bận tâm đến bản đại nhân![p]
 
 [_tb_end_text]
 
@@ -804,12 +804,12 @@ H-H im đi![l]Đừng bận tâm đến bản đại nhân!
 [chara_mod  name="ガウルォス"  time="0"  cross="false"  storage="chara/53/10.png"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-Mà, để bắt đầu, trước tiên hãy hiện[l]Evil Eye Search của ngươi.
+Mà, để bắt đầu, trước tiên hãy hiện[l]Evil Eye Search của ngươi.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ガウルォス
-Hãy đọc vị và đoán xem ta sẽ tấn công từ bên nào!
+Hãy đọc vị và đoán xem ta sẽ tấn công từ bên nào![p]
 
 [_tb_end_text]
 
@@ -848,25 +848,25 @@ Hãy đọc vị và đoán xem ta sẽ tấn công từ bên nào!
 [elsif exp="f.gauru==4"]
 [elsif exp="f.gauru==5"]
 #ガウルォス
-[if exp="f.kansou1==1]Nghịch[else]Nhảy[endif] khiêu khích là văn hóa xấu,[l]nên bỏ đi.
+[if exp="f.kansou1==1]Nghịch[else]Nhảy[endif] khiêu khích là văn hóa xấu,[l]nên bỏ đi.[p]
 [elsif exp="f.gauru==6"]
 #ガウルォス
-Ngươi…[l]khá là nghịch ngợm nhỉ.
+Ngươi…[l]khá là nghịch ngợm nhỉ.[p]
 [elsif exp="f.gauru==8"]
 #ガウルォス
-Ngươi… khi được khen,[l]có phải sẽ vui ngay không?
+Ngươi… khi được khen,[l]có phải sẽ vui ngay không?[p]
 [elsif exp="f.gauru==10"]
 #ガウルォス
-Ta muốn tồn tại như mì Menma.
+Ta muốn tồn tại như mì Menma.[p]
 [else]
 #ガウルォス
-M-Muộn quá rồi…[l]chậm chạp thế, tch!
+M-Muộn quá rồi…[l]chậm chạp thế, tch![p]
 [endif]
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
 #ガウルォス
-Nghĩ đi nghĩ lại. Chém về phía có ma quỷ.[l]Nếu nghĩ là bên trái thì hãy ngồi xổm. Nếu nghĩ là bên phải thì nhảy lên.
+Nghĩ đi nghĩ lại. Chém về phía có ma quỷ.[l]Nếu nghĩ là bên trái thì hãy ngồi xổm. Nếu nghĩ là bên phải thì nhảy lên.[p]
 [_tb_end_text]
 
 [tb_eval  exp="f.gauru=1"  name="gauru"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
@@ -889,7 +889,7 @@ Nghĩ đi nghĩ lại. Chém về phía có ma quỷ.[l]Nếu nghĩ là bên tr�
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-[if exp="f.kansou2 == 1]Đã hiểu đúng cách chưa?[l]Vậy thì bắt đầu thôi![else]Đã đọc được suy nghĩ trong lòng chưa?[l]Vậy thì bắt đầu thôi![endif]
+[if exp="f.kansou2 == 1]Đã hiểu đúng cách chưa?[l]Vậy thì bắt đầu thôi![else]Đã đọc được suy nghĩ trong lòng chưa?[l]Vậy thì bắt đầu thôi![endif][p]
 
 [_tb_end_text]
 
@@ -964,7 +964,7 @@ Không dừng lạithìsẽ[l]đáng chê trách đó?
 
 [tb_start_text mode=1 ]
 #でびるん
-Kia mà…[if exp="f.kansou3 == 1]Lại thiếu ma lực nữa sao…[else]Chắc lại thiếu ma lực rồi[endif][l]Tch, từ phần tích trữ, ta sẽ lấy ra cho!
+Kia mà…[if exp="f.kansou3 == 1]Lại thiếu ma lực nữa sao…[else]Chắc lại thiếu ma lực rồi[endif][l]Tch, từ phần tích trữ, ta sẽ lấy ra cho![p]
 [_tb_end_text]
 
 [tb_eval  exp="f.mp+=10"  name="mp"  cmd="+="  op="t"  val="10"  val_2="undefined"  ]
@@ -1022,7 +1022,7 @@ Kia mà…[if exp="f.kansou3 == 1]Lại thiếu ma lực nữa sao…[else]Chắ
 [reset_mind_voice  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-Ngươi [delay speed=300]…[resetdelay]
+Ngươi [delay speed=300]…[resetdelay][p]
 [_tb_end_text]
 
 [flash  time="80"  effect="fadeIn"  color="0x000000"  ]
@@ -1039,13 +1039,13 @@ Ngươi [delay speed=300]…[resetdelay]
 [playse  volume="100"  time="0"  buf="4"  storage="AURA_NG.ogg"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-tả hữu mang(sa hữu mang)à? Người đệ tử yêu quý Fuuga cũng vậy…[l]Còn nữa, hướng nào cũng lạc, lúc nào cũng lo lắng…
+tả hữu mang(sa hữu mang)à? Người đệ tử yêu quý Fuuga cũng vậy…[l]Còn nữa, hướng nào cũng lạc, lúc nào cũng lo lắng…[p]
 [_tb_end_text]
 
 [chara_mod  name="ガウルォス"  time="0"  cross="false"  storage="chara/53/4.png"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-À, bịt mắt mà chém rồi…[l]May mà không trúng ngươi! Gahaha
+À, bịt mắt mà chém rồi…[l]May mà không trúng ngươi! Gahaha[p]
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/123.png"  ]
@@ -1061,7 +1061,7 @@ tả hữu mang(sa hữu mang)à? Người đệ tử yêu quý Fuuga cũng vậ
 [playse  volume="100"  time="1000"  buf="3"  storage="aseru.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Của bản đại nhân chưa đứt![l]Chết tiệt… tháo không ra!
+Của bản đại nhân chưa đứt![l]Chết tiệt… tháo không ra![p]
 
 
 [_tb_end_text]
@@ -1069,7 +1069,7 @@ Của bản đại nhân chưa đứt![l]Chết tiệt… tháo không ra!
 [chara_mod  name="ガウルォス"  time="0"  cross="false"  storage="chara/53/5.png"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-Ma quỷ, ngươi hãy giữ nguyên tư thế[l]tập trung tinh thần đi.
+Ma quỷ, ngươi hãy giữ nguyên tư thế[l]tập trung tinh thần đi.[p]
 
 
 [_tb_end_text]
@@ -1087,7 +1087,7 @@ Ma quỷ, ngươi hãy giữ nguyên tư thế[l]tập trung tinh thần đi.
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/122.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Chết tiệt… cái bịt mắt này tháo không ra…
+Chết tiệt… cái bịt mắt này tháo không ra…[p]
 
 [_tb_end_text]
 
@@ -1096,14 +1096,14 @@ Chết tiệt… cái bịt mắt này tháo không ra…
 [reset_mind_voice  ]
 [tb_start_text mode=1 ]
 #でびるん
-Nhé? Tên Fuuga mà vừa nói,[l]nghe quen quen…
+Nhé? Tên Fuuga mà vừa nói,[l]nghe quen quen…[p]
 
 [_tb_end_text]
 
 [chara_mod  name="ガウルォス"  time="0"  cross="false"  storage="chara/53/4.png"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-Ừ! Đúng vậy, 2 hôm trước có gặp.[l]Vừa mệt mỏi vừa kể về mấy người đó!
+Ừ! Đúng vậy, 2 hôm trước có gặp.[l]Vừa mệt mỏi vừa kể về mấy người đó![p]
 
 [_tb_end_text]
 
@@ -1119,7 +1119,7 @@ Nhé? Tên Fuuga mà vừa nói,[l]nghe quen quen…
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/123.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Ta nhớ ra rồi! Là tên kiếm sĩ song kiếm[l]cùng với tinh linh gió đó sao?
+Ta nhớ ra rồi! Là tên kiếm sĩ song kiếm[l]cùng với tinh linh gió đó sao?[p]
 
 
 
@@ -1128,7 +1128,7 @@ Ta nhớ ra rồi! Là tên kiếm sĩ song kiếm[l]cùng với tinh linh gió 
 
 [tb_start_text mode=1 ]
 #ガウルォス
-Đúng vậy! Kỹ năng còn non lắm nhưng[l]là mầm non kiếm sĩ tuyệt vời.
+Đúng vậy! Kỹ năng còn non lắm nhưng[l]là mầm non kiếm sĩ tuyệt vời.[p]
 
 [_tb_end_text]
 
@@ -1169,18 +1169,18 @@ Ta nhớ ra rồi! Là tên kiếm sĩ song kiếm[l]cùng với tinh linh gió 
 [reset_mind_voice  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-Ừm, làm tốt lắm![l]Dường như đã dùng Evil Eye được rồi.
+Ừm, làm tốt lắm![l]Dường như đã dùng Evil Eye được rồi.[p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-C-Chuyện gì đang xảy ra vậy?
+C-Chuyện gì đang xảy ra vậy?[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ガウルォス
-…Dường như từ phía ma quỷ chưa[l]can thiệp được vào suy nghĩ Evil Eye Search của ngươi.
+…Dường như từ phía ma quỷ chưa[l]can thiệp được vào suy nghĩ Evil Eye Search của ngươi.[p]
 [_tb_end_text]
 
 [tb_eval  exp="f.show_menu_ng=0"  name="show_menu_ng"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
@@ -1213,13 +1213,13 @@ Nào, có thể gỡ bịt mắt rồi.[l]
 [chara_mod  name="ガウルォス"  time="0"  cross="false"  storage="chara/53/5.png"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-Tuy nhiên ma quỷ, ngươi thì không được.
+Tuy nhiên ma quỷ, ngươi thì không được.[p]
 [_tb_end_text]
 
 [mind_voice  color="0xe83156"  name="ガウルォス"  text="Ngươi cũng thế, giờ tập trung tinh thần cho nghiêm vào!"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-Hãy tiếp tục tập trung tinh thần để đọc[l]Evil Eye Search của bạn đồng hành.tà niệmquá nhiều quá nhiều tà niệmquá nhiều quá nhiều.
+Hãy tiếp tục tập trung tinh thần để đọc[l]Evil Eye Search của bạn đồng hành.tà niệmquá nhiều quá nhiều tà niệmquá nhiều quá nhiều.[p]
 
 [_tb_end_text]
 
@@ -1236,7 +1236,7 @@ Hãy tiếp tục tập trung tinh thần để đọc[l]Evil Eye Search của b
 [playse  volume="100"  time="1000"  buf="3"  storage="aseru.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Không phải bạn đồng hành gì cả! Cótà niệm(sai niệm) thì có làm sao![l]Chết tiệt… cái bịt mắt này tháo không ra…
+Không phải bạn đồng hành gì cả! Cótà niệm(sai niệm) thì có làm sao![l]Chết tiệt… cái bịt mắt này tháo không ra…[p]
 
 [_tb_end_text]
 
@@ -1244,7 +1244,7 @@ Không phải bạn đồng hành gì cả! Cótà niệm(sai niệm) thì có l
 [reset_mind_voice  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-À phải rồi, mấy người đã gặp đệ tử yêu quýFuuga rồi.[l]Ta đã nghe trực tiếp từ cậu ấy.
+À phải rồi, mấy người đã gặp đệ tử yêu quýFuuga rồi.[l]Ta đã nghe trực tiếp từ cậu ấy.[p]
 
 
 [_tb_end_text]
@@ -1262,7 +1262,7 @@ Không phải bạn đồng hành gì cả! Cótà niệm(sai niệm) thì có l
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/124.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Fuuga… chẳng phải là[l]tên kiếm sĩ song kiếm cùng tinh linh gió sao?
+Fuuga… chẳng phải là[l]tên kiếm sĩ song kiếm cùng tinh linh gió sao?[p]
 
 
 
@@ -1271,7 +1271,7 @@ Fuuga… chẳng phải là[l]tên kiếm sĩ song kiếm cùng tinh linh gió s
 
 [tb_start_text mode=1 ]
 #ガウルォス
-Đúng vậy! Kỹ năng còn non lắm nhưng[l]là mầm non kiếm sĩ tuyệt vời.
+Đúng vậy! Kỹ năng còn non lắm nhưng[l]là mầm non kiếm sĩ tuyệt vời.[p]
 
 [_tb_end_text]
 
@@ -1280,7 +1280,7 @@ Fuuga… chẳng phải là[l]tên kiếm sĩ song kiếm cùng tinh linh gió s
 [chara_mod  name="ガウルォス"  time="0"  cross="false"  storage="chara/53/1.png"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-[delay speed=300]…[resetdelay]
+[delay speed=300]…[resetdelay][p]
 
 [_tb_end_text]
 
@@ -1292,7 +1292,7 @@ Fuuga… chẳng phải là[l]tên kiếm sĩ song kiếm cùng tinh linh gió s
 
 [tb_start_text mode=1 ]
 #ガウルォス
-[font face="DZUYOKU"][font size=37]Phần đó hãy mặc swimsuit![resetfont]
+[font face="DZUYOKU"][font size=37]Phần đó hãy mặc swimsuit![resetfont][p]
 [_tb_end_text]
 
 [lbgmvol vol="50"]
@@ -1311,7 +1311,7 @@ Fuuga… chẳng phải là[l]tên kiếm sĩ song kiếm cùng tinh linh gió s
 [playse  volume="100"  time="1000"  buf="3"  storage="sasu2.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=37]Cái gì mà nói![resetfont]
+[font size=37]Cái gì mà nói![resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/124.png"  ]
@@ -1326,13 +1326,13 @@ Fuuga… chẳng phải là[l]tên kiếm sĩ song kiếm cùng tinh linh gió s
 
 [tb_start_text mode=1 ]
 #でびるん
-Chắc là tên này, trong lúc không hay[l]đang đọc ký ức của mày?
+Chắc là tên này, trong lúc không hay[l]đang đọc ký ức của mày?[p]
 [_tb_end_text]
 
 [chara_mod  name="ガウルォス"  time="0"  cross="false"  storage="chara/53/5.png"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-Chọn swimsuit hay onigiri thì chắc swimsuit…[l]Hoa hơn bánh, nói đúng quá.
+Chọn swimsuit hay onigiri thì chắc swimsuit…[l]Hoa hơn bánh, nói đúng quá.[p]
 [_tb_end_text]
 
 [jump  storage="scenario_gauru.ks"  target="*mizu_jump"  ]
@@ -1343,7 +1343,7 @@ Chọn swimsuit hay onigiri thì chắc swimsuit…[l]Hoa hơn bánh, nói đún
 [chara_mod  name="ガウルォス"  time="0"  cross="false"  storage="chara/53/13.png"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-[font face="DZUYOKU"][font size=37]Guh…[resetfont]
+[font face="DZUYOKU"][font size=37]Guh…[resetfont][p]
 [_tb_end_text]
 
 [playse  volume="100"  time="1000"  buf="3"  storage="aseru.ogg"  ]
@@ -1368,14 +1368,14 @@ Chọn swimsuit hay onigiri thì chắc swimsuit…[l]Hoa hơn bánh, nói đún
 
 [tb_start_text mode=1 ]
 #でびるん
-Đagyaa! Bỗng dưng sao! ? [l][font size=12]Chết rồi à?[resetfont]
+Đagyaa! Bỗng dưng sao! ? [l][font size=12]Chết rồi à?[resetfont][p]
 [_tb_end_text]
 
 [lbgmvol vol="0"]
 
 [tb_start_text mode=1 ]
 #ガウルォス
-Swimsuit của Fuuga [delay speed=300]…[resetdelay][l]Dễ thương ghê.
+Swimsuit của Fuuga [delay speed=300]…[resetdelay][l]Dễ thương ghê.[p]
 [_tb_end_text]
 
 [lbgmvol vol="50"]
@@ -1392,20 +1392,20 @@ Swimsuit của Fuuga [delay speed=300]…[resetdelay][l]Dễ thương ghê.
 
 [tb_start_text mode=1 ]
 #でびるん
-Chắc là tên này, trong lúc không hay[l]đang đọc ký ức của mày?
+Chắc là tên này, trong lúc không hay[l]đang đọc ký ức của mày?[p]
 [_tb_end_text]
 
 [chara_mod  name="ガウルォス"  time="0"  cross="false"  storage="chara/53/5.png"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-Mấy người [delay speed=300]…[resetdelay]
+Mấy người [delay speed=300]…[resetdelay][p]
 [_tb_end_text]
 
 [chara_mod  name="ガウルォス"  time="0"  cross="false"  storage="chara/53/14.png"  ]
 [playse  volume="100"  time="1000"  buf="3"  storage="kawaii.ogg"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-Sở thích tốt nhỉ.
+Sở thích tốt nhỉ.[p]
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/123.png"  ]
@@ -1413,7 +1413,7 @@ Sở thích tốt nhỉ.
 
 [tb_start_text mode=1 ]
 #でびるん
-Tên kiếm sĩ song kiếm kia, hàng ngày luyện tập[l]với kiểu người như vậy… cũng thông cảm phần nào.
+Tên kiếm sĩ song kiếm kia, hàng ngày luyện tập[l]với kiểu người như vậy… cũng thông cảm phần nào.[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -1430,23 +1430,23 @@ Tên kiếm sĩ song kiếm kia, hàng ngày luyện tập[l]với kiểu ngư�
 [mind_voice  color="0xe83156"  name="ガウルォス"  text="Tiếp tục tập trung vào thử thách đi"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-Nào, thử thách thứ hai.
+Nào, thử thách thứ hai.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ガウルォス
-[emb exp="f.name"]…Ngoài đọc tâm ra, ngươi chắc[l]còn cất giấu ability khác nữa?
+[emb exp="f.name"]…Ngoài đọc tâm ra, ngươi chắc[l]còn cất giấu ability khác nữa?[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ガウルォス
-Chưa dùng được nhuần nhuyễn nhưng…[l]Hãythức tỉnh(thức tỉnh) ability với ý chí rõ ràng.
+Chưa dùng được nhuần nhuyễn nhưng…[l]Hãythức tỉnh(thức tỉnh) ability với ý chí rõ ràng.[p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ガウルォス
-[delay speed=300]…[resetdelay]Yên tâm, ta cũng là người có Evil Eye.[l]Ta sẽ hướng dẫn cho.
+[delay speed=300]…[resetdelay]Yên tâm, ta cũng là người có Evil Eye.[l]Ta sẽ hướng dẫn cho.[p]
 
 [_tb_end_text]
 
@@ -1488,23 +1488,23 @@ Chưa dùng được nhuần nhuyễn nhưng…[l]Hãythức tỉnh(thức tỉn
 [fadein_window  time="1000"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-Ngươi có thể nhìn quá khứ của đối phương?[l]Đã dùng đúng cách chưa?
-Nhiều khi sẽ chảy vào não một cách vô tình,[l]nhưng việc chủ động nhìn bằng ý chí cũng rất quan trọng.
-Đây là ký ức khi đệ tử yêu quý Fuuga gặp[~]và ký hợp đồng với tinh linh gió.
+Ngươi có thể nhìn quá khứ của đối phương?[l]Đã dùng đúng cách chưa?[p]
+Nhiều khi sẽ chảy vào não một cách vô tình,[l]nhưng việc chủ động nhìn bằng ý chí cũng rất quan trọng.[p]
+Đây là ký ức khi đệ tử yêu quý Fuuga gặp[~]và ký hợp đồng với tinh linh gió.[p]
 [_tb_end_text]
 
 [bg  time="200"  method="crossfade"  storage="fuga_kaisou3.webp"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-Ký hợp đồng với tinh linh yêu cầu niềm tin.[l]Cùng nhau ăn, cùng nhau chiến đấu.[l]Những việc nhỏ nhặt đó là chìa khóa mối quan hệ với hầu tớ.
+Ký hợp đồng với tinh linh yêu cầu niềm tin.[l]Cùng nhau ăn, cùng nhau chiến đấu.[l]Những việc nhỏ nhặt đó là chìa khóa mối quan hệ với hầu tớ.[p]
 Cùng nhau ăn, cùng nhau chiến đấu.[r]Những việc nhỏ nhặt đó là chìa khóa mối quan hệ với hầu tớ.[p]
 [_tb_end_text]
 
 [bg  time="200"  method="crossfade"  storage="fuga_kaisou2.webp"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-Sức mạnh kết nối và thăng tiến tinh thần càng mạnh,[l]sức mạnh tương hỗ giữa hai bên càng vững chắc.
-Và kết quả là [font color=0xEC6FC5 bold=true]Kết nối Liên kết[resetfont]mạnh lên,[l]Fuuga và tinh linh đã chia sẻ ability và ma lực.
+Sức mạnh kết nối và thăng tiến tinh thần càng mạnh,[l]sức mạnh tương hỗ giữa hai bên càng vững chắc.[p]
+Và kết quả là [font color=0xEC6FC5 bold=true]Kết nối Liên kết[resetfont]mạnh lên,[l]Fuuga và tinh linh đã chia sẻ ability và ma lực.[p]
 
 [_tb_end_text]
 
@@ -1531,17 +1531,17 @@ Và kết quả là [font color=0xEC6FC5 bold=true]Kết nối Liên kết[reset
 [reset_mind_voice  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-Cuộc trò chuyện đến đây ma quỷ không nghe được đâu.
+Cuộc trò chuyện đến đây ma quỷ không nghe được đâu.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ガウルォス
-Lý do phía ma quỷ không đọc được Evil Eye Search[l]là vì chưa Kết nối Liên kết.
+Lý do phía ma quỷ không đọc được Evil Eye Search[l]là vì chưa Kết nối Liên kết.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ガウルォス
-Vì bên kia chưa mở lòng với ngươi.
+Vì bên kia chưa mở lòng với ngươi.[p]
 
 [_tb_end_text]
 
@@ -1549,13 +1549,13 @@ Vì bên kia chưa mở lòng với ngươi.
 [chara_mod  name="ガウルォス"  time="0"  cross="false"  storage="chara/53/1.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font face="YOWAKU"][font size=12]Spr…[resetfont]
+[font face="YOWAKU"][font size=12]Spr…[resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="ガウルォス"  time="0"  cross="false"  storage="chara/53/16.png"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-Vừa nói xong mà ngủ ngon lành thế.
+Vừa nói xong mà ngủ ngon lành thế.[p]
 
 
 [_tb_end_text]
@@ -1565,75 +1565,75 @@ Vừa nói xong mà ngủ ngon lành thế.
 [chara_mod  name="ガウルォス"  time="0"  cross="false"  storage="chara/53/5.png"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-…Ngày mai, hắn sẽ bị Evil Eye chiếm đoạt,[l]trở thành quái vật dị dạng sao?
+…Ngày mai, hắn sẽ bị Evil Eye chiếm đoạt,[l]trở thành quái vật dị dạng sao?[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ガウルォス
-Chỉ bấy nhiêu thôi, Evil Eye cũng khó sử dụng ngay cả với ma quỷ.
+Chỉ bấy nhiêu thôi, Evil Eye cũng khó sử dụng ngay cả với ma quỷ.[p]
 
 [_tb_end_text]
 
 [tb_eval  exp="sf.gauru_neo=1"  name="gauru_neo"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-Không chỉ Evil Eye, quyền lực, tiền bạc, danh dự.[l]Khi đạt được, tà niệm sinh ra sẽ nuốt chửng.
+Không chỉ Evil Eye, quyền lực, tiền bạc, danh dự.[l]Khi đạt được, tà niệm sinh ra sẽ nuốt chửng.[p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ガウルォス
-Mất đi bản chất hạnh phúc của bản thân.
+Mất đi bản chất hạnh phúc của bản thân.[p]
 
 [_tb_end_text]
 
 [chara_mod  name="ガウルォス"  time="0"  cross="false"  storage="chara/53/16.png"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-[delay speed=300]…[resetdelay]Nhưng ngươi có vẻ không hành động vì tà niệm.
+[delay speed=300]…[resetdelay]Nhưng ngươi có vẻ không hành động vì tà niệm.[p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ガウルォス
-Ngươi chỉ hành động với một lòng muốn cứu[l]con ma quỷ đang bị quá khứ trói buộc và đánh mất hình ảnh lý tưởng.
+Ngươi chỉ hành động với một lòng muốn cứu[l]con ma quỷ đang bị quá khứ trói buộc và đánh mất hình ảnh lý tưởng.[p]
 
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ガウルォス
-Ta cũng thấy vẫn còn cách khác,[l]nhưng có vẻ như đã nói «không thể lùi» rồi…
+Ta cũng thấy vẫn còn cách khác,[l]nhưng có vẻ như đã nói «không thể lùi» rồi…[p]
 
 [_tb_end_text]
 
 [chara_mod  name="ガウルォス"  time="0"  cross="false"  storage="chara/53/5.png"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-[delay speed=300]…[resetdelay]Được rồi.[l]Thử thách cuối cùng.
+[delay speed=300]…[resetdelay]Được rồi.[l]Thử thách cuối cùng.[p]
 [_tb_end_text]
 
 [chara_mod  name="ガウルォス"  time="0"  cross="false"  storage="chara/53/17.png"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-Hãy mạnh lên.[l]Vượt qua sự yếu đuối trong tâm mình.
+Hãy mạnh lên.[l]Vượt qua sự yếu đuối trong tâm mình.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ガウルォス
-Ngươi đang cố tìm cho ma quỷ này một「nơi chốn」[l]nhưng mà.
+Ngươi đang cố tìm cho ma quỷ này một「nơi chốn」[l]nhưng mà.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ガウルォス
-Những kẻ yếu không được phép phụ thuộc lẫn nhau.[l]Không được phép cùng ngã gục.
+Những kẻ yếu không được phép phụ thuộc lẫn nhau.[l]Không được phép cùng ngã gục.[p]
 [_tb_end_text]
 
 [playse  volume="100"  time="1000"  buf="3"  storage="fuga2.ogg"  ]
 [chara_mod  name="ガウルォス"  time="0"  cross="false"  storage="chara/53/18.png"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-Hãy cho ta thấy sức mạnh và quyết tâm!
+Hãy cho ta thấy sức mạnh và quyết tâm![p]
 
 
 [_tb_end_text]
@@ -1677,7 +1677,7 @@ Hãy cho ta thấy sức mạnh và quyết tâm!
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-[font size=37]Đến đây![resetfont]
+[font size=37]Đến đây![resetfont][p]
 [_tb_end_text]
 
 [call  storage="me.ks"  target="*me_ENDtozi_player"  ]
@@ -1703,19 +1703,19 @@ Hãy cho ta thấy sức mạnh và quyết tâm!
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-Sự do dự đó rồi sẽ[~]tàn phá chính bản thân ngươi.
+Sự do dự đó rồi sẽ[~]tàn phá chính bản thân ngươi.[p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ガウルォス
-Nhưng đồng thời, sự tốt bụng đó cũng đang[l]khiến ma quỷ dần mở lòng, đó là sự thật.
+Nhưng đồng thời, sự tốt bụng đó cũng đang[l]khiến ma quỷ dần mở lòng, đó là sự thật.[p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ガウルォス
-Nhưng chiến đấu cũng là một[~]cách mạnh mẽ, và là sự lựa chọn.
+Nhưng chiến đấu cũng là một[~]cách mạnh mẽ, và là sự lựa chọn.[p]
 
 [_tb_end_text]
 
@@ -1726,7 +1726,7 @@ Nhưng chiến đấu cũng là một[~]cách mạnh mẽ, và là sự lựa ch
 [chara_mod  name="ガウルォス"  time="0"  cross="false"  storage="chara/53/16.png"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-Hãy nhớ lấy điều đó trong góc tâm trí.
+Hãy nhớ lấy điều đó trong góc tâm trí.[p]
 
 [_tb_end_text]
 
@@ -1743,14 +1743,14 @@ Hãy nhớ lấy điều đó trong góc tâm trí.
 
 [tb_start_text mode=1 ]
 #でびるん
-Fwhaa…[l]Ngủ ngon lành với bịt mắt, ngủ đã ghê~
+Fwhaa…[l]Ngủ ngon lành với bịt mắt, ngủ đã ghê~[p]
 [_tb_end_text]
 
 [playse  volume="100"  time="1000"  buf="3"  storage="aseru.ogg"  ]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/65.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Nha? Cảm xúc Aura đang nổi lên![l]Nào, hấp thụ thôi!
+Nha? Cảm xúc Aura đang nổi lên![l]Nào, hấp thụ thôi![p]
 
 
 
@@ -1772,7 +1772,7 @@ Nha? Cảm xúc Aura đang nổi lên![l]Nào, hấp thụ thôi!
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-Đagyaa? Sao vậy [emb exp="f.name"][l]hơi thở gấp vậy? Run rẩy ghê…
+Đagyaa? Sao vậy [emb exp="f.name"][l]hơi thở gấp vậy? Run rẩy ghê…[p]
 
 [_tb_end_text]
 
@@ -1822,7 +1822,7 @@ Nha? Cảm xúc Aura đang nổi lên![l]Nào, hấp thụ thôi!
 
 [tb_start_text mode=1 ]
 #ガウルォス
-Cho thấy quyết tâm không phải[l]là tự thử thách bản thân.
+Cho thấy quyết tâm không phải[l]là tự thử thách bản thân.[p]
 
 [_tb_end_text]
 
@@ -1831,20 +1831,20 @@ Cho thấy quyết tâm không phải[l]là tự thử thách bản thân.
 [chara_mod  name="ガウルォス"  time="0"  cross="false"  storage="chara/53/5.png"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-Tuy nhiên dù vậy, dùng cấm thuật mà[l]không phát điên đã đứng vững, thật đáng kinh ngạc.
+Tuy nhiên dù vậy, dùng cấm thuật mà[l]không phát điên đã đứng vững, thật đáng kinh ngạc.[p]
 [_tb_end_text]
 
 [chara_mod  name="ガウルォス"  time="0"  cross="false"  storage="chara/53/16.png"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-…Dường như ngươi là người có[~]sức mạnh tinh thần và quyết tâm phi thường.
+…Dường như ngươi là người có[~]sức mạnh tinh thần và quyết tâm phi thường.[p]
 Có vẻ như mới gặp ma quỷ không lâu,[r]nhưng ý chí mạnh mẽ đó đã sớm thức tỉnh Evil Eye.[p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ガウルォス
-Khả năng chịu đựng nỗi đau khai nhãn đã cho thấy[l]quyết tâm, nhưng… phi thường.
+Khả năng chịu đựng nỗi đau khai nhãn đã cho thấy[l]quyết tâm, nhưng… phi thường.[p]
 
 
 [_tb_end_text]
@@ -1854,7 +1854,7 @@ Khả năng chịu đựng nỗi đau khai nhãn đã cho thấy[l]quyết tâm,
 [chara_mod  name="ガウルォス"  time="0"  cross="false"  storage="chara/53/4.png"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-Ta hồi nhỏ từng[~]lăn lộn đòi chết.[l]Hahaha!
+Ta hồi nhỏ từng[~]lăn lộn đòi chết.[l]Hahaha![p]
 
 
 [_tb_end_text]
@@ -1871,14 +1871,14 @@ Ta hồi nhỏ từng[~]lăn lộn đòi chết.[l]Hahaha!
 
 [tb_start_text mode=1 ]
 #でびるん
-Fwhaa…[l]Ngủ ngon lành với bịt mắt, ngủ đã ghê~
+Fwhaa…[l]Ngủ ngon lành với bịt mắt, ngủ đã ghê~[p]
 [_tb_end_text]
 
 [playse  volume="100"  time="1000"  buf="3"  storage="aseru.ogg"  ]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/127.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Đagyaa? Sao vậy [emb exp="f.name"][l]hơi thở gấp vậy? Run rẩy ghê…
+Đagyaa? Sao vậy [emb exp="f.name"][l]hơi thở gấp vậy? Run rẩy ghê…[p]
 
 
 
@@ -1900,7 +1900,7 @@ Fwhaa…[l]Ngủ ngon lành với bịt mắt, ngủ đã ghê~
 
 [tb_start_text mode=1 ]
 #でびるん
-Này ngươi, đã làm gì[l][emb exp="f.name"] vậy!
+Này ngươi, đã làm gì[l][emb exp="f.name"] vậy![p]
 
 
 
@@ -1911,7 +1911,7 @@ Này ngươi, đã làm gì[l][emb exp="f.name"] vậy!
 [chara_mod  name="ガウルォス"  time="0"  cross="false"  storage="chara/53/16.png"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-Ồ, không hay rồi.[l]Phải chạy thôi.
+Ồ, không hay rồi.[l]Phải chạy thôi.[p]
 
 
 
@@ -1920,7 +1920,7 @@ Này ngươi, đã làm gì[l][emb exp="f.name"] vậy!
 [chara_mod  name="プレイヤー"  time="80"  cross="false"  storage="chara/2/te.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Để chạy sao! Ta sẽ hút hết ma lực[l]cho đến khi MP cạn kiệt!
+Để chạy sao! Ta sẽ hút hết ma lực[l]cho đến khi MP cạn kiệt![p]
 
 
 
@@ -1948,7 +1948,7 @@ Này ngươi, đã làm gì[l][emb exp="f.name"] vậy!
 [mind_voice  color="0xe83156"  name="ガウルォス"  text="Đừng lạm dụng Ma Nhĩ quá mức đấy?"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-[if exp="sf.Lamia_noroi == 1]Nếu ở cùng con ma quỷ này[l]chắc chắn ổn[else]Nếu là ngươi thì chắc chắn ổn![endif]
+[if exp="sf.Lamia_noroi == 1]Nếu ở cùng con ma quỷ này[l]chắc chắn ổn[else]Nếu là ngươi thì chắc chắn ổn![endif][p]
 
 
 
@@ -1983,7 +1983,7 @@ Này ngươi, đã làm gì[l][emb exp="f.name"] vậy!
 [fadein_window  time="1000"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Fwaaa~ bản đại nhân đang ngủ,[l]đã được hướng dẫn Evil Eye đàng hoàng rồi nhỉ?
+Fwaaa~ bản đại nhân đang ngủ,[l]đã được hướng dẫn Evil Eye đàng hoàng rồi nhỉ?[p]
 
 
 [_tb_end_text]
@@ -1992,24 +1992,24 @@ Fwaaa~ bản đại nhân đang ngủ,[l]đã được hướng dẫn Evil Eye �
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/12.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Dù sao thì, chỉ cần nhìn vào mắt là[l]trao đổi suy nghĩ trong não được, nên bất ngờ bị gọi nói chuyện sẽ giật mình~
+Dù sao thì, chỉ cần nhìn vào mắt là[l]trao đổi suy nghĩ trong não được, nên bất ngờ bị gọi nói chuyện sẽ giật mình~[p]
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/1.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Evil Eye bắt đầu từ ability đọc tâm,[l]mỗi người sở hữu sẽ có năng lực khác nhau.
+Evil Eye bắt đầu từ ability đọc tâm,[l]mỗi người sở hữu sẽ có năng lực khác nhau.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-Tên ma sói đeo mặt nạ kia, giống mày[l]có thể đọc ký ức đối phương.
+Tên ma sói đeo mặt nạ kia, giống mày[l]có thể đọc ký ức đối phương.[p]
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/21.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Hmm, ability nhìn quá khứ… cũng có thể nắm yếu điểm[l]của đối phương, khá là có thể lạm dụng, Kuhaha!
+Hmm, ability nhìn quá khứ… cũng có thể nắm yếu điểm[l]của đối phương, khá là có thể lạm dụng, Kuhaha![p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -2033,7 +2033,7 @@ Hmm, ability nhìn quá khứ… cũng có thể nắm yếu điểm[l]của đ�
 [camera  time="1000"  zoom="1.5"  wait="false"  x="0"  y="50"  rotate="0"  layer="layer_camera"  ease_type="ease"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Dùng cả Evil Eye,[l]thu thập thật nhiều ma lực nào!
+Dùng cả Evil Eye,[l]thu thập thật nhiều ma lực nào![p]
 
 
 [_tb_end_text]
@@ -2045,7 +2045,7 @@ Dùng cả Evil Eye,[l]thu thập thật nhiều ma lực nào!
 [camera  time="1000"  zoom="1.5"  wait="false"  x="0"  y="50"  rotate="0"  layer="0"  ease_type="ease"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Dùng cả Evil Eye,[l]thu thập thật nhiều ma lực nào!
+Dùng cả Evil Eye,[l]thu thập thật nhiều ma lực nào![p]
 
 
 [_tb_end_text]
@@ -2058,7 +2058,7 @@ Dùng cả Evil Eye,[l]thu thập thật nhiều ma lực nào!
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/20.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Dù sao thì, dù không thấy rõ,[l]mày cũng đã khích lệ dữ dội lắm.
+Dù sao thì, dù không thấy rõ,[l]mày cũng đã khích lệ dữ dội lắm.[p]
 
 
 [_tb_end_text]
@@ -2066,18 +2066,18 @@ Dù sao thì, dù không thấy rõ,[l]mày cũng đã khích lệ dữ dội l�
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/21.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Kuhaha… khá lắm!
+Kuhaha… khá lắm![p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-Khích lệ là sở trường của ma quỷ![l]Tâm linh cũng ngày càng giống ma quỷ rồi.
+Khích lệ là sở trường của ma quỷ![l]Tâm linh cũng ngày càng giống ma quỷ rồi.[p]
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/11.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Cả khích lệ lẫn Evil Eye,[l]hãy sử dụng thành thạo!
+Cả khích lệ lẫn Evil Eye,[l]hãy sử dụng thành thạo![p]
 
 
 
@@ -2104,7 +2104,7 @@ Cả khích lệ lẫn Evil Eye,[l]hãy sử dụng thành thạo!
 [fadein_window  time="1000"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Mày… không sao chứ? [l]Bị làm gì lạ không?
+Mày… không sao chứ? [l]Bị làm gì lạ không?[p]
 
 [_tb_end_text]
 
@@ -2113,7 +2113,7 @@ Mày… không sao chứ? [l]Bị làm gì lạ không?
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/31.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Vậy nên ta đã nói[l]tên đó đáng ngờ mà.
+Vậy nên ta đã nói[l]tên đó đáng ngờ mà.[p]
 
 [_tb_end_text]
 
@@ -2121,7 +2121,7 @@ Vậy nên ta đã nói[l]tên đó đáng ngờ mà.
 [chara_mod  name="プレイヤー"  time="0"  cross="false"  storage="chara/2/te_nu.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-…C-Cái gì?
+…C-Cái gì?[p]
 
 
 
@@ -2143,7 +2143,7 @@ Vậy nên ta đã nói[l]tên đó đáng ngờ mà.
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font face="DZUYOKU"][font size=40]Fugya!? [resetfont]
+[font face="DZUYOKU"][font size=40]Fugya!? [resetfont][p]
 [_tb_end_text]
 
 [playse  volume="100"  time="1000"  buf="3"  storage="aseru.ogg"  ]
@@ -2151,7 +2151,7 @@ Vậy nên ta đã nói[l]tên đó đáng ngờ mà.
 [chara_mod  name="サブでび"  time="0"  cross="false"  storage="chara/30/gauru2.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-K-Không ôm đột ngột vậy! [l]Tối qua cũng dính rồi! Bỏ ra!
+K-Không ôm đột ngột vậy! [l]Tối qua cũng dính rồi! Bỏ ra![p]
 
 
 [_tb_end_text]
@@ -2185,7 +2185,7 @@ K-Không ôm đột ngột vậy! [l]Tối qua cũng dính rồi! Bỏ ra!
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/54.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=12]Gần đây ở cùng mày,[l]tâm trí phân tán quá.[resetfont]
+[font size=12]Gần đây ở cùng mày,[l]tâm trí phân tán quá.[resetfont][p]
 
 [_tb_end_text]
 
@@ -2193,7 +2193,7 @@ K-Không ôm đột ngột vậy! [l]Tối qua cũng dính rồi! Bỏ ra!
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/53.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Đừng có dính vào![l]Tch! [font size=12]Lo lắng mà phí.[resetfont]
+Đừng có dính vào![l]Tch! [font size=12]Lo lắng mà phí.[resetfont][p]
 
 [_tb_end_text]
 

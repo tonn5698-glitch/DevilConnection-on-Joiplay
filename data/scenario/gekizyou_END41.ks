@@ -33,39 +33,39 @@
 [chara_mod  name="ちび悪魔"  time="0"  cross="false"  storage="chara/72/15.png"  ]
 [tb_start_text mode=1 ]
 #マネコ
-Cái nhà gì vậy![r]Tưởng là biệt thự nhà giàu chứ…
+Cái nhà gì vậy![r]Tưởng là biệt thự nhà giàu chứ…[p]
 [_tb_end_text]
 
 [chara_mod  name="劇場でび"  time="0"  cross="false"  storage="chara/15/dagya54.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Ồ Mammon,nhà này chỉ có giấy lộn thôi[r]để ma thuật lại rồi về đi về đi
+Ồ Mammon,nhà này chỉ có giấy lộn thôi[r]để ma thuật lại rồi về đi về đi[p]
 [_tb_end_text]
 
 [chara_mod  name="ちび悪魔"  time="0"  cross="false"  storage="chara/72/16.png"  ]
 [tb_start_text mode=1 ]
 #マネコ
-Belphegor…[r]tin tức của ông[c]trong Ma giới đang rất hot
+Belphegor…[r]tin tức của ông[c]trong Ma giới đang rất hot[p]
 ;Belphegor…[r]あんたの噂は魔界で持ちきりですの[p]
 ;;ベルフェゴール…[r]あんたの噂は魔界で持ちきりですの[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #マネコ
-Tưởng là lười biếng nên quay sang[r]ký hợp đồng với kẻ giàu rồi nằm ườn ra…
+Tưởng là lười biếng nên quay sang[r]ký hợp đồng với kẻ giàu rồi nằm ườn ra…[p]
 
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #マネコ
-Sao lại nghèo thế không biết![r]Không thể hiểu được
+Sao lại nghèo thế không biết![r]Không thể hiểu được[p]
 [_tb_end_text]
 
 [chara_mod  name="劇場でび"  time="0"  cross="false"  storage="chara/15/dagya41.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Mammon…tiền không phải[r]là tất cả đâu nhá~
+Mammon…tiền không phải[r]là tất cả đâu nhá~[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -80,7 +80,7 @@ Mammon…tiền không phải[r]là tất cả đâu nhá~
 [chara_mod  name="ちび悪魔"  time="0"  cross="false"  storage="chara/72/15.png"  ]
 [tb_start_text mode=1 ]
 #マネコ
-Giống như ngứa mắt lắm![r]Câu đó tôi không muốn nghe nhất đó—!
+Giống như ngứa mắt lắm![r]Câu đó tôi không muốn nghe nhất đó—![p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -95,25 +95,25 @@ Giống như ngứa mắt lắm![r]Câu đó tôi không muốn nghe nhất đó
 [chara_mod  name="ちび悪魔"  time="0"  cross="false"  storage="chara/72/14.png"  ]
 [tb_start_text mode=1 ]
 #マネコ
-…À,ông,nghe nói gần đây[r]khả năng thần ác đã đánh thức
+…À,ông,nghe nói gần đây[r]khả năng thần ác đã đánh thức[p]
 [_tb_end_text]
 
 [chara_mod  name="劇場でび"  time="0"  cross="false"  storage="chara/15/dagya40.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Đúng vậy! Nếu muốn thì[r]có thể mọc rễ hút cạn ma thuật xung quanh
+Đúng vậy! Nếu muốn thì[r]có thể mọc rễ hút cạn ma thuật xung quanh[p]
 [_tb_end_text]
 
 [chara_mod  name="ちび悪魔"  time="0"  cross="false"  storage="chara/72/16.png"  ]
 [tb_start_text mode=1 ]
 #マネコ
-T…thật không tin được ông thuộc cấp quỷ thấp mà[r]có khả năng như vậy
+T…thật không tin được ông thuộc cấp quỷ thấp mà[r]có khả năng như vậy[p]
 [_tb_end_text]
 
 [chara_mod  name="劇場でび"  time="0"  cross="false"  storage="chara/15/dagya29.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Ồồ ghen tị à? Mày cũng nên có[r]sức mạnh mới ngoài nghệ thuật nhại người nhaw
+Ồồ ghen tị à? Mày cũng nên có[r]sức mạnh mới ngoài nghệ thuật nhại người nhaw[p]
 
 [_tb_end_text]
 
@@ -129,7 +129,7 @@ T…thật không tin được ông thuộc cấp quỷ thấp mà[r]có khả n
 [chara_mod  name="ちび悪魔"  time="0"  cross="false"  storage="chara/72/15.png"  ]
 [tb_start_text mode=1 ]
 #マネコ
-Unya—! Tôi muốn lấy đi[c]tất cả may mắn và thực lực của ông—!
+Unya—! Tôi muốn lấy đi[c]tất cả may mắn và thực lực của ông—![p]
 
 [_tb_end_text]
 

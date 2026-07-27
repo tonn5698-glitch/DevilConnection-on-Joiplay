@@ -272,13 +272,13 @@ Ugh, nhưng... dù nhận được búp bê dễ thương[r]thì tình hình v�
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/21.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Còn hơn là nó chống lại, nhưng[r]nhút nhát thế này đúng là phiền.
+Còn hơn là nó chống lại, nhưng[r]nhút nhát thế này đúng là phiền.[p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ライ
-Ugh... đúng vậy... Vì thế nên[r]bao lâu nay mọi người cứ nói em 'lại còn là sư tử'...
+Ugh... đúng vậy... Vì thế nên[r]bao lâu nay mọi người cứ nói em 'lại còn là sư tử'...[p]
 
 [_tb_end_text]
 
@@ -301,7 +301,7 @@ Nếu có thể, em cũng muốn trở thành vị vua mạnh nhất muôn loài
 
 [tb_start_text mode=1 ]
 #でびるん
-Ồ, lời trăn trối cuối cùng sao.[r]Ước nguyện đó, tao sẽ ban cho mày.
+Ồ, lời trăn trối cuối cùng sao.[r]Ước nguyện đó, tao sẽ ban cho mày.[p]
 [_tb_end_text]
 
 [chara_mod  name="ライ"  time="0"  cross="false"  storage="chara/58/10.png"  ]
@@ -563,7 +563,7 @@ Trong mắt quỷ... thì ra là vậy sao...[p]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/11.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Hê, thằng nào mà từng nói những câu đó,[r]chúng chỉ là đồ yếu đuối nhất trong lũ yếu đuối mà thôi.
+Hê, thằng nào mà từng nói những câu đó,[r]chúng chỉ là đồ yếu đuối nhất trong lũ yếu đuối mà thôi.[p]
 
 
 [_tb_end_text]
@@ -693,7 +693,7 @@ fixLayer.filter('.waku.disabled').remove()
 
 [tb_start_text mode=1 ]
 #でびるん
-Nhìn này, nó còn vặn nát được[r]cả búp bê nữa.
+Nhìn này, nó còn vặn nát được[r]cả búp bê nữa.[p]
 
 
 
@@ -815,7 +815,7 @@ Em đã lo lắng quá nhiều về người khác...[r]Dù mạnh hơn, thì đ
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/11.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Ồ, vậy à. Ừ, thế thì[r]ma lực cũng không bị phí.
+Ồ, vậy à. Ừ, thế thì[r]ma lực cũng không bị phí.[p]
 
 [_tb_end_text]
 
@@ -854,7 +854,7 @@ Giun sán?! Không không không![r]E-Em đang khen cậu đó!?[p]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/138.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Đó là giá trị quan của mày.[r]Ừ thì, giỏi lắm thì trả thù lũ đã chê mày đi.
+Đó là giá trị quan của mày.[r]Ừ thì, giỏi lắm thì trả thù lũ đã chê mày đi.[p]
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/172.png"  ]
@@ -894,7 +894,7 @@ Em chỉ muốn... mỗi ngày đều sống bình yên[r]thật sự là chính
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/66.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Hê, cái cách suy nghĩ đó...[r]Đúng chuẩn NPC.
+Hê, cái cách suy nghĩ đó...[r]Đúng chuẩn NPC.[p]
 
 
 [_tb_end_text]
@@ -939,7 +939,7 @@ Ugh... nhưng đúng là, em vừa nhận ra điều quan trọng[r]mà, liệu 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/121.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Ma thuật dùng chẳng ra hồn[r]thằng ngốc.
+Ma thuật dùng chẳng ra hồn[r]thằng ngốc.[p]
 
 [_tb_end_text]
 
@@ -1051,7 +1051,7 @@ A-! Đánh bằng roi bất ngờ thế...[r]Đau quá...[p]
 
 [tb_start_text mode=1 ]
 #でびるん
-Mày là người tấn công trước mà.[r]Hmm... dù sao thì, đúng là yếu đuối.
+Mày là người tấn công trước mà.[r]Hmm... dù sao thì, đúng là yếu đuối.[p]
 [_tb_end_text]
 
 [playse  volume="100"  time="0"  buf="3"  storage="saimin.ogg"  ]
@@ -1066,7 +1066,7 @@ M-Mà... sao ta...[r]cảm thấy thích thích... nhỉ?[p]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/19.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Ê... trước khi nó tỉnh dậy thêm cái gì nữa,[r]thu hồi ma lực đi.
+Ê... trước khi nó tỉnh dậy thêm cái gì nữa,[r]thu hồi ma lực đi.[p]
 
 [_tb_end_text]
 
@@ -1092,7 +1092,7 @@ M-Mà... sao ta...[r]cảm thấy thích thích... nhỉ?[p]
 
 [tb_start_text mode=1 ]
 #でびるん
-Cần gì cái lá chắn.[r]Tao đang tốt bụng mà.
+Cần gì cái lá chắn.[r]Tao đang tốt bụng mà.[p]
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/21.png"  ]
@@ -1191,14 +1191,14 @@ Hả, vậy sao? Tốt quá![r]Chỉ nằm liệt vài ngày thôi à![p]
 [fadein_window  time="1000"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Hừ, từ đầu đến cuối[r]đúng là một sư tử đáng thương.
+Hừ, từ đầu đến cuối[r]đúng là một sư tử đáng thương.[p]
 
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/8.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Dù sao đi nữa, chấp nhận bị đánh bại bởi lũ đã khinh thường mình...[r]không hiểu nổi.
+Dù sao đi nữa, chấp nhận bị đánh bại bởi lũ đã khinh thường mình...[r]không hiểu nổi.[p]
 
 
 [_tb_end_text]
@@ -1214,7 +1214,7 @@ Phải cho tụi nó thấy cái gì thật tuyệt vời[r]để tụi nó há 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/31.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-...Bản đại nhân cũng làm được nếu muốn.[r]Ta sẽ lấy lại hình dáng thật sự để chứng minh.
+...Bản đại nhân cũng làm được nếu muốn.[r]Ta sẽ lấy lại hình dáng thật sự để chứng minh.[p]
 [_tb_end_text]
 
 [playse  volume="100"  time="0"  buf="3"  storage="aseru.ogg"  ]

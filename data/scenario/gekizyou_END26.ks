@@ -56,7 +56,7 @@ Thiên sứ tình yêu Kupya-deru cùng quỷ Devilun-kun sẽ gửi đến[r]b�
 
 [tb_start_text mode=1 ]
 #でびるん
-Sao [emb exp="f.name"] lại biết[r]tên thật của bản đại nhân chứ…
+Sao [emb exp="f.name"] lại biết[r]tên thật của bản đại nhân chứ…[p]
 
 
 
@@ -65,38 +65,38 @@ Sao [emb exp="f.name"] lại biết[r]tên thật của bản đại nhân chứ
 
 [tb_start_text mode=1 ]
 #でびるん
-Chắc do hắn nói nửa chừng?[r]Đm…không ngờ lại bị phong ấn, nằm ngoài dự tính
+Chắc do hắn nói nửa chừng?[r]Đm…không ngờ lại bị phong ấn, nằm ngoài dự tính[p]
 [_tb_end_text]
 
 [chara_mod  name="劇場える"  time="0"  cross="false"  storage="chara/16/kupya1.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Nếu Debi-kun sống ở[r]Suối linh hồn do Đại tiên nữ cai quản thì ta cũng yên tâm
+Nếu Debi-kun sống ở[r]Suối linh hồn do Đại tiên nữ cai quản thì ta cũng yên tâm[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #クピャドエル
-Nơi đó có các tinh linh và đủ loại thần ma cư ngụ[r]nghe nói có cả thiên sứ bỏ trốn từ thiên giới đến nữa…
+Nơi đó có các tinh linh và đủ loại thần ma cư ngụ[r]nghe nói có cả thiên sứ bỏ trốn từ thiên giới đến nữa…[p]
 
 [_tb_end_text]
 
 [chara_mod  name="劇場でび"  time="0"  cross="false"  storage="chara/15/dagya16.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Hừ, nơi mà lũ nhỏ mọn không có thân xác cũng phải[r]bám víu vào nhau để sống đó hả?
+Hừ, nơi mà lũ nhỏ mọn không có thân xác cũng phải[r]bám víu vào nhau để sống đó hả?[p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-Bản đại nhân là Đại quỷ mà phải sống ở nơi đó á[r]xin kiếu từ chối
+Bản đại nhân là Đại quỷ mà phải sống ở nơi đó á[r]xin kiếu từ chối[p]
 
 [_tb_end_text]
 
 [chara_mod  name="劇場える"  time="0"  cross="false"  storage="chara/16/kupya6.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Ở lâu cũng quen mà…giờ chắc[r]Debi-kun chỉ bị nhiễm tư tưởng xấu thôi
+Ở lâu cũng quen mà…giờ chắc[r]Debi-kun chỉ bị nhiễm tư tưởng xấu thôi[p]
 
 [_tb_end_text]
 
@@ -104,7 +104,7 @@ Bản đại nhân là Đại quỷ mà phải sống ở nơi đó á[r]xin ki�
 [chara_move  name="劇場でび"  anim="true"  time="1000"  effect="easeOutQuad"  wait="false"  left="701"  top="163"  width="523"  height="551"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Haa[delay speed=100]・・・[resetdelay][emb exp="f.name"] cũng[c]cứ hết sức chơi tốt với bạn mới đi[chara_hide  name="劇場でび"  time="1000"  wait="false"  pos_mode="false"  ]
+Haa[delay speed=100]・・・[resetdelay][emb exp="f.name"] cũng[c]cứ hết sức chơi tốt với bạn mới đi[chara_hide  name="劇場でび"  time="1000"  wait="false"  pos_mode="false"  ][p]
 
 [_tb_end_text]
 
@@ -116,7 +116,7 @@ Haa[delay speed=100]・・・[resetdelay][emb exp="f.name"] cũng[c]cứ hết s
 
 [tb_start_text mode=1 ]
 #クピャドエル
-True End ở đâu nhỉ…[r]rốt cuộc nó ở đâu vậy không biết
+True End ở đâu nhỉ…[r]rốt cuộc nó ở đâu vậy không biết[p]
 
 [_tb_end_text]
 

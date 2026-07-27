@@ -17,7 +17,7 @@ TYRANO.kag.stat.is_strong_stop = false;
 [chara_show  name="プレイヤー"  zindex="2"  layer="1"  time="0"  wait="false"  storage="chara/2/pie_a.png"  width="1280"  height="960"  ]
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [wait  time="300"  ]
-[chara_mod  name="ベッド"  time="0"  cross="false"  storage="chara/19/11.png"  ]
+[chara_mod  name="ベッド"  time="0"  cross="false"  storage="chara/19/11.png"  ][p]
 [wait  time="700"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -44,7 +44,7 @@ Hồi xưa tao hay ăn Raspberry ở Magiricia[r]hồi niệm lắm. Măm măm n
 [flash  time="50"  effect="fadeIn"  color="0x000000"  ]
 
 [chara_mod  name="ベッド"  time="0"  cross="false"  storage="chara/19/19.png"  ]
-[flash_off  time="20"  effect="fadeOut"  ]
+[flash_off  time="20"  effect="fadeOut"  ][p]
 
 [playse  volume="100"  time="0"  buf="1"  storage="kawaii.ogg"  ]
 [tb_start_text mode=1 ]
@@ -58,7 +58,7 @@ Hồi xưa tao hay ăn Raspberry ở Magiricia[r]hồi niệm lắm. Măm măm n
 Thân hình nhỏ nhắn, tưởng chỉ có bất lợi nhưng[r]một miếng bánh mà dính đầy mứt thế này cũng là ưu điểm nhỉ[p]
 
 
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="ベッド"  time="0"  cross="false"  storage="chara/19/23.png"  ]
 [tb_start_text mode=1 ]
@@ -72,7 +72,7 @@ Thân hình nhỏ nhắn, tưởng chỉ có bất lợi nhưng[r]một miếng 
 [chara_mod  name="プレイヤー"  time="100"  cross="false"  storage="chara/2/te.png"  ]
 [chara_mod  name="ベッド"  time="0"  cross="false"  storage="chara/19/21.png"  ]
 [playse  volume="100"  time="0"  buf="1"  storage="hirameki.ogg"  ]
-[quake  time="300"  count="5"  hmax="3"  wait="false"  ]
+[quake  time="300"  count="5"  hmax="3"  wait="false"  ][p]
 [flash_off  time="20"  effect="fadeOut"  ]
 
 [tb_start_text mode=1 ]
@@ -80,7 +80,7 @@ Thân hình nhỏ nhắn, tưởng chỉ có bất lợi nhưng[r]một miếng 
 Phù~ Ngon quá aa~![r]À, ga giường thì mày giặt đi nhé[p]
 
 
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="ベッド"  time="100"  cross="false"  storage="chara/19/20.png"  ]
 [tb_start_text mode=1 ]
@@ -113,7 +113,7 @@ Vậy mày cũng ăn xong rồi thì từ từ ngủ đi[r]Ngủ ngon nha~.[p]
 
 [chara_mod  name="ベッド"  time="0"  cross="false"  storage="chara/19/22.png"  ]
 [chara_hide  name="TAP"  time="500"  wait="false"  pos_mode="false"  ]
-[flash_off  time="20"  effect="fadeOut"  ]
+[flash_off  time="20"  effect="fadeOut"  ][p]
 
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -144,7 +144,7 @@ Gì vậy[delay speed=100]・・・[resetdelay]Muốn đánh răng thì đi mà 
 
 [chara_mod  name="ベッド"  time="0"  cross="false"  storage="chara/19/24.png"  ]
 [chara_hide  name="TAP"  time="500"  wait="false"  pos_mode="false"  ]
-[flash_off  time="20"  effect="fadeOut"  ]
+[flash_off  time="20"  effect="fadeOut"  ][p]
 
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -156,7 +156,7 @@ Không~. Ngủ dưới sàn đi[p]
 [_tb_end_text]
 
 [hide_photo_button]
-[chara_mod  name="ベッド"  time="100"  cross="false"  storage="chara/19/20.png"  ]
+[chara_mod  name="ベッド"  time="100"  cross="false"  storage="chara/19/20.png"  ][p]
 [layermode  mode="darken"  color="0x000000"  time="4000"  wait="false"  ]
 [stopbgm  time="3000"  fadeout="true"  ]
 [tb_start_text mode=1 ]
@@ -234,7 +234,7 @@ Dagyaa!?! Tao ghét bị rửa lắm![r]Đừng có mà sờ lung tung vào ch�
 [call  storage="phase.ks"  target="*show_top"  ]
 [flash_off  time="1000"  effect="fadeOut"  ]
 
-[show_photo_button]
+[show_photo_button][p]
 [wait  time="800"  ]
 [fadein_window  time="1000"  ]
 [tb_start_text mode=1 ]
@@ -242,14 +242,14 @@ Dagyaa!?! Tao ghét bị rửa lắm![r]Đừng có mà sờ lung tung vào ch�
 Cái gì vậy… mới thức dậy đã[r]lôi bản đại nhân vào phòng tắm rồi![p]
 
 
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/2.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
 Bực~ Mùi xà phòng dính đầy người rồi…[r]Tệ nhất![p]
 
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/8.png"  ]
 [tb_start_text mode=1 ]
@@ -278,14 +278,14 @@ TYRANO.kag.stat.is_strong_stop = false;
 [wait  time="300"  ]
 [chara_mod  name="ベッド"  time="0"  cross="false"  storage="chara/19/43.png"  ]
 [wait  time="700"  ]
-[tb_show_message_window  ]
+[tb_show_message_window  ][p]
 [tb_start_text mode=1 ]
 #でびるん
 Nè! Tao lừa được từ tiệm bánh kia [r][font size=25]Raspberry Pie…[resetfont][p]
 [_tb_end_text]
 
 [playse  volume="100"  time="1000"  buf="4"  storage="aseru.ogg"  ]
-[chara_mod  name="ベッド"  time="0"  cross="false"  storage="chara/19/44.png"  ]
+[chara_mod  name="ベッド"  time="0"  cross="false"  storage="chara/19/44.png"  ][p]
 [tb_start_text mode=1 ]
 #でびるん
 Khoan, bị lộn ngược rồi[p]
@@ -302,14 +302,14 @@ Bánh bị lộn ngược nên[r]Shi'"pai"~ Đùa thôi![p]
 [tb_hide_message_window  ]
 [stopbgm  time="2000"  fadeout="true"  ]
 [chara_mod  name="ベッド"  time="100"  cross="false"  storage="chara/19/46.png"  ]
-[wait  time="2000"  ]
+[wait  time="2000"  ][p]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #でびるん
 [delay speed=200]・・・・・・[resetdelay][p]
 [_tb_end_text]
 
-[playbgm  volume="50"  time="0"  loop="true"  storage="7_before_sleep.ogg"  ]
+[playbgm  volume="50"  time="0"  loop="true"  storage="7_before_sleep.ogg"  ][p]
 [tb_start_text mode=1 ]
 #でびるん
 Nói gì đi chứ[delay speed=100]・・・[resetdelay][r]Đừng có mà phá vỡ câu joke[font face="KaiseiDecol-Bold"]tâm huyết[resetfont] của bản đại nhân[p]
@@ -331,7 +331,7 @@ $(".flash").remove();
 TYRANO.kag.stat.is_strong_stop = false;
 [endscript]
 
-[tb_hide_message_window  ]
+[tb_hide_message_window  ][p]
 [playse  volume="100"  time="0"  buf="1"  storage="hazikeru.ogg"  ]
 [tb_start_tyrano_code]
 [play_apng name="kemuri3" layer="1" x="0" y="0" width="1280" height="960" mode="screen" free="true"]
@@ -339,19 +339,19 @@ TYRANO.kag.stat.is_strong_stop = false;
 
 [chara_hide  name="プレイヤー"  layer="1"  time="0"  wait="false"  pos_mode="false"  ]
 [chara_show  name="プレイヤー"  zindex="2"  layer="1"  time="0"  wait="false"  storage="chara/2/pie_b.png"  width="1280"  height="960"  ]
-[quake  time="300"  count="5"  hmax="3"  wait="false"  ]
+[quake  time="300"  count="5"  hmax="3"  wait="false"  ][p]
 [wait  time="300"  ]
 [chara_mod  name="ベッド"  time="0"  cross="false"  storage="chara/19/36.png"  ]
 [wait  time="700"  ]
 [tb_show_message_window  ]
-[tb_start_text mode=1 ]
+[tb_start_text mode=1 ][p]
 #でびるん
 Nè! Tao lừa được từ tiệm bánh kia [r][font size=25]Raspbe…[resetfont][p]
 [_tb_end_text]
 
 [tb_eval  exp="f.blueberry=1"  name="blueberry"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
 [playse  volume="100"  time="0"  buf="1"  storage="gimon.ogg"  ]
-[chara_mod  name="ベッド"  time="0"  cross="false"  storage="chara/19/47.png"  ]
+[chara_mod  name="ベッド"  time="0"  cross="false"  storage="chara/19/47.png"  ][p]
 [tb_start_text mode=1 ]
 #でびるん
 Khoan, nhầm lẫn lấy trộm phải Blueberry Pie rồi[p]
@@ -363,7 +363,7 @@ Khoan, nhầm lẫn lấy trộm phải Blueberry Pie rồi[p]
 [_tb_end_text]
 
 [playse  volume="100"  time="0"  buf="1"  storage="paku.ogg"  ]
-[chara_mod  name="ベッド"  time="0"  cross="false"  storage="chara/19/37.png"  ]
+[chara_mod  name="ベッド"  time="0"  cross="false"  storage="chara/19/37.png"  ][p]
 [tb_start_text mode=1 ]
 #でびるん
 [font size=25]Chụt[resetfont][p]
@@ -383,14 +383,14 @@ Khoan, nhầm lẫn lấy trộm phải Blueberry Pie rồi[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[chara_mod  name="ベッド"  time="100"  cross="false"  storage="chara/19/48.png"  ]
+[chara_mod  name="ベッド"  time="100"  cross="false"  storage="chara/19/48.png"  ][p]
 [stopbgm  time="1000"  fadeout="true"  ]
 [wait  time="1000"  ]
 [l  ]
 [playbgm  volume="50"  time="0"  loop="true"  storage="7_before_sleep.ogg"  ]
 [playse  volume="100"  time="0"  buf="1"  storage="gimon.ogg"  ]
 [chara_mod  name="ベッド"  time="0"  cross="false"  storage="chara/19/49.png"  ]
-[tb_show_message_window  ]
+[tb_show_message_window  ][p]
 [tb_start_text mode=1 ]
 #でびるん
 Dagya!?![r]Tại sao nước mắt lại[r]xuất hiện thế[delay speed=100]・・・[resetdelay][p]
@@ -404,7 +404,7 @@ Dagya!?![r]Tại sao nước mắt lại[r]xuất hiện thế[delay speed=100]�
 
 [chara_mod  name="ベッド"  time="0"  cross="false"  storage="chara/19/38.png"  ]
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 [font size=25]Nhai nhai…[resetfont][p]
 
 [_tb_end_text]
@@ -412,8 +412,8 @@ Dagya!?![r]Tại sao nước mắt lại[r]xuất hiện thế[delay speed=100]�
 [flash  time="80"  effect="fadeIn"  color="0x000000"  ]
 
 [chara_mod  name="プレイヤー"  time="100"  cross="false"  storage="chara/2/te.png"  ]
-[chara_mod  name="ベッド"  time="0"  cross="false"  storage="chara/19/42.png"  ]
-[playse  volume="100"  time="0"  buf="1"  storage="hirameki.ogg"  ]
+[chara_mod  name="ベッド"  time="0"  cross="false"  storage="chara/19/42.png"  ][p]
+[playse  volume="100"  time="0"  buf="1"  storage="hirameki.ogg"  ][p]
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [flash_off  time="20"  effect="fadeOut"  ]
 
@@ -445,7 +445,7 @@ Vậy mày cũng ăn xong rồi thì từ từ ngủ đi[r]Ngủ ngon nha~.[p]
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [playse  volume="100"  time="0"  buf="1"  storage="mp.ogg"  ]
 [tb_start_tyrano_code]
-[keyframe name="kupya"]
+[keyframe name="kupya"][p]
 [frame p="0%" y="0"]
 [frame p="50%" y="-30"]
 [frame p="100%" y="0"]
@@ -475,8 +475,8 @@ Gì vậy[delay speed=100]・・・[resetdelay][r]Mày cũng ăn nhanh nhanh mà
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [playse  volume="100"  time="0"  buf="1"  storage="mp.ogg"  ]
 [tb_start_tyrano_code]
-[keyframe name="kupya"]
-[frame p="0%" y="0"]
+[keyframe name="kupya"][p]
+[frame p="0%" y="0"][p]
 [frame p="50%" y="-30"]
 [frame p="100%" y="0"]
 [endkeyframe]
@@ -487,7 +487,7 @@ Gì vậy[delay speed=100]・・・[resetdelay][r]Mày cũng ăn nhanh nhanh mà
 [chara_hide  name="TAP"  time="500"  wait="false"  pos_mode="false"  ]
 [flash_off  time="20"  effect="fadeOut"  ]
 
-[tb_show_message_window  ]
+[tb_show_message_window  ][p]
 [tb_start_text mode=1 ]
 #でびるん
 Phiền quá[delay speed=100]・・・[resetdelay][r]Muốn ngủ cùng hả?[p]
@@ -514,37 +514,37 @@ Ngày mai cũng[delay speed=100]・・・[resetdelay]phải thu thập[r]nhiều
 [layermode  mode="multiply"  color="0xffffff"  time="0"  wait="false"  graphic="neruru.png"  ]
 [wait  time="1800"  ]
 [tb_show_message_window  ]
-[playse  volume="70"  time="0"  buf="1"  storage="fuku2.ogg"  loop="false"  ]
+[playse  volume="70"  time="0"  buf="1"  storage="fuku2.ogg"  loop="false"  ][p]
 [camera  time="10"  zoom="1.5"  wait="false"  layer="layer_camera"  ]
 [chara_show  name="寝る"  time="0"  wait="false"  storage="chara/65/2.png"  width="1280"  height="960"  ]
 [chara_mod  name="プレイヤー"  time="0"  cross="false"  storage="chara/2/0.png"  ]
 [bg  time="0"  method="crossfade"  storage="neru.webp"  ]
-[wait  time="3000"  ]
+[wait  time="3000"  ][p]
 [reset_camera  time="700"  wait="false"  layer="layer_camera"  ]
 [flash_off  time="20"  effect="fadeOut"  ]
 
 [show_photo_button]
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
-[playbgm  volume="60"  time="0"  loop="true"  storage="8_gag.ogg"  ]
+[playbgm  volume="60"  time="0"  loop="true"  storage="8_gag.ogg"  ][p]
 [playse  volume="100"  time="0"  buf="1"  storage="sasu.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
 [font size=25]Cho mày được à![resetfont][p]
 [_tb_end_text]
 
-[tb_start_text mode=1 ]
+[tb_start_text mode=1 ][p]
 #でびるん
 Mày vừa nãy[r]cố lôi tao vào phòng tắm đúng không[p]
 [_tb_end_text]
 
 [chara_mod  name="寝る"  time="0"  cross="false"  storage="chara/65/5.png"  ]
-[tb_start_text mode=1 ]
+[tb_start_text mode=1 ][p]
 #でびるん
 Hêhê~ giật mình chưa?[r]Bản đại nhân là thằng xấu thức khuya luôn đấy[p]
 [_tb_end_text]
 
 [stopbgm  time="5000"  fadeout="true"  ]
-[chara_mod  name="寝る"  time="0"  cross="false"  storage="chara/65/1.png"  ]
+[chara_mod  name="寝る"  time="0"  cross="false"  storage="chara/65/1.png"  ][p]
 [tb_start_text mode=1 ]
 #でびるん
 Tao đã nói ga giường thì giặt rồi[r]nhé[delay speed=100]・・・[resetdelay][p]
@@ -552,7 +552,7 @@ Tao đã nói ga giường thì giặt rồi[r]nhé[delay speed=100]・・・[re
 
 [chara_mod  name="寝る"  time="0"  cross="false"  storage="chara/65/3.png"  ]
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 Tao chưa nói cả bản đại nhân[delay speed=100]・・・đâu[resetdelay][p]
 [_tb_end_text]
 
@@ -562,7 +562,7 @@ Tao chưa nói cả bản đại nhân[delay speed=100]・・・đâu[resetdelay
 Supi[delay speed=150]・・・[resetdelay][r]Munyamunya[delay speed=150]・・・[resetdelay][p]
 [_tb_end_text]
 
-[stopbgm  time="0"  fadeout="false"  ]
+[stopbgm  time="0"  fadeout="false"  ][p]
 [playse  volume="100"  time="1000"  buf="0"  storage="hirameki.ogg"  ]
 [chara_mod  name="寝る"  time="0"  cross="false"  storage="chara/65/3.png"  ]
 [tb_start_text mode=1 ]
@@ -600,7 +600,7 @@ Mày thì vào phòng tắm[delay speed=100]・・・[resetdelay][r]giặt mỗi
 [chara_mod  name="プレイヤー"  time="0"  cross="false"  storage="chara/2/te.png"  ]
 [playbgm  volume="50"  time="0"  loop="true"  storage="1_debirun_no_theme.ogg"  ]
 [tb_start_tyrano_code]
-[keyframe name="fuwa"]
+[keyframe name="fuwa"][p]
 [frame p="0%" y="0"]
 [frame p="50%" y="-50"]
 [frame p="100%" y="0"]
@@ -608,13 +608,13 @@ Mày thì vào phòng tắm[delay speed=100]・・・[resetdelay][r]giặt mỗi
 [kanim name="でびるん" keyframe="fuwa" count="infinite" time="2000" direction="alternate" easing="linear"]
 [_tb_end_tyrano_code]
 
-[call  storage="phase.ks"  target="*show_top"  ]
+[call  storage="phase.ks"  target="*show_top"  ][p]
 [flash_off  time="1000"  effect="fadeOut"  ]
 
 [wait  time="800"  ]
 [fadein_window  time="1000"  ]
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 ……Fuaaa~ Thiếu ngủ quá[p]
 
 

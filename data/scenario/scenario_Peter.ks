@@ -43,14 +43,14 @@
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ベルベル
-Kyaa! Căn phòng này… ma lực ở đây[l]nhiễu loạn quá, khó chịu quá đi!
+Kyaa! Căn phòng này… ma lực ở đây[l]nhiễu loạn quá, khó chịu quá đi![p]
 
 [_tb_end_text]
 
 [chara_mod  name="ベルベル"  time="0"  cross="false"  storage="chara/60/3.png"  ]
 [tb_start_text mode=1 ]
 #ベルベル
-Peter, chính hắn! Hắn là cái rễ xấu xa[l]đang gây ô nhiễm cho tòa tháp Alkansiel!
+Peter, chính hắn! Hắn là cái rễ xấu xa[l]đang gây ô nhiễm cho tòa tháp Alkansiel![p]
 
 
 [_tb_end_text]
@@ -58,7 +58,7 @@ Peter, chính hắn! Hắn là cái rễ xấu xa[l]đang gây ô nhiễm cho t�
 [chara_mod  name="ピーター"  time="0"  cross="false"  storage="chara/59/2.png"  ]
 [tb_start_text mode=1 ]
 #ピーター
-Đúng vậy Bellbel.[l]Cuối cùng cũng… không, đã nắm được rễ rồi.
+Đúng vậy Bellbel.[l]Cuối cùng cũng… không, đã nắm được rễ rồi.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -87,26 +87,26 @@ Peter, chính hắn! Hắn là cái rễ xấu xa[l]đang gây ô nhiễm cho t�
 
 [tb_start_text mode=1 ]
 #でびるん
-Con quái gì thế này.[l]Có vẻ hơi khác so với lũ quái vật thường ngày…
+Con quái gì thế này.[l]Có vẻ hơi khác so với lũ quái vật thường ngày…[p]
 [_tb_end_text]
 
 [chara_mod  name="ベルベル"  time="0"  cross="false"  storage="chara/60/1.png"  ]
 [tb_start_text mode=1 ]
 #ピーター
-Ta là Peter, người canh giữ suối Linh hồn.[l]Còn đây là bạn ta, yêu tinh Bellbel.
+Ta là Peter, người canh giữ suối Linh hồn.[l]Còn đây là bạn ta, yêu tinh Bellbel.[p]
 
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/21.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Suối Linh hồn à? Nơi có Cổng Ma giới sao?[l]Ta từng nghe nói khu vực gần tòa tháp đó đầy ma lực,[l]chỉ có các Ma thần mới sống được…
+Suối Linh hồn à? Nơi có Cổng Ma giới sao?[l]Ta từng nghe nói khu vực gần tòa tháp đó đầy ma lực,[l]chỉ có các Ma thần mới sống được…[p]
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/66.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Ra là có cả ma thú như mày ở đó à…[l]Đại khái là đứa ngốc bỏ cuộc đời thường để mơ mộng truyện cổ tích hả.
+Ra là có cả ma thú như mày ở đó à…[l]Đại khái là đứa ngốc bỏ cuộc đời thường để mơ mộng truyện cổ tích hả.[p]
 
 
 [_tb_end_text]
@@ -125,7 +125,7 @@ Ra là có cả ma thú như mày ở đó à…[l]Đại khái là đứa ngố
 [chara_mod  name="ベルベル"  time="0"  cross="false"  storage="chara/60/4.png"  ]
 [tb_start_text mode=1 ]
 #ベルベル
-Xin đừng nói xấu Peter như vậy![l]Cậu ấy là người dũng cảm, tốt bụng, người canh giữ suối đấy!
+Xin đừng nói xấu Peter như vậy![l]Cậu ấy là người dũng cảm, tốt bụng, người canh giữ suối đấy![p]
 
 [_tb_end_text]
 
@@ -142,14 +142,14 @@ Xin đừng nói xấu Peter như vậy![l]Cậu ấy là người dũng cảm, 
 [chara_mod  name="ピーター"  time="0"  cross="false"  storage="chara/59/3.png"  ]
 [tb_start_text mode=1 ]
 #ピーター
-Thật ra… đúng là toàn bọn bất lương muốn chiếm hữu ma lực của suối,[l]giống hệt ta — cũng là ma thú, nên cũng chẳng trách được.
+Thật ra… đúng là toàn bọn bất lương muốn chiếm hữu ma lực của suối,[l]giống hệt ta — cũng là ma thú, nên cũng chẳng trách được.[p]
 
 [_tb_end_text]
 
 [chara_mod  name="ピーター"  time="0"  cross="false"  storage="chara/59/2.png"  ]
 [tb_start_text mode=1 ]
 #ピーター
-…Nhưng mà không ngờ thủ phạm lại là Ma thần.[l]Thậm chí còn gây ra tai họa khổng lồ cho cả Mashiriya.
+…Nhưng mà không ngờ thủ phạm lại là Ma thần.[l]Thậm chí còn gây ra tai họa khổng lồ cho cả Mashiriya.[p]
 
 
 
@@ -158,7 +158,7 @@ Thật ra… đúng là toàn bọn bất lương muốn chiếm hữu ma lực 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/67.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Ồ, gọi là Ma thần à…[l]Làm thần cho ma quỷ như bản đại nhân sao nya?
+Ồ, gọi là Ma thần à…[l]Làm thần cho ma quỷ như bản đại nhân sao nya?[p]
 
 
 
@@ -167,7 +167,7 @@ Thật ra… đúng là toàn bọn bất lương muốn chiếm hữu ma lực 
 [chara_mod  name="ピーター"  time="0"  cross="false"  storage="chara/59/3.png"  ]
 [tb_start_text mode=1 ]
 #ピーター
-Ta chỉ đang tránh dùng từ phân biệt đối xử thôi.
+Ta chỉ đang tránh dùng từ phân biệt đối xử thôi.[p]
 
 
 
@@ -177,7 +177,7 @@ Ta chỉ đang tránh dùng từ phân biệt đối xử thôi.
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/138.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Hmph, lòng tốt thừa thãi.[l]Ta tự hào vì mình là ma quỷ nên.
+Hmph, lòng tốt thừa thãi.[l]Ta tự hào vì mình là ma quỷ nên.[p]
 
 
 [_tb_end_text]
@@ -185,7 +185,7 @@ Hmph, lòng tốt thừa thãi.[l]Ta tự hào vì mình là ma quỷ nên.
 [chara_mod  name="ピーター"  time="0"  cross="false"  storage="chara/59/2.png"  ]
 [tb_start_text mode=1 ]
 #ピーター
-Ta tôn thờ tất cả Ma thần,[l]với tư cách là những kẻ có phẩm chất trở thành thần.
+Ta tôn thờ tất cả Ma thần,[l]với tư cách là những kẻ có phẩm chất trở thành thần.[p]
 
 
 
@@ -197,7 +197,7 @@ Ta tôn thờ tất cả Ma thần,[l]với tư cách là những kẻ có phẩ
 
 [tb_start_text mode=1 ]
 #ピーター
-Nhưng hành vi của ngươi thì không bao giờ có thể tha thứ.
+Nhưng hành vi của ngươi thì không bao giờ có thể tha thứ.[p]
 
 
 
@@ -210,7 +210,7 @@ Nhưng hành vi của ngươi thì không bao giờ có thể tha thứ.
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/67.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Thế nào? Ngươi là người ủng hộ Ma thần đúng không?[l]Hãy công nhận và tôn kính bản đại nhân đi.
+Thế nào? Ngươi là người ủng hộ Ma thần đúng không?[l]Hãy công nhận và tôn kính bản đại nhân đi.[p]
 
 
 
@@ -221,7 +221,7 @@ Thế nào? Ngươi là người ủng hộ Ma thần đúng không?[l]Hãy côn
 [chara_mod  name="ピーター"  time="0"  cross="false"  storage="chara/59/3.png"  ]
 [tb_start_text mode=1 ]
 #ピーター
-…Đôi khi, có những kẻ được cứu bởi cái ác cần thiết.[l]Nhưng ta không có ý coi thường sự tồn tại của Ma thần.
+…Đôi khi, có những kẻ được cứu bởi cái ác cần thiết.[l]Nhưng ta không có ý coi thường sự tồn tại của Ma thần.[p]
 
 
 
@@ -237,7 +237,7 @@ Thế nào? Ngươi là người ủng hộ Ma thần đúng không?[l]Hãy côn
 [playse  volume="100"  time="5000"  buf="4"  loop="false"  storage="gauru3.ogg"  ]
 [tb_start_text mode=1 ]
 #ピーター
-Tuy nhiên, trừng phạt kẻ phá hoại sự hài hòa như ngươi — đó là công việc của ta!
+Tuy nhiên, trừng phạt kẻ phá hoại sự hài hòa như ngươi — đó là công việc của ta![p]
 
 
 
@@ -266,17 +266,17 @@ Tuy nhiên, trừng phạt kẻ phá hoại sự hài hòa như ngươi — đó
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ピーター
-Qua con mắt quỷ, ta thấy『rễ vô hình』mọc ra,[l]hút cạn ma lực của kẻ chạm vào nó.
+Qua con mắt quỷ, ta thấy『rễ vô hình』mọc ra,[l]hút cạn ma lực của kẻ chạm vào nó.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ピーター
-Sức mạnh Ma thần của ngươi đang xâm lấn Mashiriya[l]với tốc độ kinh hoàng, giống như quả raspberry được trồng dưới đất vậy.
+Sức mạnh Ma thần của ngươi đang xâm lấn Mashiriya[l]với tốc độ kinh hoàng, giống như quả raspberry được trồng dưới đất vậy.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-Sao mày — không phải Ma thần mà lại[l]nhận ra được? Mày đã làm gì thế?
+Sao mày — không phải Ma thần mà lại[l]nhận ra được? Mày đã làm gì thế?[p]
 
 
 
@@ -286,14 +286,14 @@ Sao mày — không phải Ma thần mà lại[l]nhận ra được? Mày đã l
 [chara_mod  name="ピーター"  time="0"  cross="false"  storage="chara/59/3.png"  ]
 [tb_start_text mode=1 ]
 #ピーター
-Ra vậy, khứu giác cũng đã…[l]cùn đi rồi sao.
+Ra vậy, khứu giác cũng đã…[l]cùn đi rồi sao.[p]
 
 [_tb_end_text]
 
 [chara_mod  name="ピーター"  time="0"  cross="false"  storage="chara/59/5.png"  ]
 [tb_start_text mode=1 ]
 #ピーター
-Ta đã rắc bột vảy cá Bellbel,[l]tinh chất tỏi — thứ ma quỷ ghét nhất,[l]cùng nước thánh và nước tiểu thiên thần lên đó.
+Ta đã rắc bột vảy cá Bellbel,[l]tinh chất tỏi — thứ ma quỷ ghét nhất,[l]cùng nước thánh và nước tiểu thiên thần lên đó.[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -310,19 +310,19 @@ Ta đã rắc bột vảy cá Bellbel,[l]tinh chất tỏi — thứ ma quỷ gh
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/101.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Oeck! ! ! [l]Kinh tởm quá! ! ! !
+Oeck! ! ! [l]Kinh tởm quá! ! ! ![p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ピーター
-Bỏ qua điều đó, Ma thần lười biếng mà chăm chỉ thế nhỉ.
+Bỏ qua điều đó, Ma thần lười biếng mà chăm chỉ thế nhỉ.[p]
 [_tb_end_text]
 
 [chara_mod  name="ピーター"  time="0"  cross="false"  storage="chara/59/2.png"  ]
 [tb_start_text mode=1 ]
 #ピーター
-Ma lựcRõ ràngđã đủ rồi,[l]sao còn tiếp tục triệu hồi thế này?
+Ma lựcRõ ràngđã đủ rồi,[l]sao còn tiếp tục triệu hồi thế này?[p]
 
 [_tb_end_text]
 
@@ -338,20 +338,20 @@ Ma lựcRõ ràngđã đủ rồi,[l]sao còn tiếp tục triệu hồi thế n
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/106.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Khặc khặc… tại vì có nhiều ma lực thì có gì sai đâu…
+Khặc khặc… tại vì có nhiều ma lực thì có gì sai đâu…[p]
 [_tb_end_text]
 
 [chara_mod  name="ベルベル"  time="0"  cross="false"  storage="chara/60/1.png"  ]
 [tb_start_text mode=1 ]
 #ベルベル
-Không phải đâu.[l]Bellbel biết rõ mà.
+Không phải đâu.[l]Bellbel biết rõ mà.[p]
 
 [_tb_end_text]
 
 [chara_mod  name="ベルベル"  time="0"  cross="false"  storage="chara/60/3.png"  ]
 [tb_start_text mode=1 ]
 #ベルベル
-Là vì vui khi ở cùng tên phù thủy kia, đúng không?
+Là vì vui khi ở cùng tên phù thủy kia, đúng không?[p]
 
 [_tb_end_text]
 
@@ -369,21 +369,21 @@ Là vì vui khi ở cùng tên phù thủy kia, đúng không?
 
 [tb_start_text mode=1 ]
 #でびるん
-Hả? Hả? Đừng có hiểu lầm! Ta chỉ di chuyển[l]để không bị nghi ngờ bởi [emb exp="f.name"] thôi mà…
+Hả? Hả? Đừng có hiểu lầm! Ta chỉ di chuyển[l]để không bị nghi ngờ bởi [emb exp="f.name"] thôi mà…[p]
 [_tb_end_text]
 
 [stopse  time="5000"  buf="5"  fadeout="true"  ]
 [chara_mod  name="ピーター"  time="0"  cross="false"  storage="chara/59/3.png"  ]
 [tb_start_text mode=1 ]
 #ピーター
-[emb exp="f.name"][delay speed=300]…[resetdelay]Chỉ có cậu mới[l]có thể cứu được hắn. Chỉ có cậu thôi.
+[emb exp="f.name"][delay speed=300]…[resetdelay]Chỉ có cậu mới[l]có thể cứu được hắn. Chỉ có cậu thôi.[p]
 [_tb_end_text]
 
 [playse  volume="100"  time="5000"  buf="4"  loop="false"  storage="gauru3.ogg"  ]
 [chara_mod  name="ピーター"  time="0"  cross="false"  storage="chara/59/7.png"  ]
 [tb_start_text mode=1 ]
 #ピーター
-Hãy gọi tên thật của hắn![l]Tên thật…[delay speed=300]…[resetdelay]tên thật của ma quỷ là
+Hãy gọi tên thật của hắn![l]Tên thật…[delay speed=300]…[resetdelay]tên thật của ma quỷ là[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]
@@ -433,13 +433,13 @@ Belphe…[wait time=100][er]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #でびるん
-Đừng nói thêm nữa.
+Đừng nói thêm nữa.[p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-Ngoại nhân như mày mà dám gọi tên đó trước mặt bản đại nhân,[l]thì tim sẽ bị vặn gãy đấy.
+Ngoại nhân như mày mà dám gọi tên đó trước mặt bản đại nhân,[l]thì tim sẽ bị vặn gãy đấy.[p]
 
 
 [_tb_end_text]
@@ -447,7 +447,7 @@ Ngoại nhân như mày mà dám gọi tên đó trước mặt bản đại nh�
 [chara_mod  name="ベルベル"  time="0"  cross="false"  storage="chara/60/7.png"  ]
 [tb_start_text mode=1 ]
 #ベルベル
-Peter, cậu làm gì thế! ? [l]Tên quỷ này! ! ! !
+Peter, cậu làm gì thế! ? [l]Tên quỷ này! ! ! ![p]
 
 
 [_tb_end_text]
@@ -464,7 +464,7 @@ Peter, cậu làm gì thế! ? [l]Tên quỷ này! ! ! !
 
 [tb_start_text mode=1 ]
 #でびるん
-Đúng rồi, bản đại nhân là ma quỷ tuyệt vời đó![l]Kuhaha, sợ chưa hảaa~
+Đúng rồi, bản đại nhân là ma quỷ tuyệt vời đó![l]Kuhaha, sợ chưa hảaa~[p]
 
 
 
@@ -473,14 +473,14 @@ Peter, cậu làm gì thế! ? [l]Tên quỷ này! ! ! !
 [chara_mod  name="ピーター"  time="0"  cross="false"  storage="chara/59/8.png"  ]
 [tb_start_text mode=1 ]
 #ピーター
-Hả… hả… Cậu cũng đang nóng ruột mà,[l][emb exp="f.name"]
+Hả… hả… Cậu cũng đang nóng ruột mà,[l][emb exp="f.name"][p]
 
 [_tb_end_text]
 
 [chara_mod  name="ピーター"  time="0"  cross="false"  storage="chara/59/10.png"  ]
 [tb_start_text mode=1 ]
 #ピーター
-Ta không nghĩ sẽ thành ra thế này.[l]Cậu đang có vẻ mặt đó.
+Ta không nghĩ sẽ thành ra thế này.[l]Cậu đang có vẻ mặt đó.[p]
 
 [_tb_end_text]
 
@@ -518,18 +518,18 @@ Hãy tự tay dừng hắn lại.[l]Dù sao thì hắn cũng là…[delay speed=
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ピーター
-Bây giờ hắn đang bị Personality quỷ nuốt chửng,[l]trở nên cuồng nộ rồi.
+Bây giờ hắn đang bị Personality quỷ nuốt chửng,[l]trở nên cuồng nộ rồi.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ピーター
-Sức mạnh Ma thần càng thức tỉnh,[l]tính cách xấu càng được tăng cường, các giác quan khác ngoài con mắt quỷ sẽ ngày càng trì trệ.
+Sức mạnh Ma thần càng thức tỉnh,[l]tính cách xấu càng được tăng cường, các giác quan khác ngoài con mắt quỷ sẽ ngày càng trì trệ.[p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ピーター
-Vậy nên hãy dừng hắn lại.[l]Bởi vì hắn…
+Vậy nên hãy dừng hắn lại.[l]Bởi vì hắn…[p]
 [_tb_end_text]
 
 [jump  storage="scenario_Peter.ks"  target="*zyagan1_modoru_2"  ]
@@ -549,7 +549,7 @@ Vậy nên hãy dừng hắn lại.[l]Bởi vì hắn…
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ピーター
-Nếu lầm đường lạc lối…[l]hãy sửa lại cho hắn.
+Nếu lầm đường lạc lối…[l]hãy sửa lại cho hắn.[p]
 [_tb_end_text]
 
 [tb_eval  exp="f.kansou1=1"  name="kansou1"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
@@ -605,7 +605,7 @@ Nếu lầm đường lạc lối…[l]hãy sửa lại cho hắn.
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #でびるん
-[delay speed=300]…[resetdelay]
+[delay speed=300]…[resetdelay][p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -620,7 +620,7 @@ Nếu lầm đường lạc lối…[l]hãy sửa lại cho hắn.
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/144.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Ha! Đùa gì vậy![l]Bạn bè gì mà nói nghe ngon lành thế?
+Ha! Đùa gì vậy![l]Bạn bè gì mà nói nghe ngon lành thế?[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -636,13 +636,13 @@ Ha! Đùa gì vậy![l]Bạn bè gì mà nói nghe ngon lành thế?
 [tb_start_tyrano_code]
 [if exp="f.jewelry==1"]
 #でびるん
-Câu nói hôm nay của hắn, cũng chỉ do tên mặt ngựa kia[l]ép hắn nói thôi đúng không?
+Câu nói hôm nay của hắn, cũng chỉ do tên mặt ngựa kia[l]ép hắn nói thôi đúng không?[p]
 [elsif exp="f.jewelry==2"]
 #でびるん
-Hắn không thấy vui khi ở cùng bản đại nhân.
+Hắn không thấy vui khi ở cùng bản đại nhân.[p]
 [else]
 #でびるん
-Rồi cũng sẽ phản bội thôi.
+Rồi cũng sẽ phản bội thôi.[p]
 [endif]
 [_tb_end_tyrano_code]
 
@@ -652,7 +652,7 @@ Rồi cũng sẽ phản bội thôi.
 [chara_mod  name="ベルベル"  time="0"  cross="false"  storage="chara/60/3.png"  ]
 [tb_start_text mode=1 ]
 #ベルベル
-Sao phải giấu cảm giác vui mừng đi!
+Sao phải giấu cảm giác vui mừng đi![p]
 
 
 [_tb_end_text]
@@ -670,33 +670,33 @@ Sao phải giấu cảm giác vui mừng đi!
 [tb_start_tyrano_code]
 [if exp="f.jewelry==1"]
 #でびるん
-[delay speed=300]…[resetdelay]Im đi!
+[delay speed=300]…[resetdelay]Im đi![p]
 [elsif exp="f.jewelry==2"]
 #でびるん
-[delay speed=300]…[resetdelay]Vui quái gì mà vui.
+[delay speed=300]…[resetdelay]Vui quái gì mà vui.[p]
 [else]
 #でびるん
-[delay speed=300]…[resetdelay]Im đi!
+[delay speed=300]…[resetdelay]Im đi![p]
 [endif]
 [_tb_end_tyrano_code]
 
 [chara_mod  name="ベルベル"  time="0"  cross="false"  storage="chara/60/4.png"  ]
 [tb_start_text mode=1 ]
 #ベルベル
-Cậu đang sợ hãi chuyện gì vậy!
+Cậu đang sợ hãi chuyện gì vậy![p]
 
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/142.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Im đi! [delay speed=100]…[resetdelay]Im đi, im đi!
+Im đi! [delay speed=100]…[resetdelay]Im đi, im đi![p]
 [_tb_end_text]
 
 [chara_mod  name="ベルベル"  time="0"  cross="false"  storage="chara/60/9.png"  ]
 [tb_start_text mode=1 ]
 #ベルベル
-Mày thực sự muốn gì hả…
+Mày thực sự muốn gì hả…[p]
 [_tb_end_text]
 
 [playse  volume="100"  time="0"  buf="1"  storage="sasu2.ogg"  ]
@@ -713,7 +713,7 @@ Mày thực sự muốn gì hả…
 
 [tb_start_text mode=1 ]
 #でびるん
-Đủ rồi, làm cho xong đi![l]Ta sẽ đưa cảm xúc Aura ra như bình thường!
+Đủ rồi, làm cho xong đi![l]Ta sẽ đưa cảm xúc Aura ra như bình thường![p]
 
 [_tb_end_text]
 
@@ -736,12 +736,12 @@ Mày thực sự muốn gì hả…
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/140.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[delay speed=300]…[resetdelay]Mày hiểu rõ lắm mà,[l][emb exp="f.name"]
+[delay speed=300]…[resetdelay]Mày hiểu rõ lắm mà,[l][emb exp="f.name"][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-Mày là đồ hầu trung thành của bản đại nhân.[l]Mày là đầy tớ đó.
+Mày là đồ hầu trung thành của bản đại nhân.[l]Mày là đầy tớ đó.[p]
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/66.png"  ]
@@ -756,7 +756,7 @@ Mày là đồ hầu trung thành của bản đại nhân.[l]Mày là đầy t�
 
 [tb_start_text mode=1 ]
 #でびるん
-Đến nào, làm như thường ngày![l]Ta sẽ đưa cảm xúc Aura ra!
+Đến nào, làm như thường ngày![l]Ta sẽ đưa cảm xúc Aura ra![p]
 [_tb_end_text]
 
 *mahou
@@ -788,34 +788,34 @@ Mày là đồ hầu trung thành của bản đại nhân.[l]Mày là đầy t�
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ピーター
-[emb exp="f.name"]…Cậu đang tìm[l]nơi thuộc về mình trong hắn, phải không?
+[emb exp="f.name"]…Cậu đang tìm[l]nơi thuộc về mình trong hắn, phải không?[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ピーター
-Ta hiểu rất rõ cảm giác đó.[l]…Ta cũng từng như vậy.
+Ta hiểu rất rõ cảm giác đó.[l]…Ta cũng từng như vậy.[p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ピーター
-Thuở nhỏ, cùng chủng loài ma thú…[l]đều bị chính mẹ ruồng bỏ.
+Thuở nhỏ, cùng chủng loài ma thú…[l]đều bị chính mẹ ruồng bỏ.[p]
 [_tb_end_text]
 
 [chara_mod  name="ピーター"  time="0"  cross="false"  storage="chara/59/22.png"  ]
 [tb_start_text mode=1 ]
 #ピーター
-Và sau khi bỏ nhà đi, suối Linh hồn đã trở thành[l]nơi thuộc về ta.
+Và sau khi bỏ nhà đi, suối Linh hồn đã trở thành[l]nơi thuộc về ta.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ピーター
-Nơi đó giống hệt Neverland vậy.[l]Bây giờ ta bảo vệ, tôn kính và tôn thờ tất cả Ma thần.
+Nơi đó giống hệt Neverland vậy.[l]Bây giờ ta bảo vệ, tôn kính và tôn thờ tất cả Ma thần.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ピーター
-…Cậu — người có đức tin với Ma thần[l]— có vẻ sẽ trở thành bạn tốt của Ma thần.
+…Cậu — người có đức tin với Ma thần[l]— có vẻ sẽ trở thành bạn tốt của Ma thần.[p]
 
 [_tb_end_text]
 
@@ -851,7 +851,7 @@ Nơi đó giống hệt Neverland vậy.[l]Bây giờ ta bảo vệ, tôn kính 
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ピーター
-[delay speed=300]…[resetdelay]Bây giờ, nhờ ân sủng của yêu tinh,[l]ta không hề hấn gì.
+[delay speed=300]…[resetdelay]Bây giờ, nhờ ân sủng của yêu tinh,[l]ta không hề hấn gì.[p]
 [_tb_end_text]
 
 [chara_show  name="コマでび"  layer="0"  zindex="2"  time="1000"  wait="false"  storage="chara/10/144.png"  width="383"  height="400"  left="7"  top="308"  ]
@@ -866,7 +866,7 @@ Nơi đó giống hệt Neverland vậy.[l]Bây giờ ta bảo vệ, tôn kính 
 
 [tb_start_text mode=1 ]
 #でびるん
-[delay speed=300]…[resetdelay]Kuh…[delay speed=300]…[resetdelay]Hahahaha
+[delay speed=300]…[resetdelay]Kuh…[delay speed=300]…[resetdelay]Hahahaha[p]
 
 [_tb_end_text]
 
@@ -882,7 +882,7 @@ Nơi đó giống hệt Neverland vậy.[l]Bây giờ ta bảo vệ, tôn kính 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/145.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Đừng hy vọng về việc ra khỏi đây mà không[l]đưa ra được gì.
+Đừng hy vọng về việc ra khỏi đây mà không[l]đưa ra được gì.[p]
 
 [_tb_end_text]
 
@@ -903,28 +903,28 @@ Nơi đó giống hệt Neverland vậy.[l]Bây giờ ta bảo vệ, tôn kính 
 [free_layermode  time="100"  wait="false"  name="1"  ]
 [tb_start_text mode=1 ]
 #ベルベル
-Thấy sơ hở rồi!
+Thấy sơ hở rồi![p]
 
 [_tb_end_text]
 
 [chara_hide  name="ベルベル"  time="100"  wait="false"  pos_mode="false"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Đau quá! Chói mắt quá![l]Cái bột này là gì!?
+Đau quá! Chói mắt quá![l]Cái bột này là gì!?[p]
 
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ピーター
-[emb exp="f.name"].[l][delay speed=300]…[resetdelay][if exp="f.bel_name!=0||f.bel_name_first!=0"]Cậu có thể hợp tác với ta không?[else]Hãy gọi tên hắn.[endif]
+[emb exp="f.name"].[l][delay speed=300]…[resetdelay][if exp="f.bel_name!=0||f.bel_name_first!=0"]Cậu có thể hợp tác với ta không?[else]Hãy gọi tên hắn.[endif][p]
 
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ピーター
-Cuộc khủng hoảng của…[delay speed=300]…[resetdelay]Mashiriya.[l]Cậu không hẳn là muốn điều này khi ký hợp đồng với hắn chứ?
+Cuộc khủng hoảng của…[delay speed=300]…[resetdelay]Mashiriya.[l]Cậu không hẳn là muốn điều này khi ký hợp đồng với hắn chứ?[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]
@@ -985,51 +985,51 @@ f.finished = [...f.finished, f.chara.name];
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ピーター
-Nghĩ lại, ta đã đẩy hết trách nhiệm[l]lên cậu mất rồi…
+Nghĩ lại, ta đã đẩy hết trách nhiệm[l]lên cậu mất rồi…[p]
 
 [_tb_end_text]
 
 [chara_mod  name="ピーター"  time="0"  cross="false"  storage="chara/59/13.png"  ]
 [tb_start_text mode=1 ]
 #ピーター
-Hai ta sẽ chia nhau, cùng dừng Ma thần lại.[l]…Thực ra bây giờ, ta đang giữPhong ấn thạch(Phong ấn thạch) đó.
+Hai ta sẽ chia nhau, cùng dừng Ma thần lại.[l]…Thực ra bây giờ, ta đang giữPhong ấn thạch(Phong ấn thạch) đó.[p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ピーター
-Vậy nên không sao đâu,[l]hắn sẽ không bị đau đớn gì đâu.
+Vậy nên không sao đâu,[l]hắn sẽ không bị đau đớn gì đâu.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ピーター
-Nếu phong ấn được, ta sẽ đưa hắn về suối Linh hồn[l]và trả lại ma lực cho vùng đất này.
+Nếu phong ấn được, ta sẽ đưa hắn về suối Linh hồn[l]và trả lại ma lực cho vùng đất này.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ピーター
-Khi đó, chất độc trong người hắn sẽ được giải,[l]hắn sẽ trở nên ôn hòa. Sau đó sẽ cho hắn sống ở suối Linh hồn.
+Khi đó, chất độc trong người hắn sẽ được giải,[l]hắn sẽ trở nên ôn hòa. Sau đó sẽ cho hắn sống ở suối Linh hồn.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ピーター
-Ta cũng đang cưu mang những Ma thần không có nơi nương tựa.[l]Suối Linh hồn có rất nhiều đồng loại của hắn, nên cứ yên tâm.
+Ta cũng đang cưu mang những Ma thần không có nơi nương tựa.[l]Suối Linh hồn có rất nhiều đồng loại của hắn, nên cứ yên tâm.[p]
 [_tb_end_text]
 
 [chara_mod  name="ピーター"  time="0"  cross="false"  storage="chara/59/14.png"  ]
 [tb_start_text mode=1 ]
 #ピーター
-Đúng rồi! Ta sẽ tìm cách để cậu cũng[l]có thể gặp ta thỉnh thoảng.
+Đúng rồi! Ta sẽ tìm cách để cậu cũng[l]có thể gặp ta thỉnh thoảng.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ピーター
-Suối Linh hồn cần sự cho phép của Đại yêu tinh Fairidu mới vào được…[l]Nhưng ta sẽ cố thuyết phục.
+Suối Linh hồn cần sự cho phép của Đại yêu tinh Fairidu mới vào được…[l]Nhưng ta sẽ cố thuyết phục.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ピーター
-Hãy sống thư giãn, ôn hòa trong thánh địa…[l]Chắc chắn hắn cũng mong muốn điều đó.
+Hãy sống thư giãn, ôn hòa trong thánh địa…[l]Chắc chắn hắn cũng mong muốn điều đó.[p]
 [_tb_end_text]
 
 [stopse  time="1000"  buf="5"  fadeout="true"  ]
@@ -1038,12 +1038,12 @@ Hãy sống thư giãn, ôn hòa trong thánh địa…[l]Chắc chắn hắn c�
 [chara_mod  name="ピーター"  time="0"  cross="false"  storage="chara/59/15.png"  ]
 [tb_start_text mode=1 ]
 #ピーター
-Vậy nên, hãy gọi đi.[l]Hãy gọi tên hắn…
+Vậy nên, hãy gọi đi.[l]Hãy gọi tên hắn…[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ピーター
-Hãy gọi tên Belphegor!
+Hãy gọi tên Belphegor![p]
 ;[font size=37]Belphegorの名を！[resetfont][p]
 ;;[font size=37]ベルフェゴールの名を！[resetfont][p]
 
@@ -1084,13 +1084,13 @@ Hãy gọi tên Belphegor!
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #でびるん
-Dù gọi trong lòng cũng không được đâu, không được thì[l]không được đâu.
+Dù gọi trong lòng cũng không được đâu, không được thì[l]không được đâu.[p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ベルベル
-Khoan đã! ! ! ! ! ! ! [l]Peter! ! ! ! ! ! !
+Khoan đã! ! ! ! ! ! ! [l]Peter! ! ! ! ! ! ![p]
 
 
 
@@ -1098,7 +1098,7 @@ Khoan đã! ! ! ! ! ! ! [l]Peter! ! ! ! ! ! !
 
 [tb_start_text mode=1 ]
 #ピーター
-[delay speed=150]…[resetdelay]Thật tốt vì đã truyền đạt được.
+[delay speed=150]…[resetdelay]Thật tốt vì đã truyền đạt được.[p]
 
 
 
@@ -1106,7 +1106,7 @@ Khoan đã! ! ! ! ! ! ! [l]Peter! ! ! ! ! ! !
 
 [tb_start_text mode=1 ]
 #ピーター
-[delay speed=150]…[resetdelay]Chứng minh rằng ta có thể hiểu được Ma thần.[l]Cậu — có lẽ sẽ làm được điều đó.
+[delay speed=150]…[resetdelay]Chứng minh rằng ta có thể hiểu được Ma thần.[l]Cậu — có lẽ sẽ làm được điều đó.[p]
 
 
 
@@ -1152,7 +1152,7 @@ Khoan đã! ! ! ! ! ! ! [l]Peter! ! ! ! ! ! !
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"]…Dù đã khuyên bảo nhiều lần…[delay speed=300]…[resetdelay][l]Thần linh giao ước đã biến mất, xin hãy nhận lời chia buồn.[resetfont]
+[font face="kowai"]…Dù đã khuyên bảo nhiều lần…[delay speed=300]…[resetdelay][l]Thần linh giao ước đã biến mất, xin hãy nhận lời chia buồn.[resetfont][p]
 [_tb_end_text]
 
 [playse  volume="100"  time="1000"  buf="3"  loop="false"  storage="horror_tika1.ogg"  ]
@@ -1171,7 +1171,7 @@ Khoan đã! ! ! ! ! ! ! [l]Peter! ! ! ! ! ! !
 
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"]Ngươi đã biết tên ta rồi sao?[l][emb exp="f.name"][resetfont]
+[font face="kowai"]Ngươi đã biết tên ta rồi sao?[l][emb exp="f.name"][resetfont][p]
 
 [_tb_end_text]
 
@@ -1185,7 +1185,7 @@ Khoan đã! ! ! ! ! ! ! [l]Peter! ! ! ! ! ! !
 
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"]Thật tiếc, trước mặt bản đại nhân[l]đừng có lên mặt.[resetfont]
+[font face="kowai"]Thật tiếc, trước mặt bản đại nhân[l]đừng có lên mặt.[resetfont][p]
 
 [_tb_end_text]
 
@@ -1199,7 +1199,7 @@ Khoan đã! ! ! ! ! ! ! [l]Peter! ! ! ! ! ! !
 
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"]Nếu không…[delay speed=300]…[resetdelay][resetfont]
+[font face="kowai"]Nếu không…[delay speed=300]…[resetdelay][resetfont][p]
 
 [_tb_end_text]
 
@@ -1424,14 +1424,14 @@ ptext name=neo_message layer=fix text="Ngươi thật sự… ngu ngốc" y=408 
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #でびるん
-Không ngờ ngươi lại làm được đến vậy vì bản đại nhân…[l]Kuhaha, xứng đáng là đồ hầu trung thành của bản đại nhân♥
+Không ngờ ngươi lại làm được đến vậy vì bản đại nhân…[l]Kuhaha, xứng đáng là đồ hầu trung thành của bản đại nhân♥[p]
 
 [_tb_end_text]
 
 [tb_autosave  title="b"  ]
 [tb_start_text mode=1 ]
 #ベルベル
-Kyaaaa! ! ! ! ! ! ! ! [l]Peter! ! ! ! ! ! !
+Kyaaaa! ! ! ! ! ! ! ! [l]Peter! ! ! ! ! ! ![p]
 
 
 
@@ -1440,7 +1440,7 @@ Kyaaaa! ! ! ! ! ! ! ! [l]Peter! ! ! ! ! ! !
 [tb_autosave  title="b"  ]
 [tb_start_text mode=1 ]
 #ピーター
-[delay speed=150]…[resetdelay]Ngươi là… kẻ cuồng tín ma quỷ? [l]Tại sao… hãy cho ta câu trả lời.
+[delay speed=150]…[resetdelay]Ngươi là… kẻ cuồng tín ma quỷ? [l]Tại sao… hãy cho ta câu trả lời.[p]
 
 
 
@@ -1476,7 +1476,7 @@ Kyaaaa! ! ! ! ! ! ! ! [l]Peter! ! ! ! ! ! !
 [tb_autosave  title="b"  ]
 [tb_start_text mode=1 ]
 #ピーター
-[delay speed=150]…[resetdelay]Dù sao cũng sẽ[c]giết[_c]…[wait time=100][l]Ta muốn được Ma thần — con của Thần — ra tay.
+[delay speed=150]…[resetdelay]Dù sao cũng sẽ[c]giết[_c]…[wait time=100][l]Ta muốn được Ma thần — con của Thần — ra tay.[p]
 
 
 
@@ -1485,7 +1485,7 @@ Kyaaaa! ! ! ! ! ! ! ! [l]Peter! ! ! ! ! ! !
 [tb_autosave  title="b"  ]
 [tb_start_text mode=1 ]
 #ピーター
-[delay speed=150]Vậy mà! Vậy mà, vậy mà, vậy mà…[l]Bị[c]giết[_c] bởi lũ súc vậtđồng loại(đồng loại) mà ta ghét cay ghét đắng…[resetdelay]
+[delay speed=150]Vậy mà! Vậy mà, vậy mà, vậy mà…[l]Bị[c]giết[_c] bởi lũ súc vậtđồng loại(đồng loại) mà ta ghét cay ghét đắng…[resetdelay][p]
 
 
 [_tb_end_text]
@@ -1493,7 +1493,7 @@ Kyaaaa! ! ! ! ! ! ! ! [l]Peter! ! ! ! ! ! !
 [tb_autosave  title="b"  ]
 [tb_start_text mode=1 ]
 #ピーター
-[delay speed=150]Đại Thiên Sứ sẽ không bao giờ tha thứ[l]cho hành động như thế này. Mikael cũng sẽ không.
+[delay speed=150]Đại Thiên Sứ sẽ không bao giờ tha thứ[l]cho hành động như thế này. Mikael cũng sẽ không.[p]
 
 
 
@@ -1504,7 +1504,7 @@ Kyaaaa! ! ! ! ! ! ! ! [l]Peter! ! ! ! ! ! !
 [tb_autosave  title="b"  ]
 [tb_start_text mode=1 ]
 #ピーター②
-[font face="kowai"][delay speed=150]Ta sẽ hận ngươi, hận ngươi, hận ngươi, hận ngươi, hận ngươi[l]hận ngươi, hận ngươi, hận ngươi, hận ngươi, hận ngươi[resetdelay][resetfont]
+[font face="kowai"][delay speed=150]Ta sẽ hận ngươi, hận ngươi, hận ngươi, hận ngươi, hận ngươi[l]hận ngươi, hận ngươi, hận ngươi, hận ngươi, hận ngươi[resetdelay][resetfont][p]
 
 
 
@@ -1514,14 +1514,14 @@ Kyaaaa! ! ! ! ! ! ! ! [l]Peter! ! ! ! ! ! !
 [tb_autosave  title="b"  ]
 [tb_start_text mode=1 ]
 #ピーター
-[font face="kowai"][delay speed=150]Hả… hả…[l]Xin hãy cho ta chết dưới tay ngài.[resetdelay][resetfont]
+[font face="kowai"][delay speed=150]Hả… hả…[l]Xin hãy cho ta chết dưới tay ngài.[resetdelay][resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="ピーター"  time="0"  cross="false"  storage="chara/59/19.png"  ]
 [tb_autosave  title="b"  ]
 [tb_start_text mode=1 ]
 #ピーター
-[font face="kowai"][delay speed=150]Belle… Belle…[resetdelay][resetfont]
+[font face="kowai"][delay speed=150]Belle… Belle…[resetdelay][resetfont][p]
 
 
 
@@ -1531,7 +1531,7 @@ Kyaaaa! ! ! ! ! ! ! ! [l]Peter! ! ! ! ! ! !
 [tb_autosave  title="b"  ]
 [tb_start_text mode=1 ]
 #ベルベル
-[font face="YOWAKU"][font size=12]P-Peter…[l]Em thì làm sao có thể…[resetfont]
+[font face="YOWAKU"][font size=12]P-Peter…[l]Em thì làm sao có thể…[resetfont][p]
 
 
 
@@ -1540,7 +1540,7 @@ Kyaaaa! ! ! ! ! ! ! ! [l]Peter! ! ! ! ! ! !
 [tb_autosave  title="b"  ]
 [tb_start_text mode=1 ]
 #ピーター
-[font face="kowai"][delay speed=150]Belle… Belle…[resetdelay][resetfont]
+[font face="kowai"][delay speed=150]Belle… Belle…[resetdelay][resetfont][p]
 
 
 
@@ -1550,7 +1550,7 @@ Kyaaaa! ! ! ! ! ! ! ! [l]Peter! ! ! ! ! ! !
 [tb_autosave  title="b"  ]
 [tb_start_text mode=1 ]
 #ベルベル
-[font face="YOWAKU"][font size=25]Peter mà![resetfont]
+[font face="YOWAKU"][font size=25]Peter mà![resetfont][p]
 
 
 [_tb_end_text]
@@ -1606,7 +1606,7 @@ Kyaaaa! ! ! ! ! ! ! ! [l]Peter! ! ! ! ! ! !
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"][delay speed=300]…[resetdelay]Ta đã hiểu một điều.[resetfont]
+[font face="kowai"][delay speed=300]…[resetdelay]Ta đã hiểu một điều.[resetfont][p]
 [_tb_end_text]
 
 [playse  volume="100"  time="1000"  buf="3"  loop="false"  storage="horror_tika1.ogg"  ]
@@ -1620,7 +1620,7 @@ Kyaaaa! ! ! ! ! ! ! ! [l]Peter! ! ! ! ! ! !
 [tb_autosave  title="b"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"]Mày đã[resetfont]
+[font face="kowai"]Mày đã[resetfont][p]
 [_tb_end_text]
 
 [playse  volume="100"  time="1000"  buf="3"  loop="false"  storage="horror_tika2.ogg"  ]
@@ -1634,7 +1634,7 @@ Kyaaaa! ! ! ! ! ! ! ! [l]Peter! ! ! ! ! ! !
 [tb_autosave  title="b"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"]Không thể phản bội bản đại nhân.[resetfont]
+[font face="kowai"]Không thể phản bội bản đại nhân.[resetfont][p]
 [_tb_end_text]
 
 [stopse  time="1000"  buf="5"  fadeout="true"  ]
@@ -1651,7 +1651,7 @@ Kyaaaa! ! ! ! ! ! ! ! [l]Peter! ! ! ! ! ! !
 [tb_autosave  title="b"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"]Ta đã nhận ra sự trung thành đó,[l]nhận ra rất rõ ràng qua hành động của ngươi.[resetfont]
+[font face="kowai"]Ta đã nhận ra sự trung thành đó,[l]nhận ra rất rõ ràng qua hành động của ngươi.[resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="サブでび"  time="0"  cross="false"  storage="chara/30/Peter_7.png"  ]
@@ -1666,7 +1666,7 @@ Kyaaaa! ! ! ! ! ! ! ! [l]Peter! ! ! ! ! ! !
 #Belphegor
 ;#Belphegor
 ;;#ベルフェゴール
-[font face="kowai"]Bản đại nhân là Ma quỷ — one of bảy Đại Ma quỷ —[l]Belphegor — Ma quỷ Lười biếng.[resetfont]
+[font face="kowai"]Bản đại nhân là Ma quỷ — one of bảy Đại Ma quỷ —[l]Belphegor — Ma quỷ Lười biếng.[resetfont][p]
 ;[font face="kowai"]オレサマは七大悪魔一柱[r]怠惰のBelphegor[resetfont][p]
 ;;[font face="kowai"]オレサマは七大悪魔一柱[r]怠惰のベルフェゴール[resetfont][p]
 [_tb_end_text]
@@ -1676,7 +1676,7 @@ Kyaaaa! ! ! ! ! ! ! ! [l]Peter! ! ! ! ! ! !
 #Belphegor
 ;#Belphegor
 ;;#ベルフェゴール
-[font face="kowai"]Hãy là đối tác tốt đẹp,[l]và sống cùng nhau suốt đời.[resetfont]
+[font face="kowai"]Hãy là đối tác tốt đẹp,[l]và sống cùng nhau suốt đời.[resetfont][p]
 [_tb_end_text]
 
 [flash  time="0"  effect="fadeIn"  color="0x000000"  ]
@@ -1698,7 +1698,7 @@ Kyaaaa! ! ! ! ! ! ! ! [l]Peter! ! ! ! ! ! !
 #Belphegor
 ;#Belphegor
 ;;#ベルフェゴール
-[font face="kowai"]Đ…♥[l][emb exp="f.name"].[resetfont]
+[font face="kowai"]Đ…♥[l][emb exp="f.name"].[resetfont][p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
@@ -1742,7 +1742,7 @@ Kyaaaa! ! ! ! ! ! ! ! [l]Peter! ! ! ! ! ! !
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ピーター
-Xin lỗi, nhưng ngươi sẽ phải ở[l]trongPhong ấn thạch(Phong ấn thạch) này tạm thời.
+Xin lỗi, nhưng ngươi sẽ phải ở[l]trongPhong ấn thạch(Phong ấn thạch) này tạm thời.[p]
 [_tb_end_text]
 
 [playbgm  volume="60"  time="1000"  loop="true"  storage="8_gag.ogg"  ]
@@ -1751,7 +1751,7 @@ Xin lỗi, nhưng ngươi sẽ phải ở[l]trongPhong ấn thạch(Phong ấn t
 [chara_mod  name="ピーター"  time="0"  cross="false"  storage="chara/59/25.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[emb exp="f.name"]! ? T-Tại sao ngươi biết tên đó…[l]Chết tiệt, cơ thể không chịu nghe lời!
+[emb exp="f.name"]! ? T-Tại sao ngươi biết tên đó…[l]Chết tiệt, cơ thể không chịu nghe lời![p]
 
 [_tb_end_text]
 
@@ -1767,18 +1767,18 @@ Xin lỗi, nhưng ngươi sẽ phải ở[l]trongPhong ấn thạch(Phong ấn t
 
 [tb_start_text mode=1 ]
 #ベルベル
-Humph! Đừng có coi thường. Bột Bellbel[l]có rất nhiều loại sức mạnh được chứa đựng trong đó!
+Humph! Đừng có coi thường. Bột Bellbel[l]có rất nhiều loại sức mạnh được chứa đựng trong đó![p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ピーター
-Hãy yên tâm, sau khi trả ma lực về suối Linh hồn,[l]chất độc sẽ được giải và hắn sẽ nhẹ nhõm ngay.
+Hãy yên tâm, sau khi trả ma lực về suối Linh hồn,[l]chất độc sẽ được giải và hắn sẽ nhẹ nhõm ngay.[p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-Ta không muốn điều đó! Bản đại nhân muốn trở thành thần![l]Trở thành thần… rồi xử lý lũ ở Ma giới…
+Ta không muốn điều đó! Bản đại nhân muốn trở thành thần![l]Trở thành thần… rồi xử lý lũ ở Ma giới…[p]
 
 [_tb_end_text]
 
@@ -1786,14 +1786,14 @@ Ta không muốn điều đó! Bản đại nhân muốn trở thành thần![l]
 [playse  volume="100"  time="0"  buf="1"  storage="fuku.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Đau quá! Đuôi vẫn còn![l]Đừng cất đi vội!
+Đau quá! Đuôi vẫn còn![l]Đừng cất đi vội![p]
 
 [_tb_end_text]
 
 [chara_mod  name="ピーター"  time="0"  cross="false"  storage="chara/59/27.png"  ]
 [tb_start_text mode=1 ]
 #ピーター
-Cảm ơn vì đã giúp đỡ.[l]Cảm ơn vì đã… tin tưởng ta.
+Cảm ơn vì đã giúp đỡ.[l]Cảm ơn vì đã… tin tưởng ta.[p]
 
 
 
@@ -1801,14 +1801,14 @@ Cảm ơn vì đã giúp đỡ.[l]Cảm ơn vì đã… tin tưởng ta.
 
 [tb_start_text mode=1 ]
 #ピーター
-Sau khi bình tĩnh, ta sẽ mời [emb exp="f.name"][l]đến suối Linh hồn.
+Sau khi bình tĩnh, ta sẽ mời [emb exp="f.name"][l]đến suối Linh hồn.[p]
 
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ピーター
-Lúc đó, ta sẽ mời cậu uống trà và nói chuyện chậm rãi.
+Lúc đó, ta sẽ mời cậu uống trà và nói chuyện chậm rãi.[p]
 
 
 
@@ -1816,26 +1816,26 @@ Lúc đó, ta sẽ mời cậu uống trà và nói chuyện chậm rãi.
 
 [tb_start_text mode=1 ]
 #ピーター
-Dù đối phương có là Ma thần, ta tin rằng với đức tin[l]sâu sắc của cậu đối với Ma thần, ta có thể trở thành bạn tốt.
+Dù đối phương có là Ma thần, ta tin rằng với đức tin[l]sâu sắc của cậu đối với Ma thần, ta có thể trở thành bạn tốt.[p]
 [_tb_end_text]
 
 [chara_mod  name="ベルベル"  time="0"  cross="false"  storage="chara/60/16.png"  ]
 [tb_start_text mode=1 ]
 #ベルベル
-Này, lần đầu tiên có bạn ngoài Ma thần thôi,[l]cũng chẳng cần phải sốt sắng quá vậy chứ?
+Này, lần đầu tiên có bạn ngoài Ma thần thôi,[l]cũng chẳng cần phải sốt sắng quá vậy chứ?[p]
 
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ベルベル
-Nè, [emb exp="f.name"][l]đang bị dọa chạy đấy!
+Nè, [emb exp="f.name"][l]đang bị dọa chạy đấy![p]
 [_tb_end_text]
 
 [chara_mod  name="ピーター"  time="0"  cross="false"  storage="chara/59/28.png"  ]
 [tb_start_text mode=1 ]
 #ピーター
-X-Xin lỗi! [l]Bellbel nói đúng.
+X-Xin lỗi! [l]Bellbel nói đúng.[p]
 
 
 [_tb_end_text]
@@ -1843,7 +1843,7 @@ X-Xin lỗi! [l]Bellbel nói đúng.
 [chara_mod  name="ピーター"  time="0"  cross="false"  storage="chara/59/27.png"  ]
 [tb_start_text mode=1 ]
 #ピーター
-Vậy thì, hẹn gặp lại.[l]Hắn cứ giao cho ta lo.
+Vậy thì, hẹn gặp lại.[l]Hắn cứ giao cho ta lo.[p]
 
 
 [_tb_end_text]
@@ -1860,7 +1860,7 @@ Vậy thì, hẹn gặp lại.[l]Hắn cứ giao cho ta lo.
 
 [tb_start_text mode=1 ]
 #ベルベル
-Hẹn gặp lại nhé[l][emb exp="f.name"]!
+Hẹn gặp lại nhé[l][emb exp="f.name"]![p]
 [_tb_end_text]
 
 [stopse  time="0"  buf="5"  ]

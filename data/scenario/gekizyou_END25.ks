@@ -66,7 +66,7 @@ Thiên sứ tình yêu Kupya-deru cùng quỷ Devilun-kun sẽ gửi đến[r]b�
 [chara_mod  name="劇場でび"  time="0"  cross="false"  storage="chara/15/dagya2.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Nên bản đại nhân mới nói phải hợp tác mà! Quái vật dùng[c]cấm thuật thế thì dùng phép thường đánh lui được sao!
+Nên bản đại nhân mới nói phải hợp tác mà! Quái vật dùng[c]cấm thuật thế thì dùng phép thường đánh lui được sao![p]
 
 [_tb_end_text]
 
@@ -82,7 +82,7 @@ Nên bản đại nhân mới nói phải hợp tác mà! Quái vật dùng[c]c�
 [chara_mod  name="劇場でび"  time="0"  cross="false"  storage="chara/15/dagya31.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Dùng Ma Nhãn của mày thì nắm được điểm yếu đúng không?[r]Sau đó bản đại nhân sẽ dùngÁc Nhãn search cho
+Dùng Ma Nhãn của mày thì nắm được điểm yếu đúng không?[r]Sau đó bản đại nhân sẽ dùngÁc Nhãn search cho[p]
 
 
 [_tb_end_text]
@@ -90,7 +90,7 @@ Dùng Ma Nhãn của mày thì nắm được điểm yếu đúng không?[r]Sau
 [chara_mod  name="劇場える"  time="0"  cross="false"  storage="chara/16/kupya5.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Ôi ôi~,[r]là làm việc cùng nhau vì tình yêu sao~! Ufufu❤
+Ôi ôi~,[r]là làm việc cùng nhau vì tình yêu sao~! Ufufu❤[p]
 
 
 
@@ -108,20 +108,20 @@ Dùng Ma Nhãn của mày thì nắm được điểm yếu đúng không?[r]Sau
 [chara_mod  name="劇場でび"  time="0"  cross="false"  storage="chara/15/dagya24.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Haa,corner này cái gì cũng được mà,[r]cốt truyện chính thế này thì lại thành cuộc họp chiến lược mất…
+Haa,corner này cái gì cũng được mà,[r]cốt truyện chính thế này thì lại thành cuộc họp chiến lược mất…[p]
 
 [_tb_end_text]
 
 [chara_mod  name="劇場える"  time="0"  cross="false"  storage="chara/16/kupya1.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Ufufu, [emb exp="f.name"]-san chắc chắn[r]đang được theater này giúp đỡ đó
+Ufufu, [emb exp="f.name"]-san chắc chắn[r]đang được theater này giúp đỡ đó[p]
 [_tb_end_text]
 
 [chara_mod  name="劇場でび"  time="0"  cross="false"  storage="chara/15/dagya7.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Ừ,thì cố gắng đánh lui thôi.[r]Đi nào![emb exp="f.name"]
+Ừ,thì cố gắng đánh lui thôi.[r]Đi nào![emb exp="f.name"][p]
 
 [_tb_end_text]
 

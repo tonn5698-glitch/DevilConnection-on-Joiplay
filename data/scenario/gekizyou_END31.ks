@@ -50,7 +50,7 @@
 #Belphegor
 ;#Belphegor
 ;;#ベルフェゴール
-Cái gì lúc nãy vậy! Mày biết[r]tên thật của bản đại nhân rồi mới triệu hồi ta sao!?
+Cái gì lúc nãy vậy! Mày biết[r]tên thật của bản đại nhân rồi mới triệu hồi ta sao!?[p]
 [_tb_end_text]
 
 [jump  storage="gekizyou_END31.ks"  target="*true"  cond="dc.aibou()"  ]
@@ -58,7 +58,7 @@ Cái gì lúc nãy vậy! Mày biết[r]tên thật của bản đại nhân r�
 #Belphegor
 ;#Belphegor
 ;;#ベルフェゴール
-Thầy trừ tà mà triệu hồi quỷ được sao![r]Thật đấy…triệu hồi rồi[font face="KaiseiDecol-Bold"]trừ[resetfont] tà,tay mới thích đấm đá hả
+Thầy trừ tà mà triệu hồi quỷ được sao![r]Thật đấy…triệu hồi rồi[font face="KaiseiDecol-Bold"]trừ[resetfont] tà,tay mới thích đấm đá hả[p]
 [_tb_end_text]
 
 [chara_mod  name="劇場でび"  time="0"  cross="false"  storage="chara/15/dagya34.png"  ]
@@ -66,7 +66,7 @@ Thầy trừ tà mà triệu hồi quỷ được sao![r]Thật đấy…triệu
 #Belphegor
 ;#Belphegor
 ;;#ベルフェゴール
-Hay là,tên của mày[c]cũng trùng hợp là Belphegor à?
+Hay là,tên của mày[c]cũng trùng hợp là Belphegor à?[p]
 ;や、それともおみゃーの名が[r]Belphegorで偶然にも被ったのか？[p]
 ;;や、それともおみゃーの名が[r]ベルフェゴールで偶然にも被ったのか？[p]
 [_tb_end_text]
@@ -76,7 +76,7 @@ Hay là,tên của mày[c]cũng trùng hợp là Belphegor à?
 #Belphegor
 ;#Belphegor
 ;;#ベルフェゴール
-Ừm,thì cũng có chuyện vậy mà nhỉ
+Ừm,thì cũng có chuyện vậy mà nhỉ[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -91,7 +91,7 @@ Hay là,tên của mày[c]cũng trùng hợp là Belphegor à?
 #Belphegor
 ;#Belphegor
 ;;#ベルフェゴール
-Làm gì có chuyện đó đồ ngu
+Làm gì có chuyện đó đồ ngu[p]
 [_tb_end_text]
 
 [jump  storage="gekizyou_END_menu.ks"  target=""  ]
@@ -102,7 +102,7 @@ Làm gì có chuyện đó đồ ngu
 #Belphegor
 ;#Belphegor
 ;;#ベルフェゴール
-Dù sao…tưởng bị trừ tà ai ngờ được ngâm bồn[r]muối bath salt rồi massage, đúng là đầy đủ hết
+Dù sao…tưởng bị trừ tà ai ngờ được ngâm bồn[r]muối bath salt rồi massage, đúng là đầy đủ hết[p]
 [_tb_end_text]
 
 [chara_mod  name="劇場でび"  time="0"  cross="false"  storage="chara/15/dagya9.png"  ]
@@ -117,7 +117,7 @@ Dù sao…tưởng bị trừ tà ai ngờ được ngâm bồn[r]muối bath sa
 #Belphegor
 ;#Belphegor
 ;;#ベルフェゴール
-Hay là mày[delay speed=100]・・・[resetdelay][r]là nhà trị liệu mới vào nghề à?
+Hay là mày[delay speed=100]・・・[resetdelay][r]là nhà trị liệu mới vào nghề à?[p]
 [_tb_end_text]
 
 [jump  storage="gekizyou_END_menu.ks"  target=""  ]

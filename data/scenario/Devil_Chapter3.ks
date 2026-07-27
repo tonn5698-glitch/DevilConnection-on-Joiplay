@@ -49,18 +49,18 @@ Người dẫn chương trình thay cho Doel chính là tao... [r]Belphegor hay 
 
 [chara_mod  name="でびるん"  time="0"  cross="true"  storage="chara/1/17.png"  ]
 [tb_start_text mode=1 ]
-#クピャドエル
+#クピャドエル[p]
 Nnuu-[p]
 
 [_tb_end_text]
 
-[tb_start_text mode=1 ]
+[tb_start_text mode=1 ][p]
 #でびるん
 Doel, mày đứng đó mà suy nghĩ đi- [p]
 
 [_tb_end_text]
 
-[chara_mod  name="でびるん"  time="0"  cross="true"  storage="chara/1/11.png"  ]
+[chara_mod  name="でびるん"  time="0"  cross="true"  storage="chara/1/11.png"  ][p]
 [tb_start_text mode=1 ]
 #でびるん
 Nào! Triệu hồi liên tiếp thôi- [p]
@@ -126,7 +126,7 @@ Vua ơi, [if exp="sf.epilogue == 0][else]một lần nữa[endif]đã được t
 [frame p="100%" y="0"]
 [endkeyframe]
 [kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="1000" direction="alternate" easing="linear"]
-[_tb_end_tyrano_code]
+[_tb_end_tyrano_code][p]
 
 [tb_start_text mode=1 ]
 #でびるん
@@ -137,7 +137,7 @@ Xuất hiện cùng câu thoại nhạt nhẽo, ngôi sao hôm nay nhỉ... [p]
 [tb_start_text mode=1 ]
 #ハーデスター
 Hôm nay vì tôi, đã tạo cơ hội như vậy [r]tôi bày tỏ lòng biết ơn[p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/66.png"  ]
 [tb_start_text mode=1 ]
@@ -182,12 +182,12 @@ Vâng, vì vua thì [if exp="sf.epilogue == 0][else]bao nhiêu lần cũng đư�
 [wait  time="800"  ]
 [free_layermode  time="4000"  wait="false"  ]
 [chara_mod  name="あもあも"  time="500"  cross="true"  storage="chara/48/24.png"  ]
-[tb_start_text mode=1 ]
+[tb_start_text mode=1 ][p]
 #あもあも
 [_tb_end_text]
 [fadein_window  time="1000"  ]
 [tb_start_text mode=1 ]
-#あもあも
+#あもあも[p]
 Umyuu~n chào buổi tối~♥[p]
 
 [_tb_end_text]
@@ -202,13 +202,13 @@ Nè nè [r]làm party mà đúng không~? [p]
 [chara_mod  name="プレイヤー"  time="0"  cross="true"  storage="chara/2/pa.png"  ]
 [chara_mod  name="あもあも"  time="0"  cross="true"  storage="chara/48/29.png"  ]
 [tb_start_text mode=1 ]
-#あもあも
+#あもあも[p]
 Nè! Cái này[p]
 
 
 [_tb_end_text]
 
-[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/83.png"  ]
+[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/83.png"  ][p]
 [tb_start_text mode=1 ]
 #でびるん
 Cái đống vải này là gì[p]
@@ -223,7 +223,7 @@ Belboo muốn làm pajama party nên [r]tui đã chuẩn bị quần áo cho m�
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/79.png"  ]
-[tb_start_tyrano_code]
+[tb_start_tyrano_code][p]
 [keyframe name="fuwakoma"]
 [frame p="0%" y="-10"]
 [frame p="50%" y="0"]
@@ -244,13 +244,13 @@ Dgya-! Asmodeus! [r]Mày hiểu chuyện quá nhỉ- [p]
 [keyframe name="fuwakoma"]
 [frame p="0%" y="0"]
 [frame p="50%" y="-5"]
-[frame p="100%" y="0"]
+[frame p="100%" y="0"][p]
 [endkeyframe]
 [kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="1000" direction="alternate" easing="linear"]
 [_tb_end_tyrano_code]
 
 [playse  volume="100"  time="0"  buf="1"  loop="false"  storage="gimon.ogg"  ]
-[quake  time="300"  count="5"  hmax="3"  wait="false"  ]
+[quake  time="300"  count="5"  hmax="3"  wait="false"  ][p]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/21.png"  ]
 [flash_off  time="20"  effect="fadeOut"  ]
 
@@ -258,7 +258,7 @@ Dgya-! Asmodeus! [r]Mày hiểu chuyện quá nhỉ- [p]
 #でびるん
 Ê sao mày biết điều đó? [p]
 
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="あもあも"  time="0"  cross="true"  storage="chara/48/30.png"  ]
 [tb_start_text mode=1 ]
@@ -279,24 +279,24 @@ Và Kupya-chan thì... [r]tui sẽ mặc cho nè~[p]
 #クピャドエル
 [font size=25]Fufuun!?!? [resetfont][p]
 
-[_tb_end_text]
+[_tb_end_text][p]
 
 [flash  time="80"  effect="fadeIn"  color="0x000000"  ]
 
 [free_layermode  time="0"  wait="true"  ]
-[chara_mod  name="プレイヤー"  time="0"  cross="true"  storage="chara/2/yubiwa.png"  ]
+[chara_mod  name="プレイヤー"  time="0"  cross="true"  storage="chara/2/yubiwa.png"  ][p]
 [chara_hide  name="あもあも"  time="0"  wait="false"  pos_mode="false"  ]
 [chara_hide  name="でび縛り"  time="0"  wait="false"  pos_mode="false"  ]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/84_.png"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="idou.ogg"  ]
-[wait  time="300"  ]
+[wait  time="300"  ][p]
 [flash_off  time="0"  effect="fadeOut"  ]
 
 [tb_start_text mode=1 ]
 #あもあも
 Đứng yên đó nha? [p]
 
-[_tb_end_text]
+[_tb_end_text][p]
 
 [tb_start_text mode=1 ]
 #クピャドエル
@@ -311,7 +311,7 @@ Umyuu... Kupya-chan [r]xốp xốp mà ấm áp nhỉ[p]
 [_tb_end_text]
 
 [playse  volume="100"  time="0"  buf="1"  loop="false"  storage="sasu.ogg"  ]
-[quake  time="300"  count="5"  hmax="3"  wait="false"  ]
+[quake  time="300"  count="5"  hmax="3"  wait="false"  ][p]
 [tb_start_text mode=1 ]
 #クピャドエル
 [font size=25]Kupyaann! [resetfont][p]
@@ -321,7 +321,7 @@ Umyuu... Kupya-chan [r]xốp xốp mà ấm áp nhỉ[p]
 [chara_show  name="ハーデスター"  time="0"  wait="true"  storage="chara/78/15.png"  width="1034"  height="814"  left="113"  top="903"  reflect="false"  ]
 [tb_start_tyrano_code]
 [keyframe name="aku2"]
-[frame p="0%" y="0"]
+[frame p="0%" y="0"][p]
 [frame p="50%" y="40"]
 [frame p="100%" y="0"]
 [endkeyframe]
@@ -335,19 +335,19 @@ Umyuu... Kupya-chan [r]xốp xốp mà ấm áp nhỉ[p]
 
 [tb_hide_message_window  ]
 [chara_move  name="ハーデスター"  anim="true"  time="1500"  effect="easeOutQuad"  wait="true"  left="113"  top="-40"  width="1034"  height="814"  ]
-[wait  time="500"  ]
+[wait  time="500"  ][p]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/21.png"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #でびるん
 Sao thế-? Thiên thần sa ngã-[p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="ハーデスター"  time="0"  cross="true"  storage="chara/78/10.png"  ]
 [tb_start_text mode=1 ]
 #ハーデスター
 Kupyadel và Asmodeus dù là thiên thần và ác quỷ [r]nhưng quan hệ rất tốt nhỉ[p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/84_.png"  ]
 [playse  volume="100"  time="0"  buf="1"  loop="false"  storage="aseru.ogg"  ]
@@ -404,7 +404,7 @@ Vâng, tôi cũng nghĩ phải học hỏi [p]
 [playse  volume="100"  time="0"  buf="5"  loop="true"  storage="BBB7.ogg"  ]
 [chara_show  name="ハーデスター"  time="0"  wait="true"  storage="chara/78/15.png"  width="996"  height="790"  left="409"  top="902"  reflect="false"  ]
 [tb_start_tyrano_code]
-[keyframe name="aku2"]
+[keyframe name="aku2"][p]
 [frame p="0%" y="0"]
 [frame p="50%" y="40"]
 [frame p="100%" y="0"]
@@ -412,18 +412,18 @@ Vâng, tôi cũng nghĩ phải học hỏi [p]
 [kanim name="ハーデスター" keyframe="aku2" count="infinite" time="3000" direction="alternate" easing="linear"]
 [_tb_end_tyrano_code]
 
-[chara_mod  name="BBB"  time="500"  cross="true"  storage="chara/64/37.png"  ]
+[chara_mod  name="BBB"  time="500"  cross="true"  storage="chara/64/37.png"  ][p]
 [tb_start_text mode=1 ]
 #でびるん
 [_tb_end_text]
 [fadein_window  time="1000"  ]
-[tb_start_text mode=1 ]
+[tb_start_text mode=1 ][p]
 #でびるん
 Ê Bubuu~! [p]
 
 [_tb_end_text]
 
-[chara_mod  name="BBB"  time="0"  cross="false"  storage="chara/64/38.png"  ]
+[chara_mod  name="BBB"  time="0"  cross="false"  storage="chara/64/38.png"  ][p]
 [tb_start_text mode=1 ]
 #BBB
 ...Bêl, [emb exp="f.name"][p]
@@ -468,7 +468,7 @@ Dù sao đi nữa, Lucifer đó đã [r]rơi thiên vì gặp [emb exp="f.name"]
 
 [chara_mod  name="ハーデスター"  time="0"  cross="true"  storage="chara/78/10.png"  ]
 [tb_start_text mode=1 ]
-#ハーデスター
+#ハーデスター[p]
 Tất cả đều nhờ vua đã nhận thần dụ[p]
 
 [_tb_end_text]
@@ -480,14 +480,14 @@ Tất cả đều nhờ vua đã nhận thần dụ[p]
 
 [_tb_end_text]
 
-[tb_start_tyrano_code]
+[tb_start_tyrano_code][p]
 [keyframe name="fuwakoma"]
 [frame p="0%" y="-10"]
 [frame p="50%" y="0"]
 [frame p="100%" y="-1"]
 [endkeyframe]
 [kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="400" direction="alternate" easing="linear"]
-[_tb_end_tyrano_code]
+[_tb_end_tyrano_code][p]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/66.png"  ]
 [tb_start_text mode=1 ]
@@ -502,21 +502,21 @@ Từ nay về sau với tư cách đối tác tốt [r]hãy sâu sắc hóa mố
 
 [_tb_end_text]
 
-[playse  volume="100"  time="0"  buf="0"  storage="hazikeru.ogg"  ]
+[playse  volume="100"  time="0"  buf="0"  storage="hazikeru.ogg"  ][p]
 [tb_start_tyrano_code]
 [play_apng name="kemuri" layer="1" x="-200" y="0" width="1280" height="960" mode="screen" free="true"]
 [_tb_end_tyrano_code]
 
 [wait  time="300"  ]
 [chara_mod  name="BBB"  time="0"  cross="false"  storage="chara/64/43.png"  ]
-[tb_start_text mode=1 ]
+[tb_start_text mode=1 ][p]
 #BBB
 Nè, vì tiệc hôm nay đã để đầu bếp dưới trướng [r]nấu nếm rồi. Có nhiều lắm, ăn thoải mái đi [p]
 
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/79.png"  ]
-[playse  volume="100"  time="1000"  buf="0"  storage="kawaii.ogg"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="kawaii.ogg"  ][p]
 [tb_start_text mode=1 ]
 #でびるん
 Dgya! Pizza táo từ Thiên Đàng Sa Ngã! Đầu bếp dưới trướng... [r]tức là tên thiên thần sa ngã giống chim kia đã làm sao? [p]
@@ -528,13 +528,13 @@ Dgya! Pizza táo từ Thiên Đàng Sa Ngã! Đầu bếp dưới trướng... [
 [keyframe name="fuwakoma"]
 [frame p="0%" y="0"]
 [frame p="50%" y="-5"]
-[frame p="100%" y="0"]
+[frame p="100%" y="0"][p]
 [endkeyframe]
 [kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="1000" direction="alternate" easing="linear"]
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 Ừm, thái độ của hắn ta có chỗ tao không ưa [r]nhưng đồ ăn hắn nấu thì hạng nhất... chỉ thừa nhận mỗi chỗ đó thôi [p]
 [_tb_end_text]
 
@@ -579,7 +579,7 @@ Không biết niềm vui của ẩm thực thì... phí quá. [r]Vậy thì hãy
 [free_layermode  time="0"  wait="true"  ]
 [bg_layermode  name="mahou"  folder="bgimage"  storage="haikei_mahou2.webp"  mode="color-dodge"]
 
-[stopse  time="0"  buf="5"  ]
+[stopse  time="0"  buf="5"  ][p]
 [playse  volume="100"  time="1000"  buf="0"  storage="pon2.ogg"  ]
 [wait  time="500"  ]
 [chara_hide  name="ハーデスター"  time="0"  wait="false"  pos_mode="true"  ]
@@ -600,7 +600,7 @@ Không biết niềm vui của ẩm thực thì... phí quá. [r]Vậy thì hãy
 [playse  volume="100"  time="3000"  buf="3"  loop="false"  storage="BBB6.ogg"  ]
 [free_bg_layermode  name="mahou"  time="5000"  ]
 
-[flash_off  time="0"  effect="fadeOut"  ]
+[flash_off  time="0"  effect="fadeOut"  ][p]
 
 [wait  time="800"  ]
 [free_layermode  time="4000"  wait="false"  ]
@@ -616,7 +616,7 @@ Không biết niềm vui của ẩm thực thì... phí quá. [r]Vậy thì hãy
 #ナザール
 Ununu... lần thứ hai bị triệu hồi [r]vào căn phòng chật hẹp này... thật khó chịu [p]
 
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/79.png"  ]
 [tb_start_tyrano_code]
@@ -625,7 +625,7 @@ Ununu... lần thứ hai bị triệu hồi [r]vào căn phòng chật hẹp nà
 [frame p="50%" y="0"]
 [frame p="100%" y="-1"]
 [endkeyframe]
-[kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="400" direction="alternate" easing="linear"]
+[kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="400" direction="alternate" easing="linear"][p]
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
@@ -642,13 +642,13 @@ Party á? Lũ ngốc tụ tập lại [r]làm loạn, buổi tụ họp low-clas
 [_tb_end_text]
 
 [tb_start_tyrano_code]
-[keyframe name="fuwakoma"]
+[keyframe name="fuwakoma"][p]
 [frame p="0%" y="0"]
 [frame p="50%" y="-5"]
 [frame p="100%" y="0"]
 [endkeyframe]
 [kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="1000" direction="alternate" easing="linear"]
-[_tb_end_tyrano_code]
+[_tb_end_tyrano_code][p]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/21.png"  ]
 [tb_start_text mode=1 ]
@@ -705,12 +705,12 @@ Nói đến mức đó thì... [r]tham gia cũng được... nhưng [p]
 #でびるん
 Đúng rồi, скоро đến lúc sừng thay đổi phải không? [r]Ngứa không? Để tao làm như trước kia cho nhé [p]
 
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="ナザール"  time="0"  cross="false"  storage="chara/73/18.png"  ]
 [chara_show  name="ハーデスター"  time="0"  wait="true"  storage="chara/78/15.png"  width="976"  height="774"  left="425"  top="918"  reflect="false"  ]
 [tb_start_tyrano_code]
-[keyframe name="aku2"]
+[keyframe name="aku2"][p]
 [frame p="0%" y="0"]
 [frame p="50%" y="40"]
 [frame p="100%" y="0"]
@@ -718,7 +718,7 @@ Nói đến mức đó thì... [r]tham gia cũng được... nhưng [p]
 [kanim name="ハーデスター" keyframe="aku2" count="infinite" time="3000" direction="alternate" easing="linear"]
 [_tb_end_tyrano_code]
 
-[playse  volume="100"  time="0"  buf="1"  loop="false"  storage="gimon.ogg"  ]
+[playse  volume="100"  time="0"  buf="1"  loop="false"  storage="gimon.ogg"  ][p]
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [tb_start_text mode=1 ]
 #ナザール
@@ -733,7 +733,7 @@ Nói đến mức đó thì... [r]tham gia cũng được... nhưng [p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/21.png"  ]
+[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/21.png"  ][p]
 [chara_mod  name="ナザール"  time="0"  cross="false"  storage="chara/73/20.png"  ]
 [chara_move  name="ハーデスター"  anim="true"  time="1500"  effect="easeOutQuad"  wait="false"  left="433"  top="-28"  width="984"  height="780"  ]
 [chara_move  name="ナザール"  anim="true"  time="800"  effect="easeOutQuad"  wait="true"  left="-68"  top="-71"  width="969"  height="762"  ]
@@ -807,30 +807,30 @@ K-khoan đã Levi, thằng này mới bắt đầu giao tiếp [r]nên nói chuy
 [free_layermode  time="0"  wait="true"  ]
 [bg_layermode  name="mahou"  folder="bgimage"  storage="haikei_mahou2.webp"  mode="color-dodge"]
 
-[stopse  time="0"  buf="5"  ]
+[stopse  time="0"  buf="5"  ][p]
 [playse  volume="100"  time="1000"  buf="0"  storage="pon2.ogg"  ]
 [wait  time="500"  ]
 [chara_hide  name="ハーデスター"  time="0"  wait="false"  pos_mode="true"  ]
 [chara_hide  name="ナザール"  time="0"  wait="false"  pos_mode="true"  ]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/102.png"  ]
-[tb_start_tyrano_code]
+[tb_start_tyrano_code][p]
 [keyframe name="fuwakoma"]
 [frame p="0%" y="0"]
 [frame p="50%" y="-5"]
 [frame p="100%" y="0"]
 [endkeyframe]
-[kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="1000" direction="alternate" easing="linear"]
+[kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="1000" direction="alternate" easing="linear"][p]
 [_tb_end_tyrano_code]
 
 [chara_show  name="マネコ"  time="0"  wait="false"  storage="chara/76/27.png"  width="700"  height="814"  left="298"  top="1"  reflect="false"  ]
 [tb_start_tyrano_code]
 [keyframe name="aku"]
-[frame p="0%" y="0"]
+[frame p="0%" y="0"][p]
 [frame p="50%" y="20"]
 [frame p="100%" y="0"]
 [endkeyframe]
 [kanim name="マネコ" keyframe="aku" count="infinite" time="2000" direction="alternate" easing="linear"]
-[_tb_end_tyrano_code]
+[_tb_end_tyrano_code][p]
 
 [layermode  mode="color-dodge"  color="0xffffff"  time="0"  wait="false"  graphic="bb2.png"  ]
 [quake  time="600"  count="10"  hmax="3"  wait="false"  ]
@@ -841,13 +841,13 @@ K-khoan đã Levi, thằng này mới bắt đầu giao tiếp [r]nên nói chuy
 
 [wait  time="800"  ]
 [free_layermode  time="4000"  wait="false"  ]
-[chara_mod  name="マネコ"  time="500"  cross="false"  storage="chara/76/23.png"  ]
+[chara_mod  name="マネコ"  time="500"  cross="false"  storage="chara/76/23.png"  ][p]
 [tb_start_text mode=1 ]
 #マネコ
 [_tb_end_text]
 [fadein_window  time="1000"  ]
 [tb_start_text mode=1 ]
-#マネコ
+#マネコ[p]
 Như thường lệ nhà chật hẹp[p]
 
 [_tb_end_text]
@@ -872,7 +872,7 @@ Cái gì, sao thế? [r]Có gì muốn nói nữa không[p]
 
 [_tb_end_text]
 
-[chara_mod  name="マネコ"  time="0"  cross="false"  storage="chara/76/29.png"  ]
+[chara_mod  name="マネコ"  time="0"  cross="false"  storage="chara/76/29.png"  ][p]
 [tb_start_text mode=1 ]
 #マネコ
 Mi ở kia [r]ừm...[emb exp="f.name"]? [p]
@@ -901,14 +901,14 @@ Bọn mi làm được đấy[p]
 [tb_start_text mode=1 ]
 #でびるん
 Ồ có gì đâu! [r]Hừ, không ngờ cũng có ngày được mày cảm ơn[p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="マネコ"  time="0"  cross="false"  storage="chara/76/31.png"  ]
 [chara_show  name="あもあも"  time="0"  wait="true"  storage="chara/48/26.png"  width="978"  height="770"  left="-216"  top="949"  reflect="false"  ]
 [tb_start_tyrano_code]
 [keyframe name="aku3"]
 [frame p="0%" y="0"]
-[frame p="50%" y="30"]
+[frame p="50%" y="30"][p]
 [frame p="100%" y="0"]
 [endkeyframe]
 [kanim name="あもあも" keyframe="aku3" count="infinite" time="4000" direction="alternate" easing="linear"]
@@ -917,7 +917,7 @@ Bọn mi làm được đấy[p]
 [tb_start_tyrano_code]
 [keyframe name="aku2"]
 [frame p="0%" y="0"]
-[frame p="50%" y="40"]
+[frame p="50%" y="40"][p]
 [frame p="100%" y="0"]
 [endkeyframe]
 [kanim name="ハーデスター" keyframe="aku2" count="infinite" time="3000" direction="alternate" easing="linear"]
@@ -982,14 +982,14 @@ unya... mi [r]cái đó, mi thấy bằng cách nào[p]
 [tb_start_text mode=1 ]
 #あもあも
 Từ lúc triệu hồi vào phòng này [r]cô Clione này đã giám sát rồi nè[p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/9.png"  ]
 [tb_start_tyrano_code]
 [keyframe name="fuwakoma"]
 [frame p="0%" y="-10"]
 [frame p="50%" y="0"]
-[frame p="100%" y="-1"]
+[frame p="100%" y="-1"][p]
 [endkeyframe]
 [kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="400" direction="alternate" easing="linear"]
 [_tb_end_tyrano_code]
@@ -1020,8 +1020,8 @@ Umyumyumyumyu~tất cả hình ảnh dâm dục của Belboo [r]tui đều thấ
 
 [_tb_end_text]
 
-[chara_mod  name="マネコ"  time="0"  cross="false"  storage="chara/76/24.png"  ]
-[tb_start_text mode=1 ]
+[chara_mod  name="マネコ"  time="0"  cross="false"  storage="chara/76/24.png"  ][p]
+[tb_start_text mode=1 ][p]
 #マネコ
 [font size=25]D-d-d-dâm dục là cái gì chứ! [resetfont][p]
 
@@ -1039,7 +1039,7 @@ Umyumyumyumyu~tất cả hình ảnh dâm dục của Belboo [r]tui đều thấ
 [playse  volume="100"  time="0"  buf="1"  loop="false"  storage="sasu.ogg"  ]
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/103.png"  ]
-[tb_start_text mode=1 ]
+[tb_start_text mode=1 ][p]
 #でびるん
 [font size=25]Ê!? Gì! Hiểu lầm mà! [resetfont][r]Tự ý giám sát mới là biến thái chứ! [p]
 [_tb_end_text]
@@ -1092,13 +1092,13 @@ Belphegor dâm dục...? [r]Ngài... là biến thái sao[p]
 [frame p="100%" y="-1"]
 [endkeyframe]
 [kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="400" direction="alternate" easing="linear"]
-[_tb_end_tyrano_code]
+[_tb_end_tyrano_code][p]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/103.png"  ]
 [playse  volume="100"  time="0"  buf="1"  loop="false"  storage="sasu2.ogg"  ]
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 [font size=25]Mày biến đi!!!! [resetfont][p]
 
 [_tb_end_text]
@@ -1114,13 +1114,13 @@ Belphegor dâm dục...? [r]Ngài... là biến thái sao[p]
 [wait  time="500"  ]
 [chara_hide  name="ハーデスター"  time="0"  wait="false"  pos_mode="true"  ]
 [chara_hide  name="マネコ"  time="0"  wait="false"  pos_mode="true"  ]
-[chara_hide  name="あもあも"  time="0"  wait="false"  pos_mode="true"  ]
+[chara_hide  name="あもあも"  time="0"  wait="false"  pos_mode="true"  ][p]
 [chara_hide  name="TAP"  time="0"  wait="false"  pos_mode="true"  ]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/21.png"  ]
 [tb_start_tyrano_code]
 [keyframe name="fuwakoma"]
 [frame p="0%" y="0"]
-[frame p="50%" y="-5"]
+[frame p="50%" y="-5"][p]
 [frame p="100%" y="0"]
 [endkeyframe]
 [kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="1000" direction="alternate" easing="linear"]
@@ -1132,7 +1132,7 @@ Belphegor dâm dục...? [r]Ngài... là biến thái sao[p]
 [frame p="0%" y="0"]
 [frame p="50%" y="30"]
 [frame p="100%" y="0"]
-[endkeyframe]
+[endkeyframe][p]
 [kanim name="D・Red" keyframe="aku" count="infinite" time="3000" direction="alternate" easing="linear"]
 [_tb_end_tyrano_code]
 
@@ -1150,7 +1150,7 @@ Belphegor dâm dục...? [r]Ngài... là biến thái sao[p]
 #D・Red
 [_tb_end_text]
 
-[fadein_window  time="1000"  ]
+[fadein_window  time="1000"  ][p]
 [tb_start_text mode=1 ]
 #D・Red
 Gahahaha! Nè-ê chó nhỏ [r]tiệc mừng chiến thắng sao? [p]
@@ -1167,7 +1167,7 @@ Nhìn là biết vui vẻ rồi... [r]không ngờ mày lúc nào cũng nóng t�
 [chara_show  name="ハーデスター"  time="0"  wait="true"  storage="chara/78/10.png"  width="984"  height="780"  left="-119"  top="911"  reflect="false"  ]
 [tb_start_tyrano_code]
 [keyframe name="aku2"]
-[frame p="0%" y="0"]
+[frame p="0%" y="0"][p]
 [frame p="50%" y="40"]
 [frame p="100%" y="0"]
 [endkeyframe]
@@ -1188,7 +1188,7 @@ Ta nghe nói ác quỷ không có ác ý... [r]thế tại sao không ai thèm q
 
 [_tb_end_text]
 
-[chara_mod  name="D・Red"  time="0"  cross="true"  storage="chara/77/32.png"  ]
+[chara_mod  name="D・Red"  time="0"  cross="true"  storage="chara/77/32.png"  ][p]
 [tb_hide_message_window  ]
 [chara_move  name="D・Red"  anim="true"  time="1200"  effect="easeOutQuad"  wait="false"  left="297"  top="-58"  width="1223"  height="917"  ]
 [chara_move  name="ハーデスター"  anim="true"  time="1500"  effect="easeOutQuad"  wait="false"  left="-100"  top="-3"  width="984"  height="780"  ]
@@ -1200,7 +1200,7 @@ Ta nghe nói ác quỷ không có ác ý... [r]thế tại sao không ai thèm q
 
 [_tb_end_text]
 
-[tb_start_tyrano_code]
+[tb_start_tyrano_code][p]
 [keyframe name="fuwakoma"]
 [frame p="0%" y="-10"]
 [frame p="50%" y="0"]
@@ -1217,7 +1217,7 @@ Ta nghe nói ác quỷ không có ác ý... [r]thế tại sao không ai thèm q
 Dgya! [r]Mày, đừng nói nữa... [p]
 
 
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="ハーデスター"  time="0"  cross="true"  storage="chara/78/17.png"  ]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/169.png"  ]
@@ -1238,20 +1238,20 @@ Tôi sợ lắm [p]
 [_tb_end_text]
 
 [chara_mod  name="ハーデスター"  time="0"  cross="true"  storage="chara/78/12.png"  ]
-[chara_mod  name="D・Red"  time="0"  cross="true"  storage="chara/77/33.png"  ]
+[chara_mod  name="D・Red"  time="0"  cross="true"  storage="chara/77/33.png"  ][p]
 [playse  volume="100"  time="0"  buf="1"  loop="false"  storage="hirameki.ogg"  ]
 [tb_start_text mode=1 ]
 #ハーデスター
 Tôi sợ lúc ngài hào hứng với xe tăng [p]
 
 
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="D・Red"  time="0"  cross="true"  storage="chara/77/34.png"  ]
 [tb_start_text mode=1 ]
 #D・Red
 Cái gì[delay speed=300]...[resetdelay]thế sao[delay speed=300]...[resetdelay]? [p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [tb_start_text mode=1 ]
 #D・Red
@@ -1282,7 +1282,7 @@ Hừm[delay speed=300]...[resetdelay][p]
 [frame p="100%" y="-1"]
 [endkeyframe]
 [kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="400" direction="alternate" easing="linear"]
-[_tb_end_tyrano_code]
+[_tb_end_tyrano_code][p]
 
 [tb_start_text mode=1 ]
 #でびるん
@@ -1294,13 +1294,13 @@ Hừm[delay speed=300]...[resetdelay][p]
 [keyframe name="fuwakoma"]
 [frame p="0%" y="0"]
 [frame p="50%" y="-5"]
-[frame p="100%" y="0"]
+[frame p="100%" y="0"][p]
 [endkeyframe]
 [kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="1000" direction="alternate" easing="linear"]
 [_tb_end_tyrano_code]
 
 [chara_mod  name="D・Red"  time="0"  cross="true"  storage="chara/77/37.png"  ]
-[tb_start_text mode=1 ]
+[tb_start_text mode=1 ][p]
 #D・Red
 Hừ, dù sao ta vẫn [r]là người theo chủ nghĩa hòa bình và thân thiện đấy[p]
 
@@ -1318,7 +1318,7 @@ Hừ, dù sao ta vẫn [r]là người theo chủ nghĩa hòa bình và thân th
 #ハーデスター
 Vâng, rất vui.[p]
 
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="D・Red"  time="0"  cross="true"  storage="chara/77/29.png"  ]
 [tb_start_text mode=1 ]
@@ -1331,7 +1331,7 @@ Guhaha! Để ta cũng cho ngươi xem [r]bộ sưu tập của ta! [p]
 [flash  time="300"  effect="fadeIn"  color="0x000000"  ]
 
 [chara_hide  name="D・Red"  time="0"  wait="true"  pos_mode="true"  ]
-[chara_hide  name="ハーデスター"  time="0"  wait="true"  pos_mode="true"  ]
+[chara_hide  name="ハーデスター"  time="0"  wait="true"  pos_mode="true"  ][p]
 [chara_show  name="でびるん"  time="0"  wait="false"  storage="chara/1/1.png"  width="1280"  height="960"  left="0"  top="0"  reflect="false"  ]
 [chara_hide  name="コマでび"  time="0"  wait="false"  pos_mode="false"  ]
 [free_layermode  time="0"  wait="true"  ]

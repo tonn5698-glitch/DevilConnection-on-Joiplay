@@ -191,7 +191,7 @@ Trông có vẻ không khỏe lắm nhưng… chắc là[r]thầy ấy nghĩ v�
 
 [tb_start_text mode=1 ]
 #ミーティア
-Nếu trở thành bạn, thì[r]ước mơ là được cùng nhau đi học trường ma thuật!{p]
+Nếu trở thành bạn, thì[r]ước mơ là được cùng nhau đi học trường ma thuật!{p][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]

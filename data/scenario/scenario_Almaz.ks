@@ -28,7 +28,7 @@
 [playse  volume="100"  time="0"  buf="3"  storage="kawaii2.ogg"  ]
 [tb_start_text mode=1 ]
 #アルマース
-Cưng ơi anh yêu em~♥
+Cưng ơi anh yêu em~♥[p]
 
 [_tb_end_text]
 

@@ -91,7 +91,7 @@ Hehe- Tao là[font color=0xEC6FC5 bold=true]Be[resetfont]...[p]
 [tb_start_text mode=1 ]
 #タマモ
 [font color=0xEC6FC5 bold=true]Be[resetfont]...?[p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [tb_start_text mode=1 ]
 #でびるん
@@ -110,13 +110,13 @@ Là,[wait time=300]Debirun.[p]
 [delay speed=300]...[resetdelay]Mày biết nhiều thứ thừa ghê nhỉ[p]
 [_tb_end_text]
 
-[tb_start_text mode=1 ]
+[tb_start_text mode=1 ][p]
 #タマモ
 Không nói cho bản cung sao?[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 Đương nhiên là không rồi[p]
 [_tb_end_text]
 
@@ -127,7 +127,7 @@ Nếu nói thì bản cung[r]cho sờ đuôi cũng được đó[p]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/24.png"  ]
 [tb_start_tyrano_code]
-[keyframe name="fuwakoma"]
+[keyframe name="fuwakoma"][p]
 [frame p="0%" x="0"]
 [frame p="50%" x="3"]
 [frame p="100%" x="0"]
@@ -143,7 +143,7 @@ M-M,[wait time=300]sờ...[p]
 [tb_start_tyrano_code]
 [keyframe name="fuwakoma"]
 [frame p="0%" y="-10"]
-[frame p="50%" y="0"]
+[frame p="50%" y="0"][p]
 [frame p="100%" y="-1"]
 [endkeyframe]
 [kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="400" direction="alternate" easing="linear"]
@@ -160,7 +160,7 @@ M-M,[wait time=300]sờ...[p]
 [chara_hide  name="コマでび"  time="80"  wait="false"  pos_mode="false"  ]
 [eval exp="f.zyagan_count = 0"]
 
-*zyagan1_modoru
+*zyagan1_modoru[p]
 
 [tb_hide_message_window  ]
 [choice2 text1="Vẫy đuôi" target1="*o" text2="Xoa đầu" target2="*atama"]
@@ -191,12 +191,12 @@ Chúng nó... không kém phần thích trêu đùa[r]bản cung đâu[p]
 [tb_start_text mode=1 ]
 #タマモ
 Vậy thì thi đấu! Nếu ai sờ đuôi[p]bản cung sẽ né~mumumu, phản ứng vui lắm[p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [call  storage="me.ks"  target="*me_ENDtozi"  ]
 [chara_mod  name="プレイヤー"  time="0"  cross="false"  storage="chara/2/te.png"  ]
 [chara_mod  name="コハク"  time="0"  cross="false"  storage="chara/25/2.png"  ]
-[bg  time="0"  method="crossfade"  storage="haikei2.webp"  ]
+[bg  time="0"  method="crossfade"  storage="haikei2.webp"  ][p]
 [call  storage="me.ks"  target="*me_ENDake"  ]
 [jump  storage="scenario_kohaku.ks"  target="*zyagan1_modoru"  ]
 [s  ]
@@ -262,7 +262,7 @@ Mumumu!!![p]
 
 [bg  time="0"  method="crossfade"  storage="haikei_Small.webp"  ]
 [tb_start_tyrano_code]
-[play_apng name="kemuri" layer="1" x="0" y="0" width="1280" height="960" mode="screen" free="true"]
+[play_apng name="kemuri" layer="1" x="0" y="0" width="1280" height="960" mode="screen" free="true"][p]
 [_tb_end_tyrano_code]
 
 [wait  time="200"  ]
@@ -283,7 +283,7 @@ Mumumu!!![p]
 [frame p="50%" y="-5"]
 [frame p="100%" y="0"]
 [endkeyframe]
-[kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="1000" direction="alternate" easing="linear"]
+[kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="1000" direction="alternate" easing="linear"][p]
 [_tb_end_tyrano_code]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/15.png"  ]
@@ -301,7 +301,7 @@ Mumumumu~[r]Ngươi dễ lừa quá trời luôn[p]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/82.png"  ]
 [tb_start_tyrano_code]
 [keyframe name="fuwakoma"]
-[frame p="0%" x="0"]
+[frame p="0%" x="0"][p]
 [frame p="50%" x="3"]
 [frame p="100%" x="0"]
 [endkeyframe]
@@ -358,7 +358,7 @@ C-Coi thường tao quá rồi[thằng hồ ly quậy phá này...[p]
 
 [wait  time="350"  ]
 [chara_show  name="コマでび"  layer="0"  zindex="2"  time="0"  wait="false"  storage="chara/10/15.png"  width="383"  height="400"  left="7"  top="308"  ]
-[tb_start_tyrano_code]
+[tb_start_tyrano_code][p]
 [free_apng name="debi_fuki_show" ]
 [_tb_end_tyrano_code]
 
@@ -386,14 +386,14 @@ Ngươi nghĩ được người lạ sờ đầu là vui lắm sao?[r]Bản cung
 [keyframe name="fuwakoma"]
 [frame p="0%" y="-10"]
 [frame p="50%" y="0"]
-[frame p="100%" y="-1"]
+[frame p="100%" y="-1"][p]
 [endkeyframe]
 [kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="400" direction="alternate" easing="linear"]
 [_tb_end_tyrano_code]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/82.png"  ]
 [tb_start_tyrano_code]
-[keyframe name="fuwakoma"]
+[keyframe name="fuwakoma"][p]
 [frame p="0%" x="0"]
 [frame p="50%" x="3"]
 [frame p="100%" x="0"]
@@ -417,7 +417,7 @@ C-Coi thường tao quá rồi, tao cũng vui vẻ vì mấy thứ đó đâu ch
 [wait  time="100"  ]
 [flash_off  time="20"  effect="fadeOut"  ]
 
-[playse  volume="100"  time="0"  buf="1"  storage="sasu.ogg"  ]
+[playse  volume="100"  time="0"  buf="1"  storage="sasu.ogg"  ][p]
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -458,7 +458,7 @@ Sờ đâu thế![p]
 [playse  volume="100"  time="0"  buf="2"  storage="aseru.ogg"  ]
 [chara_show  name="コマでび"  layer="0"  zindex="2"  time="0"  wait="false"  storage="chara/10/15.png"  width="383"  height="400"  left="7"  top="308"  ]
 [tb_start_tyrano_code]
-[free_apng name="debi_fuki_show" ]
+[free_apng name="debi_fuki_show" ][p]
 [_tb_end_tyrano_code]
 
 [tb_start_tyrano_code]
@@ -489,14 +489,14 @@ Mumumumu~ giật mình hả?[r]Ngươi dễ lừa quá nên thấy buồn cườ
 [frame p="100%" x="0"]
 [endkeyframe]
 [kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="100" direction="alternate" easing="linear"]
-[_tb_end_tyrano_code]
+[_tb_end_tyrano_code][p]
 
 [tb_start_text mode=1 ]
 #でびるん
 C-Coi thường tao quá rồi[thằng hồ ly quậy phá này...[p]
 [_tb_end_text]
 
-*wakarase
+*wakarase[p]
 
 [tb_start_tyrano_code]
 [keyframe name="fuwakoma"]
@@ -511,7 +511,7 @@ C-Coi thường tao quá rồi[thằng hồ ly quậy phá này...[p]
 [tb_start_text mode=1 ]
 #でびるん
 Cho mày biết[quỷ đáng sợ thế nào![p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="プレイヤー"  time="0"  cross="false"  storage="chara/2/fu_te2.png"  ]
 [chara_hide  name="コマでび"  time="80"  wait="false"  pos_mode="false"  ]
@@ -529,7 +529,7 @@ Cho mày biết[quỷ đáng sợ thế nào![p]
 
 [mp_check]
 
-[s  cond="!f.mp_check_pass"  ]
+[s  cond="!f.mp_check_pass"  ][p]
 [call  storage="zyagan.ks"  target=""  ]
 [tb_start_text mode=1 ]
 #コハク
@@ -563,7 +563,7 @@ Lần đầu gặp quỷ nhưng vui lắm~[r]Tớ sẽ trêu chọi hết sức 
 [tb_start_text mode=1 ]
 #コハク
 Nói mới nhớ, sắp đến giờ ăn nhẹ rồi.[r]Đồ ngọt thì phải ở tiệm mới ngon![p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 *zyagan1_modoru_2
 
@@ -583,7 +583,7 @@ Nói mới nhớ, sắp đến giờ ăn nhẹ rồi.[r]Đồ ngọt thì phải
 [call  storage="me.ks"  target="*me_ENDake"  ]
 [wait  time="30"  ]
 [jump  storage="scenario_kohaku.ks"  target="*zyagan2_modoru"  ]
-*yasai
+*yasai[p]
 
 [achieve_sticker no="24"]
 
@@ -646,7 +646,7 @@ Nè~ phải ăn rau cho đúng[p]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/67.png"  ]
 [tb_start_text mode=1 ]
-#コハク
+#コハク[p]
 [delay speed=100]..........[resetdelay]![p]
 [_tb_end_text]
 
@@ -656,7 +656,7 @@ Nè~ phải ăn rau cho đúng[p]
 [playse  volume="100"  time="0"  buf="4"  storage="AURA_OK.ogg"  ]
 [chara_show  name="感情オーラ2"  time="1000"  wait="false"  storage="chara/12/moya2.png"  width="400"  height="200"  left="679"  top="219"  reflect="false"  ]
 [tb_start_text mode=1 ]
-#コハク
+#コハク[p]
 [font face="DZUYOKU"][font size=30]Thả~ra! Khó uống quá![resetfont][p]
 [_tb_end_text]
 
@@ -683,7 +683,7 @@ Nè~ phải ăn rau cho đúng[p]
 [font size=25]Bản cung không tha![resetfont][p]
 [_tb_end_text]
 
-[jump  storage="scenario_kohaku.ks"  target="*ha"  ]
+[jump  storage="scenario_kohaku.ks"  target="*ha"  ][p]
 *wata
 
 [chara_mod  name="プレイヤー"  time="100"  cross="false"  storage="chara/2/te.png"  ]
@@ -702,7 +702,7 @@ Nè~ phải ăn rau cho đúng[p]
 [font size=25]Wah~ hay quá![r]Tay thành kẹo bông rồi[p]
 [_tb_end_text]
 
-[playse  volume="100"  time="0"  buf="1"  storage="paku.ogg"  ]
+[playse  volume="100"  time="0"  buf="1"  storage="paku.ogg"  ][p]
 [chara_mod  name="コハク"  time="0"  cross="false"  storage="chara/25/18.png"  ]
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [tb_start_text mode=1 ]
@@ -712,7 +712,7 @@ Nè~ phải ăn rau cho đúng[p]
 
 [tb_start_tyrano_code]
 [keyframe name="fuwakoma"]
-[frame p="0%" y="0"]
+[frame p="0%" y="0"][p]
 [frame p="50%" y="-5"]
 [frame p="100%" y="0"]
 [endkeyframe]
@@ -735,7 +735,7 @@ Nè~ phải ăn rau cho đúng[p]
 Ơ...? Chỉ là bề ngoài[r]trông bông lên thôi[p]Thất vọng quá[p]
 [_tb_end_text]
 
-[playse  volume="100"  time="0"  buf="1"  storage="sasu.ogg"  ]
+[playse  volume="100"  time="0"  buf="1"  storage="sasu.ogg"  ][p]
 [chara_mod  name="コハク"  time="0"  cross="false"  storage="chara/25/19.png"  ]
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [tb_start_text mode=1 ]
@@ -744,7 +744,7 @@ Nè~ phải ăn rau cho đúng[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -760,7 +760,7 @@ Nè~ phải ăn rau cho đúng[p]
 [tb_start_tyrano_code]
 [keyframe name="fuwakoma"]
 [frame p="0%" y="-10"]
-[frame p="50%" y="0"]
+[frame p="50%" y="0"][p]
 [frame p="100%" y="-1"]
 [endkeyframe]
 [kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="400" direction="alternate" easing="linear"]
@@ -783,7 +783,7 @@ Hehehe, chọn_[r]cái lá nào để đội lên đầu đi[p]
 [tb_start_tyrano_code]
 [keyframe name="fuwakoma"]
 [frame p="0%" y="0"]
-[frame p="50%" y="-5"]
+[frame p="50%" y="-5"][p]
 [frame p="100%" y="0"]
 [endkeyframe]
 [kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="1000" direction="alternate" easing="linear"]
@@ -816,7 +816,7 @@ Gì, thử thách tao à?[r]Ê [emb exp="f.name"] chọn đại một bên![p]
 #コハク
 [_tb_end_text]
 
-[chara_mod  name="コハク"  time="0"  cross="false"  storage="chara/25/21.png"  ]
+[chara_mod  name="コハク"  time="0"  cross="false"  storage="chara/25/21.png"  ][p]
 [chara_mod  name="プレイヤー"  time="0"  cross="false"  storage="chara/2/te_zyagan.png"  ]
 [bg  time="0"  method="crossfade"  storage="haikei_zyagan_Small.webp"  ]
 [call  storage="me.ks"  target="*meopen"  ]
@@ -873,8 +873,8 @@ Mumumumu...[r]Hy vọng người sẽ dính vào thiết kế đơn giản![p]
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [wait  time="500"  ]
 [tb_show_message_window  ]
-[tb_eval  exp="f.kansou1=1"  name="kansou1"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
-[tb_start_text mode=1 ]
+[tb_eval  exp="f.kansou1=1"  name="kansou1"  cmd="="  op="t"  val="1"  val_2="undefined"  ][p]
+[tb_start_text mode=1 ][p]
 #でびるん
 [font face="DZUYOKU"][font size=30]Mgya!?[resetfont][p]
 [_tb_end_text]
@@ -926,7 +926,7 @@ Bỏ không kháng cự đáng yêu quá~[r]Thế giờ làm sao nhỉ~[p]
 [tb_start_text mode=1 ]
 #コハク
 Ơ. Chạy mất rồi[r]Chạy nhanh thì giỏi lắm[p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [playse  volume="100"  time="0"  buf="1"  storage="hazikeru.ogg"  ]
 [tb_start_tyrano_code]
@@ -943,7 +943,7 @@ Bỏ không kháng cự đáng yêu quá~[r]Thế giờ làm sao nhỉ~[p]
 [free_apng name="debi_fuki_show" ]
 [_tb_end_tyrano_code]
 
-[tb_start_tyrano_code]
+[tb_start_tyrano_code][p]
 [keyframe name="fuwakoma"]
 [frame p="0%" x="0"]
 [frame p="50%" x="3"]
@@ -962,14 +962,14 @@ Làm biến đổi đối phương được[r]L-Lá lá khá đáng sợ[p]
 [keyframe name="fuwakoma"]
 [frame p="0%" y="0"]
 [frame p="50%" y="-5"]
-[frame p="100%" y="0"]
+[frame p="100%" y="0"][p]
 [endkeyframe]
 [kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="1000" direction="alternate" easing="linear"]
 [_tb_end_tyrano_code]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/63.png"  ]
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 Thằng đó... không biết sẽ làm gì nên[r]hút nhanh ma lực rồi chạy đi![p]
 [_tb_end_text]
 
@@ -982,7 +982,7 @@ Thằng đó... không biết sẽ làm gì nên[r]hút nhanh ma lực rồi ch�
 [chara_mod  name="コハク"  time="0"  cross="false"  storage="chara/25/5.png"  ]
 [wait  time="800"  ]
 [tb_start_tyrano_code]
-[play_apng name="debi_fuki_show" layer="0" x="7" y="308" width="384" height="400"]
+[play_apng name="debi_fuki_show" layer="0" x="7" y="308" width="384" height="400"][p]
 [_tb_end_tyrano_code]
 
 [wait  time="350"  ]
@@ -1014,7 +1014,7 @@ Thằng đó... không biết sẽ làm gì nên[r]hút nhanh ma lực rồi ch�
 Chê, chán thật.[r]Lá hồi phục yêu lực đây mà[p]
 [_tb_end_text]
 
-[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/15.png"  ]
+[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/15.png"  ][p]
 [tb_start_text mode=1 ]
 #でびるん
 Aura cảm xúc đục khiến tao khó chịu nhưng...[r]Thôi ma lực hồi phục được rồi, cho qua[p]
@@ -1071,7 +1071,7 @@ Hơi mệt rồi.[r]Về tiệm ăn đồ ngọt nào![p]
 [keyframe name="fuwa"]
 [frame p="0%" y="0"]
 [frame p="50%" y="-50"]
-[frame p="100%" y="0"]
+[frame p="100%" y="0"][p]
 [endkeyframe]
 [kanim name="でびるん" keyframe="fuwa" count="infinite" time="2000" direction="alternate" easing="linear"]
 [_tb_end_tyrano_code]
@@ -1079,7 +1079,7 @@ Hơi mệt rồi.[r]Về tiệm ăn đồ ngọt nào![p]
 [flash_off  time="0"  effect="fadeOut"  ]
 
 [playbgm  volume="50"  time="0"  loop="true"  storage="1_debirun_no_theme.ogg"  ]
-[tb_eval  exp="f.photoDeviPose=0"  name="photoDeviPose"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
+[tb_eval  exp="f.photoDeviPose=0"  name="photoDeviPose"  cmd="="  op="t"  val="1"  val_2="undefined"  ][p]
 [call  storage="maku.ks"  target="*open"  ]
 [wait  time="1000"  ]
 [fadein_window  time="1000"  ]
@@ -1094,7 +1094,7 @@ Thằng đó đột nhiên thành trẻ con, giật mình thật[p]Giá mà cứ
 Mà khoan,[if exp="f.kansou1 == 1"]đội lá lên đầu mà biến trạng thái thì[r]phép thuật kỳ lạ thật[else]Chỉ một chiếc lá mà[r]có ngần ấy ma lực thì lần đầu thấy[endif][p]
 [_tb_end_text]
 
-[chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/1.png"  ]
+[chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/1.png"  ][p]
 [tb_start_text mode=1 ]
 #でびるん
 Nếu đội lá lên đầu mà trong giây lát[r][if exp="f.kansou1 == 1"][else]ma lực tập trung lại thì [endif]trở về hình dáng thật thì tốt[p]
@@ -1116,7 +1116,7 @@ f.finished = [...f.finished, f.chara.name];
 [tb_hide_message_window  ]
 [call  storage="maku.ks"  target="*close"  ]
 [chara_hide  name="でびるん"  time="0"  wait="false"  pos_mode="false"  ]
-[chara_hide  name="プレイヤー"  layer="1"  time="0"  wait="false"  pos_mode="false"  ]
+[chara_hide  name="プレイヤー"  layer="1"  time="0"  wait="false"  pos_mode="false"  ][p]
 [free_layermode  time="0"  wait="false"  ]
 [jump  storage="syoukan.ks"  target=""  ]
 [s  ]

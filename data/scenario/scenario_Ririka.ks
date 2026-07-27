@@ -269,7 +269,7 @@ if (!f.cameraEnable) $('.skip_button').css('left', '998px')
 [chara_mod  name="リリカ"  time="0"  cross="false"  storage="chara/55/6.png"  ]
 [tb_start_text mode=1 ]
 #リリカ
-Đặt timer rồi mà vẫn không chụp được[r]tụt mood quá trời～
+Đặt timer rồi mà vẫn không chụp được[r]tụt mood quá trời～[p]
 
 [_tb_end_text]
 
@@ -303,7 +303,7 @@ if (!f.cameraEnable) $('.skip_button').css('left', '998px')
 #リリカ
 Hả[p]
 
-[_tb_end_text]
+[_tb_end_text][p]
 
 [reset_camera  time="500"  wait="false"  layer="base"  ]
 [reset_camera  time="500"  wait="false"  layer="0"  ]
@@ -313,7 +313,7 @@ Hả[p]
 #リリカ
 Vừa rồi là bên nào chụp á???????[p]
 
-[_tb_end_text]
+[_tb_end_text][p]
 
 [lbgmvol vol="50"]
 
@@ -329,7 +329,7 @@ Vừa rồi là bên nào chụp á???????[p]
 #リリカ
 Đúng lúc camera bị bug đó![r][font size=45]Timing thần thánh quá trời![resetfont][p]
 
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/8.png"  ]
 [tb_start_tyrano_code]
@@ -345,7 +345,7 @@ Vừa rồi là bên nào chụp á???????[p]
 #でびるん
 [if exp="Boolean(f.backToScenario)"]Ồ, đã chụp ảnh rồi à. Phép camera đúng là[r]thứ tuyệt vời lưu trữ cảnh vật lên giấy nhỉ[else]Hóa ra dùng phép âm thanh thu hút sự chú ý à...cảm xúc Aura bị đục rồi, [r]nhưng với lần đầu thì cũng khá tốt rồi![endif][p]
 
-[_tb_end_text]
+[_tb_end_text][p]
 
 [lbgmvol vol="0"]
 
@@ -365,7 +365,7 @@ Vừa rồi là bên nào chụp á???????[p]
 #リリカ
 [font size=25]Đợi đã[resetfont][p]
 
-[_tb_end_text]
+[_tb_end_text][p]
 
 [lbgmvol vol="50"]
 
@@ -376,7 +376,7 @@ Vừa rồi là bên nào chụp á???????[p]
 #リリカ
 Tên trên đầu có antena kia, sinh vật ngoài hành tinh...[r]trông y chang quỷ kawaii luôn á!?[p]
 
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/10.png"  ]
 [playse  volume="100"  time="0"  buf="1"  storage="sasu2.ogg"  ]
@@ -394,7 +394,7 @@ Tên trên đầu có antena kia, sinh vật ngoài hành tinh...[r]trông y cha
 #でびるん
 Không phải antena hay sinh vật ngoài hành tinh gì hết![r]Ta là quỷ có sừng! Á-quỷ-ma![p]
 
-[_tb_end_text]
+[_tb_end_text][p]
 
 [playse  volume="100"  time="0"  buf="1"  storage="kawaii2.ogg"  ]
 [chara_mod  name="リリカ"  time="0"  cross="false"  storage="chara/55/12.png"  ]
@@ -538,7 +538,7 @@ pose chung chụp ảnh nha Á-quỷ-ma-đông![p]
 [camera  time="5000"  zoom="1.5"  wait="false"  y="70"  layer="1"  ]
 [chara_mod  name="リリカ"  time="0"  cross="false"  storage="chara/55/2.png"  ]
 [tb_start_text mode=1 ]
-#リリカ
+#リリカ[p]
 Ồ, tới rồi tới rồi![r]Để coi～[p]
 
 [_tb_end_text]
@@ -557,19 +557,19 @@ pose chung chụp ảnh nha Á-quỷ-ma-đông![p]
 [playse  volume="100"  time="0"  buf="4"  storage="AURA_NG.ogg"  ]
 [chara_mod  name="リリカ"  time="0"  cross="false"  storage="chara/55/6.png"  ]
 [tb_start_text mode=1 ]
-#リリカ
+#リリカ[p]
 Hả, Á-quỷ-ma-đông đâu rồi[p]
 Hơi chán～[p]
 
 [_tb_end_text]
 
-[tb_start_text mode=1 ]
+[tb_start_text mode=1 ][p]
 #でびるん
 [font face="YOWAKU"]H...Hừ, ta sao có thể chụp ảnh cùng[p]
 sinh vật hạ đẳng như vậy được chứ[resetfont][p]
 [_tb_end_text]
 
-[chara_mod  name="リリカ"  time="0"  cross="false"  storage="chara/55/2.png"  ]
+[chara_mod  name="リリカ"  time="0"  cross="false"  storage="chara/55/2.png"  ][p]
 [tb_start_text mode=1 ]
 #リリカ
 Ừm, cũng được mà～[p]
@@ -583,7 +583,7 @@ sinh vật hạ đẳng như vậy được chứ[resetfont][p]
 
 [chara_show  name="感情オーラ2"  time="1000"  wait="false"  storage="chara/12/moya2.png"  width="460"  height="200"  left="601"  top="268"  reflect="false"  ]
 [playse  volume="100"  time="0"  buf="4"  storage="AURA_OK.ogg"  ]
-[chara_mod  name="リリカ"  time="0"  cross="false"  storage="chara/55/2.png"  ]
+[chara_mod  name="リリカ"  time="0"  cross="false"  storage="chara/55/2.png"  ][p]
 [tb_start_text mode=1 ]
 #リリカ
 Ồ, đẹp trai phết![p]
@@ -598,14 +598,14 @@ Chỉnh thêm nữa thì còn đẹp hơn[r]nữa luôn á～![p]
 *photo2_jump
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/84_.png"  ]
-[playse  volume="100"  time="0"  buf="1"  storage="aseru.ogg"  ]
+[playse  volume="100"  time="0"  buf="1"  storage="aseru.ogg"  ][p]
 [tb_start_text mode=1 ]
 #でびるん
 Ch...chỉnh à?[p]
 
 [_tb_end_text]
 
-[chara_mod  name="リリカ"  time="0"  cross="false"  storage="chara/55/13.png"  ]
+[chara_mod  name="リリカ"  time="0"  cross="false"  storage="chara/55/13.png"  ][p]
 [tb_start_text mode=1 ]
 #リリカ
 Không biết nữa à? Nói nè, sao thế[p]
@@ -634,7 +634,7 @@ Không biết chỉnh nữa...[r]Kiểu "ngay lúc này đang hot" đó hả?♥
 [kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="100" direction="alternate" easing="linear"]
 [_tb_end_tyrano_code]
 
-[quake  time="300"  count="5"  hmax="3"  wait="false"  ]
+[quake  time="300"  count="5"  hmax="3"  wait="false"  ][p]
 [playse  volume="100"  time="0"  buf="1"  storage="sasu.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
@@ -675,7 +675,7 @@ tf.selectedPhoto=null
 [lbgmvol vol="0"]
 
 [camera  time="5000"  zoom="1.3"  wait="false"  y="70"  layer="base"  ]
-[camera  time="5000"  zoom="1.5"  wait="false"  y="70"  layer="0"  ]
+[camera  time="5000"  zoom="1.5"  wait="false"  y="70"  layer="0"  ][p]
 [camera  time="5000"  zoom="1.5"  wait="false"  y="70"  layer="1"  ]
 [chara_mod  name="リリカ"  time="0"  cross="false"  storage="chara/55/2.png"  ]
 [tb_start_text mode=1 ]
@@ -696,7 +696,7 @@ tf.selectedPhoto=null
 [jump  target="*photo3_morisugi"  cond="sf.stickerCount>=9"  storage=""  ]
 [jump  target="*photo3_ng"  cond="sf.stickerCount==0"  storage=""  ]
 [chara_show  name="感情オーラ3"  time="1000"  wait="false"  storage="chara/13/moya3.png"  width="460"  height="200"  left="257"  top="514"  reflect="false"  ]
-[playse  volume="100"  time="0"  buf="4"  storage="AURA_OK.ogg"  ]
+[playse  volume="100"  time="0"  buf="4"  storage="AURA_OK.ogg"  ][p]
 [chara_mod  name="リリカ"  time="0"  cross="false"  storage="chara/55/10.png"  ]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/11.png"  ]
 [tb_start_text mode=1 ]
@@ -708,7 +708,7 @@ tf.selectedPhoto=null
 *photo3_ng
 
 [chara_show  name="感情オーラ3"  time="1000"  wait="false"  storage="chara/13/moya3-3.png"  width="460"  height="200"  left="254"  top="515"  reflect="false"  ]
-[playse  volume="100"  time="0"  buf="4"  storage="AURA_NG.ogg"  ]
+[playse  volume="100"  time="0"  buf="4"  storage="AURA_NG.ogg"  ][p]
 [chara_mod  name="リリカ"  time="0"  cross="false"  storage="chara/55/6.png"  ]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/84.png"  ]
 [tb_start_text mode=1 ]
@@ -740,7 +740,7 @@ cứ nói không biết được mà, Á-quỷ-ma-đông-ông-cụ[p]
 
 [lbgmvol vol="50"]
 
-[chara_show  name="感情オーラ3"  time="1000"  wait="false"  storage="chara/13/moya3.png"  width="460"  height="200"  left="257"  top="514"  reflect="false"  ]
+[chara_show  name="感情オーラ3"  time="1000"  wait="false"  storage="chara/13/moya3.png"  width="460"  height="200"  left="257"  top="514"  reflect="false"  ][p]
 [playse  volume="100"  time="0"  buf="4"  storage="AURA_OK.ogg"  ]
 [chara_mod  name="リリカ"  time="0"  cross="false"  storage="chara/55/10.png"  ]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/11.png"  ]
@@ -775,7 +775,7 @@ cứ nói không biết được mà, Á-quỷ-ma-đông-ông-cụ[p]
 [tb_start_tyrano_code]
 [keyframe name="fuwakoma"]
 [frame p="0%" y="-10"]
-[frame p="50%" y="0"]
+[frame p="50%" y="0"][p]
 [frame p="100%" y="-1"]
 [endkeyframe]
 [kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="400" direction="alternate" easing="linear"]
@@ -796,7 +796,7 @@ Từ đó thu hồi ma lực được! Thử đi![p]
 [_tb_end_text]
 
 [tb_show_message_window  ]
-[tb_start_tyrano_code]
+[tb_start_tyrano_code][p]
 [anim layer="message0" time="300" opacity="255"]
 [anim name="fixlayer" time="300" opacity="255"]
 [wait time="300"]
@@ -833,7 +833,7 @@ Hơi mệt rồi nhưng mà[r]còn nhiều dự án thiết kế nữa nên cố
 [frame p="100%" y="0"]
 [endkeyframe]
 [kanim name="でびるん" keyframe="fuwa" count="infinite" time="2000" direction="alternate" easing="linear"]
-[_tb_end_tyrano_code]
+[_tb_end_tyrano_code][p]
 
 [playbgm  volume="50"  time="0"  loop="true"  storage="1_debirun_no_theme.ogg"  ]
 [tb_eval  exp="f.photoDeviPose=0"  name="photoDeviPose"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
@@ -851,14 +851,14 @@ của đối phương rồi thu hồi ma lực từ cảm xúc Aura, hiểu chư
 
 [eval exp="sf.albumEnable=1"]
 
-[iscript]
+[iscript][p]
 // カメラ未解禁の場合はスキップボタンを移動する
 $('.skip_button,.skipping').css('left', '916px')
 [endscript]
 
 [show_photo_button  visible="true"]
 
-[chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/1.png"  ]
+[chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/1.png"  ][p]
 [tb_start_text mode=1 ]
 #でびるん
 [if exp="f.cameraEnable"]Nè, chẳng biết từ lúc nào đã cài đặt camera phép cố định rồi nhỉ. Ừm vậy thì lúc nào cũng chụp được[else]Ồ! Lúc nãy tên đó đã đổi camera phép thành kiểu cố định à. Vậy thì lúc nào cũng chụp được[endif] [p]
@@ -876,7 +876,7 @@ $('.skip_button,.skipping').css('left', '916px')
 #でびるん
 Tsk... định dạy mày cách dùng sức mạnh[p]
 Mắt Ác của ta nhưng vì sự cố ngoài ý muốn mà chẳng dùng được lần nào...[p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/1.png"  ]
 [tb_start_text mode=1 ]
@@ -898,7 +898,7 @@ của giới trẻ thời nay, nghe nói vậy...[r]thật không ngờ là th�
 [show_photo_button visible="true"]
 
 [playse  volume="100"  time="0"  buf="1"  storage="kawaii2.ogg"  ]
-[chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/58.png"  ]
+[chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/58.png"  ][p]
 [l  ]
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/60.png"  ]
 [tb_show_message_window  ]

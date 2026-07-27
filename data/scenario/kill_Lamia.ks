@@ -33,7 +33,7 @@
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ラミア
-Kyaha, tưởng bị nhìn thấy rồi[r]nhưng cuối cùng vẫn triệu hồi ta!
+Kyaha, tưởng bị nhìn thấy rồi[r]nhưng cuối cùng vẫn triệu hồi ta![p]
 
 [_tb_end_text]
 
@@ -62,7 +62,7 @@ Kyaha, tưởng bị nhìn thấy rồi[r]nhưng cuối cùng vẫn triệu hồ
 
 [tb_start_text mode=1 ]
 #でびるん
-Con mồi cuối cùng là mày hả…[r]Hừ, hy vọng đừng chán.
+Con mồi cuối cùng là mày hả…[r]Hừ, hy vọng đừng chán.[p]
 
 
 [_tb_end_text]
@@ -70,7 +70,7 @@ Con mồi cuối cùng là mày hả…[r]Hừ, hy vọng đừng chán.
 [chara_mod  name="ラミア"  time="0"  cross="false"  storage="chara/52/2.png"  ]
 [tb_start_text mode=1 ]
 #ラミア
-Hả? Con mồi là ai vậy~?
+Hả? Con mồi là ai vậy~?[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -85,19 +85,19 @@ Hả? Con mồi là ai vậy~?
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/7.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Tất nhiên rồi[r]là mày đấy rắn con
+Tất nhiên rồi[r]là mày đấy rắn con[p]
 [_tb_end_text]
 
 [chara_mod  name="ラミア"  time="0"  cross="false"  storage="chara/52/6.png"  ]
 [tb_start_text mode=1 ]
 #ラミア
-[delay speed="100"]…[resetdelay]Ta là con mồi?
+[delay speed="100"]…[resetdelay]Ta là con mồi?[p]
 [_tb_end_text]
 
 [chara_mod  name="ラミア"  time="0"  cross="false"  storage="chara/52/1.png"  ]
 [tb_start_text mode=1 ]
 #ラミア
-Hay ho chỉ có trò mặt mày thôi à?
+Hay ho chỉ có trò mặt mày thôi à?[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -112,7 +112,7 @@ Hay ho chỉ có trò mặt mày thôi à?
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/153.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[delay speed="100"]…[resetdelay]Câm nín giao ma lực ra[r]tha cho mày mạng.
+[delay speed="100"]…[resetdelay]Câm nín giao ma lực ra[r]tha cho mày mạng.[p]
 
 
 [_tb_end_text]
@@ -120,13 +120,13 @@ Hay ho chỉ có trò mặt mày thôi à?
 [chara_mod  name="ラミア"  time="0"  cross="false"  storage="chara/52/2.png"  ]
 [tb_start_text mode=1 ]
 #ラミア
-Các ngươi, hút cạn ma lực rồi[r]phá hủy Majirisia đúng không?
+Các ngươi, hút cạn ma lực rồi[r]phá hủy Majirisia đúng không?[p]
 [_tb_end_text]
 
 [chara_mod  name="ラミア"  time="0"  cross="false"  storage="chara/52/4.png"  ]
 [tb_start_text mode=1 ]
 #ラミア
-Hiện tại, mấy hôm nay mọi thứ dùng ma lực làm năng lượng[r]đều dừng hoạt động, cơ sở hạ tầng sụp đổ…thảm họa to rồi đấy
+Hiện tại, mấy hôm nay mọi thứ dùng ma lực làm năng lượng[r]đều dừng hoạt động, cơ sở hạ tầng sụp đổ…thảm họa to rồi đấy[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -141,14 +141,14 @@ Hiện tại, mấy hôm nay mọi thứ dùng ma lực làm năng lượng[r]đ
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/67.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Tốt lắm[delay speed="100"]…[resetdelay][r]Sụp đổ hoàn toàn chỉ là vấn đề thời gian thôi.
+Tốt lắm[delay speed="100"]…[resetdelay][r]Sụp đổ hoàn toàn chỉ là vấn đề thời gian thôi.[p]
 
 [_tb_end_text]
 
 [chara_mod  name="ラミア"  time="0"  cross="false"  storage="chara/52/5.png"  ]
 [tb_start_text mode=1 ]
 #ラミア
-Thích ghê[delay speed="100"]…[resetdelay]
+Thích ghê[delay speed="100"]…[resetdelay][p]
 [_tb_end_text]
 
 [stopbgm  time="500"  ]
@@ -166,7 +166,7 @@ Thích ghê[delay speed="100"]…[resetdelay]
 
 [tb_start_text mode=1 ]
 #ラミア
-Ta cũng muốn phá hủy hết! [font size=12]Phá hủy…muốn thấy cảnh nó sụp đổ…[resetfont][r][font size=25]bằng tay ta! [resetfont]
+Ta cũng muốn phá hủy hết! [font size=12]Phá hủy…muốn thấy cảnh nó sụp đổ…[resetfont][r][font size=25]bằng tay ta! [resetfont][p]
 
 [_tb_end_text]
 
@@ -175,7 +175,7 @@ Ta cũng muốn phá hủy hết! [font size=12]Phá hủy…muốn thấy cản
 [layermode  mode="overlay"  color="0xf08865"  time="1000"  wait="false"  ]
 [tb_start_text mode=1 ]
 #ラミア
-Nên bắt đầu từ bọn ngươi trước!
+Nên bắt đầu từ bọn ngươi trước![p]
 [_tb_end_text]
 
 [tb_eval  exp="f.photoDeviPose=0"  name="photoDeviPose"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
@@ -205,8 +205,8 @@ Nên bắt đầu từ bọn ngươi trước!
 Lời nguyền này, bình thường bị nhốt trong tâm hồn[r]càng tích lũy tiêu cực thì sức mạnh càng tăng[p]
 Theo lời nguyền muốn phát tiết bao nhiêu tùy thích♥[p]
 Nào, con quỷ chỉ biết ra lệnh[r]bên kia làm gì nhỉ[p]
-Đúng rồi! Cho thấy trò quấy rối quỷ đi![r]Là tín đồ mà…biết ghét cái gì chứ?[/p]
-[_tb_end_text]
+Đúng rồi! Cho thấy trò quấy rối quỷ đi![r]Là tín đồ mà…biết ghét cái gì chứ?[/p][p]
+[_tb_end_text][p]
 
 [tb_hide_message_window  ]
 [tb_start_tyrano_code]
@@ -228,36 +228,36 @@ Nào, con quỷ chỉ biết ra lệnh[r]bên kia làm gì nhỉ[p]
 [tb_start_text mode=1 ]
 #でびるん
 Khufu…[r][font size=25]Fuhahahaha! [resetfont][p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [tb_start_text mode=1 ]
 #でびるん
 Ta đã biết rồi[p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [bg  time="0"  method="crossfade"  storage="lamia6.webp"  ]
 [tb_start_text mode=1 ]
 #でびるん
 Mày không thể phản bội ta[p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [tb_start_text mode=1 ]
 #でびるん
 Từ lúc gặp đã chắc chắn vậy[r]mày đầy tà niệm lẫn lòng tin[p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [stopse  time="0"  buf="5"  ]
 [tb_start_text mode=1 ]
 #でびるん
 Mày là cuồng tín đồ thì[r]nghe lời ta chứ nhỉ?
-[_tb_end_text]
+[_tb_end_text][p]
 
 [playse  volume="100"  time="0"  buf="3"  storage="horror2.ogg"  ]
 [bgmovie  time="0"  volume="100"  loop="false"  storage="lamia2.mp4"  ]
 [tb_start_text mode=1 ]
 #でびるん
 Nhanh giải thứ lời nguyền vớ vẩn này[r]cho ta xem
-[_tb_end_text]
+[_tb_end_text][p]
 
 [tb_hide_message_window  ]
 [wait_bgmovie  ]
@@ -283,61 +283,61 @@ Nhanh giải thứ lời nguyền vớ vẩn này[r]cho ta xem
 [tb_start_text mode=1 ]
 #②でびるん②
 [font face="DZUYOKU"][delay speed="150"][font size=25][quake_text]Higia…! Au a…[free_quake_text][resetdelay][resetfont][p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [tb_autosave  title="b"  ]
 [tb_start_text mode=1 ]
 #ラミア
 Kyaha! Bị con quỷ hầu tin tưởng[r]phản bội, tội nghiệp~♥[p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [tb_start_text mode=1 ]
 #ラミア
 Dù sao vẫn ghê lắm[r]mày cũng giỏi thuật nguyền rủa mà~[p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [tb_autosave  title="b"  ]
 [tb_start_text mode=1 ]
 #ラミア
 Thuật nguyền cấp đặc biệt thế này[r]được thấy dùng thật, vui ghê~♥[p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [tb_autosave  title="b"  ]
 [tb_start_text mode=1 ]
 #②でびるん②
 [font face="DZUYOKU"][delay speed="150"][font size=12][quake_text]Hiu… Khó… u…[free_quake_text][resetdelay][resetfont][p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [tb_autosave  title="b"  ]
 [tb_start_text mode=1 ]
 #②でびるん②
 [font face="DZUYOKU"][delay speed="150"][font size=12][quake_text]Uu…[r]ma rị, ma rị[free_quake_text][resetdelay][resetfont][p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [tb_autosave  title="b"  ]
 [tb_start_text mode=1 ]
 #ラミア
 Tiếc quá. Bị thuật thần sát[r]trúng thì phục hồi bằng ma lực hoàn toàn không thể[p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [tb_autosave  title="b"  ]
 [tb_start_text mode=1 ]
 #ラミア
 Nhưng bị phá hủy từ bên trong[r]chết đẹp vậy, tốt quá![p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [bg  time="0"  method="crossfade"  storage="lamia10.webp"  ]
 [tb_autosave  title="b"  ]
 [tb_start_text mode=1 ]
 #②でびるん②
 [font face="DZUYOKU"][delay speed="150"][font size=12][quake_text]Ua…[free_quake_text][resetdelay][resetfont][p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [tb_autosave  title="b"  ]
 [tb_start_text mode=1 ]
 #②でびるん②
 [font face="DZUYOKU"][delay speed="150"][font size=12][quake_text][emb exp="f.name"]・・・[r]う・・・[emb exp="f.name"]っ・・・[free_quake_text][resetdelay][resetfont][p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [tb_autosave  title="b"  ]
 [tb_start_text mode=4 ]
@@ -360,7 +360,7 @@ Nhưng bị phá hủy từ bên trong[r]chết đẹp vậy, tốt quá![p]
 [bg  time="0"  method="crossfade"  storage="haikei_Small.webp"  ]
 [tb_start_text mode=4 ]
 [p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [wait  time="3000"  ]
 [layermode  mode="hard-light"  color="0xffffff"  time="0"  wait="true"  graphic="kago3.png"  ]
@@ -372,25 +372,25 @@ Nhưng bị phá hủy từ bên trong[r]chết đẹp vậy, tốt quá![p]
 [tb_start_text mode=1 ]
 #①ラミア①
 [delay speed="100"]…[resetdelay]Thật mỉa mai[resetdelay]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [tb_autosave  title="b"  ]
 [tb_start_text mode=1 ]
 #①ラミア①
 [delay speed="100"]Quá tin tưởng[r]tín đồ nghe lời thuận tiện…[resetdelay]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [tb_autosave  title="b"  ]
 [tb_start_text mode=1 ]
 #①ラミア①
 [delay speed="100"]Không thèm đến gần.[r]ngồi xếp bằng, tự mãn…[resetdelay]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [tb_autosave  title="b"  ]
 [tb_start_text mode=1 ]
 #①ラミア①
 [delay speed="100"]Đến mức thất vọng[resetdelay]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [flash  time="0"  effect="fadeIn"  color="0x000000"  ]
 
@@ -407,7 +407,7 @@ Nhưng bị phá hủy từ bên trong[r]chết đẹp vậy, tốt quá![p]
 [tb_start_text mode=1 ]
 #①ラミア①
 [delay speed="100"]Lười biếng[resetdelay]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [tb_hide_message_window  ]
 [stopse  time="200"  buf="1"  fadeout="true"  ]

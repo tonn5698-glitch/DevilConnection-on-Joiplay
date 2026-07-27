@@ -35,13 +35,13 @@
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ムゥムゥ
-Dạo này có vẻ thiếu ma lực mà khách không ngừng ghé qua[r]tồn kho đá ma chắc cũng sắp hết rồi~
+Dạo này có vẻ thiếu ma lực mà khách không ngừng ghé qua[r]tồn kho đá ma chắc cũng sắp hết rồi~[p]
 [_tb_end_text]
 
 [chara_mod  name="ムゥムゥ"  time="0"  cross="false"  storage="chara/31/1.png"  ]
 [tb_start_text mode=1 ]
 #ムゥムゥ
-Hmm?[wait time=300]Sắp khai trương cửa hàng rồi, sao gọi vào[r]căn phòng đầy ma lực lờ đờ thế này~
+Hmm?[wait time=300]Sắp khai trương cửa hàng rồi, sao gọi vào[r]căn phòng đầy ma lực lờ đờ thế này~[p]
 
 [_tb_end_text]
 
@@ -70,7 +70,7 @@ Hmm?[wait time=300]Sắp khai trương cửa hàng rồi, sao gọi vào[r]căn 
 
 [tb_start_text mode=1 ]
 #でびるん
-Hà… hà… triệu hồi xong…[r]nào, làm luôn một shot thôi…
+Hà… hà… triệu hồi xong…[r]nào, làm luôn một shot thôi…[p]
 
 
 [_tb_end_text]
@@ -78,20 +78,20 @@ Hà… hà… triệu hồi xong…[r]nào, làm luôn một shot thôi…
 [chara_mod  name="ムゥムゥ"  time="0"  cross="false"  storage="chara/31/2.png"  ]
 [tb_start_text mode=1 ]
 #ムゥムゥ
-Onya~? Lâu quá rồi quỷ nhỏ. [r]Lớn lên nhiều thế~
+Onya~? Lâu quá rồi quỷ nhỏ. [r]Lớn lên nhiều thế~[p]
 
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/153.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Gì vậy… con này
+Gì vậy… con này[p]
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/21.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-…Ta đã thấy nó rồi
+…Ta đã thấy nó rồi[p]
 [_tb_end_text]
 
 [stopbgm  time="0"  ]
@@ -108,7 +108,7 @@ Gì vậy… con này
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/81.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Ha![resetfont][r]T- nhớ ra rồi! Con này!
+[font size=25]Ha![resetfont][r]T- nhớ ra rồi! Con này![p]
 
 [_tb_end_text]
 
@@ -118,7 +118,7 @@ Gì vậy… con này
 [playse  volume="100"  time="0"  buf="1"  storage="sasu.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Hồi trước ta cạn kiệt ma lực ở vùng sa mạc[r]xông vào tiệm đá ma - tên tinh linh keo kiệt!
+Hồi trước ta cạn kiệt ma lực ở vùng sa mạc[r]xông vào tiệm đá ma - tên tinh linh keo kiệt![p]
 
 
 [_tb_end_text]
@@ -126,7 +126,7 @@ Hồi trước ta cạn kiệt ma lực ở vùng sa mạc[r]xông vào tiệm �
 [chara_mod  name="ムゥムゥ"  time="0"  cross="false"  storage="chara/31/3.png"  ]
 [tb_start_text mode=1 ]
 #ムゥムゥ
-Keo kiệt là bất lịch sự~ Anh không trả giá[r]mà ăn cắp đá ma mà~
+Keo kiệt là bất lịch sự~ Anh không trả giá[r]mà ăn cắp đá ma mà~[p]
 
 
 [_tb_end_text]
@@ -143,12 +143,12 @@ Keo kiệt là bất lịch sự~ Anh không trả giá[r]mà ăn cắp đá ma 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/82.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Gunu… lúc đó ta yếu hơn bây giờ…
+Gunu… lúc đó ta yếu hơn bây giờ…[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-Bị đánh cho tơi tả rồi treo lên…[r]không muốn nhớ lại!
+Bị đánh cho tơi tả rồi treo lên…[r]không muốn nhớ lại![p]
 
 
 
@@ -156,7 +156,7 @@ Bị đánh cho tơi tả rồi treo lên…[r]không muốn nhớ lại!
 
 [tb_start_text mode=1 ]
 #ムゥムゥ
-Hồi đó cũng cướp ma lực từ đá ma, bám riết[r]chụt chụt, nhưng gọi ta đến đây chắc cũng vì…
+Hồi đó cũng cướp ma lực từ đá ma, bám riết[r]chụt chụt, nhưng gọi ta đến đây chắc cũng vì…[p]
 
 
 
@@ -165,25 +165,25 @@ Hồi đó cũng cướp ma lực từ đá ma, bám riết[r]chụt chụt, nh�
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/67.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-…Ừ, đúng vậy.[r]Để cướp ma lực của mày.
+…Ừ, đúng vậy.[r]Để cướp ma lực của mày.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-Bây giờ ta không còn là đồ tép riu nữa[r]cơ hội chứng minh đây!
+Bây giờ ta không còn là đồ tép riu nữa[r]cơ hội chứng minh đây![p]
 [_tb_end_text]
 
 [chara_mod  name="ムゥムゥ"  time="0"  cross="false"  storage="chara/31/4.png"  ]
 [tb_start_text mode=1 ]
 #ムゥムゥ
-Mufun.[r]Hùng hổ ghê, sợ ghê~
+Mufun.[r]Hùng hổ ghê, sợ ghê~[p]
 
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ムゥムゥ
-Sẵn sàng chưa~? Muốn cướp ma lực từ Muu thì[r]bên này cũng phải nhận thôi~
+Sẵn sàng chưa~? Muốn cướp ma lực từ Muu thì[r]bên này cũng phải nhận thôi~[p]
 
 
 
@@ -192,7 +192,7 @@ Sẵn sàng chưa~? Muốn cướp ma lực từ Muu thì[r]bên này cũng ph�
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/151.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-…Đừng coi thường nó quá?[r]Mắt quỷ search, cho mày xem!
+…Đừng coi thường nó quá?[r]Mắt quỷ search, cho mày xem![p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
@@ -225,18 +225,18 @@ Sẵn sàng chưa~? Muốn cướp ma lực từ Muu thì[r]bên này cũng ph�
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ムゥムゥ
-Con dơi nhỏ bé trước kia…[r]lớn hơn một vòng rồi thành mắt odd-eye nữa
+Con dơi nhỏ bé trước kia…[r]lớn hơn một vòng rồi thành mắt odd-eye nữa[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ムゥムゥ
-Chống chịu được lượng ma lực lớn thế này…[r]làm quỷ thì có khiếu lắm~
+Chống chịu được lượng ma lực lớn thế này…[r]làm quỷ thì có khiếu lắm~[p]
 [_tb_end_text]
 
 [chara_mod  name="ムゥムゥ"  time="0"  cross="false"  storage="chara/31/7.png"  ]
 [tb_start_text mode=1 ]
 #ムゥムゥ
-Muu…? Mumu!
+Muu…? Mumu![p]
 
 [_tb_end_text]
 
@@ -244,7 +244,7 @@ Muu…? Mumu!
 [chara_mod  name="ムゥムゥ"  time="0"  cross="false"  storage="chara/31/6.png"  ]
 [tb_start_text mode=1 ]
 #ムゥムゥ
-Mumumumuu!?
+Mumumumuu!?[p]
 [_tb_end_text]
 
 [tb_endnolog  ]
@@ -258,7 +258,7 @@ Mumumumuu!?
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ムゥムゥ
-Mắt quỷ!!!![r]Genius tuyệt vời!!!!!!!!
+Mắt quỷ!!!![r]Genius tuyệt vời!!!!!!!![p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -286,7 +286,7 @@ Mắt quỷ!!!![r]Genius tuyệt vời!!!!!!!!
 
 [tb_start_text mode=1 ]
 #でびるん
-Đúng vậy, nhờ lòng[r]tín sâu sắc với ta mà cuối cùng đã tỉnh ngộ
+Đúng vậy, nhờ lòng[r]tín sâu sắc với ta mà cuối cùng đã tỉnh ngộ[p]
 [_tb_end_text]
 
 [chara_hide  name="コマでび"  time="80"  wait="false"  pos_mode="false"  ]
@@ -319,18 +319,18 @@ Mắt quỷ!!!![r]Genius tuyệt vời!!!!!!!!
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ムゥムゥ
-Con quỷ đó, thu thập đủ tín đồ[r]để thành tín đồ luôn~
+Con quỷ đó, thu thập đủ tín đồ[r]để thành tín đồ luôn~[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ムゥムゥ
-Dù sao vẫn là đôi mắt đẹp Muu yêu thích![r]Không chịu nổi! Không chịu nổi~!
+Dù sao vẫn là đôi mắt đẹp Muu yêu thích![r]Không chịu nổi! Không chịu nổi~![p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ムゥムゥ
-Mắt quỷ kế thừa từ quỷ…[r]muốn thấy hơn…muốn thấy hơn~
+Mắt quỷ kế thừa từ quỷ…[r]muốn thấy hơn…muốn thấy hơn~[p]
 [_tb_end_text]
 
 [call  storage="me.ks"  target="*me_ENDtozi_player"  ]
@@ -517,7 +517,7 @@ Không có việc gì lớn thì không rách nhưng…[r]thấy thứ hay rồi
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ムゥムゥ
-Thích ghê…muốn ghê…nếu thấy mắt quỷ mở mắt lần nữa…[r]có thể không nhịn nổi nữa~
+Thích ghê…muốn ghê…nếu thấy mắt quỷ mở mắt lần nữa…[r]có thể không nhịn nổi nữa~[p]
 
 
 [_tb_end_text]
@@ -525,7 +525,7 @@ Thích ghê…muốn ghê…nếu thấy mắt quỷ mở mắt lần nữa…[r
 [chara_mod  name="ムゥムゥ"  time="0"  cross="false"  storage="chara/31/12.png"  ]
 [tb_start_text mode=1 ]
 #ムゥムゥ
-Quyết tâm rồi! Lần sau mắt quỷ mở[r]nhất định…mufufufuu!
+Quyết tâm rồi! Lần sau mắt quỷ mở[r]nhất định…mufufufuu![p]
 
 
 
@@ -585,20 +585,20 @@ Quyết tâm rồi! Lần sau mắt quỷ mở[r]nhất định…mufufufuu!
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ムゥムゥ
-…Tưởng lừa được Muu bằng ảo ảnh vậy sao~
+…Tưởng lừa được Muu bằng ảo ảnh vậy sao~[p]
 [_tb_end_text]
 
 [chara_mod  name="ムゥムゥ"  time="0"  cross="false"  storage="chara/31/8.png"  ]
 [tb_start_text mode=1 ]
 #ムゥムゥ
-Đúng là lấp lánh tiền♥kho báu♥[r]yêu lắm~nhưng…
+Đúng là lấp lánh tiền♥kho báu♥[r]yêu lắm~nhưng…[p]
 
 [_tb_end_text]
 
 [chara_mod  name="ムゥムゥ"  time="0"  cross="false"  storage="chara/31/13.png"  ]
 [tb_start_text mode=1 ]
 #ムゥムゥ
-Coi thường quá thì khổ~Nếu thấy bộ sưu tập của Muu[r]chắc lòi mắt ra~
+Coi thường quá thì khổ~Nếu thấy bộ sưu tập của Muu[r]chắc lòi mắt ra~[p]
 
 [_tb_end_text]
 
@@ -606,7 +606,7 @@ Coi thường quá thì khổ~Nếu thấy bộ sưu tập của Muu[r]chắc l�
 [chara_hide  name="TAP"  time="1000"  wait="false"  pos_mode="false"  ]
 [tb_start_text mode=1 ]
 #ムゥムゥ
-Và đôi mắt lòi ra…mufufufu
+Và đôi mắt lòi ra…mufufufu[p]
 
 [_tb_end_text]
 
@@ -636,20 +636,20 @@ Và đôi mắt lòi ra…mufufufu
 
 [tb_start_text mode=1 ]
 #でびるん
-Nói cái gì vậy con này?
+Nói cái gì vậy con này?[p]
 
 [_tb_end_text]
 
 [chara_mod  name="ムゥムゥ"  time="0"  cross="false"  storage="chara/31/2.png"  ]
 [tb_start_text mode=1 ]
 #ムゥムゥ
-Hehe…dù sao cũng[r]vui lắm. Tâm trạng tốt.
+Hehe…dù sao cũng[r]vui lắm. Tâm trạng tốt.[p]
 [_tb_end_text]
 
 [chara_mod  name="ムゥムゥ"  time="0"  cross="false"  storage="chara/31/1.png"  ]
 [tb_start_text mode=1 ]
 #ムゥムゥ
-Đặc biệt thua cho, mua đá ma đi?[r]Đá ma 1 viên 3000 Rishia! Dưới nửa giá thị trường~
+Đặc biệt thua cho, mua đá ma đi?[r]Đá ma 1 viên 3000 Rishia! Dưới nửa giá thị trường~[p]
 
 [_tb_end_text]
 
@@ -665,7 +665,7 @@ Hehe…dù sao cũng[r]vui lắm. Tâm trạng tốt.
 
 [tb_start_text mode=1 ]
 #でびるん
-Thật sự, mày có tiền[m]mua đá ma không?
+Thật sự, mày có tiền[m]mua đá ma không?[p]
 
 
 
@@ -681,20 +681,20 @@ Thật sự, mày có tiền[m]mua đá ma không?
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ムゥムゥ
-Mufufuu[if exp="f.HANYOU==1]như vừa nói[endif]đây là bảo bối phép thuật[r]thật sự đắt tiền, Muu thích lắm~
+Mufufuu[if exp="f.HANYOU==1]như vừa nói[endif]đây là bảo bối phép thuật[r]thật sự đắt tiền, Muu thích lắm~[p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ムゥムゥ
-Khả năng bay, co giãn…[r]vật liệu thảm bay áp dụng, điều khiển như tay mình, tiện lắm!
+Khả năng bay, co giãn…[r]vật liệu thảm bay áp dụng, điều khiển như tay mình, tiện lắm![p]
 
 [_tb_end_text]
 
 [chara_mod  name="ムゥムゥ"  time="0"  cross="false"  storage="chara/31/1.png"  ]
 [tb_start_text mode=1 ]
 #ムゥムゥ
-Áo choàng của anh cũng được lắm~
+Áo choàng của anh cũng được lắm~[p]
 
 
 
@@ -721,7 +721,7 @@ Khả năng bay, co giãn…[r]vật liệu thảm bay áp dụng, điều khi�
 
 [tb_start_text mode=1 ]
 #でびるん
-Hừ, lúc thăng quỷ cấp cao được[r]tặng bộ lễ phục. Ghen tỵ lắm chứ~
+Hừ, lúc thăng quỷ cấp cao được[r]tặng bộ lễ phục. Ghen tỵ lắm chứ~[p]
 
 
 [_tb_end_text]
@@ -729,7 +729,7 @@ Hừ, lúc thăng quỷ cấp cao được[r]tặng bộ lễ phục. Ghen tỵ 
 [chara_mod  name="ムゥムゥ"  time="0"  cross="false"  storage="chara/31/2.png"  ]
 [tb_start_text mode=1 ]
 #ムゥムゥ
-Funn~Anh cũng đạt được địa vị vậy bất ngờ[r]Genius genius~
+Funn~Anh cũng đạt được địa vị vậy bất ngờ[r]Genius genius~[p]
 
 
 
@@ -765,7 +765,7 @@ Dù sao cũng[r]vui lắm. Tâm trạng tốt.[p]
 
 [tb_start_text mode=1 ]
 #でびるん
-Thật sự, mày có tiền[m]mua đá ma không?
+Thật sự, mày có tiền[m]mua đá ma không?[p]
 
 
 
@@ -812,7 +812,7 @@ Mu! Mắt quỷ mở mắt lần nữa![r]Bán được không bán được cũ
 [chara_mod  name="ムゥムゥ"  time="0"  cross="false"  storage="chara/31/12.png"  ]
 [tb_start_text mode=1 ]
 #ムゥムゥ
-Quyết tâm rồi! Lần sau mắt quỷ mở[r]nhất định…mufufufuu!
+Quyết tâm rồi! Lần sau mắt quỷ mở[r]nhất định…mufufufuu![p]
 
 
 
@@ -842,7 +842,7 @@ Quyết tâm rồi! Lần sau mắt quỷ mở[r]nhất định…mufufufuu!
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ムゥムゥ
-Nói hùng hổ mua mà[r]lóng ngóng vậy~
+Nói hùng hổ mua mà[r]lóng ngóng vậy~[p]
 [_tb_end_text]
 
 [flash  time="80"  effect="fadeIn"  color="0x000000"  ]
@@ -877,7 +877,7 @@ Không đưa đá ma thì…biết hậu quả chưa? Thần đèn Jin~[p]
 
 [tb_start_text mode=1 ]
 #ムゥムゥ
-G- sao biết tên thật của Muu…linh cảm xấu. [r]Được rồi~đá ma cho, trả lại Muu đi~
+G- sao biết tên thật của Muu…linh cảm xấu. [r]Được rồi~đá ma cho, trả lại Muu đi~[p]
 [_tb_end_text]
 
 [playse  volume="100"  time="1000"  buf="4"  storage="ose_good.ogg"  ]
@@ -886,13 +886,13 @@ G- sao biết tên thật của Muu…linh cảm xấu. [r]Được rồi~đá m
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/165.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Cảm ơn, ma lực đá ma ngon thật
+Cảm ơn, ma lực đá ma ngon thật[p]
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/67.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Rút lui ở đây thông minh đấy[r]nào, thu hồi ma lực nào
+Rút lui ở đây thông minh đấy[r]nào, thu hồi ma lực nào[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -911,7 +911,7 @@ Rút lui ở đây thông minh đấy[r]nào, thu hồi ma lực nào
 
 [tb_start_text mode=1 ]
 #ムゥムゥ
-Bị cuốn vào đồ kỳ quặc thì xin kiếu~
+Bị cuốn vào đồ kỳ quặc thì xin kiếu~[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
@@ -925,7 +925,7 @@ Bị cuốn vào đồ kỳ quặc thì xin kiếu~
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ムゥムゥ
-Muu~lỡ cơ hội rồi…[r]nghèo mà vậy~
+Muu~lỡ cơ hội rồi…[r]nghèo mà vậy~[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -949,7 +949,7 @@ Muu~lỡ cơ hội rồi…[r]nghèo mà vậy~
 
 [tb_start_text mode=1 ]
 #でびるん
-Đúng rồi mày trắng tay sao[r]bán kinh sách ta mà kiếm tiền đi
+Đúng rồi mày trắng tay sao[r]bán kinh sách ta mà kiếm tiền đi[p]
 
 
 [_tb_end_text]
@@ -957,7 +957,7 @@ Muu~lỡ cơ hội rồi…[r]nghèo mà vậy~
 [chara_mod  name="ムゥムゥ"  time="0"  cross="false"  storage="chara/31/1.png"  ]
 [tb_start_text mode=1 ]
 #ムゥムゥ
-Hm? Muốn tiền thì[r]tuyển part-time lúc nào cũng có~
+Hm? Muốn tiền thì[r]tuyển part-time lúc nào cũng có~[p]
 
 [_tb_end_text]
 
@@ -973,7 +973,7 @@ Hm? Muốn tiền thì[r]tuyển part-time lúc nào cũng có~
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/65.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Tiếc nhưng ta là cuồng tín đồ quỷ độc quyền[r]không làm tay sai mày đâu
+Tiếc nhưng ta là cuồng tín đồ quỷ độc quyền[r]không làm tay sai mày đâu[p]
 
 
 [_tb_end_text]
@@ -981,7 +981,7 @@ Tiếc nhưng ta là cuồng tín đồ quỷ độc quyền[r]không làm tay s
 [chara_mod  name="ムゥムゥ"  time="0"  cross="false"  storage="chara/31/3.png"  ]
 [tb_start_text mode=1 ]
 #ムゥムゥ
-Sắp giờ mở tiệm đá ma rồi[r]Muu về~
+Sắp giờ mở tiệm đá ma rồi[r]Muu về~[p]
 
 [_tb_end_text]
 
@@ -997,7 +997,7 @@ Sắp giờ mở tiệm đá ma rồi[r]Muu về~
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/153.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Không tha dễ vậy đâu?[r]Vắt ma lực ra cho ta
+Không tha dễ vậy đâu?[r]Vắt ma lực ra cho ta[p]
 
 
 [_tb_end_text]
@@ -1020,7 +1020,7 @@ Không tha dễ vậy đâu?[r]Vắt ma lực ra cho ta
 [chara_mod  name="ムゥムゥ"  time="0"  cross="false"  storage="chara/31/10.png"  ]
 [tb_start_text mode=1 ]
 #ムゥムゥ
-Các anh thế này nguy hiểm lắm~?[r]…Mà, không liên quan Muu~
+Các anh thế này nguy hiểm lắm~?[r]…Mà, không liên quan Muu~[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
@@ -1052,19 +1052,19 @@ Các anh thế này nguy hiểm lắm~?[r]…Mà, không liên quan Muu~
 [fadein_window  time="1000"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Nó…mắt quỷ thích thú lắm~
+Nó…mắt quỷ thích thú lắm~[p]
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/20.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Ngay cả tinh linh là thần quỷ cũng[r]muốn đến mức thèm thuồng sức mạnh quỷ[delay speed=100]…[resetdelay]
+Ngay cả tinh linh là thần quỷ cũng[r]muốn đến mức thèm thuồng sức mạnh quỷ[delay speed=100]…[resetdelay][p]
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/11.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Nhận được an toàn tốt quá![r]Cảm ơn ta rồi tăng tín ngưỡng nữa nhé?
+Nhận được an toàn tốt quá![r]Cảm ơn ta rồi tăng tín ngưỡng nữa nhé?[p]
 [_tb_end_text]
 
 [iscript]
@@ -1104,7 +1104,7 @@ f.finished = [...f.finished, f.chara.name];
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [tb_start_text mode=1 ]
 #ムゥムゥ
-Mumuu…!? Sao dùng lời nguyền đáng sợ[r]vậy!?
+Mumuu…!? Sao dùng lời nguyền đáng sợ[r]vậy!?[p]
 [_tb_end_text]
 
 [playse  volume="100"  time="0"  buf="3"  storage="horror2.ogg"  ]
@@ -1155,7 +1155,7 @@ Muu…[wait time=300]…[wait time=300]…[wait time=300]mumumuu…[wait time=30
 [playse  volume="100"  time="0"  buf="1"  storage="hirameki.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Tên tinh linh keo kiệt kia chạy mất rồi?
+Tên tinh linh keo kiệt kia chạy mất rồi?[p]
 
 
 [_tb_end_text]
@@ -1187,7 +1187,7 @@ Tên tinh linh keo kiệt kia chạy mất rồi?
 
 [tb_start_text mode=1 ]
 #でびるん
-Ma lực không thu được nhưng[r]lần này tha cho vậy!
+Ma lực không thu được nhưng[r]lần này tha cho vậy![p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
@@ -1212,19 +1212,19 @@ Ma lực không thu được nhưng[r]lần này tha cho vậy!
 [fadein_window  time="1000"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Nó…chắc sợ sức mạnh quỷ quá[r]bỏ chạy mất dạng rồi~
+Nó…chắc sợ sức mạnh quỷ quá[r]bỏ chạy mất dạng rồi~[p]
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/24.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Sức mạnh mà ngay cả thần quỷ cũng sợ[delay speed=100]…[resetdelay]
+Sức mạnh mà ngay cả thần quỷ cũng sợ[delay speed=100]…[resetdelay][p]
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/10.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Nhận được an toàn tốt quá![r]Cảm ơn ta rồi tăng tín ngưỡng nữa nhé?
+Nhận được an toàn tốt quá![r]Cảm ơn ta rồi tăng tín ngưỡng nữa nhé?[p]
 [_tb_end_text]
 
 [iscript]

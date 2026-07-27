@@ -57,7 +57,7 @@ Thiên sứ tình yêu Kupya-deru cùng quỷ Devilun-kun sẽ gửi đến[r]b�
 [comment  c="特殊エンドじゃない"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[emb exp="f.name"] à…[r]sao tự dưng lại đốt cháy phòng mình vậy?
+[emb exp="f.name"] à…[r]sao tự dưng lại đốt cháy phòng mình vậy?[p]
 
 
 
@@ -67,7 +67,7 @@ Thiên sứ tình yêu Kupya-deru cùng quỷ Devilun-kun sẽ gửi đến[r]b�
 [chara_mod  name="劇場える"  time="0"  cross="false"  storage="chara/16/kupya2.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Chắc là lời nguyền của cô ấy chưa[r]thật sự cắt đứt được đâu…
+Chắc là lời nguyền của cô ấy chưa[r]thật sự cắt đứt được đâu…[p]
 
 [_tb_end_text]
 
@@ -83,7 +83,7 @@ Chắc là lời nguyền của cô ấy chưa[r]thật sự cắt đứt đư�
 [chara_mod  name="劇場でび"  time="0"  cross="false"  storage="chara/15/dagya24.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Ừ, tại đã định quay sang[r]bên mụ phù thủy rắn điên khùng đó mới sai
+Ừ, tại đã định quay sang[r]bên mụ phù thủy rắn điên khùng đó mới sai[p]
 
 [_tb_end_text]
 
@@ -98,17 +98,17 @@ Hừ[delay speed=100]・・・[resetdelay]ngạc nhiên đến không nói nên 
 [chara_mod  name="劇場える"  time="0"  cross="false"  storage="chara/16/kupya10.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-・・・[emb exp="f.name"]-san[r]bạn có ổn không?
+・・・[emb exp="f.name"]-san[r]bạn có ổn không?[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #クピャドエル
-Loại phép thuật nguyền rủa đó chắc chắn dù load lại bao nhiêu lần[r]cũng sẽ tiếp tục ăn mòn tinh thần [emb exp="f.name"]-san
+Loại phép thuật nguyền rủa đó chắc chắn dù load lại bao nhiêu lần[r]cũng sẽ tiếp tục ăn mòn tinh thần [emb exp="f.name"]-san[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #クピャドエル
-[delay speed=100]・・・[resetdelay]dù có thể làm lại được mà hành động nông nổi thì[r]sẽ thật sự trở thành chuyện không thể cứu vãn đâu nha
+[delay speed=100]・・・[resetdelay]dù có thể làm lại được mà hành động nông nổi thì[r]sẽ thật sự trở thành chuyện không thể cứu vãn đâu nha[p]
 [_tb_end_text]
 
 [jump  storage="gekizyou_END_menu.ks"  target=""  ]

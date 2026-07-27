@@ -136,18 +136,18 @@ Bên ngoài... đây là bên ngoài phải không! Không phải thế giới t
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#ティング
+#ティング[p]
 Mà dù sao thì ở đây cũng[r]chật hẹp đầy sách vở...[p]
 [_tb_end_text]
 
 [chara_mod  name="ティング"  time="0"  cross="false"  storage="chara/9/14.png"  ]
 [tb_start_text mode=1 ]
-#ティング
+#ティング[p]
 Có giáo trình mình chưa thấy bao giờ nữa, là học sinh của trường phép thuật sao?[r]...Có cả sách phép thuật khó nữa, có lẽ đây là người rất xuất sắc[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#ティング
+#ティング[p]
 Nhưng có vẻ cậu ta đang thờ ác quỷ...[r]Có thể sẽ làm gì mình không biết được nên phải cẩn thận[p]
 [_tb_end_text]
 
@@ -168,12 +168,12 @@ Nhưng có vẻ cậu ta đang thờ ác quỷ...[r]Có thể sẽ làm gì mìn
 [call  storage="me.ks"  target="*meopen"  ]
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
-#ティング
+#ティング[p]
 Lâu quá rồi mới được ra ngoài nên vui quá nhưng... mình phải tự bảo vệ bản thân thôi![r]Tuyệt đối không được lơ là![p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#ティング
+#ティング[p]
 Băng thuật đại ma pháp có thể đóng băng cả lửa...[r]Mình không muốn dùng lắm nhưng đành chịu thôi![p]
 [_tb_end_text]
 
@@ -217,7 +217,7 @@ Băng thuật đại ma pháp có thể đóng băng cả lửa...[r]Mình khôn
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 Lúc nhìn qua tinh thể ta cũng cảm thấy thế nhưng[r]thằng này... khao khát thế giới bên ngoài rất mạnh đấy[p]
 [_tb_end_text]
 
@@ -232,7 +232,7 @@ Lúc nhìn qua tinh thể ta cũng cảm thấy thế nhưng[r]thằng này... k
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/20.png"  ]
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 Phải tận dụng điểm này cho khéo mới được[p]
 [_tb_end_text]
 
@@ -258,7 +258,7 @@ Phải tận dụng điểm này cho khéo mới được[p]
 [chara_show  name="感情オーラ1"  time="1000"  wait="false"  storage="chara/11/moya1.png"  width="460"  height="200"  left="249"  top="151"  reflect="false"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
-#ティング
+#ティング[p]
 Gya! Mình giật cả mình! [r]Ư... bị tê liệt...[p]
 [_tb_end_text]
 
@@ -273,7 +273,7 @@ Gya! Mình giật cả mình! [r]Ư... bị tê liệt...[p]
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 Ngoan ngoãn ở yên thì ta sẽ không làm gì đâu. Mày[wait time=200][r]bình thường bị giam trong phòng, thực ra muốn ra ngoài lắm đúng không?[p]
 
 
@@ -302,7 +302,7 @@ Ngoan ngoãn ở yên thì ta sẽ không làm gì đâu. Mày[wait time=200][r]
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 [font size=25]Dagya![resetfont][p]
 
 [_tb_end_text]
@@ -310,7 +310,7 @@ Ngoan ngoãn ở yên thì ta sẽ không làm gì đâu. Mày[wait time=200][r]
 [playse  volume="100"  time="0"  buf="4"  storage="AURA_NG.ogg"  ]
 [chara_show  name="感情オーラ1"  time="1000"  wait="false"  storage="chara/11/moya1-1.png"  width="460"  height="200"  left="249"  top="151"  reflect="false"  ]
 [tb_start_text mode=1 ]
-#ティング
+#ティング[p]
 Băng của mình thì lửa chẳng thể nào tan chảy được đâu.[p]
 [_tb_end_text]
 
@@ -325,7 +325,7 @@ Băng của mình thì lửa chẳng thể nào tan chảy được đâu.[p]
 
 [playse  volume="100"  time="1000"  buf="5"  storage="furue.ogg"  loop="true"  ]
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 C-[wait time=200]cái đó mà được sao[p]
 [_tb_end_text]
 
@@ -354,7 +354,7 @@ C-[wait time=200]cái đó mà được sao[p]
 
 [tb_chara_shake  name="コマでび"  direction="x"  count="10"  swing="1"  time="100"  ]
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 Grr... ổn định lại nào![r]Vẫn còn cơ hội lật ngược thế cờ mà![p]
 
 [_tb_end_text]
@@ -370,7 +370,7 @@ Grr... ổn định lại nào![r]Vẫn còn cơ hội lật ngược thế cờ
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 Mày kia, bình thường bị giam trong phòng...[r]Thực ra muốn ra ngoài lắm đúng không?[p]
 
 [_tb_end_text]
@@ -379,19 +379,19 @@ Mày kia, bình thường bị giam trong phòng...[r]Thực ra muốn ra ngoài
 
 [chara_mod  name="ティング"  time="0"  cross="false"  storage="chara/9/2.png"  ]
 [tb_start_text mode=1 ]
-#ティング
+#ティング[p]
 Đó là... cái đó. Đúng là mình vì thể chất mà không[r]thể ra ngoài nhiều, nhưng mình tuyệt đối không có ý đó...[p]
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/67.png"  ]
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 Thẳng thắn lên nào! Chỉ cần ngoan ngoãn ở yên là được thôi! [r]Nếu vậy ta sẽ chỉ cho mày những điều mày chưa biết![p]
 [_tb_end_text]
 
 [chara_mod  name="ティング"  time="0"  cross="false"  storage="chara/9/10.png"  ]
 [tb_start_text mode=1 ]
-#ティング
+#ティング[p]
 Thật sao?[p]
 [_tb_end_text]
 
@@ -406,7 +406,7 @@ Thật sao?[p]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/8.png"  ]
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 Nhìn này! [emb exp="f.name"][r]Để ta chỉ cho ngươi[p]
 [_tb_end_text]
 
@@ -440,7 +440,7 @@ Nhìn này! [emb exp="f.name"][r]Để ta chỉ cho ngươi[p]
 [call  storage="me.ks"  target="*meopen"  ]
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
-#ティング
+#ティング[p]
 Mình ít khi ra ngoài nên cơ hội thế này thật sự rất vui... không biết họ sẽ kể gì cho mình nhỉ[p]
 Đây là khu vực gần Sorcié phải không? [r]Nếu được nghe về trường phép thuật thì tốt biết mấy[p]
 [_tb_end_text]
@@ -460,13 +460,13 @@ Mình ít khi ra ngoài nên cơ hội thế này thật sự rất vui... khôn
 [chara_mod  name="ティング"  time="0"  cross="false"  storage="chara/9/9.png"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
-#ティング
+#ティング[p]
 Quả nhiên cậu là học sinh trường phép thuật mà![p]
 [_tb_end_text]
 
 [chara_mod  name="ティング"  time="0"  cross="false"  storage="chara/9/12.png"  ]
 [tb_start_text mode=1 ]
-#ティング
+#ティング[p]
 Mình rất tò mò cậu được triệu hồi đến quốc gia nào! [r]Nếu vậy thì khu này gần Sorcié - đại đô thị có trường phép thuật rồi![p]
 [_tb_end_text]
 
@@ -494,19 +494,19 @@ Mình rất tò mò cậu được triệu hồi đến quốc gia nào! [r]Nế
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 Hả~ khu này gọi là Sorcié hả? [r]Gần đây có trường phép thuật à?[p]
 [_tb_end_text]
 
 [chara_mod  name="ティング"  time="0"  cross="false"  storage="chara/9/9.png"  ]
 [tb_start_text mode=1 ]
-#ティング
+#ティング[p]
 Đúng đó! Có trường tên là Sorciérale Academy, [r]là ngôi trường lớn nhất Majirisia đó[p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#ティング
+#ティング[p]
 Ước mơ của mình là được đi học ở trường phép thuật đó! [r]Vì lúc nào mình cũng chỉ học ở trong phòng nhàm chán...
 
 
@@ -514,7 +514,7 @@ Hả~ khu này gọi là Sorcié hả? [r]Gần đây có trường phép thuậ
 
 [chara_mod  name="ティング"  time="0"  cross="false"  storage="chara/9/10.png"  ]
 [tb_start_text mode=1 ]
-#ティング
+#ティング[p]
 À, hehe... xin lỗi nha [r]mình lại hăng hái quá rồi...[p]
 [_tb_end_text]
 
@@ -529,13 +529,13 @@ Hả~ khu này gọi là Sorcié hả? [r]Gần đây có trường phép thuậ
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/65.png"  ]
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 Không sao đâu, tiếp tục đi![r]Tiến lên nào![p]
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/8.png"  ]
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 Này, nhìn này, aura cảm xúc đang trào ra rồi đấy.[r]Cứ đà này mà kể hết mọi thứ về trường phép thuật đi![p]
 [_tb_end_text]
 
@@ -548,7 +548,7 @@ Này, nhìn này, aura cảm xúc đang trào ra rồi đấy.[r]Cứ đà này 
 [tb_show_message_window  ]
 [tb_eval  exp="f.ting=1"  name="ting"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
 [tb_start_text mode=1 ]
-#ティング
+#ティング[p]
 ...E-elo, cậu thích ác quỷ[r]đến thế à[p]
 [_tb_end_text]
 
@@ -575,13 +575,13 @@ Này, nhìn này, aura cảm xúc đang trào ra rồi đấy.[r]Cứ đà này 
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 Tốt lắm, giữ phong độ đó...[r]Đừng lơ là hoạt động truyền đạo đấy?[p]
 [_tb_end_text]
 
 [chara_mod  name="ティング"  time="0"  cross="false"  storage="chara/9/9.png"  ]
 [tb_start_text mode=1 ]
-#ティング
+#ティング[p]
 N-nhưng mà... trường phép thuật có[r]nhiều môn học lắm phải không?[p]
 [_tb_end_text]
 
@@ -589,12 +589,12 @@ N-nhưng mà... trường phép thuật có[r]nhiều môn học lắm phải kh
 [playse  volume="100"  time="1000"  buf="3"  storage="sasu2.ogg"  ]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/10.png"  ]
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 Mày phải quan tâm đến ác quỷ nhiều hơn mới được[p]
 Đồ lông trắng![p]
 [_tb_end_text]
 
-[tb_start_text mode=1 ]
+[tb_start_text mode=1 ][p]
 #ティング
 Mình muốn nghe những câu chuyện về trường phép thuật mà mình chưa biết...[r]Nếu cậu kể cho mình nghe thì mình sẽ rất vui[p]
 [_tb_end_text]
@@ -630,18 +630,18 @@ Mình muốn nghe những câu chuyện về trường phép thuật mà mình c
 [bg  time="0"  method="crossfade"  storage="haikei_zyagan_Small.webp"  ]
 [call  storage="me.ks"  target="*meopen"  ]
 [fadein_window  time="300"  ]
-[tb_start_text mode=1 ]
+[tb_start_text mode=1 ][p]
 #ティング
 Thật ghen tị khi được đi học trường phép thuật [r]Không biết có những môn học gì nhỉ...[p]
 [_tb_end_text]
 
 [chara_mod  name="ティング"  time="0"  cross="false"  storage="chara/9/16.png"  ]
-[tb_start_text mode=1 ]
+[tb_start_text mode=1 ][p]
 #ティング
 Ở nhà mình chỉ học dược liệu học với đủ thứ[l]lặp đi lặp lại mà chán lắm...[p]
 [_tb_end_text]
 
-[tb_start_text mode=1 ]
+[tb_start_text mode=1 ][p]
 #ティング
 Mình cũng muốn có bạn bè xung quanh,[r]muốn thử học ở trường phép thuật[p]
 [_tb_end_text]
@@ -662,7 +662,7 @@ Mình cũng muốn có bạn bè xung quanh,[r]muốn thử học ở trường 
 [chara_show  name="感情オーラ3"  time="1000"  wait="false"  storage="chara/13/moya3.png"  width="438"  height="219"  left="293"  top="470"  reflect="false"  ]
 [chara_mod  name="ティング"  time="0"  cross="false"  storage="chara/9/13.png"  ]
 [tb_show_message_window  ]
-[tb_start_text mode=1 ]
+[tb_start_text mode=1 ][p]
 #ティング
 Bảng điểm kỳ trước? Wow~ có nhiều môn học quá[p]
 Và cậu nữa, lớp 1 mà đã làm được luyện kim thuật rồi!
@@ -712,7 +712,7 @@ Nó có ghê gớm lắm sao?[p]
 [kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="400" direction="alternate" easing="linear"]
 [_tb_end_tyrano_code]
 
-[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/8.png"  ]
+[chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/8.png"  ][p]
 [tb_start_text mode=1 ]
 #でびるん
 Kuhu, mày... bản đại nhân ác quỷ vĩ đại đã nhắm[p]
@@ -737,7 +737,7 @@ Vui là tốt rồi, vậy giờ thu hồi ma lực[p]
 [playse  volume="100"  time="1000"  buf="0"  storage="galtukari.ogg"  ]
 [playse  volume="100"  time="0"  buf="4"  storage="AURA_NG.ogg"  ]
 [chara_show  name="感情オーラ3"  time="1000"  wait="false"  storage="chara/13/moya3-3.png"  width="460"  height="200"  left="293"  top="470"  reflect="false"  ]
-[chara_mod  name="ティング"  time="0"  cross="false"  storage="chara/9/11.png"  ]
+[chara_mod  name="ティング"  time="0"  cross="false"  storage="chara/9/11.png"  ][p]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ティング
@@ -773,13 +773,13 @@ Nhưng lần đầu mình nghe nói có thuốc làm từ Neko-Neko có thể bi
 [frame p="100%" y="0"]
 [endkeyframe]
 [kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="1000" direction="alternate" easing="linear"]
-[_tb_end_tyrano_code]
+[_tb_end_tyrano_code][p]
 
 [tb_start_text mode=1 ]
 #でびるん
 Dược liệu học à? Thế thì thằng này làm được thật[p]
 [font size=12]ta có biết đéo đâu...[resetfont][r]Mày ăn mấy cái cỏ bên đường mà sống đi[p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="ティング"  time="0"  cross="false"  storage="chara/9/12.png"  ]
 [tb_start_text mode=1 ]
@@ -806,7 +806,7 @@ Là vì... cậu cố gắng truyền đạt cho mình, [r]và cách nói chuy�
 [frame p="100%" y="-1"]
 [endkeyframe]
 [kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="400" direction="alternate" easing="linear"]
-[_tb_end_tyrano_code]
+[_tb_end_tyrano_code][p]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/8.png"  ]
 [tb_start_text mode=1 ]
@@ -833,7 +833,7 @@ Vậy giờ thu hồi ma lực[p]
 [tb_show_message_window  ]
 [tb_start_tyrano_code]
 [anim layer="message0" time="300" opacity="255"]
-[anim name="fixlayer" time="300" opacity="255"]
+[anim name="fixlayer" time="300" opacity="255"][p]
 [wait time="300"]
 [_tb_end_tyrano_code]
 
@@ -890,7 +890,7 @@ Hay là～[r]ở hiệp đầu đã sợ rồi hả～?[wait time=500]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/10.png"  ]
 [quake  time="300"  count="3"  hmax="15"  wait="false"  vmax="0"  ]
-[playse  volume="100"  time="1000"  buf="3"  storage="sasu2.ogg"  ]
+[playse  volume="100"  time="1000"  buf="3"  storage="sasu2.ogg"  ][p]
 [camera  time="1000"  zoom="1.5"  wait="false"  x="0"  y="50"  rotate="0"  layer="0"  ease_type="ease"  ]
 [camera  time="1000"  zoom="1.5"  wait="false"  x="0"  y="50"  rotate="0"  layer="1"  ease_type="ease"  ]
 [camera  time="1000"  zoom="1.3"  wait="false"  x="0"  y="50"  rotate="0"  layer="base"  ease_type="ease"  ]
@@ -901,7 +901,7 @@ Hay là～[r]ở hiệp đầu đã sợ rồi hả～?[wait time=500]
 
 [_tb_end_text]
 
-[chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/11.png"  ]
+[chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/11.png"  ][p]
 [chara_move  name="プレイヤー"  anim="true"  time="800"  effect="easeOutQuad"  wait="false"  left="0"  top="0"  width="1280"  height="960"  ]
 [reset_camera  time="500"  wait="false"  layer="base"  ]
 [reset_camera  time="500"  wait="false"  layer="0"  ]
@@ -940,7 +940,7 @@ Hứ~ hứ~ ph.SizeType vinh dự khi được bản đại nhân mắng[p]
 [playse  volume="100"  time="0"  buf="1"  storage="hi.ogg"  ]
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/4.png"  ]
 [quake  time="300"  count="3"  hmax="15"  wait="false"  vmax="0"  ]
-[playse  volume="100"  time="1000"  buf="3"  storage="sasu2.ogg"  ]
+[playse  volume="100"  time="1000"  buf="3"  storage="sasu2.ogg"  ][p]
 [chara_move  name="プレイヤー"  anim="true"  time="800"  effect="easeOutQuad"  wait="false"  left="0"  top="160"  width="1280"  height="960"  ]
 [camera  time="1000"  zoom="1.5"  wait="false"  x="0"  y="50"  rotate="0"  layer="0"  ease_type="ease"  ]
 [camera  time="1000"  zoom="1.5"  wait="false"  x="0"  y="50"  rotate="0"  layer="1"  ease_type="ease"  ]

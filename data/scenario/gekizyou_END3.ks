@@ -22,7 +22,7 @@
 [jump  storage="gekizyou_END3.ks"  target="*mitakotoaru"  cond="sf.omakes.length>0"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Khụ khụ, bản đại nhân sẽ giải thích cho mày mới lần đầu.[r][wait time=300]Đây là corner phụ sau khi kết thúc game!
+Khụ khụ, bản đại nhân sẽ giải thích cho mày mới lần đầu.[r][wait time=300]Đây là corner phụ sau khi kết thúc game![p]
 
 
 
@@ -30,7 +30,7 @@ Khụ khụ, bản đại nhân sẽ giải thích cho mày mới lần đầu.[
 
 [tb_start_text mode=1 ]
 #でびるん
-Xem hay không là tự do của mày[r]à mà,[wait time=300]nếu full hết thì có thể có điều tốt lắm
+Xem hay không là tự do của mày[r]à mà,[wait time=300]nếu full hết thì có thể có điều tốt lắm[p]
 [_tb_end_text]
 
 *mitakotoaru
@@ -62,12 +62,12 @@ Xem hay không là tự do của mày[r]à mà,[wait time=300]nếu full hết t
 
 [tb_start_text mode=1 ]
 #でびるん
-Với mày thì cái sừng chắc[r]chỉ là đồ trang trí thôi nhỉ
+Với mày thì cái sừng chắc[r]chỉ là đồ trang trí thôi nhỉ[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-Đó là cơ quan quan trọng dùng để hấp thu ma thuật![r]Với quỷ mà nói thì đó là nơi nhạy cảm lắm đó!
+Đó là cơ quan quan trọng dùng để hấp thu ma thuật![r]Với quỷ mà nói thì đó là nơi nhạy cảm lắm đó![p]
 
 
 

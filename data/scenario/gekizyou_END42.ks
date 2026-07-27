@@ -32,7 +32,7 @@
 [fadein_window  time="1000"  ]
 [tb_start_text mode=1 ]
 #D・Red
-Gọi vũ khí yêu quý của ta là đồ phế thải sao…
+Gọi vũ khí yêu quý của ta là đồ phế thải sao…[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -53,7 +53,7 @@ Gọi vũ khí yêu quý của ta là đồ phế thải sao…
 [chara_mod  name="劇場でび"  time="0"  cross="false"  storage="chara/15/dagya53.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Cái gì vậy? Bây giờ[r]mới say à?
+Cái gì vậy? Bây giờ[r]mới say à?[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -68,7 +68,7 @@ Cái gì vậy? Bây giờ[r]mới say à?
 [chara_mod  name="ちび悪魔"  time="0"  cross="false"  storage="chara/72/19.png"  ]
 [tb_start_text mode=1 ]
 #D・Red
-…Belphegor à, tại sao con người[r]mong muốn hòa bình nhưng lại sở hữu vũ khí vậy, ngươi hiểu không?
+…Belphegor à, tại sao con người[r]mong muốn hòa bình nhưng lại sở hữu vũ khí vậy, ngươi hiểu không?[p]
 ;…Belphegorよ、なぜ人間は平和を[r]望みつつも兵器を所持するのかわかるか？[p]
 ;;…ベルフェゴールよ、なぜ人間は平和を[r]望みつつも兵器を所持するのかわかるか？[p]
 [_tb_end_text]
@@ -76,26 +76,26 @@ Cái gì vậy? Bây giờ[r]mới say à?
 [chara_mod  name="劇場でび"  time="0"  cross="false"  storage="chara/15/dagya24.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Biết sao được, mày cũng vậy thôi[r]thích tranh đấu đúng không
+Biết sao được, mày cũng vậy thôi[r]thích tranh đấu đúng không[p]
 [_tb_end_text]
 
 [chara_mod  name="ちび悪魔"  time="0"  cross="false"  storage="chara/72/20.png"  ]
 [chara_mod  name="劇場でび"  time="0"  cross="false"  storage="chara/15/dagya1.png"  ]
 [tb_start_text mode=1 ]
 #D・Red
-・・・Bởi vì bản thân trở thành mối đe dọa[r]và là lực răn đe đối với đối phương
+・・・Bởi vì bản thân trở thành mối đe dọa[r]và là lực răn đe đối với đối phương[p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #D・Red
-Vì thế, ta luôn tận dụng tối đa khả năng[r]biến bản thân thành căn cứ này để tăng cường phòng thủ
+Vì thế, ta luôn tận dụng tối đa khả năng[r]biến bản thân thành căn cứ này để tăng cường phòng thủ[p]
 [_tb_end_text]
 
 [chara_mod  name="ちび悪魔"  time="0"  cross="false"  storage="chara/72/21.png"  ]
 [tb_start_text mode=1 ]
 #D・Red
-Đúng vậy, đây là phân bổ stat cực kỳ hợp lý![r]Là lực răn đe vì hòa bình của Ma giới!
+Đúng vậy, đây là phân bổ stat cực kỳ hợp lý![r]Là lực răn đe vì hòa bình của Ma giới![p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -110,7 +110,7 @@ Vì thế, ta luôn tận dụng tối đa khả năng[r]biến bản thân thà
 [chara_mod  name="ちび悪魔"  time="0"  cross="false"  storage="chara/72/22.png"  ]
 [tb_start_text mode=1 ]
 #D・Red
-Hiểu chưa? Do đó vũ khí không bao giờ[r]chỉ đơn thuần là để gây thương tích
+Hiểu chưa? Do đó vũ khí không bao giờ[r]chỉ đơn thuần là để gây thương tích[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -121,13 +121,13 @@ Hiểu chưa? Do đó vũ khí không bao giờ[r]chỉ đơn thuần là để 
 [chara_mod  name="劇場でび"  time="0"  cross="false"  storage="chara/15/dagya28.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Hehehe biết rồi! khó tính quá[r]đừng có đóng kịch khóc nữa!
+Hehehe biết rồi! khó tính quá[r]đừng có đóng kịch khóc nữa![p]
 [_tb_end_text]
 
 [chara_mod  name="劇場でび"  time="0"  cross="false"  storage="chara/15/dagya24.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Mày bị khùng mà lại nghĩ đến[r]hòa bình Ma giới cơ à, không ngờ luôn
+Mày bị khùng mà lại nghĩ đến[r]hòa bình Ma giới cơ à, không ngờ luôn[p]
 [_tb_end_text]
 
 [jump  storage="gekizyou_END_menu.ks"  target=""  ]

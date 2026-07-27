@@ -792,7 +792,7 @@ Kéo mạnh hơn thử xem…[r][font size=25]Gururu![p]
 
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25][font face=][if exp=  f.name
+[font size=25][font face=][if exp=  f.name[p]
 
 
 [_tb_end_text]

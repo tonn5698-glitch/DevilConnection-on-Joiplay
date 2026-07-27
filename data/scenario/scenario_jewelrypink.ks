@@ -47,7 +47,7 @@
 [jump  storage="scenario_jewelrypink.ks"  target="*hutanari"  cond="f.hutanari==1"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Lần trước, bỗng nhiên từ phòng tắm,[l]Sapphire-chan biến mất.
+Lần trước, bỗng nhiên từ phòng tắm,[l]Sapphire-chan biến mất.[p]
 
 
 [_tb_end_text]
@@ -55,7 +55,7 @@ Lần trước, bỗng nhiên từ phòng tắm,[l]Sapphire-chan biến mất.
 [stopbgm  time="500"  fadeout="true"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Nhưng giờ tôi đã hiểu.
+Nhưng giờ tôi đã hiểu.[p]
 
 
 [_tb_end_text]
@@ -74,7 +74,7 @@ Nhưng giờ tôi đã hiểu.
 [reset_camera  time="500"  wait="false"  layer="1"  ease_type="ease"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-[font size=25]Đó là hành động của các người![resetfont]
+[font size=25]Đó là hành động của các người![resetfont][p]
 
 [_tb_end_text]
 
@@ -92,14 +92,14 @@ Nhưng giờ tôi đã hiểu.
 [playse  volume="100"  time="0"  buf="3"  storage="sasu2.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Fugya!? [l]Không giống như tôi tưởng![resetfont]
+[font size=25]Fugya!? [l]Không giống như tôi tưởng![resetfont][p]
 [_tb_end_text]
 
 [free_layermode  time="500"  wait="false"  ]
 [chara_mod  name="ジュエリーピンク"  time="0"  cross="false"  storage="chara/54/1.png"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Bằng cách này dùng triệu hồi thuật bắt cóc[l]Hoàng tử Bạch mã, Sapphire-chan…
+Bằng cách này dùng triệu hồi thuật bắt cóc[l]Hoàng tử Bạch mã, Sapphire-chan…[p]
 
 [_tb_end_text]
 
@@ -116,14 +116,14 @@ Bằng cách này dùng triệu hồi thuật bắt cóc[l]Hoàng tử Bạch m�
 [playse  volume="100"  time="0"  buf="3"  storage="hirameki.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Bạch mã… là, à! Con tảo bẹ khổng lồ kia,[l]làm nước dùng cho súp, khuôn mặt thế này!
+Bạch mã… là, à! Con tảo bẹ khổng lồ kia,[l]làm nước dùng cho súp, khuôn mặt thế này![p]
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/12.png"  ]
 [chara_mod  name="ジュエリーピンク"  time="0"  cross="false"  storage="chara/54/4.png"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Hoàn toàn không giống nhưng,[l]à, nước dùng đó tôi đã uống ngon lành.
+Hoàn toàn không giống nhưng,[l]à, nước dùng đó tôi đã uống ngon lành.[p]
 [_tb_end_text]
 
 *modoru
@@ -131,32 +131,32 @@ Hoàn toàn không giống nhưng,[l]à, nước dùng đó tôi đã uống ngo
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/121.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="f.hutanari == 1"]Bắt cóc là sự thật nhưng song tính[l]không liên quan.[endif]…Anh là gì của cô ấy?
+[if exp="f.hutanari == 1"]Bắt cóc là sự thật nhưng song tính[l]không liên quan.[endif]…Anh là gì của cô ấy?[p]
 
 [_tb_end_text]
 
 [chara_mod  name="ジュエリーピンク"  time="0"  cross="false"  storage="chara/54/1.png"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Tôi là Jewelry Pink,[l]Hộ vệ hầu gái của Sapphire-chan. Vệ sĩ-body.
+Tôi là Jewelry Pink,[l]Hộ vệ hầu gái của Sapphire-chan. Vệ sĩ-body.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Anh đã để Sapphire-chan gặp nguy hiểm…[l]Tôi sẽ không tha thứ!
+Anh đã để Sapphire-chan gặp nguy hiểm…[l]Tôi sẽ không tha thứ![p]
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/91.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Trông ai cũng[không giống ai]đàn ông[l]đồ hết sức.
+Trông ai cũng[không giống ai]đàn ông[l]đồ hết sức.[p]
 [_tb_end_text]
 
 [chara_mod  name="ジュエリーピンク"  time="0"  cross="false"  storage="chara/54/3.png"  ]
 [playse  volume="100"  time="0"  buf="3"  storage="gauru1.ogg"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Từ nãy giờ miệng độc lắm đấy,Devil Boy…[l]Ta sẽ trừng phạt thích đáng. Cẩn thận đi!
+Từ nãy giờ miệng độc lắm đấy,Devil Boy…[l]Ta sẽ trừng phạt thích đáng. Cẩn thận đi![p]
 
 [_tb_end_text]
 
@@ -173,7 +173,7 @@ Từ nãy giờ miệng độc lắm đấy,Devil Boy…[l]Ta sẽ trừng phạ
 
 [tb_start_text mode=1 ]
 #でびるん
-Đagyaa! ? Cô ta đang làm gì đó! ? [l][emb exp="f.name"]! Cứu tôi!
+Đagyaa! ? Cô ta đang làm gì đó! ? [l][emb exp="f.name"]! Cứu tôi![p]
 
 [_tb_end_text]
 
@@ -214,12 +214,12 @@ Từ nãy giờ miệng độc lắm đấy,Devil Boy…[l]Ta sẽ trừng phạ
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Cú đá mạnh đến mức thấy được[~]vết dư sau khi vung liềm…
+Cú đá mạnh đến mức thấy được[~]vết dư sau khi vung liềm…[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Đúng vậy, ta sẽ「Kamauma Kick」[l]lên ngươi!
+Đúng vậy, ta sẽ「Kamauma Kick」[l]lên ngươi![p]
 [_tb_end_text]
 
 [jump  storage="scenario_jewelrypink.ks"  target="*zyagan1_modoru2"  ]
@@ -239,19 +239,19 @@ Cú đá mạnh đến mức thấy được[~]vết dư sau khi vung liềm…
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Tôi luôn quan sát Sapphire-chan.[l]Lúc tắm, lúc rửa chỗ quan trọng cũng…
+Tôi luôn quan sát Sapphire-chan.[l]Lúc tắm, lúc rửa chỗ quan trọng cũng…[p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Nhưng hôm đó, tôi vừa quay mặt[~]lấy khăn lau tóc,[l]chớp mắt cô ấy đã biến mất! Đúng là!
+Nhưng hôm đó, tôi vừa quay mặt[~]lấy khăn lau tóc,[l]chớp mắt cô ấy đã biến mất! Đúng là![p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Tôi đã gọi Sapphire-chan yêu quý ra,[l]vậy các người đã làm gì?
+Tôi đã gọi Sapphire-chan yêu quý ra,[l]vậy các người đã làm gì?[p]
 [_tb_end_text]
 
 *zyagan1_modoru2
@@ -287,7 +287,7 @@ Tôi đã gọi Sapphire-chan yêu quý ra,[l]vậy các người đã làm gì?
 [chara_show  name="感情オーラ1"  time="1000"  wait="false"  storage="chara/11/moya1-1.png"  width="460"  height="200"  left="277"  top="46"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Với cái khiên mỏng dính mà nghĩ có thể chặn「Kamauma Kick」sao?[l]Bị coi thường quá rồi.
+Với cái khiên mỏng dính mà nghĩ có thể chặn「Kamauma Kick」sao?[l]Bị coi thường quá rồi.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -315,13 +315,13 @@ Với cái khiên mỏng dính mà nghĩ có thể chặn「Kamauma Kick」sao?[
 
 [tb_start_text mode=1 ]
 #でびるん
-[font face="YOWAKU"][font size=25]Adada…[l]Cực mạnh.[font face="kowai"
+[font face="YOWAKU"][font size=25]Adada…[l]Cực mạnh.[font face="kowai"[p]
 [_tb_end_text]
 
 [chara_mod  name="ジュエリーピンク"  time="0"  cross="false"  storage="chara/54/1.png"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Tôi thích người ngoan ngoãn.[l]…Có vẻ cần giáo dục anh.
+Tôi thích người ngoan ngoãn.[l]…Có vẻ cần giáo dục anh.[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -349,18 +349,18 @@ Tôi thích người ngoan ngoãn.[l]…Có vẻ cần giáo dục anh.
 [stopbgm  time="0"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-[font face="DZUYOKU"][font size=37]Kh…![resetfont]
+[font face="DZUYOKU"][font size=37]Kh…![resetfont][p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-[delay speed=300]…[resetdelay]Biết điểm yếu của tôi.[l]Không tồi.
+[delay speed=300]…[resetdelay]Biết điểm yếu của tôi.[l]Không tồi.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Chữ ký của Sapphire-chan [delay speed=300]…[resetdelay]
+Chữ ký của Sapphire-chan [delay speed=300]…[resetdelay][p]
 [_tb_end_text]
 
 [playse  volume="100"  time="0"  buf="5"  storage="jewelrypink.ogg"  loop="true"  ]
@@ -372,7 +372,7 @@ Chữ ký của Sapphire-chan [delay speed=300]…[resetdelay]
 [chara_show  name="感情オーラ1"  time="1000"  wait="false"  storage="chara/11/moya1.png"  width="460"  height="200"  left="277"  top="46"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-[font size=25]Ghen tị quá![resetfont]
+[font size=25]Ghen tị quá![resetfont][p]
 
 [_tb_end_text]
 
@@ -401,14 +401,14 @@ Chữ ký của Sapphire-chan [delay speed=300]…[resetdelay]
 
 [tb_start_text mode=1 ]
 #でびるん
-Không ngờ lại sử dụng tờ giấy đó tốt thế…[l]Khá lắm.
+Không ngờ lại sử dụng tờ giấy đó tốt thế…[l]Khá lắm.[p]
 [_tb_end_text]
 
 [stopse  time="0"  buf="5"  ]
 [chara_mod  name="ジュエリーピンク"  time="0"  cross="false"  storage="chara/54/6.png"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Nhưng dùng nó làm khiên.[l]…Không tha thứ được. Cần giáo dục.
+Nhưng dùng nó làm khiên.[l]…Không tha thứ được. Cần giáo dục.[p]
 
 
 [_tb_end_text]
@@ -418,13 +418,13 @@ Nhưng dùng nó làm khiên.[l]…Không tha thứ được. Cần giáo dục.
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/67.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Ke, giáo dục gì? [l]Muốn làm gì với [emb exp="f.name"] thìtùy thích(ltùy thích)thôi.
+Ke, giáo dục gì? [l]Muốn làm gì với [emb exp="f.name"] thìtùy thích(ltùy thích)thôi.[p]
 [_tb_end_text]
 
 [chara_mod  name="ジュエリーピンク"  time="0"  cross="false"  storage="chara/54/3.png"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Nói anh đấyDevil Boy. Từ nãy nói[l]giáo dục anh không có lễ nghi đó.
+Nói anh đấyDevil Boy. Từ nãy nói[l]giáo dục anh không có lễ nghi đó.[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -440,14 +440,14 @@ Nói anh đấyDevil Boy. Từ nãy nói[l]giáo dục anh không có lễ nghi 
 [playse  volume="100"  time="0"  buf="1"  storage="aseru.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Đagyaa bản đại nhân! ? [resetfont]
+[font size=25]Đagyaa bản đại nhân! ? [resetfont][p]
 
 [_tb_end_text]
 
 [chara_mod  name="ジュエリーピンク"  time="0"  cross="false"  storage="chara/54/1.png"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Trước tiên phải sửa từ hình thức.[l]Này, tên_summoner bị sai bảo, được không?
+Trước tiên phải sửa từ hình thức.[l]Này, tên_summoner bị sai bảo, được không?[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -473,7 +473,7 @@ Trước tiên phải sửa từ hình thức.[l]Này, tên_summoner bị sai b�
 [reset_camera  time="1000"  wait="false"  layer="1"  ease_type="ease"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Mặc trang phục màDevil Boythích[l]cho anh nào!!
+Mặc trang phục màDevil Boythích[l]cho anh nào!![p]
 
 
 [_tb_end_text]
@@ -492,7 +492,7 @@ Mặc trang phục màDevil Boythích[l]cho anh nào!!
 [playse  volume="100"  time="0"  buf="4"  storage="gimon.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Khoan! C-Cái gì! ?
+Khoan! C-Cái gì! ?[p]
 [_tb_end_text]
 
 [chara_mod  name="プレイヤー"  time="100"  cross="false"  storage="chara/2/fu_te2.png"  ]
@@ -527,13 +527,13 @@ Khoan! C-Cái gì! ?
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Trang phục hầu gái phải hợp với chủ nhân…[l]Summoner [if exp="f.hutanari == 1"]Song tính[else][if exp="f.seibetu == 1]Con trai[else]Con gái[endif][endif]thích trang phục gì nhỉ.
+Trang phục hầu gái phải hợp với chủ nhân…[l]Summoner [if exp="f.hutanari == 1"]Song tính[else][if exp="f.seibetu == 1]Con trai[else]Con gái[endif][endif]thích trang phục gì nhỉ.[p]
 [_tb_end_text]
 
 [playse  volume="100"  time="0"  buf="1"  storage="kawaii2.ogg"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Tất nhiên[l]là trang phục hầu gái chứ sao ❤︎
+Tất nhiên[l]là trang phục hầu gái chứ sao ❤︎[p]
 [_tb_end_text]
 
 [jump  storage="scenario_jewelrypink.ks"  target="*zyagan2_modoru2"  ]
@@ -553,12 +553,12 @@ Tất nhiên[l]là trang phục hầu gái chứ sao ❤︎
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-[if exp="f.end_complete==1]Dù sao thì… summoner[if exp="f.hutanari == 1]Song tính[else][if exp="f.seibetu == 1]Con trai[else]Con gái[endif][endif]có sự quyết tâm không bình thường.[else]NhưngDevil Boy này…[l]Có vẻ bất an. Đang giấu gì?[endif]
+[if exp="f.end_complete==1]Dù sao thì… summoner[if exp="f.hutanari == 1]Song tính[else][if exp="f.seibetu == 1]Con trai[else]Con gái[endif][endif]có sự quyết tâm không bình thường.[else]NhưngDevil Boy này…[l]Có vẻ bất an. Đang giấu gì?[endif][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Không thể diễn đạt bằng lời…[l]Có cảm giác như đang ôm tình cảm vô cùng lớn lao đối vớiDevil Boy.
+Không thể diễn đạt bằng lời…[l]Có cảm giác như đang ôm tình cảm vô cùng lớn lao đối vớiDevil Boy.[p]
 
 [_tb_end_text]
 
@@ -593,7 +593,7 @@ Không thể diễn đạt bằng lời…[l]Có cảm giác như đang ôm tìn
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-À… summoner[if exp="f.hutanari == 1]Song tính[else][if exp="f.seibetu == 1]Con trai[else]Con gái[endif][endif]thì sở thích cũng được nhưng…[l]Vậy thì hầu gái không hợp lắm.
+À… summoner[if exp="f.hutanari == 1]Song tính[else][if exp="f.seibetu == 1]Con trai[else]Con gái[endif][endif]thì sở thích cũng được nhưng…[l]Vậy thì hầu gái không hợp lắm.[p]
 
 [_tb_end_text]
 
@@ -602,19 +602,19 @@ Không thể diễn đạt bằng lời…[l]Có cảm giác như đang ôm tìn
 [chara_mod  name="サブでび"  time="0"  cross="false"  storage="chara/30/bani2.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Cái đồ_lệnh đó mà.[emb exp="f.name"][l]…Đùi bị siết chặt lại khó chịu… phiền quá!
+Cái đồ_lệnh đó mà.[emb exp="f.name"][l]…Đùi bị siết chặt lại khó chịu… phiền quá![p]
 
 [_tb_end_text]
 
 [chara_mod  name="サブでび"  time="0"  cross="false"  storage="chara/30/bani3.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Hơn nữa, không phải bản đại nhân mà là[l]hắn mới là hầu tớ! Hãy giáo dục hắn!
+Hơn nữa, không phải bản đại nhân mà là[l]hắn mới là hầu tớ! Hãy giáo dục hắn![p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Summoner[if exp="f.hutanari == 1]Song tính[else][if exp="f.seibetu == 1]Con trai[else]Con gái[endif][endif]được nhờ vả nhiều rồi đúng không?[l]Thỉnh thoảng phải làm vui lòng họ chứ.
+Summoner[if exp="f.hutanari == 1]Song tính[else][if exp="f.seibetu == 1]Con trai[else]Con gái[endif][endif]được nhờ vả nhiều rồi đúng không?[l]Thỉnh thoảng phải làm vui lòng họ chứ.[p]
 
 
 [_tb_end_text]
@@ -622,7 +622,7 @@ Summoner[if exp="f.hutanari == 1]Song tính[else][if exp="f.seibetu == 1]Con tra
 [chara_mod  name="サブでび"  time="0"  cross="false"  storage="chara/30/bani4.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Làm vui lòng? Hmph, bản đại nhân đây mà được[~]sử dụng thì phải biết ơn mới đúng!
+Làm vui lòng? Hmph, bản đại nhân đây mà được[~]sử dụng thì phải biết ơn mới đúng![p]
 
 
 [_tb_end_text]
@@ -650,7 +650,7 @@ Làm vui lòng? Hmph, bản đại nhân đây mà được[~]sử dụng thì p
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Ara, trông khá hợp. Summoner[if exp="f.hutanari == 1]Song tính[else][if exp="f.seibetu == 1]Con trai[else]Con gái[endif][endif]phải học[~]phép tắc phụng sự với hầu tớ chứ.
+Ara, trông khá hợp. Summoner[if exp="f.hutanari == 1]Song tính[else][if exp="f.seibetu == 1]Con trai[else]Con gái[endif][endif]phải học[~]phép tắc phụng sự với hầu tớ chứ.[p]
 
 [_tb_end_text]
 
@@ -659,13 +659,13 @@ Ara, trông khá hợp. Summoner[if exp="f.hutanari == 1]Song tính[else][if exp
 [chara_mod  name="サブでび"  time="0"  cross="false"  storage="chara/30/mei2.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Đừng có hiểu lầm! [emb exp="f.name"][l]mới là hầu tớ của bản đại nhân!
+Đừng có hiểu lầm! [emb exp="f.name"][l]mới là hầu tớ của bản đại nhân![p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-Mà cái_lệnh này là sao![l]Hiểu nhầm à? Bản đại nhân không phải cái đực!
+Mà cái_lệnh này là sao![l]Hiểu nhầm à? Bản đại nhân không phải cái đực![p]
 
 [_tb_end_text]
 
@@ -675,20 +675,20 @@ Mà cái_lệnh này là sao![l]Hiểu nhầm à? Bản đại nhân không ph�
 [chara_mod  name="サブでび"  time="0"  cross="false"  storage="chara/30/mei3.png"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Ara, tôi cũng đâu phải cái đực.
+Ara, tôi cũng đâu phải cái đực.[p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-Chitt…(Tch)… khóđối phó(đối phó) quá.
+Chitt…(Tch)… khóđối phó(đối phó) quá.[p]
 [_tb_end_text]
 
 [lbgmvol vol="50"]
 
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Hmph, summoner[if exp="f.hutanari == 1]Song tính[else][if exp="f.seibetu == 1]Con trai[else]Con gái[endif][endif]được nhờ vả nhiều rồi đúng không?[l]Thỉnh thoảng phải làm vui lòng họ chứ.
+Hmph, summoner[if exp="f.hutanari == 1]Song tính[else][if exp="f.seibetu == 1]Con trai[else]Con gái[endif][endif]được nhờ vả nhiều rồi đúng không?[l]Thỉnh thoảng phải làm vui lòng họ chứ.[p]
 
 
 [_tb_end_text]
@@ -696,7 +696,7 @@ Hmph, summoner[if exp="f.hutanari == 1]Song tính[else][if exp="f.seibetu == 1]C
 [chara_mod  name="サブでび"  time="0"  cross="false"  storage="chara/30/mei4.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Làm vui lòng? Hmph, bản đại nhân đây mà bị[~]sử dụng thì phải biết ơn mới đúng!
+Làm vui lòng? Hmph, bản đại nhân đây mà bị[~]sử dụng thì phải biết ơn mới đúng![p]
 
 
 [_tb_end_text]
@@ -709,7 +709,7 @@ Làm vui lòng? Hmph, bản đại nhân đây mà bị[~]sử dụng thì phả
 [chara_show  name="ベッド"  time="0"  wait="false"  storage="chara/19/4_b.png"  width="160"  height="283"  left="-24"  top="408"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-…Hà, quan hệ chủ tớ không có.[l]Phép tắc phụng sự còn chưa nói tới.
+…Hà, quan hệ chủ tớ không có.[l]Phép tắc phụng sự còn chưa nói tới.[p]
 
 
 [_tb_end_text]
@@ -731,7 +731,7 @@ Làm vui lòng? Hmph, bản đại nhân đây mà bị[~]sử dụng thì phả
 [reset_camera  time="1000"  wait="false"  layer="1"  ease_type="ease"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-[if exp="f.end_complete==1]Devil Boy, anh chưa…[l]hiểu rõ summoner[if exp="f.hutanari == 1]Song tính[else][if exp="f.seibetu == 1]Con trai[else]Con gái[endif][endif]đủ đâu![else]Các người chưa…hiểu đủ[l]về nhau đâu![endif]
+[if exp="f.end_complete==1]Devil Boy, anh chưa…[l]hiểu rõ summoner[if exp="f.hutanari == 1]Song tính[else][if exp="f.seibetu == 1]Con trai[else]Con gái[endif][endif]đủ đâu![else]Các người chưa…hiểu đủ[l]về nhau đâu![endif][p]
 
 
 [_tb_end_text]
@@ -760,14 +760,14 @@ Làm vui lòng? Hmph, bản đại nhân đây mà bị[~]sử dụng thì phả
 
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Đừng quăng![resetfont][l]Hà… hà… Mày muốn truyền đạt điều gì vậy?
+[font size=25]Đừng quăng![resetfont][l]Hà… hà… Mày muốn truyền đạt điều gì vậy?[p]
 [_tb_end_text]
 
 [stopbgm  time="2000"  fadeout="true"  ]
 [chara_mod  name="ジュエリーピンク"  time="0"  cross="false"  storage="chara/54/12.png"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Tôi cũng… trước khi gặp Sapphire-chan,[l]cũng từng là đứa ngốc như anh[if exp="f.end_complete==1][else]các người[endif] vậy.
+Tôi cũng… trước khi gặp Sapphire-chan,[l]cũng từng là đứa ngốc như anh[if exp="f.end_complete==1][else]các người[endif] vậy.[p]
 
 
 
@@ -798,30 +798,30 @@ Tôi cũng… trước khi gặp Sapphire-chan,[l]cũng từng là đứa ngốc
 [fadein_window  time="1000"  ]
 [tb_start_text mode=1 ]
 #①①
-Đó là khi tôi còn là tên đầu đường xó phố.[l]Thời còn là trai hư.
+Đó là khi tôi còn là tên đầu đường xó phố.[l]Thời còn là trai hư.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #①①
-Tôi nghe nói có kẻ tự ý xây biệt thự[l]trên lãnh địa của mình nên đã xông vào đánh.
+Tôi nghe nói có kẻ tự ý xây biệt thự[l]trên lãnh địa của mình nên đã xông vào đánh.[p]
 [_tb_end_text]
 
 [bg  time="200"  method="crossfade"  storage="JU2.webp"  ]
 [tb_start_text mode=1 ]
 #①①
-Đối phương là kiếm sĩ rất mạnh.[l]Đó là cuộc đụng độ thực sự…
+Đối phương là kiếm sĩ rất mạnh.[l]Đó là cuộc đụng độ thực sự…[p]
 [_tb_end_text]
 
 [bg  time="200"  method="crossfade"  storage="JU3.webp"  cross="true"  ]
 [tb_start_text mode=1 ]
 #①①
-Nhưng kết quả là thất bại thảm hại…[l]Lúc đó tôi đã chuẩn bị cho cái chết.
+Nhưng kết quả là thất bại thảm hại…[l]Lúc đó tôi đã chuẩn bị cho cái chết.[p]
 [_tb_end_text]
 
 [bg  time="200"  method="crossfade"  storage="JU4.webp"  ]
 [tb_start_text mode=1 ]
 #①①
-Nhưng mà [delay speed=300]…[resetdelay]
+Nhưng mà [delay speed=300]…[resetdelay][p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
@@ -832,18 +832,18 @@ Nhưng mà [delay speed=300]…[resetdelay]
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #①①
-Dù bị thương đầy mình,[l]anh ấy vẫn nhẹ nhàng đưa tay cho tôi.
+Dù bị thương đầy mình,[l]anh ấy vẫn nhẹ nhàng đưa tay cho tôi.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #①①
-Tôi sống ở thế giới đầu đường xó phố,[l]nên không giấu được sự ngạc nhiên trước hành động đó.
+Tôi sống ở thế giới đầu đường xó phố,[l]nên không giấu được sự ngạc nhiên trước hành động đó.[p]
 [_tb_end_text]
 
 [bg  time="500"  wait="false"  method="crossfade"  storage="shiro.webp"  ]
 [tb_start_text mode=1 ]
 #①①
-Và khoảnh khắc đó, vẻ đẹp lấp lánh như ngọc bích của anh ấy,[l]cách sống, niềm tin vững chắc. …Tôi đã bị thu hút bởi tất cả.
+Và khoảnh khắc đó, vẻ đẹp lấp lánh như ngọc bích của anh ấy,[l]cách sống, niềm tin vững chắc. …Tôi đã bị thu hút bởi tất cả.[p]
 
 [_tb_end_text]
 
@@ -869,7 +869,7 @@ Và khoảnh khắc đó, vẻ đẹp lấp lánh như ngọc bích của anh �
 [fadein_window  time="1000"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Và thế là tôi từ bỏ con đường đầu đường xó phố,[l]quyết tâm theo đuổi vẻ đẹp mà mình đã đè nén tận đáy lòng.
+Và thế là tôi từ bỏ con đường đầu đường xó phố,[l]quyết tâm theo đuổi vẻ đẹp mà mình đã đè nén tận đáy lòng.[p]
 [_tb_end_text]
 
 [stopbgm  time="0"  fadeout="false"  ]
@@ -879,7 +879,7 @@ Và thế là tôi từ bỏ con đường đầu đường xó phố,[l]quyết
 [chara_mod  name="ジュエリーピンク"  time="0"  cross="false"  storage="chara/54/8.png"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Từ đó, chứng chỉ trang điểm đều hoàn hảo.[l]Điều tra kỹ lưỡng, nắm bắt mọi sở thích của anh ấy.
+Từ đó, chứng chỉ trang điểm đều hoàn hảo.[l]Điều tra kỹ lưỡng, nắm bắt mọi sở thích của anh ấy.[p]
 [_tb_end_text]
 
 [stopse  time="0"  buf="5"  ]
@@ -887,7 +887,7 @@ Từ đó, chứng chỉ trang điểm đều hoàn hảo.[l]Điều tra kỹ l�
 [chara_mod  name="ジュエリーピンク"  time="0"  cross="false"  storage="chara/54/4.png"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Và kết quả, tôi được giao trọng trách[l]Lãnh đạo(Hội trưởng) hầu gái.
+Và kết quả, tôi được giao trọng trách[l]Lãnh đạo(Hội trưởng) hầu gái.[p]
 
 [_tb_end_text]
 
@@ -917,14 +917,14 @@ Và kết quả, tôi được giao trọng trách[l]Lãnh đạo(Hội trưởn
 [playse  volume="100"  time="0"  buf="3"  storage="aseru.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Điều tra kỹ lưỡng, chẳng phải đã[l]stalker(đuổi theo) không? [font size=12]Tự dưng cảm giác vậy.[resetfont]
+Điều tra kỹ lưỡng, chẳng phải đã[l]stalker(đuổi theo) không? [font size=12]Tự dưng cảm giác vậy.[resetfont][p]
 
 [_tb_end_text]
 
 [chara_mod  name="ジュエリーピンク"  time="0"  cross="false"  storage="chara/54/12.png"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Có rất nhiều cô gái xin làm hầu gái[l]của Sapphire-chan.
+Có rất nhiều cô gái xin làm hầu gái[l]của Sapphire-chan.[p]
 
 
 [_tb_end_text]
@@ -933,28 +933,28 @@ Có rất nhiều cô gái xin làm hầu gái[l]của Sapphire-chan.
 [playse  volume="100"  time="0"  buf="3"  storage="gauru1.ogg"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Nhưng bằng tình yêu và Queerlực(lực)[l]tôi đã chiếm được lòng tin của anh ấy! Chính tôi! Tôi!
+Nhưng bằng tình yêu và Queerlực(lực)[l]tôi đã chiếm được lòng tin của anh ấy! Chính tôi! Tôi![p]
 
 [_tb_end_text]
 
 [chara_mod  name="ジュエリーピンク"  time="0"  cross="false"  storage="chara/54/4.png"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Tức là hiểu và tin tưởng lẫn nhau.[l]Đó là nguyên tắc sắt của quan hệ chủ tớ!
+Tức là hiểu và tin tưởng lẫn nhau.[l]Đó là nguyên tắc sắt của quan hệ chủ tớ![p]
 
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/62.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Thật ra, nghĩ lại thì[l][emb exp="f.name"] chẳng biết gì cả.
+Thật ra, nghĩ lại thì[l][emb exp="f.name"] chẳng biết gì cả.[p]
 [_tb_end_text]
 
 [chara_mod  name="ジュエリーピンク"  time="0"  cross="false"  storage="chara/54/1.png"  ]
 [playse  volume="100"  time="0"  buf="3"  storage="hirameki.ogg"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Summoner[if exp="f.hutanari == 1]Song tính[else][if exp="f.seibetu == 1]Con trai[else]Con gái[endif][endif]sao không thử[những câu hỏi]?
+Summoner[if exp="f.hutanari == 1]Song tính[else][if exp="f.seibetu == 1]Con trai[else]Con gái[endif][endif]sao không thử[những câu hỏi]?[p]
 
 
 [_tb_end_text]
@@ -962,21 +962,21 @@ Summoner[if exp="f.hutanari == 1]Song tính[else][if exp="f.seibetu == 1]Con tra
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/115.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Hả?
+Hả?[p]
 
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/116.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Ê [delay speed=300]…[resetdelay]
+Ê [delay speed=300]…[resetdelay][p]
 
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/117.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[delay speed=300]…[resetdelay]
+[delay speed=300]…[resetdelay][p]
 [_tb_end_text]
 
 [if exp="f.currentLoop>=2&&f.zeroPoint>0"]
@@ -1022,18 +1022,18 @@ Hả?
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Bình thường tỏ ra lạnh lùng vậy mà…[l]thật tốt khi đã hỏi,Devil Boy.
+Bình thường tỏ ra lạnh lùng vậy mà…[l]thật tốt khi đã hỏi,Devil Boy.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Nếu hiểu nhau hơn nữa,[l]sẽ xây dựng được mối quan hệ tốt. Đây là linh cảmnhiều năm Queer(đa năm).
+Nếu hiểu nhau hơn nữa,[l]sẽ xây dựng được mối quan hệ tốt. Đây là linh cảmnhiều năm Queer(đa năm).[p]
 [_tb_end_text]
 
 [chara_mod  name="ジュエリーピンク"  time="0"  cross="false"  storage="chara/54/13.png"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-…Dù có thể đi kèm với đau khổ.
+…Dù có thể đi kèm với đau khổ.[p]
 
 [_tb_end_text]
 
@@ -1055,7 +1055,7 @@ Nếu hiểu nhau hơn nữa,[l]sẽ xây dựng được mối quan hệ tốt.
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Có gì mà buồn rầu vậySummoner[if exp="f.hutanari == 1]Song tính[else][if exp="f.seibetu == 1]Con trai[else]Con gái[endif][endif]![l]Đừng do dự, hãy đáp lạiLOVE củaDevil Boy ngay!
+Có gì mà buồn rầu vậySummoner[if exp="f.hutanari == 1]Song tính[else][if exp="f.seibetu == 1]Con trai[else]Con gái[endif][endif]![l]Đừng do dự, hãy đáp lạiLOVE củaDevil Boy ngay![p]
 
 [_tb_end_text]
 
@@ -1094,30 +1094,30 @@ Có gì mà buồn rầu vậySummoner[if exp="f.hutanari == 1]Song tính[else][
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-…Tôi hiểu rõ Sapphire-chan,[l]chính vì vậy tôi biết chắc cô ấy không quay về phía tôi.
+…Tôi hiểu rõ Sapphire-chan,[l]chính vì vậy tôi biết chắc cô ấy không quay về phía tôi.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Lúc đầu rất đau. Nhưng dù vậy, tôi vẫn…[l]lúc nào cũng cầu mong cho Sapphire-chan hạnh phúc.
+Lúc đầu rất đau. Nhưng dù vậy, tôi vẫn…[l]lúc nào cũng cầu mong cho Sapphire-chan hạnh phúc.[p]
 [_tb_end_text]
 
 [chara_mod  name="ジュエリーピンク"  time="0"  cross="false"  storage="chara/54/14.png"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Có thể sống[~]đời bên cạnh, bảo vệ Sapphire-chan,[l]người đã cho tôi một「nơi chốn」, là điều hạnh phúc nhất.
+Có thể sống[~]đời bên cạnh, bảo vệ Sapphire-chan,[l]người đã cho tôi một「nơi chốn」, là điều hạnh phúc nhất.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Nhìn Sapphire-chan,[l]chính mình cũng thấy tràn đầy năng lượng.
+Nhìn Sapphire-chan,[l]chính mình cũng thấy tràn đầy năng lượng.[p]
 [_tb_end_text]
 
 [playse  volume="100"  time="0"  buf="3"  storage="kira.ogg"  ]
 [chara_mod  name="ジュエリーピンク"  time="0"  cross="false"  storage="chara/54/15.png"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Tính tích cực của anh ấy,[l]sự tự tin dâng trào từ tận đáy lòng, tôi yêu lắm!
+Tính tích cực của anh ấy,[l]sự tự tin dâng trào từ tận đáy lòng, tôi yêu lắm![p]
 
 [_tb_end_text]
 
@@ -1210,7 +1210,7 @@ Ta cũng vậy.[r]Ở cùng ngươi, vui lắm.[p]
 [chara_show  name="感情オーラ3"  time="1000"  wait="false"  storage="chara/13/moya3.png"  width="460"  height="200"  left="219"  top="578"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Tuyệt vời [delay speed=100]…[resetdelay]nhỉ
+Tuyệt vời [delay speed=100]…[resetdelay]nhỉ[p]
 
 [_tb_end_text]
 
@@ -1248,7 +1248,7 @@ N-Ngươi về chỗngựa trắng(trắng mã) ngay đi![r][emb exp="f.name"], 
 [chara_mod  name="ジュエリーピンク"  time="0"  cross="false"  storage="chara/54/4.png"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Các người cũng, giống như tôi, có thể[l]là chính mình… hy vọng sẽ tìm được「nơi chốn」như vậy.
+Các người cũng, giống như tôi, có thể[l]là chính mình… hy vọng sẽ tìm được「nơi chốn」như vậy.[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
@@ -1313,19 +1313,19 @@ U[delay speed=100]…[resetdelay]uuu[delay speed=100]………[resetdelay][p]
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/56.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Ch-Chỉ là ma lực quá nhiều nên buồn nôn thôi.
+Ch-Chỉ là ma lực quá nhiều nên buồn nôn thôi.[p]
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/57.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[delay speed=100]…[resetdelay]Thì sao.
+[delay speed=100]…[resetdelay]Thì sao.[p]
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/16.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="f.finished.length%3==2"]Chẳng mấy chốc sẽ khỏi thôi,[l]yên tâm.[else]Đến đây rồi mà ngừng thu thập ma lực thì…[l]…ta sẽ không tha.[endif]
+[if exp="f.finished.length%3==2"]Chẳng mấy chốc sẽ khỏi thôi,[l]yên tâm.[else]Đến đây rồi mà ngừng thu thập ma lực thì…[l]…ta sẽ không tha.[endif][p]
 
 [_tb_end_text]
 
@@ -1366,14 +1366,14 @@ f.finished = [...f.finished, f.chara.name];
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Nàyyyy![l]Nói gì đi![resetfont]
+[font size=25]Nàyyyy![l]Nói gì đi![resetfont][p]
 [_tb_end_text]
 
 [playse  volume="100"  time="0"  buf="4"  storage="AURA_NG.ogg"  ]
 [chara_show  name="感情オーラ3"  time="1000"  wait="false"  storage="chara/13/moya3-3.png"  width="460"  height="200"  left="219"  top="578"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Débi-boy đang cố gắng tiến lại gần[~]mà…[l]Anh thật sự tệ quá.
+Débi-boy đang cố gắng tiến lại gần[~]mà…[l]Anh thật sự tệ quá.[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -1389,7 +1389,7 @@ Débi-boy đang cố gắng tiến lại gần[~]mà…[l]Anh thật sự tệ q
 [tb_eval  exp="f.jewelry=2"  name="jewelry"  cmd="="  op="t"  val="2"  val_2="undefined"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Không phải vậy. Nào, thu thập ma lực xong rồi[l]kết thúc đi.
+Không phải vậy. Nào, thu thập ma lực xong rồi[l]kết thúc đi.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -1421,7 +1421,7 @@ Không phải vậy. Nào, thu thập ma lực xong rồi[l]kết thúc đi.
 [playse  volume="100"  time="0"  buf="3"  storage="sasu2.ogg"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Cuối cùng sẽ cho một「Kamauma Kick」[l]nữa!
+Cuối cùng sẽ cho một「Kamauma Kick」[l]nữa![p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
@@ -1450,12 +1450,12 @@ Cuối cùng sẽ cho một「Kamauma Kick」[l]nữa!
 [fadein_window  time="1000"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[delay speed=300]…[resetdelay]
+[delay speed=300]…[resetdelay][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-[delay speed=300]…[resetdelay]Bỗng dưng nhớ lại điều khó chịu.
+[delay speed=300]…[resetdelay]Bỗng dưng nhớ lại điều khó chịu.[p]
 [_tb_end_text]
 
 [stopbgm  time="0"  ]
@@ -1463,7 +1463,7 @@ Cuối cùng sẽ cho một「Kamauma Kick」[l]nữa!
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/16.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Thôi kệ. Chẳng mấy chốc, ma lực cũng sẽ tràn đầy.
+Thôi kệ. Chẳng mấy chốc, ma lực cũng sẽ tràn đầy.[p]
 
 [_tb_end_text]
 
@@ -1487,7 +1487,7 @@ f.finished = [...f.finished, f.chara.name];
 [stopbgm  time="2000"  fadeout="true"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-À, anh kia [delay speed=100]…[resetdelay]
+À, anh kia [delay speed=100]…[resetdelay][p]
 
 [_tb_end_text]
 
@@ -1505,7 +1505,7 @@ f.finished = [...f.finished, f.chara.name];
 [reset_camera  time="500"  wait="false"  layer="1"  ease_type="ease"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-[font size=25]Không phải Song tính![resetfont]
+[font size=25]Không phải Song tính![resetfont][p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -1522,21 +1522,21 @@ f.finished = [...f.finished, f.chara.name];
 [playse  volume="100"  time="0"  buf="3"  storage="sasu2.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Fugya!? [l][if exp="sf.censorship==1]Đúng là chúng tôi có hai người nhưng… cái dấu chấm đó là sao! ?[else]Cái gì cái gì!? ! ?![resetfont][endif]
+[font size=25]Fugya!? [l][if exp="sf.censorship==1]Đúng là chúng tôi có hai người nhưng… cái dấu chấm đó là sao! ?[else]Cái gì cái gì!? ! ?![resetfont][endif][p]
 [_tb_end_text]
 
 [free_layermode  time="500"  wait="false"  ]
 [chara_mod  name="ジュエリーピンク"  time="0"  cross="false"  storage="chara/54/7.png"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Giờ tôi đã hiểu. Lần trước,[l]bỗng nhiên Sapphire-chan từ phòng tắm biến mất.
+Giờ tôi đã hiểu. Lần trước,[l]bỗng nhiên Sapphire-chan từ phòng tắm biến mất.[p]
 
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Đó là bằng triệu hồi thuật và thân hình[mê hoặc]Song tính,[l]đã bắt cóc Hoàng tử Bạch mã Sapphire-chan!
+Đó là bằng triệu hồi thuật và thân hình[mê hoặc]Song tính,[l]đã bắt cóc Hoàng tử Bạch mã Sapphire-chan![p]
 
 [_tb_end_text]
 
@@ -1549,7 +1549,7 @@ Giờ tôi đã hiểu. Lần trước,[l]bỗng nhiên Sapphire-chan từ phòn
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/151.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Mày, cứ thế mà không thu thập ma lực,[l]muốn phản bội bản đại nhân sao?
+Mày, cứ thế mà không thu thập ma lực,[l]muốn phản bội bản đại nhân sao?[p]
 
 [_tb_end_text]
 
@@ -1583,7 +1583,7 @@ Mày, cứ thế mà không thu thập ma lực,[l]muốn phản bội bản đ�
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Ara ara? Không khí căng thẳng quá[l]tôi hơi không giỏi khoản này…
+Ara ara? Không khí căng thẳng quá[l]tôi hơi không giỏi khoản này…[p]
 [_tb_end_text]
 
 [call  storage="me.ks"  target="*me_ENDtozi"  ]
@@ -1625,7 +1625,7 @@ Ara ara? Không khí căng thẳng quá[l]tôi hơi không giỏi khoản này�
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #でびるん
-[delay speed=100]…[resetdelay]
+[delay speed=100]…[resetdelay][p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -1640,13 +1640,13 @@ Ara ara? Không khí căng thẳng quá[l]tôi hơi không giỏi khoản này�
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/176.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[delay speed=100]…[resetdelay]Nếu vậy thì được.
+[delay speed=100]…[resetdelay]Nếu vậy thì được.[p]
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/177.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Bản đại nhân tin tưởng mày.
+Bản đại nhân tin tưởng mày.[p]
 [_tb_end_text]
 
 [lbgm str="3_connection_communication.ogg" vol="50" loop="true" time="0" buf="0"]
@@ -1675,13 +1675,13 @@ Bản đại nhân tin tưởng mày.
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #でびるん
-[delay speed=100]…[resetdelay]À ra vậy.[l]Tên phản bội.
+[delay speed=100]…[resetdelay]À ra vậy.[l]Tên phản bội.[p]
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/142.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Từ giờ ở cùng mày cũng vô dụng.
+Từ giờ ở cùng mày cũng vô dụng.[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -1697,7 +1697,7 @@ Từ giờ ở cùng mày cũng vô dụng.
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/151.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Bản đại nhân sẽ trở về Ma giới.[l]Khi trở lại… nhớ kỹ đấy?
+Bản đại nhân sẽ trở về Ma giới.[l]Khi trở lại… nhớ kỹ đấy?[p]
 [_tb_end_text]
 
 [ending no="16"]

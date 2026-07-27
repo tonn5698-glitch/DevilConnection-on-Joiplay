@@ -42,7 +42,7 @@ f.finished.slice(0, 3).sort(()=>Math.random()-0.5)[0]
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #マキ
-Oa! Được gọi đột ngột thế này, tôi giật cả mình luôn!
+Oa! Được gọi đột ngột thế này, tôi giật cả mình luôn![p]
 
 [_tb_end_text]
 
@@ -54,7 +54,7 @@ Oa! Được gọi đột ngột thế này, tôi giật cả mình luôn!
 
 [tb_start_text mode=1 ]
 #マキ
-Cái gì cái gì? [r]Tin nóng hả? Phải không?
+Cái gì cái gì? [r]Tin nóng hả? Phải không?[p]
 [_tb_end_text]
 
 [chara_mod  name="マキ"  time="0"  cross="false"  storage="chara/61/2.png"  ]
@@ -111,7 +111,7 @@ Thế nào đi nữa thì hôm qua, đột nhiên trước mặt tôi xuất hi�
 
 [tb_start_text mode=1 ]
 #マキ
-Từ đó một người mệt mỏi xuất hiện. [r]Tên là Pain. Tôi đã phỏng vấn họ, nhưng...
+Từ đó một người mệt mỏi xuất hiện. [r]Tên là Pain. Tôi đã phỏng vấn họ, nhưng...[p]
 [_tb_end_text]
 
 [chara_mod  name="マキ"  time="0"  cross="false"  storage="chara/61/16.png"  ]
@@ -152,7 +152,7 @@ Thật ra tôi có vẻ hiểu đối phương nhỉ.[r]Tôi không phải thám
 
 [tb_start_text mode=1 ]
 #マキ
-Từ đó một gyaru xuất hiện. [r]Tên là Lilika. Tôi đã phỏng vấn họ, nhưng...
+Từ đó một gyaru xuất hiện. [r]Tên là Lilika. Tôi đã phỏng vấn họ, nhưng...[p]
 [_tb_end_text]
 
 [chara_mod  name="マキ"  time="0"  cross="false"  storage="chara/61/19.png"  ]
@@ -195,7 +195,7 @@ Thật ra tôi có vẻ hiểu đối phương nhỉ.[r]Tôi không phải thám
 
 [tb_start_text mode=1 ]
 #マキ
-Từ đó một người bồn chồn xuất hiện. [r]Tên là Ting. Tôi đã phỏng vấn họ, nhưng...
+Từ đó một người bồn chồn xuất hiện. [r]Tên là Ting. Tôi đã phỏng vấn họ, nhưng...[p]
 [_tb_end_text]
 
 [chara_mod  name="マキ"  time="0"  cross="false"  storage="chara/61/17.png"  ]
@@ -238,7 +238,7 @@ Thật ra tôi có vẻ hiểu đối phương nhỉ.[r]Tôi không phải thám
 
 [tb_start_text mode=1 ]
 #マキ
-Từ đó một chiếc nồi và một cô gái xuất hiện. [r]Tên là Alice. Tôi đã phỏng vấn họ, nhưng...
+Từ đó một chiếc nồi và một cô gái xuất hiện. [r]Tên là Alice. Tôi đã phỏng vấn họ, nhưng...[p]
 [_tb_end_text]
 
 [chara_mod  name="マキ"  time="0"  cross="false"  storage="chara/61/18.png"  ]
@@ -290,7 +290,7 @@ Thật ra tôi có vẻ hiểu đối phương nhỉ.[r]Tôi không phải thám
 
 [tb_start_text mode=1 ]
 #マキ
-Từ đó một anh chàng đeo kính tròn xuất hiện. [r]Tên là Ject. Tôi đã phỏng vấn họ, nhưng...
+Từ đó một anh chàng đeo kính tròn xuất hiện. [r]Tên là Ject. Tôi đã phỏng vấn họ, nhưng...[p]
 [_tb_end_text]
 
 [chara_mod  name="マキ"  time="0"  cross="false"  storage="chara/61/20.png"  ]
@@ -333,7 +333,7 @@ Không~tôi không phải thám tử đâu… nhưng mà[p]
 
 [tb_start_text mode=1 ]
 #マキ
-Từ đó một con cáo chín đuôi xuất hiện. [r]Tên là Kohaku. Tôi đã phỏng vấn họ, nhưng...
+Từ đó một con cáo chín đuôi xuất hiện. [r]Tên là Kohaku. Tôi đã phỏng vấn họ, nhưng...[p]
 [_tb_end_text]
 
 [chara_mod  name="マキ"  time="0"  cross="false"  storage="chara/61/21.png"  ]
@@ -374,7 +374,7 @@ Thật ra tôi có vẻ hiểu đối phương nhỉ.[r]Tôi không phải thám
 
 [tb_start_text mode=1 ]
 #マキ
-Từ đó ừm… một con mèo kỳ lạ xuất hiện. [r]Tôi định phỏng vấn nó, nhưng...
+Từ đó ừm… một con mèo kỳ lạ xuất hiện. [r]Tôi định phỏng vấn nó, nhưng...[p]
 [_tb_end_text]
 
 [chara_mod  name="マキ"  time="0"  cross="false"  storage="chara/61/25.png"  ]
@@ -422,7 +422,7 @@ Thật ra tôi có vẻ hiểu đối phương nhỉ.[r]Tôi không phải thám
 
 [tb_start_text mode=1 ]
 #マキ
-Từ đó một quý ông mèo xuất hiện. [r]Tên là Lapis. Tôi đã phỏng vấn họ, nhưng...
+Từ đó một quý ông mèo xuất hiện. [r]Tên là Lapis. Tôi đã phỏng vấn họ, nhưng...[p]
 [_tb_end_text]
 
 [chara_mod  name="マキ"  time="0"  cross="false"  storage="chara/61/22.png"  ]
@@ -473,7 +473,7 @@ Thật ra tôi có vẻ hiểu đối phương nhỉ.[r]Tôi không phải thám
 
 [tb_start_text mode=1 ]
 #マキ
-Từ đó một người nước mắt lưng tròng xuất hiện. [r]Tên là Rai. Tôi đã phỏng vấn họ, nhưng...
+Từ đó một người nước mắt lưng tròng xuất hiện. [r]Tên là Rai. Tôi đã phỏng vấn họ, nhưng...[p]
 [_tb_end_text]
 
 [chara_mod  name="マキ"  time="0"  cross="false"  storage="chara/61/23.png"  ]
@@ -948,7 +948,7 @@ Còn tưởng quy mô sẽ làm cả thế giới chao đảo…[r]Hay là chinh
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Không được á!? Thất vọng à?![r]Sao cảm xúc aura lại đục thế!?
+Không được á!? Thất vọng à?![r]Sao cảm xúc aura lại đục thế!?[p]
 
 
 [_tb_end_text]

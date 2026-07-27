@@ -596,19 +596,19 @@ Vì vậy tôi có thể cảm nhận[r]mơ hồ sự bất thường trong hàn
 
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
-#ラピス
+#ラピス[p]
 Nếu bạn muốn, xin mời cuốn sách đó.[p]
 [_tb_end_text]
 
 [chara_mod  name="ラピス"  time="0"  cross="false"  storage="chara/47/18.png"  ]
 [tb_start_text mode=1 ]
-#ラピス
+#ラピス[p]
 Đây là thông tin từ hơn 200 năm trước nên có thể[r]khác với hiện tại, mong bạn thông cảm[p]
 [_tb_end_text]
 
 [chara_mod  name="ラピス"  time="0"  cross="false"  storage="chara/47/14.png"  ]
 [tb_start_text mode=1 ]
-#ラピス
+#ラピス[p]
 [if exp="f.bel_name==1||f.bel_name_first==1]Ừm, có vẻ bạn đã biết tên của Chihuahua rồi…[r]nhưng trong sách còn có thông tin về các quỷ khác, sẽ hữu ích cho tương lai[else]Về sự tồn tại của cuốn sách, xin đừng[r]để Chihuahua phát hiện nhé[endif][p]
 [_tb_end_text]
 
@@ -627,7 +627,7 @@ Nếu bạn muốn, xin mời cuốn sách đó.[p]
 
 [wait  time="200"  ]
 [tb_start_text mode=1 ]
-#ラピス
+#ラピス[p]
 Nếu là đứa trẻ hư không nghe lời tôi, tôi đã[r]nghĩ rằng nó sẽ lạm dụng sức mạnh đó và định xử lý tại đây…nhưng[p]
 
 
@@ -673,7 +673,7 @@ Nếu là đứa trẻ hư không nghe lời tôi, tôi đã[r]nghĩ rằng nó 
 *photo_jump
 
 [tb_start_text mode=1 ]
-#ラピス
+#ラピス[p]
 Có vẻ ổn rồi nhỉ.[font size=12][if exp="f.lapis == 1]Tôi đã trả lại ma thuật thư rồi[r]và tiện thể cũng đã cởi trói nữa[else][r]À, và tôi đã trả lại ma thuật thư rồi[endif][resetfont][p]
 
 
@@ -689,7 +689,7 @@ Có vẻ ổn rồi nhỉ.[font size=12][if exp="f.lapis == 1]Tôi đã trả l�
 [tb_eval  exp="f.photoPose=1"  name="photoPose"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
 [wait  time="200"  ]
 [tb_start_text mode=1 ]
-#ラピス
+#ラピス[p]
 …Có hơi bất an nhưng[r]thôi bỏ qua vậy[p]
 
 
@@ -738,7 +738,7 @@ Có vẻ ổn rồi nhỉ.[font size=12][if exp="f.lapis == 1]Tôi đã trả l�
 [enable_menu_button visible="true"]
 
 [tb_start_text mode=1 ]
-#ラピス
+#ラピス[p]
 Tôi tin tưởng bạn đấy[font size=12][if exp="f.lapis == 1]Tôi đã trả lại ma thuật thư rồi[r]và tiện thể cũng đã cởi trói nữa[else][r]À, và tôi đã trả lại ma thuật thư rồi[endif][resetfont][p]
 
 [_tb_end_text]
@@ -750,14 +750,14 @@ Tôi tin tưởng bạn đấy[font size=12][if exp="f.lapis == 1]Tôi đã tr�
 [playse  volume="100"  time="0"  buf="1"  storage="sasu.ogg"  ]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/63.png"  ]
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 Taaaaaại sao! Mày đang nói chuyện quái gì[r]hỏi mày đấy![p]
 
 [_tb_end_text]
 
 [chara_mod  name="ラピス"  time="0"  cross="false"  storage="chara/47/1.png"  ]
 [tb_start_text mode=1 ]
-#ラピス
+#ラピス[p]
 Nè, cậu Chihuahua[r]giờ thu hồi ma lực thì sao?[p]
 
 
@@ -774,7 +774,7 @@ Nè, cậu Chihuahua[r]giờ thu hồi ma lực thì sao?[p]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/19.png"  ]
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 Dagya, đúng vậy thật[r]quả thực cảm xúc aura đã tràn đầy rồi[p]
 [_tb_end_text]
 
@@ -790,7 +790,7 @@ Dagya, đúng vậy thật[r]quả thực cảm xúc aura đã tràn đầy rồ
 [playse  volume="100"  time="0"  buf="3"  storage="gimon.ogg"  ]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/30.png"  ]
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 Gì…hả?[r][if exp="f.lapis_watasu == 0]Ta[else]thật ra[endif]bị lộ là quỷ rồi?[p]
 [_tb_end_text]
 
@@ -809,7 +809,7 @@ Gì…hả?[r][if exp="f.lapis_watasu == 0]Ta[else]thật ra[endif]bị lộ là
 
 [chara_mod  name="ラピス"  time="0"  cross="false"  storage="chara/47/15.png"  ]
 [tb_start_text mode=1 ]
-#ラピス
+#ラピス[p]
 Hãy cố gắng lên nhé[p]
 [_tb_end_text]
 
@@ -839,49 +839,49 @@ Hãy cố gắng lên nhé[p]
 [wait  time="1000"  ]
 [fadein_window  time="1000"  ]
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 Bực bội, thằng đó là cái quái gì[r]nói như biết hết mọi thứ…[p]
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/2.png"  ]
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 Mày nữa! Trong khi Ta bị chọc sừng[r]và kêu cứu, mày đứng đực ra đấy à?[p]
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/8.png"  ]
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 Cuộc kết nối lần này kết thúc nhanh bất thường nên[r]Ta thừa nhận sự gọn gàng của mày. Nhưng mà[p]
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/44.png"  ]
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 Mày có tự ý thức được việc trở thành yêu ma của Ta không hả?[r]Thằng bất tài! Nhát gan! Kép nhỏ![p]
 
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/10.png"  ]
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 À mà, nghe nói mày là học sinh trường ma thuật[r]không lẽ…ở trường cũng kiểu này à?[p]
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/21.png"  ]
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 Kiểu vậy thì mày sẽ bị cô lập, bị nói xấu sau lưng đấy[r]Cứ sống một cuộc đời học đường như vai phụ nhạt nhòa suốt đời đi![p]
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/8.png"  ]
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 [delay speed=300]…[resetdelay]Gì…phản ứng đi chứ[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 Này.[p]
 [_tb_end_text]
 
@@ -905,7 +905,7 @@ f.finished = [...f.finished, f.chara.name];
 [chara_mod  name="ラピス"  time="0"  cross="false"  storage="chara/47/1.png"  ]
 [wait  time="200"  ]
 [tb_start_text mode=1 ]
-#ラピス
+#ラピス[p]
 …Haa, vậy sao[p]
 
 
@@ -915,7 +915,7 @@ f.finished = [...f.finished, f.chara.name];
 [stopse  time="0"  buf="5"  fadeout="true"  ]
 [chara_mod  name="ラピス"  time="0"  cross="false"  storage="chara/47/10.png"  ]
 [tb_start_text mode=1 ]
-#ラピス
+#ラピス[p]
 Vậy thì đành chịu vậy[r]Vì thế giới này…[p]
 
 [_tb_end_text]

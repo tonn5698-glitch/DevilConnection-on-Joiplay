@@ -156,7 +156,7 @@ Asmodeus cái đồ đó, lúc nào cũng nói thừa![r]Mà, tao sẽ không đ
 [chara_mod  name="ちび悪魔"  time="0"  cross="false"  storage="chara/72/10.png"  ]
 [tb_start_text mode=1 ]
 #ナザール
-...Với tính cách của ngươi, chắc là muốn nói[p]đã nắm được yếu điểm của ta sao.
+...Với tính cách của ngươi, chắc là muốn nói[p]đã nắm được yếu điểm của ta sao.[p]
 [_tb_end_text]
 
 [chara_mod  name="劇場でび"  time="0"  cross="false"  storage="chara/15/dagya24.png"  ]

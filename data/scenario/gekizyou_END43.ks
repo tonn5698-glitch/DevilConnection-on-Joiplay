@@ -43,7 +43,7 @@
 [chara_mod  name="ちび悪魔"  time="0"  cross="true"  storage="chara/72/24.png"  ]
 [tb_start_text mode=1 ]
 #ハーデスター
-Cuối cùng đã đến, Rushadagya Theater.[r]Hôm nay cũng với lũ con cừu đáng thương
+Cuối cùng đã đến, Rushadagya Theater.[r]Hôm nay cũng với lũ con cừu đáng thương[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -73,13 +73,13 @@ Cuối cùng đã đến, Rushadagya Theater.[r]Hôm nay cũng với lũ con c�
 [chara_mod  name="劇場でび"  time="0"  cross="true"  storage="chara/15/dagya3.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-G…gì vậy tiếng hô lúc nãy?[r]gió nào thổi qua đây vậy
+G…gì vậy tiếng hô lúc nãy?[r]gió nào thổi qua đây vậy[p]
 [_tb_end_text]
 
 [chara_mod  name="ちび悪魔"  time="0"  cross="true"  storage="chara/72/25.png"  ]
 [tb_start_text mode=1 ]
 #ハーデスター
-Corner này là điều mà ta mong muốn từ lâu
+Corner này là điều mà ta mong muốn từ lâu[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -89,19 +89,19 @@ Corner này là điều mà ta mong muốn từ lâu
 
 [tb_start_text mode=1 ]
 #ハーデスター
-Hừ…đã chờ đợi giây phút này lâu đến thế[r]nên đã hơi phấn khích quá mức
+Hừ…đã chờ đợi giây phút này lâu đến thế[r]nên đã hơi phấn khích quá mức[p]
 [_tb_end_text]
 
 [chara_mod  name="劇場でび"  time="0"  cross="true"  storage="chara/15/dagya55.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Mày…[r]rốt cuộc là ai vậy?
+Mày…[r]rốt cuộc là ai vậy?[p]
 [_tb_end_text]
 
 [chara_mod  name="ちび悪魔"  time="0"  cross="true"  storage="chara/72/24.png"  ]
 [tb_start_text mode=1 ]
 #ハーデスター
-Nếu muốn biết thì[r]hãy dùng phép thuật Load của chủ nhân mà ban phước cho ta
+Nếu muốn biết thì[r]hãy dùng phép thuật Load của chủ nhân mà ban phước cho ta[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -116,7 +116,7 @@ Nếu muốn biết thì[r]hãy dùng phép thuật Load của chủ nhân mà b
 [chara_mod  name="劇場でび"  time="0"  cross="true"  storage="chara/15/dagya7.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[emb exp="f.name"]~![r]Làm gì đi chứ!
+[emb exp="f.name"]~![r]Làm gì đi chứ![p]
 [_tb_end_text]
 
 [tb_eval  exp="sf.END43=1"  name="END43"  cmd="="  op="t"  val="1"  val_2="undefined"  ]

@@ -10,7 +10,7 @@ TYRANO.kag.stat.is_strong_stop = false;
 [wait  time="500"  ]
 [playse  volume="100"  time="1000"  buf="2"  storage="doa4.ogg"  ]
 [l  ]
-[tb_hide_message_window  ]
+[tb_hide_message_window  ][p]
 [chara_hide  name="でびるん"  time="0"  wait="false"  pos_mode="false"  ]
 [chara_mod  name="プレイヤー"  time="0"  cross="false"  storage="chara/2/te.png"  ]
 [playse  volume="100"  time="1000"  buf="2"  storage="doa3.ogg"  ]
@@ -28,7 +28,7 @@ TYRANO.kag.stat.is_strong_stop = false;
 [free layer=4 name="kuro"]
 
 [wait  time="1000"  ]
-[flash_off  time="1000"  effect="fadeOut"  ]
+[flash_off  time="1000"  effect="fadeOut"  ][p]
 
 [fadein_window  time="1000"  ]
 [tb_start_text mode=1 ]
@@ -44,13 +44,13 @@ Kupyaa tối tốt lành á[p]
 [frame p="50%" y="-30"]
 [frame p="100%" y="0"]
 [endkeyframe]
-[kanim name="クピャドエル" keyframe="kupya" count="infinite" time="2000" direction="alternate" easing="linear"]
+[kanim name="クピャドエル" keyframe="kupya" count="infinite" time="2000" direction="alternate" easing="linear"][p]
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
 #クピャドエル
 Úp, phòng này đúng...ma lực đầy[r]nó nhoi nhoi khó chịu, buồn nôn[p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/2.png"  ]
 [tb_start_text mode=1 ]
@@ -64,7 +64,7 @@ Dù sao mùi này là...[r]đang nướng Raspberry Pie sao?[p]
 Hehe, hy vọng Debikun vui[p]
 
 
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/6.png"  ]
 [tb_start_text mode=1 ]
@@ -74,7 +74,7 @@ Nhưng làm lúc nửa đêm vậy...[r]chắc mệt rồi phải ngủ...[p]
 [_tb_end_text]
 
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/4.png"  ]
-[quake  time="5000"  count="3"  hmax="3"  wait="false"  vmax="3"  ]
+[quake  time="5000"  count="3"  hmax="3"  wait="false"  vmax="3"  ][p]
 [tb_filter_blur  layer="all"  blur="30"  time="3000"  ]
 [playbgm  volume="50"  time="0"  loop="false"  storage="miminari.ogg"  ]
 [tb_start_text mode=1 ]
@@ -110,7 +110,7 @@ H-, [emb exp="f.name"]!??[p]
 [tb_start_text mode=1 ]
 #クピャドエル
 Bị ngã đột ngột giật mình, cậu ổn?[r]...Trán, có đau?[p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="サブくぴゃ"  time="0"  cross="false"  storage="chara/49/k2.png"  ]
 [tb_start_text mode=1 ]
@@ -135,7 +135,7 @@ Tương lai không gặp được[r]bạn bè quen biết qua Debikun[p]
 
 [playse  volume="100"  time="1000"  buf="0"  storage="ti.ogg"  ]
 [tb_hide_message_window  ]
-[chara_mod  name="サブくぴゃ"  time="0"  cross="false"  storage="chara/49/k3.png"  ]
+[chara_mod  name="サブくぴゃ"  time="0"  cross="false"  storage="chara/49/k3.png"  ][p]
 [wait  time="2000"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -170,7 +170,7 @@ Kupya! Raspberry Pie nướng xong rồi[r][emb exp="f.name"] tĩnh dưỡng ở
 [tb_free_filter  layer="base"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="idou.ogg"  ]
 [wait  time="500"  ]
-[chara_show  name="プレイヤー"  zindex="2"  layer="1"  time="0"  wait="false"  storage="chara/2/te.png"  width="1280"  height="960"  ]
+[chara_show  name="プレイヤー"  zindex="2"  layer="1"  time="0"  wait="false"  storage="chara/2/te.png"  width="1280"  height="960"  ][p]
 [flash_off  time="20"  effect="fadeOut"  ]
 
 [tb_start_text mode=1 ]
@@ -191,7 +191,7 @@ Hơi cháy chút nhưng nướng ngon[r]Debikun bình thường nhào đến nga
 
 [_tb_end_text]
 
-[stopbgm  time="1000"  ]
+[stopbgm  time="1000"  ][p]
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/11.png"  ]
 [quake  time="600"  count="10"  hmax="3"  wait="false"  vmax="0"  ]
 [tb_start_text mode=1 ]
@@ -241,7 +241,7 @@ Hơi cháy chút nhưng nướng ngon[r]Debikun bình thường nhào đến nga
 [frame p="100%" y="0"]
 [endkeyframe]
 [kanim name="コマえる" keyframe="erukoma" count="infinite" time="1000" direction="alternate" easing="linear"]
-[_tb_end_tyrano_code]
+[_tb_end_tyrano_code][p]
 
 [fadein_window  time="1000"  ]
 [tb_start_text mode=1 ]
@@ -272,7 +272,7 @@ Nếu để vậy gây Big Bang[r]nuốt chửng cả Magiricia...[p]
 [delay speed=300]...[resetdelay]Ta thấy tương lai đó[p]
 
 
-[_tb_end_text]
+[_tb_end_text][p]
 
 [stopse  time="1000"  buf="5"  ]
 [tb_start_text mode=1 ]
@@ -280,7 +280,7 @@ Nếu để vậy gây Big Bang[r]nuốt chửng cả Magiricia...[p]
 [font face="kowai"][quake_text][delay speed=300]なれた[resetdelay][free_quake_text][resetfont][p]
 
 
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="コマえる"  time="0"  cross="false"  storage="chara/21/10.png"  ]
 [tb_start_text mode=1 ]
@@ -338,7 +338,7 @@ Debikun![p]
 [frame p="50%" y="-5"]
 [frame p="100%" y="0"]
 [endkeyframe]
-[kanim name="コマえる" keyframe="erukoma" count="infinite" time="1000" direction="alternate" easing="linear"]
+[kanim name="コマえる" keyframe="erukoma" count="infinite" time="1000" direction="alternate" easing="linear"][p]
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
@@ -351,7 +351,7 @@ Tại sao chấp nhất cái mới?[r]Debikun nguyên bản đã tốt lắm...!
 Debikun, xin hãy trả lời![p]
 
 
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="コマえる"  time="0"  cross="false"  storage="chara/21/9.png"  ]
 [tb_start_text mode=1 ]
@@ -364,14 +364,14 @@ Debikun, xin hãy trả lời![p]
 #クピャドエル
 Debikun hiện tại giác quan ngoài[r]suy giảm, không...cảm nhận gì[p]
 
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="ネオでび邪眼"  time="80"  cross="false"  storage="chara/51/2.png"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
 [quake_text][delay speed=100]Kufufu[delay speed=100]・・・[resetdelay]Nhìn thấy lũ tép riu nhỏ xíu như hạt đỗ[r]Bản đại nhân lúc này là mạnh nhất! Mạnh lắm phải không![resetdelay][free_quake_text][p]
 
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="ネオでび邪眼"  time="80"  cross="false"  storage="chara/51/3.png"  ]
 [tb_start_text mode=1 ]
@@ -386,7 +386,7 @@ Debikun hiện tại giác quan ngoài[r]suy giảm, không...cảm nhận gì[p
 Nhưng Debikun vẫn chưa nhận ra[p]
 
 
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="コマえる"  time="0"  cross="false"  storage="chara/21/14.png"  ]
 [tb_start_text mode=1 ]
@@ -421,13 +421,13 @@ Nhân cách bị chiếm chỉ là vấn đề thời gian[r][delay speed=300]..
 [chara_mod  name="コマえる"  time="0"  cross="false"  storage="chara/21/15.png"  ]
 [chara_mod  name="ネオでび邪眼"  time="0"  cross="false"  storage="chara/51/3.png"  ]
 [wait  time="2000"  ]
-[flash_off  time="5000"  effect="fadeOut"  ]
+[flash_off  time="5000"  effect="fadeOut"  ][p]
 
 [fadein_window  time="1000"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
 [quake_text][delay speed=100]・・・[resetdelay]M-Mày [wait time=300]rốt cuộc đã làm gì vậy[free_quake_text][p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="コマえる"  time="0"  cross="false"  storage="chara/21/16.png"  ]
 [tb_start_text mode=1 ]
@@ -435,7 +435,7 @@ Nhân cách bị chiếm chỉ là vấn đề thời gian[r][delay speed=300]..
 Cờ đích này chứa bùa[r]làm sắc bén giác quan phải không?[p]
 
 
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="ネオでび邪眼"  time="0"  cross="false"  storage="chara/51/4.png"  ]
 [tb_start_text mode=1 ]
@@ -458,7 +458,7 @@ Debikunchậm chạp nên ta thử[r]dùng trên mọibộ phận toàn thân[p]
 [kanim name="コマえる" keyframe="erukoma" count="infinite" time="400" direction="alternate" easing="linear"]
 [_tb_end_tyrano_code]
 
-[chara_mod  name="コマえる"  time="0"  cross="false"  storage="chara/21/6.png"  ]
+[chara_mod  name="コマえる"  time="0"  cross="false"  storage="chara/21/6.png"  ][p]
 [stopse  time="0"  buf="5"  ]
 [stopbgm  time="0"  fadeout="true"  ]
 [tb_start_text mode=1 ]
@@ -469,14 +469,14 @@ Debikunchậm chạp nên ta thử[r]dùng trên mọibộ phận toàn thân[p]
 
 [_tb_end_text]
 
-[lbgm str="10_time_for_a_decisive_battle.ogg" vol="60" loop="true" time="0" buf="0"]
+[lbgm str="10_time_for_a_decisive_battle.ogg" vol="60" loop="true" time="0" buf="0"][p]
 
 [chara_mod  name="ネオでび邪眼"  time="0"  cross="false"  storage="chara/51/5.png"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
 [quake_text][delay speed=100][font size=37]か、感度666倍！？[resetfont][resetdelay][free_quake_text][p]
 
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="コマえる"  time="0"  cross="false"  storage="chara/21/8.png"  ]
 [tb_start_text mode=1 ]
@@ -484,7 +484,7 @@ Debikunchậm chạp nên ta thử[r]dùng trên mọibộ phận toàn thân[p]
 Tốt, có vẻ ngere được rồi[p]
 
 
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="コマえる"  time="0"  cross="false"  storage="chara/21/11.png"  ]
 [tb_start_text mode=1 ]
@@ -492,7 +492,7 @@ Tốt, có vẻ ngere được rồi[p]
 Debikun nhỏ ngày xưa...[r][wait time=300]Không, [wait time=300]giác quan còn sắc bén hơn[p]
 
 
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="ネオでび邪眼"  time="0"  cross="false"  storage="chara/51/6.png"  ]
 [tb_start_text mode=1 ]
@@ -507,14 +507,14 @@ Debikun nhỏ ngày xưa...[r][wait time=300]Không, [wait time=300]giác quan c
 [frame p="50%" y="-5"]
 [frame p="100%" y="0"]
 [endkeyframe]
-[kanim name="コマえる" keyframe="erukoma" count="infinite" time="1000" direction="alternate" easing="linear"]
+[kanim name="コマえる" keyframe="erukoma" count="infinite" time="1000" direction="alternate" easing="linear"][p]
 [_tb_end_tyrano_code]
 
 [tb_start_text mode=1 ]
 #クピャドエル
 Kupya...ta có thể làm[r]chỉ đến vậy[p]
 
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="コマえる"  time="0"  cross="false"  storage="chara/21/9.png"  ]
 [tb_start_text mode=1 ]
@@ -523,7 +523,7 @@ Kupya...ta có thể làm[r]chỉ đến vậy[p]
 
 [_tb_end_text]
 
-[chara_mod  name="コマえる"  time="0"  cross="false"  storage="chara/21/10.png"  ]
+[chara_mod  name="コマえる"  time="0"  cross="false"  storage="chara/21/10.png"  ][p]
 [playse  volume="100"  time="1000"  buf="5"  storage="oogoe.ogg"  ]
 [quake  time="600"  count="10"  hmax="3"  wait="false"  vmax="0"  ]
 [tb_start_text mode=1 ]
@@ -537,7 +537,7 @@ Kupya...ta có thể làm[r]chỉ đến vậy[p]
 [chara_hide  name="コマえる"  time="80"  wait="false"  pos_mode="false"  ]
 [wait  time="100"  ]
 [jump  storage="Chapter4.ks"  target="*loop_back"  ]
-*loop2
+*loop2[p]
 
 [iscript]
 $(".flash").remove();
@@ -558,7 +558,7 @@ TYRANO.kag.stat.is_strong_stop = false;
 [chara_hide  name="でびるん"  time="0"  wait="false"  pos_mode="false"  ]
 [playse  volume="100"  time="1000"  buf="2"  storage="doa3.ogg"  ]
 [tb_start_text mode=4 ]
-#クピャドエル
+#クピャドエル[p]
 [_tb_end_text]
 
 [chara_mod  name="プレイヤー"  time="0"  cross="false"  storage="chara/2/te.png"  ]
@@ -573,13 +573,13 @@ TYRANO.kag.stat.is_strong_stop = false;
 
 [chara_show  name="クピャドエル"  time="1000"  wait="false"  storage="chara/14/3.png"  width="1280"  height="960"  left="0"  top="-91"  reflect="false"  ]
 [tb_start_tyrano_code]
-[keyframe name="kupya"]
+[keyframe name="kupya"][p]
 [frame p="0%" y="0"]
 [frame p="50%" y="-30"]
 [frame p="100%" y="0"]
 [endkeyframe]
 [kanim name="クピャドエル" keyframe="kupya" count="infinite" time="2000" direction="alternate" easing="linear"]
-[_tb_end_tyrano_code]
+[_tb_end_tyrano_code][p]
 
 [tb_start_text mode=1 ]
 #クピャドエル
@@ -593,7 +593,7 @@ Lần này, hy vọng[r]tìm được cách tối ưu[if exp="f.bel_name==1||f.b
 [_tb_end_text]
 
 [jump  storage="loop_Chapter4.ks"  target="*loop3"  cond="f.currentLoop>2"  ]
-[tb_start_text mode=1 ]
+[tb_start_text mode=1 ][p]
 #クピャドエル
 Ta làm cho Debikun, [r]chắc chắn vui![p]
 
@@ -604,7 +604,7 @@ Ta làm cho Debikun, [r]chắc chắn vui![p]
 [tb_start_text mode=1 ]
 #クピャドエル
 Ơ...cậu đi đâu?[r]Không lẽ vào phòng Debikun?[p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/4.png"  ]
 [tb_start_text mode=1 ]
@@ -628,18 +628,18 @@ Raspberry Pie giao ta[r]đến bên Debikun...đi đi[p]
 
 [tb_eval  exp="f.photoNonFixedPose=0"  name="photoNonFixedPose"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
 [bg  time="0"  method="crossfade"  wait="false"  storage="neru.webp"  ]
-[chara_show  name="寝る"  time="0"  wait="false"  storage="chara/65/6.png"  width="1280"  height="960"  ]
+[chara_show  name="寝る"  time="0"  wait="false"  storage="chara/65/6.png"  width="1280"  height="960"  ][p]
 [chara_hide  name="クピャドエル"  time="0"  wait="false"  pos_mode="false"  ]
 [layermode  mode="multiply"  color="0xffffff"  time="0"  wait="false"  graphic="neruru.png"  ]
 [playse  volume="100"  time="3000"  buf="0"  storage="k3.ogg"  loop="true"  fadein="true"  ]
 [wait  time="3000"  ]
-[flash_off  time="1000"  effect="fadeOut"  ]
+[flash_off  time="1000"  effect="fadeOut"  ][p]
 
 [fadein_window  time="1000"  ]
 [tb_start_text mode=1 ]
 #でびるん
 Hà[delay speed=100]...[resetdelay]Hà[delay speed=100]...[resetdelay][p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [tb_start_text mode=1 ]
 #でびるん
@@ -679,7 +679,7 @@ Hà[delay speed=100]...[resetdelay]Hà[delay speed=100]...[resetdelay][p]
 [_tb_end_text]
 
 [free_layermode  time="0"  wait="false"  ]
-[chara_hide  name="寝る"  time="0"  wait="false"  pos_mode="false"  ]
+[chara_hide  name="寝る"  time="0"  wait="false"  pos_mode="false"  ][p]
 [chara_mod  name="プレイヤー"  time="0"  cross="false"  storage="chara/2/fu_te.png"  ]
 [memory name="ne" val="1"]
 
@@ -709,7 +709,7 @@ Ai đó[delay speed=100]...[resetdelay][p]
 
 [call  storage="me.ks"  target="*me_ENDtozi"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="k3.ogg"  loop="true"  ]
-[chara_mod  name="プレイヤー"  time="0"  cross="false"  storage="chara/2/te.png"  ]
+[chara_mod  name="プレイヤー"  time="0"  cross="false"  storage="chara/2/te.png"  ][p]
 [chara_show  name="寝る"  time="0"  wait="false"  storage="chara/65/8.png"  width="1280"  height="960"  ]
 [free_bg_loop]
 
@@ -724,13 +724,13 @@ Hà[delay speed=100]...[resetdelay]Hà[delay speed=100]...[resetdelay][p]
 
 [tb_hide_message_window  ]
 [jump  storage="loop_Chapter4.ks"  target="*zyagan1_modoru"  ]
-[s  ]
+[s  ][p]
 *te
 
 [chara_mod  name="寝る"  time="0"  cross="false"  storage="chara/65/10.png"  ]
 [playse  volume="100"  time="1000"  buf="1"  storage="gauru1.ogg"  ]
 [chara_mod  name="プレイヤー"  time="0"  cross="false"  storage="chara/2/wedding.png"  ]
-[wait  time="1000"  ]
+[wait  time="1000"  ][p]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #でびるん
@@ -741,23 +741,23 @@ Hà[delay speed=100]...[resetdelay]Hà[delay speed=100]...[resetdelay][p]
 [tb_start_text mode=1 ]
 #でびるん
 [delay speed=100]・・・[resetdelay]Do tự làm tự chịu[r]Tình trạng này là do bản đại nhân tự làm tự chịu[p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [tb_start_text mode=1 ]
 #でびるん
 Không phải lỗi mày[r]Vậy nên, buông ra[p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="寝る"  time="0"  cross="false"  storage="chara/65/8.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
 Sắp rồi[delay speed=100]...[resetdelay][p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [tb_start_text mode=1 ]
 #でびるん
 Sắp[r]thành hình mới[delay speed=100]...[resetdelay][p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="寝る"  time="0"  cross="false"  storage="chara/65/10.png"  ]
 [tb_start_text mode=1 ]
@@ -765,13 +765,13 @@ Sắp[r]thành hình mới[delay speed=100]...[resetdelay][p]
 Lột bỏ[r]da cũ hạ quỷ[delay speed=100]...[resetdelay][p]
 [_tb_end_text]
 
-[tb_start_text mode=1 ]
+[tb_start_text mode=1 ][p]
 #でびるん
 Được Ma Giới công nhận[r][delay speed=100]...[resetdelay]rồi[p]
 
 [_tb_end_text]
 
-[chara_mod  name="寝る"  time="0"  cross="false"  storage="chara/65/11.png"  ]
+[chara_mod  name="寝る"  time="0"  cross="false"  storage="chara/65/11.png"  ][p]
 [stopse  time="1000"  buf="0"  fadeout="false"  ]
 [tb_start_text mode=1 ]
 #でびるん
@@ -798,7 +798,7 @@ Lột bỏ[r]da cũ hạ quỷ[delay speed=100]...[resetdelay][p]
 [flash_off  time="0"  effect="fadeOut"  ]
 
 [jump  storage="loop_Chapter4.ks"  target="*jump_utyuu"  ]
-*na_lamia
+*na_lamia[p]
 
 [chara_mod  name="寝る"  time="0"  cross="false"  storage="chara/65/10.png"  ]
 [chara_hide  name="TAP"  time="500"  wait="false"  pos_mode="false"  ]
@@ -861,13 +861,13 @@ Lột bỏ[r]da cũ hạ quỷ[delay speed=100]...[resetdelay][p]
 [_tb_end_tyrano_code]
 
 [jump  storage="loop_Chapter4.ks"  target="*na_lamia"  cond="f.Lamia==1"  ]
-[chara_mod  name="寝る"  time="0"  cross="false"  storage="chara/65/11.png"  ]
+[chara_mod  name="寝る"  time="0"  cross="false"  storage="chara/65/11.png"  ][p]
 [chara_hide  name="TAP"  time="500"  wait="false"  pos_mode="false"  ]
 [wait  time="100"  ]
 [flash_off  time="20"  effect="fadeOut"  ]
 
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
-[playse  volume="100"  time="0"  buf="4"  storage="sasu2.ogg"  ]
+[playse  volume="100"  time="0"  buf="4"  storage="sasu2.ogg"  ][p]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #でびるん
@@ -917,12 +917,12 @@ Cút ra khỏi đây...![p]
 [free layer=4 name="kuro"]
 
 [bg  time="0"  method="crossfade"  storage="haikei2.webp"  ]
-[tb_eval  exp="f.photoNonFixedPose=1"  name="photoNonFixedPose"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
+[tb_eval  exp="f.photoNonFixedPose=1"  name="photoNonFixedPose"  cmd="="  op="t"  val="1"  val_2="undefined"  ][p]
 [wait  time="3000"  ]
 [flash_off  time="2000"  effect="fadeOut"  ]
 
 [wait  time="800"  ]
-[fadein_window  time="1000"  ]
+[fadein_window  time="1000"  ][p]
 [jump  storage="loop_Chapter4.ks"  target="*ne_no"  cond="f.ne!=1"  ]
 [jump  storage="loop_Chapter4.ks"  target="*ne_kidoku"  cond="f.ne_kidoku==1"  ]
 [tb_start_text mode=1 ]
@@ -947,7 +947,7 @@ Chỉ ma thần quan sát được rễ đó...[r]Sợ nên giữ im lặng, xin
 
 [memory name="ne_kidoku" val="1"]
 
-[jump  storage="loop_Chapter4.ks"  target="*ne_jump"  ]
+[jump  storage="loop_Chapter4.ks"  target="*ne_jump"  ][p]
 *ne_kidoku
 
 [tb_start_text mode=1 ]
@@ -960,13 +960,13 @@ Chỉ ma thần quan sát được rễ đó...[r]Sợ nên giữ im lặng, xin
 Đêm ngày đầu rễ lan rộng Magiricia[delay speed=100]...[resetdelay][r]Cản bao nhiêu vô ích[p]
 [_tb_end_text]
 
-[tb_start_text mode=1 ]
+[tb_start_text mode=1 ][p]
 #クピャドエル
 Đúng là Debikun có ma lực mạnh uu[p]
 [_tb_end_text]
 
 [jump  storage="loop_Chapter4.ks"  target="*ne_jump"  ]
-*ne_no
+*ne_no[p]
 
 [tb_start_text mode=1 ]
 #クピャドエル
@@ -1021,14 +1021,14 @@ Kupya! Raspberry Pie nướng xong[r]Ta mang đến ngay[p]
 [tb_start_tyrano_code]
 [if exp="f.currentLoop == 2"]
 #クピャドエル
-Xem này! Lần này nướng ngon quá[r]May không cháy
+Xem này! Lần này nướng ngon quá[r]May không cháy[p]
 [elsif exp="f.currentLoop == 3"]
 #クピャドエル
 Kupya! Lại nướng ngon nữa[r]Lần này chú ý nhiệt lò hơn
 [elsif exp="f.currentLoop == 4"]
 #クピャドエル
 Đây, nướng ngon quá[r]Giá hình đẹp hơn nữa...
-[else]
+[else][p]
 [delay speed=100]・・・[resetdelay]Tốt quá
 [endif]
 [p]
@@ -1044,7 +1044,7 @@ Kupya! Lại nướng ngon nữa[r]Lần này chú ý nhiệt lò hơn
 
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/11.png"  ]
 [tb_start_text mode=1 ]
-#クピャドエル
+#クピャドエル[p]
 D-Debikun[delay speed=100]...[resetdelay][p]
 
 
@@ -1107,13 +1107,13 @@ D-Debikun[delay speed=100]...[resetdelay][p]
 [tb_start_tyrano_code]
 [if exp="f.currentLoop == 2"]
 #クピャドエル
-Kupya[delay speed=100]...[resetdelay][r]Lại bị đá sang không gian lạ
+Kupya[delay speed=100]...[resetdelay][r]Lại bị đá sang không gian lạ[p]
 [elsif exp="f.currentLoop == 3"]
 #クピャドエル
 Kupya[delay speed=100]...[resetdelay][r]Lại không gian lạ
 [elsif exp="f.currentLoop == 4"]
 #クピャドエル
-Kupya[delay speed=100]...[resetdelay]Không gian lạ[r]lần thứ 4 rồi
+Kupya[delay speed=100]...[resetdelay]Không gian lạ[r]lần thứ 4 rồi[p]
 [else]
 Kupya[delay speed=100]...[resetdelay]Quen thuộc[r]Không gian lạ này ta không thích
 [endif]
@@ -1121,7 +1121,7 @@ Kupya[delay speed=100]...[resetdelay]Quen thuộc[r]Không gian lạ này ta kh�
 [_tb_end_tyrano_code]
 
 [stopse  time="1000"  buf="5"  ]
-[tb_start_text mode=1 ]
+[tb_start_text mode=1 ][p]
 #ネオでびるん
 [quake_text][delay speed=100]ん、んぎゃぎゃ！？[resetdelay][free_quake_text][p]
 
@@ -1173,7 +1173,7 @@ Debikun![p]
 
 [tb_start_tyrano_code]
 [keyframe name="erukoma"]
-[frame p="0%" y="0"]
+[frame p="0%" y="0"][p]
 [frame p="50%" y="-5"]
 [frame p="100%" y="0"]
 [endkeyframe]
@@ -1181,7 +1181,7 @@ Debikun![p]
 [_tb_end_tyrano_code]
 
 [stopbgm  time="0"  ]
-[tb_start_text mode=1 ]
+[tb_start_text mode=1 ][p]
 #クピャドエル
 Ta đi trước rồi![wait time=300][r][font size=37]Cả[wait time=100]m[wait time=100]bi[wait time=100]c[wait time=300][playse  volume="100"  time="0"  buf="3"  storage="666.ogg"  ]6[wait time=400]6[playse  volume="100"  time="0"  buf="3"  storage="666.ogg"  ][wait time=400]6[playse  volume="100"  time="0"  buf="3"  storage="666.ogg"  ][wait time=400]lần[wait time=400]phép thuật![resetfont][p]
 [_tb_end_text]
@@ -1189,12 +1189,12 @@ Ta đi trước rồi![wait time=300][r][font size=37]Cả[wait time=100]m[wait 
 [lbgm str="10_time_for_a_decisive_battle.ogg" vol="60" loop="true" time="0" buf="0"]
 
 [chara_mod  name="ネオでび邪眼"  time="0"  cross="false"  storage="chara/51/5.png"  ]
-[tb_start_text mode=1 ]
+[tb_start_text mode=1 ][p]
 #ネオでびるん
 [quake_text]だぎゃ？！どういうことだ[free_quake_text][p]
 
 
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_mod  name="コマえる"  time="0"  cross="false"  storage="chara/21/16.png"  ]
 [tb_start_text mode=1 ]
@@ -1210,12 +1210,12 @@ Dùng tổng 666 lần trên mọibộ phận toàn thân![r]Không vậy giọn
 [chara_mod  name="コマえる"  time="0"  cross="false"  storage="chara/21/13.png"  ]
 [tb_start_tyrano_code]
 [keyframe name="erukoma"]
-[frame p="0%" y="0"]
+[frame p="0%" y="0"][p]
 [frame p="50%" y="-5"]
 [frame p="100%" y="0"]
 [endkeyframe]
 [kanim name="コマえる" keyframe="erukoma" count="infinite" time="1000" direction="alternate" easing="linear"]
-[_tb_end_tyrano_code]
+[_tb_end_tyrano_code][p]
 
 [jump  storage="loop_Chapter4.ks"  target="*kupya_hata"  cond="f.kupya_hata==1"  ]
 [tb_start_text mode=1 ]
@@ -1241,7 +1241,7 @@ Kupya, không có thời gian[r]nghĩ chuyện đó[p]
 *kupya_hata
 
 [chara_mod  name="コマえる"  time="0"  cross="false"  storage="chara/21/9.png"  ]
-[tb_start_text mode=1 ]
+[tb_start_text mode=1 ][p]
 #クピャドエル
 Kupya...ta có thể làm[r]chỉ đến vậy[p]
 
@@ -1250,7 +1250,7 @@ Kupya...ta có thể làm[r]chỉ đến vậy[p]
 *kypya_hata2
 
 [tb_start_text mode=1 ]
-#クピャドエル
+#クピャドエル[p]
 [emb exp="f.name"] à[r]Xin cứu Debikun[delay speed=300]...[resetdelay][p]
 
 [_tb_end_text]
@@ -1317,13 +1317,13 @@ Tối tốt lành, [emb exp="f.name"][p]
 [if exp="f.currentLoop == 3"]
 #クピャドエル
 [emb exp="f.name"]さんは[r]本当にでびくん思いですね
-[elsif exp="f.currentLoop == 4"]
+[elsif exp="f.currentLoop == 4"][p]
 #クピャドエル
 [emb exp="f.name"]さんは[r]本当にがんばりやさんですね
 [elsif exp="f.currentLoop == 5"]
 #クピャドエル
 Mỗi lần làm lại, bánh[r]ngon hơn!
-[elsif exp="f.currentLoop == 6"]
+[elsif exp="f.currentLoop == 6"][p]
 #クピャドエル
 Lần này ngồi quanh bàn[r]cùng nhau ăn nhé
 [elsif exp="f.currentLoop == 7"]
@@ -1361,7 +1361,7 @@ Như thường lệ, Raspberry Pie giao ta[r]đến bên Debikun...[p]
 [frame p="50%" y="-30"]
 [frame p="100%" y="0"]
 [endkeyframe]
-[kanim name="TAP" keyframe="TAPhuwa" count="infinite" time="2000" direction="alternate" easing="linear"]
+[kanim name="TAP" keyframe="TAPhuwa" count="infinite" time="2000" direction="alternate" easing="linear"][p]
 [_tb_end_tyrano_code]
 
 [tb_free_filter  layer="base"  ]
@@ -1370,7 +1370,7 @@ Như thường lệ, Raspberry Pie giao ta[r]đến bên Debikun...[p]
 [flash_off  time="20"  effect="fadeOut"  ]
 
 [tb_start_tyrano_code]
-[if exp="f.currentLoop == 5"]
+[if exp="f.currentLoop == 5"][p]
 #クピャドエル
 Xem này! Nướng cực kỳ ngon[r]Hình cũng hoàn hảo á
 [else]
@@ -1391,7 +1391,7 @@ TYRANO.kag.stat.is_strong_stop = false;
 [playse  volume="100"  time="1000"  buf="2"  storage="doa4.ogg"  ]
 [tb_start_text mode=4 ]
 [p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [flash  time="0"  effect="fadeIn"  color="0x000000"  ]
 
@@ -1406,18 +1406,18 @@ TYRANO.kag.stat.is_strong_stop = false;
 
 [chara_mod  name="プレイヤー"  time="0"  cross="false"  storage="chara/2/te.png"  ]
 [wait  time="1000"  ]
-[flash_off  time="1000"  effect="fadeOut"  ]
+[flash_off  time="1000"  effect="fadeOut"  ][p]
 
 [fadein_window  time="1000"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
 ...Tốt lành á![p]
-[_tb_end_text]
+[_tb_end_text][p]
 
 [chara_show  name="クピャドエル"  time="1000"  wait="false"  storage="chara/14/2.png"  width="1280"  height="960"  left="0"  top="-91"  reflect="false"  ]
 [tb_start_tyrano_code]
 [keyframe name="kupya"]
-[frame p="0%" y="0"]
+[frame p="0%" y="0"][p]
 [frame p="50%" y="-30"]
 [frame p="100%" y="0"]
 [endkeyframe]
@@ -1455,13 +1455,13 @@ Nhưng Debikun hiện tại khổ nên[r]như thường lệ, ở bên cạnh c�
 [tb_eval  exp="f.photoNonFixedPose=0"  name="photoNonFixedPose"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
 [bg  time="0"  method="crossfade"  wait="false"  storage="neru.webp"  ]
 [chara_show  name="寝る"  time="0"  wait="false"  storage="chara/65/6.png"  width="1280"  height="960"  ]
-[chara_hide  name="クピャドエル"  time="0"  wait="false"  pos_mode="false"  ]
+[chara_hide  name="クピャドエル"  time="0"  wait="false"  pos_mode="false"  ][p]
 [layermode  mode="multiply"  color="0xffffff"  time="0"  wait="false"  graphic="neruru.png"  ]
 [playse  volume="100"  time="3000"  buf="0"  storage="k3.ogg"  loop="true"  fadein="true"  ]
 [wait  time="3000"  ]
 [flash_off  time="1000"  effect="fadeOut"  ]
 
-[fadein_window  time="1000"  ]
+[fadein_window  time="1000"  ][p]
 [tb_start_text mode=1 ]
 #でびるん
 Hà[delay speed=100]...[resetdelay]Hà[delay speed=100]...[resetdelay][p]
@@ -1501,13 +1501,13 @@ Mọi đứa đều coi thường tao![r][font size=25]Đm, cút đi![resetfont]
 [stopse  time="0"  buf="5"  ]
 [chara_hide  name="寝る"  time="0"  wait="false"  pos_mode="false"  ]
 [chara_show  name="クピャドエル"  time="0"  wait="false"  storage="chara/14/19.png"  width="1280"  height="960"  left="0"  top="-91"  reflect="false"  ]
-[tb_start_tyrano_code]
+[tb_start_tyrano_code][p]
 [keyframe name="kupya"]
 [frame p="0%" y="0"]
 [frame p="50%" y="-30"]
 [frame p="100%" y="0"]
 [endkeyframe]
-[kanim name="クピャドエル" keyframe="kupya" count="infinite" time="2000" direction="alternate" easing="linear"]
+[kanim name="クピャドエル" keyframe="kupya" count="infinite" time="2000" direction="alternate" easing="linear"][p]
 [_tb_end_tyrano_code]
 
 [free layer=4 name="kuro"]
@@ -1517,7 +1517,7 @@ Mọi đứa đều coi thường tao![r][font size=25]Đm, cút đi![resetfont]
 [wait  time="3000"  ]
 [flash_off  time="2000"  effect="fadeOut"  ]
 
-[wait  time="800"  ]
+[wait  time="800"  ][p]
 [fadein_window  time="1000"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
@@ -1549,12 +1549,12 @@ Kupya! Raspberry Pie nướng xong[r]rồi! Ta mang đến ngay[p]
 [frame p="0%" y="0"]
 [frame p="50%" y="-30"]
 [frame p="100%" y="0"]
-[endkeyframe]
+[endkeyframe][p]
 [kanim name="クピャドエル" keyframe="kupya" count="infinite" time="2000" direction="alternate" easing="linear"]
 [_tb_end_tyrano_code]
 
 [tb_start_tyrano_code]
-[keyframe name="TAPhuwa"]
+[keyframe name="TAPhuwa"][p]
 [frame p="0%" y="-0"]
 [frame p="50%" y="-30"]
 [frame p="100%" y="0"]
@@ -1568,7 +1568,7 @@ Kupya! Raspberry Pie nướng xong[r]rồi! Ta mang đến ngay[p]
 [flash_off  time="20"  effect="fadeOut"  ]
 
 [tb_start_text mode=1 ]
-#クピャドエル
+#クピャドエル[p]
 Màu sắc đẹp, nướng không cháy[r]Tất cả hoàn hảo theo kế hoạch á[p]
 [_tb_end_text]
 
@@ -1597,7 +1597,7 @@ Nào! Đến lúc kết thúc[p]
 [call  storage="phase.ks"  target="*hide"  ]
 [tb_eval  exp="f.photoPose=0"  name="photoPose"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="utyuu.ogg"  ]
-[tb_hide_message_window  ]
+[tb_hide_message_window  ][p]
 [chara_hide  name="プレイヤー"  layer="1"  time="0"  wait="false"  pos_mode="false"  ]
 [chara_hide  name="クピャドエル"  time="0"  wait="false"  pos_mode="false"  ]
 [chara_hide  name="TAP"  time="0"  wait="false"  pos_mode="false"  ]
@@ -1653,7 +1653,7 @@ TYRANO.kag.stat.is_strong_stop = false;
 [tb_free_filter  layer="undefined"  time="4000"  ]
 [quake  time="5000"  count="3"  hmax="3"  wait="false"  vmax="3"  ]
 [wait  time="4000"  ]
-[tb_filter_blur  layer="all"  blur="30"  time="500"  ]
+[tb_filter_blur  layer="all"  blur="30"  time="500"  ][p]
 [camera  time="200"  zoom="1.6"  wait="false"  y="50"  ]
 [wait  time="50"  ]
 [bg  time="0"  method="crossfade"  wait="false"  storage="kuro.webp"  ]
@@ -1689,7 +1689,7 @@ Ta sẽ làm cho cậu hạnh phúc[p]
 [stopse  time="0"  buf="5"  fadeout="true"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="miminari2.ogg"  ]
 [bg  time="0"  method="crossfade"  wait="false"  storage="kyo.webp"  ]
-[chara_show  name="サブでび"  time=""  wait="false"  storage="chara/30/d1.png"  width="707"  height="530"  left="285"  top="112"  reflect="false"  ]
+[chara_show  name="サブでび"  time=""  wait="false"  storage="chara/30/d1.png"  width="707"  height="530"  left="285"  top="112"  reflect="false"  ][p]
 [chara_show  name="サブくぴゃ"  time="0"  wait="false"  storage="chara/49/kyo1.png"  width="707"  height="530"  left="285"  top="112"  reflect="false"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -1702,12 +1702,12 @@ Raspberry Pie này trông ngon ghê![p]
 
 [tb_free_filter  layer="undefined"  time="1000"  ]
 [tb_start_text mode=1 ]
-#クピャドエル
+#クピャドエル[p]
 Đúng không! Không sai lệch hay cháy[r]nướng hoàn hảo[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#でびるん
+#でびるん[p]
 Đúng là Doel[p]
 
 [_tb_end_text]
@@ -1720,12 +1720,12 @@ Kupya...được Debikun khen[r]bỗng thấy ngại[p]
 
 [chara_mod  name="サブくぴゃ"  time="0"  cross="false"  storage="chara/49/kyo2.png"  ]
 [tb_start_text mode=1 ]
-#クピャドエル
+#クピャドエル[p]
 A, [emb exp="f.name"]![p]
 [_tb_end_text]
 
 [chara_mod  name="サブでび"  time="0"  cross="false"  storage="chara/30/d2.png"  ]
-[tb_start_text mode=1 ]
+[tb_start_text mode=1 ][p]
 #でびるん
 Thật, ngơ ngẩn gì?[r]Nhanh đến đây[p]
 [_tb_end_text]
@@ -1736,7 +1736,7 @@ Cùng nhau ăn Raspberry Pie nào![p]
 
 [_tb_end_text]
 
-[chara_mod  name="サブくぴゃ"  time="0"  cross="false"  storage="chara/49/kyo3.png"  ]
+[chara_mod  name="サブくぴゃ"  time="0"  cross="false"  storage="chara/49/kyo3.png"  ][p]
 [tb_start_text mode=1 ]
 #クピャドエル
 Kupya...[p]
