@@ -708,7 +708,7 @@ Nhìn này, nó còn vặn nát được[r]cả búp bê nữa.[p]
 [chara_show  name="感情オーラ2"  time="1000"  wait="false"  storage="chara/12/moya2-2.png"  width="460"  height="200"  left="627"  top="258"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #ライ②
-[font face="DZUYOKU"][font size=30]Hiieee!? Em không biết kiềm chế sức mạnh![r]Thế này... hơi sợ... có lẽ[resetfont][p]
+[font face="DZUYOKU"][font size=30]Hiieee!? Em không biết kiềm chế sức mạnh![r]Thế này... hơi sợ... có lẽ [resetfont][p]
 
 
 
@@ -1222,7 +1222,7 @@ Phải cho tụi nó thấy cái gì thật tuyệt vời[r]để tụi nó há 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/8.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="f.finished.length%3==2"][font size=25]Cứ chờ đi![else]Cứ chờ xem...[r][font size=25]Tiếp nào, tiếp![endif] [resetfont][p]
+[if exp="f.finished.length%3==2"][font size=25]Cứ chờ đi![else] Cứ chờ xem...[r][font size=25]Tiếp nào, tiếp![endif] [resetfont][p]
 [_tb_end_text]
 
 [iscript]

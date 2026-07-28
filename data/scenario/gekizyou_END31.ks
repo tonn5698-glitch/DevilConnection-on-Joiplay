@@ -58,7 +58,7 @@ Cái gì lúc nãy vậy! Mày biết[r]tên thật của bản đại nhân r�
 #Belphegor
 ;#Belphegor
 ;;#ベルフェゴール
-Thầy trừ tà mà triệu hồi quỷ được sao![r]Thật đấy…triệu hồi rồi[font face="KaiseiDecol-Bold"]trừ[resetfont] tà,tay mới thích đấm đá hả[p]
+Thầy trừ tà mà triệu hồi quỷ được sao![r]Thật đấy…triệu hồi rồi [font face="KaiseiDecol-Bold"]trừ [resetfont] tà,tay mới thích đấm đá hả[p]
 [_tb_end_text]
 
 [chara_mod  name="劇場でび"  time="0"  cross="false"  storage="chara/15/dagya34.png"  ]

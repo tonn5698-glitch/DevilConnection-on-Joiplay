@@ -73,7 +73,7 @@ Phép triệu hồi này là do ngươi làm sao.[r]Bản cung là Tamamo. Tên 
 
 [tb_start_text mode=1 ]
 #でびるん
-Hehe- Tao là[font color=0xEC6FC5 bold=true]Be[resetfont]...[p]
+Hehe- Tao là [font color=0xEC6FC5 bold=true]Be [resetfont]...[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -90,7 +90,7 @@ Hehe- Tao là[font color=0xEC6FC5 bold=true]Be[resetfont]...[p]
 [playse  volume="100"  time="0"  buf="1"  storage="hirameki.ogg"  ]
 [tb_start_text mode=1 ]
 #タマモ
-[font color=0xEC6FC5 bold=true]Be[resetfont]...?[p]
+[font color=0xEC6FC5 bold=true]Be [resetfont]...?[p]
 [_tb_end_text][p]
 
 [tb_start_text mode=1 ]
@@ -274,7 +274,7 @@ Mumumu!!![p]
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [tb_start_text mode=1 ]
 #コハク
-[font size=25]Dơ~w[resetfont][p]
+[font size=25]Dơ~w [resetfont][p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -1003,7 +1003,7 @@ Thằng đó... không biết sẽ làm gì nên[r]hút nhanh ma lực rồi ch�
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Ngo!?[resetfont]Ma lực đã hồi phục[p]
+[font size=25]Ngo!?[resetfont] Ma lực đã hồi phục[p]
 [_tb_end_text]
 
 [chara_mod  name="コハク"  time="0"  cross="false"  storage="chara/25/14.png"  ]
@@ -1091,13 +1091,13 @@ Thằng đó đột nhiên thành trẻ con, giật mình thật[p]Giá mà cứ
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/17.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Mà khoan,[if exp="f.kansou1 == 1"]đội lá lên đầu mà biến trạng thái thì[r]phép thuật kỳ lạ thật[else]Chỉ một chiếc lá mà[r]có ngần ấy ma lực thì lần đầu thấy[endif][p]
+Mà khoan,[if exp="f.kansou1 == 1"]đội lá lên đầu mà biến trạng thái thì[r]phép thuật kỳ lạ thật [else] Chỉ một chiếc lá mà[r]có ngần ấy ma lực thì lần đầu thấy [endif][p]
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/1.png"  ][p]
 [tb_start_text mode=1 ]
 #でびるん
-Nếu đội lá lên đầu mà trong giây lát[r][if exp="f.kansou1 == 1"][else]ma lực tập trung lại thì [endif]trở về hình dáng thật thì tốt[p]
+Nếu đội lá lên đầu mà trong giây lát[r][if exp="f.kansou1 == 1"][else] ma lực tập trung lại thì [endif] trở về hình dáng thật thì tốt[p]
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/11.png"  ]

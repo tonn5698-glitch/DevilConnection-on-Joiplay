@@ -76,7 +76,7 @@ Ta là Meteor~san! Nhớ không?[r]Nào! Học cùng lớp ở trường ma thu�
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/1.png"  ]
 [tb_start_text mode=1 ]
 #ミーティア
-Triệu hồi ma thuật là[emb exp="f.name"]~san làm sao?[r]Quả nhiên siêu![p]
+Triệu hồi ma thuật là [emb exp="f.name"]~san làm sao?[r]Quả nhiên siêu![p]
 
 
 [_tb_end_text]
@@ -136,7 +136,7 @@ Giáo viên và đàn anh tập trung vào phòng pha chế…[r]thật kinh ng�
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ミーティア
-Uống thuốc[emb exp="f.name"]~san làm mà hóa mèo[r]không quên được[p]
+Uống thuốc [emb exp="f.name"]~san làm mà hóa mèo[r]không quên được[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -265,7 +265,7 @@ Tên dễ thương![r]Chơi chữ siêuhoàn hảo![p]
 
 [tb_start_text mode=1 ]
 #でびるん
-Tệ lắm.[if exp="f.hutanari == 1"]Cổ[else][if exp="f.seibetu == 1]Già[else]Bà[endif][endif][p]
+Tệ lắm.[if exp="f.hutanari == 1"]Cổ [else][if exp="f.seibetu == 1]Già [else] Bà [endif][endif][p]
 
 
 [_tb_end_text]
@@ -275,7 +275,7 @@ Tệ lắm.[if exp="f.hutanari == 1"]Cổ[else][if exp="f.seibetu == 1]Già[else
 [chara_mod  name="ミーティア"  time="0"  cross="false"  storage="chara/39/6.png"  ]
 [tb_start_text mode=1 ]
 #ミーティア
-Dù sao được mời đến[emb exp="f.name"]~san nhà,[r]vui quá![p]
+Dù sao được mời đến [emb exp="f.name"]~san nhà,[r]vui quá![p]
 
 
 [_tb_end_text]
@@ -379,7 +379,7 @@ Khufufu…ta xuất hiện từ bóng tối,[r]là đại ma quỷ, hãy run s�
 
 [tb_start_text mode=1 ]
 #ミーティア
-Thật ra ta…lâu nay muốn làm[p]bạn với[emb exp="f.name"]~san![p]
+Thật ra ta…lâu nay muốn làm[p]bạn với [emb exp="f.name"]~san![p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -623,7 +623,7 @@ Vô cùng lạc quan[p]Sống dễ dàng, ghen tị[p]
 
 [tb_start_text mode=1 ]
 #ミーティア
-Dùng ma thuật khiến mọi người ngạc nhiên[emb exp="f.name"]~san là[r]ngôi sao sáng nhất đối với ta[p]
+Dùng ma thuật khiến mọi người ngạc nhiên [emb exp="f.name"]~san là[r]ngôi sao sáng nhất đối với ta[p]
 [_tb_end_text]
 
 [chara_mod  name="ミーティア"  time="0"  cross="false"  storage="chara/39/4.png"  ]
@@ -674,7 +674,7 @@ Phép dùng được chỉ có vậy.[r]Phép chiếu sao từ wand…[p]
 [chara_mod  name="ミーティア"  time="0"  cross="false"  storage="chara/39/3.png"  ]
 [tb_start_text mode=1 ]
 #ミーティア
-Ta cũng muốn trở thành thầy thuậthàng đầu[r]chiếu sáng mọi người như[emb exp="f.name"]~san![p]
+Ta cũng muốn trở thành thầy thuậthàng đầu[r]chiếu sáng mọi người như [emb exp="f.name"]~san![p]
 
 
 [_tb_end_text]
@@ -804,7 +804,7 @@ Lúc nãy lỗi ta.[r]Ta sai[p]
 
 [tb_start_text mode=1 ]
 #ミーティア
-Trong mơ muốn trở thành ánh sáng[r]chiếu[emb exp="f.name"]~san…nhưng[delay speed=100]…[resetdelay][p]
+Trong mơ muốn trở thành ánh sáng[r]chiếu [emb exp="f.name"]~san…nhưng[delay speed=100]…[resetdelay][p]
 [_tb_end_text]
 
 [chara_mod  name="ミーティア"  time="0"  cross="false"  storage="chara/39/4.png"  ]

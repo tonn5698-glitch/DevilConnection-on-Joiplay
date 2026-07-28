@@ -112,7 +112,7 @@ Này, ngươi. Ngươi trông giống[r]loài dơi ma quỷ này, có quen biế
 [chara_mod  name="ザコウモリA"  time="0"  cross="false"  storage="chara/45/2.png"  ]
 [tb_start_text mode=1 ]
 #ザコウモリA
-[font size=25]Đagyaa~ ta không biết thằng nhỏ tí hon đó disgaya[resetfont][font size=12]Uư, nặng quá disgaya…[resetfont][p]
+[font size=25]Đagyaa~ ta không biết thằng nhỏ tí hon đó disgaya [resetfont][font size=12]Uư, nặng quá disgaya…[resetfont][p]
 
 
 [_tb_end_text]
@@ -120,7 +120,7 @@ Này, ngươi. Ngươi trông giống[r]loài dơi ma quỷ này, có quen biế
 [chara_mod  name="ザコウモリB"  time="0"  cross="false"  storage="chara/46/3.png"  ]
 [tb_start_text mode=1 ]
 #ザコウモリB
-[font size=25]Ngya, ta cũng không biết[resetfont][p]
+[font size=25]Ngya, ta cũng không biết [resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="ルビー"  time="0"  cross="false"  storage="chara/44/2.png"  ]
@@ -896,7 +896,7 @@ Ngươi nói chuyện với ai thế? [r]Lũ ma quỷ như ngươi, ta sẽ xử
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ルビー
-[font face="DZUYOKU"][font size=20]Giết giết giết giết giết giết giết giết giết giết giết giết giết giết[r]giết giết giết giết giết giết giết giết giết giết giết giết giết giết giết[resetfont][p]
+[font face="DZUYOKU"][font size=20]Giết giết giết giết giết giết giết giết giết giết giết giết giết giết[r]giết giết giết giết giết giết giết giết giết giết giết giết giết giết giết [resetfont][p]
 [_tb_end_text]
 
 [tb_eval  exp="f.kansou2=1"  name="kansou2"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
@@ -1018,7 +1018,7 @@ Ngya~ Tên ngài là gì![r]Tên ngài là gì disgaya![p]
 
 [tb_start_text mode=1 ]
 #でびるん
-Tch… lũ mày, lật mặt nhanh quá![r]Nghe mà bất ngờ đó, tên thật của bản đại nhân là…[font size=12]ngoan-go[resetfont][p]
+Tch… lũ mày, lật mặt nhanh quá![r]Nghe mà bất ngờ đó, tên thật của bản đại nhân là…[font size=12]ngoan-go [resetfont][p]
 [_tb_end_text]
 
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
@@ -1618,7 +1618,7 @@ Ngươi muốn bảo vệ chúng nó…[delay speed=100]…[resetdelay][r]Tự c
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ルビー
-[font face="DZUYOKU"][font size=20]Giết giết giết giết giết giết giết giết giết giết giết giết giết giết giết[r]giết giết giết giết giết giết giết giết giết giết giết giết giết giết giết[resetfont][p]
+[font face="DZUYOKU"][font size=20]Giết giết giết giết giết giết giết giết giết giết giết giết giết giết giết[r]giết giết giết giết giết giết giết giết giết giết giết giết giết giết giết [resetfont][p]
 [_tb_end_text]
 
 [tb_eval  exp="f.kansou2=1"  name="kansou2"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
@@ -1876,8 +1876,8 @@ Tên thật của bản đại nhân là…[p]
 [chara_mod  name="ポリゴン"  time="0"  cross="false"  storage="chara/28/k5.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25][font color=0xEC6FC5 bold=true]Belphegor[resetfont][font size=25]đó[resetfont][p]
-;[font size=25][font color=0xEC6FC5 bold=true]Belphegor[resetfont][font size=25]だ[resetfont][p]
+[font size=25][font color=0xEC6FC5 bold=true]Belphegor [resetfont][font size=25]đó [resetfont][p]
+;[font size=25][font color=0xEC6FC5 bold=true]Belphegor [resetfont][font size=25]だ[resetfont][p]
 ;;[font size=25][font color=0xEC6FC5 bold=true]ベルフェゴール[resetfont][font size=25]だ[resetfont][p]
 [_tb_end_text]
 

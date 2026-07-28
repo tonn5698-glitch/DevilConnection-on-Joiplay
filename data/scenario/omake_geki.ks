@@ -80,7 +80,7 @@ Sân khấu Kupyadagya hoàn thành...[r]Xin chúc mừng ạ~![p]
 [chara_mod  name="劇場える"  time="0"  cross="false"  storage="chara/16/kupya1.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Nè, Debi-kun cũng chúc [if exp="!f.name"]Thống Lĩnh[else][emb exp="f.name"][endif] nữa[r]đi nào![p]
+Nè, Debi-kun cũng chúc [if exp="!f.name"]Thống Lĩnh [else][emb exp="f.name"][endif] nữa[r]đi nào![p]
 [_tb_end_text]
 
 [chara_mod  name="劇場でび"  time="0"  cross="false"  storage="chara/15/dagya24.png"  ]
@@ -255,7 +255,7 @@ Cuối cùng là đây...[p]
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Sân khấu kết thúc tại đây[r][font size=25]Tạm biệt[resetfont][p]
+Sân khấu kết thúc tại đây[r][font size=25]Tạm biệt [resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="劇場える"  time="0"  cross="false"  storage="chara/16/kupya7.png"  ]

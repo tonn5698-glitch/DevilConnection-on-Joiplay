@@ -238,7 +238,7 @@ Chắc là nó biết về[r]khả năng quỷ thuật,Ác Nhãn search không?[
 [tb_show_message_window  ]
 [tb_start_text mode=4 ]
 #でびるん
-[if exp="f.kansou1 == 0]Có vẻ khả nghi lắm…[r]Tất nhiên là từ chối đi chứ?[else]Gì…từ chối đi chứ!?[endif]
+[if exp="f.kansou1 == 0]Có vẻ khả nghi lắm…[r]Tất nhiên là từ chối đi chứ?[else] Gì…từ chối đi chứ!?[endif]
 
 [_tb_end_text]
 
@@ -306,7 +306,7 @@ Xin lỗi.[p]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font face="YOWAKU]A…gya[resetfont][p]
+[font face="YOWAKU]A…gya [resetfont][p]
 
 [_tb_end_text]
 
@@ -358,7 +358,7 @@ Xin lỗi.[p]
 [wait  time="300"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font face="YOWAKU]A…gya[resetfont][p]
+[font face="YOWAKU]A…gya [resetfont][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -380,7 +380,7 @@ Nhân tiện, [emb exp="f.name"]bạn và con quỷ Chihuahua này[r]ký kết h
 [chara_mod  name="ラピス"  time="0"  cross="false"  storage="chara/47/12.png"  ]
 [tb_start_text mode=1 ]
 #ラピス
-Cho tôi biết đi. À, bây giờ tôi sẽ mượn cuốn ma thuật thư này.[r]Tôi không muốn làm thô bạo nên đừng[font color=0xEC6FC5 bold=true]phản kháng[resetfont] nhé?[p]
+Cho tôi biết đi. À, bây giờ tôi sẽ mượn cuốn ma thuật thư này.[r]Tôi không muốn làm thô bạo nên đừng [font color=0xEC6FC5 bold=true]phản kháng [resetfont] nhé?[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
@@ -609,13 +609,13 @@ Nếu bạn muốn, xin mời cuốn sách đó.[p]
 [chara_mod  name="ラピス"  time="0"  cross="false"  storage="chara/47/14.png"  ]
 [tb_start_text mode=1 ]
 #ラピス[p]
-[if exp="f.bel_name==1||f.bel_name_first==1]Ừm, có vẻ bạn đã biết tên của Chihuahua rồi…[r]nhưng trong sách còn có thông tin về các quỷ khác, sẽ hữu ích cho tương lai[else]Về sự tồn tại của cuốn sách, xin đừng[r]để Chihuahua phát hiện nhé[endif][p]
+[if exp="f.bel_name==1||f.bel_name_first==1]Ừm, có vẻ bạn đã biết tên của Chihuahua rồi…[r]nhưng trong sách còn có thông tin về các quỷ khác, sẽ hữu ích cho tương lai [else] Về sự tồn tại của cuốn sách, xin đừng[r]để Chihuahua phát hiện nhé [endif][p]
 [_tb_end_text]
 
 [chara_mod  name="ラピス"  time="0"  cross="false"  storage="chara/47/18.png"  ]
 [tb_start_text mode=4 ]
 #ラピス
-[delay speed=300]…[resetdelay][if exp="f.bel_name==1||f.bel_name_first==1]Hãy tìm kết thúc lý tưởng[r]và chào đón một cái kết tốt đẹp nhé[else]Hãy vạch trần tên của Chihuahua[r]và dẫn dắt thế giới này theo hướng tốt đẹp nhé[endif][wait time=500]
+[delay speed=300]…[resetdelay][if exp="f.bel_name==1||f.bel_name_first==1]Hãy tìm kết thúc lý tưởng[r]và chào đón một cái kết tốt đẹp nhé [else] Hãy vạch trần tên của Chihuahua[r]và dẫn dắt thế giới này theo hướng tốt đẹp nhé [endif][wait time=500]
 
 
 [_tb_end_text]
@@ -674,7 +674,7 @@ Nếu là đứa trẻ hư không nghe lời tôi, tôi đã[r]nghĩ rằng nó 
 
 [tb_start_text mode=1 ]
 #ラピス[p]
-Có vẻ ổn rồi nhỉ.[font size=12][if exp="f.lapis == 1]Tôi đã trả lại ma thuật thư rồi[r]và tiện thể cũng đã cởi trói nữa[else][r]À, và tôi đã trả lại ma thuật thư rồi[endif][resetfont][p]
+Có vẻ ổn rồi nhỉ.[font size=12][if exp="f.lapis == 1]Tôi đã trả lại ma thuật thư rồi[r]và tiện thể cũng đã cởi trói nữa [else][r]À, và tôi đã trả lại ma thuật thư rồi [endif][resetfont][p]
 
 
 
@@ -739,7 +739,7 @@ Có vẻ ổn rồi nhỉ.[font size=12][if exp="f.lapis == 1]Tôi đã trả l�
 
 [tb_start_text mode=1 ]
 #ラピス[p]
-Tôi tin tưởng bạn đấy[font size=12][if exp="f.lapis == 1]Tôi đã trả lại ma thuật thư rồi[r]và tiện thể cũng đã cởi trói nữa[else][r]À, và tôi đã trả lại ma thuật thư rồi[endif][resetfont][p]
+Tôi tin tưởng bạn đấy [font size=12][if exp="f.lapis == 1]Tôi đã trả lại ma thuật thư rồi[r]và tiện thể cũng đã cởi trói nữa [else][r]À, và tôi đã trả lại ma thuật thư rồi [endif][resetfont][p]
 
 [_tb_end_text]
 
@@ -791,7 +791,7 @@ Dagya, đúng vậy thật[r]quả thực cảm xúc aura đã tràn đầy rồ
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/30.png"  ]
 [tb_start_text mode=1 ]
 #でびるん[p]
-Gì…hả?[r][if exp="f.lapis_watasu == 0]Ta[else]thật ra[endif]bị lộ là quỷ rồi?[p]
+Gì…hả?[r][if exp="f.lapis_watasu == 0]Ta [else] thật ra [endif] bị lộ là quỷ rồi?[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]

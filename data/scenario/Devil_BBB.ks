@@ -772,7 +772,7 @@ Cơm và furikake, dưa muối... còn cả gia vị nữa à![r]Kéo luôn cả
 [chara_mod  name="プレイヤー"  time="0"  cross="false"  storage="chara/2/BBB3.png"  ]
 [tb_start_text mode=1 ]
 #BBB
-Xin lỗi, giờ thì ta bình tĩnh rồi nhưng[r]ta vốn là[font color=0xEC6FC5 bold=true]quỷ phàm ăn[resetfont] mà[p]
+Xin lỗi, giờ thì ta bình tĩnh rồi nhưng[r]ta vốn là [font color=0xEC6FC5 bold=true]quỷ phàm ăn [resetfont] mà[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -1038,7 +1038,7 @@ Phuaah cuối cùng cũng được giải thoát[delay speed=100]・・・[reset
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Rồi cái tiếng cánh kêu buu buu ồn vãi![r]Bubu mày vẫn còn ở đây à![font size=12]Hình như nhỏ đi rồi[resetfont][p]
+Rồi cái tiếng cánh kêu buu buu ồn vãi![r]Bubu mày vẫn còn ở đây à![font size=12]Hình như nhỏ đi rồi [resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="BBB"  time="0"  cross="false"  storage="chara/64/38.png"  ]

@@ -102,7 +102,7 @@ Biết phận chút đi![r]Dám làm thân với bản đại nhân![p]
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/8.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Hà[delay speed=100]…[resetdelay]chịu nổi nhỉ[r][font size=12]Tao ở gần mày chút[resetfont][p]
+Hà[delay speed=100]…[resetdelay]chịu nổi nhỉ[r][font size=12]Tao ở gần mày chút [resetfont][p]
 
 [_tb_end_text]
 
@@ -453,7 +453,7 @@ Dù sao vòng summon[delay speed=100]...[resetdelay][r]Chắc mày không thư�
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/1.png"  ]
 [tb_start_text mode=4 ]
 #&f.debiName
-[font size=21]Đúng rồi![wait time=300]Hợp đồng![wait time=400]Đặc biệt[r]ta sẽ nhận mày làm ma sủng[resetfont]
+[font size=21]Đúng rồi![wait time=300]Hợp đồng![wait time=400]Đặc biệt[r]ta sẽ nhận mày làm ma sủng [resetfont]
 [_tb_end_text]
 
 [jump  storage="scene1.ks"  target="*loop_back_kill"  ]

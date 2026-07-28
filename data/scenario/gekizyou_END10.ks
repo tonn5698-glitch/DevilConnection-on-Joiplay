@@ -197,7 +197,7 @@ Tất cả đều[r]do debi-kun gây ra đó~ hic[p]
 [chara_move  name="劇場でび"  anim="true"  time="1700"  effect="easeOutQuad"  wait="false"  left="701"  top="163"  width="523"  height="551"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Thôi đủ rồi![resetfont]Ta không rảnh làm Corner này nữa![r][font size=12]Cứ chờ xem[delay speed=200]...[resetdelay][chara_hide  name="劇場でび"  time="1000"  wait="false"  pos_mode="false"  ]Ta sẽ lấy lại hình dạng ban đầu ngay thôi[resetfont][p]
+[font size=25]Thôi đủ rồi![resetfont] Ta không rảnh làm Corner này nữa![r][font size=12]Cứ chờ xem[delay speed=200]...[resetdelay][chara_hide  name="劇場でび"  time="1000"  wait="false"  pos_mode="false"  ]Ta sẽ lấy lại hình dạng ban đầu ngay thôi [resetfont][p]
 
 [_tb_end_text]
 
@@ -218,7 +218,7 @@ Kupya~[delay speed=200]...[resetdelay][r]Đừng có lười biếng mà[p]
 
 [tb_start_text mode=1 ]
 #クピャドエル
-[if exp="f.kupya_kyo == 0]Hãy dùng phép thuật quay lại một chút[r]thử chọn lại cùng một lựa chọn nhé[else]Nếu từ chối sự hợp tác của ta thì debi-kun[r]sẽ giận đấy, nên hãy cố gắng tiếp tục nhé[endif][p]
+[if exp="f.kupya_kyo == 0]Hãy dùng phép thuật quay lại một chút[r]thử chọn lại cùng một lựa chọn nhé [else] Nếu từ chối sự hợp tác của ta thì debi-kun[r]sẽ giận đấy, nên hãy cố gắng tiếp tục nhé [endif][p]
 [_tb_end_text]
 
 [jump  storage="gekizyou_END_menu.ks"  target=""  ]

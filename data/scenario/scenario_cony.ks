@@ -64,7 +64,7 @@ Kuhaha... Chào mừng cún cảnh sát.[r]Gào up up cũng vô ích thôi[p]
 [jump  storage="scenario_cony.ks"  target="*maki"  cond="Boolean(f.makiPhotoId)"  ]
 [tb_start_text mode=1 ]
 #コニー
-[if exp="f.maki_cony== 1"]Các người chẳng phải là[r]những người MakitalkYesterday nói đó...![else]Các người![endif][p]
+[if exp="f.maki_cony== 1"]Các người chẳng phải là[r]những người MakitalkYesterday nói đó...![else] Các người![endif][p]
 [_tb_end_text]
 
 [chara_mod  name="コニー"  time="0"  cross="false"  storage="chara/29/3.png"  ]
@@ -88,7 +88,7 @@ Mùi... có mùi! Các người,[r]có vẻ đang giấu gì đó![p]
 
 [tb_start_text mode=1 ]
 #でびるん
-Đột ngột vậy![resetfont][if exp="f.blueberry == 1][r]Bản đại nhân sao có mùi được![else]Sao có mùi được![r]Hôm nay dậy sớm đã tắm rồi![endif][p]
+Đột ngột vậy![resetfont][if exp="f.blueberry == 1][r]Bản đại nhân sao có mùi được![else] Sao có mùi được![r]Hôm nay dậy sớm đã tắm rồi![endif][p]
 [_tb_end_text]
 
 [flash  time="0"  effect="fadeIn"  color="0x000000"  ]
@@ -116,7 +116,7 @@ Mùi... có mùi! Các người,[r]có vẻ đang giấu gì đó![p]
 
 [tb_start_text mode=1 ]
 #コニー
-[if exp="f.blueberry == 1]Đúng là bạn có mùi việt quất...[r]Thôi bỏ đi![endif]Xem báo hôm nay[p]
+[if exp="f.blueberry == 1]Đúng là bạn có mùi việt quất...[r]Thôi bỏ đi![endif] Xem báo hôm nay[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -306,7 +306,7 @@ Mùi... không, không phải mùi bình thường![r]Các người, hãy ra đ�
 
 [tb_start_text mode=1 ]
 #でびるん
-Đột ngột vậy![resetfont][if exp="f.blueberry == 1][r]Bản đại nhân sao có mùi được![else]Sao có mùi được![r]Hôm nay dậy sớm đã tắm rồi![endif][p]
+Đột ngột vậy![resetfont][if exp="f.blueberry == 1][r]Bản đại nhân sao có mùi được![else] Sao có mùi được![r]Hôm nay dậy sớm đã tắm rồi![endif][p]
 [_tb_end_text]
 
 [flash  time="0"  effect="fadeIn"  color="0x000000"  ]
@@ -334,7 +334,7 @@ Mùi... không, không phải mùi bình thường![r]Các người, hãy ra đ�
 
 [tb_start_text mode=1 ]
 #コニー
-[if exp="f.blueberry == 1]Đúng là bạn có mùi việt quất...[r]Thôi bỏ đi![endif]Xem báo hôm nay[p]
+[if exp="f.blueberry == 1]Đúng là bạn có mùi việt quất...[r]Thôi bỏ đi![endif] Xem báo hôm nay[p]
 [_tb_end_text]
 
 [stopbgm  time="0"  ]
@@ -361,7 +361,7 @@ Cái này, nhìn thế nào cũng là các người[p]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/95.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Đúng thật, nhìn thế nào cũng là bản đại nhân[resetfont][p]
+Đúng thật, nhìn thế nào cũng là bản đại nhân [resetfont][p]
 [_tb_end_text]
 
 [flash  time="0"  effect="fadeIn"  color="0x000000"  ]

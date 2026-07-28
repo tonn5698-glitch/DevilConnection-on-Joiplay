@@ -14,7 +14,7 @@ Kukuku...[r]Kuhuhuhuhu...[p]
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/24.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Giỏi lắm, ngươi đã chịu đựng[r]nỗi đau đó rồi[emb exp="f.name"][p]
+Giỏi lắm, ngươi đã chịu đựng[r]nỗi đau đó rồi [emb exp="f.name"][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]

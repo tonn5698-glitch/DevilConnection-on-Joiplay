@@ -275,7 +275,7 @@ Tôi đã gọi Sapphire-chan yêu quý ra,[r]vậy các người đã làm gì?
 [tb_show_message_window  ]
 [tb_start_text mode=4 ]
 #ジュエリーピンク
-[font face="DZUYOKU"][font size=37]Humph[resetfont][wait time=300][er]
+[font face="DZUYOKU"][font size=37]Humph [resetfont][wait time=300][er]
 [_tb_end_text]
 
 [chara_mod  name="ジュエリーピンク"  time="0"  cross="false"  storage="chara/54/6.png"  ]
@@ -527,7 +527,7 @@ Khoan! C-Cái gì! ?[p]
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Trang phục hầu gái phải hợp với chủ nhân…[r]Summoner [if exp="f.hutanari == 1"]Song tính[else][if exp="f.seibetu == 1]Con trai[else]Con gái[endif][endif]thích trang phục gì nhỉ.[p]
+Trang phục hầu gái phải hợp với chủ nhân…[r]Summoner [if exp="f.hutanari == 1"]Song tính [else][if exp="f.seibetu == 1]Con trai [else] Con gái [endif][endif] thích trang phục gì nhỉ.[p]
 [_tb_end_text]
 
 [playse  volume="100"  time="0"  buf="1"  storage="kawaii2.ogg"  ]
@@ -553,7 +553,7 @@ Tất nhiên[r]là trang phục hầu gái chứ sao ❤︎[p]
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-[if exp="f.end_complete==1]Dù sao thì… summoner[if exp="f.hutanari == 1]Song tính[else][if exp="f.seibetu == 1]Con trai[else]Con gái[endif][endif]có sự quyết tâm không bình thường.[else]NhưngDevil Boy này…[r]Có vẻ bất an. Đang giấu gì?[endif][p]
+[if exp="f.end_complete==1]Dù sao thì… summoner [if exp="f.hutanari == 1]Song tính [else][if exp="f.seibetu == 1]Con trai [else] Con gái [endif][endif] có sự quyết tâm không bình thường.[else] NhưngDevil Boy này…[r]Có vẻ bất an. Đang giấu gì?[endif][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -593,7 +593,7 @@ Không thể diễn đạt bằng lời…[r]Có cảm giác như đang ôm tìn
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-À… summoner[if exp="f.hutanari == 1]Song tính[else][if exp="f.seibetu == 1]Con trai[else]Con gái[endif][endif]thì sở thích cũng được nhưng…[r]Vậy thì hầu gái không hợp lắm.[p]
+À… summoner [if exp="f.hutanari == 1]Song tính [else][if exp="f.seibetu == 1]Con trai [else] Con gái [endif][endif] thì sở thích cũng được nhưng…[r]Vậy thì hầu gái không hợp lắm.[p]
 
 [_tb_end_text]
 
@@ -614,7 +614,7 @@ Hơn nữa, không phải bản đại nhân mà là[r]hắn mới là hầu t�
 
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Summoner[if exp="f.hutanari == 1]Song tính[else][if exp="f.seibetu == 1]Con trai[else]Con gái[endif][endif]được nhờ vả nhiều rồi đúng không?[r]Thỉnh thoảng phải làm vui lòng họ chứ.[p]
+Summoner [if exp="f.hutanari == 1]Song tính [else][if exp="f.seibetu == 1]Con trai [else] Con gái [endif][endif] được nhờ vả nhiều rồi đúng không?[r]Thỉnh thoảng phải làm vui lòng họ chứ.[p]
 
 
 [_tb_end_text]
@@ -650,7 +650,7 @@ Làm vui lòng? Hmph, bản đại nhân đây mà được[r]sử dụng thì p
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Ara, trông khá hợp. Summoner[if exp="f.hutanari == 1]Song tính[else][if exp="f.seibetu == 1]Con trai[else]Con gái[endif][endif]phải học[r]phép tắc phụng sự với hầu tớ chứ.[p]
+Ara, trông khá hợp. Summoner [if exp="f.hutanari == 1]Song tính [else][if exp="f.seibetu == 1]Con trai [else] Con gái [endif][endif] phải học[r]phép tắc phụng sự với hầu tớ chứ.[p]
 
 [_tb_end_text]
 
@@ -688,7 +688,7 @@ Chitt…(Tch)… khóđối phó(đối phó) quá.[p]
 
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Hmph, summoner[if exp="f.hutanari == 1]Song tính[else][if exp="f.seibetu == 1]Con trai[else]Con gái[endif][endif]được nhờ vả nhiều rồi đúng không?[r]Thỉnh thoảng phải làm vui lòng họ chứ.[p]
+Hmph, summoner [if exp="f.hutanari == 1]Song tính [else][if exp="f.seibetu == 1]Con trai [else] Con gái [endif][endif] được nhờ vả nhiều rồi đúng không?[r]Thỉnh thoảng phải làm vui lòng họ chứ.[p]
 
 
 [_tb_end_text]
@@ -731,7 +731,7 @@ Làm vui lòng? Hmph, bản đại nhân đây mà bị[r]sử dụng thì phả
 [reset_camera  time="1000"  wait="false"  layer="1"  ease_type="ease"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-[if exp="f.end_complete==1]Devil Boy, anh chưa…[r]hiểu rõ summoner[if exp="f.hutanari == 1]Song tính[else][if exp="f.seibetu == 1]Con trai[else]Con gái[endif][endif]đủ đâu![else]Các người chưa…hiểu đủ[r]về nhau đâu![endif][p]
+[if exp="f.end_complete==1]Devil Boy, anh chưa…[r]hiểu rõ summoner [if exp="f.hutanari == 1]Song tính [else][if exp="f.seibetu == 1]Con trai [else] Con gái [endif][endif] đủ đâu![else] Các người chưa…hiểu đủ[r]về nhau đâu![endif][p]
 
 
 [_tb_end_text]
@@ -767,7 +767,7 @@ Làm vui lòng? Hmph, bản đại nhân đây mà bị[r]sử dụng thì phả
 [chara_mod  name="ジュエリーピンク"  time="0"  cross="false"  storage="chara/54/12.png"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Tôi cũng… trước khi gặp Sapphire-chan,[r]cũng từng là đứa ngốc như anh[if exp="f.end_complete==1][else]các người[endif] vậy.[p]
+Tôi cũng… trước khi gặp Sapphire-chan,[r]cũng từng là đứa ngốc như anh [if exp="f.end_complete==1][else] các người [endif] vậy.[p]
 
 
 
@@ -954,7 +954,7 @@ Thật ra, nghĩ lại thì[r][emb exp="f.name"] chẳng biết gì cả.[p]
 [playse  volume="100"  time="0"  buf="3"  storage="hirameki.ogg"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Summoner[if exp="f.hutanari == 1]Song tính[else][if exp="f.seibetu == 1]Con trai[else]Con gái[endif][endif]sao không thử[những câu hỏi]?[p]
+Summoner [if exp="f.hutanari == 1]Song tính [else][if exp="f.seibetu == 1]Con trai [else] Con gái [endif][endif] sao không thử[những câu hỏi]?[p]
 
 
 [_tb_end_text]
@@ -1055,7 +1055,7 @@ Nếu hiểu nhau hơn nữa,[r]sẽ xây dựng được mối quan hệ tốt.
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Có gì mà buồn rầu vậySummoner[if exp="f.hutanari == 1]Song tính[else][if exp="f.seibetu == 1]Con trai[else]Con gái[endif][endif]![r]Đừng do dự, hãy đáp lạiLOVE củaDevil Boy ngay![p]
+Có gì mà buồn rầu vậySummoner [if exp="f.hutanari == 1]Song tính [else][if exp="f.seibetu == 1]Con trai [else] Con gái [endif][endif]![r]Đừng do dự, hãy đáp lạiLOVE củaDevil Boy ngay![p]
 
 [_tb_end_text]
 
@@ -1073,7 +1073,7 @@ Có gì mà buồn rầu vậySummoner[if exp="f.hutanari == 1]Song tính[else][
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/103.png"  ]
 [tb_start_text mode=4 ]
 #でびるん
-[font face="DZUYOKU"][font size=25]Không phải vậy![resetfont][l]Cứ tự nhiên[font size=16][font face="KaiseiDecol-Bold"]đoán[resetfont]lung tung! [wait time=500]
+[font face="DZUYOKU"][font size=25]Không phải vậy![resetfont][l]Cứ tự nhiên [font size=16][font face="KaiseiDecol-Bold"]đoán [resetfont] lung tung! [wait time=500]
 
 [_tb_end_text]
 
@@ -1191,7 +1191,7 @@ Ufufu[l]Nào, sao đây. [wait time=500]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/132.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="f.end_complete == 1"]Ừm. Mà, ta cũng nghĩ vậy khi[r]nhìn ngươi.[else]Ừm, ta cũng vậy.[endif][p]
+[if exp="f.end_complete == 1"]Ừm. Mà, ta cũng nghĩ vậy khi[r]nhìn ngươi.[else] Ừm, ta cũng vậy.[endif][p]
 
 [_tb_end_text]
 
@@ -1325,7 +1325,7 @@ Ch-Chỉ là ma lực quá nhiều nên buồn nôn thôi.[p]
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/16.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="f.finished.length%3==2"]Chẳng mấy chốc sẽ khỏi thôi,[r]yên tâm.[else]Đến đây rồi mà ngừng thu thập ma lực thì…[r]…ta sẽ không tha.[endif][p]
+[if exp="f.finished.length%3==2"]Chẳng mấy chốc sẽ khỏi thôi,[r]yên tâm.[else] Đến đây rồi mà ngừng thu thập ma lực thì…[r]…ta sẽ không tha.[endif][p]
 
 [_tb_end_text]
 
@@ -1411,7 +1411,7 @@ Không phải vậy. Nào, thu thập ma lực xong rồi[r]kết thúc đi.[p]
 [tb_show_message_window  ]
 [tb_start_text mode=4 ]
 #ジュエリーピンク
-[font size=25]Humph[resetfont][wait time=300][er]
+[font size=25]Humph [resetfont][wait time=300][er]
 [_tb_end_text]
 
 [chara_mod  name="ジュエリーピンク"  time="0"  cross="false"  storage="chara/54/6.png"  ]
@@ -1522,7 +1522,7 @@ f.finished = [...f.finished, f.chara.name];
 [playse  volume="100"  time="0"  buf="3"  storage="sasu2.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Fugya!? [r][if exp="sf.censorship==1]Đúng là chúng tôi có hai người nhưng… cái dấu chấm đó là sao! ?[else]Cái gì cái gì!? ! ?![resetfont][endif][p]
+[font size=25]Fugya!? [r][if exp="sf.censorship==1]Đúng là chúng tôi có hai người nhưng… cái dấu chấm đó là sao! ?[else] Cái gì cái gì!? ! ?![resetfont][endif][p]
 [_tb_end_text]
 
 [free_layermode  time="500"  wait="false"  ]

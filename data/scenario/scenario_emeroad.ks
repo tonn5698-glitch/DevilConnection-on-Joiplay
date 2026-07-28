@@ -61,7 +61,7 @@ Này mày, đang stalk ai vậy?[p]
 [chara_mod  name="エメロード"  time="0"  cross="false"  storage="chara/33/3.png"  ]
 [tb_start_text mode=1 ]
 #エメロード
-[font size=25]Đ- đó là em gái![resetfont]Em đi mua đồ giúp nên[r]lo lắng chỉ đứng sau quan sát thôi[p]
+[font size=25]Đ- đó là em gái![resetfont] Em đi mua đồ giúp nên[r]lo lắng chỉ đứng sau quan sát thôi[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -1128,7 +1128,7 @@ Pháp sư! Tốt lắm[r]Cho ta xem nào![p]
 
 [tb_start_text mode=1 ]
 #でびるん
-Đổi lại ta lấy ma lực![r][if exp="f.point == 0]...tức là[endif][p]
+Đổi lại ta lấy ma lực![r][if exp="f.point == 0]...tức là [endif][p]
 [_tb_end_text]
 
 [jump  storage="scenario_emeroad.ks"  target="*te_jump"  ]
@@ -1315,7 +1315,7 @@ Trước khi về dọn[r]phòng bụi bặm này.[p]
 [fadein_window  time="1000"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Mà,[if exp="f.HANYOU==1]dù sao thì[endif]ngon thật![r]Trên mặt đất có cơm ngon tuyệt[p]
+Mà,[if exp="f.HANYOU==1]dù sao thì [endif] ngon thật![r]Trên mặt đất có cơm ngon tuyệt[p]
 
 [_tb_end_text]
 
@@ -1333,7 +1333,7 @@ Trong ma giới dùng ma lực làm năng lượng nên[r]không có văn hóa �
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/17.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Ma lực phong phú từ trái cây và hạt, rượu thì[resetfont]thưởng thức được...[r]nhưng chỉ một nắm nhỏ quỷ cấp cao thôi[p]
+Ma lực phong phú từ trái cây và hạt, rượu thì [resetfont] thưởng thức được...[r]nhưng chỉ một nắm nhỏ quỷ cấp cao thôi[p]
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/11.png"  ]

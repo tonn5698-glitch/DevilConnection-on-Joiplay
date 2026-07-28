@@ -517,7 +517,7 @@ Chuyện đó...chuyện đó là...[r]hức...![p]
 
 [tb_start_text mode=1 ]
 #クピャドエル
-[delay speed=120][font size=12]・・・Cuối cùng lại thành ra thế này[resetfont][resetdelay][p]
+[delay speed=120][font size=12]・・・Cuối cùng lại thành ra thế này [resetfont][resetdelay][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -565,7 +565,7 @@ Chuyện đó...chuyện đó là...[r]hức...![p]
 
 [tb_start_text mode=1 ]
 #クピャドエル
-[delay speed=120][font size=12]・・・Ở chỗ Neo Debikun, con đã không thể cứu được[resetfont][resetdelay][p]
+[delay speed=120][font size=12]・・・Ở chỗ Neo Debikun, con đã không thể cứu được [resetfont][resetdelay][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -576,12 +576,12 @@ Chuyện đó...chuyện đó là...[r]hức...![p]
 
 [tb_start_text mode=1 ]
 #クピャドエル
-[delay speed=120][font size=12]・・・・・・Hả[resetfont][resetdelay][p]
+[delay speed=120][font size=12]・・・・・・Hả [resetfont][resetdelay][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #クピャドエル
-[delay speed=120][font size=12]・・・・・・Không thấy gì cả[resetfont][resetdelay][p]
+[delay speed=120][font size=12]・・・・・・Không thấy gì cả [resetfont][resetdelay][p]
 [_tb_end_text]
 
 *BBB_jump
@@ -673,7 +673,7 @@ Lần này đừng ngại ngần gì nha! Cậu có thể[r]mang theo bạn bè 
 [stopse  time="1000"  buf="5"  fadeout="true"  ]
 [tb_start_text mode=1 ]
 #ミーティア
-Thật ra[if exp="f.meteor== 1]tôi muốn gặp lại ác quỷ đó meo[else]tôi muốn gặp lại ác quỷ trong mơ meo[endif][r]nên lần này chúng ta cùng nhau đi học thôi meo![p]
+Thật ra [if exp="f.meteor== 1]tôi muốn gặp lại ác quỷ đó meo [else] tôi muốn gặp lại ác quỷ trong mơ meo [endif][r]nên lần này chúng ta cùng nhau đi học thôi meo![p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
@@ -685,12 +685,12 @@ Thật ra[if exp="f.meteor== 1]tôi muốn gặp lại ác quỷ đó meo[else]t
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ミーティア
-Mew, nhìn nè! Một con dơi nhỏ xíu! [r][if exp="f.meteor == 1]Nó có sừng nữa nên...chắc chắn là ác quỷ meo[endif][p]
+Mew, nhìn nè! Một con dơi nhỏ xíu! [r][if exp="f.meteor == 1]Nó có sừng nữa nên...chắc chắn là ác quỷ meo [endif][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ミーティア
-[font face="KaiseiDecol-Bold"]Mâm xôi[resetfont] có gai nên cẩn thận nhé~desu~! [p]
+[font face="KaiseiDecol-Bold"]Mâm xôi [resetfont] có gai nên cẩn thận nhé~desu~! [p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]

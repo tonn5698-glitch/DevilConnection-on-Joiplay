@@ -1,7 +1,7 @@
 {
     "buttons": [
         {
-            "id": "5599d34b-a1b0-4485-8f2e-e816177bbd19",
+            "id": "a41122e2-dc16-4545-aada-8b3bd760d3a4",
             "centerX": 0.01799488,
             "centerY": 66.506714,
             "width": 0.0010995697,
@@ -16,7 +16,7 @@
             "isUnmovable": false
         },
         {
-            "id": "df944d0c-c255-4a50-9b18-07b07d715769",
+            "id": "8d8aa7b7-2762-4b0d-8025-55b6009672e3",
             "centerX": 0.019601945,
             "centerY": 66.506714,
             "width": 0.0010995697,
@@ -31,7 +31,7 @@
             "isUnmovable": false
         },
         {
-            "id": "767b5307-ec5d-49b6-bf05-13ddc1dba022",
+            "id": "948514e2-9044-4053-93d9-07eb1309b80d",
             "centerX": 0.01799488,
             "centerY": 81.99327,
             "width": 0.0010995697,
@@ -46,7 +46,7 @@
             "isUnmovable": false
         },
         {
-            "id": "7cf7d80e-adaa-4ab2-aa13-48ff41fc609f",
+            "id": "c6a5856e-9bd2-4678-a5eb-fd9110fe46cf",
             "centerX": 0.019601945,
             "centerY": 81.99327,
             "width": 0.0010995697,
@@ -61,7 +61,7 @@
             "isUnmovable": false
         },
         {
-            "id": "6af5fbf5-efcf-4555-a2b4-c1217cd54e77",
+            "id": "75437ad4-bb7d-4439-8a5c-8b00da046b48",
             "centerX": 0.019420788,
             "centerY": 40.460274,
             "width": 0.0021457933,
@@ -76,7 +76,7 @@
             "isUnmovable": false
         },
         {
-            "id": "4af66e57-845b-4418-950a-bef879cac4d1",
+            "id": "ea77ea29-3034-409b-8758-1d91ed64023b",
             "centerX": 0.041997455,
             "centerY": 18.709953,
             "width": 0.0036417374,
@@ -91,7 +91,7 @@
             "isUnmovable": false
         },
         {
-            "id": "29b6ae7d-3710-4c8a-8ee6-a11ff5dc8eb3",
+            "id": "3deb8c92-f5e1-43f5-87b9-46c57366a26d",
             "centerX": 0.090057366,
             "centerY": 6.8120456,
             "width": 0.011368314,
@@ -106,7 +106,7 @@
             "isUnmovable": false
         },
         {
-            "id": "c65afa7d-0adf-469b-ac5a-8f836f2a58f3",
+            "id": "ef347e4f-4058-439e-a935-3b50e8288775",
             "centerX": 0.19488642,
             "centerY": 4.0723705,
             "width": 0.01634354,
@@ -121,7 +121,7 @@
             "isUnmovable": false
         },
         {
-            "id": "8e78ee38-bc87-4f27-8b9d-e2cac4925da5",
+            "id": "e808ec13-fcfb-41fd-b535-e31053ada1fb",
             "centerX": 0.41817486,
             "centerY": 1.7510244,
             "width": 0.049598865,
@@ -136,7 +136,7 @@
             "isUnmovable": false
         },
         {
-            "id": "1ca2af50-a87a-449e-9893-0660bf359d1e",
+            "id": "3edc5d8d-4f6d-4077-913a-b40c198ce6cf",
             "centerX": 0.9184329,
             "centerY": 0.7638889,
             "width": 0.059087988,
@@ -152,8 +152,8 @@
         }
     ],
     "joystick": {
-        "centerX": 0.098908156,
-        "centerY": 0.77916664,
+        "centerX": 0.10019268,
+        "centerY": 0.78333336,
         "outerCircleRadius": 0.12083333,
         "knobRadius": 0.056944445,
         "alpha": 0,

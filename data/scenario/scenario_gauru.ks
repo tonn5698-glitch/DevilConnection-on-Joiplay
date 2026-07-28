@@ -471,7 +471,7 @@ Tên này… càng nói càng lộ nhược điểm.[r]Không có uy nghiêm gì
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=37]Dừng lại[resetfont][p]
+[font size=37]Dừng lại [resetfont][p]
 [_tb_end_text]
 
 *zyagan1_modoru2
@@ -486,7 +486,7 @@ Tên này… càng nói càng lộ nhược điểm.[r]Không có uy nghiêm gì
 [tb_show_message_window  ]
 [tb_start_text mode=4 ]
 #ガウルォス
-[if exp="f.kansou1 == 1]Nè, có thể có được sư phụ cool như thế này[l]thì vui lắm chứ?[tb_eval exp="f.HANYOU=1"][else]Ta hiếm khi chủ động mời mày luyện tập![l]Vậy nên, nè… được không?[tb_eval exp="f.HANYOU=0"][endif]
+[if exp="f.kansou1 == 1]Nè, có thể có được sư phụ cool như thế này[l]thì vui lắm chứ?[tb_eval exp="f.HANYOU=1"][else] Ta hiếm khi chủ động mời mày luyện tập![l]Vậy nên, nè… được không?[tb_eval exp="f.HANYOU=0"][endif]
 [_tb_end_text]
 
 [tb_eval  exp="f.kansou1=1"  name="kansou1"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
@@ -602,7 +602,7 @@ Tên ba hoa như vậy làm sư phụ,[r]thì dù là [emb exp="f.name"] cũng k
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/121.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Là vì hành vi của mày trông ngốc thôi[resetfont][r]À, hóa ra yếu đuối vậy à…[p]
+[font size=25]Là vì hành vi của mày trông ngốc thôi [resetfont][r]À, hóa ra yếu đuối vậy à…[p]
 [_tb_end_text]
 
 [chara_mod  name="ガウルォス"  time="0"  cross="false"  storage="chara/53/12.png"  ]
@@ -616,7 +616,7 @@ Tên ba hoa như vậy làm sư phụ,[r]thì dù là [emb exp="f.name"] cũng k
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/25.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Khoan khoan khoan! Đừng lấy mũi mà chém![r][resetfont]Cái mảnh vải đó là gì![p]
+[font size=25]Khoan khoan khoan! Đừng lấy mũi mà chém![r][resetfont] Cái mảnh vải đó là gì![p]
 [_tb_end_text]
 
 [jump  storage="scenario_gauru.ks"  target="*i"  ]
@@ -626,13 +626,13 @@ Tên ba hoa như vậy làm sư phụ,[r]thì dù là [emb exp="f.name"] cũng k
 [chara_show  name="感情オーラ1"  time="1000"  wait="false"  storage="chara/11/moya1.png"  width="460"  height="200"  left="232"  top="119"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-[if exp="f.HANYOU == 1]Ừ vậy! Ngươi hiểu biết lắm.[r]Cần phải tôn trọng Fuuga hơn nữa[else]Ừm! Được rồi![r]Sớm thôi…"][endif][p]
+[if exp="f.HANYOU == 1]Ừ vậy! Ngươi hiểu biết lắm.[r]Cần phải tôn trọng Fuuga hơn nữa [else] Ừm! Được rồi![r]Sớm thôi…"][endif][p]
 [_tb_end_text]
 
 [chara_mod  name="ガウルォス"  time="0"  cross="false"  storage="chara/53/7.png"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-[if exp="f.HANYOU == 1]Sớm thôi…[r]Nào, nhận lấy.[else]Nào, nhận lấy.[endif][p]
+[if exp="f.HANYOU == 1]Sớm thôi…[r]Nào, nhận lấy.[else] Nào, nhận lấy.[endif][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -848,7 +848,7 @@ Hãy đọc vị và đoán xem ta sẽ tấn công từ bên nào![p]
 [elsif exp="f.gauru==4"]
 [elsif exp="f.gauru==5"]
 #ガウルォス
-[if exp="f.kansou1==1]Nghịch[else]Nhảy[endif] khiêu khích là văn hóa xấu,[r]nên bỏ đi.[p]
+[if exp="f.kansou1==1]Nghịch [else] Nhảy [endif] khiêu khích là văn hóa xấu,[r]nên bỏ đi.[p]
 [elsif exp="f.gauru==6"]
 #ガウルォス
 Ngươi…[r]khá là nghịch ngợm nhỉ.[p]
@@ -889,7 +889,7 @@ Nghĩ đi nghĩ lại. Chém về phía có ma quỷ.[r]Nếu nghĩ là bên tr�
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-[if exp="f.kansou2 == 1]Đã hiểu đúng cách chưa?[r]Vậy thì bắt đầu thôi![else]Đã đọc được suy nghĩ trong lòng chưa?[r]Vậy thì bắt đầu thôi![endif][p]
+[if exp="f.kansou2 == 1]Đã hiểu đúng cách chưa?[r]Vậy thì bắt đầu thôi![else] Đã đọc được suy nghĩ trong lòng chưa?[r]Vậy thì bắt đầu thôi![endif][p]
 
 [_tb_end_text]
 
@@ -904,22 +904,22 @@ Nghĩ đi nghĩ lại. Chém về phía có ma quỷ.[r]Nếu nghĩ là bên tr�
 [tb_start_tyrano_code]
 [if exp="f.gauru==1"]
 #ガウルォス
-[if exp="f.gauru==1]Hãy dùng Evil Eye đúng cách![else]Hãy dùng Evil Eye đúng cách![endif]
+[if exp="f.gauru==1]Hãy dùng Evil Eye đúng cách![else] Hãy dùng Evil Eye đúng cách![endif]
 [elsif exp="f.gauru==2"]
 #ガウルォス
-[if exp="f.gauru==2]Hãy dùng Evil Eye đúng cách![l]Hai[endif]
+[if exp="f.gauru==2]Hãy dùng Evil Eye đúng cách![l]Hai [endif]
 [elsif exp="f.gauru==3"]
 #ガウルォス
-[if exp="f.gauru==3]Hãy dùng Evil Eye đúng cách![l]Ba[endif]
+[if exp="f.gauru==3]Hãy dùng Evil Eye đúng cách![l]Ba [endif]
 [elsif exp="f.gauru==4"]
 #ガウルォス
-[if exp="f.gauru==4][if exp="f.kansou1 == 1]Dừng lại trò nghịch khiêu khích[else]Dừng nhảy khiêu khích[endif][endif]
+[if exp="f.gauru==4][if exp="f.kansou1 == 1]Dừng lại trò nghịch khiêu khích [else] Dừng nhảy khiêu khích [endif][endif]
 [elsif exp="f.gauru==5"]
 #ガウルォス
 Ngươi đang chơi đùa.[l]…Với ta đó.
 [elsif exp="f.gauru==6"]
 #ガウルォス
-Huh, thú vị[if exp="f.hutanari == 1]kẻ[else][if exp="f.seibetu == 1]nam[else]nữ[endif][endif]…
+Huh, thú vị [if exp="f.hutanari == 1]kẻ [else][if exp="f.seibetu == 1]nam [else] nữ [endif][endif]…
 [elsif exp="f.gauru==7"]
 #ガウルォス
 Ngươi… góc tai đẹp lắm! Góc nhìn khá ổn.
@@ -964,7 +964,7 @@ Không dừng lạithìsẽ[l]đáng chê trách đó?
 
 [tb_start_text mode=1 ]
 #でびるん
-Kia mà…[if exp="f.kansou3 == 1]Lại thiếu ma lực nữa sao…[else]Chắc lại thiếu ma lực rồi[endif][r]Tch, từ phần tích trữ, ta sẽ lấy ra cho![p]
+Kia mà…[if exp="f.kansou3 == 1]Lại thiếu ma lực nữa sao…[else] Chắc lại thiếu ma lực rồi [endif][r]Tch, từ phần tích trữ, ta sẽ lấy ra cho![p]
 [_tb_end_text]
 
 [tb_eval  exp="f.mp+=10"  name="mp"  cmd="+="  op="t"  val="10"  val_2="undefined"  ]
@@ -1504,7 +1504,7 @@ Cùng nhau ăn, cùng nhau chiến đấu.[r]Những việc nhỏ nhặt đó l�
 [tb_start_text mode=1 ]
 #ガウルォス
 Sức mạnh kết nối và thăng tiến tinh thần càng mạnh,[r]sức mạnh tương hỗ giữa hai bên càng vững chắc.[p]
-Và kết quả là [font color=0xEC6FC5 bold=true]Kết nối Liên kết[resetfont]mạnh lên,[r]Fuuga và tinh linh đã chia sẻ ability và ma lực.[p]
+Và kết quả là [font color=0xEC6FC5 bold=true]Kết nối Liên kết [resetfont] mạnh lên,[r]Fuuga và tinh linh đã chia sẻ ability và ma lực.[p]
 
 [_tb_end_text]
 
@@ -1948,7 +1948,7 @@ Này ngươi, đã làm gì[r][emb exp="f.name"] vậy![p]
 [mind_voice  color="0xe83156"  name="ガウルォス"  text="Đừng lạm dụng Ma Nhĩ quá mức đấy?"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-[if exp="sf.Lamia_noroi == 1]Nếu ở cùng con ma quỷ này[r]chắc chắn ổn[else]Nếu là ngươi thì chắc chắn ổn![endif][p]
+[if exp="sf.Lamia_noroi == 1]Nếu ở cùng con ma quỷ này[r]chắc chắn ổn [else] Nếu là ngươi thì chắc chắn ổn![endif][p]
 
 
 

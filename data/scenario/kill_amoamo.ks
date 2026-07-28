@@ -84,13 +84,13 @@ Umiyuu~ Chào buổi tối nha~[p]
 [chara_mod  name="あもあも"  time="0"  cross="false"  storage="chara/48/6.png"  ]
 [tb_start_text mode=1 ]
 #あもあも
-Thằng lười biếng Belbo cùng với kẻ cuồng tín[if exp="f.seibetu == 1]cậu[else]cô ấy[endif] hợp tác với nhau[r]hút cạn ma lực từ khắp Magilicia, nghe đứa này nói đấy[p]
+Thằng lười biếng Belbo cùng với kẻ cuồng tín [if exp="f.seibetu == 1]cậu [else] cô ấy [endif] hợp tác với nhau[r]hút cạn ma lực từ khắp Magilicia, nghe đứa này nói đấy[p]
 [_tb_end_text]
 
 [chara_mod  name="TAP"  time="0"  cross="false"  storage="chara/18/ku2.png"  ]
 [tb_start_text mode=1 ]
 #あもあも
-Ta lúc nào cũng kiếm mồi để xem tình hình thế nào[r]Đang đợi triệu hồi ở bể bơi đêm~ [font size=12]Cảm ơn vì đã cho ta biết nha[resetfont][p]
+Ta lúc nào cũng kiếm mồi để xem tình hình thế nào[r]Đang đợi triệu hồi ở bể bơi đêm~ [font size=12]Cảm ơn vì đã cho ta biết nha [resetfont][p]
 [_tb_end_text]
 
 [chara_hide  name="TAP"  time="3000"  wait="false"  pos_mode="false"  ]
@@ -305,7 +305,7 @@ Belbo tại sao lại làm chuyện này vậy?[p]
 [chara_mod  name="あもあも"  time="0"  cross="false"  storage="chara/48/11.png"  ]
 [tb_start_text mode=1 ]
 #あもあも
-Belbo không phải loại đứa biết trả thù đâu![r]Mọi thứ là lỗi của tên cuồng tín[if exp="f.seibetu == 1]cậu[else]cô ấy[endif] hết![p]
+Belbo không phải loại đứa biết trả thù đâu![r]Mọi thứ là lỗi của tên cuồng tín [if exp="f.seibetu == 1]cậu [else] cô ấy [endif] hết![p]
 
 
 
@@ -327,7 +327,7 @@ Này, các ngươi đã làm gì Belbo vậy!?[r]Trả Belbo của chúng ta l�
 [chara_mod  name="あもあも"  time="0"  cross="false"  storage="chara/48/12.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"]Asmodeus, ngươi đã[r]chế giễu bản tọa tơi tả trong lễ tấn phong[resetfont][p]
+[font face="kowai"]Asmodeus, ngươi đã[r]chế giễu bản tọa tơi tả trong lễ tấn phong [resetfont][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -434,7 +434,7 @@ Xin cậu[delay speed=100]…[resetdelay]Xin cậu mà[delay speed=100]…[reset
 [chara_mod  name="あもあも"  time="0"  cross="false"  storage="chara/48/8.png"  ]
 [tb_start_text mode=1 ]
 #あもあも
-Ồ, kẻ cuồng tín[if exp="f.seibetu == 1]cậu[else]cô ấy[endif][delay speed=100]…[resetdelay][r]Ma nhãn đã mở rồi hả[p]
+Ồ, kẻ cuồng tín [if exp="f.seibetu == 1]cậu [else] cô ấy [endif][delay speed=100]…[resetdelay][r]Ma nhãn đã mở rồi hả[p]
 [_tb_end_text]
 
 [chara_mod  name="あもあも"  time="0"  cross="false"  storage="chara/48/9.png"  ]

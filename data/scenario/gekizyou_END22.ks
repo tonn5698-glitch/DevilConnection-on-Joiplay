@@ -57,7 +57,7 @@ Thiên thần tình yêu Kupyadel và quỷ Devilun,[r]gửi đến bạn nhữn
 [chara_mod  name="劇場える"  time="0"  cross="false"  storage="chara/16/kupya2.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Kupya~...[if exp="sf.ruby_end == 0"][else]một lần nữa[endif]bị hạ gục rồi...[r]lại còn 3 con một lúc nữa[p]
+Kupya~...[if exp="sf.ruby_end == 0"][else] một lần nữa [endif] bị hạ gục rồi...[r]lại còn 3 con một lúc nữa[p]
 
 [_tb_end_text]
 
@@ -187,7 +187,7 @@ Magericia toàn đám đáng sợ hơn cả quỷ,[r]không hả, cút đi...[p]
 
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="f.kansou2 == 1]Không cần phải dùng Mê nhãn Search hai lần đâu![r]Đừng chủ quan đồ ngu![else]Nếu tránh về phía kẻ yếu đang bay thì sẽ bị[r]giết không bàn cãi... Đừng chọn sai đồ ngu![endif][p]
+[if exp="f.kansou2 == 1]Không cần phải dùng Mê nhãn Search hai lần đâu![r]Đừng chủ quan đồ ngu![else] Nếu tránh về phía kẻ yếu đang bay thì sẽ bị[r]giết không bàn cãi... Đừng chọn sai đồ ngu![endif][p]
 [_tb_end_text]
 
 [chara_mod  name="劇場える"  time="0"  cross="false"  storage="chara/16/kupya5.png"  ]

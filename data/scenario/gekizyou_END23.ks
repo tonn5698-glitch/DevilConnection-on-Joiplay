@@ -36,7 +36,7 @@
 
 [tb_start_text mode=1 ]
 #でびるん
-[delay speed=300]...[resetdelay]Nói gì đi chứ[r][font size=12]Thôi kệ, để ta lo liệu vậy[resetfont][p]
+[delay speed=300]...[resetdelay]Nói gì đi chứ[r][font size=12]Thôi kệ, để ta lo liệu vậy [resetfont][p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -104,7 +104,7 @@ Gh...Lúc đó ngã xuống là...[r]là do hắn gây ra sao![p]
 [chara_mod  name="劇場でび"  time="0"  cross="false"  storage="chara/15/dagya37.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Khốn kiếp...Tên quái vật Unyounyo đó... [r][font size=12]Cảm giác hôm đó bị sờ sừng đã quay lại rồi[resetfont][p]
+Khốn kiếp...Tên quái vật Unyounyo đó... [r][font size=12]Cảm giác hôm đó bị sờ sừng đã quay lại rồi [resetfont][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]

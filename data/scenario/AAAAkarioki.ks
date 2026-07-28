@@ -2,7 +2,7 @@
 
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="f.point == 0]…thế hả[endif][p]
+[if exp="f.point == 0]…thế hả [endif][p]
 [_tb_end_text]
 
 [mind_voice  color="0x56b0af"  name="でびるん"  text="Ê, bububu... À không có ma nhãn nên không truyền được à"  face="SVNHiroMisake"  ]
@@ -22,7 +22,7 @@
 [chara_hide  name="プレイヤー"  layer="1"  time="0"  wait="false"  pos_mode="false"  ]
 [tb_start_text mode=1 ]
 #むずかしいかんじ
-Mức[font face="KaiseiDecol-Bold"]độ[resetfont]　[font face="KaiseiDecol-Bold"]Hành[resetfont] vi liếm láp　[font face="KaiseiDecol-Bold"]Mối[resetfont] quan hệ sâu đậm[p]
+Mức [font face="KaiseiDecol-Bold"]độ [resetfont]　[font face="KaiseiDecol-Bold"]Hành [resetfont] vi liếm láp　[font face="KaiseiDecol-Bold"]Mối [resetfont] quan hệ sâu đậm[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -32,9 +32,9 @@ Mức[font face="KaiseiDecol-Bold"]độ[resetfont]　[font face="KaiseiDecol-Bo
 
 [tb_start_text mode=1 ]
 #強弱
-[font face="DZUYOKU"]A a a[resetfont][p]
-[font face="YOWAKU"]A a a[resetfont][p]
-[font face="kowai"]A a a[resetfont][p]
+[font face="DZUYOKU"]A a a [resetfont][p]
+[font face="YOWAKU"]A a a [resetfont][p]
+[font face="kowai"]A a a [resetfont][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -44,13 +44,13 @@ Mức[font face="KaiseiDecol-Bold"]độ[resetfont]　[font face="KaiseiDecol-Bo
 
 [tb_start_text mode=1 ]
 #カメラif
-[if exp="f.cameraEnable"]Camera bật[else]Camera tắt[endif] [p]
+[if exp="f.cameraEnable"]Camera bật [else] Camera tắt [endif] [p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #3キャラ目
-[if exp="f.finished.length==2"]Khi gặp con thứ 3[else]Ngoài ra[endif] [p]
+[if exp="f.finished.length==2"]Khi gặp con thứ 3[else] Ngoài ra [endif] [p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -60,17 +60,17 @@ Mức[font face="KaiseiDecol-Bold"]độ[resetfont]　[font face="KaiseiDecol-Bo
 
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="sf.kill == 0]Chưa giết[else]Đã giết[endif][p]
+[if exp="sf.kill == 0]Chưa giết [else] Đã giết [endif][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="sf.epilogue == 0]Chưa đi[else]Đã đi[endif][p]
+[if exp="sf.epilogue == 0]Chưa đi [else] Đã đi [endif][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="sf.kill == 0][emb exp="f.name"][else]Đồ rác[endif][p]
+[if exp="sf.kill == 0][emb exp="f.name"][else] Đồ rác [endif][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -93,12 +93,12 @@ Mức[font face="KaiseiDecol-Bold"]độ[resetfont]　[font face="KaiseiDecol-Bo
 
 [tb_start_text mode=1 ]
 #loop1のみ
-[if exp="f.currentLoop == 1]Lần đầu[else]Ngoài lần đầu[endif][p]
+[if exp="f.currentLoop == 1]Lần đầu [else] Ngoài lần đầu [endif][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #オスメス分岐
-[if exp="f.seibetu == 1]Anh trai quỷ[else]Chị gái quỷ[endif][p]
+[if exp="f.seibetu == 1]Anh trai quỷ [else] Chị gái quỷ [endif][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -129,7 +129,7 @@ Mức[font face="KaiseiDecol-Bold"]độ[resetfont]　[font face="KaiseiDecol-Bo
 
 [tb_start_text mode=1 ]
 #色
-[font color=0xEC6FC5 bold=true]Lười biếng[resetfont][p]
+[font color=0xEC6FC5 bold=true]Lười biếng [resetfont][p]
 
 [_tb_end_text]
 
@@ -153,41 +153,41 @@ Mức[font face="KaiseiDecol-Bold"]độ[resetfont]　[font face="KaiseiDecol-Bo
 
 [tb_start_text mode=1 ]
 #If構文
-[if exp="f.end_complete == 1"]cậu[else]cậu[endif][p]
+[if exp="f.end_complete == 1"]cậu [else] cậu [endif][p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #If構文
-[if exp="f.seibetu == 1"]cậu[else]cậu[endif][p]
+[if exp="f.seibetu == 1"]cậu [else] cậu [endif][p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #If構文
-[if exp="dc.aibou()"]Đã đi True End[else]Chưa đi True End[endif][p]
+[if exp="dc.aibou()"]Đã đi True End [else] Chưa đi True End [endif][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ネオ
-[font color=0xab0009 bold=true][quake_text][delay speed=100][if exp="dc.aibou()"]Đã đi True End[else]Chưa đi True End[endif][resetdelay][free_quake_text][resetfont][p]
+[font color=0xab0009 bold=true][quake_text][delay speed=100][if exp="dc.aibou()"]Đã đi True End [else] Chưa đi True End [endif][resetdelay][free_quake_text][resetfont][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #If構文
-[if exp="f.syo == 1"][else]Triệu hồi sư[endif][p]
+[if exp="f.syo == 1"][else] Triệu hồi sư [endif][p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #If構文
-[if exp="f.hutanari == 1"]Shemale[else]Không phải[endif][p]
+[if exp="f.hutanari == 1"]Shemale [else] Không phải [endif][p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #システム変数If構文
-[if exp="sf.hensuu == 1"]Số này[else]Ngoài số này[endif][p]
+[if exp="sf.hensuu == 1"]Số này [else] Ngoài số này [endif][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -300,7 +300,7 @@ Ngừng khiêu khích squat đi[p]
 Mày đang chơi đấy à[r]…với tao đấy.[p]
 [elsif exp="f.gauru==6"]
 #ガウルォス
-Hê, thú vị đấy[if exp="f.seibetu == 1]trai[else]gái[endif]…[p]
+Hê, thú vị đấy [if exp="f.seibetu == 1]trai [else] gái [endif]…[p]
 [elsif exp="f.gauru==7"]
 #ガウルォス
 Anh bạn… mái tóc trước trông[r]khá ngon đấy![p]

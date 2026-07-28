@@ -96,7 +96,7 @@ Hoan hô~To lên rồi! May mắn quá[r]Cái này để tớchiếm hết hết
 
 [tb_start_text mode=1 ]
 #でびるん
-Nhìn này, sương mù xuất hiện rồi. [wait time=200]Đó là cảm xúc của hắn được[r][font color=0xEC6FC5 bold=true]Hào Quang Cảm Xúc[resetfont]hóa hình. Thức ăn ngon cho tao đấy.[p]
+Nhìn này, sương mù xuất hiện rồi. [wait time=200]Đó là cảm xúc của hắn được[r][font color=0xEC6FC5 bold=true]Hào Quang Cảm Xúc [resetfont] hóa hình. Thức ăn ngon cho tao đấy.[p]
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/1.png"  ]
@@ -225,7 +225,7 @@ Nhưng! [wait time=200]Không phải muốn chọn gì thì chọn. [wait time=2
 [tb_start_text mode=4 ]
 #でびるん
 Tao là ác ma. Can thiệp vào đối phương là chuyện nhỏ![r]Qua Ma Nhãn có thể nhìn thấu lòng người.[p]
-[font size=24]Thử chạm vào hắn một lần[r]và dùng [font color=0xEC6FC5 bold=true]Ma Nhãn Tìm Kiếm[font color=white bold=false]xem![resetfont]
+[font size=24]Thử chạm vào hắn một lần[r]và dùng [font color=0xEC6FC5 bold=true]Ma Nhãn Tìm Kiếm [font color=white bold=false]xem![resetfont]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -588,7 +588,7 @@ Sao tự nhiên mệt thế...muốn về cung[nằm]lười~Phiêu lưu á, phi
 
 [tb_start_text mode=1 ]
 #でびるん
- примерно thế thôi.[r]Thời điểm thu hút ma thuật[if exp="f.judge == 'perfect'"]tốt lắm. [elsif exp="f.judge == 'good'"]tạm ổn[else]dở tệ[endif][p]
+ примерно thế thôi.[r]Thời điểm thu hút ma thuật [if exp="f.judge == 'perfect'"]tốt lắm. [elsif exp="f.judge == 'good'"]tạm ổn [else] dở tệ [endif][p]
 Hào quang cảm xúc bị đục thì ma thuật thu được giảm.[r]Dùng Ma Nhãn Tìm Kiếm mà xác định, kéo cảm xúc ra![p]
 [_tb_end_text]
 

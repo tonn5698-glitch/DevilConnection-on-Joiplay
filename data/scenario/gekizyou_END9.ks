@@ -65,7 +65,7 @@ Mày mà không gom đủ ma lực cho cuộc chiến phía trước,[r]thì đ�
 [camera  time="1000"  zoom="1.6"  wait="false"  layer="base"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=40]Nhạy cảm bằng 0 w[resetfont][p]
+[font size=40]Nhạy cảm bằng 0 w [resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="劇場でび"  time="0"  cross="false"  storage="chara/15/dagya24.png"  ]

@@ -150,7 +150,7 @@ TYRANO.kag.stat.is_strong_stop = false;
 
 [tb_start_text mode=1 ]
 #でびるん
-Nhìn đi, sương mù đã xuất hiện rồi. [wait time=200]Đó là [font color=0xEC6FC5 bold=true]quầng hào cảm xúc[resetfont] được chiết xuất từ cảm xúc của hắn.[r]Thật sự là dưỡng chất ngon lành cho ta.[p]
+Nhìn đi, sương mù đã xuất hiện rồi. [wait time=200]Đó là [font color=0xEC6FC5 bold=true]quầng hào cảm xúc [resetfont] được chiết xuất từ cảm xúc của hắn.[r]Thật sự là dưỡng chất ngon lành cho ta.[p]
 [_tb_end_text][p]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/1.png"  ]
@@ -303,7 +303,7 @@ Ta là ác quỷ. Can thiệp vào đối phương thì có gì khó![r]Bằng c
 
 [tb_start_text mode=4 ]
 #でびるん
-[font size=24]Đầu tiên thử nhắm vào hắn[r]dùng [font color=0xEC6FC5 bold=true]Con Mắt Tà[font color=white bold=false] thử xem![resetfont]
+[font size=24]Đầu tiên thử nhắm vào hắn[r]dùng [font color=0xEC6FC5 bold=true]Con Mắt Tà [font color=white bold=false] thử xem![resetfont]
 [_tb_end_text]
 
 [disable_skip_button visible="true"]
@@ -568,7 +568,7 @@ Thật là…giờ quay lại thu hồi[r]3 viên ma lực đang lơ lửng xung
 [playse  volume="100"  time="0"  buf="4"  storage="hirameki.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Mẹo là chú ý [font color=0xEC6FC5 bold=true]màu mặt cái sọ trước cổ ta[resetfont][r][font size=25]Nào! Thử đi![resetfont][p]
+Mẹo là chú ý [font color=0xEC6FC5 bold=true]màu mặt cái sọ trước cổ ta [resetfont][r][font size=25]Nào! Thử đi![resetfont][p]
 [_tb_end_text]
 
 [jump  storage="scenario_pain.ks"  target="*tenshi_jump"  ]
@@ -637,7 +637,7 @@ Khốn kiếp…cục lông phiền thật. Giờ thu hồi[r]3 viên ma lực �
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/8.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Mẹo là chú ý [font color=0xEC6FC5 bold=true]màu mặt cái sọ trước cổ ta[resetfont][r][font size=25]Nào! Thử đi![resetfont][p]
+Mẹo là chú ý [font color=0xEC6FC5 bold=true]màu mặt cái sọ trước cổ ta [resetfont][r][font size=25]Nào! Thử đi![resetfont][p]
 [_tb_end_text]
 
 *tenshi_jump
@@ -701,7 +701,7 @@ Mẹo là chú ý [font color=0xEC6FC5 bold=true]màu mặt cái sọ trước c
 [fadein_window  time="1000"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Roughlychính là như vậy[r]thời điểm hấp thu ma lực, [if exp="f.judge == 'perfect'"]tốt lắm.[elsif exp="f.judge == 'good'"]được[else]tệ nhưng mà thôi[endif][p]
+Roughlychính là như vậy[r]thời điểm hấp thu ma lực, [if exp="f.judge == 'perfect'"]tốt lắm.[elsif exp="f.judge == 'good'"]được [else] tệ nhưng mà thôi [endif][p]
 Quầng cảm xúc bị đục thì ma lực thu được sẽ giảm.[r]Dùng Con Mắt Tà xem xét kỹ rồi khơi gợi cảm xúc cho đúng![p]
 [_tb_end_text]
 
@@ -720,7 +720,7 @@ Thấy chưa? Hiểu rồi chứ?[wait time=500]
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/1.png"  ]
 [tb_start_text mode=1 ]
 #でびるん[p]
-Kufufu… ngoan lắm[emb exp="f.name"]♥[p]
+Kufufu… ngoan lắm [emb exp="f.name"]♥[p]
 
 [_tb_end_text]
 

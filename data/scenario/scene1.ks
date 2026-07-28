@@ -342,7 +342,7 @@ tf.ngWord = dc.ngWords.some(word => f.name.includes(word))
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/2.png"  ]
 [tb_start_text mode=4 ]
 #&f.debiName
-[font size=25]Dài.[wait time=300][resetfont]Sao nhớ được.[wait time=400][r]Dưới 10 chữ thôi![wait time=200]
+[font size=25]Dài.[wait time=300][resetfont] Sao nhớ được.[wait time=400][r]Dưới 10 chữ thôi![wait time=200]
 [_tb_end_text]
 
 [jump  storage="scene1.ks"  target="*input_start"  ]
@@ -353,7 +353,7 @@ tf.ngWord = dc.ngWords.some(word => f.name.includes(word))
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/5.png"  ]
 [tb_start_text mode=1 ]
 #&f.debiName
-[if exp="sf.kill==0"]Cái tên đó[delay speed=100]・・・[resetdelay]không, không có gì. [r]G…gọi thấy khó chịu nên đổi cái khác![else]Ota cuồng ác ma à[delay speed=100]・・・[resetdelay][r]G…gọi thấy khó chịu nên đổi cái khác![endif][p]
+[if exp="sf.kill==0"]Cái tên đó[delay speed=100]・・・[resetdelay]không, không có gì. [r]G…gọi thấy khó chịu nên đổi cái khác![else] Ota cuồng ác ma à[delay speed=100]・・・[resetdelay][r]G…gọi thấy khó chịu nên đổi cái khác![endif][p]
 [_tb_end_text]
 
 [jump  storage="scene1.ks"  target="*input_start"  ]
@@ -402,10 +402,10 @@ A, không có gì[r]ta đang tự nói chuyện thôi
 …Nói mới nhớ lúc bị hút vào ma trận, thằng kia[r]mặt dữ tợn lắm. [font size=12]Có cần sợ vậy không?[resetfont][p]
 [elsif exp="sf.kill==2"]
 #&f.debiName
-…Nói mới nhớ lúc bị hút vào ma trận, thằng kia[r]cứ ra sức kéo ta ra. [font size=12]Thằng đó là ai trời[resetfont][p]
+…Nói mới nhớ lúc bị hút vào ma trận, thằng kia[r]cứ ra sức kéo ta ra. [font size=12]Thằng đó là ai trời [resetfont][p]
 [elsif exp="sf.kill>=3"]
 #&f.debiName
-…Nói mới nhớ lúc bị hút vào ma trận, thằng kia[r]đứng đực ra đó. [font size=12]Nó bị gì rồi trời[resetfont][p]
+…Nói mới nhớ lúc bị hút vào ma trận, thằng kia[r]đứng đực ra đó. [font size=12]Nó bị gì rồi trời [resetfont][p]
 [endif]
 [_tb_end_tyrano_code]
 
@@ -423,7 +423,7 @@ A, không có gì[r]ta đang tự nói chuyện thôi
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/2.png"  ]
 [tb_start_text mode=4 ]
 #&f.debiName
-[font face="KaiseiDecol-Bold"]T[resetfont]a mà cũng dám trừ sao！[wait time=200][if exp="sf.kill== 0]thằng ngu[else]thế mà cũng là tín đồ à![endif]！[wait time=200]
+[font face="KaiseiDecol-Bold"]T [resetfont] a mà cũng dám trừ sao！[wait time=200][if exp="sf.kill== 0]thằng ngu [else] thế mà cũng là tín đồ à![endif]！[wait time=200]
 [_tb_end_text]
 
 [jump  storage="scene1.ks"  target="*input_start"  ]
@@ -800,7 +800,7 @@ TYRANO.kag.ftag.startTag("jump",{target:"*hutanari"});
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/10.png"  ]
 [tb_start_text mode=1 ]
 #&f.debiName
-Gyaha![wait time=200]đúng là mày thuộc loại[r][playse  volume="100"  time="0"  buf="3"  storage="bane.ogg"  ][font size=22]thấp[wait time=400][playse  volume="100"  time="0"  buf="3"  storage="bane.ogg"  ]hèn[wait time=400][resetfont]thật[wait time=400]đàrw[p]
+Gyaha![wait time=200]đúng là mày thuộc loại[r][playse  volume="100"  time="0"  buf="3"  storage="bane.ogg"  ][font size=22]thấp[wait time=400][playse  volume="100"  time="0"  buf="3"  storage="bane.ogg"  ]hèn[wait time=400][resetfont] thật[wait time=400]đàrw[p]
 [_tb_end_text]
 
 [jump  storage="scene1.ks"  target="*input_coinfirm"  cond="f.name!=''"  ]
@@ -820,7 +820,7 @@ Gyaha![wait time=200]đúng là mày thuộc loại[r][playse  volume="100"  tim
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/10.png"  ]
 [tb_start_text mode=4 ]
 #&f.debiName
-[if exp="f.HANYOU == 1]Vậy ra[else]Hay là[endif]không xác định được hả~？
+[if exp="f.HANYOU == 1]Vậy ra [else] Hay là [endif] không xác định được hả~？
 [_tb_end_text]
 
 [tb_eval  exp="f.HANYOU=1"  name="HANYOU"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
@@ -854,7 +854,7 @@ K…kệ đi.
 [tb_eval  exp="f.seibetu=1"  name="seibetu"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
 [tb_start_text mode=1 ]
 #&f.debiName
-Ừ[font color=0x6DB7AB bold=true]Đực[resetfont]hà. [wait time=200][r]Kệ,[wait time=200]chuyện đó cũng không quan trọng.[p]
+Ừ [font color=0x6DB7AB bold=true]Đực [resetfont] hà. [wait time=200][r]Kệ,[wait time=200]chuyện đó cũng không quan trọng.[p]
 [_tb_end_text]
 
 [jump  storage="scene1.ks"  target="*namae_kakunin"  ]
@@ -864,7 +864,7 @@ K…kệ đi.
 [tb_eval  exp="f.seibetu=2"  name="seibetu"  cmd="="  op="t"  val="2"  val_2="undefined"  ]
 [tb_start_text mode=1 ]
 #&f.debiName
-Ừ[font color=0xEC6FC5 bold=true]Cái[resetfont]hà. [wait time=200][r]Kệ,[wait time=200]chuyện đó cũng không quan trọng.[p]
+Ừ [font color=0xEC6FC5 bold=true]Cái [resetfont] hà. [wait time=200][r]Kệ,[wait time=200]chuyện đó cũng không quan trọng.[p]
 [_tb_end_text]
 
 *namae_kakunin
@@ -872,7 +872,7 @@ K…kệ đi.
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/8.png"  ]
 [tb_start_text mode=4 ]
 #&f.debiName
-Tên là[emb exp="f.name"][delay speed=200]・・・[resetdelay][wait time=400][r]Chắc đúng là tên này nhỉ?
+Tên là [emb exp="f.name"][delay speed=200]・・・[resetdelay][wait time=400][r]Chắc đúng là tên này nhỉ?
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -888,7 +888,7 @@ Tên là[emb exp="f.name"][delay speed=200]・・・[resetdelay][wait time=400][
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/2.png"  ]
 [tb_start_text mode=4 ]
 #&f.debiName
-[font size=31]Nói mau lên đồ ngu[resetfont]
+[font size=31]Nói mau lên đồ ngu [resetfont]
 [_tb_end_text]
 
 [jump  storage="scene1.ks"  target="*input_start"  ]
@@ -953,7 +953,7 @@ Hả,[wait time=200]tên ta á?[wait time=200]Cho mày biết sao được[delay
 [playse  volume="100"  time="0"  buf="1"  storage="aseru.ogg"  ]
 [tb_start_text mode=4 ]
 #&f.debiName
-Hả,[wait time=200]tên ta á?[wait time=200][if exp="f.bel_call == 0]Chưa quyết định tên tạm gì cả…[r]Kệ, gọi bừa đi[else]Gọi bằng tên thật thì cũng[r]không được…thôi gọi bừa đi[endif]
+Hả,[wait time=200]tên ta á?[wait time=200][if exp="f.bel_call == 0]Chưa quyết định tên tạm gì cả…[r]Kệ, gọi bừa đi [else] Gọi bằng tên thật thì cũng[r]không được…thôi gọi bừa đi [endif]
 [_tb_end_text]
 
 [skipstop]
@@ -982,7 +982,7 @@ Hả,[wait time=200]tên ta á?[wait time=200][if exp="f.bel_call == 0]Chưa quy
 [tb_eval  exp="f.HANYOU=0"  name="HANYOU"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=21]V…[wait time=200]Devilun!？[wait time=200][font size=14][if exp="f.debirun2 == 1"][r]À ra là cái tên tạm ứng cử lúc nãy của bản đại nhân, quê quá…[else]Ngố quá đi đồ đần này![wait time=300][r]Thôi kệ. [wait time=200][font size=10]Đm[delay speed=200]・・・[resetdelay]dù sao cũng taste dở quá[endif][resetfont][p]
+[font size=21]V…[wait time=200]Devilun!？[wait time=200][font size=14][if exp="f.debirun2 == 1"][r]À ra là cái tên tạm ứng cử lúc nãy của bản đại nhân, quê quá…[else] Ngố quá đi đồ đần này![wait time=300][r]Thôi kệ. [wait time=200][font size=10]Đm[delay speed=200]・・・[resetdelay]dù sao cũng taste dở quá [endif][resetfont][p]
 [_tb_end_text]
 
 [chara_move  name="プレイヤー"  anim="true"  time="800"  effect="easeOutQuad"  wait="false"  left="0"  top="0"  width="1280"  height="960"  ]
@@ -1012,7 +1012,7 @@ Vào chủ đề chính. [wait time=200]Ta ký hợp đồng với mày là có 
 [playse  volume="100"  time="0"  buf="1"  storage="galtukari.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="sf.kill== 0]Bây giờ thiếu ma lực nên chỉ là hình dáng nhỏ bé thôi[r]nhưng thực ra ta là ác ma lớn đáng sợ hơn nhiều![else]Tín đồ cuồng ác ma thì phải biết chứ? Bản chất ta là[r]ác ma lớn đáng sợ hơn nhiều![endif][wait time=200]Muốn thấy hình dáng đó không~[p]
+[if exp="sf.kill== 0]Bây giờ thiếu ma lực nên chỉ là hình dáng nhỏ bé thôi[r]nhưng thực ra ta là ác ma lớn đáng sợ hơn nhiều![else] Tín đồ cuồng ác ma thì phải biết chứ? Bản chất ta là[r]ác ma lớn đáng sợ hơn nhiều![endif][wait time=200]Muốn thấy hình dáng đó không~[p]
 [_tb_end_text]
 
 [jump  storage="scene1.ks"  target="*kill"  cond="sf.kill!=0"  ]
@@ -1100,7 +1100,7 @@ Thế nên, mày là tín đồ thì[r]không cần ta nói mày cũng hiểu ch
 [call  storage="mp.ks"  target="*show"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=22]Thu thập ma lực cho ta đi[resetfont][p]
+[font size=22]Thu thập ma lực cho ta đi [resetfont][p]
 [_tb_end_text]
 
 [hide_photo_button]

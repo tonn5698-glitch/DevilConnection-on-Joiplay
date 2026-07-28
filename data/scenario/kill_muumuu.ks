@@ -681,7 +681,7 @@ Thật sự, mày có tiền[r]mua đá ma không?[p]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ムゥムゥ
-Mufufuu[if exp="f.HANYOU==1]như vừa nói[endif]đây là bảo bối phép thuật[r]thật sự đắt tiền, Muu thích lắm~[p]
+Mufufuu [if exp="f.HANYOU==1]như vừa nói [endif] đây là bảo bối phép thuật[r]thật sự đắt tiền, Muu thích lắm~[p]
 
 [_tb_end_text]
 
@@ -866,7 +866,7 @@ Nói hùng hổ mua mà[r]lóng ngóng vậy~[p]
 
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Đưa đây[resetfont][p]
+[font size=25]Đưa đây [resetfont][p]
 [_tb_end_text]
 
 [playbgm  volume="50"  time="0"  loop="true"  storage="16_the_devil_s_power.ogg"  ]

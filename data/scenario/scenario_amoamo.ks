@@ -96,7 +96,7 @@ Con bé lười biếng trốn việc Belbo triệu hồi[r]đồng minh cùng t
 [chara_mod  name="TAP"  time="0"  cross="false"  storage="chara/18/ku2.png"  ]
 [tb_start_text mode=1 ]
 #あもあも
-Muốn xem tình hình nên luôn tìm prey, canh[r]tại bể bơi đêm chờ triệu hồi~ [font size=12]Cảm ơn nha[resetfont][p]
+Muốn xem tình hình nên luôn tìm prey, canh[r]tại bể bơi đêm chờ triệu hồi~ [font size=12]Cảm ơn nha [resetfont][p]
 [_tb_end_text]
 
 [chara_hide  name="TAP"  time="3000"  wait="false"  pos_mode="false"  ]
@@ -400,7 +400,7 @@ Hừ, đúng vậy. Chỉ cần ra ngoài một chút,[r]thiết lập cơ chế
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/73.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="f.cony == 1]Cảnh sát ở đâu đó cũng nói thế[else]Th-thật sao?[endif][r]Thật lòng không ngờ chuyện nghiêm trọng đến thế…[p]
+[if exp="f.cony == 1]Cảnh sát ở đâu đó cũng nói thế [else] Th-thật sao?[endif][r]Thật lòng không ngờ chuyện nghiêm trọng đến thế…[p]
 
 [_tb_end_text]
 
@@ -970,14 +970,14 @@ Thích con trai hay con gái?[r]Amo có thể biến cả hai![p]
 
 [tb_start_text mode=1 ]
 #あもあも
-[if exp="f.hutanari == 1][emb exp="f.name"] như Amo rồi nhỉ…[r]Giống nhau chiến đấu được không?[else]Túi bơm cũng có thể to lên, nhỏ lại…[r]À, thích hình dạng bé như Belbo hơn?[endif][p]
+[if exp="f.hutanari == 1][emb exp="f.name"] như Amo rồi nhỉ…[r]Giống nhau chiến đấu được không?[else] Túi bơm cũng có thể to lên, nhỏ lại…[r]À, thích hình dạng bé như Belbo hơn?[endif][p]
 [_tb_end_text]
 
 [playse  volume="100"  time="0"  buf="1"  storage="sasu2.ogg"  ]
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="f.hutanari == 1][font size=22]Giống nhau chiến đấu là cái gì!![else][font size=25]Này [emb exp="f.name"]! Đừng hùa![r][font size=12]T-ta-kiếp này luôn tưởng là gái[resetfont][endif][p]
+[if exp="f.hutanari == 1][font size=22]Giống nhau chiến đấu là cái gì!![else][font size=25]Này [emb exp="f.name"]! Đừng hùa![r][font size=12]T-ta-kiếp này luôn tưởng là gái [resetfont][endif][p]
 
 
 [_tb_end_text]
@@ -986,7 +986,7 @@ Thích con trai hay con gái?[r]Amo có thể biến cả hai![p]
 [chara_mod  name="あもあも"  time="0"  cross="false"  storage="chara/48/14.png"  ]
 [tb_start_text mode=1 ]
 #あもあも
-Đến đây, [if exp="pháp_law== 1]Amo sẽ dùng[c]Pháo Androgynous[r]cho cậu xem[else]Amo sẽ cứu[r]cậu[endif][p]
+Đến đây, [if exp="pháp_law== 1]Amo sẽ dùng[c]Pháo Androgynous[r]cho cậu xem [else] Amo sẽ cứu[r]cậu [endif][p]
 
 
 
@@ -1092,7 +1092,7 @@ Không nhận ra,[r]phô trương rồi không thể quay lại[p]
 [playse  volume="100"  time="0"  buf="1"  storage="amo2.ogg"  ]
 [tb_start_text mode=1 ]
 #あもあも
-Thưởng thức thật nhiều[p][emb exp="f.name"][if exp="f.seibetu == 1]cậu[else]cô[endif] nha![p]
+Thưởng thức thật nhiều[p][emb exp="f.name"][if exp="f.seibetu == 1]cậu [else] cô [endif] nha![p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]

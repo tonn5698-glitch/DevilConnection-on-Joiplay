@@ -1015,7 +1015,7 @@ Có giỏi thì thử đi.[wait time=500]
 
 [tb_start_text mode=1 ]
 #ラミア
-Haha, hiệu quả của phép nguyền vẫn còn.[r][if exp="f.kansou2 == 1]Đúng rồi! Đặc biệt cho mày sống không chết vậy![else]Tự mình đốt mình, thật hài hước![endif][p]
+Haha, hiệu quả của phép nguyền vẫn còn.[r][if exp="f.kansou2 == 1]Đúng rồi! Đặc biệt cho mày sống không chết vậy![else] Tự mình đốt mình, thật hài hước![endif][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -1027,7 +1027,7 @@ Mày đã nhẹ dạ đồng ý làm ma sứ của tao.[r]Làm sao mày có th�
 
 [tb_start_text mode=1 ]
 #ラミア
-[if exp="f.kansou2 == 1]Ký ức về ngọn lửa này sẽ bám theo mày suốt đời.[r]Haha. Khuôn mặt đó, thật hài hước! Kyahaha![else]Tử thi trong biển lửa, chẳng có gì lãng mạn.[r]Ừ, tao sẽ không giết mày đâu! Kyahaha![endif][p]
+[if exp="f.kansou2 == 1]Ký ức về ngọn lửa này sẽ bám theo mày suốt đời.[r]Haha. Khuôn mặt đó, thật hài hước! Kyahaha![else] Tử thi trong biển lửa, chẳng có gì lãng mạn.[r]Ừ, tao sẽ không giết mày đâu! Kyahaha![endif][p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -1145,7 +1145,7 @@ Dùng được thứ ma thuật bỉ ổi như vậy,[r]tao đã đánh giá t�
 [chara_mod  name="ラミア"  time="0"  cross="false"  storage="chara/52/16.png"  ]
 [tb_start_text mode=1 ]
 #ラミア
-[delay speed=300]・・・[resetdelay][if exp="sf.Lamia_noroi == 1]Nhưng sao nhỉ?[r]Tao vẫn cảm thấy mùi hương còn sót lại của phép nguyền.[resetdelay][else]Tao thua.[r]Cho mày ma lực đó.[endif][p]
+[delay speed=300]・・・[resetdelay][if exp="sf.Lamia_noroi == 1]Nhưng sao nhỉ?[r]Tao vẫn cảm thấy mùi hương còn sót lại của phép nguyền.[resetdelay][else] Tao thua.[r]Cho mày ma lực đó.[endif][p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -1171,7 +1171,7 @@ Dùng được thứ ma thuật bỉ ổi như vậy,[r]tao đã đánh giá t�
 
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="sf.Lamia_noroi == 1]Nó đang nói cái gì vậy nhỉ? Thôi kệ,[else]…Hình như đã ổn rồi[endif][r]Trước khi bị nó yểm phép nguyền gì lạ nữa, mau thu thập ma lực thôi![p]
+[if exp="sf.Lamia_noroi == 1]Nó đang nói cái gì vậy nhỉ? Thôi kệ,[else]…Hình như đã ổn rồi [endif][r]Trước khi bị nó yểm phép nguyền gì lạ nữa, mau thu thập ma lực thôi![p]
 
 [_tb_end_text]
 
@@ -1191,7 +1191,7 @@ Dùng được thứ ma thuật bỉ ổi như vậy,[r]tao đã đánh giá t�
 
 [tb_start_text mode=1 ]
 #ラミア
-[if exp="sf.Lamia_noroi == 1]Nhìn dài hạn thì tao thắng.[else]Cảm ơn đã đưa thế giới đến ngày tận thế.[endif][p]
+[if exp="sf.Lamia_noroi == 1]Nhìn dài hạn thì tao thắng.[else] Cảm ơn đã đưa thế giới đến ngày tận thế.[endif][p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]

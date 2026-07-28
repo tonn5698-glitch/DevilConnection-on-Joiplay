@@ -139,7 +139,7 @@ Cứ ngỡ bị quỷ mọc cánh cho, giờ lại cảm thấy bị hút mất 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/65.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Hừ, cái lông xù khốn kiếp[r][if exp="f.pain_tenshi == 1]Tao sẽ cho nó hối hận vì đã chọn cánh thiên sứ[else]Tao sẽ cho nó thấy sự uy nghiêm của quỷ[endif][p]
+Hừ, cái lông xù khốn kiếp[r][if exp="f.pain_tenshi == 1]Tao sẽ cho nó hối hận vì đã chọn cánh thiên sứ [else] Tao sẽ cho nó thấy sự uy nghiêm của quỷ [endif][p]
 [_tb_end_text]
 
 [chara_mod  name="マキ"  time="0"  cross="false"  storage="chara/61/5.png"  ]
@@ -277,7 +277,7 @@ Họ đã nói vậy đó ạ.[p]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/85.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Điều đó đúng là đáng ngờ thật![resetfont][r][if exp="f.chieshika == 1]Chết tiệt… hôm nay tao đã đủ chuyện đen đủi rồi[else]Cái đứa đó… mặt đáng yêu mà chẳng nghĩ được gì ra hồn[endif][p]
+[font size=25]Điều đó đúng là đáng ngờ thật![resetfont][r][if exp="f.chieshika == 1]Chết tiệt… hôm nay tao đã đủ chuyện đen đủi rồi [else] Cái đứa đó… mặt đáng yêu mà chẳng nghĩ được gì ra hồn [endif][p]
 [_tb_end_text]
 
 [chara_mod  name="マキ"  time="0"  cross="false"  storage="chara/61/5.png"  ]
@@ -320,7 +320,7 @@ Có phải là trò của con quỷ khiến người ta mắc tiểu không?[r]M
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/10.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Quỷ khiến người ta mắc tiểu á, có loại đó tồn tại được sao[resetfont][r]Mày coi quỷ là trò đùa hả mày![p]
+[font size=25]Quỷ khiến người ta mắc tiểu á, có loại đó tồn tại được sao [resetfont][r]Mày coi quỷ là trò đùa hả mày![p]
 [_tb_end_text]
 
 [chara_mod  name="マキ"  time="0"  cross="false"  storage="chara/61/5.png"  ]
@@ -409,7 +409,7 @@ Thế nên, tôi đã từ chối.[p]
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Con mèo dê biến thái đó, thật sự không chừa mà[r][font size=12]Mày cũng chẳng khá hơn là bao[resetfont][p]
+Con mèo dê biến thái đó, thật sự không chừa mà[r][font size=12]Mày cũng chẳng khá hơn là bao [resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="マキ"  time="0"  cross="false"  storage="chara/61/5.png"  ]
@@ -663,7 +663,7 @@ Quỷ thu nạp ma lực cùng pháp sư triệu hồi hợp tác bắt cóc[r]n
 [chara_show  name="感情オーラ1"  time="1000"  wait="false"  storage="chara/11/moya1-1.png"  width="460"  height="200"  left="222"  top="138"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #マキ
-Hả, chỉ là con dơi hút máu thôi á? Hút máu đối phương[r]để làm họ kiệt sức thôi sao? [font size=12]Thiếu sức nặng quá[resetfont][p]
+Hả, chỉ là con dơi hút máu thôi á? Hút máu đối phương[r]để làm họ kiệt sức thôi sao? [font size=12]Thiếu sức nặng quá [resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/10.png"  ]
@@ -981,7 +981,7 @@ Tức là… nếu lấy lại hình dáng thật,[r]sự rối ren này sẽ k�
 [chara_mod  name="マキ"  time="0"  cross="false"  storage="chara/61/2.png"  ]
 [tb_start_text mode=1 ]
 #マキ
-Ra vậy ha…[r][font size=12]Thất vọng một chút nhưng thấy không nghiêm trọng nên thở phào[resetfont][p]
+Ra vậy ha…[r][font size=12]Thất vọng một chút nhưng thấy không nghiêm trọng nên thở phào [resetfont][p]
 
 
 

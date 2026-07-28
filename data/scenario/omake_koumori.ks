@@ -199,7 +199,7 @@ Mày-[delay speed=100]...[resetdelay]rồi-[delay speed=100]...[resetdelay][p]
 [chara_mod  name="でびるん"  time="0"  cross="true"  storage="chara/1/11.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Ừ, màu vàng là [font color=0xfee864 bold=true]Zassu[resetfont][r]màu tím là [font color=0x8674db bold=true]Kokoyo[resetfont]![p]
+Ừ, màu vàng là [font color=0xfee864 bold=true]Zassu [resetfont][r]màu tím là [font color=0x8674db bold=true]Kokoyo [resetfont]![p]
 
 [_tb_end_text]
 

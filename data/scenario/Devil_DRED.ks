@@ -195,7 +195,7 @@ Kupya~ con tank đẹp trai ghê[r]con nghĩ vậy đó, kupya~[p]
 [chara_mod  name="コマえる"  time="0"  cross="false"  storage="chara/21/30.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-[font size=12]Bắt đầu từ Debi-kun, lũ quỷ[r]đơn giản và thẳng thắn bất ngờ[resetfont][p]
+[font size=12]Bắt đầu từ Debi-kun, lũ quỷ[r]đơn giản và thẳng thắn bất ngờ [resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="D・Red"  time="0"  cross="false"  storage="chara/77/8.png"  ]
@@ -350,7 +350,7 @@ Mất cảm giác…[r]ý là vậy sao[p]
 [chara_mod  name="D・Red"  time="0"  cross="false"  storage="chara/77/4.png"  ]
 [tb_start_text mode=1 ]
 #D・Red
-[font size=25]Ví dụ thôi[resetfont][r]đừng có nói từng câu, [c]ta sẽ giết[_c]mày![p]
+[font size=25]Ví dụ thôi [resetfont][r]đừng có nói từng câu, [c]ta sẽ giết[_c]mày![p]
 [_tb_end_text]
 
 [reset_mind_voice  ]
@@ -419,7 +419,7 @@ Vậy à~[p]
 [chara_mod  name="でび縛り"  time="0"  cross="true"  storage="chara/71/18.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Phù![r][font size=12]thật sự trói chặt quá đi[resetfont][p]
+[font size=25]Phù![r][font size=12]thật sự trói chặt quá đi [resetfont][p]
 
 
 [_tb_end_text]
@@ -555,7 +555,7 @@ Gọi vũ khí yêu quý của ta là đồ phế phẩm sao…[p]
 
 [tb_start_text mode=1 ]
 #D・Red
-[font size=25]Ta sẽ tiêu diệt ngươi[resetfont][p]
+[font size=25]Ta sẽ tiêu diệt ngươi [resetfont][p]
 
 [_tb_end_text]
 
@@ -640,7 +640,7 @@ Nhớ lại hồi còn là quỷ cấp thấp, ta nghe đồn[r]D·Red là kẻ 
 
 [tb_start_text mode=1 ]
 #でびるん
-Nếu đó là thật thì câu nói lúc nãy cũng trúng tim đen rồi[r][if exp="f.kansou1 == 1]Quái rác mà còn lên mặt là mày đấy![else]Quái rác mà còn dám lên mặt[endif][p]
+Nếu đó là thật thì câu nói lúc nãy cũng trúng tim đen rồi[r][if exp="f.kansou1 == 1]Quái rác mà còn lên mặt là mày đấy![else] Quái rác mà còn dám lên mặt [endif][p]
 [_tb_end_text]
 
 [jump  storage="Devil_DRED.ks"  target="*zyagan1_modoru_2"  ]
@@ -1354,7 +1354,7 @@ Có vẻ méo mó nhưng[r]cảm giác đó con hiểu, kupya~[p]
 [chara_mod  name="でびるん"  time="0"  cross="true"  storage="chara/1/33.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Sao hiểu được![r]Đáng sợ quá[resetfont][p]
+[font size=25]Sao hiểu được![r]Đáng sợ quá [resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="D・Red"  time="0"  cross="true"  storage="chara/77/22.png"  ]

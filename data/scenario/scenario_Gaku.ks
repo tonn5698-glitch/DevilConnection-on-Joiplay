@@ -672,7 +672,7 @@ Bubu. Chán thật[p]
 
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="f.HANYOU==1]Tsk, trái phải cũng không phân biệt được sao mày.[r][else]Nếu chịu khóÁc Nhãn search thì biết chứ![r]Tsk,[endif]Trật rồi...[p]
+[if exp="f.HANYOU==1]Tsk, trái phải cũng không phân biệt được sao mày.[r][else] Nếu chịu khóÁc Nhãn search thì biết chứ![r]Tsk,[endif] Trật rồi...[p]
 
 
 [_tb_end_text]
@@ -924,7 +924,7 @@ Kuhaha... Nhưng đồ robot vụng về, rốt cuộc[cũng không được thi
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/20.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="f.script == 0]Ồ, "spellcode"... spell code nhỉ.[r]Nhập luôn sao?[else]Đúng rồi, đúng kiểu mày thích[endif][p]
+[if exp="f.script == 0]Ồ, "spellcode"... spell code nhỉ.[r]Nhập luôn sao?[else] Đúng rồi, đúng kiểu mày thích [endif][p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
@@ -1428,7 +1428,7 @@ Cái gì!?[wait time=200]Vừa nãy còn đọc được suy nghĩ mà giờ ch�
 [playse  volume="100"  time="0"  buf="1"  storage="sasu.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Đồ ngu! Thằng này ngu![resetfont]Sợ quá nên[r]nói hai lần. Dễ xài tốt quá...[p]
+[font size=25]Đồ ngu! Thằng này ngu![resetfont] Sợ quá nên[r]nói hai lần. Dễ xài tốt quá...[p]
 
 
 [_tb_end_text]
@@ -1529,7 +1529,7 @@ NếuÁc Nhãn search kết hợp phép thuật của mày thì[r]kể cả robo
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/12.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Mà bị hành hạ thế thì chán thật...[r][font size=12]Tên thật của bản đại nhân... tuyệt đối không được để lộ[resetfont][p]
+Mà bị hành hạ thế thì chán thật...[r][font size=12]Tên thật của bản đại nhân... tuyệt đối không được để lộ [resetfont][p]
 
 [_tb_end_text]
 
@@ -1552,7 +1552,7 @@ Fufun, trước mặt bản đại nhân thì[r]suy nghĩ cũng coi như bị ha
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/2.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Nếu nghĩ chuyệnkỳ lạ thì không dễ tha đâu![r]À" nhỉ? Hiểu chưa[emb exp="f.name"][p]
+Nếu nghĩ chuyệnkỳ lạ thì không dễ tha đâu![r]À" nhỉ? Hiểu chưa [emb exp="f.name"][p]
 
 [_tb_end_text]
 

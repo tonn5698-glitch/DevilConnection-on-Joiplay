@@ -87,7 +87,7 @@ Ngài[delay speed=300]・・・[resetdelay][p]
 [playse  volume="100"  time="1000"  buf="4"  storage="desu4.ogg"  ]
 [tb_start_text mode=1 ]
 #ハーデスター
-[if exp="sf.hade==1"]Quá khát khao…cứu rỗi của ta sao[else]Có thứ gì đó bám trên linh hồn ngài rồi[endif][p]
+[if exp="sf.hade==1"]Quá khát khao…cứu rỗi của ta sao [else] Có thứ gì đó bám trên linh hồn ngài rồi [endif][p]
 [_tb_end_text]
 
 [reset_mind_voice  ]
@@ -102,7 +102,7 @@ Ngài[delay speed=300]・・・[resetdelay][p]
 
 [tb_start_text mode=1 ]
 #ハーデスター
-[delay speed=300]・・・[resetdelay][if exp="sf.epilogue == 0]Quả nhiên ngài là[else]Lại[endif][p]
+[delay speed=300]・・・[resetdelay][if exp="sf.epilogue == 0]Quả nhiên ngài là [else] Lại [endif][p]
 
 [_tb_end_text]
 
@@ -132,7 +132,7 @@ Ngài[delay speed=300]・・・[resetdelay][p]
 [mind_voice  color="0x56b0af"  name="でびるん"  text="Dagya!？Con này lần đầu ta thấy nó tử tế thế!"  face="SVNHiroMisake"  ]
 [tb_start_text mode=1 ]
 #ハーデスター
-[font size=25][if exp="sf.epilogue == 0]Vua, ngài đúng là vua rồi![else]Thật vinh hạnh được gặp lại ngài ở đây![endif][resetfont][p]
+[font size=25][if exp="sf.epilogue == 0]Vua, ngài đúng là vua rồi![else] Thật vinh hạnh được gặp lại ngài ở đây![endif][resetfont][p]
 
 
 [_tb_end_text]
@@ -201,14 +201,14 @@ Mặc dù vẫn còn bóng dáng Lucifer-sama[r]nhưng bên trong đã hoàn to�
 [chara_mod  name="ハーデスター"  time="0"  cross="false"  storage="chara/78/5.png"  ]
 [tb_start_text mode=1 ]
 #ハーデスター
-[if exp="sf.kupya_daten == 1"]Ngài là Kupyadel phải không. Đã sa ngã…[r]Không, không có gì[else]Ngài là thiên sứ Kupyadel phải không.[r]Tức là ngài biết tôi hồi còn là Đại Thiên Sứ…vậy[endif][p]
+[if exp="sf.kupya_daten == 1"]Ngài là Kupyadel phải không. Đã sa ngã…[r]Không, không có gì [else] Ngài là thiên sứ Kupyadel phải không.[r]Tức là ngài biết tôi hồi còn là Đại Thiên Sứ…vậy [endif][p]
 
 [_tb_end_text]
 
 [chara_mod  name="コマえる"  time="0"  cross="true"  storage="chara/21/13.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-[if exp="sf.kupya_daten == 1"]…?[else]Tất nhiên rồi! Nhưng…[endif]Quả nhiên Dester-san[r]không nhớ những lúc còn là thiên sứ nữa nhỉ[p]
+[if exp="sf.kupya_daten == 1"]…?[else] Tất nhiên rồi! Nhưng…[endif] Quả nhiên Dester-san[r]không nhớ những lúc còn là thiên sứ nữa nhỉ[p]
 [_tb_end_text]
 
 [chara_mod  name="ハーデスター"  time="0"  cross="false"  storage="chara/78/4.png"  ]
@@ -248,13 +248,13 @@ Vâng…nhưng không có vấn đề gì cả[r]Bởi vì tôi đã tái sinh k
 [chara_mod  name="ハーデスター"  time="0"  cross="false"  storage="chara/78/5.png"  ]
 [tb_start_text mode=1 ]
 #ハーデスター
-[if exp="sf.epilogue == 0"]Nếu giá trị "nguyện ước hạnh phúc" là tuyệt vời[r]thì bây giờ tôi vẫn tuyệt vời[else]Tôi sẽ kể bao nhiêu lần cũng được. Nếu giá trị "nguyện ước hạnh phúc" là[r]tuyệt vời thì bây giờ tôi vẫn tuyệt vời.[endif][p]
+[if exp="sf.epilogue == 0"]Nếu giá trị "nguyện ước hạnh phúc" là tuyệt vời[r]thì bây giờ tôi vẫn tuyệt vời [else] Tôi sẽ kể bao nhiêu lần cũng được. Nếu giá trị "nguyện ước hạnh phúc" là[r]tuyệt vời thì bây giờ tôi vẫn tuyệt vời.[endif][p]
 [_tb_end_text]
 
 [chara_mod  name="ハーデスター"  time="0"  cross="false"  storage="chara/78/4.png"  ]
 [tb_start_text mode=1 ]
 #ハーデスター
-Chưa chỉ nguyện ước[r]đây là kết quả của hành động[if exp="sf.epilogue == 0][else]mà[endif][p]
+Chưa chỉ nguyện ước[r]đây là kết quả của hành động [if exp="sf.epilogue == 0][else] mà [endif][p]
 [_tb_end_text]
 
 [chara_mod  name="コマえる"  time="0"  cross="true"  storage="chara/21/17.png"  ]
@@ -506,7 +506,7 @@ Tôi đã một lần nữa khẳng định[r]rằng ngài xứng đáng nhận 
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ハーデスター
-Nào nào, vua ơi…[r][if exp="sf.epilogue == 0][else]Lần này[endif]ngài muốn gì?[p]
+Nào nào, vua ơi…[r][if exp="sf.epilogue == 0][else] Lần này [endif] ngài muốn gì?[p]
 [_tb_end_text]
 
 [jump  storage="Devil_Hardester.ks"  target="*hutanari"  cond="f.hutanari==1"  ]
@@ -1143,7 +1143,7 @@ K-kupya![r]Ngài nghĩ vậy phải không![emb exp="f.name"]-san![p]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ハーデスター
-[if exp="sf.epilogue == 0]Nếu là mệnh lệnh của vua, xin cứ sai bảo[else]Yes, my lord[endif][p]
+[if exp="sf.epilogue == 0]Nếu là mệnh lệnh của vua, xin cứ sai bảo [else] Yes, my lord [endif][p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -1348,7 +1348,7 @@ Cảm ơn rất nhiều![wait time=300][r]Vậy tôi đi nhé[p]
 [chara_mod  name="プレイヤー"  time="0"  cross="false"  storage="chara/2/yubiwa.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-[if exp="f.devil0pts == 6"]Debi-kun hãy vui chơi ngoan ngoãn với [emb exp="f.name"]-san nhé[else]Debi-kun hãy trở lại Majirisia mà không nghịch ngợm và trả lại ma lực vừa hút vào không khí nhé[endif][p]
+[if exp="f.devil0pts == 6"]Debi-kun hãy vui chơi ngoan ngoãn với [emb exp="f.name"]-san nhé [else] Debi-kun hãy trở lại Majirisia mà không nghịch ngợm và trả lại ma lực vừa hút vào không khí nhé [endif][p]
 
 [_tb_end_text]
 
@@ -1392,7 +1392,7 @@ Khốn kiếp! Đối xử với ta[r]bừa bãi như vậy hả[delay speed=100
 [playse  volume="100"  time="1000"  buf="4"  storage="hirameki.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="f.devil0pts == 6"]Giả vờ không hút ma lực mà lén tích trữ là đúng rồi[else]Cho ta xài chút ma lực nhé—[r]Ta phá vỡ lệnh của Doel đấy![endif][p]
+[if exp="f.devil0pts == 6"]Giả vờ không hút ma lực mà lén tích trữ là đúng rồi [else] Cho ta xài chút ma lực nhé—[r]Ta phá vỡ lệnh của Doel đấy![endif][p]
 
 [_tb_end_text]
 

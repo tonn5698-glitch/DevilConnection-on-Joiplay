@@ -33,7 +33,7 @@
 [fadein_window  time="1000"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="sf.kill == 0]Được rồi, đã triệu hồi xong 3 con rồi nhỉ![r]Cũng bắt đầu quen tay rồi chứ[else]Nào, đến giờ phán xét rồi[endif][p]
+[if exp="sf.kill == 0]Được rồi, đã triệu hồi xong 3 con rồi nhỉ![r]Cũng bắt đầu quen tay rồi chứ [else] Nào, đến giờ phán xét rồi [endif][p]
 
 
 [_tb_end_text]
@@ -447,7 +447,7 @@ Xem nào…Lượng ma lực đã thu thập được là[wait time=500][p]
 [jump  cond="f.mp>110"  storage=""  target="*111"  ]
 [tb_start_text mode=4 ]
 #でびるん
-[if exp="sf.kill == 0][font size=25]Đúng là [emb exp="f.name"]![r][resetfont]ánh mắt đại nhân ta quả không sai~[else][font size=25]Đúng là [emb exp="f.name"]![r][resetfont]Đúng như đại nhân ta kỳ vọng~[endif]
+[if exp="sf.kill == 0][font size=25]Đúng là [emb exp="f.name"]![r][resetfont] ánh mắt đại nhân ta quả không sai~[else][font size=25]Đúng là [emb exp="f.name"]![r][resetfont] Đúng như đại nhân ta kỳ vọng~[endif]
 [_tb_end_text]
 
 [jump  storage="mp_hantei3.ks"  target="*kaiwa"  ]
@@ -532,7 +532,7 @@ Hôm qua mày làm tốt cơ mà[r][wait time=300]Cái quái gì vậy!? Mày[p]
 
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="sf.showMessage2==0"][chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/33.png"  ]Bình thường lúc thu thập thì[r]phải nhận ra là thiếu chứ![else][chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/30.png"  ][playse  volume="100"  time="0"  buf="1"  storage="mp2.ogg"  ][layermode_movie  mode="lighten"  speed="1"  volume="100"  loop="false"  time="0"  wait="false"  video="e.mp4"  zindex="101"  ][call  storage="mp.ks"  target="*show"  ]Thực ra nhìn lượng ma lực này cũng[r]biết rõ ràng là không thể mà, đồ ngốc[endif][p]
+[if exp="sf.showMessage2==0"][chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/33.png"  ]Bình thường lúc thu thập thì[r]phải nhận ra là thiếu chứ![else][chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/30.png"  ][playse  volume="100"  time="0"  buf="1"  storage="mp2.ogg"  ][layermode_movie  mode="lighten"  speed="1"  volume="100"  loop="false"  time="0"  wait="false"  video="e.mp4"  zindex="101"  ][call  storage="mp.ks"  target="*show"  ]Thực ra nhìn lượng ma lực này cũng[r]biết rõ ràng là không thể mà, đồ ngốc [endif][p]
 
 [_tb_end_text]
 
@@ -550,7 +550,7 @@ Ta hiểu rồi! Để xem phản ứng của đại nhân ta[r]"cố tình" là
 
 [tb_start_text mode=1 ]
 #でびるん
-Chết tiệt…[if exp="sf.kill == 0]Mày dám[r]coi thường đại nhân ta thế hả……![else]Tưởng là tín đồ cuồng tín mà[r]dám coi thường đại nhân ta thế hả…![endif][p]
+Chết tiệt…[if exp="sf.kill == 0]Mày dám[r]coi thường đại nhân ta thế hả……![else] Tưởng là tín đồ cuồng tín mà[r]dám coi thường đại nhân ta thế hả…![endif][p]
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/31.png"  ]
@@ -719,7 +719,7 @@ Ha[delay speed=100]・・・[resetdelay][p]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Nè[resetfont][p]
+[font size=25]Nè [resetfont][p]
 [_tb_end_text]
 
 [tb_eval  exp="f.photoPose=0"  name="photoPose"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
@@ -739,7 +739,7 @@ Ha[delay speed=100]・・・[resetdelay][p]
 
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Hôn chân ta lên[resetfont][p]
+[font size=25]Hôn chân ta lên [resetfont][p]
 [_tb_end_text]
 
 [camera  time="20000"  zoom="1.1"  wait="false"  layer="layer_camera"  y="50"  ease_type="ease"  ]

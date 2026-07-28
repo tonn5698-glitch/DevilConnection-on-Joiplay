@@ -405,7 +405,7 @@ Thực ra…[p]
 [chara_mod  name="チェシカ"  time="0"  cross="false"  storage="chara/40/14.png"  ]
 [tb_start_text mode=1 ]
 #チェシカ
-[if exp="f.Alice_nabe >= 1]Quên lấy nguyên liệu thuốc nên bảo:[r]Cạo một bộ phận cơ thể ác quỷ[else]Xác nhận tội rình, tiện thể[r]Lấy một bộ phận cơ thể ác quỷ làm thuốc[endif][r]và đến[p]
+[if exp="f.Alice_nabe >= 1]Quên lấy nguyên liệu thuốc nên bảo:[r]Cạo một bộ phận cơ thể ác quỷ [else] Xác nhận tội rình, tiện thể[r]Lấy một bộ phận cơ thể ác quỷ làm thuốc [endif][r]và đến[p]
 
 
 [_tb_end_text]
@@ -589,7 +589,7 @@ Vậy thật sự có mục đích gì[p]
 [chara_mod  name="チェシカ"  time="0"  cross="false"  storage="chara/40/3.png"  ]
 [tb_start_text mode=1 ]
 #チェシカ
-[if exp="f.Alice_nabe >= 1]Quên lấy nguyên liệu thuốc nên bảo:[r]Cạo một bộ phận cơ thể ác quỷ[else]Xác nhận tội rình, tiện thể[r]Lấy một bộ phận cơ thể ác quỷ làm thuốc[endif][r]và đến[p]
+[if exp="f.Alice_nabe >= 1]Quên lấy nguyên liệu thuốc nên bảo:[r]Cạo một bộ phận cơ thể ác quỷ [else] Xác nhận tội rình, tiện thể[r]Lấy một bộ phận cơ thể ác quỷ làm thuốc [endif][r]và đến[p]
 
 [_tb_end_text]
 
@@ -758,7 +758,7 @@ Chỉ 1 cái! Chỉ 1 cái![r]Sừng không ra được nhỉ…[p]
 
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Không ra đâu đồ ngốc![resetfont]Không phải tuần lộc![r]Không mọc lại, chỉ có 2 cái![p]
+[font size=25]Không ra đâu đồ ngốc![resetfont] Không phải tuần lộc![r]Không mọc lại, chỉ có 2 cái![p]
 [_tb_end_text]
 
 [chara_mod  name="透過チェシカ"  time="0"  cross="false"  storage="chara/70\/c3.png"  ]
@@ -770,7 +770,7 @@ Không ra thì phải nói chứ?[r]Sừng ác quỷ ở Ma giới là hàng cao
 
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Hii…thật sao!?[resetfont]Từ đầu đã nghĩ[r]mấy thằng trên mặt đất thật hỗn loạn![p]
+[font size=25]Hii…thật sao!?[resetfont] Từ đầu đã nghĩ[r]mấy thằng trên mặt đất thật hỗn loạn![p]
 
 [_tb_end_text]
 

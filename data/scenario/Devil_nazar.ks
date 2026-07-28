@@ -305,7 +305,7 @@ Tao sẽ không tiết lộ gì cho mày[p]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/65.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font color=0xEC6FC5 bold=true]Ác ma Ghen Tuông[resetfont]Leviathan... ta nghe nói cái nhìn của hắn[r]không thích phản chiếu lại bản thân[p]
+[font color=0xEC6FC5 bold=true]Ác ma Ghen Tuông [resetfont] Leviathan... ta nghe nói cái nhìn của hắn[r]không thích phản chiếu lại bản thân[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -960,7 +960,7 @@ Vào một ngày nọ, ta bị D・RED gọi đến[p]
 [bg  time="300"  method="crossfade"  storage="NA6.webp"  wait="false"  ]
 [tb_start_text mode=1 ]
 #D・Red
-Ngươi sống hòa thuận với tên ác ma lười biếng tay chân tệ hại kia nhỉ[font color=0xEC6FC5 bold=true]Ác ma Ghen Tuông[resetfont][p]
+Ngươi sống hòa thuận với tên ác ma lười biếng tay chân tệ hại kia nhỉ [font color=0xEC6FC5 bold=true]Ác ma Ghen Tuông [resetfont][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -1239,7 +1239,7 @@ Suy cho cùng, ta cũng giống như kẻ đã khinh miệt[r]và làm tổn th�
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/65.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Ngươi không biết à?[resetfont]Bản đại nhân[r]biết mày là loại người như thế nên mới chơi với mày đấy[p]
+[font size=25]Ngươi không biết à?[resetfont] Bản đại nhân[r]biết mày là loại người như thế nên mới chơi với mày đấy[p]
 [_tb_end_text]
 
 [chara_mod  name="ナザール"  time="0"  cross="false"  storage="chara/73/14.png"  ]
@@ -1779,7 +1779,7 @@ Mày có hình dáng nhỏ bé thế[delay speed=100]・・・[resetdelay][r]l�
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/94.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Vội vã ghê nhỉ[resetfont][p]
+[font size=25]Vội vã ghê nhỉ [resetfont][p]
 [_tb_end_text]
 
 [playse  volume="100"  time="0"  buf="3"  storage="sasu2.ogg"  ]
@@ -1787,13 +1787,13 @@ Mày có hình dáng nhỏ bé thế[delay speed=100]・・・[resetdelay][r]l�
 [chara_mod  name="ナザール"  time="0"  cross="false"  storage="chara/73/18.png"  ]
 [tb_start_text mode=1 ]
 #ナザール
-[font size=37]Im đi[resetfont][p]
+[font size=37]Im đi [resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="ナザール"  time="0"  cross="false"  storage="chara/73/19.png"  ]
 [tb_start_text mode=1 ]
 #ナザール
-[font size=12]Cánh ở thắt lưng đã[delay speed=100]・・・[resetdelay]bị lửa Ghen Tuông thiêu rụi[delay speed=100]・・・[resetdelay]không còn nữa[resetfont][p]
+[font size=12]Cánh ở thắt lưng đã[delay speed=100]・・・[resetdelay]bị lửa Ghen Tuông thiêu rụi[delay speed=100]・・・[resetdelay]không còn nữa [resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/11.png"  ]
@@ -2028,7 +2028,7 @@ Cũng cần phải giải trí nữa chứ[r]Nazar-san cũng vẻ tiếc nuối 
 
 [tb_start_text mode=1 ]
 #ナザール
-[font size=25]T-Tta có phải vậy đâu[resetfont][p]
+[font size=25]T-Tta có phải vậy đâu [resetfont][p]
 [_tb_end_text]
 
 [layopt layer=4 visible="true"]
@@ -2135,7 +2135,7 @@ Thật lòng[delay speed=100]・・・[resetdelay]bằng[delay speed=100]・・�
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/6.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Cảm giác giống như lúc Debi-kun và[emb exp="f.name"][r]kết hôn vậy...[p]
+Cảm giác giống như lúc Debi-kun và [emb exp="f.name"][r]kết hôn vậy...[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]

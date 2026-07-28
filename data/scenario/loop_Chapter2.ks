@@ -37,7 +37,7 @@ Hồi xưa tao hay ăn Raspberry ở Magiricia[r]hồi niệm lắm. Măm măm n
 [chara_mod  name="ベッド"  time="0"  cross="false"  storage="chara/19/18.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Măm[resetfont][p]
+[font size=25]Măm [resetfont][p]
 
 [_tb_end_text]
 
@@ -312,7 +312,7 @@ Bánh bị lộn ngược nên[r]Shi'"pai"~ Đùa thôi![p]
 [playbgm  volume="50"  time="0"  loop="true"  storage="7_before_sleep.ogg"  ][p]
 [tb_start_text mode=1 ]
 #でびるん
-Nói gì đi chứ[delay speed=100]・・・[resetdelay][r]Đừng có mà phá vỡ câu joke[font face="KaiseiDecol-Bold"]tâm huyết[resetfont] của bản đại nhân[p]
+Nói gì đi chứ[delay speed=100]・・・[resetdelay][r]Đừng có mà phá vỡ câu joke [font face="KaiseiDecol-Bold"]tâm huyết [resetfont] của bản đại nhân[p]
 
 [_tb_end_text]
 
@@ -366,7 +366,7 @@ Khoan, nhầm lẫn lấy trộm phải Blueberry Pie rồi[p]
 [chara_mod  name="ベッド"  time="0"  cross="false"  storage="chara/19/37.png"  ][p]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Chụt[resetfont][p]
+[font size=25]Chụt [resetfont][p]
 
 [_tb_end_text]
 

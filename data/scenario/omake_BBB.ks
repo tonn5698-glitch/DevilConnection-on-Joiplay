@@ -92,7 +92,7 @@ Chào mừng trở về,[wait time=300]và nữa-[wait time=300][p]
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [tb_start_text mode=1 ]
 #ニスロク
-[font size=25]Xin phép ạ[resetfont][p]
+[font size=25]Xin phép ạ [resetfont][p]
 
 [_tb_end_text]
 

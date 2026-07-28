@@ -108,7 +108,7 @@ Um…vì ta là chủ nhiệm mà vô dụng quá nên[r]cậu mới không ch�
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/62.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Thế đấy. Tại sao không đi?[r]Trạch nam[if exp="f.syo == 1"][else]Triệu hồi sư[endif] [emb exp="f.name"][p]
+Thế đấy. Tại sao không đi?[r]Trạch nam [if exp="f.syo == 1"][else] Triệu hồi sư [endif] [emb exp="f.name"][p]
 
 [_tb_end_text]
 
@@ -373,7 +373,7 @@ N[delay speed=300]・・・[resetdelay]Nhu? [p]
 [playse  volume="100"  time="0"  buf="1"  storage="aseru.ogg"  ]
 [tb_start_text mode=1 ]
 #マルス
-[font face="DZUYOKU"][font size=25][font size=25]Ma quỷ![r][font size=35][if exp="f.marusu_tenshi == 1]Tiếp thiên sứ rồi đến ma quỷ luôn à![else]Cái đó là ma quỷ mà![endif]![resetfont][p]
+[font face="DZUYOKU"][font size=25][font size=25]Ma quỷ![r][font size=35][if exp="f.marusu_tenshi == 1]Tiếp thiên sứ rồi đến ma quỷ luôn à![else] Cái đó là ma quỷ mà![endif]![resetfont][p]
 
 
 [_tb_end_text]
@@ -381,7 +381,7 @@ N[delay speed=300]・・・[resetdelay]Nhu? [p]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/91.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Bây giờ mới biết à[delay speed=100]・・・[resetdelay][if exp="f.marusu_tenshi == 1]Thiên sứ là cái gì[else]Đừng có nói thế[endif]![resetfont][p]
+Bây giờ mới biết à[delay speed=100]・・・[resetdelay][if exp="f.marusu_tenshi == 1]Thiên sứ là cái gì [else] Đừng có nói thế [endif]![resetfont][p]
 
 [_tb_end_text]
 
@@ -925,7 +925,7 @@ Bỗng dưng mệt rã rời…[r]Au…[p]
 [playse  volume="100"  time="0"  buf="1"  storage="ga-n.ogg"  ]
 [tb_start_text mode=1 ]
 #マルス
-[font face="DZUYOKU"][font size=37]Tạch[resetfont][p]
+[font face="DZUYOKU"][font size=37]Tạch [resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/140.png"  ]

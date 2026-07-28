@@ -139,7 +139,7 @@ Ta...[p]
 
 [tb_start_text mode=1 ]
 #クピャドエル
-[font size=25]Ta là người lưỡng tính đó♥[wait time=500][r]Phu·[wait time=300]da·[wait time=300][c]na[_c]·[wait time=300]ri[resetfont][p]
+[font size=25]Ta là người lưỡng tính đó♥[wait time=500][r]Phu·[wait time=300]da·[wait time=300][c]na[_c]·[wait time=300]ri [resetfont][p]
 
 
 
@@ -212,13 +212,13 @@ Tuy nhiên debi-kun! Bỏ đi cái[r]suy nghĩ cổ hủ đó đi[p]
 [chara_mod  name="劇場える"  time="0"  cross="false"  storage="chara/16/kupya7.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Bởi vì [emb exp="f.name"] cũng[r][font color=0xEC6FC5 bold=true]có thể là futa[c]na[_c]ri[resetfont] mà[p]
+Bởi vì [emb exp="f.name"] cũng[r][font color=0xEC6FC5 bold=true]có thể là futa[c]na[_c]ri [resetfont] mà[p]
 [_tb_end_text]
 
 [chara_mod  name="劇場でび"  time="0"  cross="false"  storage="chara/15/dagya3.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-C—cũng có thể[r][font size=12][if exp="f.hutanari == 1"]Đúng là có vẻ đã nói những điều như vậy[else]Nghe cũng có vẻ hợp lý đấy[endif][resetfont][p]
+C—cũng có thể[r][font size=12][if exp="f.hutanari == 1"]Đúng là có vẻ đã nói những điều như vậy [else] Nghe cũng có vẻ hợp lý đấy [endif][resetfont][p]
 [_tb_end_text]
 
 [jump  storage="gekizyou_END_menu.ks"  target=""  ]

@@ -207,7 +207,7 @@ Doel. [wait time=100]Mày[r]từ giờdự định sao?[p]
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/1.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Tôi sẽ giải trừ hợp đồng tạm thời đã tự ý ký với[emb exp="f.name]-san[r]và trở về thiên giới[p]
+Tôi sẽ giải trừ hợp đồng tạm thời đã tự ý ký với [emb exp="f.name]-san[r]và trở về thiên giới[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -461,7 +461,7 @@ Kupya, [wait time=300]không có chuyện đó đâu![p]
 
 [tb_start_text mode=1 ]
 #クピャドエル
-Tôi mới là người[emb exp="f.name]-san[r]đã đồng hành cùng đến tận đây![p]
+Tôi mới là người [emb exp="f.name]-san[r]đã đồng hành cùng đến tận đây![p]
 
 [_tb_end_text]
 

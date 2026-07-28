@@ -82,7 +82,7 @@ Vì cậu đã gọi mình đến nơi này~[r]thì ước nguyện của mình,
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/19.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Kuhaha! Chẳng thèm thực hiện ước nguyện gì đâu[r][font size=12]Không phải bản đại nhân mà là thằng[if exp="f.syo == 1"]triệu hồi sư[else]triệu hồi sư[emb exp="f.name"][endif] kia kìa[resetfont][p]
+Kuhaha! Chẳng thèm thực hiện ước nguyện gì đâu[r][font size=12]Không phải bản đại nhân mà là thằng [if exp="f.syo == 1"]triệu hồi sư [else] triệu hồi sư [emb exp="f.name"][endif] kia kìa [resetfont][p]
 
 [_tb_end_text]
 
@@ -148,7 +148,7 @@ Nếu tụi bay làm điều gì nhàm chán thì[delay speed=200]・・・[rese
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [tb_start_text mode=1 ]
 #アレン①
-[font size=35]Đánh cho một trận[resetfont][p]
+[font size=35]Đánh cho một trận [resetfont][p]
 [_tb_end_text]
 
 [tb_eval  exp="f.zyagan1_search=1"  name="zyagan1_search"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
@@ -360,7 +360,7 @@ M, xấu hổ lắm~![r]Cậu nhìn mình bằng ánh mắt đó đấy hả[p]
 
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Dagya~![resetfont]Tất nhiên là tao đang nhìn rồi.[r]Con vật cưng đáng yêu và yếu đuối![p]
+[font size=25]Dagya~![resetfont] Tất nhiên là tao đang nhìn rồi.[r]Con vật cưng đáng yêu và yếu đuối![p]
 [_tb_end_text]
 
 *meido_jump
@@ -505,7 +505,7 @@ Bọn này đang toan tính gì vậy, nếu mà[r]chạm vào chỗ nào kỳ q
 [chara_show  name="感情オーラ2"  time="1000"  wait="false"  storage="chara/12/moya2.png"  width="400"  height="200"  left="642"  top="330"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #アレン
-Mình không quen bị xoa đầu lắm nên giật mình…[r]Nhưng mà, hình như mình có[if exp="f.seibetu == 1]anh trai[else]chị gái[endif] rồi vậy[p]
+Mình không quen bị xoa đầu lắm nên giật mình…[r]Nhưng mà, hình như mình có [if exp="f.seibetu == 1]anh trai [else] chị gái [endif] rồi vậy[p]
 [_tb_end_text]
 
 [chara_mod  name="アレン"  time="0"  cross="false"  storage="chara/17/4.png"  ]
@@ -547,7 +547,7 @@ Bị xoa đầu thì ai cũng thích mà đúng không~?[r]Mình, mình thích x
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/116.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=12]…Bị chạm vào đầu, bản đại nhân lại nhớ đến[r]lũ khinh thường ta trong lòng[resetfont][p]
+[font size=12]…Bị chạm vào đầu, bản đại nhân lại nhớ đến[r]lũ khinh thường ta trong lòng [resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="アレン"  time="0"  cross="false"  storage="chara/17/15.png"  ]
@@ -599,7 +599,7 @@ Nhìn vậy chứ mình[delay speed=200]・・・[resetdelay][p]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #アレン
-[font size=25]Cậu sờ vào đâu đấy, đồ biến thái!!!![resetfont][r][font color=0xEC6FC5 bold=true]Lần sau không có nữa đâu[resetfont] nhé[p]
+[font size=25]Cậu sờ vào đâu đấy, đồ biến thái!!!![resetfont][r][font color=0xEC6FC5 bold=true]Lần sau không có nữa đâu [resetfont] nhé[p]
 [_tb_end_text]
 
 [tb_eval  exp="f.shibou=1"  name="shibou"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
@@ -700,7 +700,7 @@ Cậu ơi. Với con gái thì bằng hành động[r]chứ không phải lời 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/6.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Đáng yêu thì có gì không được chứ[resetfont][r]Đúng không![emb exp="f.name"]![p]
+[font size=25]Đáng yêu thì có gì không được chứ [resetfont][r]Đúng không![emb exp="f.name"]![p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
@@ -900,7 +900,7 @@ Yaan! Cậu muốn xác nhận mình thật sự là con trai à~!?[p]
 [chara_show  name="感情オーラ3"  time="1000"  wait="false"  storage="chara/13/moya3-3.png"  width="460"  height="200"  left="283"  top="486"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #アレン
-…Cậu tưởng mình nói vậy sao?[r][font face="DZUYOKU"][font size=40][c]Giết[_c]mày[resetfont][p]
+…Cậu tưởng mình nói vậy sao?[r][font face="DZUYOKU"][font size=40][c]Giết[_c]mày [resetfont][p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -1088,7 +1088,7 @@ Yaaan! Cậu muốn xác nhận[r]mình thật sự là con trai à~!?[p]
 
 [tb_start_text mode=1 ]
 #アレン
-[font face="DZUYOKU"][font size=40][c]Giết[_c]mày[resetfont][p]
+[font face="DZUYOKU"][font size=40][c]Giết[_c]mày [resetfont][p]
 [_tb_end_text]
 
 [ending no="18"]

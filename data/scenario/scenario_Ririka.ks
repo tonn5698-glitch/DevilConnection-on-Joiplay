@@ -343,7 +343,7 @@ Vừa rồi là bên nào chụp á???????[p]
 
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="Boolean(f.backToScenario)"]Ồ, đã chụp ảnh rồi à. Phép camera đúng là[r]thứ tuyệt vời lưu trữ cảnh vật lên giấy nhỉ[else]Hóa ra dùng phép âm thanh thu hút sự chú ý à...cảm xúc Aura bị đục rồi, [r]nhưng với lần đầu thì cũng khá tốt rồi![endif][p]
+[if exp="Boolean(f.backToScenario)"]Ồ, đã chụp ảnh rồi à. Phép camera đúng là[r]thứ tuyệt vời lưu trữ cảnh vật lên giấy nhỉ [else] Hóa ra dùng phép âm thanh thu hút sự chú ý à...cảm xúc Aura bị đục rồi, [r]nhưng với lần đầu thì cũng khá tốt rồi![endif][p]
 
 [_tb_end_text][p]
 
@@ -363,7 +363,7 @@ Vừa rồi là bên nào chụp á???????[p]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/1.png"  ]
 [tb_start_text mode=1 ]
 #リリカ
-[font size=25]Đợi đã[resetfont][p]
+[font size=25]Đợi đã [resetfont][p]
 
 [_tb_end_text][p]
 
@@ -490,7 +490,7 @@ Kệ, pose cái gì mà pose[r]Ta có phải con nít nữa đâu[p]
 
 [tb_start_text mode=1 ]
 #リリカ
-[font size=25]Hả, ngố[resetfont][p]
+[font size=25]Hả, ngố [resetfont][p]
 
 [_tb_end_text]
 
@@ -566,7 +566,7 @@ Hơi chán～[p]
 [tb_start_text mode=1 ][p]
 #でびるん
 [font face="YOWAKU"]H...Hừ, ta sao có thể chụp ảnh cùng[p]
-sinh vật hạ đẳng như vậy được chứ[resetfont][p]
+sinh vật hạ đẳng như vậy được chứ [resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="リリカ"  time="0"  cross="false"  storage="chara/55/2.png"  ][p]
@@ -861,7 +861,7 @@ $('.skip_button,.skipping').css('left', '916px')
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/1.png"  ][p]
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="f.cameraEnable"]Nè, chẳng biết từ lúc nào đã cài đặt camera phép cố định rồi nhỉ. Ừm vậy thì lúc nào cũng chụp được[else]Ồ! Lúc nãy tên đó đã đổi camera phép thành kiểu cố định à. Vậy thì lúc nào cũng chụp được[endif] [p]
+[if exp="f.cameraEnable"]Nè, chẳng biết từ lúc nào đã cài đặt camera phép cố định rồi nhỉ. Ừm vậy thì lúc nào cũng chụp được [else] Ồ! Lúc nãy tên đó đã đổi camera phép thành kiểu cố định à. Vậy thì lúc nào cũng chụp được [endif] [p]
 
 [_tb_end_text]
 

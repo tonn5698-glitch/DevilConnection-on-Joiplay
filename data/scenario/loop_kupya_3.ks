@@ -303,7 +303,7 @@ Hức[delay speed=100]......[resetdelay]huhu[delay speed=100]............[resetd
 
 [tb_start_text mode=1 ]
 #クピャドエル
-[font size=25]Waaaaaaaahh[resetfont][p]
+[font size=25]Waaaaaaaahh [resetfont][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]

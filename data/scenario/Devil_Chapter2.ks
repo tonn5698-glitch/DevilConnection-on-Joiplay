@@ -477,7 +477,7 @@ Hơn nữa mặc pajama rồi nằm lười [r]hoặc ăn vặt... [r]là sự k
 [chara_mod  name="コマえる"  time="0"  cross="false"  storage="chara/21/11.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-[font size=25]Xiii-maaa-seeen! [resetfont]Hôm nay cũng như hôm nay, [r]hãy tích cực thu hồi ma lực của các ác quỷ còn lại nhỉ [p]
+[font size=25]Xiii-maaa-seeen! [resetfont] Hôm nay cũng như hôm nay, [r]hãy tích cực thu hồi ma lực của các ác quỷ còn lại nhỉ [p]
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/31.png"  ]

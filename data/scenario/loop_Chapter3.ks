@@ -25,7 +25,7 @@ TYRANO.kag.stat.is_strong_stop = false;[p]
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Nói mày đấy[r]Cupidell[resetfont][wait time=300][p]
+[font size=25]Nói mày đấy[r]Cupidell [resetfont][wait time=300][p]
 Bám riết ta rồi[r]Mục đích gì đây?[wait time=300] Mày làm được gì[p]
 
 
@@ -84,7 +84,7 @@ Hay lại muốn cái đó.[wait time=300][r]Muốn ta làm không?[p]
 
 [tb_start_text mode=1 ]
 #でびるん
-Sắp đến đích rồi![wait time=300][r]Tiếp tục nhé[emb exp="f.name"][p]
+Sắp đến đích rồi![wait time=300][r]Tiếp tục nhé [emb exp="f.name"][p]
 
 
 
@@ -99,7 +99,7 @@ Gì? [wait time=300]Đây không phải hình thật à?[r]Hừ, [wait time=300]
 
 [tb_start_text mode=1 ]
 #でびるん
-Nhưng nhờ mày mà ta[r]nhận ra khả năng mới[emb exp="f.name"][p]
+Nhưng nhờ mày mà ta[r]nhận ra khả năng mới [emb exp="f.name"][p]
 
 [_tb_end_text]
 
@@ -437,7 +437,7 @@ Fufufu, [wait time=300]có lẽ tôi cũng sắp[r]phải hạ thiên[p]
 [chara_mod  name="成体クピャドエル"  time="0"  cross="false"  storage="chara/36/9.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル[p]
-…Nhưng tôi nghĩ[emb exp="f.name"]cô cũng có[r]phần được Debiru tự do phóng khoáng cứu[p]
+…Nhưng tôi nghĩ [emb exp="f.name"]cô cũng có[r]phần được Debiru tự do phóng khoáng cứu[p]
 
 [_tb_end_text]
 
@@ -449,7 +449,7 @@ Vì vậy… tôi không ép buộc ngăn.[wait time=300][r]Dù Debiru chọn co
 [chara_mod  name="成体クピャドエル"  time="0"  cross="false"  storage="chara/36/6.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Nếu có[emb exp="f.name"]cô ở đây[r]thì sẽ ổn, tôi cảm thấy thế…[p]
+Nếu có [emb exp="f.name"]cô ở đây[r]thì sẽ ổn, tôi cảm thấy thế…[p]
 
 [_tb_end_text]
 
@@ -539,7 +539,7 @@ TYRANO.kag.stat.is_strong_stop = false;
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Từ tối qua mày làm gì[r]Cupidell[resetfont][wait time=300][p]
+[font size=25]Từ tối qua mày làm gì[r]Cupidell [resetfont][wait time=300][p]
 
 [_tb_end_text]
 
@@ -605,7 +605,7 @@ Hay lại muốn cái đó.[wait time=300][r]Muốn ta làm không?[p]
 
 [tb_start_text mode=1 ]
 #でびるん
-Sắp đến đích rồi![wait time=300][r]Tiếp tục nhé[emb exp="f.name"][p]
+Sắp đến đích rồi![wait time=300][r]Tiếp tục nhé [emb exp="f.name"][p]
 
 
 
@@ -763,7 +763,7 @@ Tôi[delay speed=100]・・・[resetdelay]Không, tôi thỏa mãn[p]
 
 [tb_start_text mode=1 ]
 #クピャドエル[p]
-![delay speed=100]・・・[resetdelay]Có lẽ sắp đến lúc[r]ma nhãn của[emb exp="f.name"]cô mở[p]
+![delay speed=100]・・・[resetdelay]Có lẽ sắp đến lúc[r]ma nhãn của [emb exp="f.name"]cô mở[p]
 
 [_tb_end_text]
 
@@ -776,7 +776,7 @@ Lần trước, đột nhiên bị ma nhãn trên trán đọc tâm trí[p]bất
 
 [tb_start_text mode=1 ][p]
 #クピャドエル
-[if exp="f.bel_name_first == 1]Chắc hẳn khi mở mắt thì đau[r][delay speed=100]・・・[resetdelay]Nhưng[else]Nhưng khi trở thành Debiru mới, [r]bạn dùng ma nhãn rất giỏi[endif][p]
+[if exp="f.bel_name_first == 1]Chắc hẳn khi mở mắt thì đau[r][delay speed=100]・・・[resetdelay]Nhưng [else] Nhưng khi trở thành Debiru mới, [r]bạn dùng ma nhãn rất giỏi [endif][p]
 [_tb_end_text]
 
 [chara_mod  name="成体クピャドエル"  time="0"  cross="false"  storage="chara/36/6.png"  ]
@@ -1027,7 +1027,7 @@ Khi hạ thiên, [delay speed=100]・・・[resetdelay]dùng mọi cách[r]tôi 
 
 [tb_start_text mode=1 ]
 #クピャドエル
-[if exp="f.mp_100== 0"]Có lẽ lựa chọn đó là vừa đủ[else]Có lẽ lựa chọn như vậy là vừa đủ[endif][p]
+[if exp="f.mp_100== 0"]Có lẽ lựa chọn đó là vừa đủ [else] Có lẽ lựa chọn như vậy là vừa đủ [endif][p]
 [_tb_end_text]
 
 [chara_mod  name="成体クピャドエル"  time="0"  cross="false"  storage="chara/36/1.png"  ]
@@ -1164,7 +1164,7 @@ Nếu hắn bực mình mà làm điều[r]kỳ lạ thì phiền lắm![p]
 [chara_mod  name="プレイヤー"  time="80"  cross="false"  storage="chara/2/te.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Ta cho mày cái[font color=0xEC6FC5 bold=true]cờ[resetfont]đích.[wait time=300][r]Giống sáo ma thuật, tìm thấy ở đâu đó[p]
+Ta cho mày cái [font color=0xEC6FC5 bold=true]cờ [resetfont] đích.[wait time=300][r]Giống sáo ma thuật, tìm thấy ở đâu đó[p]
 [_tb_end_text][p]
 
 [chara_mod  name="ベッド"  time="0"  cross="false"  storage="chara/19/53.png"  ]

@@ -61,7 +61,7 @@ Mày đang theo dõi cái gì đấy?[p]
 [chara_mod  name="エメロード"  time="0"  cross="false"  storage="chara/33/3.png"  ]
 [tb_start_text mode=1 ]
 #エメロード
-[font size=25]Đ, đó là em gái! [resetfont]Nó đi mua đồ giúp nên[r]tôi chỉ lo lắng đứng sau quan sát thôi[p]
+[font size=25]Đ, đó là em gái! [resetfont] Nó đi mua đồ giúp nên[r]tôi chỉ lo lắng đứng sau quan sát thôi[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -924,7 +924,7 @@ Bắt ép quá đi![r]Um…[p]
 
 [tb_start_text mode=1 ]
 #でびるん
-Đổi lại tao lấy nhiều ma lực lắm![r][if exp="f.point == 0]…àkhoan đã[endif][p]
+Đổi lại tao lấy nhiều ma lực lắm![r][if exp="f.point == 0]…àkhoan đã [endif][p]
 [_tb_end_text]
 
 [jump  storage="kill_emeroad.ks"  target="*te_jump"  ]

@@ -54,7 +54,7 @@ Dù sao đi nữa[delay speed=300]・・・[resetdelay][p]
 [chara_mod  name="劇場でび"  time="0"  cross="false"  storage="chara/15/dagya7.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Chúng nó với bản đại nhân[r]làm gì tùy thích vậy đấy[resetfont][p]
+[font size=25]Chúng nó với bản đại nhân[r]làm gì tùy thích vậy đấy [resetfont][p]
 
 
 

@@ -52,7 +52,7 @@ Le...Levi cũng...[r]Mày sao vậy[p]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #でびるん
-[delay speed=100]...[resetdelay]Không lẽ [if exp="!f.name"]mày[else][emb exp="f.name"][endif] cũng[p]
+[delay speed=100]...[resetdelay]Không lẽ [if exp="!f.name"]mày [else][emb exp="f.name"][endif] cũng[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]

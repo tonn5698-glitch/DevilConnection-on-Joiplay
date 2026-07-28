@@ -129,7 +129,7 @@ Tôi sẽ theo trực giác vậy・[wait time=300]・[wait time=300]・[wait ti
 [playse  volume="100"  time="0"  buf="1"  loop="false"  storage="maneko3.ogg"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Nghĩ theo lý thường thì người ở vị trí cố định mới là thật![r][font size=12]Cảm giác giọng cũng lớn hơn nữa[resetfont][p]
+Nghĩ theo lý thường thì người ở vị trí cố định mới là thật![r][font size=12]Cảm giác giọng cũng lớn hơn nữa [resetfont][p]
 
 [_tb_end_text]
 
@@ -347,7 +347,7 @@ Ta thì giống kiểu quản lý vậy đó.[r]Ta chỉ huy còn A-mo sẽ hàn
 [playse  volume="100"  time="0"  buf="1"  loop="false"  storage="muumuu2.ogg"  ]
 [tb_start_text mode=1 ]
 #マネコ
-Ở Majirisia thì với Dục Vọng và[font color=0xEC6FC5 bold=true]Tham Vọng[resetfont][r]kiếm bộn tiền luôn đó![p]
+Ở Majirisia thì với Dục Vọng và [font color=0xEC6FC5 bold=true]Tham Vọng [resetfont][r]kiếm bộn tiền luôn đó![p]
 
 [_tb_end_text]
 
@@ -365,7 +365,7 @@ Hừ hừ~ Tiền là quyền lực…[r]có càng nhiều thì càng thành n�
 [chara_mod  name="コマえる"  time="0"  cross="false"  storage="chara/21/12.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-[font size=17][emb exp="f.name"]-sama… dù có nghèo đến đâu cũng[r]hãy cẩn thận trước cám dỗ tiền bạc, toàn lừa đảo thôi[resetfont][p]
+[font size=17][emb exp="f.name"]-sama… dù có nghèo đến đâu cũng[r]hãy cẩn thận trước cám dỗ tiền bạc, toàn lừa đảo thôi [resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="でび縛り"  time="0"  cross="false"  storage="chara/71/12.png"  ]

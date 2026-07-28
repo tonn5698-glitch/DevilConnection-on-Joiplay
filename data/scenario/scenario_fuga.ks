@@ -112,7 +112,7 @@ Hừm. Tinh linh hả[delay speed=400]・・・[resetdelay][p]
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Sinh vật hạ đẳng w[resetfont][p]
+[font size=25]Sinh vật hạ đẳng w [resetfont][p]
 [_tb_end_text]
 
 [playse  volume="100"  time="0"  buf="1"  storage="sasu2.ogg"  ]
@@ -379,7 +379,7 @@ Phù…[wait time=300]Phục hồi rồi![p]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/63.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Nhưng là tại mày đó![r]Nếu[font color=0xEC6FC5 bold=true]bản đại nhân không còn MP[resetfont]thì nguy hiểm lắm[p]
+Nhưng là tại mày đó![r]Nếu [font color=0xEC6FC5 bold=true]bản đại nhân không còn MP [resetfont] thì nguy hiểm lắm[p]
 [_tb_end_text]
 
 [chara_mod  name="フウガ"  time="100"  cross="false"  storage="chara/23/1.png"  ]
@@ -473,7 +473,7 @@ Con mắt trên bụng của quỷ…[r]Có khả năng đọc tâm giống tên
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #フウガ
-Nói nào ngờ tên quỷ này định làm gì…[r][if exp="f.kansou1 == 1]Lại trói rồi bắt mặc đồ kỳ quặc[else]Bắt mặc đồ kỳ quặc[endif]thì tha cho[p]
+Nói nào ngờ tên quỷ này định làm gì…[r][if exp="f.kansou1 == 1]Lại trói rồi bắt mặc đồ kỳ quặc [else] Bắt mặc đồ kỳ quặc [endif] thì tha cho[p]
 [_tb_end_text]
 
 [chara_mod  name="フウガ"  time="0"  cross="false"  storage="chara/23/17.png"  ]
@@ -511,7 +511,7 @@ Hừ… tên nhóc này, hình như đang dần nghi ngờ khả năng của b�
 
 [tb_start_text mode=1 ]
 #でびるん
-Hừm, thú vị[r][font size=25]Nhưng chắc chắn ta sẽ không dính bẫy đó[resetfont][p]
+Hừm, thú vị[r][font size=25]Nhưng chắc chắn ta sẽ không dính bẫy đó [resetfont][p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
@@ -612,7 +612,7 @@ Cái gì vậy! Phép thuật thất bại rồi à?[r][font size=25]Làm cho đ
 [tb_eval  exp="f.fuga_sukumizu=1"  name="fuga_sukumizu"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
 [tb_start_text mode=1 ]
 #フウガ
-[font face="YOWAKU"]Haa… làm vậy có gì vui[resetfont][p]
+[font face="YOWAKU"]Haa… làm vậy có gì vui [resetfont][p]
 
 
 
@@ -657,7 +657,7 @@ Bình thường không mặc, mà khoác vải vào thì…[p]
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Đúng vậy![resetfont]Cậu hiểu không, tinh linh gió![p]
+[font size=25]Đúng vậy![resetfont] Cậu hiểu không, tinh linh gió![p]
 [_tb_end_text]
 
 [playse  volume="100"  time="0"  buf="1"  storage="sasu.ogg"  ]
@@ -710,12 +710,12 @@ Bình thường không mặc, mà khoác vải vào thì…[p]
 
 [tb_start_text mode=1 ]
 #フウガ
-[font size=30]Đừng có chạy theo quỷ[resetfont][p]
+[font size=30]Đừng có chạy theo quỷ [resetfont][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #シルフィ
-[font face="YOWAKU"][font size=12]A… aio… xin lỗi nha[resetfont][p]
+[font face="YOWAKU"][font size=12]A… aio… xin lỗi nha [resetfont][p]
 [_tb_end_text]
 
 [playse  volume="100"  time="0"  buf="1"  storage="hazikeru.ogg"  ]
@@ -989,7 +989,7 @@ Sao có thể[r]ban lòng thương cho loại quỷ hạ lưu thế được[p]
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="f.fuga_mp == 1]Lại[endif]dùng ma lực phục hồi rồi nên gần như kiệt sức[delay speed=100]・・・[resetdelay][r]Nhanh nhanh hấp thụ ma lực rồi chạy thôi[resetfont][p]
+[if exp="f.fuga_mp == 1]Lại [endif] dùng ma lực phục hồi rồi nên gần như kiệt sức[delay speed=100]・・・[resetdelay][r]Nhanh nhanh hấp thụ ma lực rồi chạy thôi [resetfont][p]
 
 [_tb_end_text]
 
@@ -1003,7 +1003,7 @@ Sao có thể[r]ban lòng thương cho loại quỷ hạ lưu thế được[p]
 
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="f.fuga_mp == 1]Phù…[wait time=100]Giống như lúc bị chém[endif]Dùng MP mà phục hồi thôi[delay speed=100]・・・[resetdelay][p]
+[if exp="f.fuga_mp == 1]Phù…[wait time=100]Giống như lúc bị chém [endif] Dùng MP mà phục hồi thôi[delay speed=100]・・・[resetdelay][p]
 [_tb_end_text]
 
 *END2
@@ -1097,7 +1097,7 @@ Hehe, lách được rồi[p]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/65.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Tệ quá w[resetfont][p]
+[font size=25]Tệ quá w [resetfont][p]
 
 
 [_tb_end_text]
@@ -1105,7 +1105,7 @@ Hehe, lách được rồi[p]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/67.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Dở ẹc w[resetfont]Cố gắng giữ tâm vô niệm lắm rồi[r]Thế mà suy nghĩ vẫn bị đọc mất[p]
+[font size=25]Dở ẹc w [resetfont] Cố gắng giữ tâm vô niệm lắm rồi[r]Thế mà suy nghĩ vẫn bị đọc mất[p]
 
 
 [_tb_end_text]
@@ -1226,7 +1226,7 @@ Có lẽ sau này sẽ có lúc[r]phải dùng đến ma lực như vậy[delay 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/8.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="f.finished.length%3==2"]Được rồi, lấy lại tinh thần nào[r]đến lúc kiểm tra MP nào![else]Được rồi, lấy lại tinh thần rồi đi tiếp[endif] [p]
+[if exp="f.finished.length%3==2"]Được rồi, lấy lại tinh thần nào[r]đến lúc kiểm tra MP nào![else] Được rồi, lấy lại tinh thần rồi đi tiếp [endif] [p]
 [_tb_end_text]
 
 [jump  storage="scenario_fuga.ks"  target="*OWARI"  ]

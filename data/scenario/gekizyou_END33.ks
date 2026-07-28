@@ -92,7 +92,7 @@ Chắc là lời nguyền của cô ấy chưa[r]thật sự cắt đứt đư�
 [chara_move  name="劇場でび"  anim="true"  time="1000"  effect="easeOutQuad"  wait="false"  left="701"  top="163"  width="523"  height="551"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Hừ[delay speed=100]・・・[resetdelay]ngạc nhiên đến không nói nên lời[chara_hide  name="劇場でび"  time="1000"  wait="false"  pos_mode="false"  ][r][font size=12]cứ hết sức tự siết cổ mình đi[resetfont][p]
+Hừ[delay speed=100]・・・[resetdelay]ngạc nhiên đến không nói nên lời[chara_hide  name="劇場でび"  time="1000"  wait="false"  pos_mode="false"  ][r][font size=12]cứ hết sức tự siết cổ mình đi [resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="劇場える"  time="0"  cross="false"  storage="chara/16/kupya10.png"  ]

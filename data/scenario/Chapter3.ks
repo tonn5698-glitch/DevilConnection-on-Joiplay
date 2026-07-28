@@ -126,7 +126,7 @@ Hả,[wait time=300]sao ta lại về hình dáng cũ à?[p]
 
 [tb_start_text mode=1 ]
 #でびるん
-À,[wait time=300]ta cho mày lá cờ[font color=0xEC6FC5 bold=true]cầu môn[resetfont] này.[wait time=300][r]Giống sáo ma thuật, ta nhặt được ở quanh đây[p]
+À,[wait time=300]ta cho mày lá cờ [font color=0xEC6FC5 bold=true]cầu môn [resetfont] này.[wait time=300][r]Giống sáo ma thuật, ta nhặt được ở quanh đây[p]
 [_tb_end_text]
 
 [chara_mod  name="ベッド"  time="0"  cross="false"  storage="chara/19/9.png"  ]
@@ -189,7 +189,7 @@ Hậu quả của việc lười biếng đó![p]
 
 [tb_start_text mode=1 ]
 #でびるん
-Khi bị trục xuất,[wait time=300]ta được giao nhiệm vụ[r]đi trinh sát xem trên mặt đất có[font color=0xEC6FC5 bold=true]hôn nhân hạnh phúc[resetfont] không đó[p]
+Khi bị trục xuất,[wait time=300]ta được giao nhiệm vụ[r]đi trinh sát xem trên mặt đất có [font color=0xEC6FC5 bold=true]hôn nhân hạnh phúc [resetfont] không đó[p]
 
 
 [_tb_end_text]
@@ -197,7 +197,7 @@ Khi bị trục xuất,[wait time=300]ta được giao nhiệm vụ[r]đi trinh 
 [chara_mod  name="ベッド"  time="0"  cross="false"  storage="chara/19/5.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="f.nezeru_clear == 1]Vì thế nên trước đây, khi nhắc đến chuyện kết hôn[r]ta đã phản ứng kỳ lạ một cách...[else]Và ta cứ suy nghĩ mãi...[endif][p]
+[if exp="f.nezeru_clear == 1]Vì thế nên trước đây, khi nhắc đến chuyện kết hôn[r]ta đã phản ứng kỳ lạ một cách...[else] Và ta cứ suy nghĩ mãi...[endif][p]
 [_tb_end_text]
 
 [chara_mod  name="ベッド"  time="0"  cross="false"  storage="chara/19/6.png"  ]
@@ -273,7 +273,7 @@ Từ nay về sau, suốt đời, ta muốn mày làm việc vì bản đại nh
 [chara_mod  name="ベッド"  time="0"  cross="false"  storage="chara/19/14.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Nếu vì lý đó thì ta cũng có thể[r]kết hôn với mày được[resetfont][p]
+[font size=25]Nếu vì lý đó thì ta cũng có thể[r]kết hôn với mày được [resetfont][p]
 
 
 [_tb_end_text]
@@ -298,20 +298,20 @@ Gyaa![wait time=300]T-Tất[r]nhiên là đùa mà, đùa thôi.[r]Khoảnh kh�
 [chara_mod  name="ベッド"  time="0"  cross="false"  storage="chara/19/5.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Mà dù sao đi nữa,[wait time=100]bị bóc lột đến thế mà[r]vẫn ngoan ngoãn.[wait time=300][if exp="f.currentLoop == 1]Kỳ lạ thật[else]Thật sự là kẻ kỳ lạ[endif][p]
+Mà dù sao đi nữa,[wait time=100]bị bóc lột đến thế mà[r]vẫn ngoan ngoãn.[wait time=300][if exp="f.currentLoop == 1]Kỳ lạ thật [else] Thật sự là kẻ kỳ lạ [endif][p]
 [_tb_end_text]
 
 [chara_mod  name="ベッド"  time="80"  cross="false"  storage="chara/19/2.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="f.currentLoop == 1]Thật sự, dù có tà nhãn của bản đại nhân[r]cũng chẳng biết mày đang nghĩ gì[else]Hơn nữa, thỉnh thoảng liếc mắt thấy mày[r]đang nghĩ về bản đại nhân, mà chẳng hiểu vì sao[endif][delay speed=100]...[resetdelay][p]
+[if exp="f.currentLoop == 1]Thật sự, dù có tà nhãn của bản đại nhân[r]cũng chẳng biết mày đang nghĩ gì [else] Hơn nữa, thỉnh thoảng liếc mắt thấy mày[r]đang nghĩ về bản đại nhân, mà chẳng hiểu vì sao [endif][delay speed=100]...[resetdelay][p]
 
 [_tb_end_text]
 
 [chara_mod  name="ベッド"  time="300"  cross="false"  storage="chara/19/8.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="f.currentLoop == 1][else]Tưởng tượng cũng vừa thôi chứ[delay speed=100]...[resetdelay]đi[r][endif][delay speed=100]......[resetdelay]zzz...[p]
+[if exp="f.currentLoop == 1][else] Tưởng tượng cũng vừa thôi chứ[delay speed=100]...[resetdelay]đi[r][endif][delay speed=100]......[resetdelay]zzz...[p]
 
 [_tb_end_text]
 
@@ -428,12 +428,12 @@ Bước ra đi![r]Khó chịu quá![p]
 
 [tb_start_text mode=1 ]
 #でびるん[p]
-[if exp="f.blueberry== 1]Hôi lắm hả!?[wait time=300]T-Tà là do tối qua bôi mứt mà[r]ngủ đó! Không phải mùi của bản đại nhân![else]Hừ,[wait time=300]phồng phồng[delay speed=100]...[resetdelay]? Ta có làm gì đặc biệt đâu[r]chắc tại sáng nay mày giặt nên thơm vậy?][endif][p]
+[if exp="f.blueberry== 1]Hôi lắm hả!?[wait time=300]T-Tà là do tối qua bôi mứt mà[r]ngủ đó! Không phải mùi của bản đại nhân![else] Hừ,[wait time=300]phồng phồng[delay speed=100]...[resetdelay]? Ta có làm gì đặc biệt đâu[r]chắc tại sáng nay mày giặt nên thơm vậy?][endif][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん[p]
-Vì thế đừng có bám dính vậy![r][if exp="f.blueberry== 1]Mày cũng sẽ bị lây mùi việt quất đó![else]Ta không phải đồ chơi bông đâu![endif][p]
+Vì thế đừng có bám dính vậy![r][if exp="f.blueberry== 1]Mày cũng sẽ bị lây mùi việt quất đó![else] Ta không phải đồ chơi bông đâu![endif][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]

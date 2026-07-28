@@ -212,7 +212,7 @@ Pyaa~♥[emb exp="f.name"] có con mắt thẩm mỹ lắm ạ[r]
 
 [tb_start_text mode=1 ]
 #クピャドエル
-Trong lòng tôi đang khen hợp lắm ạ![r][if exp="f.currentLoop == 1]Dù thế này nhưng tôi có thể dùng mắt ma search ạ[else]Với True Eye của tôi, mọi thứ đều rõ ràng ạ[endif][p]
+Trong lòng tôi đang khen hợp lắm ạ![r][if exp="f.currentLoop == 1]Dù thế này nhưng tôi có thể dùng mắt ma search ạ [else] Với True Eye của tôi, mọi thứ đều rõ ràng ạ [endif][p]
 [_tb_end_text]
 
 [jump  storage="kupya.ks"  target="*modoru"  ]
@@ -292,7 +292,7 @@ tf.hint = hintAvailable[f.hintIdx]
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/3.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Gợi ý ạ? Để tôi xem…[if exp="f.hintLooped==1"][r]Xin lỗi vì lặp lại[endif][p]
+Gợi ý ạ? Để tôi xem…[if exp="f.hintLooped==1"][r]Xin lỗi vì lặp lại [endif][p]
 [_tb_end_text]
 
 [jump  storage="kupya.ks"  target="&'END'+tf.hint"  ]
@@ -325,7 +325,7 @@ Xin lỗi, tôi không thấy[r]gì giống gợi ý nữa rồi…[p]
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/7.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Đầu tiên, sao không thử[r]không [font color=0xEC6FC5 bold=true]ký hợp đồng[resetfont] với Debikun xem? Hehe[p]
+Đầu tiên, sao không thử[r]không [font color=0xEC6FC5 bold=true]ký hợp đồng [resetfont] với Debikun xem? Hehe[p]
 [_tb_end_text]
 
 [jump  storage="kupya.ks"  target="*modoru_hint"  ]
@@ -334,7 +334,7 @@ Xin lỗi, tôi không thấy[r]gì giống gợi ý nữa rồi…[p]
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/1.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Debikun có [font color=0xEC6FC5 bold=true]tên thật[resetfont] mà, đúng không ạ? Hãy thử[r]gọi lại [font color=0xEC6FC5 bold=true]vào dịp khác[resetfont] xem sao?[p]
+Debikun có [font color=0xEC6FC5 bold=true]tên thật [resetfont] mà, đúng không ạ? Hãy thử[r]gọi lại [font color=0xEC6FC5 bold=true]vào dịp khác [resetfont] xem sao?[p]
 [_tb_end_text]
 
 [jump  storage="kupya.ks"  target="*modoru_hint"  ]
@@ -344,7 +344,7 @@ Debikun có [font color=0xEC6FC5 bold=true]tên thật[resetfont] mà, đúng kh
 [tb_start_text mode=1 ]
 #クピャドエル
 Debikun, cậu có một chỗ nào đó là điểm yếu đấy nhé♥[r]Cậu có biết không?[p]
-Nếu[font color=0xEC6FC5 bold=true] xoa xoa nhiều lần[resetfont] vào đó[r]thì thế nào nhỉ? Hehe[p]
+Nếu [font color=0xEC6FC5 bold=true] xoa xoa nhiều lần [resetfont] vào đó[r]thì thế nào nhỉ? Hehe[p]
 [_tb_end_text]
 
 [jump  storage="kupya.ks"  target="*modoru_hint"  ]
@@ -353,7 +353,7 @@ Nếu[font color=0xEC6FC5 bold=true] xoa xoa nhiều lần[resetfont] vào đó[
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/1.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Siêng năng thì tốt, nhưng thỉnh thoảng[r]để Debikun [font color=0xEC6FC5 bold=true]tự chơi một mình[resetfont] cũng được ạ?[p]
+Siêng năng thì tốt, nhưng thỉnh thoảng[r]để Debikun [font color=0xEC6FC5 bold=true]tự chơi một mình [resetfont] cũng được ạ?[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -364,7 +364,7 @@ Tôi nghĩ sự mệt mỏi tinh thần cũng đang tích tụ nên trong lúc �
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/6.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Tuy nhiên… đừng tuyệt vọng rồi[r]như vị giáo sư kia mà [font color=0xEC6FC5 bold=true]uống rượu[resetfont] rồi ngủ say ạ[p]
+Tuy nhiên… đừng tuyệt vọng rồi[r]như vị giáo sư kia mà [font color=0xEC6FC5 bold=true]uống rượu [resetfont] rồi ngủ say ạ[p]
 [_tb_end_text]
 
 [jump  storage="kupya.ks"  target="*modoru_hint"  ]
@@ -373,7 +373,7 @@ Tuy nhiên… đừng tuyệt vọng rồi[r]như vị giáo sư kia mà [font c
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/2.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Kupya… tôi cũng muốn [font color=0xEC6FC5 bold=true]gấu bông[r]của Debikun[resetfont] quá~[p]
+Kupya… tôi cũng muốn [font color=0xEC6FC5 bold=true]gấu bông[r]của Debikun [resetfont] quá~[p]
 [_tb_end_text]
 
 [jump  storage="kupya.ks"  target="*modoru_hint"  ]
@@ -403,7 +403,7 @@ Kupya… tôi cũng muốn [font color=0xEC6FC5 bold=true]gấu bông[r]của De
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/1.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Không cần ra tay…[r]thử [font color=0xEC6FC5 bold=true]doạ một phen[resetfont] có khi phát hiện gì đó ạ![p]
+Không cần ra tay…[r]thử [font color=0xEC6FC5 bold=true]doạ một phen [resetfont] có khi phát hiện gì đó ạ![p]
 
 [_tb_end_text]
 
@@ -413,7 +413,7 @@ Không cần ra tay…[r]thử [font color=0xEC6FC5 bold=true]doạ một phen[r
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/4.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Dù trong [font color=0xEC6FC5 bold=true]thời gian dừng lại cũng phải chống cự[resetfont]![r]Kupya kupya! Fight![p]
+Dù trong [font color=0xEC6FC5 bold=true]thời gian dừng lại cũng phải chống cự [resetfont]![r]Kupya kupya! Fight![p]
 [_tb_end_text]
 
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/1.png"  ]
@@ -458,7 +458,7 @@ Nếu sống trong thế giới giả tạo mà không nhận ra[r]và vẫn h�
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/9.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Nhưng nếu muốn đi con đường đó…[r]lúc đó [font color=0xEC6FC5 bold=true]không cần hợp tác với tôi cũng được[resetfont] ạ[p]
+Nhưng nếu muốn đi con đường đó…[r]lúc đó [font color=0xEC6FC5 bold=true]không cần hợp tác với tôi cũng được [resetfont] ạ[p]
 [_tb_end_text]
 
 [jump  storage="kupya.ks"  target="*modoru_hint"  ]
@@ -467,14 +467,14 @@ Nhưng nếu muốn đi con đường đó…[r]lúc đó [font color=0xEC6FC5 b
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/6.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Thiên thần, ác quỷ, tinh linh đều có thực thể dựa trên ma lực nên[r]dù bị thương, nếu có đủ ma lực thì có thể [font color=0xEC6FC5 bold=true]phục hồi[resetfont] được…[p]
+Thiên thần, ác quỷ, tinh linh đều có thực thể dựa trên ma lực nên[r]dù bị thương, nếu có đủ ma lực thì có thể [font color=0xEC6FC5 bold=true]phục hồi [resetfont] được…[p]
 
 [_tb_end_text]
 
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/2.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Lúc này, nếu [font color=0xEC6FC5 bold=true]thiếu ma lực[resetfont] thì Debikun sẽ[r]thế nào nhỉ. Hehehe… tò mò quá![p]
+Lúc này, nếu [font color=0xEC6FC5 bold=true]thiếu ma lực [resetfont] thì Debikun sẽ[r]thế nào nhỉ. Hehehe… tò mò quá![p]
 
 [_tb_end_text]
 
@@ -484,7 +484,7 @@ Lúc này, nếu [font color=0xEC6FC5 bold=true]thiếu ma lực[resetfont] thì
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/7.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Xin hãy [font color=0xEC6FC5 bold=true]rút[r]cái đó[resetfont] của Debikun giùm[p]
+Xin hãy [font color=0xEC6FC5 bold=true]rút[r]cái đó [resetfont] của Debikun giùm[p]
 [_tb_end_text]
 
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/4.png"  ]
@@ -511,7 +511,7 @@ Lúc đó, tôi sẽ dùng[r]cái mềm mịn tự hào mà ôm lấy [emb exp="
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/6.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-……Tuy nhiên [font color=0xEC6FC5 bold=true]chạm quá nhiều[resetfont] thì không được ạ[p]
+……Tuy nhiên [font color=0xEC6FC5 bold=true]chạm quá nhiều [resetfont] thì không được ạ[p]
 
 [_tb_end_text]
 
@@ -521,7 +521,7 @@ Lúc đó, tôi sẽ dùng[r]cái mềm mịn tự hào mà ôm lấy [emb exp="
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/2.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Nói mới nhớ, tôi nghe nói [font color=0xEC6FC5 bold=true]tỏi[resetfont] có hiệu quả[r]với ác quỷ… đã thử bao giờ chưa?[p]
+Nói mới nhớ, tôi nghe nói [font color=0xEC6FC5 bold=true]tỏi [resetfont] có hiệu quả[r]với ác quỷ… đã thử bao giờ chưa?[p]
 [_tb_end_text]
 
 [jump  storage="kupya.ks"  target="*modoru_hint"  ]
@@ -530,7 +530,7 @@ Nói mới nhớ, tôi nghe nói [font color=0xEC6FC5 bold=true]tỏi[resetfont]
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/7.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Nếu [font color=0xEC6FC5 bold=true]không thu thập dù chỉ 1% ma lực[resetfont] thì[r]sẽ ra sao nhỉ? Kupya![p]
+Nếu [font color=0xEC6FC5 bold=true]không thu thập dù chỉ 1% ma lực [resetfont] thì[r]sẽ ra sao nhỉ? Kupya![p]
 [_tb_end_text]
 
 [jump  storage="kupya.ks"  target="*modoru_hint"  ]
@@ -544,7 +544,7 @@ Cậu biết sở thích của Debikun không ạ? Theo tôi tìm hiểu thì[r]
 
 [tb_start_text mode=1 ]
 #クピャドエル
-Thấy cô gái [font color=0xEC6FC5 bold=true]khó khăn mà không bỏ được[resetfont][r]thì đúng là… tốt bụng quá~[p]
+Thấy cô gái [font color=0xEC6FC5 bold=true]khó khăn mà không bỏ được [resetfont][r]thì đúng là… tốt bụng quá~[p]
 [_tb_end_text]
 
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/2.png"  ]
@@ -570,7 +570,7 @@ Lúc đó, tôi học được rằng[r]xoa đầu chưa chắc đã là chuyệ
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/7.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Vì vậy, hãy thử suy nghĩ ngược lại[r]chắc [font color=0xEC6FC5 bold=true]chạm vào phần không phải đầu[resetfont] sẽ được vui hơn chăng![p]
+Vì vậy, hãy thử suy nghĩ ngược lại[r]chắc [font color=0xEC6FC5 bold=true]chạm vào phần không phải đầu [resetfont] sẽ được vui hơn chăng![p]
 [_tb_end_text]
 
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/6.png"  ]
@@ -585,7 +585,7 @@ Biết đâu lần sau sẽ không còn nữa đâu![r]Tao sẽ giận dữ nói
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/6.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Cho thật nhiều topping lên[r]sừng Debikun rồi [font color=0xEC6FC5 bold=true]thưởng thức[resetfont] thì tuyệt nhỉ![p]
+Cho thật nhiều topping lên[r]sừng Debikun rồi [font color=0xEC6FC5 bold=true]thưởng thức [resetfont] thì tuyệt nhỉ![p]
 
 [_tb_end_text]
 
@@ -607,7 +607,7 @@ Khi thử thách người có độ nguy hiểm cao thì nên[r]giữ một lư�
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/7.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Thay đổi sở thích, thử[r]không giữ gì mà [font color=0xEC6FC5 bold=true]đối đầu[resetfont] xem[r]có thấy góc nhìn mới không?[p]
+Thay đổi sở thích, thử[r]không giữ gì mà [font color=0xEC6FC5 bold=true]đối đầu [resetfont] xem[r]có thấy góc nhìn mới không?[p]
 [_tb_end_text]
 
 [jump  storage="kupya.ks"  target="*modoru_hint"  ]
@@ -616,7 +616,7 @@ Thay đổi sở thích, thử[r]không giữ gì mà [font color=0xEC6FC5 bold=
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/3.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-[font color=0xEC6FC5 bold=true]Mắt ma[resetfont] của Debikun đẹp thật ạ[p]
+[font color=0xEC6FC5 bold=true]Mắt ma [resetfont] của Debikun đẹp thật ạ[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -637,7 +637,7 @@ Nhưng hình như ở chợ đen Ma-Ji-Li-Sia[r]con mắt đang được bán[1g
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/7.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Tôi nghĩ Debikun nên thử tiếp xúc[r]với [font color=0xEC6FC5 bold=true]những con dơi nhỏ[resetfont] hơn ạ[p]
+Tôi nghĩ Debikun nên thử tiếp xúc[r]với [font color=0xEC6FC5 bold=true]những con dơi nhỏ [resetfont] hơn ạ[p]
 [_tb_end_text]
 
 [jump  storage="kupya.ks"  target="*modoru_hint"  ]
@@ -646,7 +646,7 @@ Tôi nghĩ Debikun nên thử tiếp xúc[r]với [font color=0xEC6FC5 bold=true
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/3.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Nếu bị [font color=0xEC6FC5 bold=true]ác quỷ[resetfont] tentacle[r]quấn lấy thì không còn gì để nói ạ[p]
+Nếu bị [font color=0xEC6FC5 bold=true]ác quỷ [resetfont] tentacle[r]quấn lấy thì không còn gì để nói ạ[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -666,7 +666,7 @@ Kupya… tôi bất giác nhớ lại chuyện xưa…[p]
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/4.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-À, nhưng khích bác thì kiêng kỵ ạ[r]đặc biệt [font color=0xEC6FC5 bold=true]cúi ngồi khích bác[resetfont]![p]
+À, nhưng khích bác thì kiêng kỵ ạ[r]đặc biệt [font color=0xEC6FC5 bold=true]cúi ngồi khích bác [resetfont]![p]
 [_tb_end_text]
 
 [jump  storage="kupya.ks"  target="*modoru_hint"  ]
@@ -676,7 +676,7 @@ Kupya… tôi bất giác nhớ lại chuyện xưa…[p]
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/1.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Mắt ma của Debikun, mắt ma của [emb exp="f.name"], hai[r]mắt cùng sử dụng rồi [font color=0xEC6FC5 bold=true]hợp tác[resetfont] thì đường sẽ tự mở ạ![p]
+Mắt ma của Debikun, mắt ma của [emb exp="f.name"], hai[r]mắt cùng sử dụng rồi [font color=0xEC6FC5 bold=true]hợp tác [resetfont] thì đường sẽ tự mở ạ![p]
 [_tb_end_text]
 
 [jump  storage="kupya.ks"  target="*END33"  cond="sf.endings.includes('33')"  ]
@@ -723,7 +723,7 @@ Nếu lọt vào khe hở của nửa vời[1giây]lòng thì…[r]……tôi s�
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/3.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Nếu sống ở [font color=0xEC6FC5 bold=true]suối linh hồn[resetfont] nơi thần ma cư ngụ thì[r]Debikun sẽ hạnh phúc sao ạ[p]
+Nếu sống ở [font color=0xEC6FC5 bold=true]suối linh hồn [resetfont] nơi thần ma cư ngụ thì[r]Debikun sẽ hạnh phúc sao ạ[p]
 [_tb_end_text]
 
 [jump  storage="kupya.ks"  target="*modoru_hint"  ]
@@ -737,12 +737,12 @@ Nếu sống ở [font color=0xEC6FC5 bold=true]suối linh hồn[resetfont] nơ
 
 [tb_start_text mode=1 ]
 #クピャドエル
-Xin lỗi, [if exp="f.BBB_kidoku == 1"]cảnh Debikun bị nuốt[r][else]Debikun trông buồn bã trong[r]bộ đồ cưới[endif]in đậm trong tâm trí tôi không thể quên được[p]
+Xin lỗi, [if exp="f.BBB_kidoku == 1"]cảnh Debikun bị nuốt[r][else] Debikun trông buồn bã trong[r]bộ đồ cưới [endif] in đậm trong tâm trí tôi không thể quên được[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #クピャドエル
-Lúc đó, nếu [font color=0xEC6FC5 bold=true]không gọi tên thật mà ngăn cản được[resetfont] thì…[r]kết quả có tốt hơn không nhỉ ạ[p]
+Lúc đó, nếu [font color=0xEC6FC5 bold=true]không gọi tên thật mà ngăn cản được [resetfont] thì…[r]kết quả có tốt hơn không nhỉ ạ[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -761,7 +761,7 @@ Kupya… không được để nụ cười tắt[r]
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/19.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-…nếu [font color=0xEC6FC5 bold=true]ngăn cản thất bại[resetfont] Debikun ạ[p]
+…nếu [font color=0xEC6FC5 bold=true]ngăn cản thất bại [resetfont] Debikun ạ[p]
 [_tb_end_text]
 
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/3.png"  ]
@@ -776,7 +776,7 @@ Không, không nên nghĩ theo hướng xấu ạ[p]
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/1.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Nếu Debikun cũng [font color=0xEC6FC5 bold=true]kết hôn[resetfont] và tận hưởng được tình yêu thì[r]có hạnh phúc không nhỉ…[p]
+Nếu Debikun cũng [font color=0xEC6FC5 bold=true]kết hôn [resetfont] và tận hưởng được tình yêu thì[r]có hạnh phúc không nhỉ…[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]

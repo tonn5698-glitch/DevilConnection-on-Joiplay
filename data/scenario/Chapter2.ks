@@ -154,7 +154,7 @@ Tư lệnh đại tướng phẫn nộ thống lĩnh quân Ma Giới　Satan[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-[font face="KaiseiDecol-Bold"]Kiêu[resetfont] ngạo　Lucifer[p]
+[font face="KaiseiDecol-Bold"]Kiêu [resetfont] ngạo　Lucifer[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -197,7 +197,7 @@ Năng lực tà thần có cái giá, càng lạm dụng thì[r]ý thức càng 
 
 [tb_start_text mode=3 ]
 #①
-Cuốn sách của Nesseru  ▶Sức mạnh ác quỷ[font size=14]～Mối liên kết sâu xa giữa Danh tính và Linh hồn～[resetfont]◀[r]
+Cuốn sách của Nesseru  ▶Sức mạnh ác quỷ [font size=14]～Mối liên kết sâu xa giữa Danh tính và Linh hồn～[resetfont]◀[r]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -229,7 +229,7 @@ Cuốn sách của Nesseru  ▶Sức mạnh ác quỷ[font size=14]～Mối liê
 
 [tb_start_text mode=1 ]
 #①
-▶Sức mạnh ác quỷ[font size=14]～Mối liên kết sâu xa giữa Danh tính và Linh hồn～[resetfont]◀[p]
+▶Sức mạnh ác quỷ [font size=14]～Mối liên kết sâu xa giữa Danh tính và Linh hồn～[resetfont]◀[p]
 Ác quỷ cấp cao sở hữu các bộ phận điều khiển giác quan thứ sáu[r]như Tànhãn, Tàkhẩu, Tàthủ... khiến người ta mê muội.[p]
 Ký hợp đồng bất chính với ác quỷ vô danh, khi dùng[r]sức mạnh của ác quỷ đó, sức mạnh đó cũng ẩn náu trong chính người ký hợp đồng.[p]
 Sau đó, linh hồn sẽ bị ác quỷ nắm giữ, tùy theo độ tin tưởng[r]sức mạnh đó sẽ kéo dài đến đời đời kiếp kiếp.[p]
@@ -287,7 +287,7 @@ Trước khi điều đó xảy ra, chỉ có một cách[r]để cắt đứt q
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="f.ne == 1]Đúng như ta nói, ngoan ngoãn đọc sách đấy[else]Đọc tập trung ghê nhỉ[r]Khoe mình là học sinh giỏi à?[endif][p]
+[if exp="f.ne == 1]Đúng như ta nói, ngoan ngoãn đọc sách đấy [else] Đọc tập trung ghê nhỉ[r]Khoe mình là học sinh giỏi à?[endif][p]
 [_tb_end_text]
 
 *end_complete2
@@ -306,7 +306,7 @@ Trước khi điều đó xảy ra, chỉ có một cách[r]để cắt đứt q
 [chara_mod  name="ベッド"  time="0"  cross="false"  storage="chara/19/6.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="f.end_complete == 1"]Kệ mấy chuyện đó[else]Thế thì[endif]nhìn này. Sáo bị rơi ngoài cửa.[r]MaSáo đó! Ma・Sáo![p]
+[if exp="f.end_complete == 1"]Kệ mấy chuyện đó [else] Thế thì [endif] nhìn này. Sáo bị rơi ngoài cửa.[r]MaSáo đó! Ma・Sáo![p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -316,7 +316,7 @@ Chẳng hiểu gì à?[r]Thổi lên là có thể phục hồi ma lực, đồ 
 
 [tb_start_text mode=1 ]
 #でびるん
-Nhưng giờ nó đã bị bỏ đi,MaSáo chẳng khác gì sáo thường...[r]Thổi ra tiếng "[font color=0xEC6FC5 bold=true]Fe[resetfont]" kỳ lạ lắm.[p]
+Nhưng giờ nó đã bị bỏ đi,MaSáo chẳng khác gì sáo thường...[r]Thổi ra tiếng "[font color=0xEC6FC5 bold=true]Fe [resetfont]" kỳ lạ lắm.[p]
 [_tb_end_text]
 
 [free name="笛"  layer=0 time="500"  wait="false"]

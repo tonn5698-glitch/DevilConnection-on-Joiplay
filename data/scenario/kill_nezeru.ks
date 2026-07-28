@@ -202,7 +202,7 @@ Từ trước mỗi lần đi ngang qua đường gặp cậu, tớ thấy ánh 
 
 [tb_start_text mode=1 ]
 #ネゼル
-Cái ở trán tớ…[font color=0xEC6FC5 bold=true]Ma nhãn[resetfont]của tớ[p]
+Cái ở trán tớ…[font color=0xEC6FC5 bold=true]Ma nhãn [resetfont] của tớ[p]
 
 [_tb_end_text]
 
@@ -431,7 +431,7 @@ Dù sao, đứa bên cạnh cậu… đúng là ác ma oai phong nhỉ.[r]Chắc
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/65.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-…Ừ đúng vậy, cho nên[emb exp="f.name"][r]hắn đang hành động vì bản tọa đấy[p]
+…Ừ đúng vậy, cho nên [emb exp="f.name"][r]hắn đang hành động vì bản tọa đấy[p]
 [_tb_end_text]
 
 [chara_mod  name="ネゼル"  time="0"  cross="false"  storage="chara/37/1.png"  ]
@@ -693,7 +693,7 @@ Dù vậy[delay speed=100]・・・[resetdelay][p]
 [tb_show_message_window  ]
 [tb_start_text mode=4 ]
 #ネゼル
-Dù vậy cậu vẫn[delay speed=100]…[resetdelay][r][if exp="f.kansou2 == 1]muốn mở ma nhãn nhỉ[else]sẽ thề trung thành với ác ma nhỉ[endif]
+Dù vậy cậu vẫn[delay speed=100]…[resetdelay][r][if exp="f.kansou2 == 1]muốn mở ma nhãn nhỉ [else] sẽ thề trung thành với ác ma nhỉ [endif]
 [_tb_end_text]
 
 [jump  storage="kill_nezeru.ks"  target="*zyagan3_modoru"  ]

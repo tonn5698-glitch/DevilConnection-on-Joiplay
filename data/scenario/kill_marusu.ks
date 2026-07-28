@@ -93,7 +93,7 @@ T, tại sao lại ở đây[delay speed=100]…[resetdelay][r]không, đây là
 [chara_mod  name="マルス"  time="0"  cross="false"  storage="chara/20/5.png"  ]
 [tb_start_text mode=1 ]
 #マルス
-Vì tôi bất tài nên [emb exp="f.name"][if exp="f.seibetu == 1]cậu[else]cô[endif][r]mới hiện ra như ảo giác thế này[delay speed=200]…[resetdelay]àa[p]
+Vì tôi bất tài nên [emb exp="f.name"][if exp="f.seibetu == 1]cậu [else] cô [endif][r]mới hiện ra như ảo giác thế này[delay speed=200]…[resetdelay]àa[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -166,7 +166,7 @@ Hãy…bình tĩnh đi bản thân tôi…[r]tôi phải nói điều hôm qua c
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #マルス
-[font face="DZUYOKU"][font size=35]Guhà[resetfont][p]
+[font face="DZUYOKU"][font size=35]Guhà [resetfont][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -202,7 +202,7 @@ Kufu, đồ khốn kiếp mày à[p]
 [chara_mod  name="マルス"  time="0"  cross="false"  storage="chara/20/7.png"  ]
 [tb_start_text mode=1 ]
 #マルス
-[emb exp="f.name"][if exp="f.seibetu == 1]Cậu[else]Cô[endif] giỏi lắm nên…[r]bài học từ lâu đã nắm vững rồi nhỉ[p]
+[emb exp="f.name"][if exp="f.seibetu == 1]Cậu [else] Cô [endif] giỏi lắm nên…[r]bài học từ lâu đã nắm vững rồi nhỉ[p]
 
 [_tb_end_text]
 
@@ -273,14 +273,14 @@ Uuuuu…[delay speed=100]…[resetdelay][p]
 [tb_eval  exp="f.marusu_m=1"  name="marusu_m"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
 [tb_start_text mode=1 ]
 #マルス
-Nhìn thấy [emb exp="f.name"][if exp="f.seibetu == 1]cậu[else]cô[endif] đạt điểm cao[r]trong kỳ thi ma thuật, có học sinh muốn nói chuyện[p]
+Nhìn thấy [emb exp="f.name"][if exp="f.seibetu == 1]cậu [else] cô [endif] đạt điểm cao[r]trong kỳ thi ma thuật, có học sinh muốn nói chuyện[p]
 
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #マルス
-Học sinh đó…hôm nay học bù cũng không đến[r]và lo lắng cho [emb exp="f.name"][if exp="f.seibetu == 1]cậu[else]cô[endif] lắm[p]
+Học sinh đó…hôm nay học bù cũng không đến[r]và lo lắng cho [emb exp="f.name"][if exp="f.seibetu == 1]cậu [else] cô [endif] lắm[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -418,7 +418,7 @@ Tin mù quáng vào ác quỷ thế[delay speed=300]…[resetdelay][p]
 
 [tb_start_text mode=1 ]
 #マルス
-[emb exp="f.name"][if exp="f.seibetu == 1]Cậu[else]Cô[endif] nghỉ học cũng tại[r]con ác quỷ này! [p]
+[emb exp="f.name"][if exp="f.seibetu == 1]Cậu [else] Cô [endif] nghỉ học cũng tại[r]con ác quỷ này! [p]
 
 
 [_tb_end_text]
@@ -427,7 +427,7 @@ Tin mù quáng vào ác quỷ thế[delay speed=300]…[resetdelay][p]
 [playse  volume="100"  time="0"  buf="1"  storage="sasu.ogg"  ]
 [tb_start_text mode=1 ]
 #マルス
-[font size=25][emb exp="f.name"][if exp="f.seibetu == 1]Cậu[else]Cô[endif] ơi[r]tránh xa ra!! [resetfont][p]
+[font size=25][emb exp="f.name"][if exp="f.seibetu == 1]Cậu [else] Cô [endif] ơi[r]tránh xa ra!! [resetfont][p]
 
 
 [_tb_end_text]
@@ -481,13 +481,13 @@ Tin mù quáng vào ác quỷ thế[delay speed=300]…[resetdelay][p]
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #マルス
-Uuu…đây là ác mộng sao…[r]không ngờ [emb exp="f.name"][if exp="f.seibetu == 1]cậu[else]cô[endif] lại tin mù quáng vào ác quỷ[p]
+Uuu…đây là ác mộng sao…[r]không ngờ [emb exp="f.name"][if exp="f.seibetu == 1]cậu [else] cô [endif] lại tin mù quáng vào ác quỷ[p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #マルス
-Đây cũng là trách nhiệm tôi hết…giá mà[r]tôi có thể giúp [emb exp="f.name"][if exp="f.seibetu == 1]cậu[else]cô[endif] nhiều hơn[p]
+Đây cũng là trách nhiệm tôi hết…giá mà[r]tôi có thể giúp [emb exp="f.name"][if exp="f.seibetu == 1]cậu [else] cô [endif] nhiều hơn[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -604,7 +604,7 @@ Hà…
 [chara_show  name="感情オーラ2"  time="1000"  wait="false"  storage="chara/12/moya2-2.png"  width="460"  height="200"  left="651"  top="371"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #マルス
-[font size=25]Cái gì vậy? [emb exp="f.name"][if exp="f.seibetu == 1]Cậu[else]Cô[endif]![r]Giờ tôi sẽ cứu! [resetfont][p]
+[font size=25]Cái gì vậy? [emb exp="f.name"][if exp="f.seibetu == 1]Cậu [else] Cô [endif]![r]Giờ tôi sẽ cứu! [resetfont][p]
 [_tb_end_text]
 
 [playse  volume="100"  time="0"  buf="1"  storage="sasu3.ogg"  ]
@@ -728,13 +728,13 @@ U…uu…[r]đương nhiên là…! [p]
 [chara_mod  name="マルス"  time="0"  cross="false"  storage="chara/20/15.png"  ]
 [tb_start_text mode=1 ]
 #マルス
-Là chủ nhiệm, tôi muốn thấy [emb exp="f.name"][if exp="f.seibetu == 1]cậu[else]cô[endif][r]khỏe mạnh vui vẻ[p]
-Từ khai giảng đến giờ, [emb exp="f.name"][if exp="f.seibetu == 1]cậu[else]cô[endif] và[r]tất cả học sinh lớp tôi đều đặt lên hàng đầu[p]
+Là chủ nhiệm, tôi muốn thấy [emb exp="f.name"][if exp="f.seibetu == 1]cậu [else] cô [endif][r]khỏe mạnh vui vẻ[p]
+Từ khai giảng đến giờ, [emb exp="f.name"][if exp="f.seibetu == 1]cậu [else] cô [endif] và[r]tất cả học sinh lớp tôi đều đặt lên hàng đầu[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #マルス
-Nếu [emb exp="f.name"][if exp="f.seibetu == 1]cậu[else]cô[endif] không thích thì tôi không ép.[r]Khi nào muốn thì đi được.[p]
+Nếu [emb exp="f.name"][if exp="f.seibetu == 1]cậu [else] cô [endif] không thích thì tôi không ép.[r]Khi nào muốn thì đi được.[p]
 
 [_tb_end_text]
 
@@ -790,7 +790,7 @@ Xin hãy…suy nghĩ lại…[wait time=500]
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #マルス
-Tôi hơi lo push quá khiến[r][emb exp="f.name"][if exp="f.seibetu == 1]cậu[else]cô[endif] sợ hãi…[p]
+Tôi hơi lo push quá khiến[r][emb exp="f.name"][if exp="f.seibetu == 1]cậu [else] cô [endif] sợ hãi…[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -831,7 +831,7 @@ Có chuyện gì[delay speed=100]…[resetdelay]?
 [playse  volume="100"  time="0"  buf="1"  storage="ga-n.ogg"  ]
 [tb_start_text mode=1 ]
 #マルス
-[font face="DZUYOKU"][font size=37]Boong[resetfont][p]
+[font face="DZUYOKU"][font size=37]Boong [resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/140.png"  ]
@@ -845,7 +845,7 @@ Tao đi đám với mày à?[r]Thôi khỏi đi, mày từ chối đúng rồi[p
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [tb_start_text mode=1 ]
 #マルス
-Tôi biết [emb exp="f.name"][if exp="f.seibetu == 1]cậu[else]cô[endif][r]không phải người lạnh lùng thế[p]
+Tôi biết [emb exp="f.name"][if exp="f.seibetu == 1]cậu [else] cô [endif][r]không phải người lạnh lùng thế[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -886,7 +886,7 @@ Tôi biết [emb exp="f.name"][if exp="f.seibetu == 1]cậu[else]cô[endif][r]kh
 
 [tb_start_text mode=1 ]
 #マルス
-[font size=25]Woooohn tôi không xứng làm chủ nhiệm uuu[resetfont][p]
+[font size=25]Woooohn tôi không xứng làm chủ nhiệm uuu [resetfont][p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]

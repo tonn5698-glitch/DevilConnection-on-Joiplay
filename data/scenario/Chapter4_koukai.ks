@@ -231,7 +231,7 @@ Ngài vốn có địa vị vững chắc với tư cách Đại Ác Quỷ mà l
 [camera  time="10"  zoom="1.1"  wait="true"  layer="base"  ]
 [tb_start_text mode=1 ]
 #⑨
-[font size=25]・・・Ta ghét lắm[resetfont][p]
+[font size=25]・・・Ta ghét lắm [resetfont][p]
 
 
 

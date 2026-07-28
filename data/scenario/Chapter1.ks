@@ -62,7 +62,7 @@ Thằng nào mà dám bấm chuông cửa giờ này vậy trời.[wait time=300
 [fadein_window  time="1000"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Chậm quá[emb exp="f.name"] ơi.[wait time=300][r]Nè, cái gì đang nhét trong túi mày vậy?[p]
+Chậm quá [emb exp="f.name"] ơi.[wait time=300][r]Nè, cái gì đang nhét trong túi mày vậy?[p]
 
 [_tb_end_text]
 
@@ -79,7 +79,7 @@ Chậm quá[emb exp="f.name"] ơi.[wait time=300][r]Nè, cái gì đang nhét tr
 
 [tb_start_text mode=1 ]
 #でびるん
-Đó, đó đó, cái [font color=0xEC6FC5 bold=true]chuông[resetfont][delay speed=100]・・・[resetdelay]kia.[r][r]Chắc cửa trước hỏng rồi à?[r]Ừm thì cứ để lên bàn trong phòng triệu hồi đi.[p]
+Đó, đó đó, cái [font color=0xEC6FC5 bold=true]chuông [resetfont][delay speed=100]・・・[resetdelay]kia.[r][r]Chắc cửa trước hỏng rồi à?[r]Ừm thì cứ để lên bàn trong phòng triệu hồi đi.[p]
 
 
 [_tb_end_text]
@@ -391,7 +391,7 @@ Ma lực của Bản đại nhân cũng hồi phục lại rồi, nên[r]có v�
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/8.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="f.currentLoop == 2]Muốn nhanh thế mà[r]cũng phải ra ngoài mua đồ thôi à[else]Bỏ học rồi mà mua đồ cũng phải[r]bước chân ra ngoài thôi à[endif][p]
+[if exp="f.currentLoop == 2]Muốn nhanh thế mà[r]cũng phải ra ngoài mua đồ thôi à [else] Bỏ học rồi mà mua đồ cũng phải[r]bước chân ra ngoài thôi à [endif][p]
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/15.png"  ]

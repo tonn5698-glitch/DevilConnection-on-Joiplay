@@ -55,7 +55,7 @@ Hahaha…hôm nay tao cũng đẹp trai thật[p]
 [playse  volume="100"  time="0"  buf="3"  storage="sasu.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="f.Alice_nabe >= 1]Kì trước là cái nồi, giờ lại cả cái bồn tắm à!?![r]Thật sự thuật triệu hồi của mày bị làm sao vậy trời…[else]Cả cái bồn tắm à!?!?[r]Thuật triệu hồi của mày bị làm sao vậy…[endif][p]
+[if exp="f.Alice_nabe >= 1]Kì trước là cái nồi, giờ lại cả cái bồn tắm à!?![r]Thật sự thuật triệu hồi của mày bị làm sao vậy trời…[else] Cả cái bồn tắm à!?!?[r]Thuật triệu hồi của mày bị làm sao vậy…[endif][p]
 
 [_tb_end_text]
 
@@ -989,7 +989,7 @@ Ta nghĩ sẽ còn tỏa sáng hơn nữa,[r]nhưng không có nghĩa bây giờ
 
 [tb_start_text mode=1 ]
 #サフィール
-Như đánh bóng viên sapphire[p]đã sáng.[font face="KaiseiDecol-Bold"]Vậy[resetfont]…luôn cập nhật[font face="KaiseiDecol-Bold"]hoàn hảo[resetfont][p]
+Như đánh bóng viên sapphire[p]đã sáng.[font face="KaiseiDecol-Bold"]Vậy [resetfont]…luôn cập nhật [font face="KaiseiDecol-Bold"]hoàn hảo [resetfont][p]
 [_tb_end_text]
 
 *zyagan3_modoru2
@@ -1026,7 +1026,7 @@ Như đánh bóng viên sapphire[p]đã sáng.[font face="KaiseiDecol-Bold"]Vậ
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #でびるん
-Yếu đuối♥[wait time=300]Yếu đuối vãi♥[wait time=300]Tao nghiêm túc ra thì giết mày trong một nốt nhạc♥[font size=12][wait time=300] À,[wait time=100]mà tao cũng không biết mày lắm[resetfont][p]
+Yếu đuối♥[wait time=300]Yếu đuối vãi♥[wait time=300]Tao nghiêm túc ra thì giết mày trong một nốt nhạc♥[font size=12][wait time=300] À,[wait time=100]mà tao cũng không biết mày lắm [resetfont][p]
 
 [_tb_end_text]
 
@@ -1075,7 +1075,7 @@ Không,[wait time=200]Kiếm thuật của ta năm sao![r]Đã được chứng 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/115.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="f.HANYOU == 1]Quả thật màn kiếm thuật lúc nãy được lắm[else]Ừm vậy sao…[endif][p]
+[if exp="f.HANYOU == 1]Quả thật màn kiếm thuật lúc nãy được lắm [else] Ừm vậy sao…[endif][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -1198,7 +1198,7 @@ Nar…cissist…?[p]
 
 [tb_start_text mode=1 ]
 #でびるん
-Ừ, đại khái vậy.[r]Là vậy.[font size=12]Haizz phiền vl[resetfont][p]
+Ừ, đại khái vậy.[r]Là vậy.[font size=12]Haizz phiền vl [resetfont][p]
 
 
 
@@ -1229,7 +1229,7 @@ Vì ta quá đẹp…[r]Xin lỗi……[p]
 [playse  volume="100"  time="0"  buf="3"  storage="sasu.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Grừ rừ rừ[r]Muốn đấm thằng này một phát[resetfont][p]
+[font size=25]Grừ rừ rừ[r]Muốn đấm thằng này một phát [resetfont][p]
 [_tb_end_text]
 
 *za_jump
@@ -1322,7 +1322,7 @@ Hút ma lực xong mà tao cũng thành[r]thằng não quái quỷ thì sao! [wa
 [chara_mod  name="サフィール"  time="0"  cross="false"  storage="chara/38/8.png"  ]
 [tb_start_text mode=1 ]
 #サフィール
-Cuối cùng [emb exp="f.name"]…từ cậu ta cảm nhận được[r]sự [font face="KaiseiDecol-Bold"]ô uế[resetfont] của [font face="KaiseiDecol-Bold"]tâm[resetfont] hồn. Đừng lười rèn luyện bản thân[p]
+Cuối cùng [emb exp="f.name"]…từ cậu ta cảm nhận được[r]sự [font face="KaiseiDecol-Bold"]ô uế [resetfont] của [font face="KaiseiDecol-Bold"]tâm [resetfont] hồn. Đừng lười rèn luyện bản thân[p]
 
 
 

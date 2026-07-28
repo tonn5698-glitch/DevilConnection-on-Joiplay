@@ -33,7 +33,7 @@ Tao ghét nhất mấy chuyện phiền phức[r]Mày là sủng vật thì hi�
 [camera  time="1000"  zoom="1.5"  wait="false"  x="0"  y="50"  rotate="0"  layer="0"  ease_type="ease"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Hiểu rồi thì bắt đầu triệu hồi nhanh lên[resetfont][p]
+[font size=25]Hiểu rồi thì bắt đầu triệu hồi nhanh lên [resetfont][p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]

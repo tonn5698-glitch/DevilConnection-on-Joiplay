@@ -140,7 +140,7 @@ Phép triệu hồi tuyệt vời nhỉ... Em gọi bản nhân vào phòng riê
 [chara_mod  name="アルマース"  time="0"  cross="false"  storage="chara/43/7.png"  ]
 [tb_start_text mode=1 ]
 #アルマース
-Thế MÀ LÀ [font color=0xEC6FC5 bold=true]ĐÀN ÔNG[font color=0xFFFFFF bold=true] CƠ Á MÀY?[p]
+Thế MÀ LÀ [font color=0xEC6FC5 bold=true]ĐÀN ÔNG [font color=0xFFFFFF bold=true] CƠ Á MÀY?[p]
 
 
 [_tb_end_text]
@@ -177,7 +177,7 @@ C- cái thằng này!？[r]Tự dưng làm gì mà giận dữ vậy[p]
 
 [tb_start_text mode=1 ]
 #アルマース
-Đàn ông dám triệu hồi bản nhân đây...[r][font size=25]Đánh cho bay luôn[resetfont][p]
+Đàn ông dám triệu hồi bản nhân đây...[r][font size=25]Đánh cho bay luôn [resetfont][p]
 
 
 
@@ -792,7 +792,7 @@ Grrr... Bảo xử lý nhưng sao[r]bản đại nhân phải đeo ribbon này[p
 [chara_mod  name="アルマース"  time="0"  cross="false"  storage="chara/43/11.png"  ]
 [tb_start_text mode=1 ]
 #アルマース
-Đàn ông thì đàn ông![r]Dù đàn ông có ăn mặc[resetfont][p]
+Đàn ông thì đàn ông![r]Dù đàn ông có ăn mặc [resetfont][p]
 [_tb_end_text]
 
 [playse  volume="100"  time="0"  buf="1"  storage="sasu2.ogg"  ]
@@ -818,7 +818,7 @@ Grrr... Bảo xử lý nhưng sao[r]bản đại nhân phải đeo ribbon này[p
 [camera  time="700"  zoom="1.8"  wait="false"  y="90"  layer="1"  ease_type="ease"  ]
 [tb_start_text mode=1 ]
 #アルマース
-Ta sẽ tuyệt đối không thừa nhận[r]ooo[resetfont][wait time=200][p]
+Ta sẽ tuyệt đối không thừa nhận[r]ooo [resetfont][wait time=200][p]
 
 
 [_tb_end_text]
@@ -910,7 +910,7 @@ Tsk... Ta bỏ cả thời gian tập luyện[r]đến đây đấy[p]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/74.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Biến thái[resetfont][p]
+Biến thái [resetfont][p]
 
 [_tb_end_text]
 
@@ -932,7 +932,7 @@ Biến thái[resetfont][p]
 [chara_mod  name="アルマース"  time="0"  cross="false"  storage="chara/43/11.png"  ]
 [tb_start_text mode=1 ]
 #アルマース
-Làm sao ta quan tâm đến[r]mớ giấy rách này được[resetfont][wait time=200][p]
+Làm sao ta quan tâm đến[r]mớ giấy rách này được [resetfont][wait time=200][p]
 [_tb_end_text]
 
 [playse  volume="100"  time="0"  buf="1"  storage="sasu2.ogg"  ]
@@ -942,7 +942,7 @@ Làm sao ta quan tâm đến[r]mớ giấy rách này được[resetfont][wait t
 [camera  time="800"  zoom="1.6"  wait="false"  y="70"  layer="1"  ease_type="ease"  ]
 [tb_start_text mode=1 ]
 #アルマース
-Cần phụ nữ trước mặt mới được[resetfont][wait time=200][p]
+Cần phụ nữ trước mặt mới được [resetfont][wait time=200][p]
 
 [_tb_end_text]
 
@@ -956,7 +956,7 @@ Cần phụ nữ trước mặt mới được[resetfont][wait time=200][p]
 [camera  time="700"  zoom="1.8"  wait="false"  y="90"  layer="1"  ease_type="ease"  ]
 [tb_start_text mode=1 ]
 #アルマース
-Cuốn sách thế này, trước nay[r]chưa bao giờ đọc qua[resetfont][wait time=200][p]
+Cuốn sách thế này, trước nay[r]chưa bao giờ đọc qua [resetfont][wait time=200][p]
 
 
 [_tb_end_text]
@@ -1227,7 +1227,7 @@ C- chẳng hiểu thay đổi gì...[r]Nhưng nếu hài lòng thì thôi, thu t
 [chara_mod  name="アルマース"  time="60"  cross="false"  storage="chara/43/13.png"  ]
 [tb_start_text mode=1 ]
 #アルマース
-[if exp="f.kansou3 == 1]Hừ, hôm khác đi[else]Lần sau dạy ta phép triệu hồi dành cho phụ nữ đi[endif][p]
+[if exp="f.kansou3 == 1]Hừ, hôm khác đi [else] Lần sau dạy ta phép triệu hồi dành cho phụ nữ đi [endif][p]
 [_tb_end_text]
 
 [playse  volume="100"  time="0"  buf="1"  storage="sasu.ogg"  ]
@@ -1244,7 +1244,7 @@ C- chẳng hiểu thay đổi gì...[r]Nhưng nếu hài lòng thì thôi, thu t
 
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="f.kansou3 == 1]Đó làlời thoại của ta![else]Không có thứ đó![endif][resetfont][p]
+[if exp="f.kansou3 == 1]Đó làlời thoại của ta![else] Không có thứ đó![endif][resetfont][p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
@@ -1286,7 +1286,7 @@ Mà mày[r]Ngày đầu mà đã thế này là sao?[p]
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="f.kansou3 == 1]Lắc lư này được yêu kia...[r]Đừng dùng phép thuật kỳ lạ lên bản đại nhân![else]Phép lắc lư là gì![r]Đừng dùng phép thuật kỳ lạ lên bản đại nhân![endif]][p]
+[if exp="f.kansou3 == 1]Lắc lư này được yêu kia...[r]Đừng dùng phép thuật kỳ lạ lên bản đại nhân![else] Phép lắc lư là gì![r]Đừng dùng phép thuật kỳ lạ lên bản đại nhân![endif]][p]
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/53.png"  ]

@@ -543,7 +543,7 @@ Chạm vào đâu vậy tên biến thái[p]
 [chara_mod  name="ベルレヴィ"  time="0"  cross="true"  storage="chara/74/40.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Ừm thì bản đại nhân đẹp trai thật[r]nứng cũng không trách được nhỉ[resetfont][p]
+[font size=25]Ừm thì bản đại nhân đẹp trai thật[r]nứng cũng không trách được nhỉ [resetfont][p]
 [_tb_end_text]
 
 [jump  storage="Devil_debirun.ks"  target="*kusu_jump"  ]
@@ -677,7 +677,7 @@ Híí[delay speed=100]…[resetdelay]Fugyu[delay speed=100]…[resetdelay]bình 
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Đùa thôi mà![r]Sao mà làm được vậy chứ[resetfont][p]
+[font size=25]Đùa thôi mà![r]Sao mà làm được vậy chứ [resetfont][p]
 [_tb_end_text]
 
 [playse  volume="100"  time="0"  buf="1"  loop="false"  storage="sasu.ogg"  ]
@@ -763,7 +763,7 @@ Híí[delay speed=100]…[resetdelay]Fugyu[delay speed=100]…[resetdelay]bình 
 [chara_mod  name="ベルレヴィ"  time="0"  cross="true"  storage="chara/74/34.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Ừm thì bản đại nhân đẹp trai thật[r]nứng cũng không trách được nhỉ[resetfont][p]
+[font size=25]Ừm thì bản đại nhân đẹp trai thật[r]nứng cũng không trách được nhỉ [resetfont][p]
 [_tb_end_text]
 
 [jump  storage="Devil_debirun.ks"  target="*tuno_jump"  ]
@@ -932,7 +932,7 @@ Chết tiệt! Bản đại nhân phải chịu đựng[delay speed=100]…[rese
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Đùa thôi mà![r]Sao mà làm được vậy chứ[resetfont][p]
+[font size=25]Đùa thôi mà![r]Sao mà làm được vậy chứ [resetfont][p]
 [_tb_end_text]
 
 [playse  volume="100"  time="0"  buf="1"  loop="false"  storage="sasu.ogg"  ]
@@ -1138,7 +1138,7 @@ M-mà vừa rồi[delay speed=100]…[resetdelay][r]hơi… hình như bị nghi
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25][if exp="f.HANYOU == 1"]Lại nữa[endif]chạm vào đâu đấy![resetfont][p]
+[font size=25][if exp="f.HANYOU == 1"]Lại nữa [endif] chạm vào đâu đấy![resetfont][p]
 [_tb_end_text]
 
 [jump  storage="Devil_debirun.ks"  target="*jump"  ]

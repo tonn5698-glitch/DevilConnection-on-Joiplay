@@ -102,7 +102,7 @@ Nào! Triệu hồi liên tiếp thôi- [p]
 [fadein_window  time="1000"  ]
 [tb_start_text mode=1 ]
 #ハーデスター
-Vua ơi, [if exp="sf.epilogue == 0][else]một lần nữa[endif]đã được triệu hồi [r]tên ta là Hades, tôi là linh thú của ngài[p]
+Vua ơi, [if exp="sf.epilogue == 0][else] một lần nữa [endif] đã được triệu hồi [r]tên ta là Hades, tôi là linh thú của ngài[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -148,7 +148,7 @@ Hôm nay vì tôi, đã tạo cơ hội như vậy [r]tôi bày tỏ lòng biế
 
 [tb_start_text mode=1 ]
 #ハーデスター
-Vâng, vì vua thì [if exp="sf.epilogue == 0][else]bao nhiêu lần cũng được[endif]sẽ nắm bắt quan hệ bạn bè của mọi người [r]và cố gắng hết sức để sâu sắc hóa tình bạn.[p]
+Vâng, vì vua thì [if exp="sf.epilogue == 0][else] bao nhiêu lần cũng được [endif] sẽ nắm bắt quan hệ bạn bè của mọi người [r]và cố gắng hết sức để sâu sắc hóa tình bạn.[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
@@ -722,7 +722,7 @@ Nói đến mức đó thì... [r]tham gia cũng được... nhưng [p]
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [tb_start_text mode=1 ]
 #ナザール
-[font size=25]Gì!? Đó là bí mật mà[resetfont][p]
+[font size=25]Gì!? Đó là bí mật mà [resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/62.png"  ]

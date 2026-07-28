@@ -95,7 +95,7 @@ Với người không có dục vọng[p]
 [bg  time="100"  method="crossfade"  storage="amo8.webp"  wait="false"  ]
 [tb_start_text mode=1 ]
 #あもあも
-Kupyacha~n! Sao lại thế~!?[r]Rushirushi không có Pháo Androgynos sao~!?[font size=12]Nhưng lỗ đằng sau thì có[resetfont][p]
+Kupyacha~n! Sao lại thế~!?[r]Rushirushi không có Pháo Androgynos sao~!?[font size=12]Nhưng lỗ đằng sau thì có [resetfont][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]

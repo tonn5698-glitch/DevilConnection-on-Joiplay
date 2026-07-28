@@ -576,7 +576,7 @@ Nếu lầm đường lạc lối…[r]hãy sửa lại cho hắn.[p]
 [tb_show_message_window  ]
 [tb_start_text mode=4 ]
 #ピーター
-[if exp="f.kansou1 == 1"]Nếu đã thấy hết rồi thì…[l]đó gọi là『bạn thân』đúng không?[else]Hắn là…[delay speed=300]…[resetdelay]bạn thân quan trọng của cậu, đúng không?
+[if exp="f.kansou1 == 1"]Nếu đã thấy hết rồi thì…[l]đó gọi là『bạn thân』đúng không?[else] Hắn là…[delay speed=300]…[resetdelay]bạn thân quan trọng của cậu, đúng không?
 [_tb_end_text]
 
 [tb_eval  exp="f.kansou1=0"  name="kansou1"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
@@ -917,7 +917,7 @@ Thấy sơ hở rồi![p]
 
 [tb_start_text mode=1 ]
 #ピーター
-[emb exp="f.name"].[r][delay speed=300]…[resetdelay][if exp="f.bel_name!=0||f.bel_name_first!=0"]Cậu có thể hợp tác với ta không?[else]Hãy gọi tên hắn.[endif][p]
+[emb exp="f.name"].[r][delay speed=300]…[resetdelay][if exp="f.bel_name!=0||f.bel_name_first!=0"]Cậu có thể hợp tác với ta không?[else] Hãy gọi tên hắn.[endif][p]
 
 
 [_tb_end_text]
@@ -929,7 +929,7 @@ Cuộc khủng hoảng của…[delay speed=300]…[resetdelay]Mashiriya.[r]Cậ
 
 [tb_start_text mode=4 ]
 #ピーター
-[if exp="f.bel_name!=0||f.bel_name_first!=0"]Vậy nên xin cậu, [emb exp="f.name"]…[l]Hãy gọi [delay speed=300]…[resetdelay][font color=0xEC6FC5 bold=true]tên thật của hắn, hãy gọi[resetfont] đi.[else]Nếu lo lắng, hãy dùng con mắt quỷ đó đọc lòng ta.[l][delay speed=300]…[resetdelay]Xin cậu. Hãy tin ta.
+[if exp="f.bel_name!=0||f.bel_name_first!=0"]Vậy nên xin cậu, [emb exp="f.name"]…[l]Hãy gọi [delay speed=300]…[resetdelay][font color=0xEC6FC5 bold=true]tên thật của hắn, hãy gọi [resetfont] đi.[else] Nếu lo lắng, hãy dùng con mắt quỷ đó đọc lòng ta.[l][delay speed=300]…[resetdelay]Xin cậu. Hãy tin ta.
 Xin cậu, hãy tin ta.[endif][wait time=500]
 [_tb_end_text]
 
@@ -1226,7 +1226,7 @@ Khoan đã! ! ! ! ! ! ! [r]Peter! ! ! ! ! ! ![p]
 
 [tb_start_text mode=4 ]
 #でびるん
-[font face="kowai"]Sẽ gặp kết cục tương tự[resetfont]
+[font face="kowai"]Sẽ gặp kết cục tương tự [resetfont]
 
 [_tb_end_text]
 
@@ -1620,7 +1620,7 @@ Kyaaaa! ! ! ! ! ! ! ! [r]Peter! ! ! ! ! ! ![p]
 [tb_autosave  title="b"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"]Mày đã[resetfont][p]
+[font face="kowai"]Mày đã [resetfont][p]
 [_tb_end_text]
 
 [playse  volume="100"  time="1000"  buf="3"  loop="false"  storage="horror_tika2.ogg"  ]
@@ -1658,7 +1658,7 @@ Kyaaaa! ! ! ! ! ! ! ! [r]Peter! ! ! ! ! ! ![p]
 [tb_autosave  title="b"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"]Tình thần trung thành đó, hành động đã truyền đạt rất rõ rồi[resetfont][p]
+[font face="kowai"]Tình thần trung thành đó, hành động đã truyền đạt rất rõ rồi [resetfont][p]
 [_tb_end_text]
 
 [tb_autosave  title="b"  ]
@@ -1667,7 +1667,7 @@ Kyaaaa! ! ! ! ! ! ! ! [r]Peter! ! ! ! ! ! ![p]
 ;#Belphegor
 ;;#ベルフェゴール
 [font face="kowai"]Bản đại nhân là Ma quỷ — one of bảy Đại Ma quỷ —[r]Belphegor — Ma quỷ Lười biếng.[resetfont][p]
-;[font face="kowai"]オレサマは七大悪魔一柱[r]怠惰のBelphegor[resetfont][p]
+;[font face="kowai"]オレサマは七大悪魔一柱[r]怠惰のBelphegor [resetfont][p]
 ;;[font face="kowai"]オレサマは七大悪魔一柱[r]怠惰のベルフェゴール[resetfont][p]
 [_tb_end_text]
 

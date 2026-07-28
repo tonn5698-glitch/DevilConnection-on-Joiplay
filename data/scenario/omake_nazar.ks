@@ -318,7 +318,7 @@ Nói mới nhớ, mật danh của mày đã quyết định rồi[p]
 
 [tb_start_text mode=1 ]
 #でびるん
-Hả? À, [if exp="!f.name"]Thống Lĩnh lúc nãy[else][emb exp="f.name"][endif] đã đặt cho đó[r]Debi-ran. Hay chứ, ghen tị chứ?[p]
+Hả? À, [if exp="!f.name"]Thống Lĩnh lúc nãy [else][emb exp="f.name"][endif] đã đặt cho đó[r]Debi-ran. Hay chứ, ghen tị chứ?[p]
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/12.png"  ]

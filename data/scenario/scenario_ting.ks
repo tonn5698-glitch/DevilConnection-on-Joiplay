@@ -350,7 +350,7 @@ S-s-[wait time=200]sao mà được chứ![p]
 [tb_chara_shake  name="コマでび"  direction="x"  count="10"  swing="1"  time="100"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Grrr…tập trung lại[emb exp="f.name"]![r]Còn cơ hội lật ngược tình thế mà![p]
+Grrr…tập trung lại [emb exp="f.name"]![r]Còn cơ hội lật ngược tình thế mà![p]
 
 [_tb_end_text]
 
@@ -783,7 +783,7 @@ Nhưng lần đầu tiên mình được nghe có thể làm thuốc[r]từ cỏ
 
 [tb_start_text mode=1 ]
 #でびるん
-Dược liệu học á?[if exp="f.kansou2 == 1]Chẳng phải lúc nãy nó nói đang học đó sao, đồ đần[else]thằng này thì có vẻ hợp thật[font size=12]không biết chớ・・・[resetfont][endif][r]Mày thì ăn mấy thứ cỏ dại ngoài đường đi[p]
+Dược liệu học á?[if exp="f.kansou2 == 1]Chẳng phải lúc nãy nó nói đang học đó sao, đồ đần [else] thằng này thì có vẻ hợp thật [font size=12]không biết chớ・・・[resetfont][endif][r]Mày thì ăn mấy thứ cỏ dại ngoài đường đi[p]
 [_tb_end_text]
 
 [chara_mod  name="ティング"  time="0"  cross="false"  storage="chara/9/12.png"  ]

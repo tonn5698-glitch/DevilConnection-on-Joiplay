@@ -365,7 +365,7 @@ Thuốc xanh chỉ có tác dụng phụ,[delay speed=100]…[resetdelay]nhưng[
 [jump  storage="kill_Alice.ks"  target="*zyagan_shitenai"  cond="f.kansou1!=1"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Không phải thành công sao![r]Khufufu…haizz[resetfont][p]
+[font size=25]Không phải thành công sao![r]Khufufu…haizz [resetfont][p]
 
 
 [_tb_end_text]
@@ -374,7 +374,7 @@ Thuốc xanh chỉ có tác dụng phụ,[delay speed=100]…[resetdelay]nhưng[
 
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Đây là thuốc gì vậy trời![r]Fugyaaaa ha ha ha ha ha ha ha ha[resetfont][p]
+[font size=25]Đây là thuốc gì vậy trời![r]Fugyaaaa ha ha ha ha ha ha ha ha [resetfont][p]
 
 
 [_tb_end_text]
@@ -856,7 +856,7 @@ Thành công cái gì.[wait time=600]……Da…[r]Mày thử làm quái vật t
 
 [tb_start_text mode=1 ]
 #でびるん
-[font face="DZUYOKU" size=50]Nóng quá! Agiyaaa?! [resetfont][font face="DZUYOKU"][r]Thân thể như nham thạch, ajjjjj[resetfont][p]
+[font face="DZUYOKU" size=50]Nóng quá! Agiyaaa?! [resetfont][font face="DZUYOKU"][r]Thân thể như nham thạch, ajjjjj [resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="アリス"  time="0"  cross="false"  storage="chara/22/8.png"  ]

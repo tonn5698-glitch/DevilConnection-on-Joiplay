@@ -24,14 +24,14 @@
 
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="sf.kill == 0]…Nhưng mà cả ba cái aura cảm xúc đều màu cống thế nhỉ. [r]Mới bắt đầu mà mày có tinh thần không vậy? Thật tình[else]…Nhưng mà cả ba cái aura cảm xúc đều màu cống thế nhỉ. [r]Thế mà còn là kẻ cuồng tín ma quỷ à? Thật tình[endif][p]
+[if exp="sf.kill == 0]…Nhưng mà cả ba cái aura cảm xúc đều màu cống thế nhỉ. [r]Mới bắt đầu mà mày có tinh thần không vậy? Thật tình [else]…Nhưng mà cả ba cái aura cảm xúc đều màu cống thế nhỉ. [r]Thế mà còn là kẻ cuồng tín ma quỷ à? Thật tình [endif][p]
 [_tb_end_text]
 
 [elsif exp="f.zeroPoint==2"]
 
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="sf.kill == 0]…Này, lại nữa cả ba aura cảm xúc [r]đều màu cống thế, mày thật tệ hại[else]…Này, lại nữa cả ba aura cảm xúc [r]đều màu cống thế, mày thiếu lòng tin kính bản đại nhân à?[endif][p]
+[if exp="sf.kill == 0]…Này, lại nữa cả ba aura cảm xúc [r]đều màu cống thế, mày thật tệ hại [else]…Này, lại nữa cả ba aura cảm xúc [r]đều màu cống thế, mày thiếu lòng tin kính bản đại nhân à?[endif][p]
 [_tb_end_text]
 
 [elsif exp="f.zeroPoint==3"]
@@ -63,14 +63,14 @@
 
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="sf.kill == 0]…Nhưng mà cả ba cái aura cảm xúc đều màu cống thế nhỉ. [r]Mới đầu game thôi đấy… Hôm nay mày không được khỏe à?[else]…Nhưng mà cả ba cái aura cảm xúc đều màu cống thế nhỉ. [r]Mới đầu game thôi đấy? Làm việc cho nghiêm túc đi[endif][p]
+[if exp="sf.kill == 0]…Nhưng mà cả ba cái aura cảm xúc đều màu cống thế nhỉ. [r]Mới đầu game thôi đấy… Hôm nay mày không được khỏe à?[else]…Nhưng mà cả ba cái aura cảm xúc đều màu cống thế nhỉ. [r]Mới đầu game thôi đấy? Làm việc cho nghiêm túc đi [endif][p]
 [_tb_end_text]
 
 [elsif exp="f.zeroPoint==2"]
 
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="sf.kill == 0]…Này, lại nữa cả ba aura cảm xúc [r]đều màu cống thế, mày chẳng có tài năng gì cả[else]…Này, lại nữa cả ba aura cảm xúc [r]đều màu cống thế, mày thế mà còn là kẻ cuồng tín ma quỷ à?[endif][p]
+[if exp="sf.kill == 0]…Này, lại nữa cả ba aura cảm xúc [r]đều màu cống thế, mày chẳng có tài năng gì cả [else]…Này, lại nữa cả ba aura cảm xúc [r]đều màu cống thế, mày thế mà còn là kẻ cuồng tín ma quỷ à?[endif][p]
 [_tb_end_text]
 
 [elsif exp="f.zeroPoint==3"]
@@ -109,7 +109,7 @@
 
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="sf.kill == 0]…Này, lại nữa cả ba aura cảm xúc [r]đều màu cống thế, mày coi thường bản đại nhân à?[else]…Này, lại nữa cả ba aura cảm xúc [r]đều màu cống. Lòng tin kính không đủ đâu[endif][p]
+[if exp="sf.kill == 0]…Này, lại nữa cả ba aura cảm xúc [r]đều màu cống thế, mày coi thường bản đại nhân à?[else]…Này, lại nữa cả ba aura cảm xúc [r]đều màu cống. Lòng tin kính không đủ đâu [endif][p]
 [_tb_end_text]
 
 [elsif exp="f.zeroPoint==3"]

@@ -1061,7 +1061,7 @@ Thằng đó không biết bày trò gì,[r]mau thu hút ma lực rồi bỏ ch�
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Ơ!?[resetfont]Ma lực hồi phục rồi[p]
+[font size=25]Ơ!?[resetfont] Ma lực hồi phục rồi[p]
 
 [_tb_end_text]
 
@@ -1153,14 +1153,14 @@ Thằng đó bỗng thành trẻ con, giật mình.[r]Giá cứ là chị gái m
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/17.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Dù sao,[if exp="f.kansou1 == 1"]đặt lá lên đầu mà biến đổi thì lạ[else]Lá nào cũng chứa nhiều ma lực thế thì lần đầu thấy[endif][p]
+Dù sao,[if exp="f.kansou1 == 1"]đặt lá lên đầu mà biến đổi thì lạ [else] Lá nào cũng chứa nhiều ma lực thế thì lần đầu thấy [endif][p]
 
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/1.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Đặt lá lên đầu thì biến hóa tức thì,[if exp="f.kansou1 == 1"][else]Ma lực tập trung,[r][endif]giá được thành hình thật thì tốt[p]
+Đặt lá lên đầu thì biến hóa tức thì,[if exp="f.kansou1 == 1"][else] Ma lực tập trung,[r][endif] giá được thành hình thật thì tốt[p]
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/10.png"  ]

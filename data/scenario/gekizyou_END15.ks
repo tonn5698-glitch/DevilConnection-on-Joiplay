@@ -83,7 +83,7 @@ Tỏi nhồi đầy là tuyệt nhất đó![r]Nếu là hình dạng bình thư
 
 [tb_start_text mode=1 ]
 #でびるん
-Đ[font face="KaiseiDecol-Bold"]ó[resetfont] chính là tuyệt phẩm chỉ quý tộc ác quỷ mới được thưởng thức…[r]Vị nồng nàn, cay xè trên đầu lưỡi…[p]
+Đ [font face="KaiseiDecol-Bold"]ó [resetfont] chính là tuyệt phẩm chỉ quý tộc ác quỷ mới được thưởng thức…[r]Vị nồng nàn, cay xè trên đầu lưỡi…[p]
 Nó cực kỳ gây nghiện nhưng mà...[p]
 [_tb_end_text]
 

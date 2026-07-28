@@ -583,7 +583,7 @@ TYRANO.kag.stat.is_strong_stop = false;
 
 [tb_start_text mode=1 ]
 #クピャドエル
-Lần này, hy vọng[r]tìm được cách tối ưu[if exp="f.bel_name==1||f.bel_name_first==1"]cứu[else]ngăn đúng cách[endif]Debikun...[p]
+Lần này, hy vọng[r]tìm được cách tối ưu [if exp="f.bel_name==1||f.bel_name_first==1"]cứu [else] ngăn đúng cách [endif] Debikun...[p]
 [_tb_end_text]
 
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/1.png"  ]
@@ -775,7 +775,7 @@ Lột bỏ[r]da cũ hạ quỷ[delay speed=100]...[resetdelay][p]
 [stopse  time="1000"  buf="0"  fadeout="false"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=37]Hình dạng mới, cho bản đại nhân[resetfont][p]
+[font size=37]Hình dạng mới, cho bản đại nhân [resetfont][p]
 
 [_tb_end_text]
 
@@ -1260,7 +1260,7 @@ Kupya...ta có thể làm[r]chỉ đến vậy[p]
 [quake  time="600"  count="10"  hmax="3"  wait="false"  vmax="0"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-[font size=25]Debikun![r][if exp="f.bel_name==1||f.bel_name_first==1"]Xin hãy cứu cậu ấy![else]Xin hãy dừng cậu ấy lại![endif][resetfont][p]
+[font size=25]Debikun![r][if exp="f.bel_name==1||f.bel_name_first==1"]Xin hãy cứu cậu ấy![else] Xin hãy dừng cậu ấy lại![endif][resetfont][p]
 
 
 [_tb_end_text]
@@ -1330,7 +1330,7 @@ Lần này ngồi quanh bàn[r]cùng nhau ăn nhé
 #クピャドエル
 Mùi bánh nướng thơm lúc đầu[r]bỗng...à, không có gì
 [else]
-Đây là Raspberry Pie[r]thứ[emb exp="f.currentLoop-1"]
+Đây là Raspberry Pie[r]thứ [emb exp="f.currentLoop-1"]
 [endif]
 [p]
 [_tb_end_tyrano_code]

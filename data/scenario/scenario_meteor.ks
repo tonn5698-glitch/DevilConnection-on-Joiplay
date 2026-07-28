@@ -96,7 +96,7 @@ Thầy cô và các anh chị khóa trên cùng lúc[r]đổ vào phòng điều
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/62.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Hừm, ở trường mày ngông nghênh thế à[r][font size=12]Ừ, xứng đáng được bản đại nhân công nhận[resetfont][p]
+Hừm, ở trường mày ngông nghênh thế à[r][font size=12]Ừ, xứng đáng được bản đại nhân công nhận [resetfont][p]
 
 [_tb_end_text]
 
@@ -265,7 +265,7 @@ Cảm giác đặt tên dễ thương![r]Chơi chữ thì cho 100 điểm đây!
 
 [tb_start_text mode=1 ]
 #でびるん
-Không, cảm giác đặt tên tệ nhất rồi[r]Cái gì nghe [if exp="f.hutanari == 1"]cổ lỗ thế[else][if exp="f.seibetu == 1]già nách thế[else]bà lão thế[endif][endif][p]
+Không, cảm giác đặt tên tệ nhất rồi[r]Cái gì nghe [if exp="f.hutanari == 1"]cổ lỗ thế [else][if exp="f.seibetu == 1]già nách thế [else] bà lão thế [endif][endif][p]
 
 [_tb_end_text]
 
@@ -282,7 +282,7 @@ Mặc dù vậy, được mời đến nhà[r]của [emb exp="f.name"]ơi, đư�
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/84.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Gọi là mời chứ[font face="KaiseiDecol-Bold" size="34"]bắt[resetfont]cóc cũng không khác là bao đâu nhỉ...[p]
+Gọi là mời chứ [font face="KaiseiDecol-Bold" size="34"]bắt [resetfont] cóc cũng không khác là bao đâu nhỉ...[p]
 
 
 [_tb_end_text]
@@ -814,7 +814,7 @@ Sao của Mi cũng... có thể tỏa sáng lớn đến vậy đây![p]
 [chara_mod  name="ミーティア"  time="0"  cross="false"  storage="chara/39/11.png"  ]
 [tb_start_text mode=1 ]
 #ミーティア
-Cuối cùng, phép thuật của [emb exp="f.name"]ơi[r]vẫn tuyệt vời đây[font size=12]...sniff[resetfont][p]
+Cuối cùng, phép thuật của [emb exp="f.name"]ơi[r]vẫn tuyệt vời đây [font size=12]...sniff [resetfont][p]
 
 [_tb_end_text]
 

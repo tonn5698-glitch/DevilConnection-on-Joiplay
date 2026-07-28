@@ -635,7 +635,7 @@ Vậy nên, tôi cũng muốn thay đổi[r]vận mệnh của Kupyadel theo hư
 [chara_mod  name="ミカエル"  time="0"  cross="false"  storage="chara/67/4.png"  ]
 [tb_start_text mode=1 ]
 #ミカエル
-Uzuran [font color=0xF8DEC9 bold=true]Beru[resetfont] và [font color=0xF8DEC9 bold=true]Fue[resetfont] và [font color=0xF8DEC9 bold=true]Gōru[resetfont], ba thứ gộp lại[r]"Belphegor"... rõ ràng lắm đúng không? [p]
+Uzuran [font color=0xF8DEC9 bold=true]Beru [resetfont] và [font color=0xF8DEC9 bold=true]Fue [resetfont] và [font color=0xF8DEC9 bold=true]Gōru [resetfont], ba thứ gộp lại[r]"Belphegor"... rõ ràng lắm đúng không? [p]
 ;すずらん[font color=0xF8DEC9 bold=true]ベル[resetfont]と[font color=0xF8DEC9 bold=true]フエ[resetfont]と[font color=0xF8DEC9 bold=true]ゴール[resetfont]、三種揃って[r]"Belphegor"…ってね、分かりやすいでしょう？[p]
 ;;すずらん[font color=0xF8DEC9 bold=true]ベル[resetfont]と[font color=0xF8DEC9 bold=true]フエ[resetfont]と[font color=0xF8DEC9 bold=true]ゴール[resetfont]、三種揃って[r]"ベルフェゴール"…ってね、分かりやすいでしょう？[p]
 [_tb_end_text]
@@ -676,7 +676,7 @@ Chiếc nhẫn này là[delay speed=100]・・・[resetdelay]? [p]
 [chara_mod  name="ミカエル"  time="0"  cross="false"  storage="chara/67/3.png"  ]
 [tb_start_text mode=1 ]
 #ミカエル
-[font color=0xF8DEC9 bold=true]Nhẫn Phúc Đức[resetfont]. Chiếc nhẫn này đúng như tên gọi, vì[r]hạnh phúc thì có thể sai khiến các Ma Thần theo cách tốt đẹp[p]
+[font color=0xF8DEC9 bold=true]Nhẫn Phúc Đức [resetfont]. Chiếc nhẫn này đúng như tên gọi, vì[r]hạnh phúc thì có thể sai khiến các Ma Thần theo cách tốt đẹp[p]
 [_tb_end_text]
 
 [achieve_sticker no="81"]

@@ -83,7 +83,7 @@ Kupya!? Ma dâm dục mà trước kia đã gặp ở cổng cõi ma...[r]aura k
 [mind_voice  color="0x56b0af"  name="でびるん"  text="Mô phỏng Succubus à... Tham lam đến mức kiêm luôn cả<br>Ma Lười cũng được nhỉ..."  face="SVNHiroMisake"  ]
 [tb_start_text mode=1 ]
 #あもあも
-Bộ trang phục này nè... Vì chỗ Ma Thuỷ Nhàn trống nên[r]tớ định kiêm luôn cả Ma Lười và[font color=0xEC6FC5 bold=true]Ma Dâm Dục[resetfont] đó[p]
+Bộ trang phục này nè... Vì chỗ Ma Thuỷ Nhàn trống nên[r]tớ định kiêm luôn cả Ma Lười và [font color=0xEC6FC5 bold=true]Ma Dâm Dục [resetfont] đó[p]
 [_tb_end_text]
 
 [chara_mod  name="あもあも"  time="0"  cross="false"  storage="chara/48/20.png"  ]
@@ -274,7 +274,7 @@ Kéo người vô tội sa ngã vào tội lỗi...[r]Không được......[p]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #あもあも
-[font face="kowai"]Nhìn nè[resetfont][p]
+[font face="kowai"]Nhìn nè [resetfont][p]
 [_tb_end_text][p]
 
 [reset_camera  time="5000"  wait="false"  layer="layer_camera"  ]
@@ -282,7 +282,7 @@ Kéo người vô tội sa ngã vào tội lỗi...[r]Không được......[p]
 
 [tb_start_text mode=1 ]
 #あもあも
-[font face="kowai"]Hạnh phúc của ai đó là hạnh phúc của mình à...[r]Không có chuyện thuận tiện như vậy đâu[resetfont][p]
+[font face="kowai"]Hạnh phúc của ai đó là hạnh phúc của mình à...[r]Không có chuyện thuận tiện như vậy đâu [resetfont][p]
 [_tb_end_text][p]
 
 [tb_start_text mode=1 ]
@@ -292,7 +292,7 @@ Kéo người vô tội sa ngã vào tội lỗi...[r]Không được......[p]
 
 [tb_start_text mode=1 ]
 #あもあも
-[font face="kowai"]Vậy tại sao không từ chối?[r]Làm vậy tớ đâu có bị tổn thương[resetfont][p]
+[font face="kowai"]Vậy tại sao không từ chối?[r]Làm vậy tớ đâu có bị tổn thương [resetfont][p]
 [_tb_end_text][p]
 
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
@@ -316,7 +316,7 @@ D-Debi-kun![p]
 
 [tb_start_text mode=1 ]
 #あもあも
-[font face="kowai"][font size=12]Tệ thật... ghen tị quá...[r]Belbo mà được Kupya-chan yêu[resetfont][p]
+[font face="kowai"][font size=12]Tệ thật... ghen tị quá...[r]Belbo mà được Kupya-chan yêu [resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="サブくぴゃ"  time="0"  cross="false"  storage="chara/49/A7.png"  ]
@@ -514,7 +514,7 @@ Tao không cần con mắt quỷ tìm cũng biết được chứ đồ ngu![r]N
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #あもあも
-[font face="kowai"][if exp="f.amoribon == 1"]Vậy thì...[else][if exp="f.HANYOU == 0"]Cứ đứng đó[r]nhìn tớ nha[else]Chiếc nhẫn đó tớ sẽ không để dùng đâu?[endif][endif][resetfont][p]
+[font face="kowai"][if exp="f.amoribon == 1"]Vậy thì...[else][if exp="f.HANYOU == 0"]Cứ đứng đó[r]nhìn tớ nha [else] Chiếc nhẫn đó tớ sẽ không để dùng đâu?[endif][endif][resetfont][p]
 [_tb_end_text]
 
 [layopt layer=4 visible="true"]
@@ -524,7 +524,7 @@ Tao không cần con mắt quỷ tìm cũng biết được chứ đồ ngu![r]N
 [stopbgm  time="0"  ]
 [tb_start_text mode=1 ]
 #あもあも
-[font face="kowai"][font size=25][if exp="f.amoribon == 1"]Cảm ơn nha~♥[else]Vậy thì[r]xin phép~♥[endif][resetfont][p]
+[font face="kowai"][font size=25][if exp="f.amoribon == 1"]Cảm ơn nha~♥[else] Vậy thì[r]xin phép~♥[endif][resetfont][p]
 [_tb_end_text]
 
 [ending no="39"]

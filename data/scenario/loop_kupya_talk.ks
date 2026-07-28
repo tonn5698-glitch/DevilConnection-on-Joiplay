@@ -30,7 +30,7 @@ Nhưng dù dùng tên giả cũng không[r]thoát hợp đồng quỷ đâu, kup
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/7.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-[if exp="f.hutanari == 1"]Ngoài ra lần này còn có cả hai giới tính! Quá hời luôn á~♪[else]Ta cũng có thể biến thành cả hai nên vui lắm[r]Lần tới đấu kiếm nhau nhé á~♪[endif][p]
+[if exp="f.hutanari == 1"]Ngoài ra lần này còn có cả hai giới tính! Quá hời luôn á~♪[else] Ta cũng có thể biến thành cả hai nên vui lắm[r]Lần tới đấu kiếm nhau nhé á~♪[endif][p]
 
 [_tb_end_text]
 
@@ -190,7 +190,7 @@ Tôi cũng muốn hết sức phối hợp![r]Nên được nhờ vả thế nà
 
 [tb_start_text mode=1 ]
 #クピャドエル
-[if exp="f.bel_name_first == 1]Gọi tên Debikun là có thể bình an[r]đạt được kết thúc tốt đẹp[delay speed=100]・・・[resetdelay]thế[else]Gọi tên Debikun là có thể ngăn chặn thành công[r]kết thúc tốt đẹp[delay speed=100]・・・[resetdelay]thế[endif][p]
+[if exp="f.bel_name_first == 1]Gọi tên Debikun là có thể bình an[r]đạt được kết thúc tốt đẹp[delay speed=100]・・・[resetdelay]thế [else] Gọi tên Debikun là có thể ngăn chặn thành công[r]kết thúc tốt đẹp[delay speed=100]・・・[resetdelay]thế [endif][p]
 [_tb_end_text]
 
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/6.png"  ]
@@ -223,17 +223,17 @@ Hãy tìm! Dùng gợi ý[r]True Eye, tìm nhiều kết thúc![p]
 
 [tb_start_text mode=1 ]
 #クピャドエル
-Chắc[r][font color=0xEC6FC5 bold=true]Danh sách Ending[resetfont] [emb exp="f.name"] ghi lại cũng là gợi ý![p]
+Chắc[r][font color=0xEC6FC5 bold=true]Danh sách Ending [resetfont] [emb exp="f.name"] ghi lại cũng là gợi ý![p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #クピャドエル
-Hiện tại kết thúc[font color=0xEC6FC5 bold=true]30[resetfont] kiểu, số tìm được[r]là[font color=0xEC6FC5 bold=true][emb exp="dc.endCount()"][resetfont]...[p]
+Hiện tại kết thúc [font color=0xEC6FC5 bold=true]30[resetfont] kiểu, số tìm được[r]là [font color=0xEC6FC5 bold=true][emb exp="dc.endCount()"][resetfont]...[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #クピャドエル
-Chắc[r][font color=0xEC6FC5 bold=true]True Ending[resetfont] đang chờ ở đâu đó![p]
+Chắc[r][font color=0xEC6FC5 bold=true]True Ending [resetfont] đang chờ ở đâu đó![p]
 [_tb_end_text]
 
 [return  ]
@@ -265,10 +265,10 @@ Phải quan tâm Debikun nữa chứ?
 Muốn chọc sừng Debikun[r]chọc chọc!
 [elsif exp="f.kupya_owari == 7"]
 #クピャドエル
-[if exp="f.currentLoop == 1]Fuakupya~[else]Nếu muốn nhờ tư vấn gì thì[r]hãy ra lệnh cho ta nhé[endif]
+[if exp="f.currentLoop == 1]Fuakupya~[else] Nếu muốn nhờ tư vấn gì thì[r]hãy ra lệnh cho ta nhé [endif]
 [elsif exp="f.kupya_owari == 8"]
 #クピャドエル
-[if exp="f.currentLoop == 1][else]Kupya~[endif]Cảm thấy buồn ngủ rồi á~
+[if exp="f.currentLoop == 1][else] Kupya~[endif] Cảm thấy buồn ngủ rồi á~
 [elsif exp="f.kupya_owari == 9"]
 #クピャドエル
 Thật ra...hình này mắt đóng nên[r]ngủ lén nhà thờ không ai biết
@@ -331,7 +331,7 @@ Ta đóng mắt mặt để[r]tập trung True Eye[p]
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/19.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-[if exp="f.koukai_kidoku"]Lý do tại sao lúc nào cũng nhắm mắt đã rõ qua cảnh quá khứ[r]Debikun đã từng có quá khứ như vậy…tim ta đau quá[else]Tại sao Debikun lúc nào cũng nhắm mắt nhỉ?[r]Ta nghĩ chắc là vì lười biếng thôi nhưng…[endif] [p]
+[if exp="f.koukai_kidoku"]Lý do tại sao lúc nào cũng nhắm mắt đã rõ qua cảnh quá khứ[r]Debikun đã từng có quá khứ như vậy…tim ta đau quá [else] Tại sao Debikun lúc nào cũng nhắm mắt nhỉ?[r]Ta nghĩ chắc là vì lười biếng thôi nhưng…[endif] [p]
 [_tb_end_text]
 
 [return  ]
@@ -363,7 +363,7 @@ Vậy mắt mặt thiên thần trung cấp[r]chỉ một màu thôi, kupya~[p]
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/19.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Hình lớn của ta...[if exp="f.currentLoop == 1][r]Làm giật mình nhỉ[else]Mỗi lần[r]xin lỗi làm giật mình[endif][p]
+Hình lớn của ta...[if exp="f.currentLoop == 1][r]Làm giật mình nhỉ [else] Mỗi lần[r]xin lỗi làm giật mình [endif][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -485,7 +485,7 @@ Tâm ý thông nhau, vui quá[r]Phép Load giống thần![p]
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/1.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-[if exp="f.currentLoop == 2][else]Nhiều lần[endif]Cứ mỗi lần lặp lại[r]ta cố gắng nghĩ rằng 'tốt quá'[p]
+[if exp="f.currentLoop == 2][else] Nhiều lần [endif] Cứ mỗi lần lặp lại[r]ta cố gắng nghĩ rằng 'tốt quá'[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -692,7 +692,7 @@ Thiên thần ai cũng xinh đẹp aa♪[r]
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/3.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Đã lặp lại[r]hơn[emb exp="f.currentLoop-1"] lần[delay speed=100]...[resetdelay][p]
+Đã lặp lại[r]hơn [emb exp="f.currentLoop-1"] lần[delay speed=100]...[resetdelay][p]
 [_tb_end_text]
 
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/19.png"  ]
@@ -713,7 +713,7 @@ Dù thể lực mạnh tâm hồn mài mòn[r]Đừng quá sức[delay speed=100
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/3.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Đã làm lại[r]hơn[emb exp="f.currentLoop-1"] lần[delay speed=100]...[resetdelay][p]
+Đã làm lại[r]hơn [emb exp="f.currentLoop-1"] lần[delay speed=100]...[resetdelay][p]
 [_tb_end_text]
 
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/19.png"  ]
@@ -881,7 +881,7 @@ Có thể là hiệu ứng bướm chăng![p]
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/2.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Nhìn qua cửa sổ rồi! Hôm qua ăn[r][if exp="f.blueberry == 1"]Blueberry[else]Raspberry[endif] Pie...trông ngon quá nhỉ![p]
+Nhìn qua cửa sổ rồi! Hôm qua ăn[r][if exp="f.blueberry == 1"]Blueberry [else] Raspberry [endif] Pie...trông ngon quá nhỉ![p]
 [_tb_end_text]
 
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/1.png"  ]
@@ -902,18 +902,18 @@ Có ngày cũng ăn Custard Pie...[r]Cùng nhau ăn nhé![p]
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/3.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-[if exp="f.currentLoop == 1]Debikun, trông có vẻ buồn nôn nhỉ…[else]Vẫn như cũ Debikun trông buồn nôn lắm[r]Nhìn mà ta cũng thấy khó chịu theo á~[endif][p]
+[if exp="f.currentLoop == 1]Debikun, trông có vẻ buồn nôn nhỉ…[else] Vẫn như cũ Debikun trông buồn nôn lắm[r]Nhìn mà ta cũng thấy khó chịu theo á~[endif][p]
 [_tb_end_text]
 
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/19.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-[if exp="f.currentLoop == 1]Đó là do ma lực quá nhiều gây buồn nôn,r]Cơ thể nhỏ thế gánh vác quá tải quá[else]Cơ thể nhỏ thế mà gánh vác quá tải nhưng tại sao lại…[endif][p]
+[if exp="f.currentLoop == 1]Đó là do ma lực quá nhiều gây buồn nôn,r]Cơ thể nhỏ thế gánh vác quá tải quá [else] Cơ thể nhỏ thế mà gánh vác quá tải nhưng tại sao lại…[endif][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #クピャドエル
-[if exp="f.currentLoop == 1]…Lý do tập trung ma lực đến mức đó[r]ta hoàn toàn không hiểu được á~[else]…Nhưng ta cảm giác hình như đang dần hiểu được[r]thứ thôi thúc Debikun đến mức đó là gì[endif][p]
+[if exp="f.currentLoop == 1]…Lý do tập trung ma lực đến mức đó[r]ta hoàn toàn không hiểu được á~[else]…Nhưng ta cảm giác hình như đang dần hiểu được[r]thứ thôi thúc Debikun đến mức đó là gì [endif][p]
 [_tb_end_text]
 
 [return  ]
@@ -944,7 +944,7 @@ Làm sao[r]khiến Debikun nhận ra nhỉ[p]
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/19.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-[if exp="f.currentLoop == 1]Debikun không thể nào như vậy được![r]Ta lo lắm á~…[else]Thậm chí còn bắt đầu mất đi ngũ quan…[r]Rốt cuộc hắn muốn đạt được thứ gì đến mức đó chứ?[endif][p]
+[if exp="f.currentLoop == 1]Debikun không thể nào như vậy được![r]Ta lo lắm á~…[else] Thậm chí còn bắt đầu mất đi ngũ quan…[r]Rốt cuộc hắn muốn đạt được thứ gì đến mức đó chứ?[endif][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -980,13 +980,13 @@ Mất mới nhận ra... trước khi mất[r]ta phải khiến cậu ấy nhậ
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/13.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-[delay speed=100]・・・[resetdelay]ッ[if exp="f.kupya_syouziki == 1]Như đã nghĩ[else]Thật ra[endif]![p]
+[delay speed=100]・・・[resetdelay]ッ[if exp="f.kupya_syouziki == 1]Như đã nghĩ [else] Thật ra [endif]![p]
 [_tb_end_text]
 
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/13.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-[if exp="f.kupya_syouziki == 1]Như đã nghĩ[delay speed=100]・・・[resetdelay]ngày hôm nay[else][delay speed=100]・・・[resetdelay]Thật ra[endif], ta thấy bất an khi ngày mai đến[p]
+[if exp="f.kupya_syouziki == 1]Như đã nghĩ[delay speed=100]・・・[resetdelay]ngày hôm nay [else][delay speed=100]・・・[resetdelay]Thật ra [endif], ta thấy bất an khi ngày mai đến[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]

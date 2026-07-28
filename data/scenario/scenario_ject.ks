@@ -548,7 +548,7 @@ Gừ gừ gừ・・・[r]Ta sẽ copy lần nữa・・・[p]
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font face="DZUYOKU"][font size=37]Đá phì[resetfont][p]
+[font face="DZUYOKU"][font size=37]Đá phì [resetfont][p]
 
 [_tb_end_text]
 
@@ -667,7 +667,7 @@ Hm? Tự nhiên ngoan ngoãn thế. Sao vậy?[p]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/8.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Này[emb exp="f.name"].[r]Lúc này thì phải dùng Ma Nhãn Search[p]
+Này [emb exp="f.name"].[r]Lúc này thì phải dùng Ma Nhãn Search[p]
 [_tb_end_text]
 
 [jump  storage="scenario_ject.ks"  target="*mp_END"  cond="f.mp>9"  ]
@@ -716,7 +716,7 @@ Hế? Ma lực ít sao? Đúng lúc này mà…[r]Từ phần dự trữ sẽ l�
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ジェクト
-[font face="DZUYOKU"][font size=25]Khủng khiếp khủng khiếp khủng khiếp[resetfont][p]
+[font face="DZUYOKU"][font size=25]Khủng khiếp khủng khiếp khủng khiếp [resetfont][p]
 Tập trung làm việc quá mức như mọi khi nên[r]tiểu tiện nhịn nãy giờ đã đến giới hạn rồi![p]
 Bị đưa đến chỗ này đột ngột[r]nên coi nhẹ quá・・・[p]
 Không dám xinwc toilets lại không được・・・[r]Ph-phải về nhanh[p]
@@ -812,7 +812,7 @@ Kìa kìa![p]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/64.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Bị ăn thì phải trả lại chứ[resetfont][p]
+[font size=25]Bị ăn thì phải trả lại chứ [resetfont][p]
 
 [_tb_end_text]
 
@@ -868,7 +868,7 @@ Kìa kìa![p]
 [chara_mod  name="ジェクト"  time="0"  cross="false"  storage="chara/27/15.png"  ]
 [tb_start_text mode=1 ]
 #ジェクト
-[font face="DZUYOKU"][font size=45]Ức[resetfont][p]
+[font face="DZUYOKU"][font size=45]Ức [resetfont][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -892,7 +892,7 @@ Sắp-sắp tràn rồi・・・[resetfont][p]
 [playse  volume="100"  time="0"  buf="4"  storage="AURA_OK.ogg"  ]
 [tb_start_text mode=1 ]
 #ジェクト
-[font face="DZUYOKU"][font size=45]Tiểu tiện tràn rồiiiiiiiiiiiiiiii[resetfont][p]
+[font face="DZUYOKU"][font size=45]Tiểu tiện tràn rồiiiiiiiiiiiiiiii [resetfont][p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]

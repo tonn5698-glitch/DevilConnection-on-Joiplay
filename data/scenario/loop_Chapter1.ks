@@ -21,14 +21,14 @@ TYRANO.kag.stat.is_strong_stop = false;
 [fadein_window  time="1000"  ]
 [tb_start_text mode=1 ]
 #①マルス①
-K-K-Chào buổi tối.[emb exp="f.name"][if exp="f.seibetu == 1]cậu[else]cô[endif]…[r][wait time=300]Xin lỗi vì đến muộn.[p]
+K-K-Chào buổi tối.[emb exp="f.name"][if exp="f.seibetu == 1]cậu [else] cô [endif]…[r][wait time=300]Xin lỗi vì đến muộn.[p]
 Tôi là Marsu, giáo viên chủ nhiệm Trường Phép thuật Sorcière.[r][wait time=300]Ừm… có thể cậu không nhớ tôi…[p]
 [_tb_end_text][p]
 
 [chara_mod  name="マルス"  time="0"  cross="false"  storage="chara/20/3.png"  ]
 [tb_start_text mode=1 ]
 #①マルス①
-Đã đúng một tháng kể từ lần cuối[emb exp="f.name"][if exp="f.seibetu == 1]cậu[else]cô[endif] đến trường,[r]tôi lo quá nên đến xem…[p]
+Đã đúng một tháng kể từ lần cuối [emb exp="f.name"][if exp="f.seibetu == 1]cậu [else] cô [endif] đến trường,[r]tôi lo quá nên đến xem…[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -264,7 +264,7 @@ Muộn quá, [wait time=200]chết tiệt mày làm gì vậy[delay speed=100]�
 [playse  volume="100"  time="0"  buf="1"  storage="sasu2.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Đ-Đ-Doell!?[wait time=200][r]Mày sao lại ở đây[resetfont][p]
+[font size=25]Đ-Đ-Doell!?[wait time=200][r]Mày sao lại ở đây [resetfont][p]
 
 
 [_tb_end_text]
@@ -478,7 +478,7 @@ Muộn quá, [wait time=200]chết tiệt mày làm gì vậy[delay speed=100]�
 [playbgm  volume="60"  time="0"  loop="true"  storage="8_gag.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Đ-Đ-Doell!?[wait time=200][r]Mày sao lại ở đây[resetfont][p]
+[font size=25]Đ-Đ-Doell!?[wait time=200][r]Mày sao lại ở đây [resetfont][p]
 
 
 [_tb_end_text]
@@ -725,13 +725,13 @@ Vậy nên, tôi muốn nói là[r]…tôi cũng nhớ[p]
 
 [tb_start_text mode=1 ]
 #クピャドエル
-Debiru trở thành hình dạng kỳ lạ cũng vậy,[r][if exp="f.bel_name_first>0"][if exp="f.BBB_kidoku == 1"]bị nuốt ký ức cũng vậy[else]mặc váy cưới đau khổ cũng vậy[endif][else]chỉ còn con mắt cũng vậy[endif], tất cả…[p]
+Debiru trở thành hình dạng kỳ lạ cũng vậy,[r][if exp="f.bel_name_first>0"][if exp="f.BBB_kidoku == 1"]bị nuốt ký ức cũng vậy [else] mặc váy cưới đau khổ cũng vậy [endif][else] chỉ còn con mắt cũng vậy [endif], tất cả…[p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #クピャドエル
-Đang[r]kế thừa ký ức mà[emb exp="f.name"]cô bắt đầu lại từ đầu!…[p]
+Đang[r]kế thừa ký ức mà [emb exp="f.name"]cô bắt đầu lại từ đầu!…[p]
 
 
 
@@ -748,7 +748,7 @@ Debiru trở thành hình dạng kỳ lạ cũng vậy,[r][if exp="f.bel_name_fi
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/15.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Nhưng nhờ phép thuật[emb exp="f.name"]cô, [r]Debiru lúc này vẫn khỏe mạnh![p]
+Nhưng nhờ phép thuật [emb exp="f.name"]cô, [r]Debiru lúc này vẫn khỏe mạnh![p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -787,7 +787,7 @@ Dùng đôi mắt "Sự thật" True Eye để[r]tìm kiếm khả năng hạnh 
 
 [tb_start_text mode=1 ]
 #クピャドエル
-Lần trước khi tôi bắt Debiru trên giường,[r]tôi đã quan sát sự thật mà[emb exp="f.name"]cô load lại[p]
+Lần trước khi tôi bắt Debiru trên giường,[r]tôi đã quan sát sự thật mà [emb exp="f.name"]cô load lại[p]
 [_tb_end_text][p]
 
 [tb_start_text mode=1 ]
@@ -820,12 +820,12 @@ Thật kỳ lạ… nhưng được[r]giúp đỡ với tư cách thiên thần,
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/3.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Ừm… hiện tại khả năng hạnh phúc là[font color=0xEC6FC5 bold=true]30[resetfont]cách.[r]Và số đã tìm được là[font color=0xEC6FC5 bold=true][emb exp="dc.endCount()"][resetfont]gợi.[p]
+Ừm… hiện tại khả năng hạnh phúc là [font color=0xEC6FC5 bold=true]30[resetfont] cách.[r]Và số đã tìm được là [font color=0xEC6FC5 bold=true][emb exp="dc.endCount()"][resetfont] gợi.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #クピャドエル
-Có lẽ danh sách[r][font color=0xEC6FC5 bold=true]ENDING[resetfont] mà[emb exp="f.name"]cô ghi lại cũng sẽ là manh mối…[p]
+Có lẽ danh sách[r][font color=0xEC6FC5 bold=true]ENDING [resetfont] mà [emb exp="f.name"]cô ghi lại cũng sẽ là manh mối…[p]
 [_tb_end_text]
 
 [flash  time="0"  effect="fadeIn"  color="0xFFFFFF"  ]
@@ -941,7 +941,7 @@ Vậy thì, xin phép.[p]
 [fadein_window  time="1000"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Muộn quá[emb exp="f.name"]. [wait time=300][r]Khoan, trong túi mày có gì vậy?[p]
+Muộn quá [emb exp="f.name"]. [wait time=300][r]Khoan, trong túi mày có gì vậy?[p]
 
 [_tb_end_text]
 
@@ -958,7 +958,7 @@ Muộn quá[emb exp="f.name"]. [wait time=300][r]Khoan, trong túi mày có gì 
 
 [tb_start_text mode=1 ]
 #でびるん
-Đó, cái[font color=0xEC6FC5 bold=true]chuông[resetfont][delay speed=100]・・・[resetdelay]cửa hỏng à?[r][l]Ừ thì đặt lên bàn phòng triệu hồi[p]
+Đó, cái [font color=0xEC6FC5 bold=true]chuông [resetfont][delay speed=100]・・・[resetdelay]cửa hỏng à?[r][l]Ừ thì đặt lên bàn phòng triệu hồi[p]
 
 
 [_tb_end_text]
@@ -1070,14 +1070,14 @@ TYRANO.kag.stat.is_strong_stop = false;
 [fadein_window  time="1000"  ][p]
 [tb_start_text mode=1 ]
 #①マルス①
-K-Chào buổi tối.[emb exp="f.name"][if exp="f.seibetu == 1]cậu[else]cô[endif]…[r]Xin lỗi vì đến muộn.[p]
+K-Chào buổi tối.[emb exp="f.name"][if exp="f.seibetu == 1]cậu [else] cô [endif]…[r]Xin lỗi vì đến muộn.[p]
 Tôi là Marsu, giáo viên chủ nhiệm Trường Phép thuật Sorcière.[r][wait time=100]Ừm… có thể cậu không nhớ tôi…[p]
 [_tb_end_text]
 
 [chara_mod  name="マルス"  time="0"  cross="false"  storage="chara/20/3.png"  ]
 [tb_start_text mode=1 ]
 #①マルス①
-Đã đúng một tháng kể từ lần cuối[emb exp="f.name"][if exp="f.seibetu == 1]cậu[else]cô[endif] đến trường,[r]tôi lo quá nên đến xem…[p]
+Đã đúng một tháng kể từ lần cuối [emb exp="f.name"][if exp="f.seibetu == 1]cậu [else] cô [endif] đến trường,[r]tôi lo quá nên đến xem…[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -1148,12 +1148,12 @@ Chào buổi tối. Như bạn đã biết[r]tôi là thiên thần tình yêu C
 
 [tb_start_text mode=4 ]
 #クピャドエル
-[delay speed=100]・・・[resetdelay][if exp="f.bel_name==1||f.bel_name_first==1"]Không sao[else]Tên thật[p][endif]
+[delay speed=100]・・・[resetdelay][if exp="f.bel_name==1||f.bel_name_first==1"]Không sao [else] Tên thật[p][endif]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #クピャドエル
-[if exp="f.bel_name==1||f.bel_name_first==1"]Phải có kết thúc mọi người hạnh phúc![r]Hãy tìm khả năng đó[else]Tên thật Debiru[r]Chắc chắn sẽ xác định được, hãy cứu anh ấy[endif][p]
+[if exp="f.bel_name==1||f.bel_name_first==1"]Phải có kết thúc mọi người hạnh phúc![r]Hãy tìm khả năng đó [else] Tên thật Debiru[r]Chắc chắn sẽ xác định được, hãy cứu anh ấy [endif][p]
 [_tb_end_text]
 
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/4.png"  ]
@@ -1569,7 +1569,7 @@ TYRANO.kag.stat.is_strong_stop = false;
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #①マルス①
-[emb exp="f.name"][if exp="f.seibetu == 1]Cậu[else]Cô[endif][p]
+[emb exp="f.name"][if exp="f.seibetu == 1]Cậu [else] Cô [endif][p]
 
 [_tb_end_text]
 
@@ -1594,7 +1594,7 @@ Ch-Chào bạn.[wait time=300]Xin lỗi vì khuya.[r]Tôi là Marsu, giáo viên
 
 [tb_start_text mode=1 ]
 #①マルス①[p]
-Đã khoảng một tháng kể từ lần cuối[emb exp="f.name"][if exp="f.seibetu == 1]cậu[else]cô[endif] đến trường,[r]tôi lo quá nên đến xem…[p]
+Đã khoảng một tháng kể từ lần cuối [emb exp="f.name"][if exp="f.seibetu == 1]cậu [else] cô [endif] đến trường,[r]tôi lo quá nên đến xem…[p]
 [_tb_end_text]
 
 [chara_mod  name="マルス"  time="0"  cross="false"  storage="chara/20/22.png"  ]
@@ -1619,7 +1619,7 @@ D-Dường như lời đề nghị kỳ lạ[r]đã xuất hiện rồi[p]
 
 [tb_start_text mode=1 ]
 #①マルス①
-[emb exp="f.name"][if exp="f.seibetu == 1]Cậu[else]Cô[endif]…trông có vẻ đau lòng nên[r]tôi nghĩ nếu giúp được gì…[p]
+[emb exp="f.name"][if exp="f.seibetu == 1]Cậu [else] Cô [endif]…trông có vẻ đau lòng nên[r]tôi nghĩ nếu giúp được gì…[p]
 
 [_tb_end_text]
 
@@ -1673,7 +1673,7 @@ Em đã cố gắng rồi.[p]
 
 [tb_start_text mode=1 ]
 #①マルス①
-[emb exp="f.name"][if exp="f.seibetu == 1]cậu[else]cô[endif] rất dũng cảm[r]với tư cách chủ nhiệm, tôi tự hào[p]
+[emb exp="f.name"][if exp="f.seibetu == 1]cậu [else] cô [endif] rất dũng cảm[r]với tư cách chủ nhiệm, tôi tự hào[p]
 [_tb_end_text]
 
 [chara_mod  name="マルス"  time="0"  cross="false"  storage="chara/20/2_.png"  ]
@@ -1685,17 +1685,17 @@ Tuy gọi là chủ nhiệm nhưng mới được[r]một học kỳ, có lẽ h
 [chara_mod  name="マルス"  time="0"  cross="false"  storage="chara/20/1_.png"  ]
 [tb_start_text mode=1 ]
 #①マルス①
-Nhưng[emb exp="f.name"][if exp="f.seibetu == 1]cậu[else]cô[endif] thì không sao.[wait time=300][r]Ừm, nghe có vẻ vô trách nhiệm[p]
+Nhưng [emb exp="f.name"][if exp="f.seibetu == 1]cậu [else] cô [endif] thì không sao.[wait time=300][r]Ừm, nghe có vẻ vô trách nhiệm[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #①マルス①
-Từ[emb exp="f.name"][if exp="f.seibetu == 1]cậu[else]cô[endif] lúc này[r]tôi cảm nhận ý chí rất mạnh[p]
+Từ [emb exp="f.name"][if exp="f.seibetu == 1]cậu [else] cô [endif] lúc này[r]tôi cảm nhận ý chí rất mạnh[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #①マルス①
-Vì vậy tôi tin rằng[r]sẽ có ngày gặp[emb exp="f.name"]cười ở trường[p]
+Vì vậy tôi tin rằng[r]sẽ có ngày gặp [emb exp="f.name"]cười ở trường[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -1742,7 +1742,7 @@ Cho tôi ôm em một chút.[p]
 [chara_mod  name="マルス"  time="0"  cross="false"  storage="chara/20/2_.png"  ]
 [tb_start_text mode=1 ]
 #①マルス①
-D-Dù chỉ động viên bằng cách này, nhưng nếu[r]giúp được[emb exp="f.name"][if exp="f.seibetu == 1]Cậu[else]Cô[endif] dù chút thôi thì tôi rất vui[p]
+D-Dù chỉ động viên bằng cách này, nhưng nếu[r]giúp được [emb exp="f.name"][if exp="f.seibetu == 1]Cậu [else] Cô [endif] dù chút thôi thì tôi rất vui[p]
 [_tb_end_text]
 
 [chara_mod  name="マルス"  time="0"  cross="false"  storage="chara/20/1_.png"  ]
@@ -1778,7 +1778,7 @@ D-Dù chỉ động viên bằng cách này, nhưng nếu[r]giúp được[emb e
 [fadein_window  time="1000"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Muộn quá[emb exp="f.name].[wait time=300][r]Khoan, tay nắm chặt gì vậy?[p]
+Muộn quá [emb exp="f.name].[wait time=300][r]Khoan, tay nắm chặt gì vậy?[p]
 [_tb_end_text]
 
 [image name="ベル" layer=0  time="500"  wait="false"   folder="image" storage="bell/fuki.png"  width="294"  height="258"  left="132"  top="194"  reflect="false"  ]
@@ -1794,7 +1794,7 @@ Muộn quá[emb exp="f.name].[wait time=300][r]Khoan, tay nắm chặt gì vậy
 
 [tb_start_text mode=1 ]
 #でびるん
-Đó, cái[font color=0xEC6FC5 bold=true]chuông[resetfont] đó, cửa hỏng à?[r]Ừ thì đặt lên bàn phòng triệu hồi[p]
+Đó, cái [font color=0xEC6FC5 bold=true]chuông [resetfont] đó, cửa hỏng à?[r]Ừ thì đặt lên bàn phòng triệu hồi[p]
 
 
 [_tb_end_text]

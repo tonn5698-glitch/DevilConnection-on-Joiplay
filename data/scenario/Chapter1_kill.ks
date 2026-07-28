@@ -63,14 +63,14 @@ Thằng nào giờ này mà bấm chuông cửa vậy.[wait time=300][r]Ê! Mày
 [fadein_window  time="1000"  ]
 [tb_start_text mode=1 ]
 #①マルス①
-Ch-chào buổi tối.[emb exp="f.name"][if exp="f.seibetu == 1]cậu[else]cô[endif]…[r]Xin lỗi vì đến muộn.[p]
+Ch-chào buổi tối.[emb exp="f.name"][if exp="f.seibetu == 1]cậu [else] cô [endif]…[r]Xin lỗi vì đến muộn.[p]
 Trường Ma thuật Sol Ciel, tôi là giáo viên chủ nhiệm Mars.[r][wait time=100]Ừm… có thể cậu không nhớ tôi nhưng…[p]
 [_tb_end_text]
 
 [chara_mod  name="マルス"  time="0"  cross="false"  storage="chara/20/3.png"  ]
 [tb_start_text mode=1 ]
 #①マルス①
-Lần cuối[emb exp="f.name"][if exp="f.seibetu == 1]cậu[else]cô[endif] đến trường ma thuật đã[r]tròn một tháng, tôi lo quá nên đến xem tình hình…[p]
+Lần cuối [emb exp="f.name"][if exp="f.seibetu == 1]cậu [else] cô [endif] đến trường ma thuật đã[r]tròn một tháng, tôi lo quá nên đến xem tình hình…[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]

@@ -188,7 +188,7 @@ Mày đang coi thường ta đấy[p]
 
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"]Dù MP không đủ ta cũng vẫn muốn[r]giữ mày làm thuộc hạ[delay speed=100]・・・[resetdelay]nhưng[resetfont][p]
+[font face="kowai"]Dù MP không đủ ta cũng vẫn muốn[r]giữ mày làm thuộc hạ[delay speed=100]・・・[resetdelay]nhưng [resetfont][p]
 
 [_tb_end_text]
 
@@ -211,7 +211,7 @@ Mày đang coi thường ta đấy[p]
 [tb_free_filter  layer="undefined"  time="1000"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"]Đồ phản bội[resetfont][p]
+[font face="kowai"]Đồ phản bội [resetfont][p]
 
 [_tb_end_text]
 
@@ -223,13 +223,13 @@ Mày đang coi thường ta đấy[p]
 
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"]Tín đồ thiếu trung thành thì không đặt bên cạnh được[resetfont][p]
+[font face="kowai"]Tín đồ thiếu trung thành thì không đặt bên cạnh được [resetfont][p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"]Đại ác ma Belphegor này[r]sẽ chịu trách nhiệm xử lý mày vậy[resetfont][p]
+[font face="kowai"]Đại ác ma Belphegor này[r]sẽ chịu trách nhiệm xử lý mày vậy [resetfont][p]
 ;[font face="kowai"]この大悪魔Belphegorが[r]責任もって始末してくれよう[resetfont][p]
 ;;[font face="kowai"]この大悪魔ベルフェゴールが[r]責任もって始末してくれよう[resetfont][p]
 
@@ -237,7 +237,7 @@ Mày đang coi thường ta đấy[p]
 
 [tb_start_text mode=4 ]
 #でびるん
-[font face="kowai"]Hãy coi đó là vinh dự khi bị ác ma ra tay[resetfont]
+[font face="kowai"]Hãy coi đó là vinh dự khi bị ác ma ra tay [resetfont]
 
 [_tb_end_text]
 
@@ -294,7 +294,7 @@ Nhưng mà giết thì tiếc thật[nr]Nào, để ta xem xử lý thế nào �
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/10.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="f.day== 3]Nè, thấy không?[r]Ta đã thực thể hóa một rễ lười biếng[else]Đây là khả năng tà thần của ta, [r]gọi là Rễ Lười Biếng[endif][p]
+[if exp="f.day== 3]Nè, thấy không?[r]Ta đã thực thể hóa một rễ lười biếng [else] Đây là khả năng tà thần của ta, [r]gọi là Rễ Lười Biếng [endif][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -304,13 +304,13 @@ Ta sẽ "nối" trực tiếp cái này với mày[p]
 
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="f.day== 0]Vẫn còn bất hoàn thiện nên chỉ mọc được vài rễ thôi…[r]Mày là thí nghiệm tốt đấy[else]Vừa mới thức tỉnh nên còn bất ổn, việc mày trở thành[r]bình chứa ma lực sống, ta rất vui[endif][p]
+[if exp="f.day== 0]Vẫn còn bất hoàn thiện nên chỉ mọc được vài rễ thôi…[r]Mày là thí nghiệm tốt đấy [else] Vừa mới thức tỉnh nên còn bất ổn, việc mày trở thành[r]bình chứa ma lực sống, ta rất vui [endif][p]
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/9.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="f.day== 0]Nếu vùng vẫy thì khổ đấy?[r]Lúc đó ta sẽ cắt cụt tứ chi[else]Mày có thể trở thành thức ăn của ta[r]Tín đồ cuồng tín như mày chắc hẳn rất vui chứ?[endif][p]
+[if exp="f.day== 0]Nếu vùng vẫy thì khổ đấy?[r]Lúc đó ta sẽ cắt cụt tứ chi [else] Mày có thể trở thành thức ăn của ta[r]Tín đồ cuồng tín như mày chắc hẳn rất vui chứ?[endif][p]
 [_tb_end_text]
 
 [playse  volume="100"  time="6000"  buf="5"  storage="ne.ogg"  fadein="true"  loop="true"  ]

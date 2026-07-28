@@ -277,7 +277,7 @@ Em muốn tìm hiểu kỹ hơn về ác quỷ đáng sợ[p]
 
 [tb_start_text mode=1 ]
 #でびるん
-[font size=35]Nếu mày nói vậy thì được thôi[resetfont][p]
+[font size=35]Nếu mày nói vậy thì được thôi [resetfont][p]
 
 
 [_tb_end_text]
@@ -437,7 +437,7 @@ Cái xanh chỉ gây tác dụng phụ[delay speed=100]・・・[resetdelay][r]V
 [jump  storage="scenario_Alice.ks"  target="*zyagan_shitenai"  cond="f.kansou1!=1"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Không phải nói sẽ thành công sao![r]Kufuh…hahah[resetfont][p]
+[font size=25]Không phải nói sẽ thành công sao![r]Kufuh…hahah [resetfont][p]
 
 
 [_tb_end_text]
@@ -446,7 +446,7 @@ Cái xanh chỉ gây tác dụng phụ[delay speed=100]・・・[resetdelay][r]V
 
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Rốt cuộc đây là thuốc gì vậy![r]Fugigigigigigigigiga[resetfont][p]
+[font size=25]Rốt cuộc đây là thuốc gì vậy![r]Fugigigigigigigigiga [resetfont][p]
 
 
 [_tb_end_text]
@@ -752,7 +752,7 @@ Dựa vào tình hình lúc nãy, có lẽ[r]cái lớn sẽ có hiệu quả h�
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/31.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Cái gì?! Cơ thể…![wait time=300]đang tan chảy[resetfont][p]
+[font size=25]Cái gì?! Cơ thể…![wait time=300]đang tan chảy [resetfont][p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
@@ -900,7 +900,7 @@ Thành công thử nghiệm cái gì.[wait time=600][chara_mod  name="コマで�
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/31.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Cái gì?! Cơ thể…![wait time=300]đang tan chảy[resetfont][p]
+[font size=25]Cái gì?! Cơ thể…![wait time=300]đang tan chảy [resetfont][p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
@@ -928,7 +928,7 @@ Thành công thử nghiệm cái gì.[wait time=600][chara_mod  name="コマで�
 
 [tb_start_text mode=1 ]
 #でびるん
-[font face="DZUYOKU" size=50]NÓNG QUÁ! Agiya?! [resetfont][font face="DZUYOKU"][r]Cơ thể như magma nóng bỏng quá[resetfont][p]
+[font face="DZUYOKU" size=50]NÓNG QUÁ! Agiya?! [resetfont][font face="DZUYOKU"][r]Cơ thể như magma nóng bỏng quá [resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="アリス"  time="0"  cross="false"  storage="chara/22/8.png"  ]

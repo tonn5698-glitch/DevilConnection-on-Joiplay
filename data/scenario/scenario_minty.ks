@@ -571,7 +571,7 @@ Này... bạn ở kia cũng vậy.[r]Muốn liếm không thể chịu được 
 [playse  volume="100"  time="0"  buf="3"  storage="sasu2.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Gìaaaaaa khônggg![r]Dừng lại[emb exp="f.name"]![resetfont][p]
+[font size=25]Gìaaaaaa khônggg![r]Dừng lại [emb exp="f.name"]![resetfont][p]
 
 
 [_tb_end_text]
@@ -891,7 +891,7 @@ Vậy nên phương pháp đối phó là đúng.[r]Không tệ đâu. Nể nể
 
 [tb_start_text mode=1 ]
 #でびるん
-Ra vậy[delay speed=100]・・・[resetdelay][wait time=500][chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/10.png"  ][keyframe name="fuwakoma"][frame p="0%" y="-10"][frame p="50%" y="0"][frame p="100%" y="-1"][endkeyframe][kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="400" direction="alternate" easing="linear"]Nhưng mà đánh người ta chứ![r]Mày-mia[emb exp="f.name"]nhớ cho kỹ![p]
+Ra vậy[delay speed=100]・・・[resetdelay][wait time=500][chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/10.png"  ][keyframe name="fuwakoma"][frame p="0%" y="-10"][frame p="50%" y="0"][frame p="100%" y="-1"][endkeyframe][kanim name="コマでび" keyframe="fuwakoma" count="infinite" time="400" direction="alternate" easing="linear"]Nhưng mà đánh người ta chứ![r]Mày-mia [emb exp="f.name"]nhớ cho kỹ![p]
 
 [_tb_end_text]
 
@@ -994,7 +994,7 @@ Dù sao gọi là psy-mint sao? Lá gây[r]trạng thái thôi miên đúng là 
 [chara_mod  name="プレイヤー"  time="100"  cross="false"  storage="chara/2/punch.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Gìà- nghĩ đến lại thèm ăn nữa rồi[r][font size=12]không được không được[resetfont][p]
+Gìà- nghĩ đến lại thèm ăn nữa rồi[r][font size=12]không được không được [resetfont][p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]

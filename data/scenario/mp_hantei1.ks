@@ -33,7 +33,7 @@
 [fadein_window  time="1000"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="sf.kill == 0]Hô hô, đã triệu hồi xong 3 con rồi à![else]Được rồi, giờ là thời điểm phán xét[endif][p]
+[if exp="sf.kill == 0]Hô hô, đã triệu hồi xong 3 con rồi à![else] Được rồi, giờ là thời điểm phán xét [endif][p]
 
 
 [_tb_end_text]
@@ -111,7 +111,7 @@
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/15.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="sf.kill == 0]Hôm nay đến đây thôi, về phòng ngủ [r]cùng nhau lười biếng nào [emb exp="f.name"][else]Hôm nay đến đây thôi, đi ngủ vậy―[r]Mày massage cho bản đại nhân đi[endif][p]
+[if exp="sf.kill == 0]Hôm nay đến đây thôi, về phòng ngủ [r]cùng nhau lười biếng nào [emb exp="f.name"][else] Hôm nay đến đây thôi, đi ngủ vậy―[r]Mày massage cho bản đại nhân đi [endif][p]
 [_tb_end_text]
 
 [stopbgm  time="1000"  fadeout="true"  ]
@@ -251,13 +251,13 @@ Có thể làm tốt không nhỉ～♥ Bản đại nhân sẽ coi [r]nên lầ
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/8.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Hiểu rồi chứ[if exp="sf.kill == 0]thằng ngốc này [emb exp="f.name"][else]thằng nhỏ[endif].[r]Chết đi[p]
+Hiểu rồi chứ [if exp="sf.kill == 0]thằng ngốc này [emb exp="f.name"][else] thằng nhỏ [endif].[r]Chết đi[p]
 [_tb_end_text]
 
 [stopse  time="0"  buf="1"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="sf.kill == 0]Thôi, kệ.[else]Hãy biết ơn ta đi?[endif][p]
+[if exp="sf.kill == 0]Thôi, kệ.[else] Hãy biết ơn ta đi?[endif][p]
 [_tb_end_text]
 
 [hide_photo_button]
@@ -275,7 +275,7 @@ Hiểu rồi chứ[if exp="sf.kill == 0]thằng ngốc này [emb exp="f.name"][e
 
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="sf.kill == 0]Phần thiếu hụt bản đại nhân sẽ lấy từ mày bù vào♥[else]Phần thiếu hụt bản đại nhân sẽ lấy từ mày bù vào đấy♥[endif][p]
+[if exp="sf.kill == 0]Phần thiếu hụt bản đại nhân sẽ lấy từ mày bù vào♥[else] Phần thiếu hụt bản đại nhân sẽ lấy từ mày bù vào đấy♥[endif][p]
 [_tb_end_text]
 
 [show_photo_button  visible="true"]

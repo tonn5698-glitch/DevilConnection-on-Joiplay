@@ -55,7 +55,7 @@ Hahaha…hôm nay mình cũng xinh đẹp[p]
 [playse  volume="100"  time="0"  buf="3"  storage="sasu.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="f.Alice_nabe >= 1]Tiếp theo nồi lẩu hôm qua đến tận bồn tắm!?[r]Thật sự thuật triệu hồi của mày ra sao…[else]Cả bồn tắm luôn!?[r]Thuật triệu hồi của mày ra sao…[endif][p]
+[if exp="f.Alice_nabe >= 1]Tiếp theo nồi lẩu hôm qua đến tận bồn tắm!?[r]Thật sự thuật triệu hồi của mày ra sao…[else] Cả bồn tắm luôn!?[r]Thuật triệu hồi của mày ra sao…[endif][p]
 
 [_tb_end_text]
 
@@ -1011,7 +1011,7 @@ Mình nghĩ sẽ còn tỏa sáng hơn nữa,[r]nhưng không có nghĩa bây gi
 
 [tb_start_text mode=1 ]
 #サフィール
-Giống như đánh bóng viên sapphire[p]đã sáng.[font face="KaiseiDecol-Bold"]Vậy[resetfont]…luôn cập nhật[font face="KaiseiDecol-Bold"]hoàn hảo[resetfont][p]
+Giống như đánh bóng viên sapphire[p]đã sáng.[font face="KaiseiDecol-Bold"]Vậy [resetfont]…luôn cập nhật [font face="KaiseiDecol-Bold"]hoàn hảo [resetfont][p]
 [_tb_end_text]
 
 *zyagan3_modoru2
@@ -1048,7 +1048,7 @@ Giống như đánh bóng viên sapphire[p]đã sáng.[font face="KaiseiDecol-Bo
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #でびるん
-Coward♥[wait time=300]Yếu đuối♥[wait time=300]Nếu nghiêm túc thì ngay lập tức[p]giết được mày~♥[font size=12][wait time=300]　Mà,[wait time=100]không biết gì về mày[resetfont][p]
+Coward♥[wait time=300]Yếu đuối♥[wait time=300]Nếu nghiêm túc thì ngay lập tức[p]giết được mày~♥[font size=12][wait time=300]　Mà,[wait time=100]không biết gì về mày [resetfont][p]
 
 [_tb_end_text]
 
@@ -1097,7 +1097,7 @@ Không,[wait time=200] Kiếm thuật của mình năm sao![r]Đã được ch�
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/115.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="f.HANYOU == 1]Quả thật kiếm thuật lúc nãy khá[else]Hmm vậy sao…[endif][p]
+[if exp="f.HANYOU == 1]Quả thật kiếm thuật lúc nãy khá [else] Hmm vậy sao…[endif][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -1221,7 +1221,7 @@ Nar…[wait time=300]cissist…?[p]
 
 [tb_start_text mode=1 ]
 #でびるん
-Ồ, vậy.[r]Thế.[font size=12]Hừ chán thật[resetfont][p]
+Ồ, vậy.[r]Thế.[font size=12]Hừ chán thật [resetfont][p]
 
 
 
@@ -1252,7 +1252,7 @@ Vì mình quá đẹp…[r]Xin lỗi……[p]
 [playse  volume="100"  time="0"  buf="3"  storage="sasu.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Gurururu[r]Muốn đánh nó một phát[resetfont][p]
+[font size=25]Gurururu[r]Muốn đánh nó một phát [resetfont][p]
 [_tb_end_text]
 
 *za_jump

@@ -204,7 +204,7 @@ Vậy nên nào[p]
 #Belphegor
 ;#Belphegor
 ;;#ベルフェゴール
-[font face="kowai"]Đưa linh hồn ra đây[resetfont][wait time=500][p]
+[font face="kowai"]Đưa linh hồn ra đây [resetfont][wait time=500][p]
 
 [_tb_end_text]
 
@@ -213,7 +213,7 @@ Vậy nên nào[p]
 #Belphegor
 ;#Belphegor
 ;;#ベルフェゴール
-[font face="kowai"]Chỉ cần có linh hồn mày[r]ta sẽ được lũ ma giới công nhận[resetfont][wait time=500][p]
+[font face="kowai"]Chỉ cần có linh hồn mày[r]ta sẽ được lũ ma giới công nhận [resetfont][wait time=500][p]
 [_tb_end_text]
 
 [tb_autosave  title="b"  ]
@@ -221,7 +221,7 @@ Vậy nên nào[p]
 #Belphegor
 ;#Belphegor
 ;;#ベルフェゴール
-[font face="kowai"]Mày cũng trở thành quỷ thì[r]có thể ở bên ta mãi mãi[resetfont][wait time=500][p]
+[font face="kowai"]Mày cũng trở thành quỷ thì[r]có thể ở bên ta mãi mãi [resetfont][wait time=500][p]
 [_tb_end_text]
 
 [tb_autosave  title="b"  ]
@@ -246,7 +246,7 @@ Vậy nên nào[p]
 #Belphegor
 ;#Belphegor
 ;;#ベルフェゴール
-[font face="kowai"]Mày là thuộc hạ[r]đầu tiên đáng nhớ của ta[resetfont][p]
+[font face="kowai"]Mày là thuộc hạ[r]đầu tiên đáng nhớ của ta [resetfont][p]
 [_tb_end_text]
 
 [tb_autosave  title="b"  ]
@@ -254,7 +254,7 @@ Vậy nên nào[p]
 #Belphegor
 ;#Belphegor
 ;;#ベルフェゴール
-[font face="kowai"]Nào, [wait time=300]đến bên ta đây[resetfont][wait time=500][p]
+[font face="kowai"]Nào, [wait time=300]đến bên ta đây [resetfont][wait time=500][p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
@@ -278,7 +278,7 @@ Vậy nên nào[p]
 #Belphegor
 ;#Belphegor
 ;;#ベルフェゴール
-[delay speed=100][font face="kowai"]Đứa ngoan…[r][emb exp="f.name"] yêu quý[resetfont][resetdelay][p]
+[delay speed=100][font face="kowai"]Đứa ngoan…[r][emb exp="f.name"] yêu quý [resetfont][resetdelay][p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
@@ -444,7 +444,7 @@ TG.layer.getLayer('message0').find('img').remove()
 [tb_autosave  title="b"  ]
 [tb_start_text mode=1 ]
 #⑥
-[font color=0xab0009 bold=true][quake_text][delay speed=100][if exp="dc.aibou()"]Vừa mới giành được true ending mà còn quăng đi, [r]còn muốn bán ta cho quỷ nữa[else]Muốn bán ta cho quỷ nữa[endif][resetdelay][free_quake_text][resetfont][p]
+[font color=0xab0009 bold=true][quake_text][delay speed=100][if exp="dc.aibou()"]Vừa mới giành được true ending mà còn quăng đi, [r]còn muốn bán ta cho quỷ nữa [else] Muốn bán ta cho quỷ nữa [endif][resetdelay][free_quake_text][resetfont][p]
 [_tb_end_text]
 
 [tb_autosave  title="b"  ]
@@ -607,7 +607,7 @@ TG.layer.getLayer('message0').find('img').remove()
 [tb_autosave  title="b"  ]
 [tb_start_text mode=1 ]
 #⑥
-[font color=0xab0009 bold=true][quake_text][delay speed=100][if exp="dc.aibou()"]Tự tay phá hủy chắc hẳn sướng lắm nhỉ[else]Tự tay phá hủy, vui không?[endif][resetdelay][free_quake_text][resetfont][p]
+[font color=0xab0009 bold=true][quake_text][delay speed=100][if exp="dc.aibou()"]Tự tay phá hủy chắc hẳn sướng lắm nhỉ [else] Tự tay phá hủy, vui không?[endif][resetdelay][free_quake_text][resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="邪眼"  time="0"  cross="false"  storage="chara/62/10.png"  ]
@@ -840,7 +840,7 @@ dc.aibou() && dc.writeNEO('kill')
 [tb_show_message_window  ]
 [tb_start_text mode=4 ]
 #⑦
-[delay speed=30][if exp="sf.desu == 1]Chúng ta lại gặp nhau rồi,[else]Rất vui được gặp,[endif]Vua ạ[wait time=2000][er]
+[delay speed=30][if exp="sf.desu == 1]Chúng ta lại gặp nhau rồi,[else] Rất vui được gặp,[endif] Vua ạ[wait time=2000][er]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]
@@ -861,7 +861,7 @@ dc.aibou() && dc.writeNEO('kill')
 
 [tb_start_text mode=4 ]
 #⑦
-[delay speed=30][font size=15]Đau lòng quá đau lòng quá đau lòng quá đau lòng quá đau lòng quá đau lòng quá đau lòng quá đau lòng quá[r]đau lòng quá đau lòng quá đau lòng quá đau lòng quá đau lòng quá đau lòng quá đau lòng quá đau lòng quá[r]đau lòng quá đau lòng quá đau lòng quá đau lòng quá đau lòng quá đau lòng quá đau lòng quá đau lòng quá[resetfont][wait time=1000][er]
+[delay speed=30][font size=15]Đau lòng quá đau lòng quá đau lòng quá đau lòng quá đau lòng quá đau lòng quá đau lòng quá đau lòng quá[r]đau lòng quá đau lòng quá đau lòng quá đau lòng quá đau lòng quá đau lòng quá đau lòng quá đau lòng quá[r]đau lòng quá đau lòng quá đau lòng quá đau lòng quá đau lòng quá đau lòng quá đau lòng quá đau lòng quá [resetfont][wait time=1000][er]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]
@@ -974,7 +974,7 @@ TG.layer.getLayer('message0').find('img').remove()
 
 [tb_start_text mode=1 ]
 #⑥
-[font color=0xab0009 bold=true][quake_text][delay speed=100][if exp="dc.aibou()"]Cậu như vậy mà quăng kết thúc cứu mọi người đi, [r]lại sa đọa thành quỷ, hi sinh tính mạng người khác[else]Cậu như vậy mà sa đọa thành quỷ[p]lẽ ra phải cứu, hi sinh tính mạng người khác[endif][resetdelay][free_quake_text][resetfont][p]
+[font color=0xab0009 bold=true][quake_text][delay speed=100][if exp="dc.aibou()"]Cậu như vậy mà quăng kết thúc cứu mọi người đi, [r]lại sa đọa thành quỷ, hi sinh tính mạng người khác [else] Cậu như vậy mà sa đọa thành quỷ[p]lẽ ra phải cứu, hi sinh tính mạng người khác [endif][resetdelay][free_quake_text][resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="ネオ"  time="0"  cross="false"  storage="chara/63/5.png"  ]

@@ -309,7 +309,7 @@ Kh... Không cử động được...[resetfont][p]
 [playse  volume="100"  time="0"  buf="3"  storage="kawaii.ogg"  ]
 [tb_start_text mode=1 ]
 #パンプティ
-Wahoo- thành công lớn! [if exp="f.hutanari == 1]Anh[else][if exp="f.seibetu == 1]Chị[else]Anh[endif][endif] kia[r]thế nào, tuyệt không~[p]
+Wahoo- thành công lớn! [if exp="f.hutanari == 1]Anh [else][if exp="f.seibetu == 1]Chị [else] Anh [endif][endif] kia[r]thế nào, tuyệt không~[p]
 
 
 
@@ -331,7 +331,7 @@ Wahoo- thành công lớn! [if exp="f.hutanari == 1]Anh[else][if exp="f.seibetu 
 [playse  volume="100"  time="0"  buf="2"  storage="saimin.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Gyaa[delay speed=100]・・・[resetdelay]?[wait time=200]Đầu cũng bắt đầu choáng rồi[resetfont][p]
+Gyaa[delay speed=100]・・・[resetdelay]?[wait time=200]Đầu cũng bắt đầu choáng rồi [resetfont][p]
 
 
 [_tb_end_text]
@@ -459,7 +459,7 @@ Rùng mình!?[resetfont][r][font size=12]Chết rồi nếu để lộ ở đây
 [chara_mod  name="パンプティ"  time="0"  cross="false"  storage="chara/34/5.png"  ]
 [tb_start_text mode=1 ]
 #パンプティ
-Nè nè [if exp="f.hutanari == 1]Anh[else][if exp="f.seibetu == 1]Chị[else]Anh[endif][endif][r]Để em quỷ nói gì tốt nhất?[p]
+Nè nè [if exp="f.hutanari == 1]Anh [else][if exp="f.seibetu == 1]Chị [else] Anh [endif][endif][r]Để em quỷ nói gì tốt nhất?[p]
 
 
 [_tb_end_text]
@@ -492,7 +492,7 @@ Nè nè [if exp="f.hutanari == 1]Anh[else][if exp="f.seibetu == 1]Chị[else]Anh
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #パンプティ
-[if exp="f.hutanari == 1]Anh[else][if exp="f.seibetu == 1]Chị[else]Anh[endif][endif] và em quỷ có quan hệ gì[r]Panpu không muốn biết đâu~[p]
+[if exp="f.hutanari == 1]Anh [else][if exp="f.seibetu == 1]Chị [else] Anh [endif][endif] và em quỷ có quan hệ gì[r]Panpu không muốn biết đâu~[p]
 
 
 [_tb_end_text]
@@ -641,7 +641,7 @@ Mmm- còn chút nữa mà...[p]
 
 [tb_start_text mode=1 ]
 #でびるん
-Này![resetfont]Đồ ngu[if exp="f.syo == 1"][else]triệu hồi sư[endif][emb exp="f.name"][r][font size=25]Quên chuyện vừa nãy đi! Tuyệt đối!?[resetfont][p]
+Này![resetfont] Đồ ngu [if exp="f.syo == 1"][else] triệu hồi sư [endif][emb exp="f.name"][r][font size=25]Quên chuyện vừa nãy đi! Tuyệt đối!?[resetfont][p]
 [_tb_end_text]
 
 [jump  storage="scenario_panpu.ks"  target="*na_jump"  ]
@@ -694,13 +694,13 @@ Của bản đại nhân[delay speed=200]・・・[resetdelay][r]cảm xúc củ
 
 [tb_start_text mode=1 ]
 #でびるん
-chỉ dùng thôi[if exp="f.end_complete == 1"][else]đ[endif][delay speed=200]・・・[resetdelay][resetfont][p]
+chỉ dùng thôi [if exp="f.end_complete == 1"][else] đ [endif][delay speed=200]・・・[resetdelay][resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/97.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font face="YOWAKU"][if exp="f.end_complete == 1"][delay speed=200]・・・[resetdelay]Nhưng mà,ừ[delay speed=200]・・・[resetdelay][r][emb exp="f.name"]em nghĩ về bản đại nhân[delay speed=200]・・・[resetdelay]và điều đó khiến ta vui[else]Nhưng[delay speed=200]・・・[resetdelay]dù sao đi nữa[delay speed=200]・・・[resetdelay][r]cuộc sống ở nhà này cũng không tệ[delay speed=200]・・・[resetdelay][endif][resetfont][p]
+[font face="YOWAKU"][if exp="f.end_complete == 1"][delay speed=200]・・・[resetdelay]Nhưng mà,ừ[delay speed=200]・・・[resetdelay][r][emb exp="f.name"]em nghĩ về bản đại nhân[delay speed=200]・・・[resetdelay]và điều đó khiến ta vui [else] Nhưng[delay speed=200]・・・[resetdelay]dù sao đi nữa[delay speed=200]・・・[resetdelay][r]cuộc sống ở nhà này cũng không tệ[delay speed=200]・・・[resetdelay][endif][resetfont][p]
 [_tb_end_text]
 
 [free_layermode  time="1000"  wait="false"  ]
@@ -709,7 +709,7 @@ chỉ dùng thôi[if exp="f.end_complete == 1"][else]đ[endif][delay speed=200]�
 [playse  volume="100"  time="0"  buf="4"  storage="AURA_OK.ogg"  ]
 [tb_start_text mode=1 ]
 #パンプティ
-Hehe. Tốt quá nhỉ[if exp="f.hutanari == 1"]Anh Onē[else][if exp="f.seibetu == 1"]Anh Onii[else]Chị Onē[endif][endif].[r]Em quỷ hình như đang nghĩ thế này.[p]
+Hehe. Tốt quá nhỉ [if exp="f.hutanari == 1"]Anh Onē [else][if exp="f.seibetu == 1"]Anh Onii [else] Chị Onē [endif][endif].[r]Em quỷ hình như đang nghĩ thế này.[p]
 
 
 
@@ -756,7 +756,7 @@ Làm sao bắt ta nói vậy![r]Vừa nãy nói dối, nói dối thôi![resetfo
 
 [tb_start_text mode=1 ]
 #でびるん
-Không có chuyện đó mà![resetfont][r]Đồ ngu[if exp="f.syo == 1"][else]Triệu hồi sư[endif][emb exp="f.name"]![p]
+Không có chuyện đó mà![resetfont][r]Đồ ngu [if exp="f.syo == 1"][else] Triệu hồi sư [endif][emb exp="f.name"]![p]
 [_tb_end_text]
 
 *na_jump
@@ -851,7 +851,7 @@ Ta không muốn hai người[r]thân mật ôm nhau~[p]
 
 [tb_start_text mode=1 ]
 #パンプティ
-[emb exp="f.name"][r]thích đúng không~?[if exp="f.HANYOU == 1]Bel[else]Em quỷ[endif]~♥[p]
+[emb exp="f.name"][r]thích đúng không~?[if exp="f.HANYOU == 1]Bel [else] Em quỷ [endif]~♥[p]
 
 
 
@@ -1003,7 +1003,7 @@ Gyaa![r]Sao bản đại nhân lại nói vậy![resetfont][p]
 
 [tb_start_text mode=1 ]
 #パンプティ
-[emb exp="f.name"][r]ôm[delay speed=200]・・・[resetdelay]nhé[if exp="f.HANYOU == 1]Bel[else]Em quỷ[endif]~♥[p]
+[emb exp="f.name"][r]ôm[delay speed=200]・・・[resetdelay]nhé [if exp="f.HANYOU == 1]Bel [else] Em quỷ [endif]~♥[p]
 
 
 
@@ -1104,7 +1104,7 @@ Mày làm gì vậy!?[r]Buông ra![resetfont][p]
 [chara_mod  name="パンプティ"  time="0"  cross="false"  storage="chara/34/5.png"  ]
 [tb_start_text mode=1 ]
 #パンプティ
-Mà[if exp="f.HANYOU == 1]Bel[else]Em quỷ[endif][delay speed=200]・・・[resetdelay][r]dễ bị thôi miên quá[p]
+Mà [if exp="f.HANYOU == 1]Bel [else] Em quỷ [endif][delay speed=200]・・・[resetdelay][r]dễ bị thôi miên quá[p]
 
 
 
@@ -1125,7 +1125,7 @@ Mà[if exp="f.HANYOU == 1]Bel[else]Em quỷ[endif][delay speed=200]・・・[res
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Im đi![resetfont]Là tại mày...[p]
+Im đi![resetfont] Là tại mày...[p]
 
 [_tb_end_text]
 
@@ -1162,7 +1162,7 @@ Bực mình! Chơi bản đại nhân![r]Xử cả hai đứa luôn![resetfont][
 [chara_mod  name="パンプティ"  time="0"  cross="false"  storage="chara/34/5.png"  ]
 [tb_start_text mode=1 ]
 #パンプティ
-Áaa sợ quá[if exp="f.hutanari == 1]Anh[else][if exp="f.seibetu == 1]Chị[else]Anh[endif][endif]~[r]Trước khi bị xử hãy làm[if exp="f.HANYOU == 1]Bel[else]Em quỷ[endif] câm nín đi~[p]
+Áaa sợ quá [if exp="f.hutanari == 1]Anh [else][if exp="f.seibetu == 1]Chị [else] Anh [endif][endif]~[r]Trước khi bị xử hãy làm [if exp="f.HANYOU == 1]Bel [else] Em quỷ [endif] câm nín đi~[p]
 
 
 
@@ -1234,7 +1234,7 @@ Hả?[p]
 [chara_mod  name="サブでび"  time="0"  cross="false"  storage="chara/30/panpu5.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Khoan...[if exp="f.kansou2 == 1]Lại cái này...[else]Gần quá...[endif][r]Không cần đỡ! Buông ra[p]
+Khoan...[if exp="f.kansou2 == 1]Lại cái này...[else] Gần quá...[endif][r]Không cần đỡ! Buông ra[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
@@ -1266,7 +1266,7 @@ D- không thích...[r]Dừng! Agyaaa...[p]
 [chara_mod  name="パンプティ"  time="0"  cross="false"  storage="chara/34/5.png"  ]
 [tb_start_text mode=1 ]
 #パンプティ
-Ồ~[if exp="f.HANYOU == 1]Bel[else]Em quỷ[endif] có điểm yếu là sừng[r]Gyafun gyafun! Hehe~[p]
+Ồ~[if exp="f.HANYOU == 1]Bel [else] Em quỷ [endif] có điểm yếu là sừng[r]Gyafun gyafun! Hehe~[p]
 [_tb_end_text]
 
 [chara_mod  name="パンプティ"  time="0"  cross="false"  storage="chara/34/7.png"  ]
@@ -1342,7 +1342,7 @@ Adadad...[r]Đừng kéo mạnh vậy![resetfont][p]
 [tb_eval  exp="f.photoDeviPose=0"  name="photoDeviPose"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Kufu, nhưng nhờ đó tỉnh rồi![r]Cảm ơn đồ ngu[if exp="f.syo == 1"][else]triệu hồi sư[endif][emb exp="f.name"][p]
+Kufu, nhưng nhờ đó tỉnh rồi![r]Cảm ơn đồ ngu [if exp="f.syo == 1"][else] triệu hồi sư [endif][emb exp="f.name"][p]
 
 
 
@@ -1379,7 +1379,7 @@ Haa, dù sao cũng trải qua chuyện tệ thật...[p]
 [playse  volume="100"  time="0"  buf="4"  storage="Horror.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Thu thập ma lực xong[r]nhớ nhé[emb exp="f.name"][p]
+Thu thập ma lực xong[r]nhớ nhé [emb exp="f.name"][p]
 
 
 

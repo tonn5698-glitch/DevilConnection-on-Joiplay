@@ -92,7 +92,7 @@ Bị bú sừng thì cảm giác thế nào vậy?[r]Chắc là sướng lắm l
 [chara_mod  name="劇場でび"  time="0"  cross="false"  storage="chara/15/dagya31.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Trời! Biết bao chỗ không chọn lại đi bôi kem[r]lên cái sừng nhạy cảm nhất…Bản đại nhân cũng[if exp="f.HANYOU == 1"]muốn hơn[endif] được bú cơ chứ…[p]
+Trời! Biết bao chỗ không chọn lại đi bôi kem[r]lên cái sừng nhạy cảm nhất…Bản đại nhân cũng [if exp="f.HANYOU == 1"]muốn hơn [endif] được bú cơ chứ…[p]
 
 [_tb_end_text]
 

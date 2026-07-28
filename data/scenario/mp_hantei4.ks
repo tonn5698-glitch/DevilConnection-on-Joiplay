@@ -153,7 +153,7 @@ Mày đã làm điều mà bản đại nhân[r]ghét nhất rồi đấy[p]
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/48.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="f.mp0_jewelry == 1]Lúc đó đã tỏ ý không phản bội[r]nhưng rốt cục vẫn là thế này à.[else]Đồ phản bội.[endif][p]
+[if exp="f.mp0_jewelry == 1]Lúc đó đã tỏ ý không phản bội[r]nhưng rốt cục vẫn là thế này à.[else] Đồ phản bội.[endif][p]
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/17.png"  ]
@@ -198,7 +198,7 @@ Hà[delay speed=100]...[resetdelay][p]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Nào[resetfont][p]
+[font size=25]Nào [resetfont][p]
 [_tb_end_text]
 
 [tb_eval  exp="f.photoPose=0"  name="photoPose"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
@@ -218,7 +218,7 @@ Hà[delay speed=100]...[resetdelay][p]
 
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Chân, liếm đi[resetfont][p]
+[font size=25]Chân, liếm đi [resetfont][p]
 [_tb_end_text]
 
 [camera  time="20000"  zoom="1.1"  wait="false"  layer="layer_camera"  y="50"  ease_type="ease"  ]

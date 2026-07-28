@@ -410,7 +410,7 @@ Con ác quỷ đó,[r]mở mắtÁc nhãn ở bụng.[r]Đánh thức cả năng
 [playse  volume="100"  time="0"  buf="1"  storage="marusu.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Làm gì mà moiÁc nhãn![r][if exp="f.MAGAN == 1]Đừng có sờ![else]Đừng thô bạo![resetfont]! delicate![endif][p]
+Làm gì mà moiÁc nhãn![r][if exp="f.MAGAN == 1]Đừng có sờ![else] Đừng thô bạo![resetfont]! delicate![endif][p]
 
 
 [_tb_end_text]
@@ -564,7 +564,7 @@ Thích.[r]Muốn. Nếu thấyÁc nhãn mở nữa…[r]có lẽ không chịu n
 [chara_mod  name="ムゥムゥ"  time="0"  cross="false"  storage="chara/31/12.png"  ]
 [tb_start_text mode=1 ]
 #ムゥムゥ
-Quyết định! [font color=0xEC6FC5 bold=true]Lần sauÁc nhãn mở[resetfont]thì[r]nhất định…mufufu![p]
+Quyết định! [font color=0xEC6FC5 bold=true]Lần sauÁc nhãn mở [resetfont] thì[r]nhất định…mufufu![p]
 
 
 
@@ -721,7 +721,7 @@ Nó nói gì vậy?[p]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ムゥムゥ
-Mufu.[if exp="f.HANYOU==1]Như đã nói[endif]Đây là thật.[r]Pháp khí đắt.[r]Rất thích[p]
+Mufu.[if exp="f.HANYOU==1]Như đã nói [endif] Đây là thật.[r]Pháp khí đắt.[r]Rất thích[p]
 
 [_tb_end_text]
 
@@ -846,7 +846,7 @@ Mù!Ác nhãn mở![r]Đá ma bán hay không.[r]Không quan trọng![p]
 [chara_mod  name="ムゥムゥ"  time="0"  cross="false"  storage="chara/31/12.png"  ]
 [tb_start_text mode=1 ]
 #ムゥムゥ
-Quyết định! [font color=0xEC6FC5 bold=true]Ác nhãn mở[resetfont]thì[r]nhất định…mufufu![p]
+Quyết định! [font color=0xEC6FC5 bold=true]Ác nhãn mở [resetfont] thì[r]nhất định…mufufu![p]
 
 
 
@@ -1072,7 +1072,7 @@ Thế.[r]Sao mày đội hood sâu hơn…[p]
 [playse  volume="100"  time="1000"  buf="4"  storage="sasu3.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Biết mà không nói![resetfont][r][if exp="f.HANYOU == 1]Nói sớm đi!!!![else]NhìnÁc nhãn mà khoe![endif][p]
+[font size=25]Biết mà không nói![resetfont][r][if exp="f.HANYOU == 1]Nói sớm đi!!!![else] NhìnÁc nhãn mà khoe![endif][p]
 
 
 [_tb_end_text]
@@ -1287,7 +1287,7 @@ Gya-! Không thoát![r]Thu hồi ma lực![p]
 [chara_mod  name="ムゥムゥ"  time="0"  cross="false"  storage="chara/31/10.png"  ]
 [tb_start_text mode=1 ]
 #ムゥムゥ
-Tham thật.[if exp="f.point == 0]Thân thể này.[r]Lưu thêm.[r]sắp nguy hiểm?[else]Triệu hồiador.[r]Quan tâm.[endif][p]
+Tham thật.[if exp="f.point == 0]Thân thể này.[r]Lưu thêm.[r]sắp nguy hiểm?[else] Triệu hồiador.[r]Quan tâm.[endif][p]
 
 
 [_tb_end_text]

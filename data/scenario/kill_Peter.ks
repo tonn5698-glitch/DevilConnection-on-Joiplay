@@ -296,7 +296,7 @@ Lại phiền nữa…sao mày không phải thần linh mà[r]nhận ra đượ
 [chara_mod  name="ピーター"  time="0"  cross="false"  storage="chara/59/3.png"  ]
 [tb_start_text mode=1 ]
 #ピーター
-[font face="KaiseiDecol-Bold"]Ra vậy, mùi[resetfont] cũng…[r]đã bị tê liệt rồi[p]
+[font face="KaiseiDecol-Bold"]Ra vậy, mùi [resetfont] cũng…[r]đã bị tê liệt rồi[p]
 
 [_tb_end_text]
 
@@ -389,7 +389,7 @@ Tận dụng tín đồ làm con cờ tiện lợi, thu hút ma lực…[r]Ma qu
 [chara_mod  name="ピーター"  time="0"  cross="false"  storage="chara/59/7.png"  ]
 [tb_start_text mode=1 ]
 #ピーター
-[font face="KaiseiDecol-Bold"]Bây[resetfont] giờ ta sẽ[font face="KaiseiDecol-Bold"]trừ[resetfont] ngươi![r]Ma quỷ lười biếng! Tên thật danh của ngươi[p]
+[font face="KaiseiDecol-Bold"]Bây [resetfont] giờ ta sẽ [font face="KaiseiDecol-Bold"]trừ [resetfont] ngươi![r]Ma quỷ lười biếng! Tên thật danh của ngươi[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]
@@ -445,7 +445,7 @@ Belphe…[wait time=200][er]
 
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"]Ngoài người ký hợp đồng…đặc biệt là mày không biết gốc tích[r]gọi tên thật cũng không có hiệu lực[resetfont][p]
+[font face="kowai"]Ngoài người ký hợp đồng…đặc biệt là mày không biết gốc tích[r]gọi tên thật cũng không có hiệu lực [resetfont][p]
 
 
 [_tb_end_text]
@@ -989,7 +989,7 @@ Tao nói gì cũng nghe ngon lành vậy ha♥[p]
 [tb_autosave  title="b"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"]Quả nhiên mày[resetfont][p]
+[font face="kowai"]Quả nhiên mày [resetfont][p]
 
 [_tb_end_text]
 
@@ -1004,7 +1004,7 @@ Tao nói gì cũng nghe ngon lành vậy ha♥[p]
 [tb_autosave  title="b"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"]của ta[resetfont][p]
+[font face="kowai"]của ta [resetfont][p]
 [_tb_end_text]
 
 [stopse  time="1000"  buf="5"  fadeout="true"  ]
@@ -1021,19 +1021,19 @@ Tao nói gì cũng nghe ngon lành vậy ha♥[p]
 [tb_autosave  title="b"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"]Người hiểu ta duy nhất[resetfont][p]
+[font face="kowai"]Người hiểu ta duy nhất [resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="サブでび"  time="0"  cross="false"  storage="chara/30/Peter_7.png"  ]
 [tb_autosave  title="b"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"]Ta muốn trở thành một,[r]nhu cầu sự tồn tại của mày đến mức muốn hòa làm một[resetfont][p]
+[font face="kowai"]Ta muốn trở thành một,[r]nhu cầu sự tồn tại của mày đến mức muốn hòa làm một [resetfont][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"]Ta và ngươi là hai thành một,[r][delay speed=300]…[resetdelay]nên từ giờ[resetfont][p]
+[font face="kowai"]Ta và ngươi là hai thành một,[r][delay speed=300]…[resetdelay]nên từ giờ [resetfont][p]
 [_tb_end_text]
 
 [tb_autosave  title="b"  ]

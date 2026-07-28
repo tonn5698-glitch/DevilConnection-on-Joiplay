@@ -62,7 +62,7 @@ Tia sét ghê gớm nhỉ…[p]
 
 [tb_start_text mode=1 ]
 #でびるん
-Tao không ngờ thằng nhút nhát vậy mà dám phản công…[r][font size=12]Chỉ giả vờ biến cây trượng thành dao để dọa thôi mà[resetfont][p]
+Tao không ngờ thằng nhút nhát vậy mà dám phản công…[r][font size=12]Chỉ giả vờ biến cây trượng thành dao để dọa thôi mà [resetfont][p]
 
 
 

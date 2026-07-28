@@ -309,7 +309,7 @@ Ma quỷ từ từ[r]trở nên mềm nhũn~[p]
 [playse  volume="100"  time="0"  buf="3"  storage="kawaii.ogg"  ]
 [tb_start_text mode=1 ]
 #パンプティ
-Wa—thành công! [if exp="f.hutanari == 1"]Anh[else][if exp="f.seibetu == 1]Anh[else]Chị[endif][endif][r]thế nào, giỏi không?[p]
+Wa—thành công! [if exp="f.hutanari == 1"]Anh [else][if exp="f.seibetu == 1]Anh [else] Chị [endif][endif][r]thế nào, giỏi không?[p]
 
 
 
@@ -331,7 +331,7 @@ Wa—thành công! [if exp="f.hutanari == 1"]Anh[else][if exp="f.seibetu == 1]An
 [playse  volume="100"  time="0"  buf="2"  storage="saimin.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font face="YOWAKU"][font size=25]Chết tiệt…[wait time=200]Đầu cũng choáng rồi[resetfont][p]
+[font face="YOWAKU"][font size=25]Chết tiệt…[wait time=200]Đầu cũng choáng rồi [resetfont][p]
 
 
 [_tb_end_text]
@@ -458,7 +458,7 @@ Thật thì chẳng nghĩ gì cả[p]
 [chara_mod  name="パンプティ"  time="0"  cross="false"  storage="chara/34/5.png"  ]
 [tb_start_text mode=1 ]
 #パンプティ
-Nè nè [if exp="f.hutanari == 1"]Anh[else][if exp="f.seibetu == 1]Anh[else]Chị[endif][endif][r]muốn ma quỷ nói gì?[p]
+Nè nè [if exp="f.hutanari == 1"]Anh [else][if exp="f.seibetu == 1]Anh [else] Chị [endif][endif][r]muốn ma quỷ nói gì?[p]
 
 
 [_tb_end_text]
@@ -490,7 +490,7 @@ Nè nè [if exp="f.hutanari == 1"]Anh[else][if exp="f.seibetu == 1]Anh[else]Ch�
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #パンプティ
-[if exp="f.hutanari == 1"]Anh[else][if exp="f.seibetu == 1]Anh[else]Chị[endif][endif] và ma quỷ quan hệ gì[p]Pam không muốn biết—phù[p]
+[if exp="f.hutanari == 1"]Anh [else][if exp="f.seibetu == 1]Anh [else] Chị [endif][endif] và ma quỷ quan hệ gì[p]Pam không muốn biết—phù[p]
 
 
 [_tb_end_text]
@@ -620,7 +620,7 @@ Ca…[delay speed=100]…[resetdelay][p]
 
 [tb_start_text mode=1 ]
 #パンプティ
-Buồn phù-[r]nè [if exp="f.hutanari == 1"]Anh[else][if exp="f.seibetu == 1]Anh[else]Chị[endif][endif].[p]
+Buồn phù-[r]nè [if exp="f.hutanari == 1"]Anh [else][if exp="f.seibetu == 1]Anh [else] Chị [endif][endif].[p]
 
 
 
@@ -1005,7 +1005,7 @@ Vậy thôi miên hai người[p]
 [chara_mod  name="サブでび"  time="0"  cross="false"  storage="chara/30/panpu5.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Chết tiệt…[if exp="f.kansou2 == 1]lại lần nữa[else]Gần quá[endif][r]Chống gì! buông ra! Nghe lời tao![p]
+Chết tiệt…[if exp="f.kansou2 == 1]lại lần nữa [else] Gần quá [endif][r]Chống gì! buông ra! Nghe lời tao![p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
@@ -1020,7 +1020,7 @@ Chết tiệt…[if exp="f.kansou2 == 1]lại lần nữa[else]Gần quá[endif]
 [playse  volume="100"  time="0"  buf="3"  storage="aseru.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]Ê ê ê ê[resetfont][r]Đừng chạm—tao nói rồi!![p]
+[font size=25]Ê ê ê ê [resetfont][r]Đừng chạm—tao nói rồi!![p]
 
 [_tb_end_text]
 
@@ -1207,7 +1207,7 @@ Tín đồ cuồng ma quỷ thì thôi miên hay nguyền rủa[p]không mê ho�
 
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="f.kansou2 == 1]Và tối qua cũng nói rồi.[r]Tao không phải búp bê của mày.[else]Và đừng hiểu lầm, tao không thèm[r]mày.[endif][p]
+[if exp="f.kansou2 == 1]Và tối qua cũng nói rồi.[r]Tao không phải búp bê của mày.[else] Và đừng hiểu lầm, tao không thèm[r]mày.[endif][p]
 [_tb_end_text]
 
 [playse  volume="100"  time="0"  buf="3"  storage="wine.ogg"  ]

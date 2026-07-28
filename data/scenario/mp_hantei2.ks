@@ -33,7 +33,7 @@
 [fadein_window  time="1000"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="sf.kill == 0]Hôm nay cũng triệu hồi xong 3 con rồi à![else]Được rồi, hôm nay cũng đến giờ phán xét thôi[endif][p]
+[if exp="sf.kill == 0]Hôm nay cũng triệu hồi xong 3 con rồi à![else] Được rồi, hôm nay cũng đến giờ phán xét thôi [endif][p]
 
 
 [_tb_end_text]

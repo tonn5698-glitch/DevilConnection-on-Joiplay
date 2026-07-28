@@ -37,7 +37,7 @@ Xem hay không là tự do của mày[r]à mà,[wait time=300]nếu full hết t
 
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="sf.omakes.length > 0]Này, mày[delay speed=300]・・・[resetdelay][resetdelay][else]Dù sao đi nữa[delay speed=300]・・・[resetdelay][endif][p]
+[if exp="sf.omakes.length > 0]Này, mày[delay speed=300]・・・[resetdelay][resetdelay][else] Dù sao đi nữa[delay speed=300]・・・[resetdelay][endif][p]
 
 [_tb_end_text]
 

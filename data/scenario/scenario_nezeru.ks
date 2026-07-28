@@ -63,7 +63,7 @@ Gyaaa!? Tên hồi nãy thấy trong quả cầu![wait time=300][r]Chưa triệu
 
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="f.ting == 1]Thế ra cô gái hàng xóm[r]mày nói chuyện cùng viên lông trắng hôm qua[r]là kẻ này à!?[else]K-kiếp này nó ở cạnh nhà![r]Nhưng đâu ngờ tự thân đến tận nơi拜访…[endif][p]
+[if exp="f.ting == 1]Thế ra cô gái hàng xóm[r]mày nói chuyện cùng viên lông trắng hôm qua[r]là kẻ này à!?[else] K-kiếp này nó ở cạnh nhà![r]Nhưng đâu ngờ tự thân đến tận nơi拜访…[endif][p]
 
 [_tb_end_text]
 
@@ -205,7 +205,7 @@ Hôm nay lúc vô tình đi ngang qua cậu[r]mình đã chạm mắt rồi, nh�
 
 [tb_start_text mode=1 ]
 #ネゼル
-Con mắt trên trán mình—[font color=0xEC6FC5 bold=true]Mắt ác quỷ[resetfont] đó[p]
+Con mắt trên trán mình—[font color=0xEC6FC5 bold=true]Mắt ác quỷ [resetfont] đó[p]
 
 [_tb_end_text]
 
@@ -280,7 +280,7 @@ Mình sẽ cho cậu biết[r]về ác quỷ[p]
 [playse  volume="100"  time="0"  buf="3"  storage="aseru.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="f.currentLoop == 1]Gậy bị lấy mất![r]Hắn là ai!?[else]Cố tránh mà[r]gậy vẫn bị cướp! Hắn là ai!?[endif][p]
+[if exp="f.currentLoop == 1]Gậy bị lấy mất![r]Hắn là ai!?[else] Cố tránh mà[r]gậy vẫn bị cướp! Hắn là ai!?[endif][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -397,7 +397,7 @@ Mình cũng dùng đôi mắt này[r]đọc được phong độ của các cậ
 [playse  volume="100"  time="0"  buf="3"  storage="aseru.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="f.currentLoop == 1]Gậy bị lấy mất![r]Hắn là ai!?[else]Cố tránh mà[r]gậy vẫn bị cướp! Hắn là ai!?[endif][p]
+[if exp="f.currentLoop == 1]Gậy bị lấy mất![r]Hắn là ai!?[else] Cố tránh mà[r]gậy vẫn bị cướp! Hắn là ai!?[endif][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -434,7 +434,7 @@ Mà dù sao, cô bé bên cạnh cậu…[r]Cô ấy là một ác quỷ thật 
 
 [tb_start_text mode=1 ]
 #ネゼル
-Lúc nhìn thấy cậu ngoài kia, [if exp="f.currentLoop == 1]có vẻ vui hơn mọi ngày[else]phong thái khác mọi ngày[endif][r]nên mình rất tò mò[p]
+Lúc nhìn thấy cậu ngoài kia, [if exp="f.currentLoop == 1]có vẻ vui hơn mọi ngày [else] phong thái khác mọi ngày [endif][r]nên mình rất tò mò[p]
 [_tb_end_text]
 
 [chara_mod  name="ネゼル"  time="0"  cross="false"  storage="chara/37/8.png"  ]
@@ -1364,7 +1364,7 @@ Tiếc thật, chẳng kết nối gì được với[r]cô gái hàng xóm[p]
 [chara_mod  name="でびるん"  time="0"  cross="true"  storage="chara/1/20.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="f.hutanari == 1]Kệ, mày chẳng ai thèm[r]để ý đến đâu kaka[else][if exp="f.seibetu == 1]Kệ, mày chẳng ai thèm[r]để ý đến đâu kaka[else]À,[wait time=300]quên mất mày là giống cái.[r]Chuyện nhỏ nhặt nên quên mất[endif][endif][p]
+[if exp="f.hutanari == 1]Kệ, mày chẳng ai thèm[r]để ý đến đâu kaka [else][if exp="f.seibetu == 1]Kệ, mày chẳng ai thèm[r]để ý đến đâu kaka [else] À,[wait time=300]quên mất mày là giống cái.[r]Chuyện nhỏ nhặt nên quên mất [endif][endif][p]
 
 [_tb_end_text]
 
@@ -1392,7 +1392,7 @@ Tiếc thật, chẳng kết nối gì được với[r]cô gái hàng xóm[p]
 [reset_camera  time="400"  wait="false"  ease_type="ease"  layer="layer_camera"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25][if exp="f.kansou3 == 1]Dù là nói yêu hay mấy thứ đó[r]con sói đó chỉ là thổi phồng![else]Dù là chán thật[r][wait time=300]Đừng lại gần tao![endif][resetfont][p]
+[font size=25][if exp="f.kansou3 == 1]Dù là nói yêu hay mấy thứ đó[r]con sói đó chỉ là thổi phồng![else] Dù là chán thật[r][wait time=300]Đừng lại gần tao![endif][resetfont][p]
 
 
 [_tb_end_text]
