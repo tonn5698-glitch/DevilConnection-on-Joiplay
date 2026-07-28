@@ -79,7 +79,7 @@ Chậm quá[emb exp="f.name"] ơi.[wait time=300][r]Nè, cái gì đang nhét tr
 
 [tb_start_text mode=1 ]
 #でびるん
-Đó, đó đó, cái [font color=0xEC6FC5 bold=true]chuông[resetfont][delay speed=100]・・・[resetdelay]kia.[r][l]Chắc cửa trước hỏng rồi à?[r]Ừm thì cứ để lên bàn trong phòng triệu hồi đi.[p]
+Đó, đó đó, cái [font color=0xEC6FC5 bold=true]chuông[resetfont][delay speed=100]・・・[resetdelay]kia.[r][r]Chắc cửa trước hỏng rồi à?[r]Ừm thì cứ để lên bàn trong phòng triệu hồi đi.[p]
 
 
 [_tb_end_text]

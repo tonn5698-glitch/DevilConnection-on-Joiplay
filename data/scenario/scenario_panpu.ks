@@ -577,7 +577,7 @@ Nè nói ta nghe! Tên thật[r]của em quỷ Na~[wait time=200]・Ma~[wait tim
 [playse  volume="100"  time="0"  buf="2"  storage="saimin.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font face="YOWAKU"]Tên của bản đại nhân[delay speed=200]・・・[resetdelay][r][l]Tên bản đại nhân là[delay speed=200]・・・[resetdelay][resetfont][p]
+[font face="YOWAKU"]Tên của bản đại nhân[delay speed=200]・・・[resetdelay][r][r]Tên bản đại nhân là[delay speed=200]・・・[resetdelay][resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/97.png"  ]

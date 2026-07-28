@@ -641,7 +641,7 @@ Những câu chuyện về trường phép thuật mà mình chưa biết…[r]N
 [chara_mod  name="ティング"  time="0"  cross="false"  storage="chara/9/16.png"  ]
 [tb_start_text mode=1 ]
 #ティング
-Ở nhà thì toàn dược liệu học hay mấy thứ[l]lặp đi lặp lại không thay đổi…thật sự hơi chán[p]
+Ở nhà thì toàn dược liệu học hay mấy thứ[r]lặp đi lặp lại không thay đổi…thật sự hơi chán[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -850,7 +850,7 @@ Lâu mới được vui chơi như vậy…[r]có lẽ hơi mệt thật rồi�
 [chara_mod  name="ティング"  time="0"  cross="false"  storage="chara/9/11.png"  ]
 [tb_start_text mode=1 ]
 #ティング
-Nhưng…cơ hội được nói chuyện với người ngoài thành[l]castle rất hiếm, nên mình vui lắm. Cảm ơn nhé[p]
+Nhưng…cơ hội được nói chuyện với người ngoài thành[r]castle rất hiếm, nên mình vui lắm. Cảm ơn nhé[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]

@@ -150,7 +150,7 @@ Hm, [wait time=200]nhưng đợi đã...hắn vui đấy.[p]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ペイン
-T-Tự nhiên vỡ tan rồi! Tệ quá[r]Nhưng...[l]Giống crouton à![p]
+T-Tự nhiên vỡ tan rồi! Tệ quá[r]Nhưng...[r]Giống crouton à![p]
 [_tb_end_text]
 
 [jump  storage="scenario_pain.ks"  target="*pan_kieru"  ]
@@ -173,7 +173,7 @@ T-Tự nhiên vỡ tan rồi! Tệ quá[r]Nhưng...[l]Giống crouton à![p]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ペイン
-T-Tép lửa! Cái này chỉ là than thôi[l][r]...Đắng lắm.[p]
+T-Tép lửa! Cái này chỉ là than thôi[r][r]...Đắng lắm.[p]
 [_tb_end_text]
 
 *pan_kieru

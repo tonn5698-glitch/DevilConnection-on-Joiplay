@@ -239,7 +239,7 @@ Dù sao thì ma trận triệu hồi này cũng [delay speed=100]・・・[reset
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/49.png"  ]
 [tb_start_text mode=1 ]
 #&f.debiName
-Vậy à. [l][r]Từ chối lời mời của bản đại nhân thì quý phái ghê nhỉ[p]
+Vậy à. [r][r]Từ chối lời mời của bản đại nhân thì quý phái ghê nhỉ[p]
 
 [_tb_end_text]
 

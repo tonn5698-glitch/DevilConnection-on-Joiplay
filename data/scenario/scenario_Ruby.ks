@@ -50,12 +50,12 @@
 [chara_mod  name="ルビー"  time="0"  cross="false"  storage="chara/44/1.png"  ]
 [tb_start_text mode=1 ]
 #ルビー
-Đồ nào hả… Ma lực đã cạn kiệt rồi mà còn dùng[l]triệu hồi ma thuật tiêu tốn lượng lớn ma lực hả?[p]
+Đồ nào hả… Ma lực đã cạn kiệt rồi mà còn dùng[r]triệu hồi ma thuật tiêu tốn lượng lớn ma lực hả?[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ザコウモリA
-[font size=25]Đagyaa! Ruby-sama[l]cuối cùng cũng tìm được rồi disgaya![resetfont][p]
+[font size=25]Đagyaa! Ruby-sama[r]cuối cùng cũng tìm được rồi disgaya![resetfont][p]
 
 [_tb_end_text]
 
@@ -91,7 +91,7 @@
 [playse  volume="100"  time="0"  buf="3"  storage="aseru.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Osh… tên này[l]còn dẫn theo lũ ma quỷ cấp thấp nữa.[p]
+Osh… tên này[r]còn dẫn theo lũ ma quỷ cấp thấp nữa.[p]
 
 [_tb_end_text]
 
@@ -104,7 +104,7 @@ Osh… tên này[l]còn dẫn theo lũ ma quỷ cấp thấp nữa.[p]
 [chara_mod  name="ルビー"  time="0"  cross="false"  storage="chara/44/3.png"  ]
 [tb_start_text mode=1 ]
 #ルビー
-Này, ngươi. Ngươi trông giống[l]loài dơi ma quỷ này, có quen biết gì không?[p]
+Này, ngươi. Ngươi trông giống[r]loài dơi ma quỷ này, có quen biết gì không?[p]
 
 
 [_tb_end_text]
@@ -138,21 +138,21 @@ Này, ngươi. Ngươi trông giống[l]loài dơi ma quỷ này, có quen biế
 [playse  volume="100"  time="0"  buf="1"  storage="sasu.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Cái gì! ? Ở Ma giới, không có ai[l]không biết đến bản đại nhân![p]
+Cái gì! ? Ở Ma giới, không có ai[r]không biết đến bản đại nhân![p]
 
 [_tb_end_text]
 
 [chara_mod  name="ザコウモリA"  time="0"  cross="false"  storage="chara/45/3.png"  ]
 [tb_start_text mode=1 ]
 #ザコウモリA
-Trông nhỏ xíu vậy mà nói gì thế không biết disgaya[l]Kyuhahaha[p]
+Trông nhỏ xíu vậy mà nói gì thế không biết disgaya[r]Kyuhahaha[p]
 
 [_tb_end_text]
 
 [chara_mod  name="ザコウモリB"  time="0"  cross="false"  storage="chara/46/2.png"  ]
 [tb_start_text mode=1 ]
 #ザコウモリB
-Nếu là ma quỷ có tên tuổi thì phải có đầy tớ[l]nhờ tính cáchquyến rũ bẩm sinh như Ruby-sama mới đúng disgaya[p]
+Nếu là ma quỷ có tên tuổi thì phải có đầy tớ[r]nhờ tính cáchquyến rũ bẩm sinh như Ruby-sama mới đúng disgaya[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -167,13 +167,13 @@ Nếu là ma quỷ có tên tuổi thì phải có đầy tớ[l]nhờ tính cá
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/82.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Chết tiệt… nhìn chúng mà thấy ngứa mắt.[l]Không ngờ lại gặp ở chỗ này…[p]
+Chết tiệt… nhìn chúng mà thấy ngứa mắt.[r]Không ngờ lại gặp ở chỗ này…[p]
 [_tb_end_text]
 
 [chara_mod  name="ルビー"  time="0"  cross="false"  storage="chara/44/4.png"  ]
 [tb_start_text mode=1 ]
 #ルビー
-Nhưng đúng vậy, cái mắt ở bụng kia… Con mắt quỷ à?[l]Chắc chắn không phải là lũ dơi thường.[p]
+Nhưng đúng vậy, cái mắt ở bụng kia… Con mắt quỷ à?[r]Chắc chắn không phải là lũ dơi thường.[p]
 
 
 [_tb_end_text]
@@ -199,7 +199,7 @@ Thú vị, hãy trở thành hầu tớ của ta.[p]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/63.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Tất nhiên là ghét rồi![l]Mày phải trở thành hầu tớ của bản đại nhân![p]
+Tất nhiên là ghét rồi![r]Mày phải trở thành hầu tớ của bản đại nhân![p]
 
 
 [_tb_end_text]
@@ -207,7 +207,7 @@ Tất nhiên là ghét rồi![l]Mày phải trở thành hầu tớ của bản 
 [chara_mod  name="ルビー"  time="0"  cross="false"  storage="chara/44/4.png"  ]
 [tb_start_text mode=1 ]
 #ルビー
-…Hmph, ngỗ ngược nhỉ.[l]Lũ dơi kia, bắt lấy hắn.[p]
+…Hmph, ngỗ ngược nhỉ.[r]Lũ dơi kia, bắt lấy hắn.[p]
 
 
 [_tb_end_text]
@@ -240,13 +240,13 @@ Tất nhiên là ghét rồi![l]Mày phải trở thành hầu tớ của bản 
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ルビー
-Hmph, dù sao thì lũ dơi này…[l]Thật sự làm việc tốt và tiện lợi.[p]
+Hmph, dù sao thì lũ dơi này…[r]Thật sự làm việc tốt và tiện lợi.[p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ルビー
-Nếu làm tốt, ta sẽ thưởng cho[l]quả cây yêu thích.[p]
+Nếu làm tốt, ta sẽ thưởng cho[r]quả cây yêu thích.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -297,7 +297,7 @@ Cái thứ đắng nghét kia, không ăn được gì![p]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #でびるん
-Đagyaa! Ngươi dùng ma thuật lên bản đại nhân![l]Mục đích là gì! [wait time=300]Cái mùi này là…[delay speed=300]…[resetdelay][p]
+Đagyaa! Ngươi dùng ma thuật lên bản đại nhân![r]Mục đích là gì! [wait time=300]Cái mùi này là…[delay speed=300]…[resetdelay][p]
 
 
 
@@ -334,7 +334,7 @@ Cái thứ đắng nghét kia, không ăn được gì![p]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ザコウモリA
-Mmm~ chyum chyum~ vị Raspberry chua ngọt disgaya![l]Ma lực cũng đầy ắp disgaya![p]
+Mmm~ chyum chyum~ vị Raspberry chua ngọt disgaya![r]Ma lực cũng đầy ắp disgaya![p]
 
 
 [_tb_end_text]
@@ -353,7 +353,7 @@ Mmm~ chyum chyum~ vị Raspberry chua ngọt disgaya![l]Ma lực cũng đầy �
 [chara_mod  name="ポリゴン"  time="0"  cross="false"  storage="chara/28/k9.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Này, dừng lại![l]Đừng hút ma lực trực tiếp từ sừng! Bám lấy ta![p]
+Này, dừng lại![r]Đừng hút ma lực trực tiếp từ sừng! Bám lấy ta![p]
 
 
 
@@ -380,7 +380,7 @@ Này, dừng lại![l]Đừng hút ma lực trực tiếp từ sừng! Bám lấ
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ザコウモリA
-Mmm~ chyum chyum~ vị Raspberry chua ngọt disgaya![l]Ma lực cũng đầy ắp disgaya![p]
+Mmm~ chyum chyum~ vị Raspberry chua ngọt disgaya![r]Ma lực cũng đầy ắp disgaya![p]
 
 
 [_tb_end_text]
@@ -399,7 +399,7 @@ Mmm~ chyum chyum~ vị Raspberry chua ngọt disgaya![l]Ma lực cũng đầy �
 [chara_mod  name="ポリゴン"  time="0"  cross="false"  storage="chara/28/k2.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Fugyan…! Không được không được không được![l]Đừng hút ma lực trực tiếp từ sừng! Bám lấy ta![p]
+Fugyan…! Không được không được không được![r]Đừng hút ma lực trực tiếp từ sừng! Bám lấy ta![p]
 
 
 
@@ -409,7 +409,7 @@ Fugyan…! Không được không được không được![l]Đừng hút ma l�
 
 [tb_start_text mode=1 ]
 #ザコウモリB
-Hút được nhiều ma lực thế này thì[l]may mắn quá disgaya~♪ Mmyammya[p]
+Hút được nhiều ma lực thế này thì[r]may mắn quá disgaya~♪ Mmyammya[p]
 
 
 
@@ -418,13 +418,13 @@ Hút được nhiều ma lực thế này thì[l]may mắn quá disgaya~♪ Mmya
 [chara_mod  name="ルビー"  time="0"  cross="false"  storage="chara/44/3.png"  ]
 [tb_start_text mode=1 ]
 #ザコウモリA
-Ma lực không đủ nên phải bám theo[l]con hổ đỏ kia, nhưng thật tốt khi đã theo disgaya![p]
+Ma lực không đủ nên phải bám theo[r]con hổ đỏ kia, nhưng thật tốt khi đã theo disgaya![p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ザコウモリB
-Đúng vậy disgaya![l]Bỉ ổi và kéo cắt, tùy cách dùng disgaya![p]
+Đúng vậy disgaya![r]Bỉ ổi và kéo cắt, tùy cách dùng disgaya![p]
 [_tb_end_text]
 
 [flash  time="80"  effect="fadeIn"  color="0x000000"  ]
@@ -483,7 +483,7 @@ Nói điều không cần thiết disgaya~…[p]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #でびるん
-Đagyaa! Ngươi dám dùng phép thuật lên bản đại nhân[l]với mục đích gì vậy! [wait time=300]Cái mùi gì thế[l][delay speed=300]…[resetdelay][p]
+Đagyaa! Ngươi dám dùng phép thuật lên bản đại nhân[r]với mục đích gì vậy! [wait time=300]Cái mùi gì thế[r][delay speed=300]…[resetdelay][p]
 
 
 
@@ -522,7 +522,7 @@ Nói điều không cần thiết disgaya~…[p]
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [tb_start_text mode=1 ]
 #ザコウモリB
-[font size=25]Tỏi là thứ ta ghét disgaya![l]Trước mặt ma quỷ, đừng có làm vậy disgaya![resetfont][p]
+[font size=25]Tỏi là thứ ta ghét disgaya![r]Trước mặt ma quỷ, đừng có làm vậy disgaya![resetfont][p]
 
 [_tb_end_text]
 
@@ -542,7 +542,7 @@ Nói điều không cần thiết disgaya~…[p]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/101.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Ngn… Ma lực đã quá nhiều lại còn mùi tỏi,[l]khá là… khó chịu…[p]
+Ngn… Ma lực đã quá nhiều lại còn mùi tỏi,[r]khá là… khó chịu…[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -561,7 +561,7 @@ Ngn… Ma lực đã quá nhiều lại còn mùi tỏi,[l]khá là… khó ch�
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/67.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Kuhaha, mùi đó không hiệu quả gì với bản đại nhân đã mạnh lên đâu.[l]Nè nè… thấy sao? Thối không?[p]
+Kuhaha, mùi đó không hiệu quả gì với bản đại nhân đã mạnh lên đâu.[r]Nè nè… thấy sao? Thối không?[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]
@@ -571,7 +571,7 @@ Kuhaha, mùi đó không hiệu quả gì với bản đại nhân đã mạnh l
 [chara_hide  name="TAP"  time="300"  wait="false"  pos_mode="false"  ]
 [tb_start_text mode=1 ]
 #ルビー
-Bubu, mùi thối thì chịu được nhưng căn phòng này…[l]Đầy ma lực đến mức khiến người ta buồn nôn.[p]
+Bubu, mùi thối thì chịu được nhưng căn phòng này…[r]Đầy ma lực đến mức khiến người ta buồn nôn.[p]
 
 
 [_tb_end_text]
@@ -579,13 +579,13 @@ Bubu, mùi thối thì chịu được nhưng căn phòng này…[l]Đầy ma l�
 [chara_mod  name="ザコウモリA"  time="0"  cross="false"  storage="chara/45/2.png"  ]
 [tb_start_text mode=1 ]
 #ザコウモリA
-Đúng vậy disgaya… Căn phòng này[l]ma lực nhiễu loạn quá, khó chịu disgaya.[p]
+Đúng vậy disgaya… Căn phòng này[r]ma lực nhiễu loạn quá, khó chịu disgaya.[p]
 [_tb_end_text]
 
 [chara_mod  name="ルビー"  time="0"  cross="false"  storage="chara/44/4.png"  ]
 [tb_start_text mode=1 ]
 #ルビー
-Ngươi — chẳng phải là thủ phạm gây ra[l]tình trạng thiếu ma lực nghiêm trọng đang gặp vấn đề sao?[p]
+Ngươi — chẳng phải là thủ phạm gây ra[r]tình trạng thiếu ma lực nghiêm trọng đang gặp vấn đề sao?[p]
 
 
 [_tb_end_text]
@@ -602,7 +602,7 @@ Ngươi — chẳng phải là thủ phạm gây ra[l]tình trạng thiếu ma l
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/66.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-A~ đúng vậy đó! Sao nào? Bản đại nhân khác[l]hoàn toàn với lũ ma quỷ cấp thấp kia, hiểu chưa?[p]
+A~ đúng vậy đó! Sao nào? Bản đại nhân khác[r]hoàn toàn với lũ ma quỷ cấp thấp kia, hiểu chưa?[p]
 
 
 
@@ -619,7 +619,7 @@ Hmm.[p]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/67.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Thế nào, công nhận đi.[l]Bản đại nhân mạnh nhất mà.[p]
+Thế nào, công nhận đi.[r]Bản đại nhân mạnh nhất mà.[p]
 
 
 [_tb_end_text]
@@ -646,7 +646,7 @@ Thế nào, công nhận đi.[l]Bản đại nhân mạnh nhất mà.[p]
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Đến đây đi![l]Movement(movement) của mày bản đại nhân nhìn thấu hết![p]
+Đến đây đi![r]Movement(movement) của mày bản đại nhân nhìn thấu hết![p]
 
 [_tb_end_text]
 
@@ -678,14 +678,14 @@ Thế nào, công nhận đi.[l]Bản đại nhân mạnh nhất mà.[p]
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ルビー
-[font face="DZUYOKU"]Lũ dơi bay nhảy trên trời cũng[l]ngày càng gây phiền.[resetfont][p]
+[font face="DZUYOKU"]Lũ dơi bay nhảy trên trời cũng[r]ngày càng gây phiền.[resetfont][p]
 
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ルビー
-[font face="DZUYOKU"]Tức quá…[l]Giết hết bọn chúng![resetfont][p]
+[font face="DZUYOKU"]Tức quá…[r]Giết hết bọn chúng![resetfont][p]
 
 
 [_tb_end_text]
@@ -733,7 +733,7 @@ Thế nào, công nhận đi.[l]Bản đại nhân mạnh nhất mà.[p]
 [quake  time="600"  count="10"  hmax="0"  wait="false"  vmax="3"  ]
 [tb_start_text mode=1 ]
 #コウモリども
-[font face="DZUYOKU"][font size=37]Đagyaaaaa![l]Aaaaaa! [resetfont][p]
+[font face="DZUYOKU"][font size=37]Đagyaaaaa![r]Aaaaaa! [resetfont][p]
 [_tb_end_text]
 
 [tb_eval  exp="sf.ruby_end+=1"  name="ruby_end"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
@@ -769,7 +769,7 @@ Thế nào, công nhận đi.[l]Bản đại nhân mạnh nhất mà.[p]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #コウモリども
-[font face="DZUYOKU"][font size=37]Đagyaaaaa![l]Aaaaaa! [resetfont][p]
+[font face="DZUYOKU"][font size=37]Đagyaaaaa![r]Aaaaaa! [resetfont][p]
 [_tb_end_text]
 
 [tb_eval  exp="sf.ruby_end+=1"  name="ruby_end"  cmd="+="  op="t"  val="1"  ]
@@ -804,7 +804,7 @@ Thế nào, công nhận đi.[l]Bản đại nhân mạnh nhất mà.[p]
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [tb_start_text mode=1 ]
 #ザコウモリB
-Ngya! [l]Vừa nguy hiểm quá disgaya![p]
+Ngya! [r]Vừa nguy hiểm quá disgaya![p]
 [_tb_end_text]
 
 [chara_show  name="感情オーラ2"  time="1000"  wait="false"  storage="chara/12/moya2-2.png"  width="423"  height="184"  left="600"  top="309"  reflect="false"  ]
@@ -812,20 +812,20 @@ Ngya! [l]Vừa nguy hiểm quá disgaya![p]
 [chara_mod  name="ルビー"  time="0"  cross="false"  storage="chara/44/11.png"  ]
 [tb_start_text mode=1 ]
 #ルビー
-A~, các ngươi cũng suýt bị[l]giết cùng một lúc nhưng ta lỡ tay rồi.[p]
+A~, các ngươi cũng suýt bị[r]giết cùng một lúc nhưng ta lỡ tay rồi.[p]
 [_tb_end_text]
 
 [chara_mod  name="ザコウモリB"  time="0"  cross="false"  storage="chara/46/5.png"  ]
 [tb_start_text mode=1 ]
 #ザコウモリA
-[font size=25]Đagyaa! ? [l]Ngay cả bọn ta cũng muốn[c]giết[_c]sa disgaya![resetfont][p]
+[font size=25]Đagyaa! ? [r]Ngay cả bọn ta cũng muốn[c]giết[_c]sa disgaya![resetfont][p]
 
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/102.png"  ]
 [tb_start_text mode=1 ]
 #ルビー
-Nghe này? Kẻ thấp kém(lũ dơi) thì khi vô dụng rồi,[l]sẽ bị bỏ đi, đó là số phận.[p]
+Nghe này? Kẻ thấp kém(lũ dơi) thì khi vô dụng rồi,[r]sẽ bị bỏ đi, đó là số phận.[p]
 
 [_tb_end_text]
 
@@ -838,7 +838,7 @@ Mày! Cái gì cơ! ?[p]
 [chara_mod  name="ルビー"  time="0"  cross="false"  storage="chara/44/10.png"  ]
 [tb_start_text mode=1 ]
 #ルビー
-Ngươi nói chuyện với ai thế? [l]Lũ ma quỷ như ngươi, ta sẽ xử lý.[p]
+Ngươi nói chuyện với ai thế? [r]Lũ ma quỷ như ngươi, ta sẽ xử lý.[p]
 
 
 [_tb_end_text]
@@ -932,7 +932,7 @@ Ngươi nói chuyện với ai thế? [l]Lũ ma quỷ như ngươi, ta sẽ xử
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #でびるん
-Khoan đã, [emb exp="f.name"][l] Khích lệ thì giao cho bản đại nhân![p]
+Khoan đã, [emb exp="f.name"][r] Khích lệ thì giao cho bản đại nhân![p]
 
 [_tb_end_text]
 
@@ -950,19 +950,19 @@ Khoan đã, [emb exp="f.name"][l] Khích lệ thì giao cho bản đại nhân![
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/65.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Này này, lũ dơi như vậy mà cũng[l]khó xử, chẳng phải mày còn thấp kém hơn chúng sao~?[p]
+Này này, lũ dơi như vậy mà cũng[r]khó xử, chẳng phải mày còn thấp kém hơn chúng sao~?[p]
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/67.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Kuhaha lol. Nè, có ai phản đối nhanh nhanh.[l]Bị thua rồi, thương quá♥[p]
+Kuhaha lol. Nè, có ai phản đối nhanh nhanh.[r]Bị thua rồi, thương quá♥[p]
 [_tb_end_text]
 
 [chara_mod  name="ザコウモリB"  time="0"  cross="false"  storage="chara/46/3.png"  ]
 [tb_start_text mode=1 ]
 #ザコウモリB
-! Mày, chẳng lẽ đang[l]cố tình chuyển hướng sự giận dữ ra khỏi bọn ta?[p]
+! Mày, chẳng lẽ đang[r]cố tình chuyển hướng sự giận dữ ra khỏi bọn ta?[p]
 [_tb_end_text]
 
 [chara_mod  name="ザコウモリA"  time="0"  cross="false"  storage="chara/45/3.png"  ]
@@ -978,7 +978,7 @@ Ngya! Tốt lắm disgaya~[p]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/30.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-K-Không phải vậy đâu![l]Đừng có diễn giải theo cách có lợi cho mình![p]
+K-Không phải vậy đâu![r]Đừng có diễn giải theo cách có lợi cho mình![p]
 [_tb_end_text]
 
 [playse  volume="100"  time="0"  buf="3"  storage="idou.ogg"  ]
@@ -1012,13 +1012,13 @@ Sẽ đi theo suốt đời disgaya![p]
 
 [tb_start_text mode=1 ]
 #ザコウモリA
-Ngya~ Tên ngài là gì![l]Tên ngài là gì disgaya![p]
+Ngya~ Tên ngài là gì![r]Tên ngài là gì disgaya![p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-Tch… lũ mày, lật mặt nhanh quá![l]Nghe mà bất ngờ đó, tên thật của bản đại nhân là…[font size=12]ngoan-go[resetfont][p]
+Tch… lũ mày, lật mặt nhanh quá![r]Nghe mà bất ngờ đó, tên thật của bản đại nhân là…[font size=12]ngoan-go[resetfont][p]
 [_tb_end_text]
 
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
@@ -1026,19 +1026,19 @@ Tch… lũ mày, lật mặt nhanh quá![l]Nghe mà bất ngờ đó, tên thậ
 [chara_mod  name="ポリゴン"  time="0"  cross="false"  storage="chara/28/k5.png"  ]
 [tb_start_text mode=1 ]
 #ザコウモリA
-E! ? Đại ma quỷ kia…[l]Thì ra là ngài! Kya![p]
+E! ? Đại ma quỷ kia…[r]Thì ra là ngài! Kya![p]
 [_tb_end_text]
 
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [playse  volume="100"  time="0"  buf="1"  storage="sasu2.ogg"  ]
 [tb_start_text mode=1 ]
 #ザコウモリB
-Không nghe được tin tốt gì,[l]mà ngờ lại là người tuyệt vời thế này… mọi người đều hiểu lầm disgaya![p]
+Không nghe được tin tốt gì,[r]mà ngờ lại là người tuyệt vời thế này… mọi người đều hiểu lầm disgaya![p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-Kuhaha… ừm. Đúng rồi! Lần tới ta sẽ dẫn[l]mấy đứa đi ăn![p]
+Kuhaha… ừm. Đúng rồi! Lần tới ta sẽ dẫn[r]mấy đứa đi ăn![p]
 [_tb_end_text]
 
 [flash  time="80"  effect="fadeIn"  color="0x000000"  ]
@@ -1053,7 +1053,7 @@ Kuhaha… ừm. Đúng rồi! Lần tới ta sẽ dẫn[l]mấy đứa đi ăn![
 
 [tb_start_text mode=1 ]
 #ルビー
-[font face="kowai"]Đó là ý hay.[l]Vậy để ta gửi mấy đứa xuống địa ngục![resetfont][p]
+[font face="kowai"]Đó là ý hay.[r]Vậy để ta gửi mấy đứa xuống địa ngục![resetfont][p]
 [_tb_end_text]
 
 [playse  volume="100"  time="0"  buf="3"  storage="Horror.ogg"  ]
@@ -1114,7 +1114,7 @@ Kuhaha… ừm. Đúng rồi! Lần tới ta sẽ dẫn[l]mấy đứa đi ăn![
 [chara_mod  name="ザコウモリA"  time="0"  cross="false"  storage="chara/45/3.png"  ]
 [tb_start_text mode=1 ]
 #ザコウモリA
-…! Trở thành dơi rồi disgaya![l]Cứu được rồi disgaya![p]
+…! Trở thành dơi rồi disgaya![r]Cứu được rồi disgaya![p]
 [_tb_end_text]
 
 [chara_mod  name="ザコウモリB"  time="0"  cross="false"  storage="chara/46/3.png"  ]
@@ -1134,7 +1134,7 @@ Heh! Ừm.[p]
 [chara_mod  name="ザコウモリB"  time="0"  cross="false"  storage="chara/46/3.png"  ]
 [tb_start_text mode=1 ]
 #ザコウモリB
-Không phải khen mày đâu.[l]Ta đang k tên phù thủy đằng kia.[p]
+Không phải khen mày đâu.[r]Ta đang k tên phù thủy đằng kia.[p]
 
 
 [_tb_end_text]
@@ -1152,7 +1152,7 @@ Không phải khen mày đâu.[l]Ta đang k tên phù thủy đằng kia.[p]
 [chara_mod  name="ザコウモリA"  time="0"  cross="false"  storage="chara/45/6.png"  ]
 [tb_start_text mode=1 ]
 #ザコウモリA
-[font size=25]Ngya! ? Dừng lại![l]Tên biến thái! [resetfont][p]
+[font size=25]Ngya! ? Dừng lại![r]Tên biến thái! [resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="ザコウモリB"  time="0"  cross="false"  storage="chara/46/6.png"  ]
@@ -1164,7 +1164,7 @@ Không phải khen mày đâu.[l]Ta đang k tên phù thủy đằng kia.[p]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/64.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Thế nào…? Ta sẽ trói hết mấy đứa lại,[l]và cọ sừng vào nhau![p]
+Thế nào…? Ta sẽ trói hết mấy đứa lại,[r]và cọ sừng vào nhau![p]
 
 
 
@@ -1172,7 +1172,7 @@ Thế nào…? Ta sẽ trói hết mấy đứa lại,[l]và cọ sừng vào nh
 
 [tb_start_text mode=1 ]
 #ザコウモリA
-Ngya… như vậy thì quá dâm dục…[l]Không muốn, xin tha thứ disgaya[p]
+Ngya… như vậy thì quá dâm dục…[r]Không muốn, xin tha thứ disgaya[p]
 
 [_tb_end_text]
 
@@ -1189,7 +1189,7 @@ Kuhaha, muốn tha thứ thì[c]đưa rượu vang đây♥[p]
 [chara_mod  name="ザコウモリB"  time="0"  cross="false"  storage="chara/46/2.png"  ]
 [tb_start_text mode=1 ]
 #ザコウモリA
-Ngya? Rượu vang thì được disgaya![l]Nặng nên vừa vặn disgaya![p]
+Ngya? Rượu vang thì được disgaya![r]Nặng nên vừa vặn disgaya![p]
 
 [_tb_end_text]
 
@@ -1216,7 +1216,7 @@ Ngya? Rượu vang thì được disgaya![l]Nặng nên vừa vặn disgaya![p]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/79.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Với tư thế đó, ngươi không làm được gì đâu![l]Nào, thu thập ma lực thôi nào![p]
+Với tư thế đó, ngươi không làm được gì đâu![r]Nào, thu thập ma lực thôi nào![p]
 
 
 
@@ -1235,7 +1235,7 @@ Với tư thế đó, ngươi không làm được gì đâu![l]Nào, thu thập
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/65.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-À, xong rồi thì con hổ này,[l]mấy đứa muốn làm gì thì làm![p]
+À, xong rồi thì con hổ này,[r]mấy đứa muốn làm gì thì làm![p]
 
 
 
@@ -1303,7 +1303,7 @@ Với tư thế đó, ngươi không làm được gì đâu![l]Nào, thu thập
 [fadein_window  time="1000"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Kuhaha, lũ ma quỷ cấp thấp kia![l]Thấy chưa, sức mạnh của bản đại nhân… sảng khoái ghê~[p]
+Kuhaha, lũ ma quỷ cấp thấp kia![r]Thấy chưa, sức mạnh của bản đại nhân… sảng khoái ghê~[p]
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/1.png"  ]
@@ -1316,7 +1316,7 @@ Kuhaha, lũ ma quỷ cấp thấp kia![l]Thấy chưa, sức mạnh của bản 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/10.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Ma quỷ khi hai cái sừng va vào nhau,[l]sẽ cực kỳ khó chịu đấy.[p]
+Ma quỷ khi hai cái sừng va vào nhau,[r]sẽ cực kỳ khó chịu đấy.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -1327,13 +1327,13 @@ Bởi vì đó là cơ quan tinh vi dùng để hấp thụ trực tiếp ma l�
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/11.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Dù sao thì rượu vang cũng lấy được rồi, may ghê![l]Nhanh nhanh uống nào! Rượu! Rượu~[p]
+Dù sao thì rượu vang cũng lấy được rồi, may ghê![r]Nhanh nhanh uống nào! Rượu! Rượu~[p]
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/8.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-…Hả? Bản đại nhân này mà[l]không uống được rượu à?[p]
+…Hả? Bản đại nhân này mà[r]không uống được rượu à?[p]
 
 
 [_tb_end_text]
@@ -1341,7 +1341,7 @@ Dù sao thì rượu vang cũng lấy được rồi, may ghê![l]Nhanh nhanh u�
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/2.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Dù trông vậy nhưng đã trên 100 tuổi rồi đó![l]Già hơn mày nhiều đó! Kính trọng đi, đồ ngu![p]
+Dù trông vậy nhưng đã trên 100 tuổi rồi đó![r]Già hơn mày nhiều đó! Kính trọng đi, đồ ngu![p]
 
 
 [_tb_end_text]
@@ -1351,7 +1351,7 @@ Dù trông vậy nhưng đã trên 100 tuổi rồi đó![l]Già hơn mày nhi�
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/40.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Nè, cầm ly chưa? Còn một chút nữa là[l]đến hình dạng mới của bản đại nhân! Cạn ly![p]
+Nè, cầm ly chưa? Còn một chút nữa là[r]đến hình dạng mới của bản đại nhân! Cạn ly![p]
 
 
 
@@ -1394,7 +1394,7 @@ Gulp gulp [delay speed=100]…[resetdelay][p]
 [playse  volume="100"  time="0"  buf="3"  storage="wine.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"][delay speed=100]Bản đại nhân…[l]dường như đang trở thành một người khác.[resetdelay][wait time=800][resetfont][p]
+[font face="kowai"][delay speed=100]Bản đại nhân…[r]dường như đang trở thành một người khác.[resetdelay][wait time=800][resetfont][p]
 
 
 
@@ -1476,14 +1476,14 @@ f.finished = [...f.finished, f.chara.name];
 [playse  volume="100"  time="0"  buf="3"  storage="sasu2.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Từ nãy giờ ngồi nghe im lặng,[l]cái thái độ đó là sao trước mặt ma quỷ?[p]
+Từ nãy giờ ngồi nghe im lặng,[r]cái thái độ đó là sao trước mặt ma quỷ?[p]
 
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/66.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Ma quỷ như bản đại nhân mạnh hơn mày[l]nhiều lần.[p]
+Ma quỷ như bản đại nhân mạnh hơn mày[r]nhiều lần.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -1520,7 +1520,7 @@ Hừ [delay speed=100]…[resetdelay][p]
 
 [tb_start_text mode=1 ]
 #ルビー
-[c]Giết[_c] thì chuyện tàn nhẫn thế ta không làm đâu.[l]Ta định tha cho đấy [delay speed=100]…[resetdelay]nhưng mà.[p]
+[c]Giết[_c] thì chuyện tàn nhẫn thế ta không làm đâu.[r]Ta định tha cho đấy [delay speed=100]…[resetdelay]nhưng mà.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -1531,12 +1531,12 @@ Hừ [delay speed=100]…[resetdelay][p]
 
 [tb_start_text mode=1 ]
 #ザコウモリA
-[font size=25]Đagyaa! [l]Ruby-sama, ngài định làm gì! ? [resetfont][p]
+[font size=25]Đagyaa! [r]Ruby-sama, ngài định làm gì! ? [resetfont][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ルビー
-Hai con dơi kia, nếu oán giận thì[l]hãy oán tên dơi đằng kia.[p]
+Hai con dơi kia, nếu oán giận thì[r]hãy oán tên dơi đằng kia.[p]
 [_tb_end_text]
 
 [flash  time="0"  effect="fadeIn"  color="0x000000"  ]
@@ -1562,12 +1562,12 @@ Hai con dơi kia, nếu oán giận thì[l]hãy oán tên dơi đằng kia.[p]
 
 [tb_start_text mode=1 ]
 #ルビー
-Ngươi muốn bảo vệ chúng nó…[delay speed=100]…[resetdelay][l]Tự cho mình là anh hùng sao?[p]
+Ngươi muốn bảo vệ chúng nó…[delay speed=100]…[resetdelay][r]Tự cho mình là anh hùng sao?[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-Đúng là… không giống bản đại nhân lắm.[l]Nhưng không thể làm ngơ![p]
+Đúng là… không giống bản đại nhân lắm.[r]Nhưng không thể làm ngơ![p]
 [_tb_end_text]
 
 [flash  time="80"  effect="fadeIn"  color="0xFFFFFF"  ]
@@ -1659,7 +1659,7 @@ Ngươi muốn bảo vệ chúng nó…[delay speed=100]…[resetdelay][l]Tự c
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Bị bất ngờ di chuyển mất rồi… ở vị trí này,[l]khi nó to lên sẽ đâm vào cái liềm trước mặt.[p]
+Bị bất ngờ di chuyển mất rồi… ở vị trí này,[r]khi nó to lên sẽ đâm vào cái liềm trước mặt.[p]
 [_tb_end_text]
 
 [chara_mod  name="ポリゴン"  time="0"  cross="false"  storage="chara/28/k13.png"  ]
@@ -1766,19 +1766,19 @@ Bị bất ngờ di chuyển mất rồi… ở vị trí này,[l]khi nó to lê
 
 [tb_start_text mode=1 ]
 #でびるん
-Kuh, ma thuật của [emb exp="f.name"][l]cực kỳ xuất sắc! Thật là hầu tớ tài giỏi.[p]
+Kuh, ma thuật của [emb exp="f.name"][r]cực kỳ xuất sắc! Thật là hầu tớ tài giỏi.[p]
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/65.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Trong lúc nó còn chưa tỉnh, ma lực của mày[l]sẽ do ma quỷ là bản đại nhân tự chịu trách nhiệm cướp hết.[p]
+Trong lúc nó còn chưa tỉnh, ma lực của mày[r]sẽ do ma quỷ là bản đại nhân tự chịu trách nhiệm cướp hết.[p]
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/67.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Mà, ma lực bẩn thỉu của mày thì[l]xin kiếu.[p]
+Mà, ma lực bẩn thỉu của mày thì[r]xin kiếu.[p]
 [_tb_end_text]
 
 [chara_mod  name="ルビー"  time="0"  cross="false"  storage="chara/44/16.png"  ]
@@ -1843,27 +1843,27 @@ Nhờ ơn ngài mà đã được cứu disgaya![p]
 
 [tb_start_text mode=1 ]
 #ザコウモリB
-T-Tại sao ngài lại cứu[l]những đứa như chúng con! ! ![p]
+T-Tại sao ngài lại cứu[r]những đứa như chúng con! ! ![p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-Ta không tha thứ cho lũ ma quỷ[l]ở Ma giới đã coi thường bản đại nhân.[p]
+Ta không tha thứ cho lũ ma quỷ[r]ở Ma giới đã coi thường bản đại nhân.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-Những kẻ đối xử tệ với ma quỷ thì[l]càng không tha thứ! Chỉ vậy thôi.[p]
+Những kẻ đối xử tệ với ma quỷ thì[r]càng không tha thứ! Chỉ vậy thôi.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ザコウモリB
-Cực cool disgaya! [l]Sẽ đi theo suốt đời disgaya![p]
+Cực cool disgaya! [r]Sẽ đi theo suốt đời disgaya![p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ザコウモリA
-Ngya~ Tên ngài là gì![l]Tên ngài là gì disgaya![p]
+Ngya~ Tên ngài là gì![r]Tên ngài là gì disgaya![p]
 
 [_tb_end_text]
 
@@ -1885,29 +1885,29 @@ Tên thật của bản đại nhân là…[p]
 [playse  volume="100"  time="0"  buf="1"  storage="sasu.ogg"  ]
 [tb_start_text mode=1 ]
 #ザコウモリA
-E! ? Đại ma quỷ kia…[l]Thì ra là ngài! Kya![p]
+E! ? Đại ma quỷ kia…[r]Thì ra là ngài! Kya![p]
 [_tb_end_text]
 
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [playse  volume="100"  time="0"  buf="1"  storage="sasu2.ogg"  ]
 [tb_start_text mode=1 ]
 #ザコウモリB
-Không nghe được tin tốt gì,[l]mà ngờ lại là người tuyệt vời thế này… mọi người đều hiểu lầm disgaya![p]
+Không nghe được tin tốt gì,[r]mà ngờ lại là người tuyệt vời thế này… mọi người đều hiểu lầm disgaya![p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-Kuhaha… ừm. Đúng rồi! Lần tới ta sẽ dẫn[l]mấy đứa đi ăn![p]
+Kuhaha… ừm. Đúng rồi! Lần tới ta sẽ dẫn[r]mấy đứa đi ăn![p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ザコウモリB
-Đi ăn… là cái thứ mà Beelzebub-sama với lũ đầy tớ[l]của ngài ăn, loại trộncác loại quả cây-disgaya! ! ?[p]
+Đi ăn… là cái thứ mà Beelzebub-sama với lũ đầy tớ[r]của ngài ăn, loại trộncác loại quả cây-disgaya! ! ?[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ザコウモリA
-Quen biết Beelzebub-sama nên mới được vậy disgaya! Cơ hội tiếp xúc văn hóa ẩm thực với[l]lũ quỷ cấp thấp như chúng con…[p]
+Quen biết Beelzebub-sama nên mới được vậy disgaya! Cơ hội tiếp xúc văn hóa ẩm thực với[r]lũ quỷ cấp thấp như chúng con…[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -1941,7 +1941,7 @@ Cũng làm được cả chuyện đó nữa[~]rất cảm kích disgaya![p]
 
 [tb_start_text mode=1 ]
 #ザコウモリB
-Không về được nên đã được cứu disgaya![l]Hẹn gặp lại ở Ma giới disgaya![p]
+Không về được nên đã được cứu disgaya![r]Hẹn gặp lại ở Ma giới disgaya![p]
 
 [_tb_end_text]
 
@@ -1971,7 +1971,7 @@ Không về được nên đã được cứu disgaya![l]Hẹn gặp lại ở M
 [fadein_window  time="1000"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Ta đưa hết phần ma lực mày thu thập được rồi,[l]nên hôm nay không tính MP.[p]
+Ta đưa hết phần ma lực mày thu thập được rồi,[r]nên hôm nay không tính MP.[p]
 [_tb_end_text]
 
 [stopbgm  time="3000"  fadeout="true"  ]
@@ -1992,29 +1992,29 @@ Dù sao thì mày [delay speed=100]…[resetdelay][p]
 
 [tb_start_text mode=1 ]
 #でびるん
-Mày muốn ngăn bản đại nhân[l]âm mưu trở thành hình dạng mới, đúng không?[p]
+Mày muốn ngăn bản đại nhân[r]âm mưu trở thành hình dạng mới, đúng không?[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-Ta hiểu rồi.[l]Ta nhìn thấy được mà còn [delay speed=100]…[resetdelay]cảm nhận được.[p]
+Ta hiểu rồi.[r]Ta nhìn thấy được mà còn [delay speed=100]…[resetdelay]cảm nhận được.[p]
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="true"  storage="chara/1/68.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Nếu mày không cứu lúc nãy,[l]bản đại nhân sẽ đầy vết thương, sẽ kiếm được thêm thời gian.[p]
+Nếu mày không cứu lúc nãy,[r]bản đại nhân sẽ đầy vết thương, sẽ kiếm được thêm thời gian.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-Tại sao không làm vậy? [l]Vì thương bản đại nhân sao?[p]
+Tại sao không làm vậy? [r]Vì thương bản đại nhân sao?[p]
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="true"  storage="chara/1/8.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Hà, mày thật sự là người tốt quá[l]nên mới vậy.[p]
+Hà, mày thật sự là người tốt quá[r]nên mới vậy.[p]
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="true"  storage="chara/1/91.png"  ]
@@ -2026,7 +2026,7 @@ Hà, mày thật sự là người tốt quá[l]nên mới vậy.[p]
 [chara_mod  name="でびるん"  time="0"  cross="true"  storage="chara/1/89.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Thực ra… ta đã[l]thử mày.[p]
+Thực ra… ta đã[r]thử mày.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -2036,14 +2036,14 @@ Ta tin rằng mày sẽ cứu.[p]
 
 [tb_start_text mode=1 ]
 #でびるん
-[delay speed=100]…[resetdelay]Nghe rồi chứ? [l]Tên ta là Belphegor.[p]
+[delay speed=100]…[resetdelay]Nghe rồi chứ? [r]Tên ta là Belphegor.[p]
 ;[delay speed=100]・・・[resetdelay]聞いたろ？[r]我が名はBelphegor[p]
 ;;[delay speed=100]・・・[resetdelay]聞いたろ？[r]我が名はベルフェゴール[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-Ta đã cho mày biết tên thật.[l]Bởi vì ta biết mày sẽ không làm điều xấu.[p]
+Ta đã cho mày biết tên thật.[r]Bởi vì ta biết mày sẽ không làm điều xấu.[p]
 
 [_tb_end_text]
 
@@ -2055,7 +2055,7 @@ Ta đã cho mày biết tên thật.[l]Bởi vì ta biết mày sẽ không làm
 [chara_mod  name="でびるん"  time="0"  cross="true"  storage="chara/1/53.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Mày muốn trở thành[l]bạn của bản đại nhân đúng không![p]
+Mày muốn trở thành[r]bạn của bản đại nhân đúng không![p]
 
 [_tb_end_text]
 
@@ -2090,13 +2090,13 @@ Vậy thì hãy dừng bản đại nhân đi [delay speed=300]…[resetdelay][w
 
 [tb_start_text mode=1 ]
 #でびるん
-Chừng nào bản thể của bản đại nhân chưa mục nát,[l]gốc rễ lười biếng không thể loại bỏ.[p]
+Chừng nào bản thể của bản đại nhân chưa mục nát,[r]gốc rễ lười biếng không thể loại bỏ.[p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-Không ngờ lại trở thành quy mô lớn thế này.[l]Ngoài dự kiến.[p]
+Không ngờ lại trở thành quy mô lớn thế này.[r]Ngoài dự kiến.[p]
 
 [_tb_end_text]
 
@@ -2108,18 +2108,18 @@ Không ngờ lại trở thành quy mô lớn thế này.[l]Ngoài dự kiến.[
 
 [tb_start_text mode=1 ]
 #でびるん
-Chính cái bộ dạng ỷ lại thế này[l]là nguyên nhân bị coi thường.[p]
+Chính cái bộ dạng ỷ lại thế này[r]là nguyên nhân bị coi thường.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-Ta phải chứng minh rằng nếu bản đại nhân cố gắng,[l]cũng sẽ làm được.[p]
+Ta phải chứng minh rằng nếu bản đại nhân cố gắng,[r]cũng sẽ làm được.[p]
 [_tb_end_text]
 
 [chara_move  name="プレイヤー"  anim="true"  time="1000"  effect="easeInQuad"  wait="false"  top="800"  width="1280"  height="960"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[emb exp="f.name"] đã chăm sóc ta [delay speed=300]…[resetdelay][l]Nhưng cuối cùng, ta sẽ tự tay cho hắn biết.[p]
+[emb exp="f.name"] đã chăm sóc ta [delay speed=300]…[resetdelay][r]Nhưng cuối cùng, ta sẽ tự tay cho hắn biết.[p]
 [_tb_end_text]
 
 [stopse  time="200"  buf="1"  fadeout="true"  ]
@@ -2131,7 +2131,7 @@ Ta phải chứng minh rằng nếu bản đại nhân cố gắng,[l]cũng sẽ
 
 [tb_start_text mode=1 ]
 #でびるん
-À, nguyên liệu đó…[delay speed=300]…[resetdelay][l]Làm raspberry pie, ta nhờ mày đúng không?[p]
+À, nguyên liệu đó…[delay speed=300]…[resetdelay][r]Làm raspberry pie, ta nhờ mày đúng không?[p]
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/100.png"  ]
@@ -2142,7 +2142,7 @@ Ta phải chứng minh rằng nếu bản đại nhân cố gắng,[l]cũng sẽ
 
 [tb_start_text mode=1 ]
 #でびるん
-Mày [delay speed=100]…[resetdelay][l]Đừng có thay đổi đến cuối cùng.[p]
+Mày [delay speed=100]…[resetdelay][r]Đừng có thay đổi đến cuối cùng.[p]
 
 [_tb_end_text]
 
