@@ -445,7 +445,7 @@ Cờ đích này chứa bùa[r]làm sắc bén giác quan phải không?[p]
 
 [tb_start_text mode=1 ]
 #クピャドエル
-Debikunchậm chạp nên ta thử[r]dùng trên mọibộ phận toàn thân[p]
+Debikun chậm chạp nên ta thử [r]dùng trên mọi bộ phận toàn thân[p]
 
 [_tb_end_text]
 
@@ -474,7 +474,7 @@ Debikunchậm chạp nên ta thử[r]dùng trên mọibộ phận toàn thân[p]
 [chara_mod  name="ネオでび邪眼"  time="0"  cross="false"  storage="chara/51/5.png"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text][delay speed=100][font size=37]か、感度666倍！？[resetfont][resetdelay][free_quake_text][p]
+[quake_text][delay speed=100][font size=37]Đ-độ nhạy tăng 666 lần!?[resetfont][resetdelay][free_quake_text][p]
 
 [_tb_end_text][p]
 
@@ -1123,7 +1123,7 @@ Kupya[delay speed=100]...[resetdelay]Quen thuộc[r]Không gian lạ này ta kh�
 [stopse  time="1000"  buf="5"  ]
 [tb_start_text mode=1 ][p]
 #ネオでびるん
-[quake_text][delay speed=100]ん、んぎゃぎゃ！？[resetdelay][free_quake_text][p]
+[quake_text][delay speed=100]N, ngya gya!?[resetdelay][free_quake_text][p]
 
 
 
@@ -1154,7 +1154,7 @@ Debikun![p]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text][delay speed=100]な、なんだか、全ての感覚が・・・[r]ギンギンに冴えてやがるぞ！？[resetdelay][free_quake_text][p]
+[quake_text][delay speed=100]C-cái gì vậy, mọi giác quan đều...[r]sắc bén bất thường!?[resetdelay][free_quake_text][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -1191,7 +1191,7 @@ Ta đi trước rồi![wait time=300][r][font size=37]Cả[wait time=100]m[wait 
 [chara_mod  name="ネオでび邪眼"  time="0"  cross="false"  storage="chara/51/5.png"  ]
 [tb_start_text mode=1 ][p]
 #ネオでびるん
-[quake_text]だぎゃ？！どういうことだ[free_quake_text][p]
+[quake_text]Dagya?! Có chuyện gì vậy[free_quake_text][p]
 
 
 [_tb_end_text][p]
@@ -1199,7 +1199,7 @@ Ta đi trước rồi![wait time=300][r][font size=37]Cả[wait time=100]m[wait 
 [chara_mod  name="コマえる"  time="0"  cross="false"  storage="chara/21/16.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Dùng tổng 666 lần trên mọibộ phận toàn thân![r]Không vậy giọng không đến Debikun[p]
+Dùng tổng 666 lần trên mọi bộ phận toàn thân! [r]Không vậy giọng không đến Debikun[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
