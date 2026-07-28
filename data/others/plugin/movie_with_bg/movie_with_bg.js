@@ -173,6 +173,19 @@ TYRANO.kag.ftag.master_tag.movie_with_bg = {
         video.muted = true
         try { video.play() } catch (_) {}
       })
+      if (typeof _stopVideo === 'function') {
+        var safetyDuration = (video.duration && isFinite(video.duration)) ? video.duration : 15
+        setTimeout(function () {
+          if (_ended) return
+          _ended = true
+          _stopVideo()
+          $('.tyrano_base').find('#' + videoId).remove()
+          if ('false' == pm.skip) {
+            $('.layer_event_click').css('display', '')
+          }
+          that.kag.ftag.nextOrder()
+        }, (safetyDuration + 2) * 1000)
+      }
     })
     video.addEventListener('error', function () {
       j_video.remove()
