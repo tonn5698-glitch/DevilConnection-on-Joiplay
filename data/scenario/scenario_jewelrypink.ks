@@ -186,11 +186,11 @@ Từ nãy giờ miệng độc lắm đấy,Devil Boy…[r]Ta sẽ trừng phạ
 
 [if exp="f.sign==1"]
 
-[choice2 text1="BARRIER MAGIC" text2="Dùng bút ký làm khiên"
+[choice2 text1="BARRIER MAGIC" target1="*sa" text2="Dùng bút ký làm khiên" target2="*sa"]
 
 [else]
 
-[choice2 text1="BARRIER MAGIC" text2="???
+[choice2 text1="BARRIER MAGIC" target1="*sa" text2="???" graphic2="disabled" disabled2="true"]
 
 [endif]
 
@@ -214,7 +214,7 @@ Từ nãy giờ miệng độc lắm đấy,Devil Boy…[r]Ta sẽ trừng phạ
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Cú đá mạnh đến mức thấy được[~]vết dư sau khi vung liềm…[p]
+Cú đá mạnh đến mức thấy được[r]vết dư sau khi vung liềm…[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -245,7 +245,7 @@ Tôi luôn quan sát Sapphire-chan.[r]Lúc tắm, lúc rửa chỗ quan trọng 
 
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Nhưng hôm đó, tôi vừa quay mặt[~]lấy khăn lau tóc,[r]chớp mắt cô ấy đã biến mất! Đúng là![p]
+Nhưng hôm đó, tôi vừa quay mặt[r]lấy khăn lau tóc,[r]chớp mắt cô ấy đã biến mất! Đúng là![p]
 
 [_tb_end_text]
 
@@ -622,7 +622,7 @@ Summoner[if exp="f.hutanari == 1]Song tính[else][if exp="f.seibetu == 1]Con tra
 [chara_mod  name="サブでび"  time="0"  cross="false"  storage="chara/30/bani4.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Làm vui lòng? Hmph, bản đại nhân đây mà được[~]sử dụng thì phải biết ơn mới đúng![p]
+Làm vui lòng? Hmph, bản đại nhân đây mà được[r]sử dụng thì phải biết ơn mới đúng![p]
 
 
 [_tb_end_text]
@@ -650,7 +650,7 @@ Làm vui lòng? Hmph, bản đại nhân đây mà được[~]sử dụng thì p
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Ara, trông khá hợp. Summoner[if exp="f.hutanari == 1]Song tính[else][if exp="f.seibetu == 1]Con trai[else]Con gái[endif][endif]phải học[~]phép tắc phụng sự với hầu tớ chứ.[p]
+Ara, trông khá hợp. Summoner[if exp="f.hutanari == 1]Song tính[else][if exp="f.seibetu == 1]Con trai[else]Con gái[endif][endif]phải học[r]phép tắc phụng sự với hầu tớ chứ.[p]
 
 [_tb_end_text]
 
@@ -696,7 +696,7 @@ Hmph, summoner[if exp="f.hutanari == 1]Song tính[else][if exp="f.seibetu == 1]C
 [chara_mod  name="サブでび"  time="0"  cross="false"  storage="chara/30/mei4.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Làm vui lòng? Hmph, bản đại nhân đây mà bị[~]sử dụng thì phải biết ơn mới đúng![p]
+Làm vui lòng? Hmph, bản đại nhân đây mà bị[r]sử dụng thì phải biết ơn mới đúng![p]
 
 
 [_tb_end_text]
@@ -1105,7 +1105,7 @@ Lúc đầu rất đau. Nhưng dù vậy, tôi vẫn…[r]lúc nào cũng cầu 
 [chara_mod  name="ジュエリーピンク"  time="0"  cross="false"  storage="chara/54/14.png"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Có thể sống[~]đời bên cạnh, bảo vệ Sapphire-chan,[r]người đã cho tôi một「nơi chốn」, là điều hạnh phúc nhất.[p]
+Có thể sống[r]đời bên cạnh, bảo vệ Sapphire-chan,[r]người đã cho tôi một「nơi chốn」, là điều hạnh phúc nhất.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -1373,7 +1373,7 @@ f.finished = [...f.finished, f.chara.name];
 [chara_show  name="感情オーラ3"  time="1000"  wait="false"  storage="chara/13/moya3-3.png"  width="460"  height="200"  left="219"  top="578"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #ジュエリーピンク
-Débi-boy đang cố gắng tiến lại gần[~]mà…[r]Anh thật sự tệ quá.[p]
+Débi-boy đang cố gắng tiến lại gần[r]mà…[r]Anh thật sự tệ quá.[p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]

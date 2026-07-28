@@ -1321,7 +1321,7 @@ Ma quỷ khi hai cái sừng va vào nhau,[r]sẽ cực kỳ khó chịu đấy.
 
 [tb_start_text mode=1 ]
 #でびるん
-Bởi vì đó là cơ quan tinh vi dùng để hấp thụ trực tiếp ma lực[~]Vậy nên ta đã dùng điều đó để đe dọa.[p]
+Bởi vì đó là cơ quan tinh vi dùng để hấp thụ trực tiếp ma lực[r]Vậy nên ta đã dùng điều đó để đe dọa.[p]
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/11.png"  ]
@@ -1936,7 +1936,7 @@ Ta cho mày lượng ma lực để trở về Ma giới.[p]
 
 [tb_start_text mode=1 ]
 #ザコウモリA
-Cũng làm được cả chuyện đó nữa[~]rất cảm kích disgaya![p]
+Cũng làm được cả chuyện đó nữa[r]rất cảm kích disgaya![p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]

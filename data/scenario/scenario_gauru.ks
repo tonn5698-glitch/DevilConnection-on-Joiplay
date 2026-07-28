@@ -1490,7 +1490,7 @@ Chưa dùng được nhuần nhuyễn nhưng…[r]Hãythức tỉnh(thức tỉn
 #ガウルォス
 Ngươi có thể nhìn quá khứ của đối phương?[r]Đã dùng đúng cách chưa?[p]
 Nhiều khi sẽ chảy vào não một cách vô tình,[r]nhưng việc chủ động nhìn bằng ý chí cũng rất quan trọng.[p]
-Đây là ký ức khi đệ tử yêu quý Fuuga gặp[~]và ký hợp đồng với tinh linh gió.[p]
+Đây là ký ức khi đệ tử yêu quý Fuuga gặp[r]và ký hợp đồng với tinh linh gió.[p]
 [_tb_end_text]
 
 [bg  time="200"  method="crossfade"  storage="fuga_kaisou3.webp"  ]
@@ -1703,7 +1703,7 @@ Hãy cho ta thấy sức mạnh và quyết tâm![p]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-Sự do dự đó rồi sẽ[~]tàn phá chính bản thân ngươi.[p]
+Sự do dự đó rồi sẽ[r]tàn phá chính bản thân ngươi.[p]
 
 [_tb_end_text]
 
@@ -1715,7 +1715,7 @@ Nhưng đồng thời, sự tốt bụng đó cũng đang[r]khiến ma quỷ d�
 
 [tb_start_text mode=1 ]
 #ガウルォス
-Nhưng chiến đấu cũng là một[~]cách mạnh mẽ, và là sự lựa chọn.[p]
+Nhưng chiến đấu cũng là một[r]cách mạnh mẽ, và là sự lựa chọn.[p]
 
 [_tb_end_text]
 
@@ -1837,7 +1837,7 @@ Tuy nhiên dù vậy, dùng cấm thuật mà[r]không phát điên đã đứng
 [chara_mod  name="ガウルォス"  time="0"  cross="false"  storage="chara/53/16.png"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-…Dường như ngươi là người có[~]sức mạnh tinh thần và quyết tâm phi thường.[p]
+…Dường như ngươi là người có[r]sức mạnh tinh thần và quyết tâm phi thường.[p]
 Có vẻ như mới gặp ma quỷ không lâu,[r]nhưng ý chí mạnh mẽ đó đã sớm thức tỉnh Evil Eye.[p]
 
 [_tb_end_text]
@@ -1854,7 +1854,7 @@ Khả năng chịu đựng nỗi đau khai nhãn đã cho thấy[r]quyết tâm,
 [chara_mod  name="ガウルォス"  time="0"  cross="false"  storage="chara/53/4.png"  ]
 [tb_start_text mode=1 ]
 #ガウルォス
-Ta hồi nhỏ từng[~]lăn lộn đòi chết.[r]Hahaha![p]
+Ta hồi nhỏ từng[r]lăn lộn đòi chết.[r]Hahaha![p]
 
 
 [_tb_end_text]
