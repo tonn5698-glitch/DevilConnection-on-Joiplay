@@ -35,7 +35,7 @@
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #？？？②
-[delay speed=100]却下だ。[resetdelay][p]
+[delay speed=100]Từ chối.[resetdelay][p]
 
 [_tb_end_text]
 
@@ -62,7 +62,7 @@
 [chara_mod  name="BBB"  time="0"  cross="false"  storage="chara/64/3.png"  ]
 [tb_start_text mode=1 ]
 #？？？②
-[delay speed=100]トモダチとはなんだ、悪魔のベルと本契約を結び[r]真[名の力を行使して生涯こき使うつもりか？[resetdelay][p]
+[delay speed=100]Bạn bè là cái gì, ngươi ký hợp đồng chính thức với[r]Bel ma quỷ rồi muốn dùng sức mạnh tên thật mà sai bảo suốt đời à?[resetdelay][p]
 
 [_tb_end_text]
 
@@ -91,25 +91,25 @@
 
 [tb_start_text mode=1 ]
 #クピャドエル
-[emb exp="f.name"]さんはでびくんと本契約して[r]一緒に幸せになりたいだけなのですよぅ！[p]
+[emb exp="f.name"]chỉ muốn ký hợp đồng chính thức với Debikun rồi[r]cùng nhau hạnh phúc thôi mà![p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #BBB
-[delay speed=100]・・・何が幸せだ[resetdelay][p]
+[delay speed=100]...hạnh phúc cái gì[resetdelay][p]
 
-
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
-#BBB
-[delay speed=100]たった3、4日過ごして、ベルのことを[r]わかった気でいるのは何故だ[resetdelay][p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #BBB
-[delay speed=100]地上の民とはつくづく浅はかなものだ、[r]これも寿命が短く脆いからか？[resetdelay][p]
+[delay speed=100]Chỉ mới ở bên nhau 3-4 ngày mà[r]tưởng đã hiểu Bel, tại sao?[resetdelay][p]
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#BBB
+[delay speed=100]Thật là nông cạn, giống như loài người ở hạ giới,[r]có lẽ vì tuổi thọ ngắn và yếu đuối chăng?[resetdelay][p]
 
 
 [_tb_end_text]
@@ -117,12 +117,12 @@
 [chara_mod  name="BBB"  time="0"  cross="false"  storage="chara/64/13.png"  ]
 [tb_start_text mode=1 ]
 #BBB
-[delay speed=100]・・・貴様らには分からぬだろうな[resetdelay][p]
+[delay speed=100]...các ngươi chắc không hiểu đâu[resetdelay][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #BBB
-[delay speed=100]このまま魔界に帰ることが、ベルにとって[r]どれだけの屈辱であろうことか[resetdelay][p]
+[delay speed=100]Việc trở về Ma Giới thế này, với Bel[r]là một sự sỉ nhục lớn đến nhường nào[resetdelay][p]
 
 
 [_tb_end_text]
@@ -141,13 +141,13 @@
 [chara_mod  name="BBB"  time="0"  cross="false"  storage="chara/64/6.png"  ]
 [tb_start_text mode=1 ]
 #BBB
-[delay speed=100]・・・今、解放してやるからな[resetdelay][p]
+[delay speed=100]...giờ tao sẽ thả ngươi ra[resetdelay][p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #BBB
-[delay speed=100]ベル・・・ワシを[resetdelay][p]
+[delay speed=100]Bel...ta...[resetdelay][p]
 
 
 [_tb_end_text]
@@ -163,21 +163,21 @@
 [chara_mod  name="BBB"  time="0"  cross="false"  storage="chara/64/8.png"  ]
 [tb_start_text mode=1 ]
 #BBB
-[delay speed=120]なんだ[resetdelay][p]
+[delay speed=120]Cái gì[resetdelay][p]
 
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #BBB
-[delay speed=120]その指輪[resetdelay][p]
+[delay speed=120]Chiếc nhẫn đó[resetdelay][p]
 
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #BBB
-[delay speed=120]天使の残り香を感じる[resetdelay][p]
+[delay speed=120]Cảm nhận được mùi hương còn sót lại của thiên thần[resetdelay][p]
 
 
 [_tb_end_text]
@@ -189,7 +189,7 @@
 
 [tb_start_text mode=1 ]
 #BBB
-[font color=0xEA0F18 bold=true][delay speed=120]貴様、悪魔崇拝者と見せ掛けて[r]天使軍の使いっパシりか？[resetdelay][resetfont][p]
+[font color=0xEA0F18 bold=true][delay speed=120]Ngươi, giả vờ sùng bái ma quỷ rồi[r]thực chất là gián điệp của quân đoàn thiên thần à?[resetdelay][resetfont][p]
 
 
 
@@ -197,7 +197,7 @@
 
 [tb_start_text mode=1 ]
 #BBB
-[font color=0xEA0F18 bold=true size=50][delay speed=120]ベルの事を散々弄びやがって[wait time=300][r]直ちにこの場から始末してくれる[resetdelay][resetfont][p]
+[font color=0xEA0F18 bold=true size=50][delay speed=120]Dám trêu chọc Bel suốt[r]ta sẽ giết ngươi ngay tại đây[resetdelay][resetfont][p]
 
 
 
@@ -215,7 +215,7 @@
 [chara_hide  name="プレイヤー"  layer="1"  time="0"  wait="false"  pos_mode="false"  ]
 [tb_start_text mode=1 ]
 #BBB
-[font color=0xEA0F18 bold=true size=50][delay speed=120]ッ！！[resetdelay][resetfont][p]
+[font color=0xEA0F18 bold=true size=50][delay speed=120]!![resetdelay][resetfont][p]
 
 
 
@@ -247,7 +247,7 @@
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #でびるん
-[delay speed=100]待・・・って[resetdelay][p]
+[delay speed=100]Khoan...đã[resetdelay][p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
@@ -263,34 +263,34 @@
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #でびるん
-[delay speed=100]ブブ、そやつらに手は・・・出さないでくれ・・・[resetdelay][p]
+[delay speed=100]Bubu, đừng...đánh họ...[resetdelay][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-[delay speed=100]3日ぽっちじゃないんだ[p]
+[delay speed=100]Không chỉ có 3 ngày[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-[delay speed=100]楽しかったんだ。[wait time=500][r]うざかったり、上手くいかないこともあったけど・・・[resetdelay][p]
+[delay speed=100]Vui lắm mà.[wait time=500][r]Có lúc khó chịu, có lúc không suôn sẻ nhưng...[resetdelay][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-[delay speed=100]こやつらはオレサマのために[r]何度も、何度・・・も・・・[resetdelay][p]
+[delay speed=100]Bọn họ vì bản đại nhân mà[r]rất nhiều lần, rất nhiều lần...[resetdelay][p]
 [_tb_end_text]
 
 [chara_mod  name="BBB"  time="0"  cross="false"  storage="chara/64/10.png"  ]
 [playse  volume="40"  time="1000"  buf="4"  storage="gauru1.ogg"  ]
 [tb_start_text mode=1 ]
 #BBB
-[delay speed=100]ベルに一体何をした、[r]何のまじないを使った[resetdelay][p]
+[delay speed=100]Các ngươi đã làm gì với Bel,[r]dùng phép thuật gì[resetdelay][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-[delay speed=100]そういうんじゃないんだ、ブブ・・・[r]お願いだ、信じてく・・・れ・・・[resetdelay][p]
+[delay speed=100]Không phải vậy đâu, Bubu...[r]xin hãy tin...tao...[resetdelay][p]
 [_tb_end_text]
 
 [chara_mod  name="BBB"  time="0"  cross="false"  storage="chara/64/12.png"  ]
@@ -302,18 +302,18 @@
 [chara_mod  name="BBB"  time="0"  cross="false"  storage="chara/64/4.png"  ]
 [tb_start_text mode=1 ]
 #BBB
-[delay speed=100]・・・[emb exp="f.name"]と言ったか[resetdelay][p]
+[delay speed=100]...[emb exp="f.name"] đúng không[resetdelay][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #BBB
-[delay speed=100]どういう風の吹き回しかは知らぬが[r]貴様にはベルのしがらみがわかるか？[resetdelay][p]
+[delay speed=100]Không biết ngươi đến đây vì mục đích gì nhưng[r]ngươi có hiểu mối ràng buộc của Bel không?[resetdelay][p]
 [_tb_end_text]
 
 [chara_mod  name="BBB"  time="0"  cross="false"  storage="chara/64/3.png"  ]
 [tb_start_text mode=1 ]
 #BBB
-[delay speed=100]・・・その額の眼を開けろ、[wait time=200]見せてやろう[resetdelay][p]
+[delay speed=100]...mở con mắt trên trán ra, [wait time=200]ta sẽ cho ngươi xem[resetdelay][p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
@@ -339,17 +339,17 @@
 [fadein_window  time="1000"  ]
 [tb_start_text mode=1 ]
 #ベルゼブブ
-[delay speed=100]ワシは真[名ベルゼブブ。何千年と前から[r]七大悪魔一柱、暴食の座に就いている[resetdelay][p]
+[delay speed=100]Ta là Beelzebub thật danh. Từ hàng ngàn năm trước[r]một trong bảy đại ác ma, ngồi trên ghế bội thực[resetdelay][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ベルゼブブ
-[delay speed=100]その中で、大悪魔の名を継承しながらも[r]入れ替わり立ち替わりが起きるのをずっと見てきた[resetdelay][p]
+[delay speed=100]Trong đó, dù kế thừa danh hiệu đại ác ma[r]ta đã chứng kiến sự thay đổi liên tục[resetdelay][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ベルゼブブ
-[delay speed=100]Belphegorの座にはよくそれが起きた[resetdelay][p]
+[delay speed=100]Trên ghế Belphegor điều đó thường xuyên xảy ra[resetdelay][p]
 ;[delay speed=100]Belphegorの座にはよくそれが起きた[resetdelay][p]
 ;;[delay speed=100]ベルフェゴールの座にはよくそれが起きた[resetdelay][p]
 [_tb_end_text]
@@ -357,92 +357,92 @@
 [bg  time="100"  method="crossfade"  storage="BBB4.webp"  wait="false"  ]
 [tb_start_text mode=1 ]
 #ベルゼブブ
-[delay speed=100]なんせ怠惰。そんな奴が魔力を回収しに[r]地上に赴くことすら億劫だ。皮肉なものだろう[resetdelay][p]
+[delay speed=100]Dù sao cũng là kẻ lười biếng. Hắn[r]lực lưỡng đến hạ giới thu thập ma lực. Thật trớ trêu[resetdelay][p]
 [_tb_end_text]
 
 [bg  time="100"  method="crossfade"  storage="BBB5.webp"  wait="false"  ]
 [tb_start_text mode=1 ]
 #ベルゼブブ
-[delay speed=100]それにより先代のBelphegorの席が空いた[resetdelay][p]
-;[delay speed=100]それにより先代のBelphegorの席が空いた[resetdelay][p]
+[delay speed=100]Nhờ đó mà ghế của Belphegor thế hệ trước trống[resetdelay][p]
+;[delay speed=100]Nhờ đó mà ghế của Belphegor thế hệ trước trống[resetdelay][p]
 ;;[delay speed=100]それにより先代のベルフェゴールの席が空いた[resetdelay][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ベルゼブブ
-[delay speed=100]同時期に他の大悪魔の座も空き[r]魔界は騒々しさを増していた[resetdelay][p]
+[delay speed=100]Cùng lúc ghế các đại ác ma khác cũng trống[r]Ma Giới trở nên hỗn loạn[resetdelay][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ベルゼブブ
-[delay speed=100]このままでは同族で争うといった、[r]人間界のような愚かな事態が発生する[resetdelay][p]
+[delay speed=100]Nếu tiếp tục, sẽ xảy ra[r]tình huống ngu ngốc giống loài người, tranh giành lẫn nhau[resetdelay][p]
 [_tb_end_text]
 
 [bg  time="100"  method="crossfade"  storage="BBB6.webp"  wait="false"  ]
 [tb_start_text mode=1 ]
 #ベルゼブブ
-[delay speed=100]後続を探していたある日、[r]怠けた下級悪魔のコウモリがいると聞いてな[resetdelay][p]
+[delay speed=100]Một ngày tìm người kế thừa, [r]ta nghe nói có một dơi cấp thấp lười biếng[resetdelay][p]
 [_tb_end_text]
 
 [bg  time="100"  method="crossfade"  storage="BBB7.webp"  wait="false"  ]
 [tb_start_text mode=1 ]
 #ベルゼブブ
-[delay speed=100]消し去ろうとした[resetdelay][p]
+[delay speed=100]Ta đã cố tiêu diệt nó[resetdelay][p]
 [_tb_end_text]
 
 [bg  time="100"  method="crossfade"  storage="BBB8.webp"  wait="false"  ]
 [tb_start_text mode=1 ]
 #ベルゼブブ
-[delay speed=100]ほんの気まぐれだった、食ってやろうと口に含んだ[r]飴玉のように舌で転がし、ワシの魔力を与え続けた[resetdelay][p]
+[delay speed=100]Chỉ là nhất thời, giống như viên kẹo[r]ta lăn trên lưỡi rồi tiếp tục truyền ma lực[resetdelay][p]
 [_tb_end_text]
 
 [bg  time="100"  method="crossfade"  storage="BBB9.webp"  wait="false"  ]
 [tb_start_text mode=1 ]
 #ベルゼブブ
-[delay speed=100]しかし一向に消滅しない[resetdelay][p]
+[delay speed=100]Nhưng nó không hề biến mất[resetdelay][p]
 [_tb_end_text]
 
 [stopse  time="1000"  buf="5"  fadeout="true"  ]
 [bg  time="300"  method="crossfade"  storage="kuro.webp"  wait="false"  ]
 [tb_start_text mode=1 ]
 #ベルゼブブ
-[delay speed=100]魔力過多になれば身体がぶくぶくと[r]腫れ上がり、弾け飛び、魂だけの存在と化す[resetdelay][p]
+[delay speed=100]Nếu quá nhiều ma lực, cơ thể[r]sưng phù, nổ tung, chỉ còn tồn tại linh hồn[resetdelay][p]
 [_tb_end_text]
 
 [bg  time="100"  method="crossfade"  storage="BBB10.webp"  wait="false"  ]
 [tb_start_text mode=1 ]
 #ベルゼブブ
-[delay speed=100]しかし、そのコウモリは魔力のキャパシティが[r]多く素質があったのだろう。[resetdelay][p]
+[delay speed=100]Nhưng con dơi đó có dung lượng ma lực[r]lớn và có tiềm năng.[resetdelay][p]
 [_tb_end_text]
 
 [bg  time="100"  method="crossfade"  storage="BBB11.webp"  wait="false"  ]
 [tb_start_text mode=1 ]
 #ベルゼブブ
-[delay speed=100]ワシは興味本位で魔力を与え続けてしまった[resetdelay][p]
+[delay speed=100]Ta vì tò mò mà tiếp tục truyền ma lực[resetdelay][p]
 [_tb_end_text]
 
 [bg  time="100"  method="crossfade"  storage="BBB12.webp"  wait="false"  ]
 [tb_start_text mode=1 ]
 #ベルゼブブ
-[delay speed=100]腹の肉をも突き破り覚醒する邪眼の痛みにも耐え抜いた[resetdelay][p]
+[delay speed=100]Nó chịu đựng được cơn đau khi tà nhãn tỉnh giấc xé toạc bụng[resetdelay][p]
 [_tb_end_text]
 
 [bg  time="100"  method="crossfade"  storage="BBB13.webp"  wait="false"  ]
 [tb_start_text mode=1 ]
 #ベルゼブブ
-[delay speed=100]そうしていつしか彼は、[r]立派な成体となった。[resetdelay][p]
+[delay speed=100]Và dần dần, nó[r]trở thành một cá thể trưởng thành[resetdelay][p]
 [_tb_end_text]
 
 [bg  time="100"  method="crossfade"  storage="BBB14.webp"  wait="false"  ]
 [tb_start_text mode=1 ]
 #ベルゼブブ
-[delay speed=100]素質があったのでそやつを[resetdelay][p]
+[delay speed=100]Vì có tiềm năng nên ta đã chọn nó[resetdelay][p]
 [_tb_end_text]
 
 [bg  time="100"  method="crossfade"  storage="BBB15.webp"  wait="false"  ]
 [tb_start_text mode=1 ]
 #ベルゼブブ
-[delay speed=100]Belphegorに、任命した[resetdelay][p]
+[delay speed=100]Để làm Belphegor[resetdelay][p]
 ;[delay speed=100]Belphegorに、任命した[resetdelay][p]
 ;;[delay speed=100]ベルフェゴールに、任命した[resetdelay][p]
 [_tb_end_text]
@@ -461,22 +461,22 @@ Thế ra... đó chính là Debikun sao[resetdelay][p]
 [bg  time="100"  method="crossfade"  storage="BBB16.webp"  wait="false"  ]
 [tb_start_text mode=1 ]
 #ベルゼブブ
-[delay speed=100]先天的な大悪魔ばかりが務める七大悪魔において[r]下級出身の悪魔を任命するという試みはそう上手くはいかず[resetdelay][p]
+[delay speed=100]Trong bảy đại ác ma toàn đại ác ma bẩm sinh,[r]việc bổ nhiệm ác ma cấp thấp không được suôn sẻ[resetdelay][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ベルゼブブ
-[delay speed=100]上級悪魔からも下級悪魔からも軽蔑され、[r]輪に入れず部下も付かず。双方に居場所がなかった[resetdelay][p]
+[delay speed=100]Bị khinh miệt từ cả cấp cao lẫn cấp thấp,[r]không được gia nhập, không có thuộc hạ. Không có chỗ đứng[resetdelay][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ベルゼブブ
-[delay speed=100]ベルの魔力保有量や覚醒具合から見ても[r]怠惰の悪魔の名にふさわしい実力は確かだ。[resetdelay][p]
+[delay speed=100]Nhìn vào lượng ma lực và mức tỉnh giấc của Bel[r]đúng là có thực lực xứng đáng danh hiệu ác ma lười biếng.[resetdelay][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ベルゼブブ
-[delay speed=100]しかし復讐を望まず認められたい一心で行動する[r]ベルにとって、大悪魔は性に合わなかったろう[resetdelay][p]
+[delay speed=100]Nhưng với Bel hành động không vì trả thù mà mong được công nhận,[r]đại ác ma có lẽ không hợp với tính nó[resetdelay][p]
 [_tb_end_text]
 
 [stopbgm  time="1000"  fadeout="true"  ]
@@ -494,12 +494,12 @@ Thế ra... đó chính là Debikun sao[resetdelay][p]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ベルゼブブ
-[delay speed=100]辛い思いをさせてしまった[resetdelay][p]
+[delay speed=100]Đã khiến nó phải chịu khổ[resetdelay][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ベルゼブブ
-[delay speed=100]そんなワシの気まぐれで[r]生んでしまったBelphegorに[resetdelay][p]
+[delay speed=100]Với Belphegor mà ta[r]sinh ra vì nhất thời[resetdelay][p]
 ;[delay speed=100]そんなワシの気まぐれで[r]生んでしまったBelphegorに[resetdelay][p]
 ;;[delay speed=100]そんなワシの気まぐれで[r]生んでしまったベルフェゴールに[resetdelay][p]
 [_tb_end_text]
@@ -507,7 +507,7 @@ Thế ra... đó chính là Debikun sao[resetdelay][p]
 [chara_mod  name="BBB"  time="0"  cross="false"  storage="chara/64/13.png"  ]
 [tb_start_text mode=1 ]
 #ベルゼブブ
-[delay speed=100]"罪悪感"という感情を、[r]ここ数百年に渡って抱えてきた[resetdelay][p]
+[delay speed=100]"Cảm giác tội lỗi" đó,[r]ta đã mang theo suốt vài trăm năm[resetdelay][p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
@@ -522,49 +522,49 @@ Thế ra... đó chính là Debikun sao[resetdelay][p]
 [chara_mod  name="BBB"  time="0"  cross="false"  storage="chara/64/14.png"  ]
 [tb_start_text mode=1 ]
 #ベルゼブブ
-[delay speed=100]なんだベル。起きたのか。[resetdelay][p]
+[delay speed=100]Cái gì Bel. Đã tỉnh rồi à.[resetdelay][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-[delay speed=120]・・・勘違いすんな[resetdelay][p]
+[delay speed=120]...đừng hiểu lầm[resetdelay][p]
 [_tb_end_text]
 
 [playbgm  volume="50"  time="1000"  loop="true"  storage="17_living_as_debirun.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[delay speed=120]オレサマは・・・[r]おみゃーに感謝してんだ[resetdelay][p]
+[delay speed=120]Bản đại nhân...[r]cảm ơn ngươi[resetdelay][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-[delay speed=120]恨んだことなんて1度たりともない[resetdelay][p]
+[delay speed=120]Chưa từng một lần nào oán hận[resetdelay][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-[delay speed=120]おみゃーは、オレサマに楽しいこと[r]いーっぱい教えてくれた[resetdelay][p]
+[delay speed=120]Ngươi đã dạy bản đại nhân[r]rất nhiều điều thú vị[resetdelay][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-[delay speed=120]下級悪魔時代は知らなかった・・・[r]ラズベリーはパイにした方がうみゃいんだ[resetdelay][p]
+[delay speed=120]Thời cấp thấp ta không biết...[r]việt quất làm bánh pie ngon hơn[resetdelay][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-[delay speed=120]マシマシのアブラカタブラーメンは、舌がピリピリ[r]するけど、刺激的で・・・思い出の味なんだ[resetdelay][p]
+[delay speed=120]Mì abracatabraextra cay xè lưỡi[r]nhưng kích thích...là hương vị kỷ niệm[resetdelay][p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-[delay speed=120]あのまま魔界でぐうたらしてたら[r]一生知ることはできなかった[resetdelay][p]
+[delay speed=120]Nếu tiếp tục lười biếng ở Ma Giới[r]sẽ không bao giờ biết được[resetdelay][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-[delay speed=120]だから・・・感謝してんだよ[resetdelay][p]
+[delay speed=120]Vì thế...ta cảm ơn[resetdelay][p]
 [_tb_end_text]
 
 [chara_mod  name="BBB"  time="0"  cross="false"  storage="chara/64/15.png"  ]
@@ -580,19 +580,19 @@ Thế ra... đó chính là Debikun sao[resetdelay][p]
 
 [tb_start_text mode=1 ]
 #でびるん
-[delay speed=120]オレサマ・・・[r]やっぱりBelphegor向いてなかった[resetdelay][p]
+[delay speed=120]Bản đại nhân...[r]cuối cùng không hợp làm Belphegor[resetdelay][p]
 ;[delay speed=120]オレサマ・・・[r]やっぱりBelphegor向いてなかった[resetdelay][p]
 ;;[delay speed=120]オレサマ・・・[r]やっぱりベルフェゴール向いてなかった[resetdelay][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-[delay speed=120]オレサマのせいで、ブブも・・・悪いこと[r]思われているのを、邪眼を通じて視たんだ・・・[resetdelay][p]
+[delay speed=120]Vì bản đại nhân, Bubu cũng...bị nghĩ xấu[r]ta đã thấy qua tà nhãn...[resetdelay][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-[delay speed=120]だからオレサマ、強くなって・・・[r]魔界の奴らをぎゃふんと言わせたかったんだ[resetdelay][p]
+[delay speed=120]Vì thế bản đại nhân mạnh lên...[r]để Ma Giới phải chịu thua[resetdelay][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -618,12 +618,12 @@ Thế ra... đó chính là Debikun sao[resetdelay][p]
 [chara_mod  name="BBB"  time="0"  cross="false"  storage="chara/64/16.png"  ]
 [tb_start_text mode=1 ]
 #ベルゼブブ
-[delay speed=100]・・・楽しかったのだろう？[r]そこの召喚士と一緒に過ごして[resetdelay][p]
+[delay speed=100]...vui chứ?[r]ở cùng triệu hồi sư đó[resetdelay][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ベルゼブブ
-[delay speed=100]怠惰の大悪魔が[r]よぅ生き生きとしておったぞ[resetdelay][p]
+[delay speed=100]Đại ác ma lười biếng[r]trông rất sống động[resetdelay][p]
 
 [_tb_end_text]
 
@@ -635,12 +635,12 @@ Thế ra... đó chính là Debikun sao[resetdelay][p]
 [chara_mod  name="BBB"  time="0"  cross="false"  storage="chara/64/5.png"  ]
 [tb_start_text mode=1 ]
 #ベルゼブブ
-[delay speed=100]・・・魔界の評価が全てではない[resetdelay][p]
+[delay speed=100]...đánh giá của Ma Giới không phải là tất cả[resetdelay][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ベルゼブブ
-[delay speed=100]ましてやBelphegorなんてとって[r]つけられた役職にも、固執する必要はない[resetdelay][p]
+[delay speed=100]Huống chi chức danh Belphegor chỉ là[r]bổ nhiệm, không cần bám víu[resetdelay][p]
 ;[delay speed=100]ましてやBelphegorなんてとって[r]つけられた役職にも、固執する必要はない[resetdelay][p]
 ;;[delay speed=100]ましてやベルフェゴールなんてとって[r]つけられた役職にも、固執する必要はない[resetdelay][p]
 [_tb_end_text]
@@ -648,7 +648,7 @@ Thế ra... đó chính là Debikun sao[resetdelay][p]
 [chara_mod  name="BBB"  time="0"  cross="false"  storage="chara/64/16.png"  ]
 [tb_start_text mode=1 ]
 #ベルゼブブ
-[delay speed=100]だってお主が在るべき居場所は[r]もうここにあるのだろう？[resetdelay][p]
+[delay speed=100]Vì nơi ngươi nên ở đã[r]ở đây rồi phải không?[resetdelay][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -674,12 +674,12 @@ Thế ra... đó chính là Debikun sao[resetdelay][p]
 
 [tb_start_text mode=1 ]
 #ベルゼブブ
-[delay speed=100]こちらから願い出させて欲しい[resetdelay][p]
+[delay speed=100]Ta muốn xin phép[resetdelay][p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]
 #ベルゼブブ
-[delay speed=100]お主に、ベル・・・[r]いや、でびるんを任せてもいいか？[resetdelay]
+[delay speed=100]Giao cho ngươi, Bel...[r]không, Debirun được không?[resetdelay]
 [_tb_end_text]
 
 [skipstop]
@@ -697,13 +697,13 @@ Thế ra... đó chính là Debikun sao[resetdelay][p]
 [chara_mod  name="BBB"  time="0"  cross="false"  storage="chara/64/17.png"  ]
 [tb_start_text mode=1 ]
 #ベルゼブブ
-[delay speed=100]でびるん・・・ふっ[r]いい名前を貰ったな[resetdelay][p]
+[delay speed=100]Debirun...hừ[r]tên hay đấy[resetdelay][p]
 [_tb_end_text]
 
 [chara_mod  name="BBB"  time="0"  cross="false"  storage="chara/64/18.png"  ]
 [tb_start_text mode=1 ]
 #ベルゼブブ
-[delay speed=100]これからよろしく頼んだぞ。[r][emb exp="f.name"][resetdelay][p]
+[delay speed=100]Từ giờ nhờ ngươi rồi.[r][emb exp="f.name"][resetdelay][p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]

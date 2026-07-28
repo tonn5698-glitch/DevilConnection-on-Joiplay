@@ -94,7 +94,7 @@
 
 [iscript]
 $.confirm(
-"トゥルーエンド用ファイル作成後、再起動します<br>（エンディング収集状況は操作しません）",
+"Sau khi tạo file True End, sẽ khởi động lại<br>（Tình trạng thu thập ending không bị thay đổi）",
 function () {
 dc.writeNEO()
 location.href = './index.html'
@@ -108,7 +108,7 @@ location.href = './index.html'
 
 [iscript]
 $.confirm(
-"トゥルーエンド用ファイル削除後、再起動します<br>（エンディング収集状況は操作しません）",
+"Sau khi xóa file True End, sẽ khởi động lại<br>（Tình trạng thu thập ending không bị thay đổi）",
 function () {
 $.clearStorage(TYRANO.kag.config.configSave, dc.tkey)
 location.href = './index.html'
@@ -133,7 +133,7 @@ location.href = './index.html'
 [eval exp="sf.secretEndOpen=1"]
 
 [iscript]
-$.alert('コレクションをすべてオンにしました')
+$.alert('Đã bật tất cả collection')
 [endscript]
 
 [s  ]
@@ -152,7 +152,7 @@ $.alert('コレクションをすべてオンにしました')
 [eval exp="sf.secretEndOpen=0"]
 
 [iscript]
-$.alert('コレクションをすべてオフにしました')
+$.alert('Đã tắt tất cả collection')
 [endscript]
 
 [s  ]

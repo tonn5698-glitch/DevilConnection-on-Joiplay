@@ -118,7 +118,7 @@ Hm, [wait time=200]nhưng đợi đã...hắn vui đấy.[p]
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=24]もう少しワルっぽいことしろよ！[r][wait time=200]オレサマの面子が立たないだろ！[resetfont][p]
+[font size=24]Hành xử Bad更多 một chút![r][wait time=200]Mặt mũi bản đại nhân mất hết![resetfont][p]
 [_tb_end_text]
 
 [chara_hide  name="コマでび"  time="100"  wait="false"  pos_mode="false"  ]

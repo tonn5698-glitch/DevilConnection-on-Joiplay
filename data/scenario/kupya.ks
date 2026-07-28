@@ -29,7 +29,7 @@
 
 [tb_start_text mode=4 ]
 #クピャドエル
-[if exp="f.kupya_owari >= 11"]すぴぴゃあ～・・・・・・[else]ほかに何かありますか？[endif][wait time=300]
+[if exp="f.kupya_owari >= 11"]Supyapyaa~~......[else]Còn gì nữa không?[endif][wait time=300]
 [_tb_end_text]
 
 *modoru_tap
@@ -382,19 +382,19 @@ Kupya… tôi cũng muốn [font color=0xEC6FC5 bold=true]gấu bông[r]của De
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/1.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-[if exp="f.seibetu == 1]魔法で[font color=0xEC6FC5 bold=true]女[resetfont]のコになってみてはいかがでしょう？[r]違う視点から新たな物事が見えてくるかもしれませんよう[else]うぅーん…愛を享受するのです！[endif][p]
+[if exp="f.seibetu == 1]Dùng phép thuật[font color=0xEC6FC5 bold=true]trở thành[resetfont]con gái thử xem?[r]Từ góc nhìn khác sẽ thấy nhiều thứ mới[else]Ưmm...hưởng thụ tình yêu đi![endif][p]
 [_tb_end_text]
 
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/2.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-[font size=25][if exp="f.seibetu == 1]愛を享受するのですぅ！[else]愛の形は人それぞれですよぅ！[endif][resetfont][p]
+[font size=25][if exp="f.seibetu == 1]Hưởng thụ tình yêu nào![else]Mỗi người có một kiểu yêu thương![endif][resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/7.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-[font size=12]あと…ワタクシとおそろいになってみても[r]なかなかに面白そうですねぇ…ウフフ[resetfont][p]
+[font size=12]À mà...thử đối đôi với ta,c]cũng thú vị đấy...ufufu[resetfont][p]
 [_tb_end_text]
 
 [jump  storage="kupya.ks"  target="*modoru_hint"  ]
@@ -443,7 +443,7 @@ Tôi nói thẳng luôn ạ[p]
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/7.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-[font color=0xEC6FC5 bold=true]ワタクシに協力[resetfont]してください♥[p]
+[font color=0xEC6FC5 bold=true]Hợp tác[resetfont] với ta nhé♥[p]
 [_tb_end_text]
 
 [jump  storage="kupya.ks"  target="*modoru_hint"  ]
@@ -559,7 +559,7 @@ Thấy cô gái [font color=0xEC6FC5 bold=true]khó khăn mà không bỏ đư�
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/19.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-[if exp="f.neodebi_nade == 1]ネオでびくんの反応を見て思い出したのですが…過去に[r]でびくんの頭をなでなでしたらとても嫌そうだったのですぅ[else]昔、でびくんの頭をなでなでしたら子供扱いするな！[r]…と、嫌がる素振りを見せたのですぅ[endif][p]
+[if exp="f.neodebi_nade == 1]Nhìn phản ứng của Neodebikun tôi nhớ ra...ngày xưa[r]xoa đầu Debikun cậu ấy rất ghét[else]Ngày xưa xoa đầu Debikun thì cậu ấy nói đừng coi như con nít![r]...và tỏ ra rất ghét[endif][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -660,7 +660,7 @@ Kupya… tôi bất giác nhớ lại chuyện xưa…[p]
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/7.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-[font color=0xEC6FC5 bold=true]修行[resetfont]や鍛錬は大事ですが…[r]肩の力を抜いて[font color=0xEC6FC5 bold=true]おどけてみる[resetfont]のも大事ですぅ[p]
+[font color=0xEC6FC5 bold=true]Tu luyện[resetfont] và luyện tập quan trọng nhưng...[r]thư giãn[font color=0xEC6FC5 bold=true]đùa nghịch[resetfont] cũng quan trọng lắm[p]
 [_tb_end_text]
 
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/4.png"  ]
@@ -747,7 +747,7 @@ Lúc đó, nếu [font color=0xEC6FC5 bold=true]không gọi tên thật mà ng�
 
 [tb_start_text mode=1 ]
 #クピャドエル
-[emb exp="f.name"]さんはやり直せます。[r]ですから、まだ・・・希望を抱けています[p]
+[emb exp="f.name"]bạn có thể bắt đầu lại.[r]Vì thế, vẫn...hy vọng[p]
 [_tb_end_text]
 
 [tb_start_text mode=4 ]
@@ -790,7 +790,7 @@ Có câu "bắt đầu từ hình thức"… vì lý do đó[r]hôn lễ là ngh
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/8.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-[if exp="f.wedding_kidoku == 1"]それとも、[else]あの時、[endif][font color=0xEC6FC5 bold=true]トモダチになろう[resetfont]って手を差し伸べられたら…[r]また違った結果になったのでしょうか[p]
+[if exp="f.wedding_kidoku == 1"]Hay là,[else]lúc đó,[endif][font color=0xEC6FC5 bold=true]Làm bạn nhé[resetfont]với tay đưa ra thì...[r]lại có kết quả khác chăng[p]
 [_tb_end_text]
 
 [jump  storage="kupya.ks"  target="*modoru_hint"  ]
@@ -823,7 +823,7 @@ Thật sự… Debikun đúng là đứa trẻ phiền phức ạ[p]
 [tb_start_text mode=1 ]
 #クピャドエル
 Nếu có gì nữa thì bất cứ lúc nào[r]hãy gọi tôi, thiên thần tình yêu Kupyadel ạ[p]
-[if exp="f.kupya_inori == 1][delay speed=100]・・・[resetdelay]くぴゃ～[r]これにて失礼しますぅ[else]くぴゃ～[delay speed=100]・・・[resetdelay][r]あなたに永遠の幸があらんことを[delay speed=100]・・・[resetdelay][endif][p]
+[if exp="f.kupya_inori == 1][delay speed=100]・・・[resetdelay]くぴゃ～[r]Xin phép tôi đi đây[else]くぴゃ～[delay speed=100]・・・[resetdelay][r]Chúc bạn mãi mãi hạnh phúc[delay speed=100]・・・[resetdelay][endif][p]
 
 [_tb_end_text]
 

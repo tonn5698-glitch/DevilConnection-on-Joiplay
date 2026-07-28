@@ -65,7 +65,7 @@ Gừ [delay speed=100]...[resetdelay]Cái đó [delay speed=100]...[resetdelay]�
 
 [tb_start_text mode=4 ]
 #マオウ
-[font size=25]甘ったれやがっ・[wait time=300]・[wait time=300]・[resetfont][wait time=300][er]
+[font size=25]Đồ được nuông chiều..[wait time=300]・[wait time=300]・[resetfont][wait time=300][er]
 
 [_tb_end_text]
 

@@ -437,7 +437,7 @@ Dù sao, đứa bên cạnh cậu… đúng là ác ma oai phong nhỉ.[r]Chắc
 [chara_mod  name="ネゼル"  time="0"  cross="false"  storage="chara/37/1.png"  ]
 [tb_start_text mode=1 ]
 #ネゼル
-[delay speed=300]・・・[resetdelay]いつもと雰囲気が違うと思ったら[r]いつの間にか悪魔信仰をはじめたんだね[p]
+[delay speed=300]・・・[resetdelay]Tưởng sao khác lạ hóa ra[r]bắt đầu sùng bái ma quỷ lúc nào không hay[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -462,7 +462,7 @@ Hôm nay tớ định đưa lời khuyên[delay speed=100]・・・[resetdelay][
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #ネゼル
-[delay speed=300]・・・[resetdelay]ッ！それは禁書[p]
+[delay speed=300]・・・[resetdelay]! Đó là sách cấm[p]
 
 
 
@@ -812,7 +812,7 @@ Tại Magilicia, tay ma quỷ của ác ma cũng[r]đang lan rộng ra đấy![p
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/7.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="f.kansou2 == 1]さっさとおみゃーも魔眼を開眼させて[r]悪魔の力を存分に堪能するんだな[else]このままどんどん侵攻して[r]マジリシアを魔界にしちまおうぜ[endif][p]
+[if exp="f.kansou2 == 1]Nhanh mở mắt ma cho mày[r]để hưởng thụ sức mạnh ác ma đi[else]Tiến lên luôn[r]biến Magilicia thành Ma Giới luôn[endif][p]
 [_tb_end_text]
 
 [tb_eval  exp="f.nezeru_clear=1"  name="nezeru_clear"  cmd="="  op="t"  val="1"  val_2="undefined"  ]

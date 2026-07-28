@@ -233,7 +233,7 @@ Bị thuộc hạ coi thường[cũng]là do thái độ của ngươi...[p]
 [bg  time="0"  method="crossfade"  storage="DE7.webp"  wait="false"  ]
 [tb_start_text mode=1 ]
 #D・Red
-[font size=23]Belphegor、貴様を魔界から追放する！[resetfont][r]部下がつかぬのなら魔力は己で回収しに行くのだな[p]
+[font size=23]Belphegor, ta trục xuất ngươi khỏi Ma Giới![resetfont][r]Nếu không có thuộc hạ thì tự đi thu thập ma lực[p]
 ;[font size=23]Belphegor、貴様を魔界から追放する！[resetfont][r]部下がつかぬのなら魔力は己で回収しに行くのだな[p]
 ;;[font size=23]ベルフェゴール、貴様を魔界から追放する！[resetfont][r]部下がつかぬのなら魔力は己で回収しに行くのだな[p]
 

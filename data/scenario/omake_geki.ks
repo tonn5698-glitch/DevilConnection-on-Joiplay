@@ -139,7 +139,7 @@ Thế nên-[p]
 
 [tb_start_text mode=1 ]
 #クピャドエル
-[if exp="!f.name"]召喚士[else][emb exp="f.name"][endif]さんと契約を結んでからの[r]お家での様子をご紹介しますぅ！[p]
+[if exp="!f.name"]召喚士[else][emb exp="f.name"][endif]sau khi ký hợp đồng,c]giới thiệu tình hình ở nhà![p]
 [_tb_end_text]
 
 [chara_mod  name="劇場でび"  time="0"  cross="false"  storage="chara/15/dagya5.png"  ]
@@ -224,12 +224,12 @@ Cuối cùng là đây...[p]
 
 [tb_start_text mode=1 ]
 #クピャドエル
-[if exp="!f.name"]召喚士[else][emb exp="f.name"][endif]さんの脱ぎたてほやほやローブを[r]こっそり着ているでびくんですぅ[p]
+[if exp="!f.name"]召喚士[else][emb exp="f.name"][endif]váy vừa cởi còn ấm,c]Debikun đang lén mặc[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #クピャドエル
-[if exp="!f.name"]召喚士[else][emb exp="f.name"][endif]さんの匂いは[r]落ち着きますもんねぇ…大好きなんですねぇー♪[p]
+[if exp="!f.name"]召喚士[else][emb exp="f.name"][endif]mùi,c]thật dễ chịu...thích lắm~♪[p]
 
 [_tb_end_text]
 
@@ -280,7 +280,7 @@ Mong ngày có thể gửi[r]đến nhiều lời thì thầm khác nữa![p]
 
 [tb_start_text mode=1 ]
 #クピャドエル
-[if exp="!f.name"]召喚士[else][emb exp="f.name"][endif]さんっ[p]
+[if exp="!f.name"]Triệu hồi sư[else][emb exp="f.name"][endif][p]
 [_tb_end_text]
 
 [chara_mod  name="劇場える"  time="0"  cross="false"  storage="chara/16/kupya3.png"  ]

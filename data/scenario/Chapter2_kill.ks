@@ -40,22 +40,22 @@
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #①
-[font color=0xFF0000 face="kowai" bold=true]▶悪魔の生まれ方◀[resetfont][p]
+[font color=0xFF0000 face="kowai" bold=true]▶Cách sinh ra ác ma◀[resetfont][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #①
-[font color=0xFF0000 face="kowai" bold=true]悪魔はマジリシアや人間界で得た魂を魔界の[r]魔力の泉に浸すことにより長い年月をかけ形を成す[resetfont][p]
+[font color=0xFF0000 face="kowai" bold=true]Ác ma ngâm linh hồn thu được từ Magilicia và nhân giới vào[r]suối ma lực Ma Giới rồi trải qua năm tháng hình thành[resetfont][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #①
-[font color=0xFF0000 face="kowai" bold=true]悪魔は欲望の具現化であり生前[r]悪魔を深く信仰すればその悪魔の姿に近しくなる[resetfont][p]
+[font color=0xFF0000 face="kowai" bold=true]Ác ma là hiện thân của dục vọng, khi còn sống[r]nếu sùng bái sâu sắc ác ma thì sẽ giống hình dạng ác ma đó[resetfont][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #①
-[font color=0xFF0000 face="kowai" bold=true]そして生前の邪念が強ければ強いほど[r]力を増し、位の高い悪魔となる[resetfont][p]
+[font color=0xFF0000 face="kowai" bold=true]Và càng mạnh mẽ dục vọng khi còn sống,c]thì càng tăng sức mạnh, trở thành ác ma cấp cao[resetfont][p]
 [_tb_end_text]
 
 [tb_start_tyrano_code]

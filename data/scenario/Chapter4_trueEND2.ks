@@ -224,7 +224,7 @@ Vẫn còn rất nhiều nhiệm vụ thiên sứ cần hoàn thành[p]
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/68.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[delay speed=120]・・・[resetdelay]ほんとはここに居たいんだろ[p]
+[delay speed=120]・・・[resetdelay]Thật ra muốn ở đây lắm đúng không[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -283,7 +283,7 @@ Có mày ở bên[r]chắc chắn, [wait time=300]từ giờ trở đi sẽ, [wa
 
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]だぎゃっ！？[resetfont][r]なななんだよ急にくっついて[resetfont][p]
+[font size=25]だぎゃっ！？[resetfont][r]C-cái gì tự dưng ôm lấy thế[resetfont][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -350,7 +350,7 @@ Kupya~[p]
 
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]暑苦しいから離れろーッ！[resetfont][p]
+[font size=25]Nóng nực quá tránh ra![resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/69.png"  ]
@@ -506,7 +506,7 @@ Grrrrr...[delay speed=100]・・・[resetdelay][p]
 
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]んみゃあぁあぁ！[resetfont][r]甘いと苦いがマッチして焦げてるところも味になってるぞ[p]
+[font size=25]Nmyaaa![resetfont][r]Ngọt và đắng kết hợp, chỗ cháy cũng thành hương vị rồi[p]
 
 [_tb_end_text]
 

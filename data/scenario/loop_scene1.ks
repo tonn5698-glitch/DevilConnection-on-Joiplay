@@ -94,7 +94,7 @@ Biết phận chút đi![r]Dám làm thân với bản đại nhân![p]
 
 [tb_start_text mode=1 ]
 #でびるん
-[if exp="dc.aibou()"][delay speed=100]・・・[resetdelay]って、なんでそんな[r]泣きそうな顔してんだ[else][delay speed=100]・・・[resetdelay]って、泣いてんのか？[endif][p]
+[if exp="dc.aibou()"][delay speed=100]・・・[resetdelay]って、sao[r]có vẻ muốn khóc thế[else][delay speed=100]・・・[resetdelay]à, đang khóc à?[endif][p]
 
 [_tb_end_text]
 
@@ -361,7 +361,7 @@ Dù sao vòng summon[delay speed=100]...[resetdelay][r]Chắc mày không thư�
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/1.png"  ]
 [tb_start_text mode=4 ]
 #でびるん
-[font size=21]そうだ！[wait time=300]イイコト思いついた！[wait time=400][r]オレサマと契約して、[wait time=100]オレサマの使い魔となれ！[resetfont]
+[font size=21]Đúng rồi![wait time=300]Nghĩ ra hay rồi![wait time=400][r]Ký hợp đồng với bản đại nhân,[wait time=100]trở thành hầu ma của bản đại nhân![resetfont]
 [_tb_end_text]
 
 [jump  storage="scene1.ks"  target="*loop_back"  ]
@@ -370,7 +370,7 @@ Dù sao vòng summon[delay speed=100]...[resetdelay][r]Chắc mày không thư�
 [fadein_window  time="1000"  ]
 [tb_start_text mode=1 ]
 #&f.debiName
-[delay speed=300]・・・[resetdelay]だぎゃーっ！[wait time=300]急になんなんだよ！[wait time=300][r]魔界にいても魔界から出てもろくなことがねぇ[p]
+[delay speed=300]・・・[resetdelay]Dagyaa![wait time=300]Sao tự dưng thế![wait time=300][r]Ở Ma Giới hay ra khỏi Ma Giới chẳng có gì tốt[p]
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/2.png"  ]

@@ -210,7 +210,7 @@ Berurun-kun đang hạnh phúc đấy?[r]Và hạnh phúc của hai người là
 [camera  time="5000"  zoom="1.3"  wait="false"  layer="base"  ]
 [tb_start_text mode=1 ]
 #べるるん
-[font face="DZUYOKU"][font size=35]こんなのちっとも幸せなんかじゃねえぇ！[resetfont][p]
+[font face="DZUYOKU"][font size=35]Thế này chẳng hạnh phúc gì hết![resetfont][p]
 
 
 [_tb_end_text]
@@ -416,7 +416,7 @@ Nhưng hạnh phúc của hai người là hạnh phúc của tôi...[r]Chúc m�
 [camera  time="5000"  zoom="1.3"  wait="false"  layer="base"  ]
 [tb_start_text mode=1 ]
 #べるるん
-[font face="DZUYOKU"][font size=47]だ[delay speed=100]・・・[resetdelay]助けでえええええええ！[resetfont][p]
+[font face="DZUYOKU"][font size=47]C-[delay speed=100]...[resetdelay]Cứu-taoooo![resetfont][p]
 
 
 [_tb_end_text]

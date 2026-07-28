@@ -291,7 +291,7 @@ Debikun![p]
 
 [tb_start_text mode=1 ]
 #？？？
-[font face="kowai"][quake_text][delay speed=300]なれた、なれた、なれた！[resetdelay][free_quake_text][resetfont][p]
+[font face="kowai"][quake_text][delay speed=300]Thành công rồi, thành công rồi, thành công rồi![resetdelay][free_quake_text][resetfont][p]
 
 
 
@@ -463,7 +463,7 @@ Debikun chậm chạp nên ta thử [r]dùng trên mọi bộ phận toàn thân
 [stopbgm  time="0"  fadeout="true"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-[font size=37]感[wait time=100]度[wait time=100]良[wait time=100]好[wait time=300][playse  volume="100"  time="0"  buf="3"  storage="666.ogg"  ]6[wait time=400]6[playse  volume="100"  time="0"  buf="3"  storage="666.ogg"  ][wait time=400]6[playse  volume="100"  time="0"  buf="3"  storage="666.ogg"  ][wait time=400]倍[wait time=400]魔法です！[resetfont][p]
+[font size=37]Độ[wait time=100]nhạ[wait time=100]tốt[wait time=300][playse  volume="100"  time="0"  buf="3"  storage="666.ogg"  ]6[wait time=400]6[playse  volume="100"  time="0"  buf="3"  storage="666.ogg"  ][wait time=400]6[playse  volume="100"  time="0"  buf="3"  storage="666.ogg"  ][wait time=400]lần[wait time=400]phép thuật![resetfont][p]
 
 
 
@@ -1316,10 +1316,10 @@ Tối tốt lành, [emb exp="f.name"][p]
 [tb_start_tyrano_code]
 [if exp="f.currentLoop == 3"]
 #クピャドエル
-[emb exp="f.name"]さんは[r]本当にでびくん思いですね
+[emb exp="f.name"]さんは[r]thật tâm lý với Debikun nhỉ
 [elsif exp="f.currentLoop == 4"][p]
 #クピャドエル
-[emb exp="f.name"]さんは[r]本当にがんばりやさんですね
+[emb exp="f.name"]さんは[r]thật siêng năng quá
 [elsif exp="f.currentLoop == 5"]
 #クピャドエル
 Mỗi lần làm lại, bánh[r]ngon hơn!

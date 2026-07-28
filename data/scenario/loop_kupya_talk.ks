@@ -938,7 +938,7 @@ Làm sao[r]khiến Debikun nhận ra nhỉ[p]
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/3.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-[if exp="f.currentLoop == 1]邪眼に人格が乗っ取られ始め[r]狂暴になっているように感じます[else]でびくん…邪眼に人格が[r]乗っ取られ始め、狂暴になって…[endif][p]
+[if exp="f.currentLoop == 1]Tà nhãn bắt đầu chiếm quyền Personality[r]cảm thấy trở nên hung dữ[else]Debikun...Tà nhãn bắt đầu chiếm quyền Personality[r]trở nên hung dữ...[endif][p]
 [_tb_end_text]
 
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/19.png"  ]
@@ -997,7 +997,7 @@ Mất mới nhận ra... trước khi mất[r]ta phải khiến cậu ấy nhậ
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/14.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-[delay speed=100]・・・[resetdelay]ワタクシにもっと力があったら[r]皆様を幸せに導くことができるのに[p]
+[delay speed=100]・・・[resetdelay]Nếu ta có thêm sức mạnh,c]có thể dẫn dắt mọi người đến hạnh phúc[p]
 [_tb_end_text]
 
 [tb_eval  exp="f.kupya_syouziki=1"  name="kupya_syouziki"  cmd="="  op="t"  val="1"  val_2="undefined"  ]

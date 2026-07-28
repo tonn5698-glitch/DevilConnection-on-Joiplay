@@ -77,7 +77,7 @@ Umiyuu~ Chào buổi tối nha~[p]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/81.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font size=25]大悪魔だよ！色欲の大悪魔ァ！[r][font size=22]使い魔なんか連れてどうしてこんな所にィ！[resetfont][p]
+[font size=25]Đại ác ma đó! Đại ác ma dâm dục! [r][font size=22]Mang theo hầu ma đến đây làm gì![resetfont][p]
 
 [_tb_end_text]
 
@@ -276,7 +276,7 @@ Belbo tại sao lại làm chuyện này vậy?[p]
 
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"]復讐に決まってんだろ。[resetfont][p]
+[font face="kowai"]Trả thù chứ còn gì.[resetfont][p]
 
 
 
@@ -285,7 +285,7 @@ Belbo tại sao lại làm chuyện này vậy?[p]
 [playbgm  volume="50"  time="1000"  loop="true"  storage="16_the_devil_s_power.ogg"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"]マジリシアの滅亡はその過程に過ぎない[resetfont][p]
+[font face="kowai"]Sự diệt vong của Magilicia chỉ là bước đệm[resetfont][p]
 
 
 
@@ -293,13 +293,13 @@ Belbo tại sao lại làm chuyện này vậy?[p]
 
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"]おみゃーら上級悪魔出身はへらへら偉そうに、逆も然り…[r]下級悪魔の能無しは有能なオレサマに付いて来やしない[resetfont][p]
+[font face="kowai"]Bọn cấp cao thì khinh khỉnh, ngược lại cũng thế...[r]Bọn cấp thấp vô dụng thì không theo bản đại nhân[resetfont][p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"]そんな魔界の奴ら全員にオレサマの[r]恐ろしさをわからせてやるんだよ[resetfont][p]
+[font face="kowai"]Tao sẽ cho toàn bộ lũ Ma Giới[r]biết sự đáng sợ của bản đại nhân[resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="あもあも"  time="0"  cross="false"  storage="chara/48/11.png"  ]
@@ -321,7 +321,7 @@ Này, các ngươi đã làm gì Belbo vậy!?[r]Trả Belbo của chúng ta l�
 
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"][delay speed=100]・・・[resetdelay]誰がおみゃーらのものだって？[resetfont][p]
+[font face="kowai"][delay speed=100]...[resetdelay]Ai là của bọn mày hả?[resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="あもあも"  time="0"  cross="false"  storage="chara/48/12.png"  ]
@@ -332,17 +332,17 @@ Này, các ngươi đã làm gì Belbo vậy!?[r]Trả Belbo của chúng ta l�
 
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"]レヴィアタン、あやつはオレサマを裏切った[resetfont][p]
+[font face="kowai"]Leviathan, hắn đã phản bội bản đại nhân[resetfont][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"]ベルゼブブ、今思えばあやつはオレサマが苦しんでいても[r]決して救いの手は差し伸べてはくれなかった[resetfont][p]
+[font face="kowai"]Beelzebub, giờ nghĩ lại dù bản đại nhân đau khổ[r]hắn không bao giờ giúp đỡ[resetfont][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"]こんな思いをするなら下級悪魔のままでよかった[r]無責任にオレサマを育て、都合が悪くなれば捨てるのだ[resetfont][p]
+[font face="kowai"]Nếu phải chịu khổ thế này thì ở làm cấp thấp tốt hơn[r]vô trách nhiệm nuôi lớn bản đại nhân, không tiện thì vứt bỏ[resetfont][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -373,13 +373,13 @@ Mọi người khác nghĩ gì cho Belbo[r]cậu chẳng hiểu gì hết![p]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/118.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"]そんなにオレサマの事を想うのなら[r]もっと分かりやすく行動で示せ[resetfont][p]
+[font face="kowai"]Nếu thật sự quan tâm bản đại nhân[r]thì hành động rõ ràng hơn đi[resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/140.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"]その点オレサマの狂信者は全てを行動で示してくれる[r]これぞまさしくオレサマの理想の仲間ッ♥[resetfont][p]
+[font face="kowai"]Về điểm đó, kẻ cuồng tín hành động hết mình[r]đây chính là đồng đội lý tưởng của bản đại nhân♥[resetfont][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -390,12 +390,12 @@ Cái đó đâu phải đồng đội. Belbo có vẻ đang cố[r]nghĩ đó l�
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/145.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"][font size=12][delay speed=150]うるせぇ…うるせぇ[delay speed=140]うるせぇうるせぇ[delay speed=130]うるせぇうるせぇ[delay speed=120]うるせぇうるせぇ[delay speed=110]うるせぇ[r]うるせぇ[delay speed=100]うるせぇうるせぇ[delay speed=90]うるせぇうるせぇ[delay speed=80]うるせぇうるせぇ[delay speed=70]うるせぇうるせぇ[resetfont][p]
+[font face="kowai"][font size=12][delay speed=150]im đi...im đi[delay speed=140]im đi im đi[delay speed=130]im đi im đi[delay speed=120]im đi im đi[delay speed=110]im đi[r]im đi[delay speed=100]im đi im đi[delay speed=90]im đi im đi[delay speed=80]im đi im đi[delay speed=70]im đi im đi[resetfont][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"][font size=12]・[wait time=300]・[wait time=300]・[wait time=300][c]殺[_c]っちまえ[resetfont][p]
+[font face="kowai"][font size=12]・[wait time=300]・[wait time=300]・[wait time=300][c]giết[_c]chết[resetfont][p]
 
 [_tb_end_text]
 
@@ -441,7 +441,7 @@ Xin cậu[delay speed=100]…[resetdelay]Xin cậu mà[delay speed=100]…[reset
 [playse  volume="100"  time=""  buf="5"  storage="amo.ogg"  loop="true"  fadein="false"  ]
 [tb_start_text mode=1 ]
 #あもあも
-[delay speed=100]・・・[resetdelay]ほ、ほら、悪魔を崇拝してるんでしょお[r]気休めにあもの触手触ってみるぅ？[p]
+[delay speed=100]...[resetdelay]N-này, sùng bái ma quỷ mà phải không[r]thử chạm vào xúc tu của amoamo cho vui?[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -483,7 +483,7 @@ U- Umiyuu…[delay speed=100]・・・[resetdelay][p]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"]オレサマの言うことが聞けるよな？[resetfont][p]
+[font face="kowai"]Nghe lời bản đại nhân được chứ?[resetfont][p]
 
 
 
@@ -554,7 +554,7 @@ Ta mà giơ nanh ra thì cũng đáng sợ lắm đấy![p]
 
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"]戦ってもいい、が[r]ここで魔力を消耗すればあやつの思惑通りだ[resetfont][p]
+[font face="kowai"]Được chiến đấu, nhưng[r]tiêu hao ma lực ở đây thì đúng ý hắn[resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/139.png"  ]
@@ -569,7 +569,7 @@ Ta mà giơ nanh ra thì cũng đáng sợ lắm đấy![p]
 
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"]だからこれは決して逃げじゃない。[r]今すぐあやつを元の場所へ送還しろ[resetfont][p]
+[font face="kowai"]Vì thế đây không phải bỏ chạy. [r]Ngay lập tức đưa hắn về chỗ cũ[resetfont][p]
 [_tb_end_text]
 
 [camera  time="30000"  zoom="1.5"  wait="false"  layer="base"  ]
@@ -592,7 +592,7 @@ Không để thoát đâu…[p]
 [stopse  time="1000"  buf="5"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"][font size=25]早くしろこの無能がァ！[resetfont][p]
+[font face="kowai"][font size=25]Nhanh lên đồ vô dụng![resetfont][p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
@@ -621,19 +621,19 @@ Không để thoát đâu…[p]
 
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"]そんな優柔不断だといつか痛い目見るぞ[resetfont][p]
+[font face="kowai"]Do dự thế này sẽ có ngày khổ đấy[resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="サブでび"  time="0"  cross="false"  storage="chara/30/Peter_5.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"][delay speed=300]・・・[resetdelay]それにしても[if exp="f.kill_muumuu == 1"]2度も[else]今回[endif]魔力を回収[r]出来なかったのは腑に落ちん[resetfont][p]
+[font face="kowai"][delay speed=300]...[resetdelay]Dù sao thì[if exp="f.kill_muumuu == 1"]2 lần[else]lần này[endif]không thu hồi[r]được ma lực không thể hiểu được[resetfont][p]
 [_tb_end_text]
 
 [chara_mod  name="サブでび"  time="0"  cross="false"  storage="chara/30/Peter_1.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"]次こそは必ず魔力を奪うぞ[r]だからそのためにも[resetfont][p]
+[font face="kowai"]Lần sau chắc chắn sẽ lấy được ma lực[r]vì thế[resetfont][p]
 [_tb_end_text]
 
 [layopt layer=4 visible="true"]
@@ -644,7 +644,7 @@ Không để thoát đâu…[p]
 [stopse  time="1000"  buf="5"  ]
 [tb_start_text mode=1 ]
 #でびるん
-[font face="kowai"]オレサマの指示には何が何でも絶対に従えよ[resetfont][p]
+[font face="kowai"]Tuyệt đối phải tuân theo chỉ thị của bản đại nhân[resetfont][p]
 [_tb_end_text]
 
 [iscript]
