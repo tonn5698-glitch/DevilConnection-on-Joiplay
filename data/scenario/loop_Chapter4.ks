@@ -170,7 +170,7 @@ Kupya! Raspberry Pie nướng xong rồi[r][emb exp="f.name"] tĩnh dưỡng ở
 [tb_free_filter  layer="base"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="idou.ogg"  ]
 [wait  time="500"  ]
-[chara_show  name="プレイヤー"  zindex="2"  layer="1"  time="0"  wait="false"  storage="chara/2/te.png"  width="1280"  height="960"  ][p]
+[chara_show  name="プレイヤー"  zindex="2"  layer="1"  time="0"  wait="false"  storage="chara/2/te.png"  width="1280"  height="960"  ]
 [flash_off  time="20"  effect="fadeOut"  ]
 
 [tb_start_text mode=1 ]
