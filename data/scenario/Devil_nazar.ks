@@ -1498,7 +1498,7 @@ Hừ, đừng có kẻ cả nữa![p]
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/161.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Levi... mày có biết tại sao[m]bị triệu hồi đến đây không?[p]
+Levi... mày có biết tại sao[r]bị triệu hồi đến đây không?[p]
 [_tb_end_text]
 
 [chara_mod  name="ナザール"  time="0"  cross="false"  storage="chara/73/2.png"  ]

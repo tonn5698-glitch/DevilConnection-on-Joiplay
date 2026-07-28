@@ -205,7 +205,7 @@ Vậy bắt đầu nha~[p]
 [reset_camera  time="6000"  wait="false"  layer="1"  ]
 [tb_start_text mode=4 ]
 #パンプティ
-Em quỷ[y]r]dần dần mềm nhũn ra~
+Em quỷ[r]dần dần mềm nhũn ra~
 
 
 

@@ -974,7 +974,7 @@ Cảm giác nhớp nháp ấm ấm trong miệng[r]nhớ lại ngày xưa ghê[p
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/5.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Thanh long gì đó nhạt nhẽo[m]đừng có mua! Cái đó vô vị lắm vô vị[p]
+Thanh long gì đó nhạt nhẽo[r]đừng có mua! Cái đó vô vị lắm vô vị[p]
 [_tb_end_text]
 
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/10.png"  ]
@@ -987,7 +987,7 @@ Ta từ xưa đã thích mâm xôi lắm![r]Không có hạt hay vỏ, ăn tho�
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/11.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Nói chuyện xong lại thèm[m]mâm xôi quá, kuhaha[p]
+Nói chuyện xong lại thèm[r]mâm xôi quá, kuhaha[p]
 [_tb_end_text]
 
 *dora_jump

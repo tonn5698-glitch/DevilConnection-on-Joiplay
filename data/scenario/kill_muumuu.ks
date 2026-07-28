@@ -665,7 +665,7 @@ Hehe…dù sao cũng[r]vui lắm. Tâm trạng tốt.[p]
 
 [tb_start_text mode=1 ]
 #でびるん
-Thật sự, mày có tiền[m]mua đá ma không?[p]
+Thật sự, mày có tiền[r]mua đá ma không?[p]
 
 
 
@@ -765,7 +765,7 @@ Dù sao cũng[r]vui lắm. Tâm trạng tốt.[p]
 
 [tb_start_text mode=1 ]
 #でびるん
-Thật sự, mày có tiền[m]mua đá ma không?[p]
+Thật sự, mày có tiền[r]mua đá ma không?[p]
 
 
 

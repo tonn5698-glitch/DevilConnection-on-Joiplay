@@ -204,7 +204,7 @@ Khô cũng được mà,[r]ừm, kiểu này cũng không tệ[p]
 
 [tb_start_text mode=1 ]
 #クピャドエル
-Vô chăn khi còn ướt sũng thì[không chịu nổi nha ạ[p]
+Vô chăn khi còn ướt sũng thì không chịu nổi nha ạ[p]
 [_tb_end_text]
 
 [stopbgm  time="1000"  fadeout="true"  ]

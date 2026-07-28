@@ -219,7 +219,7 @@ Ngay cả việc đặt mật danh cũng lười, [r]không thu thập ma thuậ
 #Belphegor
 ;#Belphegor
 ;;#ベルフェゴール
-Thật sự, đó là...con Dơi Nhỏ[không]nghe lời tao...[p]
+Thật sự, đó là...con Dơi Nhỏ không nghe lời tao...[p]
 
 [_tb_end_text]
 

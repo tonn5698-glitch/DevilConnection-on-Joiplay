@@ -149,7 +149,7 @@ Anh đã để Sapphire-chan gặp nguy hiểm…[r]Tôi sẽ không tha thứ![
 [chara_mod  name="コマでび"  time="0"  cross="false"  storage="chara/10/91.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Trông ai cũng[không giống ai]đàn ông[r]đồ hết sức.[p]
+Trông ai cũng không giống ai đàn ông[r]đồ hết sức.[p]
 [_tb_end_text]
 
 [chara_mod  name="ジュエリーピンク"  time="0"  cross="false"  storage="chara/54/3.png"  ]

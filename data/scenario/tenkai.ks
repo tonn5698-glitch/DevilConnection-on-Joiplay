@@ -235,7 +235,7 @@ Vâng thưa[delay speed=300]・・・[resetdelay][r]đầu tiên tôi muốn xá
 
 [tb_start_text mode=1 ]
 #？？？⑤
-Lâu rồi mới mặc bộ trang phục này[r]có gì[khác thường]không[delay speed=300]・・・[resetdelay]đúng không? [p]
+Lâu rồi mới mặc bộ trang phục này[r]có gì khác thường không[delay speed=300]・・・[resetdelay]đúng không? [p]
 
 [_tb_end_text]
 

@@ -603,7 +603,7 @@ Chắc là luôn lân la bên thằng D・Red[k]đó…đây gọi là quan hệ
 
 [tb_start_text mode=1 ]
 #でびるん
-Nếu bị sai thêm việc thì toi nhưng[m]mà chỉ 1 đứa thế này thì chẳng đe dọa gì[p]
+Nếu bị sai thêm việc thì toi nhưng[r]mà chỉ 1 đứa thế này thì chẳng đe dọa gì[p]
 [_tb_end_text]
 
 [jump  storage="Devil_maneko.ks"  target="*zyagan1_modoru_2"  ]
