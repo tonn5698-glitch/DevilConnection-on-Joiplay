@@ -55,7 +55,7 @@
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text]ふん、なんだ？それで[r]感度なんて上げてどうするつもりだ？[free_quake_text][p]
+[quake_text]Hừ, cái gì? Tăng[r]độ nhạy lên thì định làm gì?[free_quake_text][p]
 
 [_tb_end_text]
 
@@ -75,7 +75,7 @@ Những ngày vui vẻ, thức ăn ngon[r]những ngày bên [emb exp="f.name]-s
 [chara_mod  name="ネオでび邪眼"  time="0"  cross="false"  storage="chara/51/2.png"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text]たかが3日程度を共にしただけだろ。[r]ケッ、笑わせてくれる…見せてもらおうではないか[free_quake_text][p]
+[quake_text]Chỉ mới ở bên nhau có 3 ngày thôi mà.[r]Hừ, nói nghe được nhỉ...để xem nào[free_quake_text][p]
 [_tb_end_text]
 
 [chara_mod  name="コマえる"  time="0"  cross="false"  storage="chara/21/7.png"  ]
@@ -114,7 +114,7 @@ Cậu cười rồi...tôi vui lắm[p]
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text]ふん、こやつらが何がしたいのかさっぱりだぜ[free_quake_text][p]
+[quake_text]Hừ, bọn này muốn gì tao chẳng hiểu gì hết[free_quake_text][p]
 [_tb_end_text]
 
 [chara_mod  name="ネオでび邪眼"  time="0"  cross="false"  storage="chara/51/12.png"  ]
@@ -129,7 +129,7 @@ Cậu cười rồi...tôi vui lắm[p]
 [tb_eval  exp="f.kansou1=1"  name="kansou1"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text]ちょ、おい！オレサマの心ん中[r]勝手に覗いてんじゃねーよ！[free_quake_text][p]
+[quake_text]Ê, này! Đừng có mà[r]tự ý nhìn vào tâm trí bản đại nhân chứ![free_quake_text][p]
 [_tb_end_text]
 
 [jump  storage="Chapter4_2kuitomeru.ks"  target="*zyagan1_modoru2"  ]
@@ -153,13 +153,13 @@ Cậu cười rồi...tôi vui lắm[p]
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text]相変わらず何考えてるのか[r]わからんマヌケ面しやがって[free_quake_text][p]
+[quake_text]Vẫn cái vẻ mặt ngu ngơ[r]không hiểu mày nghĩ gì[free_quake_text][p]
 [_tb_end_text]
 
 [chara_mod  name="ネオでび邪眼"  time="0"  cross="false"  storage="chara/51/4.png"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text]どうせ変なコト考えてんだろ！[r]おみゃーの薄汚れた本心暴いてやる！[free_quake_text][p]
+[quake_text]Chắc lại nghĩ linh tinh rồi! [r]Tao sẽ lột trần bản chất bẩn thỉu của mày![free_quake_text][p]
 [_tb_end_text]
 
 [chara_mod  name="ネオでび邪眼"  time="0"  cross="false"  storage="chara/51/11.png"  ]
@@ -184,7 +184,7 @@ Cậu cười rồi...tôi vui lắm[p]
 
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text]お、オレサマを助けたいだと！？[free_quake_text][p]
+[quake_text]Mu-muốn cứu bản đại nhân à!?[free_quake_text][p]
 [_tb_end_text]
 
 [chara_mod  name="ネオでび邪眼"  time="0"  cross="false"  storage="chara/51/11.png"  ]
@@ -196,7 +196,7 @@ Cậu cười rồi...tôi vui lắm[p]
 [chara_mod  name="ネオでび邪眼"  time="0"  cross="false"  storage="chara/51/9.png"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text]助けたいのなら[r]オレサマの事なんかほっとけよ[free_quake_text][p]
+[quake_text]Nếu muốn cứu thì[r]bỏ mặc bản đại nhân đi[free_quake_text][p]
 [_tb_end_text]
 
 [jump  storage="Chapter4_2kuitomeru.ks"  target="*zyagan1_modoru2"  ]
@@ -220,18 +220,18 @@ Cậu cười rồi...tôi vui lắm[p]
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text]オレサマの威厳を誇示できる[r]またとないチャンスなんだよ[free_quake_text][p]
+[quake_text]Đây là cơ hội hiếm có để[r]khẳng định uy nghiêm của bản đại nhân[free_quake_text][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text]なのに、ここまで来たのに・・・[r]邪魔しやがってェ・・・[free_quake_text][p]
+[quake_text]Vậy mà, đã đến được đây rồi mà...[r]đám này phá đám...[free_quake_text][p]
 [_tb_end_text]
 
 [chara_mod  name="ネオでび邪眼"  time="0"  cross="false"  storage="chara/51/14.png"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text][font size=25]い、今に見てろ！[resetfont][r]オレサマの新の力、見せつけてやるからな[free_quake_text][p]
+[quake_text][font size=25]K-khỏi xem đi![resetfont][r]Tao sẽ cho xem sức mạnh mới của bản đại nhân![free_quake_text][p]
 [_tb_end_text]
 
 *zyagan1_modoru2
@@ -271,7 +271,7 @@ Cậu cười rồi...tôi vui lắm[p]
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text][font size=25]だぎゃあぁあぁ！[r]どこ触ってんだてみゃー！[resetfont][free_quake_text][p]
+[quake_text][font size=25]Dagyaah![r]Mày sờ đâu đấy![resetfont][free_quake_text][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -414,7 +414,7 @@ Dù sao hào quang cảm xúc cũng đẹp quá~[r]Quả đúng là thích bị 
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text][font size=25]いでえええええ！てみゃー！[r]頭に穴空くくらいの勢いだぞ！[resetfont][free_quake_text][p]
+[quake_text][font size=25]Ideeeee! Mày![r]Lực thế này sẽ thủng đầu đấy![resetfont][free_quake_text][p]
 [_tb_end_text]
 
 [jump  storage="Chapter4_2kuitomeru.ks"  target="*deko_jump"  ]
@@ -436,7 +436,7 @@ Dù sao hào quang cảm xúc cũng đẹp quá~[r]Quả đúng là thích bị 
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text][font size=25]いでえええええ！てみゃー！[r]そこは反則だろボケナスァ！[resetfont][free_quake_text][p]
+[quake_text][font size=25]Ideeeee! Mày![r]Chỗ đó là phạm luật đấy đồ ngu![resetfont][free_quake_text][p]
 [_tb_end_text]
 
 *deko_jump
@@ -514,12 +514,12 @@ Dù sao hào quang cảm xúc cũng đẹp quá~[r]Quả đúng là thích bị 
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text]常時邪眼を開眼するのは[r]やはり疲れるな…[free_quake_text][p]
+[quake_text]Luôn mở tà nhãn thế này[r]đúng là mệt thật...[free_quake_text][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text]さっきまで感覚が薄れていたのに…[r]あやつらのせいで今は全ての刺激に敏感だ、くそっ…[free_quake_text][p]
+[quake_text]Lúc nãy còn tê liệt...[r]vì bọn đó mà giờ nhạy cảm với mọi kích thích, khốn kiếp...[free_quake_text][p]
 [_tb_end_text]
 
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
@@ -527,7 +527,7 @@ Dù sao hào quang cảm xúc cũng đẹp quá~[r]Quả đúng là thích bị 
 [chara_mod  name="ネオでび邪眼"  time="0"  cross="false"  storage="chara/51/6.png"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text][if exp="f.kansou1 == 1"]ってェ視んなっつってんだろ[r]オレサマの…心の中ァ！[tb_eval  exp="f.kansou3=1"  name="kansou3"  cmd="="  op="t"  val="1"  val_2="undefined"  ][else]ってェなに勝手にオレサマの[r]心ん中覗いてんだよ！[tb_eval  exp="f.kansou2=1"  name="kansou2"  cmd="="  op="t"  val="1"  val_2="undefined"  ][endif][free_quake_text][p]
+[quake_text][if exp="f.kansou1 == 1"]Đ-đã bảo đừng có nhìn vào[r]tâm trí của bản đại nhân chứ! [tb_eval  exp="f.kansou3=1"  name="kansou3"  cmd="="  op="t"  val="1"  val_2="undefined"  ][else]S-sao lại tự ý[r]nhìn vào tâm trí bản đại nhân! [tb_eval  exp="f.kansou2=1"  name="kansou2"  cmd="="  op="t"  val="1"  val_2="undefined"  ][endif][free_quake_text][p]
 
 [_tb_end_text]
 
@@ -552,18 +552,18 @@ Dù sao hào quang cảm xúc cũng đẹp quá~[r]Quả đúng là thích bị 
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text]そういえばさっき邪眼を開眼するのは[r]疲れると言ったが・・・[free_quake_text][p]
+[quake_text]Nói mới nhớ, lúc nãy tao nói[r]mở tà nhãn mệt...[free_quake_text][p]
 [_tb_end_text]
 
 [chara_mod  name="ネオでび邪眼"  time="0"  cross="false"  storage="chara/51/2.png"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text]今まで面倒くさがって邪眼サーチの時にしか[r]開けてなかっただけで特に深い意味は無いからな！[free_quake_text][p]
+[quake_text]Trước đây lười nên chỉ mở khi search bằng tà nhãn thôi, không có ý gì sâu xa đâu![free_quake_text][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text]なんせ下等生物の心象なんて…[r]見るに値しない…からな……[free_quake_text][p]
+[quake_text]Dù sao tâm trí sinh vật cấp thấp...[r]không đáng xem...vậy nên...[free_quake_text][p]
 [_tb_end_text]
 
 [jump  storage="Chapter4_2kuitomeru.ks"  target="*zyagan2_modoru2"  ]
@@ -587,23 +587,23 @@ Dù sao hào quang cảm xúc cũng đẹp quá~[r]Quả đúng là thích bị 
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text]あやつは裏切った、ずっとそばに[r]居たのに、オレサマのことを嫌っていた[free_quake_text][p]
+[quake_text]Hắn đã phản bội, ở bên tao suốt mà[r]lại ghét bản đại nhân[free_quake_text][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text]…だからオレサマに心を読まれることを[r]極端に拒んでいたのであろう[free_quake_text][p]
+[quake_text]...Vì thế mà hắn cực kỳ phản đối[r]để bản đại nhân đọc tâm trí[free_quake_text][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text]心なんて読めても…[r]結局…悲しくなるだけだ[free_quake_text][p]
+[quake_text]Đọc được tâm trí thì có sao...[r]cuối cùng...chỉ đau buồn thôi[free_quake_text][p]
 [_tb_end_text]
 
 [chara_mod  name="ネオでび邪眼"  time="0"  cross="false"  storage="chara/51/13.png"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text]…あーぁ。変に意識して嫌なこと[r]思い出しちまったな[free_quake_text][p]
+[quake_text]...Àà. Tự dưng nhớ lại[r]điều không vui[free_quake_text][p]
 [_tb_end_text]
 
 [chara_mod  name="ネオでび邪眼"  time="0"  cross="false"  storage="chara/51/4.png"  ]
@@ -611,7 +611,7 @@ Dù sao hào quang cảm xúc cũng đẹp quá~[r]Quả đúng là thích bị 
 [playse  volume="100"  time="1000"  buf="4"  storage="aseru.ogg"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text][if exp="f.kansou3 == 1"]ってまたオレサマの心の中[r]覗いてんのか！いい加減にしろ！[else]ってまたオレサマの心の中[r]覗いてんのか！しつこいぞ！もう！[tb_eval  exp="f.kansou3=1"  name="kansou3"  cmd="="  op="t"  val="1"  val_2="undefined"  ][endif][free_quake_text][p]
+[quake_text][if exp="f.kansou3 == 1"]Lại[r]nhìn vào tâm trí bản đại nhân nữa à! Thôi đi![else]Lại[r]nhìn vào tâm trí bản đại nhân nữa à! Dai quá rồi! Mặc kệ![tb_eval  exp="f.kansou3=1"  name="kansou3"  cmd="="  op="t"  val="1"  val_2="undefined"  ][endif][free_quake_text][p]
 
 [_tb_end_text]
 
@@ -692,7 +692,7 @@ Debikun nhạy cảm nách lắm đúng không?~Khiêu~khiêu~[r]Ngứa hơn m�
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text][font size=37]ふぎゃはっ！や、やめ！[r]やめ！ぎゃははは！[resetfont][free_quake_text][p]
+[quake_text][font size=37]Fgyaha! D-dừng![r]Dừng! Gyahaha![resetfont][free_quake_text][p]
 [_tb_end_text]
 
 [chara_mod  name="ネオでび邪眼"  time="0"  cross="false"  storage="chara/51/2.png"  ]
@@ -711,7 +711,7 @@ Nách cứ để lộ liếu vậy~[p]
 [chara_mod  name="ネオでび邪眼"  time="0"  cross="false"  storage="chara/51/10.png"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text]そりゃ身体はデカく見せた方が[r]かっこいいからに決まってんだろ！[free_quake_text][p]
+[quake_text]Tất nhiên thân hình to lớn hơn[r]thì trông đẹp trai hơn rồi![free_quake_text][p]
 [_tb_end_text]
 
 [chara_mod  name="コマえる"  time="0"  cross="false"  storage="chara/21/6.png"  ]
@@ -737,7 +737,7 @@ Vậy nên...hãy quay lại[p]
 [chara_mod  name="ネオでび邪眼"  time="0"  cross="false"  storage="chara/51/9.png"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text]・・・なにを今更[free_quake_text][p]
+[quake_text]...giờ còn nói gì nữa[free_quake_text][p]
 [_tb_end_text]
 
 [jump  storage="Chapter4_2kuitomeru.ks"  target="*kusu_jump"  ]
@@ -796,7 +796,7 @@ Nào xoa xoa~nào~[p]
 [chara_mod  name="ネオでび邪眼"  time="0"  cross="false"  storage="chara/51/4.png"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text][font size=25]どこ撫でてんだよ[r]ガキ扱いしやがって・・・[resetfont][free_quake_text][p]
+[quake_text][font size=25]Mày xoa đâu đấy[r]đồ coi tao như con nít...[resetfont][free_quake_text][p]
 [_tb_end_text]
 
 [tb_eval  exp="f.neodebi_nade=1"  name="neodebi_nade"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
@@ -871,7 +871,7 @@ Nào xoa xoa~nào~[p]
 [chara_mod  name="ネオでび邪眼"  time="0"  cross="false"  storage="chara/51/4.png"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text][font size=25]頭なんて撫でるな[r]ガキ扱いしやがって・・・[resetfont][free_quake_text][p]
+[quake_text][font size=25]Đừng có mà xoa đầu[r]đồ coi tao như con nít...[resetfont][free_quake_text][p]
 [_tb_end_text]
 
 [tb_eval  exp="f.neodebi_nade=1"  name="neodebi_nade"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
@@ -910,7 +910,7 @@ Tôi không có ý đó đâu![p]
 [chara_mod  name="ネオでび邪眼"  time="0"  cross="false"  storage="chara/51/12.png"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text][delay speed=100]触んなっ・・・触んなよ・・・・・・[free_quake_text][resetdelay][p]
+[quake_text][delay speed=100]Đừng có chạm...đừng có chạm....[free_quake_text][resetdelay][p]
 [_tb_end_text]
 
 [playse  volume="100"  time="0"  buf="4"  storage="AURA_OK.ogg"  ]
@@ -918,7 +918,7 @@ Tôi không có ý đó đâu![p]
 [chara_mod  name="ネオでび邪眼"  time="0"  cross="false"  storage="chara/51/13.png"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text][delay speed=100]気持ちが・・・[r]変になるから[free_quake_text][resetdelay][p]
+[quake_text][delay speed=100]Cảm giác...[r]sẽ kỳ lạ lắm[free_quake_text][resetdelay][p]
 [_tb_end_text]
 
 [chara_mod  name="コマえる"  time="0"  cross="false"  storage="chara/21/17.png"  ]
@@ -964,13 +964,13 @@ Tôi cảm nhận được sự dao động trong lòng Debikun[p]
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text]すごいって言えよ。讃えろよ。[r]オレサマはな…やればできるんだぞ[free_quake_text][p]
+[quake_text]Nói tao giỏi đi. Khen tao đi.[r]Bản đại nhân...làm được mà[free_quake_text][p]
 [_tb_end_text]
 
 [chara_mod  name="ネオでび邪眼"  time="0"  cross="false"  storage="chara/51/8.png"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text]見たか！魔界のやつらめ！クフフ！[free_quake_text][p]
+[quake_text]Thấy không! Lũ Ma Giới! Kufufu![free_quake_text][p]
 [_tb_end_text]
 
 [chara_mod  name="ネオでび邪眼"  time="0"  cross="false"  storage="chara/51/12.png"  ]
@@ -1005,18 +1005,18 @@ Tôi cảm nhận được sự dao động trong lòng Debikun[p]
 
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text]後先・・・考えてなかった[free_quake_text][p]
+[quake_text]Trước sau...chưa nghĩ kỹ[free_quake_text][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text]例え今回の一件で魔界のヤツらに[r]認められたとしても・・・[free_quake_text][p]
+[quake_text]Dù lần này được lũ Ma Giới công nhận...vẫn[free_quake_text][p]
 [_tb_end_text]
 
 [chara_mod  name="ネオでび邪眼"  time="0"  cross="false"  storage="chara/51/12.png"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text]あやつはオレサマのこと・・・[r]嫌いのままだろうな[free_quake_text][p]
+[quake_text]Hắn sẽ vẫn...[r]ghét bản đại nhân thôi[free_quake_text][p]
 [_tb_end_text]
 
 [jump  storage="Chapter4_2kuitomeru.ks"  target="*zyagan3_modoru2"  ]
@@ -1040,30 +1040,30 @@ Tôi cảm nhận được sự dao động trong lòng Debikun[p]
 [fadein_window  time="300"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text]もう何も気にしたかねぇな・・・[free_quake_text][p]
+[quake_text]Giờ chẳng cần bận tâm gì nữa...[free_quake_text][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text]いっそのこと・・・オレサマだけの[r]世界を創れたらいいのにな・・・[free_quake_text][p]
+[quake_text]Giá mà...tạo được[r]thế giới chỉ của bản đại nhân nhỉ...[free_quake_text][p]
 [_tb_end_text]
 
 [chara_mod  name="ネオでび邪眼"  time="0"  cross="false"  storage="chara/51/2.png"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text]独裁国家ってやつ？何もかもが[r]思いのままで絶対楽しいはずだぜ[free_quake_text][p]
+[quake_text]Độc tài quốc gia hả? Mọi thứ[r]đều theo ý mình, chắc vui lắm[free_quake_text][p]
 [_tb_end_text]
 
 [chara_mod  name="ネオでび邪眼"  time="0"  cross="false"  storage="chara/51/10.png"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text]ふん、まだ視てんのか[emb exp="f.name"][free_quake_text][p]
+[quake_text]Hừ, vẫn nhìn tao à[emb exp="f.name"][free_quake_text][p]
 
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text]仮にも契約者のおみゃーだけは[r]オレサマの世界が出来たら招待してやるぜ！[free_quake_text][p]
+[quake_text]Dù sao thì mày là người ký hợp đồng[r]tao sẽ mời mày vào thế giới của bản đại nhân![free_quake_text][p]
 
 [_tb_end_text]
 
@@ -1136,7 +1136,7 @@ Debikun thấy sao? Bánh mâm xôi[r]tự làm của [emb exp="f.name]-san đ�
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text][font size=25]甘い。甘すぎるぞ！[r]ばかッ[resetfont][free_quake_text][p]
+[quake_text][font size=25]Ngây thơ. Quá ngây thơ![r]Đồ ngu[resetfont][free_quake_text][p]
 [_tb_end_text]
 
 [chara_mod  name="コマえる"  time="0"  cross="false"  storage="chara/21/17.png"  ]
@@ -1241,7 +1241,7 @@ Mì Ramen Tỏi Thêm Đậm[r]mà Debikun thích nhất![p]
 [quake  time="300"  count="5"  hmax="3"  wait="false"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text][font size=25]ぼへぇッ！味濃すぎんだろ！[resetfont][free_quake_text][p]
+[quake_text][font size=25]Bohee! Mặn quá đi![resetfont][free_quake_text][p]
 [_tb_end_text]
 
 [chara_mod  name="コマえる"  time="0"  cross="false"  storage="chara/21/17.png"  ]
@@ -1255,7 +1255,7 @@ Cậu không thích vị đậm à?[r]Chắc do nhạy cảm quá nên vị mặ
 [chara_mod  name="ネオでび邪眼"  time="0"  cross="false"  storage="chara/51/5.png"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text][font size=25]ふぎゃ！しかもくせぇ！[r]ニンニクが強すぎるッ[resetfont][free_quake_text][p]
+[quake_text][font size=25]Fgya! Và còn hôi![r]Tỏi quá mạnh![resetfont][free_quake_text][p]
 [_tb_end_text]
 
 [playse  volume="100"  time="0"  buf="4"  storage="AURA_NG.ogg"  ]
@@ -1263,7 +1263,7 @@ Cậu không thích vị đậm à?[r]Chắc do nhạy cảm quá nên vị mặ
 [chara_mod  name="ネオでび邪眼"  time="0"  cross="false"  storage="chara/51/6.png"  ]
 [tb_start_text mode=1 ]
 #ネオでびるん
-[quake_text][font size=25]ッくそ…卑怯だぞ！[resetfont][free_quake_text][p]
+[quake_text][font size=25]Khốn kiếp...đồ hèn hạ![resetfont][free_quake_text][p]
 [_tb_end_text]
 
 *pie_jump
@@ -1271,7 +1271,7 @@ Cậu không thích vị đậm à?[r]Chắc do nhạy cảm quá nên vị mặ
 [chara_mod  name="コマえる"  time="0"  cross="false"  storage="chara/21/11.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-[emb exp="f.name"]さんがでびくんの感情を[r]揺さぶってくださった分うろたえています[p]
+[emb exp="f.name"] đã khơi gợi[r]cảm xúc của Debikun nên cậu ấy đang bối rối[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
