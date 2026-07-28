@@ -36,7 +36,7 @@
 ;configSave=file
 ;configThumbnail=true
 ;configThumbnailQuality=middle
-;configSaveSlotNum=30
+;configSaveSlotNum=600
 ;configSaveOverwrite=false
 ;maxBackLogNum=100
 ;autoRecordLabel=true
