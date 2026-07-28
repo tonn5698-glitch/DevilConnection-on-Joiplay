@@ -1,2 +1,2 @@
-*.ks linguist-language=KAG
+*.ks linguist-detectable=false
 *.tjs linguist-language=JavaScript
