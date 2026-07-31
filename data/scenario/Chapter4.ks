@@ -213,7 +213,7 @@ Cái đó...không phải Debikun gì cả[p]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Vâng! Tôi luôn luôn[r]ở bên [emb exp="f.name]-san[p]
+Vâng! Tôi luôn luôn[r]ở bên [emb exp="f.name"]-san[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
@@ -318,7 +318,7 @@ Belphegor...cuối cùng cũng[r]tìm ra tên thật của Debikun![p]
 [chara_mod  name="コマえる"  time="0"  cross="false"  storage="chara/21/11.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Giờ Debikun phải tuyệt đối phục tùng[r]người ký hợp đồng - [emb exp="f.name]-san![p]
+Giờ Debikun phải tuyệt đối phục tùng[r]người ký hợp đồng - [emb exp="f.name"]-san![p]
 
 
 [_tb_end_text]
@@ -419,7 +419,7 @@ Nào, ra lệnh gì đi![r]Làm thế sẽ tiêu thụ lượng lớn ma thuật
 [chara_mod  name="コマえる"  time="0"  cross="false"  storage="chara/21/11.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Giờ Debikun phải tuyệt đối phục tùng[r]người ký hợp đồng - [emb exp="f.name]-san![p]
+Giờ Debikun phải tuyệt đối phục tùng[r]người ký hợp đồng - [emb exp="f.name"]-san![p]
 
 
 [_tb_end_text]

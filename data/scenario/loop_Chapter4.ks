@@ -920,7 +920,7 @@ Cút ra khỏi đây...![p]
 [free layer=4 name="kuro"]
 
 [bg  time="0"  method="crossfade"  storage="haikei2.webp"  ]
-[tb_eval  exp="f.photoNonFixedPose=1"  name="photoNonFixedPose"  cmd="="  op="t"  val="1"  val_2="undefined"  ][p]
+[tb_eval  exp="f.photoNonFixedPose=1"  name="photoNonFixedPose"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
 [wait  time="3000"  ]
 [flash_off  time="2000"  effect="fadeOut"  ]
 

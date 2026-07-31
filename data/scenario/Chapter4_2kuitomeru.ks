@@ -68,7 +68,7 @@ Debikun phải nghe lời tôi! Và[r]sờ, ngửi, nếm. Tôi muốn cậu nh�
 [chara_mod  name="コマえる"  time="0"  cross="false"  storage="chara/21/13.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Những ngày vui vẻ, thức ăn ngon[r]những ngày bên [emb exp="f.name]-san...[p]
+Những ngày vui vẻ, thức ăn ngon[r]những ngày bên [emb exp="f.name"]-san...[p]
 
 [_tb_end_text]
 
@@ -724,7 +724,7 @@ Từ từ trở lại Debikun như xưa rồi[p]
 [chara_mod  name="コマえる"  time="0"  cross="false"  storage="chara/21/8.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Tôi và [emb exp="f.name]-san[c]rất yêu Debikun nguyên bản[p]
+Tôi và [emb exp="f.name"]-san[c]rất yêu Debikun nguyên bản[p]
 [_tb_end_text]
 
 [chara_mod  name="コマえる"  time="0"  cross="false"  storage="chara/21/13.png"  ]
@@ -932,7 +932,7 @@ Tôi cảm nhận được sự dao động trong lòng Debikun[p]
 [chara_mod  name="コマえる"  time="0"  cross="false"  storage="chara/21/6.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Đúng rồi! [emb exp="f.name]-san[r]cho cậu ấy thứ Debikun thích đi![p]
+Đúng rồi! [emb exp="f.name"]-san[r]cho cậu ấy thứ Debikun thích đi![p]
 [_tb_end_text]
 
 [chara_mod  name="プレイヤー"  time="100"  cross="false"  storage="chara/2/fu_te2.png"  ]
@@ -1125,7 +1125,7 @@ Tôi cảm nhận được sự dao động trong lòng Debikun[p]
 [chara_mod  name="コマえる"  time="0"  cross="false"  storage="chara/21/5.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Debikun thấy sao? Bánh mâm xôi[r]tự làm của [emb exp="f.name]-san đấy![p]
+Debikun thấy sao? Bánh mâm xôi[r]tự làm của [emb exp="f.name"]-san đấy![p]
 
 
 [_tb_end_text]
@@ -1182,7 +1182,8 @@ Chắc do nhạy cảm quá[r]nên vị ngọt cũng bị khuếch đại![p]
 [quake_text][delay speed=100]・・・・・・・・・[resetdelay][free_quake_text][p]
 [_tb_end_text]
 
-[jump  storage="Chapter4_2kuitomeru.ks"  target="*pie_jump"  ]
+[jump  target="*pie_jump"  ]
+[s]
 *ra
 
 [flash  time="80"  effect="fadeIn"  color="0xFFFFFF"  ]
@@ -1291,31 +1292,45 @@ Nào! Tăng cường kích thích hơn nữa, vừa phóng thích ma thuật tí
 [wait  time="600"  ]
 [iscript]
 f.zyaganForNeodebi = 0
-// f.point = 3
-// f.totalMP = 500
 const times = [6, 10, 13, 15]
 const time = times[f.point]
-// タイマーセット
 f.timerId = setTimeout(() => {
 TYRANO.kag.ftag.startTag("jump",{target:"*time_up"})
 }, time * 1000)
-// MP合計を一定の数で割って連打回数を算出（数を小さくすればするほど連打が多くなる）
 const rates = [4, 5, 7, 8]
 f.neoMaxCount = f.neoCount = Math.ceil(f.totalMP / rates[f.point])
 const neodebi = $('.ネオでび')
 const neodebiEye = $('.ネオでび邪眼')
 const mpGauge = $('.mp_gauge')
-tf.da = () => {
-f.neoCount -= sf.lightMode && f.point == 3 ? 2 : 1
-if (f.neoCount > 0) {
-neodebi.css('animation', `0.2s linear 1 flash${f.neoCount % 2}, 0.1s linear 2 quake${f.neoCount % 2}`)
-neodebiEye.css('animation', `0.2s linear 1 flash${f.neoCount % 2}, 0.1s linear 2 quake${f.neoCount % 2}, 0.1s linear 1 scale${f.neoCount % 2}`)
-mpGauge.css({
-'max-height':`${549 * f.neoCount / f.neoMaxCount}px`,
-});
-playSE(`mp_neodebi${Math.floor(f.neoCount/(f.neoMaxCount/5))}.ogg`, '2')
-}
-}
+let tapCount = 0
+f.neoCleared = false
+$('#scale_container').on('touchstart.tapNeo click.tapNeo', function(e) {
+  e.preventDefault()
+  if (f.neoCleared) return
+  f.neoCleared = f.neoCount <= 0
+
+  f.neoCount -= sf.lightMode && f.point == 3 ? 2 : 1
+  tapCount++
+
+  if (tapCount === 1)
+    neodebiEye.attr('src', 'chara/51/15.png')
+  if (tapCount === 3)
+    $('.TAP').fadeOut(500)
+
+  if (f.neoCount > 0) {
+    neodebi.css('animation', `0.2s linear 1 flash${f.neoCount & 1}, 0.1s linear 2 quake${f.neoCount & 1}`)
+    neodebiEye.css('animation', `0.2s linear 1 flash${f.neoCount & 1}, 0.1s linear 2 quake${f.neoCount & 1}, 0.1s linear 1 scale${f.neoCount & 1}`)
+    mpGauge.css('max-height', `${549 * f.neoCount / f.neoMaxCount}px`)
+    playSE(`mp_neodebi${Math.min(Math.floor(f.neoCount/(f.neoMaxCount/5)),4)}.ogg`, '2')
+  }
+  if (f.neoCount <= 0) {
+    f.neoCleared = true
+    clearTimeout(f.timerId)
+    f.totalMP = 0
+    $('#scale_container').off('.tapNeo')
+    TYRANO.kag.ftag.startTag("jump",{target:"*cleared"})
+  }
+})
 [endscript]
 
 [tb_image_hide  time="300"  ]
@@ -1324,22 +1339,9 @@ playSE(`mp_neodebi${Math.floor(f.neoCount/(f.neoMaxCount/5))}.ogg`, '2')
 [chara_mod  name="プレイヤー"  time="0"  cross="false"  storage="chara/2/neo3.png"  ]
 [chara_hide  name="コマえる"  time="80"  wait="false"  pos_mode="false"  ]
 [chara_show  name="TAP"  layer="2"  time="500"  wait="false"  storage="chara/18/TAPTAPTAP.png"  width="600"  height="200"  left="345"  top="143"  reflect="false"  ]
-[camera  time="10000"  zoom="1.1"  wait="false"  layer="base"  ease_type="ease"  ]
-[camera  time="10000"  zoom="1.3"  wait="false"  layer="0"  ease_type="ease"  ]
-[camera  time="10000"  zoom="1.3"  wait="false"  layer="1"  ease_type="ease"  ]
+[camera  time="10000"  zoom="1.05"  wait="false"  layer="base"  ease_type="linear"  ]
 [bg_loop name="haikei_u2"]
-
-[clickable  storage="Chapter4_2kuitomeru.ks"  x="190"  y="5"  width="902"  height="709"  target="*da"  cm="false"  _clickable_img=""  ]
-[s  ]
-*da
-
-[chara_mod  name="ネオでび邪眼"  time="0"  cross="false"  storage="chara/51/15.png"  cond="f.neoCount==f.neoMaxCount"  ]
-[eval exp="tf.da()"]
-
-[jump  target="*cleared"  storage="Chapter4_2kuitomeru.ks"  cond="f.neoCount<=0"  ]
-[chara_hide  name="TAP"  layer="2"  time="500"  wait="false"  pos_mode="false"  cond="f.neoCount==f.neoMaxCount-3"  ]
-[s  ]
-[comment  c="↑ここまで連打"  ]
+[s]
 *cleared
 
 [cm  ]

@@ -608,7 +608,7 @@ Thấy sao? Hiểu chưa?
 [chara_mod  name="でびるん"  time="0"  cross="false"  storage="chara/1/1.png"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Fufufu...[emb exp="f.name]cậu ngoan lắm♥[p]
+Fufufu...[emb exp="f.name"]cậu ngoan lắm♥[p]
 
 [_tb_end_text]
 

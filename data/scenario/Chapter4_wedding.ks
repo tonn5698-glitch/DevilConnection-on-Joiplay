@@ -307,7 +307,7 @@ Wedding Debikun, dễ thương quá❤[r]À, nên gọi là Bel-kun nhỉ?[p]
 
 [tb_start_text mode=1 ]
 #クピャドエル
-Vậy tôi gọi là Berurun♥ [emb exp="f.name]-san,[r]nhân tiện hãy yêu chiều cậu ấy nhiều đi![p]
+Vậy tôi gọi là Berurun♥ [emb exp="f.name"]-san,[r]nhân tiện hãy yêu chiều cậu ấy nhiều đi![p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]

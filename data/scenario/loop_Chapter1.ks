@@ -1778,7 +1778,7 @@ D-Dù chỉ động viên bằng cách này, nhưng nếu[r]giúp được [emb 
 [fadein_window  time="1000"  ]
 [tb_start_text mode=1 ]
 #でびるん
-Muộn quá [emb exp="f.name].[wait time=300][r]Khoan, tay nắm chặt gì vậy?[p]
+Muộn quá [emb exp="f.name"].[wait time=300][r]Khoan, tay nắm chặt gì vậy?[p]
 [_tb_end_text]
 
 [image name="ベル" layer=0  time="500"  wait="false"   folder="image" storage="bell/fuki.png"  width="294"  height="258"  left="132"  top="194"  reflect="false"  ]

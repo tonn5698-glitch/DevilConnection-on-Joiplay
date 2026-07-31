@@ -207,7 +207,7 @@ Doel. [wait time=100]Mày[r]từ giờdự định sao?[p]
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/1.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Tôi sẽ giải trừ hợp đồng tạm thời đã tự ý ký với [emb exp="f.name]-san[r]và trở về thiên giới[p]
+Tôi sẽ giải trừ hợp đồng tạm thời đã tự ý ký với [emb exp="f.name"]-san[r]và trở về thiên giới[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -461,7 +461,7 @@ Kupya, [wait time=300]không có chuyện đó đâu![p]
 
 [tb_start_text mode=1 ]
 #クピャドエル
-Tôi mới là người [emb exp="f.name]-san[r]đã đồng hành cùng đến tận đây![p]
+Tôi mới là người [emb exp="f.name"]-san[r]đã đồng hành cùng đến tận đây![p]
 
 [_tb_end_text]
 
@@ -540,7 +540,7 @@ Không ngờ lại hợp khẩu vị Doel[wait time=300][r]Hừ, [wait time=300]
 [chara_mod  name="プレイヤー"  time="0"  cross="false"  storage="chara/2/yubiwa_.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-...[emb exp="f.name]-san lúc nào[r]cũng khiến tôi bất ngờ[p]
+...[emb exp="f.name"]-san lúc nào[r]cũng khiến tôi bất ngờ[p]
 [_tb_end_text]
 
 [chara_move  name="プレイヤー"  anim="true"  time="2000"  effect="easeInQuad"  wait="false"  left="0"  top="5"  width="1280"  height="960"  ]
@@ -571,7 +571,7 @@ Thiên sứ Connect Link với Chúa nên chiếc nhẫn đó[r]trực quan có 
 [chara_mod  name="クピャドエル"  time="0"  cross="false"  storage="chara/14/5.png"  ]
 [tb_start_text mode=1 ]
 #クピャドエル
-Nhờ hợp đồng vừa ký, link đến của chiếc nhẫn này[r]đã chính thức là [emb exp="f.name]-san[p]
+Nhờ hợp đồng vừa ký, link đến của chiếc nhẫn này[r]đã chính thức là [emb exp="f.name"]-san[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
