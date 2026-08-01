@@ -40,3 +40,6 @@ Thumbs.db
 translate*.py
 translations.json
 *.py
+
+# Local backup utility
+backup.sh
