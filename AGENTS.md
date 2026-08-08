@@ -54,7 +54,12 @@ in JoiPlay (HTML5) or `npm run dev` (Electron).
 - **`$.setStorageWeb` silently swallows quota errors** (`tyrano/libs.js`), so
   saves fail quietly. A 1280×960 PNG base64 photo can exceed localStorage quota;
   `savePhoto` then writes nothing and `getPhoto` returns `null`. Photo helpers are
-  wrapped in try/catch and fall back to `null`.
+  wrapped in try/catch and fall back to `null`. Stored photos are now **JPEG
+  (0.9 main / 0.7 thumb)** instead of PNG to fit the quota. **When the base
+  photo is null, `deco_canvas` still creates `#deco_canvas`** (transparent bg) so
+  sticker placement/export work; `export_deco_canvas` never relies on
+  `baseImage.onload` alone — missing/broken base or a sticker image draws a white
+  fallback and always reaches `nextOrder` (via `showModal`).
 - **CSS `animationend` is unreliable in WebViews.** `[bg]`/`bg2`/`trans` with
   `wait="true"` advance the queue only in the `animationend` handler (via
   `$.trans`, `tyrano/libs.js`). If the WebView never fires it, the script hangs —
