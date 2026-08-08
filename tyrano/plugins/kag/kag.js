@@ -1041,32 +1041,52 @@ tyrano.plugin.kag = {
       })
     } else
       'mp4' == ext || 'ogv' == ext || 'webm' == ext
-        ? $('<video />')
-            .attr('src', src)
-            .on('loadeddata', function (e) {
+        ? (function () {
+            var done = false
+            var finish = function () {
+              if (done) return
+              done = true
+              clearTimeout(timer)
               callbk && callbk()
-            })
-            .on('error', function (e) {
-              that.kag.error(
-                'File video 「' +
-                  src +
-                  '」 không tìm thấy. Đường dẫn đã được chỉ định đầy đủ chưa? (VD) data/video/file.mp4'
-              )
+            }
+            var timer = setTimeout(finish, 8000)
+            $('<video />')
+              .attr('src', src)
+              .on('loadeddata', function (e) {
+                finish()
+              })
+              .on('error', function (e) {
+                that.kag.error(
+                  'File video 「' +
+                    src +
+                    '」 không tìm thấy. Đường dẫn đã được chỉ định đầy đủ chưa? (VD) data/video/file.mp4'
+                )
+                finish()
+              })
+          })()
+        : (function () {
+            var done = false
+            var finish = function () {
+              if (done) return
+              done = true
+              clearTimeout(timer)
               callbk && callbk()
-            })
-        : $('<img />')
-            .attr('src', src)
-            .on('load', function (e) {
-              callbk && callbk(this)
-            })
-            .on('error', function (e) {
-              that.kag.error(
-                'File hình ảnh 「' +
-                  src +
-                  '」 không tìm thấy. Đường dẫn đã được chỉ định đầy đủ chưa? (VD) data/fgimage/file.png'
-              )
-              callbk && callbk()
-            })
+            }
+            var timer = setTimeout(finish, 8000)
+            $('<img />')
+              .attr('src', src)
+              .on('load', function (e) {
+                finish()
+              })
+              .on('error', function (e) {
+                that.kag.error(
+                  'File hình ảnh 「' +
+                    src +
+                    '」 không tìm thấy. Đường dẫn đã được chỉ định đầy đủ chưa? (VD) data/fgimage/file.png'
+                )
+                finish()
+              })
+          })()
   },
   preloadAll: function (storage, callbk) {
     if ('object' == typeof storage && storage.length >= 0) {

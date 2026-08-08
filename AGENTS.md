@@ -64,6 +64,15 @@ in JoiPlay (HTML5) or `npm run dev` (Electron).
   `nextOrder()` fires immediately. Remember the white `.flash` overlay persists
   until `[flash_off]` — any blocking tag between `[flash]` and `[flash_off]`
   looks like an endless white screen.
+- **`kag.preload` has no load/error guarantee for images/videos** (`kag.js`).
+  Tags that put their `nextOrder()` *inside* a preload callback — `chara_mod`,
+  `chara_show` (via `preloadAll`) — hard-freeze the queue if a file never fires
+  `load`/`error` on the WebView (e.g. a stalled file:// request). This looked
+  like a stuck white/blue screen in `scenario_ting.ks` (paralysis effect) because
+  the first `chara_mod` after `[layermode]` froze before `[free_layermode]` ran.
+  Fix: `kag.preload` wraps `callbk` in a single-fire `done()` with an 8s
+  fallback timer (image + video branches). Any tag whose `nextOrder` lives in a
+  callback should be audited for the same gap.
 
 ## Font & Vietnamese text
 
