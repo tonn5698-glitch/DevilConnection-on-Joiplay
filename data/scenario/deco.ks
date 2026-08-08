@@ -6,8 +6,10 @@
 [tap_effect_stop]
 
 [iscript]
-tf.availableStickers = dc.stickerFiles() // => '*.png'
-  .filter(s => sf.sticker.includes(Number(s.replace('.png', ''))))
+const allStickerFiles = dc && dc.stickerFiles ? dc.stickerFiles() : []
+tf.availableStickers = sf.sticker && sf.sticker.length
+  ? allStickerFiles.filter(s => sf.sticker.includes(Number(s.replace('.png', ''))))
+  : allStickerFiles
 tf.stickerIdx = 0
 tf.stickers = []
 tf.stickerLimit = 10

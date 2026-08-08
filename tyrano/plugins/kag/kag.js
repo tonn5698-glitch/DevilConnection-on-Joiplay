@@ -317,7 +317,13 @@ tyrano.plugin.kag = {
       tf = this.variable.tf,
       mp = this.stat.mp,
       dc = this.dc
-    eval(str)
+    try {
+      eval(str)
+    } catch (e) {
+      console.error('[evalScript]', e)
+      window.__scenarioLoadingLog &&
+        window.__scenarioLoadingLog('evalScript error: ' + (e && e.message))
+    }
     this.saveSystemVariable()
     this.kag.is_studio && this.kag.studio.notifyChangeVariable()
   },

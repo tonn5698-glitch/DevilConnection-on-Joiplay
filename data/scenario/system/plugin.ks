@@ -222,11 +222,11 @@ panel && panel.remove()
 [eval exp="TYRANO.kag.tmp.escInTitle=false"]
 [endif]
 
-[loadjs storage="master_data.js"]
-[loadjs storage="ending.js"]
-[loadjs storage="collection.js"]
-[loadjs storage="sticker.js"]
-[loadjs storage="omake.js"]
+[loadjs storage="master_data.js?_=3"]
+[loadjs storage="ending.js?_=3"]
+[loadjs storage="collection.js?_=3"]
+[loadjs storage="sticker.js?_=3"]
+[loadjs storage="omake.js?_=3"]
 
 ;初期変数を格納する
 [eval exp="sf.initialVars=f"]
