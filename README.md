@@ -1,5 +1,7 @@
 # DevilConnection trên JoiPlay
 
+![ks](ks.png)
+
 Thư mục này được chuẩn bị cho trình khởi chạy HTML5 của JoiPlay. Chọn
 `index.html` làm file thực thi game; **không** chọn `main.js` hay bất kỳ
 file `.exe` nào. File tương thích (`joiplay_compat.js`) tự động chọn
