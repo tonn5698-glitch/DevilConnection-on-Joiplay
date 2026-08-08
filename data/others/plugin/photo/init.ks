@@ -1,4 +1,4 @@
-@loadjs storage=plugin/photo/main.js?_=2
+@loadjs storage=plugin/photo/main.js?_=3
 
 [macro name=glink_photo]
   [return cond="!mp.id"]

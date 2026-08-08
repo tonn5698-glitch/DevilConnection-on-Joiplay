@@ -556,7 +556,7 @@ TYRANO.kag.ftag.master_tag.snap_photo = {
           buf: '6',
         })
 
-        const imgCode = canvas.toDataURL('image/png')
+        const imgCode = canvas.toDataURL('image/jpeg', 0.9)
         const thumbCode = canvas.toDataURL('image/jpeg', 0.7)
 
         // 表示
@@ -833,15 +833,10 @@ TYRANO.kag.ftag.master_tag.deco_canvas = {
   kag: TYRANO.kag,
   vital: [],
   start: function ({ id, url }) {
-    if (!id && !url) {
-      this.kag.ftag.nextOrder()
-      return
-    }
-
     const imgCode = id ? this.kag.dc.getPhoto(id) : url
 
     const canvas = $('<div id="deco_canvas">').css({
-      'background-image': `url('${imgCode}')`,
+      'background-image': imgCode ? `url('${imgCode}')` : 'none',
       opacity: 0,
     })
     this.kag.layer.getFreeLayer().append(canvas)
@@ -1024,11 +1019,7 @@ TYRANO.kag.ftag.master_tag.export_deco_canvas = {
 
     src.find('.sticker.current').removeClass('current')
 
-    const base = src.css('background-image').replace(/^url\("(.*)"\)$/, '$1')
-    const baseImage = new Image(1280, 960)
-    baseImage.onload = () => {
-      ctx.drawImage(baseImage, 0, 0, 1280, 960)
-
+    const drawStickers = () => {
       let drawn = 0
       const stickers = src.find('.sticker')
       stickers.length == 0 && that.showModal(dest)
@@ -1055,14 +1046,36 @@ TYRANO.kag.ftag.master_tag.export_deco_canvas = {
 
           drawn == stickers.length && that.showModal(dest)
         }
+        img.onerror = () => {
+          drawn++
+          drawn == stickers.length && that.showModal(dest)
+        }
         img.src = $(this).attr('src')
       })
+    }
+
+    const base = src.css('background-image').replace(/^url\("(.*)"\)$/, '$1')
+    if (!base || base == 'none' || base == 'null') {
+      ctx.fillStyle = '#fff'
+      ctx.fillRect(0, 0, 1280, 960)
+      drawStickers()
+      return
+    }
+    const baseImage = new Image(1280, 960)
+    baseImage.onload = () => {
+      ctx.drawImage(baseImage, 0, 0, 1280, 960)
+      drawStickers()
+    }
+    baseImage.onerror = () => {
+      ctx.fillStyle = '#fff'
+      ctx.fillRect(0, 0, 1280, 960)
+      drawStickers()
     }
     baseImage.src = base
   },
   showModal: function (canvas) {
     console.log(canvas)
-    const imgCode = canvas.get(0).toDataURL('image/png')
+    const imgCode = canvas.get(0).toDataURL('image/jpeg', 0.9)
     const thumbCode = canvas.get(0).toDataURL('image/jpeg', 0.7)
     const modal = this.kag.dc
       .generatePhotoModal(imgCode)
