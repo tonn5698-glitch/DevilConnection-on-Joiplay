@@ -625,31 +625,43 @@
 
     j_obj.css('animation-duration', parseInt(time) + 'ms')
 
+    var animationEnd =
+      'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend'
+
     if (mode == 'hide') {
       j_obj.show()
       method = $.replaceAll(method, 'In', 'Out')
-      var animationEnd =
-        'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend'
-      j_obj.addClass('animated ' + method).one(animationEnd, function () {
+      var done_hide = false
+      var finish_hide = function () {
+        if (done_hide) {
+          return
+        }
+        done_hide = true
+        clearTimeout(timer_hide)
         j_obj.off(animationEnd)
         j_obj.css('animation-duration', '')
-        $(this).remove()
-        if (callback) {
-          //callback();
-        }
-      })
+        j_obj.remove()
+      }
+      j_obj.addClass('animated ' + method).one(animationEnd, finish_hide)
+      var timer_hide = setTimeout(finish_hide, parseInt(time) + 500)
     } else if (mode == 'show') {
       j_obj.show()
-      var animationEnd =
-        'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend'
-      j_obj.addClass('animated ' + method).one(animationEnd, function () {
+      var done_show = false
+      var finish_show = function () {
+        if (done_show) {
+          return
+        }
+        done_show = true
+        clearTimeout(timer_show)
         j_obj.off(animationEnd)
         j_obj.css('animation-duration', '')
-        $(this).removeClass('animated ' + method)
+        j_obj.removeClass('animated ' + method)
         if (callback) {
           callback()
         }
-      })
+      }
+      j_obj.addClass('animated ' + method).one(animationEnd, finish_show)
+      var timer_show = setTimeout(finish_show, parseInt(time) + 500)
     }
   }
 

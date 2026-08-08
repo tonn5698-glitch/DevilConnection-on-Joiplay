@@ -46,6 +46,24 @@ in JoiPlay (HTML5) or `npm run dev` (Electron).
   `$.supportsBlendMode` is set in `joiplay_compat.js`; `kag.tag.js` `layermode*`
   fall back to `opacity` and `transparent` bg when unsupported. Preserve this
   when editing those tags.
+- **Tags must call `nextOrder()` on every branch.** A tag that `return`s without
+  `this.kag.ftag.nextOrder()` hard-stops the scenario queue (menu stays clickable,
+  story never advances). `deco_canvas` in `data/others/plugin/photo/main.js` had
+  an early `return` when the photo id/url was missing; it now calls `nextOrder()`
+  first. Audit any tag you edit for early-return paths.
+- **`$.setStorageWeb` silently swallows quota errors** (`tyrano/libs.js`), so
+  saves fail quietly. A 1280×960 PNG base64 photo can exceed localStorage quota;
+  `savePhoto` then writes nothing and `getPhoto` returns `null`. Photo helpers are
+  wrapped in try/catch and fall back to `null`.
+- **CSS `animationend` is unreliable in WebViews.** `[bg]`/`bg2`/`trans` with
+  `wait="true"` advance the queue only in the `animationend` handler (via
+  `$.trans`, `tyrano/libs.js`). If the WebView never fires it, the script hangs —
+  the infinite white flash happened because `deco.ks` never reached `[flash_off]`.
+  Two defenses: `$.trans` now has a `time+500ms` fallback timer so the show/hide
+  callback always runs, and `deco.ks` uses `wait="false"` on `[bg]` so
+  `nextOrder()` fires immediately. Remember the white `.flash` overlay persists
+  until `[flash_off]` — any blocking tag between `[flash]` and `[flash_off]`
+  looks like an endless white screen.
 
 ## Font & Vietnamese text
 

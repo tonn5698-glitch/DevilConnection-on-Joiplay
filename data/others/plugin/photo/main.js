@@ -14,15 +14,22 @@ TYRANO.kag.dc = {
     const configSave = kag.config.configSave
     const photoStorageName = kag.config.projectID + '_photo_' + id
 
-    return JSON.parse($.getStorage(photoStorageName, configSave))
+    try {
+      return JSON.parse($.getStorage(photoStorageName, configSave))
+    } catch (e) {
+      return null
+    }
   },
   getPhotoThumb: function (id) {
     const kag = TYRANO.kag
     const configSave = kag.config.configSave
     const thumbStorageName = kag.config.projectID + '_photo_' + id + '_thumb'
 
-    console.log(thumbStorageName)
-    return JSON.parse($.getStorage(thumbStorageName, configSave))
+    try {
+      return JSON.parse($.getStorage(thumbStorageName, configSave))
+    } catch (e) {
+      return null
+    }
   },
   deletePhoto: function (id) {
     const kag = TYRANO.kag
@@ -826,7 +833,10 @@ TYRANO.kag.ftag.master_tag.deco_canvas = {
   kag: TYRANO.kag,
   vital: [],
   start: function ({ id, url }) {
-    if (!id && !url) return
+    if (!id && !url) {
+      this.kag.ftag.nextOrder()
+      return
+    }
 
     const imgCode = id ? this.kag.dc.getPhoto(id) : url
 

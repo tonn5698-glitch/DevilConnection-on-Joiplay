@@ -2,7 +2,7 @@
 [chara_hide_all]
 [chara_hide  name="プレイヤー"  layer="1"  time="0"  wait="false"  pos_mode="false"  ]
 
-[bg  time="100"  method="crossfade"  storage="deco.webp"  ]
+[bg  time="100"  method="crossfade"  wait="false"  storage="deco.webp"  ]
 [tap_effect_stop]
 
 [iscript]

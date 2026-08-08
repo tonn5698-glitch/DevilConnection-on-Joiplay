@@ -1,8 +1,8 @@
 [iscript]
-const layers = [...$('.layer_camera').not('[style*="display: none"]')]
-const matrixes = layers.map(e => $(e).css('transform').match(/matrix\(([0-9.]+),.*/)).filter(m => m)
-tf.zoomEnable = matrixes.length == 0 || matrixes.every(m => Number(m[1]) == 1)
-// => {base: '1.3', 0: '1.5', ...}
+tf.zoomEnable = true
+TYRANO.kag.stat.current_camera = {}
+TYRANO.kag.stat.current_camera_layer = ''
+$('.layer_camera').css({ transform: '', '-webkit-animation-name': '', '-webkit-animation-duration': '', '-webkit-animation-play-state': '', '-webkit-animation-fill-mode': '' })
 [endscript]
 
 [nolog]
