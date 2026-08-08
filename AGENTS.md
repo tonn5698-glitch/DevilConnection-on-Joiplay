@@ -70,9 +70,20 @@ in JoiPlay (HTML5) or `npm run dev` (Electron).
   `load`/`error` on the WebView (e.g. a stalled file:// request). This looked
   like a stuck white/blue screen in `scenario_ting.ks` (paralysis effect) because
   the first `chara_mod` after `[layermode]` froze before `[free_layermode]` ran.
-  Fix: `kag.preload` wraps `callbk` in a single-fire `done()` with an 8s
-  fallback timer (image + video branches). Any tag whose `nextOrder` lives in a
-  callback should be audited for the same gap.
+   Fix: `kag.preload` wraps `callbk` in a single-fire `done()` with an 8s
+   fallback timer (image + video branches). Any tag whose `nextOrder` lives in a
+   callback should be audited for the same gap.
+- **A throwing `[iscript]` freezes the queue.** `[iscript]` calls `nextOrder()`
+  immediately, but `[endscript]` runs `evalScript(buff_script)` (bare `eval`, no
+  try/catch) and only *then* calls `nextOrder()` (`kag.tag_system.js`). Any
+  exception in the scripted body stops the scenario forever — the stuck
+  white-overlay in `scenario_Ririka.ks` and the "sticker UI never renders (only
+  `deco.webp` bg)" symptom were the SAME root cause: `deco.ks` `[iscript]`
+  (`dc.stickerFiles()` / `sf.sticker.includes(...)`) threw on JoiPlay before
+  `[deco_menu]`/sticker buttons built. Fixes: `kag.evalScript` now wraps `eval`
+  in try/catch (log + continue), `deco.ks` guards `dc.stickerFiles`/`sf.sticker`
+  with fallbacks, and data JS (`sticker.js` etc.) got `?_=3` cache-busters.
+  Keep `[iscript]` bodies defensive — treat every engine call as possibly-absent.
 
 ## Font & Vietnamese text
 
